@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637054608000,
+    "generated": 1637055309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.6,
         "place": "15 km NNW of Midland, Texas",
         "time": 1637051807447,
-        "updated": 1637054415357,
+        "updated": 1637054780603,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021wlmn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021wlmn.geojson",
-        "felt": 11,
-        "cdi": 4.1,
+        "felt": 12,
+        "cdi": 3.4,
         "mmi": 4.328,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 203,
         "net": "tx",
         "code": "2021wlmn",
         "ids": ",us7000fuiq,tx2021wlmn,",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "4 km SSE of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1637049752960,
         "updated": 1637051167665,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 235,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SSE of La Parguera, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -575,12 +575,12 @@
         "mag": 3.51,
         "place": "135 km NNE of Vieques, Puerto Rico",
         "time": 1637034074710,
-        "updated": 1637035813983,
+        "updated": 1637055134418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021320000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021320000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -590,7 +590,7 @@
         "code": "2021320000",
         "ids": ",pr2021320000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 1.2942,
         "rms": 0.32,
@@ -613,19 +613,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Scotland, United Kingdom",
+        "place": "17 km WNW of Lochgilphead, United Kingdom",
         "time": 1637027044357,
-        "updated": 1637054309255,
+        "updated": 1637054765506,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fugg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fugg.geojson",
-        "felt": 64,
+        "felt": 65,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 175,
+        "sig": 176,
         "net": "us",
         "code": "7000fugg",
         "ids": ",us7000fugg,",
@@ -637,7 +637,7 @@
         "gap": 224,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Scotland, United Kingdom"
+        "title": "M 3.1 - 17 km WNW of Lochgilphead, United Kingdom"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "southern Iran",
+        "place": "63 km NNW of Bandar Abbas, Iran",
         "time": 1636983371487,
         "updated": 1637028976450,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - southern Iran"
+        "title": "M 5.2 - 63 km NNW of Bandar Abbas, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1568,46 +1568,6 @@
         ]
       },
       "id": "us7000fu9c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "7km NW of Parkfield, CA",
-        "time": 1636968509460,
-        "updated": 1637036951637,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73652930",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73652930.geojson",
-        "felt": 18,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 176,
-        "net": "nc",
-        "code": "73652930",
-        "ids": ",nc73652930,us7000fu96,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.0137,
-        "rms": 0.08,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 7km NW of Parkfield, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.4899979,
-          35.9436684,
-          9.93
-        ]
-      },
-      "id": "nc73652930"
     }
   ],
   "bbox": [
