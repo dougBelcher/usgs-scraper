@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637232715000,
+    "generated": 1637233358000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "96 km W of El Aguilar, Argentina",
+        "time": 1637231404631,
+        "updated": 1637232793040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv2m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fv2m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000fv2m",
+        "ids": ",us7000fv2m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.448,
+        "rms": 0.98,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 96 km W of El Aguilar, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6202,
+          -23.1457,
+          201.89
+        ]
+      },
+      "id": "us7000fv2m"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,11 +655,11 @@
         "mag": 4,
         "place": "8 km SSE of Williamsville, Missouri",
         "time": 1637203983980,
-        "updated": 1637232651157,
+        "updated": 1637233280175,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60363582",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60363582.geojson",
-        "felt": 4070,
+        "felt": 4077,
         "cdi": 5.4,
         "mmi": 4.853,
         "alert": "green",
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "us7000futk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "37 km SSE of Atka, Alaska",
-        "time": 1637146850792,
-        "updated": 1637173221534,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021er228r4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021er228r4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021er228r4",
-        "ids": ",ak021er228r4,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 37 km SSE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -174.047,
-          51.8749,
-          69.5
-        ]
-      },
-      "id": "ak021er228r4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1637146674457,
-        "updated": 1637193551778,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021wnmr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021wnmr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2021wnmr",
-        "ids": ",us7000futf,tx2021wnmr,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1149162019,
-        "rms": 0.3,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3164581,
-          31.66009264,
-          6.697143555000001
-        ]
-      },
-      "id": "tx2021wnmr"
     }
   ],
   "bbox": [
