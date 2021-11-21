@@ -1,43 +1,43 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637517870000,
+    "generated": 1637519190000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6400001,
+        "mag": 3.26,
         "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1637517617260,
-        "updated": 1637517804990,
+        "updated": 1637518825762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72806527",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72806527.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 7,
+        "cdi": 2.2,
+        "mmi": 4.179,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 165,
         "net": "hv",
         "code": "72806527",
         "ids": ",hv72806527,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 49,
         "dmin": null,
         "rms": 0.150000006,
         "gap": 128,
-        "magType": "md",
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 6 km ENE of Pāhala, Hawaii"
+        "title": "M 3.3 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -52,15 +52,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "off the coast of Oregon",
+        "time": 1637515537485,
+        "updated": 1637518484040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvzv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvzv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fvzv",
+        "ids": ",us7000fvzv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.345,
+        "rms": 0.95,
+        "gap": 210,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.9686,
+          44.6212,
+          10
+        ]
+      },
+      "id": "us7000fvzv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.47,
         "place": "11 km E of Pāhala, Hawaii",
         "time": 1637512489360,
-        "updated": 1637513459040,
+        "updated": 1637518072813,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72806417",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72806417.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +108,9 @@
         "sig": 94,
         "net": "hv",
         "code": "72806417",
-        "ids": ",us7000fvzr,hv72806417,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv72806417,us7000fvzr,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": null,
         "rms": 0.159999996,
@@ -335,17 +375,17 @@
         "mag": 2.56,
         "place": "9 km SSW of Abingdon, Virginia",
         "time": 1637492652110,
-        "updated": 1637517578163,
+        "updated": 1637518915704,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60363982",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60363982.geojson",
-        "felt": 150,
+        "felt": 153,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 153,
         "net": "se",
         "code": "60363982",
         "ids": ",us7000fvxr,se60363982,",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "57 km S of Whites City, New Mexico",
         "time": 1637488413379,
         "updated": 1637490336040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1637473905202,
         "updated": 1637475069040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1248,94 +1288,14 @@
         ]
       },
       "id": "us7000fvsz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "21 km S of King Salmon, Alaska",
-        "time": 1637432589495,
-        "updated": 1637436942040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ew4z74t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ew4z74t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021ew4z74t",
-        "ids": ",us7000fvsu,ak021ew4z74t,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 21 km S of King Salmon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.5938,
-          58.4946,
-          201.1
-        ]
-      },
-      "id": "ak021ew4z74t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "south of the Kermadec Islands",
-        "time": 1637431479245,
-        "updated": 1637432559040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fvss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fvss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000fvss",
-        "ids": ",us7000fvss,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.908,
-        "rms": 1.19,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1508,
-          -32.1728,
-          10
-        ]
-      },
-      "id": "us7000fvss"
     }
   ],
   "bbox": [
-    -178.1508,
+    -176.8842,
     -59.5612,
     3.42,
     147.6926,
     67.0438,
-    201.1
+    101.6
   ]
 }
