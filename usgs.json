@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637616796000,
+    "generated": 1637617274000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
     {
@@ -53,9 +53,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "27 km ENE of Mina, Nevada",
-        "time": 1637615644385,
-        "updated": 1637616096725,
+        "place": "25 km ENE of Mina, Nevada",
+        "time": 1637615645220,
+        "updated": 1637616936868,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00828641",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00828641.geojson",
@@ -63,7 +63,7 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 158,
         "net": "nn",
@@ -71,20 +71,20 @@
         "ids": ",nn00828641,",
         "sources": ",nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.269,
-        "rms": 0.2118,
-        "gap": 118.7,
+        "nst": 25,
+        "dmin": 0.252,
+        "rms": 0.1505,
+        "gap": 37.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 27 km ENE of Mina, Nevada"
+        "title": "M 3.2 - 25 km ENE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8236,
-          38.5039,
-          8.7
+          -117.8415,
+          38.4873,
+          6.5
         ]
       },
       "id": "nn00828641"
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "229 km S of Sinabang, Indonesia",
+        "time": 1637615634122,
+        "updated": 1637616979040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwac.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000fwac",
+        "ids": ",us7000fwac,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.206,
+        "rms": 0.61,
+        "gap": 100,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 229 km S of Sinabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.7325,
+          0.4349,
+          10
+        ]
+      },
+      "id": "us7000fwac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "14 km ENE of Karluk, Alaska",
         "time": 1637614951535,
-        "updated": 1637616419040,
+        "updated": 1637616970968,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ezhpqju",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ezhpqju.geojson",
@@ -132,16 +172,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "south of the Kermadec Islands",
+        "time": 1637614758952,
+        "updated": 1637616836040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwa7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwa7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000fwa7",
+        "ids": ",us7000fwa7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.584,
+        "rms": 1.01,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0885,
+          -32.7857,
+          10
+        ]
+      },
+      "id": "us7000fwa7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.91,
         "place": "4 km S of Pāhala, Hawaii",
         "time": 1637613071780,
-        "updated": 1637613742194,
+        "updated": 1637617091553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72807892",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72807892.geojson",
         "felt": 7,
         "cdi": 3.1,
-        "mmi": 4.348,
+        "mmi": 3.999,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Fiji region",
+        "place": "229 km E of Levuka, Fiji",
         "time": 1637549117415,
         "updated": 1637551246040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Fiji region"
+        "title": "M 4.6 - 229 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
