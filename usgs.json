@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637683738000,
+    "generated": 1637685788000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "5 km WNW of Oyambarillo, Ecuador",
+        "time": 1637683403776,
+        "updated": 1637685696247,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwgk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwgk.geojson",
+        "felt": 2,
+        "cdi": 5.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000fwgk",
+        "ids": ",us7000fwgk,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.416,
+        "rms": 0.85,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 5 km WNW of Oyambarillo, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3803,
+          -0.1759,
+          5.53
+        ]
+      },
+      "id": "us7000fwgk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.77,
+        "place": "27 km ENE of Miches, Dominican Republic",
+        "time": 1637679816990,
+        "updated": 1637684995371,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021327008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021327008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 219,
+        "net": "pr",
+        "code": "2021327008",
+        "ids": ",pr2021327008,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.4226,
+        "rms": 0.66,
+        "gap": 165,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 27 km ENE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8156,
+          19.0903,
+          1
+        ]
+      },
+      "id": "pr2021327008"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "96 km E of Chignik, Alaska",
         "time": 1637677040010,
-        "updated": 1637677567674,
+        "updated": 1637684137040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f1168o0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f1168o0.geojson",
@@ -28,9 +108,9 @@
         "sig": 112,
         "net": "ak",
         "code": "021f1168o0",
-        "ids": ",ak021f1168o0,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us7000fwg2,ak021f1168o0,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.32,
@@ -92,16 +172,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.73,
+        "place": "15 km SW of Stanley, Idaho",
+        "time": 1637671594280,
+        "updated": 1637684000680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80531484",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80531484.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "mb",
+        "code": "80531484",
+        "ids": ",mb80531484,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.755,
+        "rms": 0.17,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km SW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0985,
+          44.1321667,
+          7.65
+        ]
+      },
+      "id": "mb80531484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
-        "place": "southern Idaho",
+        "place": "19 km WSW of Stanley, Idaho",
         "time": 1637670771880,
-        "updated": 1637682402521,
+        "updated": 1637685006206,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwfd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwfd.geojson",
         "felt": 22,
         "cdi": 3.4,
-        "mmi": 4.12,
+        "mmi": 4.115,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -117,7 +237,7 @@
         "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - southern Idaho"
+        "title": "M 4.0 - 19 km WSW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "100 km W of La Libertad, Mexico",
+        "place": "Gulf of California",
         "time": 1637667019873,
         "updated": 1637678798419,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 100 km W of La Libertad, Mexico"
+        "title": "M 4.3 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "40 km SE of Kamaishi, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1637660924370,
         "updated": 1637662022040,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 40 km SE of Kamaishi, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -815,22 +935,22 @@
         "mag": 5.4,
         "place": "78 km SW of Acajutla, El Salvador",
         "time": 1637646996195,
-        "updated": 1637654414260,
+        "updated": 1637685705040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwde",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwde.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 4.1,
         "mmi": 3.904,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 452,
+        "sig": 453,
         "net": "us",
         "code": "7000fwde",
         "ids": ",us7000fwde,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.995,
         "rms": 0.92,
@@ -1092,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "22 km WNW of Stanley, Idaho",
+        "time": 1637632497900,
+        "updated": 1637684577980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80531409",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80531409.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "mb",
+        "code": "80531409",
+        "ids": ",mb80531409,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.936,
+        "rms": 0.29,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km WNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1961667,
+          44.3081667,
+          9.06
+        ]
+      },
+      "id": "mb80531409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "12km S of Tres Pinos, CA",
         "time": 1637631627510,
@@ -1133,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "57 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1637631113407,
         "updated": 1637632825040,
         "tz": null,
@@ -1157,7 +1317,7 @@
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1893,7 @@
   "bbox": [
     -179.8989,
     -32.7857,
-    4.41,
+    1,
     179.6467,
     82.1326,
     578.54
