@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637647560000,
+    "generated": 1637648937000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "78 km SW of Acajutla, El Salvador",
+        "time": 1637646996195,
+        "updated": 1637648160422,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwde",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwde.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 3.963,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000fwde",
+        "ids": ",us7000fwde,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.995,
+        "rms": 0.92,
+        "gap": 120,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 78 km SW of Acajutla, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2427,
+          13.0093,
+          49.38
+        ]
+      },
+      "id": "us7000fwde"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "117 km E of Chignik, Alaska",
         "time": 1637644819840,
-        "updated": 1637645616984,
+        "updated": 1637648832040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f0vtzbu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f0vtzbu.geojson",
@@ -28,9 +68,9 @@
         "sig": 129,
         "net": "ak",
         "code": "021f0vtzbu",
-        "ids": ",ak021f0vtzbu,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us7000fwd7,ak021f0vtzbu,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.4,
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "western Texas",
+        "place": "57 km S of Whites City, New Mexico",
         "time": 1637631113407,
         "updated": 1637632825040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.7 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "Nevada",
+        "place": "25 km ENE of Mina, Nevada",
         "time": 1637615645220,
         "updated": 1637635029441,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 37.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Nevada"
+        "title": "M 3.2 - 25 km ENE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
