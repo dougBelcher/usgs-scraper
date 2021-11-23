@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637635073000,
+    "generated": 1637635912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.7,
         "place": "43km E of Maneadero, B.C., MX",
         "time": 1637633295980,
-        "updated": 1637633516279,
+        "updated": 1637635170596,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39867815",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39867815.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "39867815",
         "ids": ",ci39867815,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 17,
         "dmin": 0.3829,
         "rms": 0.14,
@@ -1648,50 +1648,10 @@
         ]
       },
       "id": "ak021ez7r50u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "229 km E of Levuka, Fiji",
-        "time": 1637549117415,
-        "updated": 1637551246040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fw34",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fw34.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000fw34",
-        "ids": ",us7000fw34,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.261,
-        "rms": 0.96,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 229 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5272,
-          -17.8989,
-          520
-        ]
-      },
-      "id": "us7000fw34"
     }
   ],
   "bbox": [
-    -178.5272,
+    -178.2932,
     -32.7857,
     4,
     179.6467,
