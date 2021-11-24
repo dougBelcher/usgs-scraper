@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637726760000,
+    "generated": 1637728345000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "western Texas",
+        "time": 1637727154490,
+        "updated": 1637727809040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwm0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwm0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000fwm0",
+        "ids": ",us7000fwm0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.146,
+        "rms": 0.43,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3305,
+          31.6532,
+          5
+        ]
+      },
+      "id": "us7000fwm0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 3.52,
         "place": "57 km N of San Juan, Puerto Rico",
         "time": 1637717172220,
-        "updated": 1637720565272,
+        "updated": 1637726761566,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021328000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021328000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +188,9 @@
         "sig": 191,
         "net": "pr",
         "code": "2021328000",
-        "ids": ",us7000fwl9,pr2021328000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2021328000,us7000fwl9,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.5966,
         "rms": 0.25,
@@ -295,17 +335,17 @@
         "mag": 3,
         "place": "15 km SW of Stanley, Idaho",
         "time": 1637706880623,
-        "updated": 1637721460882,
+        "updated": 1637728133238,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwkd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwkd.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 140,
         "net": "us",
         "code": "7000fwkd",
         "ids": ",us7000fwkd,mb80531579,",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "92 km SSE of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1637693596084,
         "updated": 1637695915040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 226,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - 92 km SSE of Nikolski, Alaska"
+        "title": "M 3.7 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "southern Idaho",
+        "place": "19 km WSW of Stanley, Idaho",
         "time": 1637670771880,
         "updated": 1637722866819,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - southern Idaho"
+        "title": "M 4.0 - 19 km WSW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "100 km W of La Libertad, Mexico",
+        "place": "Gulf of California",
         "time": 1637667019873,
         "updated": 1637678798419,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 100 km W of La Libertad, Mexico"
+        "title": "M 4.3 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "40 km SE of Kamaishi, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1637660924370,
         "updated": 1637662022040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 40 km SE of Kamaishi, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "3 km S of Pāhala, Hawaii",
         "time": 1637659119960,
         "updated": 1637718166076,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 89,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
+        "title": "M 3.2 - 3 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
