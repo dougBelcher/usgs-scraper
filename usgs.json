@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637850114000,
+    "generated": 1637850734000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "244 km E of Levuka, Fiji",
+        "time": 1637849213042,
+        "updated": 1637850396040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx0n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx0n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fx0n",
+        "ids": ",us7000fx0n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.403,
+        "rms": 0.96,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 244 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.3796,
+          -17.9411,
+          615.06
+        ]
+      },
+      "id": "us7000fx0n"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.12,
         "place": "13 km SSE of Volcano, Hawaii",
         "time": 1637849202980,
-        "updated": 1637849869620,
+        "updated": 1637850484162,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72811222",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72811222.geojson",
-        "felt": 6,
-        "cdi": 2.4,
+        "felt": 8,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 151,
+        "sig": 152,
         "net": "hv",
         "code": "72811222",
         "ids": ",hv72811222,",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "7 km E of Pāhala, Hawaii",
         "time": 1637770124910,
         "updated": 1637795987040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1571,11 +1611,11 @@
     }
   ],
   "bbox": [
-    -165.8447,
+    -178.3796,
     -58.0025,
     0.51,
     172.0621,
     63.1134,
-    336.34
+    615.06
   ]
 }
