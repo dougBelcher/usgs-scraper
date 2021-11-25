@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637844044000,
+    "generated": 1637845535000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 6,
         "place": "75 km E of Lata, Solomon Islands",
         "time": 1637841850050,
-        "updated": 1637843167102,
+        "updated": 1637845195441,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwzz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwzz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 5.24,
         "alert": "green",
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000fwzz",
         "ids": ",us7000fwzz,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 4.724,
         "rms": 1.2,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "hv72811042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "4 km SE of Indios, Puerto Rico",
+        "time": 1637835733150,
+        "updated": 1637845031113,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021329009",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021329009.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "2021329009",
+        "ids": ",pr2021329009,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.092,
+        "rms": 0.2,
+        "gap": 166,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 4 km SE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7883,
+          17.9611,
+          16
+        ]
+      },
+      "id": "pr2021329009"
     },
     {
       "type": "Feature",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "ak021f2o3sdu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "286 km W of Ferndale, California",
-        "time": 1637757885605,
-        "updated": 1637782427412,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fwpm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fwpm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000fwpm",
-        "ids": ",nc73657210,us7000fwpm,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.707,
-        "rms": 0.78,
-        "gap": 278,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 286 km W of Ferndale, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.5841,
-          41.1149,
-          8.88
-        ]
-      },
-      "id": "us7000fwpm"
     }
   ],
   "bbox": [
