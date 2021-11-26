@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637892455000,
+    "generated": 1637894278000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "28 km WNW of Valdez, Alaska",
+        "time": 1637892985820,
+        "updated": 1637893683040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f5smvlu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f5smvlu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "021f5smvlu",
+        "ids": ",us7000fx55,ak021f5smvlu,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.74,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 28 km WNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.822,
+          61.2354,
+          14.3
+        ]
+      },
+      "id": "ak021f5smvlu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 6.1,
         "place": "19 km NNW of Hakha, Myanmar",
         "time": 1637883940636,
-        "updated": 1637892257562,
+        "updated": 1637894129779,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 194,
+        "felt": 203,
         "cdi": 7.5,
         "mmi": 6.491,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 718,
+        "sig": 725,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1215,7 +1255,7 @@
     -58.0025,
     3,
     175.1081,
-    51.0334,
+    61.2354,
     615.06
   ]
 }
