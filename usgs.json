@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637962327000,
+    "generated": 1637962868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "4 km SE of Indios, Puerto Rico",
+        "time": 1637960887570,
+        "updated": 1637962745449,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021330011",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021330011.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "2021330011",
+        "ids": ",pr2021330011,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.091,
+        "rms": 0.14,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km SE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7883,
+          17.9706,
+          18
+        ]
+      },
+      "id": "pr2021330011"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1335,17 +1375,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637962170171,
+        "updated": 1637962829632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 283,
-        "cdi": 7.5,
+        "felt": 287,
+        "cdi": 8.1,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 804,
+        "sig": 824,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000fx3l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "11km SE of Puebla, B.C., MX",
-        "time": 1637876158510,
-        "updated": 1637876379560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39870359",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39870359.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "ci",
-        "code": "39870359",
-        "ids": ",ci39870359,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.1997,
-        "rms": 0.24,
-        "gap": 226,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11km SE of Puebla, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2576667,
-          32.509,
-          18.43
-        ]
-      },
-      "id": "ci39870359"
     }
   ],
   "bbox": [
