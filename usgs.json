@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637996013000,
+    "generated": 1637996680000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
@@ -132,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "108 km SSE of Ierápetra, Greece",
+        "time": 1637990050831,
+        "updated": 1637996415040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxep",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxep.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000fxep",
+        "ids": ",us7000fxep,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.651,
+        "rms": 0.58,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 108 km SSE of Ierápetra, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1749,
+          34.1054,
+          21
+        ]
+      },
+      "id": "us7000fxep"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6099999,
         "place": "1 km S of Pāhala, Hawaii",
         "time": 1637989492490,
-        "updated": 1637989822230,
+        "updated": 1637996117040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72813147",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72813147.geojson",
@@ -148,8 +188,8 @@
         "sig": 105,
         "net": "hv",
         "code": "72813147",
-        "ids": ",hv72813147,",
-        "sources": ",hv,",
+        "ids": ",us7000fxem,hv72813147,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 44,
         "dmin": null,
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "55 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1637933085651,
         "updated": 1637940516170,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 55 km NW of Toyah, Texas"
+        "title": "M 3.4 - western Texas"
       },
       "geometry": {
         "type": "Point",
