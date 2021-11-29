@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638168630000,
+    "generated": 1638169561000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "18 km ESE of Naalehu, Hawaii",
+        "time": 1638168446040,
+        "updated": 1638169468852,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72816147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72816147.geojson",
+        "felt": 10,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 169,
+        "net": "hv",
+        "code": "72816147",
+        "ids": ",hv72816147,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.209999993,
+        "gap": 256,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 18 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.431335449219,
+          18.9839992523193,
+          15.9099998474121
+        ]
+      },
+      "id": "hv72816147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1638167546127,
+        "updated": 1638169366040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxw8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxw8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000fxw8",
+        "ids": ",us7000fxw8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.502,
+        "rms": 0.63,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.8367,
+          -24.1169,
+          540.86
+        ]
+      },
+      "id": "us7000fxw8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1768,53 +1848,13 @@
         ]
       },
       "id": "us7000fxnl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "182 km W of Ferndale, California",
-        "time": 1638082639349,
-        "updated": 1638083871040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxnb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000fxnb",
-        "ids": ",us7000fxnb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.743,
-        "rms": 0.68,
-        "gap": 258,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 182 km W of Ferndale, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -126.4046,
-          40.4233,
-          10
-        ]
-      },
-      "id": "us7000fxnb"
     }
   ],
   "bbox": [
     -178.2631,
     -32.3775,
     4.563378906,
-    161.0192,
+    179.8367,
     62.0803,
     568.76
   ]
