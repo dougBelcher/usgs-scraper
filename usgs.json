@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638275588000,
+    "generated": 1638276728000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
-        "place": "116 km NW of Rabaul, Papua New Guinea",
-        "time": 1638274474457,
-        "updated": 1638275578040,
+        "mag": 3.3,
+        "place": "79 km SW of Nanwalek, Alaska",
+        "time": 1638276069472,
+        "updated": 1638276690053,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7w4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7w4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fckvx9v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fckvx9v.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "021fckvx9v",
+        "ids": ",ak021fckvx9v,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 79 km SW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8756,
+          58.8359,
+          48.8
+        ]
+      },
+      "id": "ak021fckvx9v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "116 km NW of Rabaul, Papua New Guinea",
+        "time": 1638274474457,
+        "updated": 1638276703019,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7w4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7w4.geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": 4.284,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 500,
+        "sig": 501,
         "net": "us",
         "code": "6000g7w4",
         "ids": ",us6000g7w4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.042,
         "rms": 0.86,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "113 km S of Kavieng, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1638269537579,
         "updated": 1638273852040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 113 km S of Kavieng, Papua New Guinea"
+        "title": "M 5.0 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +335,7 @@
         "mag": 6,
         "place": "112 km SSE of Kavieng, Papua New Guinea",
         "time": 1638268578221,
-        "updated": 1638274361038,
+        "updated": 1638276113480,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7v8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7v8.geojson",
@@ -1928,46 +1968,6 @@
         ]
       },
       "id": "us7000fxz1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.3,
-        "place": "Izu Islands, Japan region",
-        "time": 1638189643618,
-        "updated": 1638246477809,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxyq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxyq.geojson",
-        "felt": 65,
-        "cdi": 7.1,
-        "mmi": 2.875,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 657,
-        "net": "us",
-        "code": "7000fxyq",
-        "ids": ",at00r3bsb4,pt21333000,us7000fxyq,",
-        "sources": ",at,pt,us,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.975,
-        "rms": 0.7,
-        "gap": 35,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.3 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4851,
-          31.1809,
-          6.14
-        ]
-      },
-      "id": "us7000fxyq"
     }
   ],
   "bbox": [
