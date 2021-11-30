@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638288612000,
+    "generated": 1638290961000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 52
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.74,
         "place": "9km ENE of Morgan Hill, CA",
         "time": 1638288422280,
-        "updated": 1638288580391,
+        "updated": 1638290485083,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73660155",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73660155.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 26,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 125,
         "net": "nc",
         "code": "73660155",
         "ids": ",nc73660155,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.05508,
         "rms": 0.1,
@@ -52,16 +52,136 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.02,
+        "place": "4 km ESE of La Parguera, Puerto Rico",
+        "time": 1638288045340,
+        "updated": 1638289498532,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021334004",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021334004.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "pr",
+        "code": "2021334004",
+        "ids": ",pr2021334004,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.0341,
+        "rms": 0.18,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 4 km ESE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.011,
+          17.9618,
+          10
+        ]
+      },
+      "id": "pr2021334004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "87 km SE of Hasaki, Japan",
+        "time": 1638287736507,
+        "updated": 1638290482040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7x1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7x1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000g7x1",
+        "ids": ",us6000g7x1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.503,
+        "rms": 0.57,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 87 km SE of Hasaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5267,
+          35.1816,
+          10
+        ]
+      },
+      "id": "us6000g7x1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Izu Islands, Japan region",
+        "time": 1638286871295,
+        "updated": 1638289617040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7ww",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7ww.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000g7ww",
+        "ids": ",us6000g7ww,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.85,
+        "rms": 0.36,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2848,
+          31.1773,
+          10
+        ]
+      },
+      "id": "us6000g7ww"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.48,
         "place": "47 km ESE of Naalehu, Hawaii",
         "time": 1638284612120,
-        "updated": 1638287957140,
+        "updated": 1638290619040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72817622",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72817622.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.146,
+        "mmi": 2.048,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -415,12 +535,12 @@
         "mag": 5,
         "place": "118 km SSE of Kavieng, Papua New Guinea",
         "time": 1638270847887,
-        "updated": 1638271997040,
+        "updated": 1638289796414,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7vl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7vl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +550,7 @@
         "code": "6000g7vl",
         "ids": ",us6000g7vl,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.227,
         "rms": 0.63,
@@ -572,38 +692,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 6,
+        "mag": 6.3,
         "place": "112 km SSE of Kavieng, Papua New Guinea",
-        "time": 1638268578221,
-        "updated": 1638279041917,
+        "time": 1638268578247,
+        "updated": 1638290730233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7v8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g7v8.geojson",
         "felt": 7,
         "cdi": 5.2,
-        "mmi": 4.511,
+        "mmi": 4.878,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 557,
+        "sig": 614,
         "net": "us",
         "code": "6000g7v8",
         "ids": ",us6000g7v8,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 1.202,
+        "dmin": 1.188,
         "rms": 0.56,
-        "gap": 63,
+        "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.0 - 112 km SSE of Kavieng, Papua New Guinea"
+        "title": "M 6.3 - 112 km SSE of Kavieng, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1613,
-          -3.5185,
+          151.1803,
+          -3.5165,
           10
         ]
       },
@@ -975,11 +1095,11 @@
         "mag": 2.51,
         "place": "1km W of Kensington, CA",
         "time": 1638243027420,
-        "updated": 1638288589351,
+        "updated": 1638290449997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73659805",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73659805.geojson",
-        "felt": 940,
+        "felt": 941,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -1968,86 +2088,6 @@
         ]
       },
       "id": "pr2021333006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "179 km NNW of Sola, Vanuatu",
-        "time": 1638203846731,
-        "updated": 1638205951040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fy04",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fy04.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000fy04",
-        "ids": ",us7000fy04,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.978,
-        "rms": 0.59,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 179 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.674,
-          -12.4961,
-          142.03
-        ]
-      },
-      "id": "us7000fy04"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1638203639753,
-        "updated": 1638204914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fy03",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fy03.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000fy03",
-        "ids": ",us7000fy03,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.175,
-        "rms": 0.38,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2963,
-          31.6503,
-          5
-        ]
-      },
-      "id": "us7000fy03"
     }
   ],
   "bbox": [
@@ -2056,6 +2096,6 @@
     1.36,
     169.113,
     65.5297,
-    142.03
+    133.22
   ]
 }
