@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638417990000,
+    "generated": 1638419580000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1638410612960,
         "updated": 1638417923631,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
+        "title": "M 3.3 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +95,7 @@
         "mag": 2.45,
         "place": "15km E of Dixon, CA",
         "time": 1638408880200,
-        "updated": 1638411012380,
+        "updated": 1638418634070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658626",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658626.geojson",
@@ -175,12 +175,12 @@
         "mag": 2.48,
         "place": "10km S of Tres Pinos, CA",
         "time": 1638404864280,
-        "updated": 1638416291854,
+        "updated": 1638419452777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658581.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +190,7 @@
         "code": "73658581",
         "ids": ",nc73658581,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.06277,
         "rms": 0.11,
@@ -252,6 +252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "8 km NNE of Canneto, Italy",
+        "time": 1638398654026,
+        "updated": 1638418892040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8aq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8aq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000g8aq",
+        "ids": ",us6000g8aq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.429,
+        "rms": 0.75,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 8 km NNE of Canneto, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.994,
+          38.5639,
+          224.42
+        ]
+      },
+      "id": "us6000g8aq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "99 km S of La Libertad, El Salvador",
         "time": 1638397846035,
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.91,
-        "place": "3 km S of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638396482280,
         "updated": 1638402946695,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 3 km S of Magas Arriba, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -455,11 +495,11 @@
         "mag": 5,
         "place": "4 km W of Tsukuba, Japan",
         "time": 1638377918264,
-        "updated": 1638417973602,
+        "updated": 1638419341561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g88v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g88v.geojson",
-        "felt": 193,
+        "felt": 194,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1638375106590,
         "updated": 1638394372990,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 165,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "97 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1638340208488,
         "updated": 1638360377040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 97 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.1 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us6000g836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "78 km SE of Hasaki, Japan",
-        "time": 1638331758467,
-        "updated": 1638402721040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g835",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g835.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000g835",
-        "ids": ",us6000g835,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.424,
-        "rms": 0.62,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 78 km SE of Hasaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.3611,
-          35.1775,
-          35
-        ]
-      },
-      "id": "us6000g835"
     }
   ],
   "bbox": [
