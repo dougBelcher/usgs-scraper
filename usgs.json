@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638493409000,
+    "generated": 1638497291000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "139 km NE of San Pedro de Atacama, Chile",
+        "time": 1638495114643,
+        "updated": 1638496391040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8lf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8lf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000g8lf",
+        "ids": ",us6000g8lf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.267,
+        "rms": 1.19,
+        "gap": 30,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 139 km NE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2286,
+          -22.0344,
+          173.8
+        ]
+      },
+      "id": "us6000g8lf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "27 km WNW of Willow, Alaska",
+        "time": 1638493239260,
+        "updated": 1638497135421,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fhcph0p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fhcph0p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.434,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "021fhcph0p",
+        "ids": ",us6000g8ld,ak021fhcph0p,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 27 km WNW of Willow, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.5244,
+          61.8447,
+          45.8
+        ]
+      },
+      "id": "ak021fhcph0p"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "8 km SW of Gobō, Japan",
         "time": 1638491307805,
-        "updated": 1638493290001,
+        "updated": 1638496949403,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8lb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8lb.geojson",
-        "felt": 10,
+        "felt": 23,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 420,
+        "sig": 426,
         "net": "us",
         "code": "6000g8lb",
         "ids": ",us6000g8lb,",
@@ -92,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.84,
-        "place": "41km ENE of Maneadero, B.C., MX",
-        "time": 1638490491050,
-        "updated": 1638492832040,
+        "mag": 2.83,
+        "place": "40km ENE of Maneadero, B.C., MX",
+        "time": 1638490491010,
+        "updated": 1638493623446,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39877063",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39877063.geojson",
@@ -103,7 +183,7 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 124,
         "net": "ci",
@@ -111,20 +191,20 @@
         "ids": ",ci39877063,us6000g8l7,",
         "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.2333,
-        "rms": 0.2,
+        "nst": 16,
+        "dmin": 0.2375,
+        "rms": 0.25,
         "gap": 126,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 41km ENE of Maneadero, B.C., MX"
+        "title": "M 2.8 - 40km ENE of Maneadero, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1706667,
-          31.868,
-          14.98
+          -116.1776667,
+          31.8691667,
+          14.78
         ]
       },
       "id": "ci39877063"
@@ -215,17 +295,17 @@
         "mag": 4.4,
         "place": "6 km SSE of Ōtsuki, Japan",
         "time": 1638481068182,
-        "updated": 1638493132208,
+        "updated": 1638497100497,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8k3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8k3.geojson",
-        "felt": 183,
+        "felt": 190,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 389,
         "net": "us",
         "code": "6000g8k3",
         "ids": ",us6000g8k3,",
@@ -935,12 +1015,12 @@
         "mag": 5.3,
         "place": "278 km WSW of Adak, Alaska",
         "time": 1638412017631,
-        "updated": 1638477434159,
+        "updated": 1638496119521,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8cc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8cc.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": null,
+        "cdi": null,
         "mmi": 3.446,
         "alert": null,
         "status": "reviewed",
@@ -950,7 +1030,7 @@
         "code": "6000g8cc",
         "ids": ",us6000g8cc,at00r3gusq,ak021ffpx9hr,",
         "sources": ",us,at,ak,",
-        "types": ",dyfi,impact-link,oaf,origin,phase-data,shakemap,",
+        "types": ",impact-link,oaf,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.913,
         "rms": 0.8,
@@ -968,134 +1048,14 @@
         ]
       },
       "id": "us6000g8cc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1638410612960,
-        "updated": 1638417923631,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72819152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72819152.geojson",
-        "felt": 12,
-        "cdi": 3.8,
-        "mmi": 3.81,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "hv",
-        "code": "72819152",
-        "ids": ",hv72819152,us6000g8c7,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.661166666667,
-          19.5081666666667,
-          4.32
-        ]
-      },
-      "id": "hv72819152"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "15km E of Dixon, CA",
-        "time": 1638408880200,
-        "updated": 1638469306305,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658626",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658626.geojson",
-        "felt": 8,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "73658626",
-        "ids": ",nc73658626,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.9098,
-        "rms": 0.03,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 15km E of Dixon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.6541672,
-          38.4285011,
-          4.99
-        ]
-      },
-      "id": "nc73658626"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "118 km WNW of Yakutat, Alaska",
-        "time": 1638407051579,
-        "updated": 1638407859055,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ffp6x9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ffp6x9q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "021ffp6x9q",
-        "ids": ",ak021ffp6x9q,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 118 km WNW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.5958,
-          60.0464,
-          3.8
-        ]
-      },
-      "id": "ak021ffp6x9q"
     }
   ],
   "bbox": [
     -174.7771,
-    -9.8845,
+    -22.0344,
     1.82,
     179.6145,
-    61.2225,
+    61.8447,
     315.88
   ]
 }
