@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638613118000,
+    "generated": 1638616430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,94 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "2 km NNE of Assaria, Kansas",
+        "time": 1638613946246,
+        "updated": 1638616291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g902",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g902.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000g902",
+        "ids": ",us6000g902,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.717,
+        "rms": 0.33,
+        "gap": 148,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NNE of Assaria, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5874,
+          38.7037,
+          5
+        ]
+      },
+      "id": "us6000g902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "91 km WNW of Kirakira, Solomon Islands",
+        "time": 1638612895618,
+        "updated": 1638614816040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8zx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8zx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000g8zx",
+        "ids": ",us6000g8zx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.378,
+        "rms": 0.49,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 91 km WNW of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.1419,
+          -10.1607,
+          49.41
+        ]
+      },
+      "id": "us6000g8zx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.42,
         "place": "6km NE of Puebla, B.C., MX",
         "time": 1638610052440,
-        "updated": 1638611833087,
+        "updated": 1638613960040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878559",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878559.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -28,8 +108,8 @@
         "sig": 182,
         "net": "ci",
         "code": "39878559",
-        "ids": ",ci39878559,",
-        "sources": ",ci,",
+        "ids": ",ci39878559,us6000g8zs,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 52,
         "dmin": 0.1275,
@@ -95,17 +175,17 @@
         "mag": 3.48,
         "place": "6km ENE of Puebla, B.C., MX",
         "time": 1638609601920,
-        "updated": 1638612887753,
+        "updated": 1638615903811,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39878511",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39878511.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 4.6,
-        "mmi": 2.865,
+        "mmi": 2.993,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "ci",
         "code": "39878511",
         "ids": ",ci39878511,us6000g8zm,",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "51 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1638596059915,
         "updated": 1638597295259,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 51 km NW of Toyah, Texas"
+        "title": "M 3.2 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "Mona Passage",
+        "place": "2 km N of Guaymate, Dominican Republic",
         "time": 1638541084150,
         "updated": 1638551270040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 141,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 2 km N of Guaymate, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1288,94 +1368,14 @@
         ]
       },
       "id": "us6000g8pn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "4 km ENE of La Parguera, Puerto Rico",
-        "time": 1638529386970,
-        "updated": 1638530856199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021337007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021337007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "2021337007",
-        "ids": ",pr2021337007,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.04,
-        "rms": 0.12,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km ENE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.008,
-          17.9865,
-          12
-        ]
-      },
-      "id": "pr2021337007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1638527345623,
-        "updated": 1638553376183,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8p6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g8p6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.12,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000g8p6",
-        "ids": ",ak021fhi8j23,us6000g8p6,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.274,
-        "rms": 0.63,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.2468,
-          52.1424,
-          128.42
-        ]
-      },
-      "id": "us6000g8p6"
     }
   ],
   "bbox": [
     -155.49566650391,
     -22.8562,
     0.62999999523163,
-    178.2468,
-    52.1424,
+    171.7883,
+    44.8554,
     598.43
   ]
 }
