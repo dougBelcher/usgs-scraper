@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638803906000,
+    "generated": 1638807821000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 49
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6400001,
+        "mag": 2.56,
         "place": "19 km N of Pāhala, Hawaii",
         "time": 1638803592220,
-        "updated": 1638803780700,
+        "updated": 1638803923600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824497.geojson",
@@ -25,7 +25,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 107,
+        "sig": 101,
         "net": "hv",
         "code": "72824497",
         "ids": ",hv72824497,",
@@ -35,7 +35,7 @@
         "dmin": null,
         "rms": 0.170000002,
         "gap": 61,
-        "magType": "md",
+        "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 19 km N of Pāhala, Hawaii"
       },
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "70 km ENE of Mutsu, Japan",
+        "time": 1638801201343,
+        "updated": 1638804153040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9h4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9h4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000g9h4",
+        "ids": ",us6000g9h4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.98,
+        "rms": 0.68,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 70 km ENE of Mutsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0386,
+          41.4382,
+          56.87
+        ]
+      },
+      "id": "us6000g9h4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "87 km NNE of Bima, Indonesia",
-        "time": 1638800650323,
-        "updated": 1638801762040,
+        "time": 1638800650314,
+        "updated": 1638807677040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9h1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9h1.geojson",
@@ -72,8 +112,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 2.787,
-        "rms": 0.54,
+        "dmin": 2.789,
+        "rms": 0.5,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
@@ -82,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.0038,
-          -7.7187,
+          119.0034,
+          -7.72,
           10
         ]
       },
@@ -92,10 +132,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "Kermadec Islands region",
+        "time": 1638800494064,
+        "updated": 1638806099040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9h0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9h0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000g9h0",
+        "ids": ",us6000g9h0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.874,
+        "rms": 1.14,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.1521,
+          -27.5074,
+          72.9
+        ]
+      },
+      "id": "us6000g9h0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "central East Pacific Rise",
+        "time": 1638797593541,
+        "updated": 1638805713040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9gt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9gt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000g9gt",
+        "ids": ",us6000g9gt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 29.01,
+        "rms": 0.7,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - central East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.0246,
+          -9.3179,
+          10
+        ]
+      },
+      "id": "us6000g9gt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "69 km SE of Cantwell, Alaska",
         "time": 1638796859968,
-        "updated": 1638798089301,
+        "updated": 1638804352040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fmil1p7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fmil1p7.geojson",
@@ -108,9 +228,9 @@
         "sig": 96,
         "net": "ak",
         "code": "021fmil1p7",
-        "ids": ",ak021fmil1p7,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000g9gi,ak021fmil1p7,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.91,
@@ -135,17 +255,17 @@
         "mag": 4.7,
         "place": "33 km ENE of Yilan, Taiwan",
         "time": 1638795951998,
-        "updated": 1638800945926,
+        "updated": 1638805984419,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9gg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9gg.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 341,
         "net": "us",
         "code": "6000g9gg",
         "ids": ",us6000g9gg,",
@@ -175,12 +295,12 @@
         "mag": 3.76,
         "place": "Puerto Rico region",
         "time": 1638794353930,
-        "updated": 1638802625040,
+        "updated": 1638805757643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021340002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021340002.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -188,9 +308,9 @@
         "sig": 218,
         "net": "pr",
         "code": "2021340002",
-        "ids": ",us6000g9g8,pr2021340002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2021340002,us6000g9g8,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 1.5359,
         "rms": 0.47,
@@ -692,6 +812,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "South Sandwich Islands region",
+        "time": 1638767389602,
+        "updated": 1638806331040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9ez",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9ez.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000g9ez",
+        "ids": ",us6000g9ez,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.631,
+        "rms": 0.66,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.5327,
+          -58.9397,
+          35
+        ]
+      },
+      "id": "us6000g9ez"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "South Sandwich Islands region",
         "time": 1638766948126,
@@ -853,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "129 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1638759776426,
         "updated": 1638762879040,
         "tz": null,
@@ -877,7 +1037,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 129 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sumbawa region, Indonesia",
+        "place": "21 km SSW of Dompu, Indonesia",
         "time": 1638758394140,
         "updated": 1638760743040,
         "tz": null,
@@ -917,7 +1077,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sumbawa region, Indonesia"
+        "title": "M 4.4 - 21 km SSW of Dompu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "1 km SE of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638749808020,
         "updated": 1638750978424,
         "tz": null,
@@ -1157,7 +1317,7 @@
         "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Indios, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "4 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638741164730,
         "updated": 1638748442174,
         "tz": null,
@@ -1277,7 +1437,7 @@
         "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km WSW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1415,11 +1575,11 @@
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638789681190,
+        "updated": 1638807237065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3,
         "mmi": 2.79,
         "alert": null,
@@ -1613,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "13 km W of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1638726134239,
         "updated": 1638741211040,
         "tz": null,
@@ -1637,7 +1797,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 13 km W of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -1814,7 +1974,7 @@
     -178.5541,
     -59.9218,
     5,
-    141.3794,
+    142.0386,
     63.6329,
     547.38
   ]
