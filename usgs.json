@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638807821000,
+    "generated": 1638810861000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "Utah",
+        "time": 1638807727740,
+        "updated": 1638810354040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60470897",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60470897.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "uu",
+        "code": "60470897",
+        "ids": ",us6000g9hi,uu60470897,",
+        "sources": ",us,uu,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.03961,
+        "rms": 0.16,
+        "gap": 253,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2753333,
+          39.415,
+          -3.39
+        ]
+      },
+      "id": "uu60470897"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.56,
         "place": "19 km N of Pāhala, Hawaii",
         "time": 1638803592220,
-        "updated": 1638803923600,
+        "updated": 1638808894040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72824497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72824497.geojson",
@@ -28,8 +68,8 @@
         "sig": 101,
         "net": "hv",
         "code": "72824497",
-        "ids": ",hv72824497,",
-        "sources": ",hv,",
+        "ids": ",us6000g9ha,hv72824497,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 39,
         "dmin": null,
@@ -1575,17 +1615,17 @@
         "mag": 3.02,
         "place": "28 km N of Winthrop, Washington",
         "time": 1638739261090,
-        "updated": 1638807237065,
+        "updated": 1638810552416,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61803056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61803056.geojson",
-        "felt": 27,
+        "felt": 30,
         "cdi": 3,
         "mmi": 2.79,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 149,
         "net": "uw",
         "code": "61803056",
         "ids": ",uw61803056,",
@@ -1692,39 +1732,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
+        "mag": 5.6,
         "place": "South Sandwich Islands region",
-        "time": 1638728790993,
-        "updated": 1638736254422,
+        "time": 1638728790108,
+        "updated": 1638810760304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g9bb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000g9bb.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.255,
+        "mmi": 3.233,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 500,
+        "sig": 482,
         "net": "us",
         "code": "6000g9bb",
         "ids": ",us6000g9bb,",
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 6.853,
-        "rms": 0.81,
-        "gap": 74,
+        "dmin": 6.845,
+        "rms": 0.91,
+        "gap": 73,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - South Sandwich Islands region"
+        "title": "M 5.6 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.3637,
-          -59.9218,
-          51.01
+          -29.3125,
+          -59.8917,
+          39.41
         ]
       },
       "id": "us6000g9bb"
@@ -1972,8 +2012,8 @@
   ],
   "bbox": [
     -178.5541,
-    -59.9218,
-    5,
+    -59.8917,
+    -3.39,
     142.0386,
     63.6329,
     547.38
