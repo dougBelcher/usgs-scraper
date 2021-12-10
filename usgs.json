@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639153636000,
+    "generated": 1639157011000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "off the coast of Oregon",
+        "time": 1639155346391,
+        "updated": 1639156544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb8y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb8y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gb8y",
+        "ids": ",us6000gb8y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.646,
+        "rms": 1.24,
+        "gap": 234,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.3394,
+          44.1976,
+          10
+        ]
+      },
+      "id": "us6000gb8y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "1 km SSE of Pāhala, Hawaii",
+        "time": 1639154089650,
+        "updated": 1639154792040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72828607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72828607.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "72828607",
+        "ids": ",us6000gb81,hv72828607,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.473495483398,
+          19.1940002441406,
+          30.8999996185303
+        ]
+      },
+      "id": "hv72828607"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.55,
         "place": "8km SW of Calistoga, CA",
         "time": 1639153044420,
-        "updated": 1639153549611,
+        "updated": 1639154810028,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662196.geojson",
-        "felt": 6,
-        "cdi": 3.4,
+        "felt": 15,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 106,
         "net": "nc",
         "code": "73662196",
         "ids": ",nc73662196,",
@@ -48,46 +128,6 @@
         ]
       },
       "id": "nc73662196"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "43 km WNW of Cantwell, Alaska",
-        "time": 1639150461442,
-        "updated": 1639151111606,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021ft6081x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021ft6081x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021ft6081x",
-        "ids": ",ak021ft6081x,",
-        "sources": ",ak,",
-        "types": ",origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 43 km WNW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7409,
-          63.5534,
-          28.5
-        ]
-      },
-      "id": "ak021ft6081x"
     },
     {
       "type": "Feature",
@@ -135,11 +175,11 @@
         "mag": 4.4,
         "place": "21 km E of The Valley, Anguilla",
         "time": 1639141137946,
-        "updated": 1639147418091,
+        "updated": 1639156300905,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb59",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb59.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
@@ -975,7 +1015,7 @@
         "mag": 2.92,
         "place": "6km WNW of Walker, CA",
         "time": 1639106331010,
-        "updated": 1639115769853,
+        "updated": 1639156340397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662026.geojson",
@@ -1015,7 +1055,7 @@
         "mag": 2.92,
         "place": "3km ENE of Prattville, CA",
         "time": 1639103986540,
-        "updated": 1639146758191,
+        "updated": 1639156719111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662016",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662016.geojson",
@@ -1028,8 +1068,8 @@
         "sig": 134,
         "net": "nc",
         "code": "73662016",
-        "ids": ",nc73662016,",
-        "sources": ",nc,",
+        "ids": ",nc73662016,nn00829753,",
+        "sources": ",nc,nn,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.3094,
@@ -2168,126 +2208,6 @@
         ]
       },
       "id": "us6000gayq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1639069540484,
-        "updated": 1639078763040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gaxs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gaxs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000gaxs",
-        "ids": ",us6000gaxs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.965,
-        "rms": 1.11,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6719,
-          18.5226,
-          229.34
-        ]
-      },
-      "id": "us6000gaxs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "161 km SSW of Kokopo, Papua New Guinea",
-        "time": 1639068374419,
-        "updated": 1639071078040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gawz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gawz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gawz",
-        "ids": ",us6000gawz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.581,
-        "rms": 0.85,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 161 km SSW of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.911,
-          -5.7629,
-          10
-        ]
-      },
-      "id": "us6000gawz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1639067440353,
-        "updated": 1639068900924,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yccs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yccs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2021yccs",
-        "ids": ",us6000gaw0,tx2021yccs,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.02357176258,
-        "rms": 0.1,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2811704,
-          31.69062777,
-          6.851391602
-        ]
-      },
-      "id": "tx2021yccs"
     }
   ],
   "bbox": [
@@ -2295,7 +2215,7 @@
     -58.0962,
     -3.17,
     179.6245,
-    63.5534,
+    56.3126,
     364.5
   ]
 }
