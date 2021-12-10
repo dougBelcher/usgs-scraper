@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639124441000,
+    "generated": 1639127829000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 68
+    "count": 66
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "1 km W of Indios, Puerto Rico",
+        "time": 1639125552100,
+        "updated": 1639126831419,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021344003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021344003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "2021344003",
+        "ids": ",pr2021344003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.0485,
+        "rms": 0.07,
+        "gap": 152,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8343,
+          17.9935,
+          18
+        ]
+      },
+      "id": "pr2021344003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,17 +615,17 @@
         "mag": 4.19,
         "place": "1 km W of Indios, Puerto Rico",
         "time": 1639099534040,
-        "updated": 1639108303231,
+        "updated": 1639125235462,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021344001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021344001.geojson",
-        "felt": 64,
+        "felt": 65,
         "cdi": 5.3,
         "mmi": 3.685,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 304,
+        "sig": 305,
         "net": "pr",
         "code": "2021344001",
         "ids": ",us6000gb1h,pr2021344001,",
@@ -2608,126 +2648,6 @@
         ]
       },
       "id": "us6000gati"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "off the coast of Oregon",
-        "time": 1639040772352,
-        "updated": 1639045752040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gasp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gasp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000gasp",
-        "ids": ",us6000gasp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.666,
-        "rms": 0.92,
-        "gap": 237,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.1572,
-          44.2052,
-          10
-        ]
-      },
-      "id": "us6000gasp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "2 km SE of Pāhala, Hawaii",
-        "time": 1639040492710,
-        "updated": 1639088897800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72827077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72827077.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "hv",
-        "code": "72827077",
-        "ids": ",us6000gasm,hv72827077,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 107,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.462333333333,
-          19.185,
-          32.4
-        ]
-      },
-      "id": "hv72827077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Izu Islands, Japan region",
-        "time": 1639040269606,
-        "updated": 1639041975040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gasn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gasn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000gasn",
-        "ids": ",us6000gasn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.284,
-        "rms": 0.46,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5909,
-          31.0854,
-          10
-        ]
-      },
-      "id": "us6000gasn"
     }
   ],
   "bbox": [
