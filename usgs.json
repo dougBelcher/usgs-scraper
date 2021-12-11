@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639232108000,
+    "generated": 1639235829000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "39 km N of La Serena, Chile",
+        "time": 1639234459582,
+        "updated": 1639235790335,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfe.geojson",
+        "felt": 6,
+        "cdi": 4.6,
+        "mmi": 4.893,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 503,
+        "net": "us",
+        "code": "6000gbfe",
+        "ids": ",us6000gbfe,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.371,
+        "rms": 0.93,
+        "gap": 90,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 39 km N of La Serena, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.198,
+          -29.548,
+          53.25
+        ]
+      },
+      "id": "us6000gbfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "South Sandwich Islands region",
+        "time": 1639233348460,
+        "updated": 1639234526040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbfc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbfc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000gbfc",
+        "ids": ",us6000gbfc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.417,
+        "rms": 1.05,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.5821,
+          -56.1026,
+          102.8
+        ]
+      },
+      "id": "us6000gbfc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.6,
         "place": "6 km WSW of Gypsum, Kansas",
         "time": 1639221510864,
-        "updated": 1639224209040,
+        "updated": 1639234904815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbes",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbes.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000gbes",
         "ids": ",us6000gbes,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.735,
         "rms": 0.51,
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "5 km WSW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1639218500150,
         "updated": 1639226197162,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "249 km ESE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
+        "title": "M 3.8 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Peru",
+        "place": "16 km ESE of Locumba, Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Peru"
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "2 km S of Pāhala, Hawaii",
         "time": 1639154089460,
         "updated": 1639175381560,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1695,11 +1775,11 @@
         "mag": 2.55,
         "place": "8km SW of Calistoga, CA",
         "time": 1639153044420,
-        "updated": 1639231677040,
+        "updated": 1639234889177,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662196",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662196.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
