@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639221256000,
+    "generated": 1639225661000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "6 km WSW of Gypsum, Kansas",
+        "time": 1639221510864,
+        "updated": 1639224209040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbes",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbes.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000gbes",
+        "ids": ",us6000gbes,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.735,
+        "rms": 0.51,
+        "gap": 144,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km WSW of Gypsum, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4978,
+          38.6839,
+          5
+        ]
+      },
+      "id": "us6000gbes"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "27 km WNW of Four Mile Road, Alaska",
         "time": 1639218659751,
-        "updated": 1639219369039,
+        "updated": 1639221345040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fuqjmgx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fuqjmgx.geojson",
@@ -28,9 +68,9 @@
         "sig": 112,
         "net": "ak",
         "code": "021fuqjmgx",
-        "ids": ",ak021fuqjmgx,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gbel,ak021fuqjmgx,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.67,
@@ -93,31 +133,31 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "5 km WSW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1639218500150,
-        "updated": 1639219547040,
+        "updated": 1639225107171,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gbej",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gbej.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 140,
         "net": "us",
         "code": "6000gbej",
         "ids": ",us6000gbej,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.746,
         "rms": 0.24,
         "gap": 145,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "249 km ESE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1639205255832,
         "updated": 1639205856040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 249 km ESE of Chiniak, Alaska"
+        "title": "M 3.8 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "southern Peru",
+        "place": "16 km ESE of Locumba, Peru",
         "time": 1639162773525,
         "updated": 1639173657040,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - southern Peru"
+        "title": "M 4.6 - 16 km ESE of Locumba, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "2 km S of Pāhala, Hawaii",
         "time": 1639154089460,
         "updated": 1639175381560,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1728,166 +1768,6 @@
         ]
       },
       "id": "us6000gb59"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "19km WNW of Petrolia, CA",
-        "time": 1639139154490,
-        "updated": 1639142110450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73662121",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73662121.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "nc",
-        "code": "73662121",
-        "ids": ",nc73662121,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.1591,
-        "rms": 0.08,
-        "gap": 293,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 19km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.5023346,
-          40.3781662,
-          18
-        ]
-      },
-      "id": "nc73662121"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "7 km S of Williamsville, Missouri",
-        "time": 1639138419100,
-        "updated": 1639203061040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60365602",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60365602.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "nm",
-        "code": "60365602",
-        "ids": ",nm60365602,us6000gb6k,",
-        "sources": ",nm,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1607,
-        "rms": 0.23,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km S of Williamsville, Missouri"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.5533333,
-          36.9051667,
-          13.66
-        ]
-      },
-      "id": "nm60365602"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kuril Islands",
-        "time": 1639137328493,
-        "updated": 1639138508040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb54",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb54.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000gb54",
-        "ids": ",us6000gb54,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.548,
-        "rms": 0.66,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.3176,
-          47.2005,
-          35
-        ]
-      },
-      "id": "us6000gb54"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "30 km NNW of Bijie, China",
-        "time": 1639135536514,
-        "updated": 1639139101040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gb55",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gb55.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000gb55",
-        "ids": ",us6000gb55,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.622,
-        "rms": 0.52,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 30 km NNW of Bijie, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.2131,
-          27.5672,
-          10
-        ]
-      },
-      "id": "us6000gb55"
     }
   ],
   "bbox": [
