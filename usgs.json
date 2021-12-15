@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639566856000,
+    "generated": 1639571297000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "6 km ENE of Pāhala, Hawaii",
+        "time": 1639571051610,
+        "updated": 1639571239320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72834337",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72834337.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "72834337",
+        "ids": ",hv72834337,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 129,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.425003051758,
+          19.2269992828369,
+          33.0299987792969
+        ]
+      },
+      "id": "hv72834337"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 4,
         "place": "2 km SSW of Gypsum, Kansas",
         "time": 1639562301667,
-        "updated": 1639566440967,
+        "updated": 1639571039620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gcd6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gcd6.geojson",
-        "felt": 61,
+        "felt": 76,
         "cdi": 4.1,
-        "mmi": 5.69,
+        "mmi": 4.697,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 277,
         "net": "us",
         "code": "6000gcd6",
         "ids": ",us6000gcd6,",
@@ -1535,11 +1575,11 @@
         "mag": 4.1,
         "place": "off the coast of Oregon",
         "time": 1639503845586,
-        "updated": 1639523020601,
+        "updated": 1639570216017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gc71",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gc71.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -2048,46 +2088,6 @@
         ]
       },
       "id": "us6000gc5d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "26 km W of Clam Gulch, Alaska",
-        "time": 1639483973616,
-        "updated": 1639487715040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021fzq8ntk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021fzq8ntk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "021fzq8ntk",
-        "ids": ",us6000gc58,ak021fzq8ntk,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km W of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8686,
-          60.2771,
-          77.5
-        ]
-      },
-      "id": "ak021fzq8ntk"
     }
   ],
   "bbox": [
