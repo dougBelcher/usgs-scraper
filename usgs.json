@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639848163000,
+    "generated": 1639851698000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "78 km ENE of Ouzinkie, Alaska",
+        "time": 1639849596613,
+        "updated": 1639849868488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6fkgtv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6fkgtv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021g6fkgtv",
+        "ids": ",ak021g6fkgtv,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 78 km ENE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2849,
+          58.1963,
+          36.4
+        ]
+      },
+      "id": "ak021g6fkgtv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "5 km SW of La Parguera, Puerto Rico",
+        "time": 1639847639670,
+        "updated": 1639848513646,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021352003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021352003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "2021352003",
+        "ids": ",pr2021352003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.0466,
+        "rms": 0.12,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0848,
+          17.9465,
+          12
+        ]
+      },
+      "id": "pr2021352003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.81,
-        "place": "Oklahoma",
+        "place": "7 km SE of Erin Springs, Oklahoma",
         "time": 1639841132558,
-        "updated": 1639841388105,
+        "updated": 1639851106040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021ysmc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021ysmc.geojson",
@@ -28,8 +108,8 @@
         "sig": 121,
         "net": "ok",
         "code": "2021ysmc",
-        "ids": ",ok2021ysmc,",
-        "sources": ",ok,",
+        "ids": ",us6000gdes,ok2021ysmc,",
+        "sources": ",us,ok,",
         "types": ",origin,phase-data,",
         "nst": 49,
         "dmin": 0.1362116039,
@@ -37,7 +117,7 @@
         "gap": 70.35276794,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Oklahoma"
+        "title": "M 2.8 - 7 km SE of Erin Springs, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -52,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "6 km E of Assaria, Kansas",
+        "time": 1639840897639,
+        "updated": 1639850860040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gder",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gder.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000gder",
+        "ids": ",us6000gder,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.725,
+        "rms": 0.55,
+        "gap": 93,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km E of Assaria, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5327,
+          38.6884,
+          5
+        ]
+      },
+      "id": "us6000gder"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "61 km N of Wiseman, Alaska",
         "time": 1639839194252,
-        "updated": 1639839927125,
+        "updated": 1639849731040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g6dtmci",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g6dtmci.geojson",
@@ -68,9 +188,9 @@
         "sig": 138,
         "net": "ak",
         "code": "021g6dtmci",
-        "ids": ",ak021g6dtmci,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gdek,ak021g6dtmci,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.64,
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "197 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1639809666004,
         "updated": 1639810846040,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 197 km NE of Lospalos, Timor Leste"
+        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.48,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639765630910,
         "updated": 1639772925741,
         "tz": null,
@@ -1597,7 +1717,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 6 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
