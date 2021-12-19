@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1639883875000,
+    "generated": 1639887805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "217 km N of Bamboo Flat, India",
+        "time": 1639883985761,
+        "updated": 1639887084040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdim",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdim.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000gdim",
+        "ids": ",us6000gdim,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.215,
+        "rms": 0.88,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 217 km N of Bamboo Flat, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7602,
+          13.6701,
+          10
+        ]
+      },
+      "id": "us6000gdim"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +415,12 @@
         "mag": 5.1,
         "place": "227 km SSE of Isangel, Vanuatu",
         "time": 1639858456222,
-        "updated": 1639859938040,
+        "updated": 1639887700848,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdgp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdgp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +430,7 @@
         "code": "6000gdgp",
         "ids": ",us6000gdgp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.756,
         "rms": 0.83,
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "pr2021352000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "2 km WNW of Falls City, Texas",
-        "time": 1639800755490,
-        "updated": 1639820145980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021yrpx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021yrpx.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "tx",
-        "code": "2021yrpx",
-        "ids": ",us6000gdbx,tx2021yrpx,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.06492425686,
-        "rms": 0.2,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 2 km WNW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.03837316,
-          28.98742676,
-          1.516194661
-        ]
-      },
-      "id": "tx2021yrpx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "6 km E of Pāhala, Hawaii",
-        "time": 1639798717450,
-        "updated": 1639806000869,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72838177",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72838177.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.591,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "hv",
-        "code": "72838177",
-        "ids": ",us6000gdbu,hv72838177,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 143,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 6 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.418,
-          19.2113333333333,
-          33.09
-        ]
-      },
-      "id": "hv72838177"
     }
   ],
   "bbox": [
