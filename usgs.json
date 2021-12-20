@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640006724000,
+    "generated": 1640009778000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.7,
         "place": "western Texas",
         "time": 1640004205778,
-        "updated": 1640004726040,
+        "updated": 1640007228255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdt8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdt8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000gdt8",
         "ids": ",us6000gdt8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.242,
         "rms": 0.26,
@@ -135,7 +135,7 @@
         "mag": 2.68,
         "place": "6 km ENE of Pāhala, Hawaii",
         "time": 1639995673240,
-        "updated": 1639996006110,
+        "updated": 1640009083040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72840817",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72840817.geojson",
@@ -148,8 +148,8 @@
         "sig": 110,
         "net": "hv",
         "code": "72840817",
-        "ids": ",hv72840817,",
-        "sources": ",hv,",
+        "ids": ",us6000gdsw,hv72840817,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 46,
         "dmin": null,
@@ -172,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "10 km NNW of Mnogoudobnoye, Russia",
+        "time": 1639993820737,
+        "updated": 1640008044040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdst",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdst.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000gdst",
+        "ids": ",us6000gdst,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.712,
+        "rms": 0.55,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 10 km NNW of Mnogoudobnoye, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.4052,
+          43.5539,
+          491.41
+        ]
+      },
+      "id": "us6000gdst"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "56 km NE of Kobuk, Alaska",
         "time": 1639993365873,
-        "updated": 1639994002071,
+        "updated": 1640007705040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g9luv7d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g9luv7d.geojson",
@@ -188,9 +228,9 @@
         "sig": 129,
         "net": "ak",
         "code": "021g9luv7d",
-        "ids": ",ak021g9luv7d,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "ids": ",us6000gdss,ak021g9luv7d,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.77,
@@ -248,6 +288,46 @@
         ]
       },
       "id": "ok2021yvrm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "23 km WSW of Coyanosa, Texas",
+        "time": 1639992591251,
+        "updated": 1640007232040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdsm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdsm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000gdsm",
+        "ids": ",us6000gdsm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.266,
+        "rms": 0.73,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 23 km WSW of Coyanosa, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3065,
+          31.1869,
+          5
+        ]
+      },
+      "id": "us6000gdsm"
     },
     {
       "type": "Feature",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1639982284620,
         "updated": 1639996659040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 331,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.8 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -572,88 +652,88 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "Utah",
-        "time": 1639975406678,
-        "updated": 1639978025040,
+        "mag": 2.8,
+        "place": "61 km SW of Dugway, Utah",
+        "time": 1639975407120,
+        "updated": 1640009737750,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdre.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472632",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472632.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000gdre",
-        "ids": ",us6000gdre,",
-        "sources": ",us,",
+        "sig": 121,
+        "net": "uu",
+        "code": "60472632",
+        "ids": ",us6000gdre,uu60472632,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.504,
-        "rms": 1.15,
-        "gap": 81,
+        "nst": 14,
+        "dmin": 0.1893,
+        "rms": 0.17,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Utah"
+        "title": "M 2.8 - 61 km SW of Dugway, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.3578,
-          39.9121,
-          5
+          -113.337,
+          39.9073333,
+          4.61
         ]
       },
-      "id": "us6000gdre"
+      "id": "uu60472632"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "60 km WSW of Dugway, Utah",
-        "time": 1639974232186,
-        "updated": 1639977649040,
+        "mag": 2.71,
+        "place": "60 km SW of Dugway, Utah",
+        "time": 1639974233020,
+        "updated": 1640009580390,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdr8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdr8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472622",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472622.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000gdr8",
-        "ids": ",us6000gdr8,",
-        "sources": ",us,",
+        "sig": 113,
+        "net": "uu",
+        "code": "60472622",
+        "ids": ",us6000gdr8,uu60472622,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.49,
-        "rms": 0.99,
-        "gap": 81,
+        "nst": 15,
+        "dmin": 0.1804,
+        "rms": 0.1,
+        "gap": 190,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 60 km WSW of Dugway, Utah"
+        "title": "M 2.7 - 60 km SW of Dugway, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.3526,
-          39.9321,
-          5
+          -113.3108333,
+          39.8921667,
+          7.09
         ]
       },
-      "id": "us6000gdr8"
+      "id": "uu60472622"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "northern Colombia",
+        "place": "7 km N of Cepitá, Colombia",
         "time": 1639974040804,
         "updated": 1639978635040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - northern Colombia"
+        "title": "M 4.6 - 7 km N of Cepitá, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "118 km E of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1639964185184,
         "updated": 1639974575592,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 118 km E of Madang, Papua New Guinea"
+        "title": "M 5.3 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us6000gdls"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "6 km E of Pāhala, Hawaii",
-        "time": 1639923324500,
-        "updated": 1639923831040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72839947",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72839947.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72839947",
-        "ids": ",us6000gdln,hv72839947,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": null,
-        "rms": 0.180000007,
-        "gap": 144,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.417663574219,
-          19.2096672058105,
-          32.4199981689453
-        ]
-      },
-      "id": "hv72839947"
     }
   ],
   "bbox": [
@@ -1496,6 +1536,6 @@
     0,
     178.5809,
     67.4044,
-    296.8
+    491.41
   ]
 }
