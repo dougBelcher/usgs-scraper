@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640009778000,
+    "generated": 1640013492000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.79,
+        "place": "20km W of Petrolia, CA",
+        "time": 1640010306400,
+        "updated": 1640013353040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666136",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73666136.geojson",
+        "felt": 5,
+        "cdi": 2.9,
+        "mmi": 2.895,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "nc",
+        "code": "73666136",
+        "ids": ",nc73666136,us6000gdtq,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 23,
+        "dmin": null,
+        "rms": 0.09,
+        "gap": 258,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 20km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.517334,
+          40.2924995,
+          19.25
+        ]
+      },
+      "id": "nc73666136"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -693,9 +733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.71,
-        "place": "60 km SW of Dugway, Utah",
-        "time": 1639974233020,
-        "updated": 1640009580390,
+        "place": "61 km SW of Dugway, Utah",
+        "time": 1639974232940,
+        "updated": 1640009863620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60472622",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60472622.geojson",
@@ -711,20 +751,20 @@
         "ids": ",us6000gdr8,uu60472622,",
         "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1804,
-        "rms": 0.1,
-        "gap": 190,
+        "nst": 17,
+        "dmin": 0.18,
+        "rms": 0.11,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 60 km SW of Dugway, Utah"
+        "title": "M 2.7 - 61 km SW of Dugway, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.3108333,
-          39.8921667,
-          7.09
+          -113.3196667,
+          39.894,
+          7.62
         ]
       },
       "id": "uu60472622"
@@ -1448,86 +1488,6 @@
         ]
       },
       "id": "us6000gdm4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "52 km NW of Stevens Village, Alaska",
-        "time": 1639926499633,
-        "updated": 1639929022040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021g81ornv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021g81ornv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "021g81ornv",
-        "ids": ",us6000gdlw,ak021g81ornv,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 52 km NW of Stevens Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.8543,
-          66.3652,
-          8.4
-        ]
-      },
-      "id": "ak021g81ornv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "49 km NNE of Meulaboh, Indonesia",
-        "time": 1639924495553,
-        "updated": 1639926512040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gdls",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gdls.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000gdls",
-        "ids": ",us6000gdls,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.492,
-        "rms": 0.52,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 49 km NNE of Meulaboh, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.2738,
-          4.5668,
-          10
-        ]
-      },
-      "id": "us6000gdls"
     }
   ],
   "bbox": [
