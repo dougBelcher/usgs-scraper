@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640402283000,
+    "generated": 1640406243000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "11km NE of Coso Junction, CA",
+        "time": 1640405323110,
+        "updated": 1640405967760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39896143",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39896143.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "39896143",
+        "ids": ",ci39896143,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.01805,
+        "rms": 0.14,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 11km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8488333,
+          36.1001667,
+          1.91
+        ]
+      },
+      "id": "ci39896143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Kermadec Islands",
+        "time": 1640400723515,
+        "updated": 1640402613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf59",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf59.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000gf59",
+        "ids": ",us6000gf59,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.754,
+        "rms": 0.67,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8806,
+          -32.6281,
+          205.75
+        ]
+      },
+      "id": "us6000gf59"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 4,
         "place": "162 km WSW of Ferndale, California",
         "time": 1640400572986,
-        "updated": 1640400847243,
+        "updated": 1640402981019,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1640400600",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1640400600.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +150,7 @@
         "code": "1640400600",
         "ids": ",ew1640400600,",
         "sources": ",ew,",
-        "types": ",origin,shake-alert,",
+        "types": ",dyfi,origin,shake-alert,",
         "nst": 5,
         "dmin": null,
         "rms": null,
@@ -535,12 +615,12 @@
         "mag": 3.12,
         "place": "24 km NW of Stanley, Idaho",
         "time": 1640367869480,
-        "updated": 1640377866540,
+        "updated": 1640404180732,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534409",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80534409.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -550,7 +630,7 @@
         "code": "80534409",
         "ids": ",mb80534409,",
         "sources": ",mb,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.94,
         "rms": 0.27,
@@ -895,7 +975,7 @@
         "mag": 5.7,
         "place": "86 km NNW of Phôngsali, Laos",
         "time": 1640353402983,
-        "updated": 1640399032256,
+        "updated": 1640404254635,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gf1y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gf1y.geojson",
@@ -1608,52 +1688,12 @@
         ]
       },
       "id": "nc73668226"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "22 km N of Sutcliffe, Nevada",
-        "time": 1640318326394,
-        "updated": 1640399901288,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00830439.geojson",
-        "felt": 5,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 190,
-        "net": "nn",
-        "code": "00830439",
-        "ids": ",nn00830439,us6000geza,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.077,
-        "rms": 0.1412,
-        "gap": 62.68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 22 km N of Sutcliffe, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.6347,
-          40.1499,
-          5.6
-        ]
-      },
-      "id": "nn00830439"
     }
   ],
   "bbox": [
-    -178.514,
+    -179.8806,
     -58.0238,
-    2.201270103,
+    1.91,
     178.9348,
     60.1756,
     580.78
