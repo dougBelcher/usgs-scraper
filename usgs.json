@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640506867000,
+    "generated": 1640510221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "49 km ESE of Naalehu, Hawaii",
+        "time": 1640508279560,
+        "updated": 1640509971040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72846932",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72846932.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "hv",
+        "code": "72846932",
+        "ids": ",us6000gfde,hv72846932,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": null,
+        "rms": 0.209999993,
+        "gap": 265,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 49 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.156005859375,
+          18.8721675872803,
+          11.6899995803833
+        ]
+      },
+      "id": "hv72846932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.37,
+        "place": "75 km NW of Aguadilla, Puerto Rico",
+        "time": 1640507992860,
+        "updated": 1640509928960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021360002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021360002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "pr",
+        "code": "2021360002",
+        "ids": ",pr2021360002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.7086,
+        "rms": 0.43,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 75 km NW of Aguadilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6856,
+          18.8825,
+          74
+        ]
+      },
+      "id": "pr2021360002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "5 km W of Point MacKenzie, Alaska",
+        "time": 1640507788920,
+        "updated": 1640510149448,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjig6ox",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjig6ox.geojson",
+        "felt": 20,
+        "cdi": 3.1,
+        "mmi": 2.175,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 145,
+        "net": "ak",
+        "code": "021gjig6ox",
+        "ids": ",ak021gjig6ox,us6000gfdb,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.91,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 5 km W of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0733,
+          61.3529,
+          16.5
+        ]
+      },
+      "id": "ak021gjig6ox"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "55 km NNE of Hirara, Japan",
+        "time": 1640507206517,
+        "updated": 1640509679783,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfd9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfd9.geojson",
+        "felt": 4,
+        "cdi": 4.1,
+        "mmi": 4.447,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 537,
+        "net": "us",
+        "code": "6000gfd9",
+        "ids": ",us6000gfd9,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 2.462,
+        "rms": 1,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 55 km NNE of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5917,
+          25.2257,
+          10
+        ]
+      },
+      "id": "us6000gfd9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +215,17 @@
         "mag": 3.31,
         "place": "8km NNW of Pinnacles, CA",
         "time": 1640503186560,
-        "updated": 1640506342164,
+        "updated": 1640510171550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668566",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668566.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 174,
+        "sig": 175,
         "net": "nc",
         "code": "73668566",
         "ids": ",nc73668566,ew1640503190,us6000gfd0,",
@@ -1535,7 +1695,7 @@
     -57.121,
     6.12,
     172.0586,
-    55.5071,
+    61.3529,
     629.23
   ]
 }
