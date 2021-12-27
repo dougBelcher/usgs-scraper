@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640625857000,
+    "generated": 1640629247000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.77,
         "place": "24km S of Point Sur, CA",
         "time": 1640625285390,
-        "updated": 1640625671232,
+        "updated": 1640628250509,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668766.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 118,
         "net": "nc",
         "code": "73668766",
-        "ids": ",nc73668766,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73668766,us6000gfne,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 35,
         "dmin": null,
         "rms": 0.3,
@@ -55,22 +55,22 @@
         "mag": 2.89,
         "place": "4km NNW of Pinnacles, CA",
         "time": 1640624956330,
-        "updated": 1640625459040,
+        "updated": 1640627232798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73668761",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73668761.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 129,
         "net": "nc",
         "code": "73668761",
         "ids": ",nc73668761,us6000gfnc,",
         "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": null,
         "rms": 0.09,
@@ -95,7 +95,7 @@
         "mag": 2.6,
         "place": "47 km W of Mentone, Texas",
         "time": 1640624214652,
-        "updated": 1640624763040,
+        "updated": 1640626710040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfn6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfn6.geojson",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "7 km SW of Gypsum, Kansas",
         "time": 1640599096322,
         "updated": 1640618522681,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 92,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 7 km SW of Gypsum, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +975,11 @@
         "mag": 3.3,
         "place": "7 km WSW of Gypsum, Kansas",
         "time": 1640584291200,
-        "updated": 1640621836939,
+        "updated": 1640626096571,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfjw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfjw.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
@@ -1688,214 +1688,14 @@
         ]
       },
       "id": "us6000gfhi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "223 km ESE of Attu Station, Alaska",
-        "time": 1640542659628,
-        "updated": 1640559246141,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gjoai98",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gjoai98.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.853,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "021gjoai98",
-        "ids": ",ak021gjoai98,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 223 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.0969,
-          51.926,
-          41
-        ]
-      },
-      "id": "ak021gjoai98"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "115 km SSE of Kaktovik, Alaska",
-        "time": 1640542006025,
-        "updated": 1640552994040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfhg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfhg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000gfhg",
-        "ids": ",us6000gfhg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.615,
-        "rms": 0.97,
-        "gap": 141,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 115 km SSE of Kaktovik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.57,
-          69.1644,
-          15.64
-        ]
-      },
-      "id": "us6000gfhg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1640541564539,
-        "updated": 1640542758040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gfha",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gfha.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000gfha",
-        "ids": ",us6000gfha,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 7.236,
-        "rms": 1.37,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -26.2718,
-          -58.8036,
-          33.02
-        ]
-      },
-      "id": "us6000gfha"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
-        "time": 1640541173790,
-        "updated": 1640542317405,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021360008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021360008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "2021360008",
-        "ids": ",pr2021360008,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0624,
-        "rms": 0.04,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.988,
-          17.9423,
-          11
-        ]
-      },
-      "id": "pr2021360008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "6 km ESE of La Parguera, Puerto Rico",
-        "time": 1640540949840,
-        "updated": 1640541823450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021360007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021360007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "2021360007",
-        "ids": ",pr2021360007,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.06,
-        "rms": 0.1,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9895,
-          17.9448,
-          10
-        ]
-      },
-      "id": "pr2021360007"
     }
   ],
   "bbox": [
     -179.3966,
-    -58.8036,
+    -34.8507,
     0,
-    176.0969,
-    69.1644,
+    143.1298,
+    62.2732,
     587.87
   ]
 }
