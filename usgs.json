@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1640906281000,
+    "generated": 1640912573000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.93,
-        "place": "18 km SSE of Buffalo, Wyoming",
-        "time": 1640903440230,
-        "updated": 1640905847330,
+        "mag": 2.7,
+        "place": "14 km SSE of Buffalo, Wyoming",
+        "time": 1640903438319,
+        "updated": 1640909147040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534859",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80534859.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g832.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 132,
-        "net": "mb",
-        "code": "80534859",
-        "ids": ",mb80534859,",
-        "sources": ",mb,",
+        "sig": 112,
+        "net": "us",
+        "code": "7000g832",
+        "ids": ",mb80534859,us7000g832,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.544,
-        "rms": 0.22,
-        "gap": 86,
+        "nst": null,
+        "dmin": 1.57,
+        "rms": 0.62,
+        "gap": 85,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 18 km SSE of Buffalo, Wyoming"
+        "title": "M 2.7 - 14 km SSE of Buffalo, Wyoming"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.6253333,
-          44.1933333,
-          7.59
+          -106.6433,
+          44.2194,
+          5
         ]
       },
-      "id": "mb80534859"
+      "id": "us7000g832"
     },
     {
       "type": "Feature",
@@ -532,10 +532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.87,
-        "place": "34km W of Petrolia, CA",
-        "time": 1640880121210,
-        "updated": 1640884185040,
+        "mag": 2.73,
+        "place": "35km W of Petrolia, CA",
+        "time": 1640880121090,
+        "updated": 1640907972201,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669261",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669261.geojson",
@@ -543,28 +543,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 127,
+        "sig": 115,
         "net": "nc",
         "code": "73669261",
         "ids": ",nc73669261,us7000g7zz,",
         "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.3074,
-        "rms": 0.07,
-        "gap": 269,
+        "nst": 48,
+        "dmin": 0.2706,
+        "rms": 0.22,
+        "gap": 234,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 34km W of Petrolia, CA"
+        "title": "M 2.7 - 35km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.6793365,
-          40.2653351,
-          11.47
+          -124.6963333,
+          40.2835,
+          13.16
         ]
       },
       "id": "nc73669261"
@@ -892,20 +892,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.63,
+        "place": "6km N of Petrolia, CA",
+        "time": 1640867280240,
+        "updated": 1640907250129,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669251",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669251.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "73669251",
+        "ids": ",nc73669251,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.05826,
+        "rms": 0.17,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 6km N of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.2968333,
+          40.3795,
+          29.11
+        ]
+      },
+      "id": "nc73669251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.51,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1640866291310,
-        "updated": 1640906034229,
+        "updated": 1640912176378,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60377991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60377991.geojson",
-        "felt": 419,
+        "felt": 428,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 277,
+        "sig": 281,
         "net": "se",
         "code": "60377991",
         "ids": ",se60377991,us7000g7y9,",
@@ -975,17 +1015,17 @@
         "mag": 2.5,
         "place": "20 km N of Stanton, Texas",
         "time": 1640861581257,
-        "updated": 1640873710021,
+        "updated": 1640908359719,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7y0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7y0.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "us",
         "code": "7000g7y0",
         "ids": ",us7000g7y0,",
@@ -1052,10 +1092,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "36km W of Petrolia, CA",
-        "time": 1640858550650,
-        "updated": 1640863932059,
+        "mag": 2.5,
+        "place": "9km WSW of Petrolia, CA",
+        "time": 1640858993520,
+        "updated": 1640906893089,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669241",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669241.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nc",
+        "code": "73669241",
+        "ids": ",nc73669241,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.02671,
+        "rms": 0.06,
+        "gap": 227,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 9km WSW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.3753333,
+          40.2791667,
+          21.82
+        ]
+      },
+      "id": "nc73669241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "31km W of Petrolia, CA",
+        "time": 1640858551580,
+        "updated": 1640906892696,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73669236",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73669236.geojson",
@@ -1063,28 +1143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 112,
         "net": "nc",
         "code": "73669236",
         "ids": ",nc73669236,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.3748,
-        "rms": 0.06,
-        "gap": 275,
+        "nst": 40,
+        "dmin": 0.2349,
+        "rms": 0.15,
+        "gap": 263,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 36km W of Petrolia, CA"
+        "title": "M 2.7 - 31km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.7109985,
-          40.2835007,
-          13.69
+          -124.6496667,
+          40.2841667,
+          17.61
         ]
       },
       "id": "nc73669236"
@@ -1488,134 +1568,14 @@
         ]
       },
       "id": "us7000g7vf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "5 km ESE of Chiba, Japan",
-        "time": 1640824919265,
-        "updated": 1640875135075,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7ut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7ut.geojson",
-        "felt": 54,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 358,
-        "net": "us",
-        "code": "7000g7ut",
-        "ids": ",us7000g7ut,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.853,
-        "rms": 0.73,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 5 km ESE of Chiba, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.1699,
-          35.5857,
-          63.31
-        ]
-      },
-      "id": "us7000g7ut"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "48 km SSE of Denali National Park, Alaska",
-        "time": 1640824095183,
-        "updated": 1640845743198,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021gpzscxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021gpzscxv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "021gpzscxv",
-        "ids": ",us7000g7uq,ak021gpzscxv,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.88,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 48 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4949,
-          63.1225,
-          12.4
-        ]
-      },
-      "id": "ak021gpzscxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Fiji region",
-        "time": 1640823594928,
-        "updated": 1640824739040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g7un",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g7un.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000g7un",
-        "ids": ",us7000g7un,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.632,
-        "rms": 0.92,
-        "gap": 38,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.3573,
-          -21.7037,
-          591.05
-        ]
-      },
-      "id": "us7000g7un"
     }
   ],
   "bbox": [
-    -179.3573,
+    -176.3535,
     -55.8891,
     1.97,
     177.2404,
     65.4346,
-    591.05
+    359.44
   ]
 }
