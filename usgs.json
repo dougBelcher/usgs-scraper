@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641046563000,
+    "generated": 1641050283000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 29
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5.2,
         "place": "32 km W of Ashkāsham, Afghanistan",
         "time": 1641042925871,
-        "updated": 1641043894040,
+        "updated": 1641047827103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8bl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8bl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000g8bl",
         "ids": ",us7000g8bl,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.688,
         "rms": 0.71,
@@ -975,7 +975,7 @@
         "mag": 3.45,
         "place": "3km SW of Redlands, CA",
         "time": 1640978878900,
-        "updated": 1641045473583,
+        "updated": 1641049960464,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39900159.geojson",
@@ -1168,134 +1168,14 @@
         ]
       },
       "id": "us7000g86k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "59 km NNE of Yakutat, Alaska",
-        "time": 1640963824563,
-        "updated": 1640969467040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021grw6tsw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021grw6tsw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "021grw6tsw",
-        "ids": ",us7000g86g,ak021grw6tsw,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 59 km NNE of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.493,
-          60.0666,
-          0
-        ]
-      },
-      "id": "ak021grw6tsw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "56 km NNE of Yakutat, Alaska",
-        "time": 1640962749846,
-        "updated": 1641013685040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021grvuepx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021grvuepx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.608,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "021grvuepx",
-        "ids": ",us7000g86c,ak021grvuepx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.85,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 56 km NNE of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.4884,
-          60.0426,
-          2.7
-        ]
-      },
-      "id": "ak021grvuepx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "73 km NNW of Phôngsali, Laos",
-        "time": 1640962382458,
-        "updated": 1641015040040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g86b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g86b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000g86b",
-        "ids": ",us7000g86b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.187,
-        "rms": 0.5,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 73 km NNW of Phôngsali, Laos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.7114,
-          22.2358,
-          10
-        ]
-      },
-      "id": "us7000g86b"
     }
   ],
   "bbox": [
     -174.8129,
     -56.5037,
-    0,
+    0.68,
     157.8534,
-    60.0666,
+    59.802,
     589.27
   ]
 }
