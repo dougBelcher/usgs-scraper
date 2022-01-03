@@ -1,50 +1,130 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641171732000,
+    "generated": 1641177363000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "8 km NW of Point MacKenzie, Alaska",
-        "time": 1641170864584,
-        "updated": 1641171465235,
+        "mag": 5.9,
+        "place": "108 km NW of Sola, Vanuatu",
+        "time": 1641175786461,
+        "updated": 1641177207523,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224yw7oo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224yw7oo.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8kq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8kq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.177,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
-        "net": "ak",
-        "code": "0224yw7oo",
-        "ids": ",ak0224yw7oo,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
+        "sig": 536,
+        "net": "us",
+        "code": "7000g8kq",
+        "ids": ",us7000g8kq,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
+        "dmin": 2.272,
+        "rms": 0.86,
+        "gap": 27,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 3.0 - 8 km NW of Point MacKenzie, Alaska"
+        "title": "M 5.9 - 108 km NW of Sola, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0936,
-          61.4157,
-          7.4
+          166.8342,
+          -13.1895,
+          121.88
+        ]
+      },
+      "id": "us7000g8kq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "5 km SSE of Indios, Puerto Rico",
+        "time": 1641174350410,
+        "updated": 1641176110053,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022003000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022003000.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "2022003000",
+        "ids": ",pr2022003000,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.0794,
+        "rms": 0.07,
+        "gap": 204,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8073,
+          17.9415,
+          10
+        ]
+      },
+      "id": "pr2022003000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "1 km NNW of Point MacKenzie, Alaska",
+        "time": 1641170866628,
+        "updated": 1641174555185,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224yw7oo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224yw7oo.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "ak",
+        "code": "0224yw7oo",
+        "ids": ",ak0224yw7oo,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 1 km NNW of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9907,
+          61.3757,
+          35.5
         ]
       },
       "id": "ak0224yw7oo"
@@ -455,11 +535,11 @@
         "mag": 4.4,
         "place": "165 km WSW of Port McNeill, Canada",
         "time": 1641129010405,
-        "updated": 1641164993458,
+        "updated": 1641176780647,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8hb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8hb.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1168,54 +1248,14 @@
         ]
       },
       "id": "us7000g8fr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "15 km WNW of Ōhara, Japan",
-        "time": 1641088254414,
-        "updated": 1641104913355,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8ej.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000g8ej",
-        "ids": ",us7000g8ej,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.788,
-        "rms": 0.54,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 15 km WNW of Ōhara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.2301,
-          35.2913,
-          61.34
-        ]
-      },
-      "id": "us7000g8ej"
     }
   ],
   "bbox": [
     -174.3003,
     -59.6943,
     -0.35,
-    145.0751,
-    61.4157,
+    166.8342,
+    61.3757,
     218.87
   ]
 }
