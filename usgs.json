@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641330903000,
+    "generated": 1641334678000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,14 +15,14 @@
         "mag": 6,
         "place": "281 km E of Katabu, Indonesia",
         "time": 1641329747592,
-        "updated": 1641330862040,
+        "updated": 1641331971687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g90c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g90c.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 1.926,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 554,
@@ -30,7 +30,7 @@
         "code": "7000g90c",
         "ids": ",us7000g90c,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 4.372,
         "rms": 0.74,
@@ -55,12 +55,12 @@
         "mag": 3.67,
         "place": "76 km N of Isabela, Puerto Rico",
         "time": 1641328219470,
-        "updated": 1641330335182,
+        "updated": 1641332530884,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022004008",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022004008.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "2022004008",
         "ids": ",pr2022004008,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.7214,
         "rms": 0.5,
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
+        "mag": 2.61,
         "place": "9km ENE of Round Valley, CA",
-        "time": 1641328134450,
-        "updated": 1641329175250,
+        "time": 1641328134410,
+        "updated": 1641333671599,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73673706",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73673706.geojson",
@@ -103,28 +103,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 105,
         "net": "nc",
         "code": "73673706",
         "ids": ",nc73673706,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.05625,
-        "rms": 0.07,
-        "gap": 76,
+        "nst": 28,
+        "dmin": 0.05666,
+        "rms": 0.06,
+        "gap": 60,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 9km ENE of Round Valley, CA"
+        "title": "M 2.6 - 9km ENE of Round Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.4990005,
-          37.4365005,
-          3.92
+          -118.4995,
+          37.4366667,
+          4.62
         ]
       },
       "id": "nc73673706"
@@ -495,17 +495,17 @@
         "mag": 2.8,
         "place": "3 km NW of Timberlake, Ohio",
         "time": 1641302446164,
-        "updated": 1641330196252,
+        "updated": 1641334584476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g8x2.geojson",
-        "felt": 294,
+        "felt": 301,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 232,
+        "sig": 235,
         "net": "us",
         "code": "7000g8x2",
         "ids": ",us7000g8x2,",
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "pr2022003007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "18km WSW of Petrolia, CA",
-        "time": 1641245962250,
-        "updated": 1641280031886,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73673196",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73673196.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "nc",
-        "code": "73673196",
-        "ids": ",nc73673196,us7000g8s4,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.166,
-        "rms": 0.21,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 18km WSW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.493,
-          40.2761667,
-          20.46
-        ]
-      },
-      "id": "nc73673196"
     }
   ],
   "bbox": [
