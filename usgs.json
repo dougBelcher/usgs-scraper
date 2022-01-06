@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641457351000,
+    "generated": 1641460679000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "48km ESE of Maneadero, B.C., MX",
+        "time": 1641459654930,
+        "updated": 1641459783242,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39903759",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39903759.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "ci",
+        "code": "39903759",
+        "ids": ",ci39903759,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.3325,
+        "rms": 0.34,
+        "gap": 194,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 48km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0751648,
+          31.612833,
+          3.16
+        ]
+      },
+      "id": "ci39903759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "124 km S of Kokopo, Papua New Guinea",
+        "time": 1641457116736,
+        "updated": 1641460534040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9hw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9hw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000g9hw",
+        "ids": ",us7000g9hw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.889,
+        "rms": 0.82,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 124 km S of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1891,
+          -5.4618,
+          10
+        ]
+      },
+      "id": "us7000g9hw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,22 +215,22 @@
         "mag": 3.6,
         "place": "31 km SE of Mina, Nevada",
         "time": 1641442883192,
-        "updated": 1641444250447,
+        "updated": 1641458005472,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831181",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831181.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 200,
         "net": "nn",
         "code": "00831181",
-        "ids": ",us7000g9gn,nn00831181,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00831181,us7000g9gn,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.066,
         "rms": 0.1269,
@@ -215,13 +295,13 @@
         "mag": 4.58,
         "place": "50km W of Petrolia, CA",
         "time": 1641436930830,
-        "updated": 1641457276607,
+        "updated": 1641458729169,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
         "felt": 206,
         "cdi": 4.1,
-        "mmi": 3.898,
+        "mmi": 3.895,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -415,11 +495,11 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641456140607,
+        "updated": 1641457660859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 475,
+        "felt": 476,
         "cdi": 3.7,
         "mmi": 5.384,
         "alert": "green",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us7000g97u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "1 km SE of Big Lake, Alaska",
-        "time": 1641372935566,
-        "updated": 1641427791947,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228es2fa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228es2fa.geojson",
-        "felt": 29,
-        "cdi": 4.1,
-        "mmi": 2.586,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ak",
-        "code": "0228es2fa",
-        "ids": ",ak0228es2fa,us7000g96g,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.8,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 1 km SE of Big Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.9326,
-          61.5128,
-          12.8
-        ]
-      },
-      "id": "ak0228es2fa"
     }
   ],
   "bbox": [
