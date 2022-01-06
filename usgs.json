@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641482343000,
+    "generated": 1641486560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "south of the Fiji Islands",
+        "time": 1641474736646,
+        "updated": 1641484217040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9jp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9jp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000g9jp",
+        "ids": ",us7000g9jp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.65,
+        "rms": 0.82,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.9406,
+          -24.6768,
+          149.57
+        ]
+      },
+      "id": "us7000g9jp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 3.27,
         "place": "8 km ENE of Pāhala, Hawaii",
         "time": 1641471318620,
-        "updated": 1641478623992,
+        "updated": 1641485599068,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72859492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72859492.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.5,
         "mmi": 4.423,
         "alert": null,
@@ -775,11 +815,11 @@
         "mag": 4.58,
         "place": "50km W of Petrolia, CA",
         "time": 1641436930830,
-        "updated": 1641480505928,
+        "updated": 1641485973151,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674251.geojson",
-        "felt": 210,
+        "felt": 211,
         "cdi": 4.1,
         "mmi": 3.895,
         "alert": "green",
@@ -975,17 +1015,17 @@
         "mag": 4.75,
         "place": "8km ESE of Deep Springs, CA",
         "time": 1641428887010,
-        "updated": 1641481531965,
+        "updated": 1641485323507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674211.geojson",
-        "felt": 479,
+        "felt": 480,
         "cdi": 3.8,
         "mmi": 5.384,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 529,
+        "sig": 530,
         "net": "nc",
         "code": "73674211",
         "ids": ",ew1641428890,nc73674211,us7000g9fi,nn00831150,",
@@ -1008,6 +1048,46 @@
         ]
       },
       "id": "nc73674211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "25 km NW of Stanley, Idaho",
+        "time": 1641427404470,
+        "updated": 1641486207710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80535264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80535264.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "mb",
+        "code": "80535264",
+        "ids": ",mb80535264,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.93,
+        "rms": 0.25,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 25 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2006667,
+          44.3528333,
+          10.7
+        ]
+      },
+      "id": "mb80535264"
     },
     {
       "type": "Feature",
@@ -1455,7 +1535,7 @@
         "mag": 3.52,
         "place": "39 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1641404775470,
-        "updated": 1641409179888,
+        "updated": 1641486370040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022005002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022005002.geojson",
@@ -1468,8 +1548,8 @@
         "sig": 191,
         "net": "pr",
         "code": "2022005002",
-        "ids": ",pr2022005002,",
-        "sources": ",pr,",
+        "ids": ",pr2022005002,us7000g9am,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.4472,
@@ -1492,10 +1572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "72 km NNE of Isangel, Vanuatu",
-        "time": 1641400989335,
-        "updated": 1641402462040,
+        "mag": 5,
+        "place": "71 km NNE of Isangel, Vanuatu",
+        "time": 1641400989709,
+        "updated": 1641485315040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9aj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9aj.geojson",
@@ -1505,37 +1585,37 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 385,
         "net": "us",
         "code": "7000g9aj",
         "ids": ",us7000g9aj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 4.158,
-        "rms": 0.59,
+        "dmin": 4.147,
+        "rms": 0.67,
         "gap": 40,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 72 km NNE of Isangel, Vanuatu"
+        "title": "M 5.0 - 71 km NNE of Isangel, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.6054,
-          -18.9596,
-          266.95
+          169.6107,
+          -18.9754,
+          271.61
         ]
       },
       "id": "us7000g9aj"
     }
   ],
   "bbox": [
-    -174.853,
+    -176.9406,
     -65.3619,
     0,
-    169.6054,
+    169.6107,
     69.4269,
-    266.95
+    271.61
   ]
 }
