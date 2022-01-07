@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641532647000,
+    "generated": 1641536548000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1641532114751,
+        "updated": 1641533124040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9tt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000g9tt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000g9tt",
+        "ids": ",us7000g9tt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.038,
+        "rms": 1.03,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - Kermadec Islands, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5304,
+          -30.2474,
+          18.04
+        ]
+      },
+      "id": "us7000g9tt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.46,
         "place": "19km S of San Pedro, CA",
         "time": 1641531092850,
-        "updated": 1641531699149,
+        "updated": 1641535102326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39904655",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39904655.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1095,11 +1135,11 @@
         "mag": 3.27,
         "place": "8 km ENE of Pāhala, Hawaii",
         "time": 1641471318620,
-        "updated": 1641500179145,
+        "updated": 1641534325851,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72859492",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72859492.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 2.5,
         "mmi": 4.423,
         "alert": null,
@@ -1528,90 +1568,10 @@
         ]
       },
       "id": "us7000g9hp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "42km W of Petrolia, CA",
-        "time": 1641450076770,
-        "updated": 1641525851224,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73674346",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73674346.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "nc",
-        "code": "73674346",
-        "ids": ",nc73674346,us7000g9ha,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 71,
-        "dmin": 0.347,
-        "rms": 0.2,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 42km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.7731667,
-          40.3765,
-          18.94
-        ]
-      },
-      "id": "nc73674346"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1641448196570,
-        "updated": 1641480783903,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ajpb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ajpb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2022ajpb",
-        "ids": ",us7000g9h6,tx2022ajpb,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.08619141468,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.399718,
-          31.67129757,
-          6.671435547
-        ]
-      },
-      "id": "tx2022ajpb"
     }
   ],
   "bbox": [
-    -176.9406,
+    -177.5304,
     -59.7047,
     0,
     152.3652,
