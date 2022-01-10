@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641791932000,
+    "generated": 1641795759000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -14,27 +14,27 @@
       "properties": {
         "mag": 3.2,
         "place": "30 km SE of Mina, Nevada",
-        "time": 1641791377156,
-        "updated": 1641791681619,
+        "time": 1641791377600,
+        "updated": 1641793612107,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831449",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831449.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 158,
         "net": "nn",
         "code": "00831449",
         "ids": ",nn00831449,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.09,
-        "rms": 0.3241,
-        "gap": 56.58,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.068,
+        "rms": 0.1435,
+        "gap": 56.16,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.2 - 30 km SE of Mina, Nevada"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.868,
-          38.1932,
-          11.1
+          -117.8876,
+          38.1763,
+          7.2
         ]
       },
       "id": "nn00831449"
@@ -1488,46 +1488,6 @@
         ]
       },
       "id": "us7000gab8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "47 km SSE of Glacier View, Alaska",
-        "time": 1641705804051,
-        "updated": 1641708255040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eyy9rm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eyy9rm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022eyy9rm",
-        "ids": ",us7000gab2,ak022eyy9rm,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.92,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 47 km SSE of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.2743,
-          61.4175,
-          9.6
-        ]
-      },
-      "id": "ak022eyy9rm"
     }
   ],
   "bbox": [
