@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641788692000,
+    "generated": 1641791932000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "30 km SE of Mina, Nevada",
+        "time": 1641791377156,
+        "updated": 1641791681619,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00831449",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00831449.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "nn",
+        "code": "00831449",
+        "ids": ",nn00831449,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.09,
+        "rms": 0.3241,
+        "gap": 56.58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 30 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.868,
+          38.1932,
+          11.1
+        ]
+      },
+      "id": "nn00831449"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.94,
         "place": "7km W of Weitchpec, CA",
         "time": 1641784227530,
-        "updated": 1641787151094,
+        "updated": 1641791026040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73676346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73676346.geojson",
@@ -68,8 +108,8 @@
         "sig": 133,
         "net": "nc",
         "code": "73676346",
-        "ids": ",nc73676346,",
-        "sources": ",nc,",
+        "ids": ",nc73676346,us7000gagu,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.1757,
@@ -855,11 +895,11 @@
         "mag": 2.6,
         "place": "22 km N of Girdwood, Alaska",
         "time": 1641752706247,
-        "updated": 1641761414040,
+        "updated": 1641791752369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f6pard",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f6pard.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
