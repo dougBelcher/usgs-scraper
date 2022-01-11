@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1641878272000,
+    "generated": 1641882172000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "1 km S of Pāhala, Hawaii",
+        "time": 1641881962270,
+        "updated": 1641882158690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72865902",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72865902.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "72865902",
+        "ids": ",hv72865902,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 86,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.47917175293,
+          19.1906661987305,
+          35.9900016784668
+        ]
+      },
+      "id": "hv72865902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "3 km S of Lomita, California",
+        "time": 1641880042894,
+        "updated": 1641882124024,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gata",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gata.geojson",
+        "felt": 303,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 213,
+        "net": "us",
+        "code": "7000gata",
+        "ids": ",us7000gata,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.422,
+        "rms": 0.63,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km S of Lomita, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3163,
+          33.7625,
+          10.36
+        ]
+      },
+      "id": "us7000gata"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "70 km NNE of Aleneva, Alaska",
+        "time": 1641878716331,
+        "updated": 1641881918712,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ia1dkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ia1dkp.geojson",
+        "felt": 51,
+        "cdi": 3.6,
+        "mmi": 4.724,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 344,
+        "net": "ak",
+        "code": "022ia1dkp",
+        "ids": ",ak022ia1dkp,at00r5j5q7,us7000gat2,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 70 km NNE of Aleneva, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4695,
+          58.6498,
+          11.8
+        ]
+      },
+      "id": "ak022ia1dkp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,13 +175,13 @@
         "mag": 3.8,
         "place": "51 km SSW of Whites City, New Mexico",
         "time": 1641875822757,
-        "updated": 1641878256425,
+        "updated": 1641880563507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022asqe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022asqe.geojson",
         "felt": 5,
         "cdi": 3.4,
-        "mmi": 4.413,
+        "mmi": 4.313,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -70,7 +190,7 @@
         "code": "2022asqe",
         "ids": ",tx2022asqe,us7000gasm,",
         "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 11,
         "dmin": 0.02840300236,
         "rms": 0.2,
@@ -92,42 +212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "102 km NNW of Yakutat, Alaska",
-        "time": 1641875267420,
-        "updated": 1641875547796,
+        "mag": 2.6,
+        "place": "114 km NNW of Yakutat, Alaska",
+        "time": 1641875266622,
+        "updated": 1641880656040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022i9gftm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022i9gftm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gasl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gasl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022i9gftm",
-        "ids": ",ak022i9gftm,",
-        "sources": ",ak,",
-        "types": ",origin,",
+        "sig": 104,
+        "net": "us",
+        "code": "7000gasl",
+        "ids": ",ak022i9gftm,us7000gasl,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
+        "dmin": 0.42,
+        "rms": 0.44,
+        "gap": 97,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 102 km NNW of Yakutat, Alaska"
+        "title": "M 2.6 - 114 km NNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.4114,
-          60.3995,
-          30.9
+          -140.4667,
+          60.5016,
+          17.76
         ]
       },
-      "id": "ak022i9gftm"
+      "id": "us7000gasl"
     },
     {
       "type": "Feature",
@@ -175,13 +295,13 @@
         "mag": 3.5,
         "place": "55 km S of Whites City, New Mexico",
         "time": 1641874145241,
-        "updated": 1641877234530,
+        "updated": 1641881511760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022aspg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022aspg.geojson",
-        "felt": 4,
+        "felt": 3,
         "cdi": 2,
-        "mmi": 4.403,
+        "mmi": 4.288,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -415,17 +535,17 @@
         "mag": 6.6,
         "place": "48 km WNW of Pólis, Cyprus",
         "time": 1641863267981,
-        "updated": 1641878104584,
+        "updated": 1641882159416,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gaqu.geojson",
-        "felt": 369,
+        "felt": 395,
         "cdi": 7.6,
         "mmi": 5.416,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 951,
+        "sig": 970,
         "net": "us",
         "code": "7000gaqu",
         "ids": ",us7000gaqu,",
@@ -1253,19 +1373,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "5 km E of Assaria, Kansas",
+        "place": "Kansas",
         "time": 1641825340625,
-        "updated": 1641877837521,
+        "updated": 1641880285873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gajg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gajg.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 157,
+        "sig": 158,
         "net": "us",
         "code": "7000gajg",
         "ids": ",us7000gajg,",
@@ -1277,7 +1397,7 @@
         "gap": 104,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 5 km E of Assaria, Kansas"
+        "title": "M 3.1 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Antofagasta, Chile",
+        "place": "61 km NNE of Calama, Chile",
         "time": 1641797540074,
         "updated": 1641824696040,
         "tz": null,
@@ -1797,7 +1917,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Antofagasta, Chile"
+        "title": "M 4.1 - 61 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1848,46 +1968,6 @@
         ]
       },
       "id": "us7000gahf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "106 km ESE of Kokopo, Papua New Guinea",
-        "time": 1641792259317,
-        "updated": 1641814040040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gah8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gah8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gah8",
-        "ids": ",us7000gah8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.123,
-        "rms": 0.34,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 106 km ESE of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.1413,
-          -4.7535,
-          10
-        ]
-      },
-      "id": "us7000gah8"
     }
   ],
   "bbox": [
