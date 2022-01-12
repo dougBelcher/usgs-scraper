@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642011660000,
+    "generated": 1642014867000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74000001,
+        "place": "21 km N of Pāhala, Hawaii",
+        "time": 1642014664990,
+        "updated": 1642014856260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72869222",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72869222.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "hv",
+        "code": "72869222",
+        "ids": ",hv72869222,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.150000006,
+        "gap": 61,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 21 km N of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.479827880859,
+          19.400333404541,
+          6.67999982833862
+        ]
+      },
+      "id": "hv72869222"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
+        "mag": 2.54,
         "place": "5km S of Brawley, CA",
-        "time": 1641978363270,
-        "updated": 1641979029530,
+        "time": 1641978363170,
+        "updated": 1642013998030,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39909663",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39909663.geojson",
@@ -543,18 +583,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 99,
         "net": "ci",
         "code": "39909663",
         "ids": ",ci39909663,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.03649,
-        "rms": 0.28,
-        "gap": 88,
+        "nst": 45,
+        "dmin": 0.03913,
+        "rms": 0.29,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 5km S of Brawley, CA"
@@ -562,9 +602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.5348333,
-          32.9308333,
-          9.85
+          -115.535,
+          32.9341667,
+          11.04
         ]
       },
       "id": "ci39909663"
