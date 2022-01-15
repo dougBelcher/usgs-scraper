@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642241965000,
+    "generated": 1642245229000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,8 +12,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "5 km WNW of Mayagüez, Puerto Rico",
+        "time": 1642243381810,
+        "updated": 1642245068137,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gc81",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gc81.geojson",
+        "felt": 3,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000gc81",
+        "ids": ",us7000gc81,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.042,
+        "rms": 0.24,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 5 km WNW of Mayagüez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.189,
+          18.221,
+          31.66
+        ]
+      },
+      "id": "us7000gc81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
-        "place": "9 km SW of Gypsum, Kansas",
+        "place": "Kansas",
         "time": 1642236119406,
         "updated": 1642237308060,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 45,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SW of Gypsum, Kansas"
+        "title": "M 3.0 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us7000gby7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "96 km SE of Nikolski, Alaska",
-        "time": 1642157744746,
-        "updated": 1642165890040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gby3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gby3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000gby3",
-        "ids": ",us7000gby3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.894,
-        "rms": 0.59,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 96 km SE of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -167.9376,
-          52.2755,
-          36.09
-        ]
-      },
-      "id": "us7000gby3"
     }
   ],
   "bbox": [
