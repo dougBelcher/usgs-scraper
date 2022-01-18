@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642530115000,
+    "generated": 1642533282000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "42km W of Petrolia, CA",
+        "time": 1642524625330,
+        "updated": 1642533071577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73680281",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73680281.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "nc",
+        "code": "73680281",
+        "ids": ",nc73680281,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.3387,
+        "rms": 0.16,
+        "gap": 245,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 42km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.769,
+          40.3806667,
+          18.84
+        ]
+      },
+      "id": "nc73680281"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,12 +215,12 @@
         "mag": 2.65,
         "place": "17km SSW of Mariposa, CA",
         "time": 1642520956060,
-        "updated": 1642527056429,
+        "updated": 1642532860287,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73680231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73680231.geojson",
-        "felt": 3,
-        "cdi": 2.2,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -735,17 +775,17 @@
         "mag": 3.45,
         "place": "10km NNW of Idyllwild, CA",
         "time": 1642491555120,
-        "updated": 1642530015511,
+        "updated": 1642532803942,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39915287",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39915287.geojson",
-        "felt": 576,
+        "felt": 581,
         "cdi": 4.6,
         "mmi": 3.541,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 448,
+        "sig": 450,
         "net": "ci",
         "code": "39915287",
         "ids": ",ci39915287,us7000gctz,",
@@ -1012,10 +1052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "25km SW of Lompoc, CA",
-        "time": 1642478182990,
-        "updated": 1642478403652,
+        "mag": 2.65,
+        "place": "24km SW of Lompoc, CA",
+        "time": 1642478182820,
+        "updated": 1642532623454,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39915175",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39915175.geojson",
@@ -1023,28 +1063,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 108,
         "net": "ci",
         "code": "39915175",
         "ids": ",ci39915175,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.2644,
-        "rms": 0.25,
-        "gap": 214,
+        "nst": 31,
+        "dmin": 0.2576,
+        "rms": 0.19,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 25km SW of Lompoc, CA"
+        "title": "M 2.7 - 24km SW of Lompoc, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.6801667,
-          34.509,
-          0.99
+          -120.6706667,
+          34.5106667,
+          -0.05
         ]
       },
       "id": "ci39915175"
@@ -1533,7 +1573,7 @@
   "bbox": [
     -176.5306,
     -57.4097,
-    0.99,
+    -0.05,
     148.8926,
     58.2334,
     223.32
