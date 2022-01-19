@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642553815000,
+    "generated": 1642557535000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "7 km S of Guánica, Puerto Rico",
+        "time": 1642556802801,
+        "updated": 1642557353040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gd29",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gd29.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000gd29",
+        "ids": ",us7000gd29,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.145,
+        "rms": 0.29,
+        "gap": 213,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9041,
+          17.9066,
+          13.15
+        ]
+      },
+      "id": "us7000gd29"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 5,
         "place": "86 km N of Basco, Philippines",
         "time": 1642533006133,
-        "updated": 1642533999040,
+        "updated": 1642556791520,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gczf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gczf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000gczf",
         "ids": ",us7000gczf,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.801,
         "rms": 0.93,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000gczf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "11km E of Big Bear City, CA",
+        "time": 1642532351540,
+        "updated": 1642556857870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39915959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39915959.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "ci",
+        "code": "39915959",
+        "ids": ",ci39915959,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 77,
+        "dmin": 0.1122,
+        "rms": 0.12,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 11km E of Big Bear City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7276667,
+          34.2718333,
+          5.56
+        ]
+      },
+      "id": "ci39915959"
     },
     {
       "type": "Feature",
@@ -935,11 +1015,11 @@
         "mag": 3.45,
         "place": "10km NNW of Idyllwild, CA",
         "time": 1642491555120,
-        "updated": 1642553200116,
+        "updated": 1642554337308,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39915287",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39915287.geojson",
-        "felt": 591,
+        "felt": 592,
         "cdi": 4.6,
         "mmi": 3.541,
         "alert": null,
@@ -1368,86 +1448,6 @@
         ]
       },
       "id": "us7000gcs6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "227km W of Petrolia, CA",
-        "time": 1642469745440,
-        "updated": 1642500011817,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73679956",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73679956.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "nc",
-        "code": "73679956",
-        "ids": ",nc73679956,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 2,
-        "rms": 0.23,
-        "gap": 333,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 227km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -126.9576667,
-          40.434,
-          9.62
-        ]
-      },
-      "id": "nc73679956"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.54,
-        "place": "98 km NE of Punta Cana, Dominican Republic",
-        "time": 1642467799910,
-        "updated": 1642471963672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022018001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022018001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 193,
-        "net": "pr",
-        "code": "2022018001",
-        "ids": ",pr2022018001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.9503,
-        "rms": 0.58,
-        "gap": 262,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 98 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.812,
-          19.2748,
-          35
-        ]
-      },
-      "id": "pr2022018001"
     }
   ],
   "bbox": [
