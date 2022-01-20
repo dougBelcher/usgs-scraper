@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1642702802000,
+    "generated": 1642705982000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.36,
+        "place": "59 km N of San Antonio, Puerto Rico",
+        "time": 1642702915800,
+        "updated": 1642704237915,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022020002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022020002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "pr",
+        "code": "2022020002",
+        "ids": ",pr2022020002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.5624,
+        "rms": 0.41,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 59 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1846,
+          19.0251,
+          10
+        ]
+      },
+      "id": "pr2022020002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "238 km S of Chenega, Alaska",
+        "time": 1642702532498,
+        "updated": 1642702803398,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022xdk0n6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022xdk0n6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "022xdk0n6",
+        "ids": ",ak022xdk0n6,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 238 km S of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.1334,
+          57.9242,
+          91.9
+        ]
+      },
+      "id": "ak022xdk0n6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.49,
         "place": "16km WSW of Deep Springs, CA",
         "time": 1642702281710,
-        "updated": 1642702691235,
+        "updated": 1642704351645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73681106",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73681106.geojson",
@@ -28,8 +108,8 @@
         "sig": 95,
         "net": "nc",
         "code": "73681106",
-        "ids": ",nc73681106,",
-        "sources": ",nc,",
+        "ids": ",nc73681106,nn00832066,",
+        "sources": ",nc,nn,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 32,
         "dmin": 0.1381,
@@ -92,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "20 km NE of Cold Bay, Alaska",
+        "time": 1642698338765,
+        "updated": 1642705110040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdka",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdka.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000gdka",
+        "ids": ",us7000gdka,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 133,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 20 km NE of Cold Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.4868,
+          55.3076,
+          161.01
+        ]
+      },
+      "id": "us7000gdka"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "37 km SE of Mina, Nevada",
         "time": 1642697528489,
@@ -135,12 +255,12 @@
         "mag": 3.7,
         "place": "37 km SE of Mina, Nevada",
         "time": 1642693510479,
-        "updated": 1642700816291,
+        "updated": 1642704040140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00832045",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00832045.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 3.447,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +268,9 @@
         "sig": 211,
         "net": "nn",
         "code": "00832045",
-        "ids": ",us7000gdjx,nn00832045,",
-        "sources": ",us,nn,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",nn00832045,us7000gdjx,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 23,
         "dmin": 0.115,
         "rms": 0.1234,
@@ -292,39 +412,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "93 km E of Port-Olry, Vanuatu",
-        "time": 1642676289490,
-        "updated": 1642677406040,
+        "mag": 5.4,
+        "place": "91 km E of Port-Olry, Vanuatu",
+        "time": 1642676290086,
+        "updated": 1642705852445,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gdi9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gdi9.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 4.979,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 449,
         "net": "us",
         "code": "7000gdi9",
         "ids": ",us7000gdi9,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.871,
-        "rms": 1.18,
-        "gap": 52,
+        "dmin": 0.84,
+        "rms": 1.44,
+        "gap": 46,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 93 km E of Port-Olry, Vanuatu"
+        "title": "M 5.4 - 91 km E of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.9377,
-          -14.9375,
-          8.06
+          167.9209,
+          -14.9692,
+          10
         ]
       },
       "id": "us7000gdi9"
@@ -408,6 +528,46 @@
         ]
       },
       "id": "mb80536439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "27km ESE of Ridgecrest, CA",
+        "time": 1642672350400,
+        "updated": 1642704823267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39917967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39917967.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "ci",
+        "code": "39917967",
+        "ids": ",ci39917967,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.03329,
+        "rms": 0.13,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 27km ESE of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4053333,
+          35.5243333,
+          8.7
+        ]
+      },
+      "id": "ci39917967"
     },
     {
       "type": "Feature",
@@ -1253,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Sichuan-Gansu border region, China",
+        "place": "50 km W of Guangyuan, China",
         "time": 1642629157901,
         "updated": 1642632005040,
         "tz": null,
@@ -1277,7 +1437,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Sichuan-Gansu border region, China"
+        "title": "M 4.4 - 50 km W of Guangyuan, China"
       },
       "geometry": {
         "type": "Point",
