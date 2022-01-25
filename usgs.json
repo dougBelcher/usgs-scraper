@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643084484000,
+    "generated": 1643087664000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "36km W of Petrolia, CA",
+        "time": 1643085707870,
+        "updated": 1643086992016,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73682591",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73682591.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nc",
+        "code": "73682591",
+        "ids": ",nc73682591,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.3327,
+        "rms": 0.17,
+        "gap": 244,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 36km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7131653,
+          40.3069992,
+          16.75
+        ]
+      },
+      "id": "nc73682591"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 4.8,
         "place": "20 km W of Wagin, Australia",
         "time": 1643059489438,
-        "updated": 1643083281705,
+        "updated": 1643085602435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gep9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gep9.geojson",
-        "felt": 177,
+        "felt": 180,
         "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 450,
+        "sig": 452,
         "net": "us",
         "code": "7000gep9",
         "ids": ",us7000gep9,",
@@ -1768,92 +1808,12 @@
         ]
       },
       "id": "us7000gehv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.98,
-        "place": "18 km SW of San Rafael del Yuma, Dominican Republic",
-        "time": 1642999525580,
-        "updated": 1643003003882,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022024002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022024002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 244,
-        "net": "pr",
-        "code": "2022024002",
-        "ids": ",pr2022024002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.4682,
-        "rms": 0.14,
-        "gap": 258,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 18 km SW of San Rafael del Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8113,
-          18.3285,
-          143
-        ]
-      },
-      "id": "pr2022024002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "57 km SSE of Haines Junction, Canada",
-        "time": 1642998543761,
-        "updated": 1643001020502,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02213rga8s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02213rga8s.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "02213rga8s",
-        "ids": ",ak02213rga8s,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.09,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 57 km SSE of Haines Junction, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.9349,
-          60.3214,
-          6
-        ]
-      },
-      "id": "ak02213rga8s"
     }
   ],
   "bbox": [
     -176.9205,
     -58.6997,
-    6,
+    6.491479492,
     179.9901,
     63.3889,
     505.86
