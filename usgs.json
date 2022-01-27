@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643321714000,
+    "generated": 1643325391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "22 km WNW of Stanley, Idaho",
+        "time": 1643323689081,
+        "updated": 1643325089940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfpc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfpc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000gfpc",
+        "ids": ",mb80536999,us7000gfpc,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.938,
+        "rms": 1.03,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km WNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1777,
+          44.3215,
+          10
+        ]
+      },
+      "id": "us7000gfpc"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.79,
         "place": "12km SSW of Ferndale, CA",
         "time": 1643321278380,
-        "updated": 1643321591488,
+        "updated": 1643325206435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73683766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73683766.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 120,
+        "sig": 121,
         "net": "nc",
         "code": "73683766",
         "ids": ",nc73683766,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 20,
         "dmin": 0.01619,
         "rms": 0.08,
@@ -55,7 +95,7 @@
         "mag": 2.45,
         "place": "6km E of Covelo, CA",
         "time": 1643320868670,
-        "updated": 1643321171425,
+        "updated": 1643323578686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73683751",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73683751.geojson",
@@ -95,17 +135,17 @@
         "mag": 2.5,
         "place": "2 km NNW of Lakeline, Ohio",
         "time": 1643307005104,
-        "updated": 1643321388254,
+        "updated": 1643325046085,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfm3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfm3.geojson",
-        "felt": 15,
+        "felt": 17,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 102,
         "net": "us",
         "code": "7000gfm3",
         "ids": ",us7000gfm3,",
@@ -168,6 +208,46 @@
         ]
       },
       "id": "us7000gfk4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "10 km SSW of Kōya, Japan",
+        "time": 1643297107902,
+        "updated": 1643321805040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfk0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfk0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000gfk0",
+        "ids": ",us7000gfk0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.471,
+        "rms": 0.97,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 10 km SSW of Kōya, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5824,
+          34.1247,
+          53.36
+        ]
+      },
+      "id": "us7000gfk0"
     },
     {
       "type": "Feature",
@@ -248,6 +328,46 @@
         ]
       },
       "id": "us7000gfjv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "39 km SSW of Fisterra, Spain",
+        "time": 1643294647084,
+        "updated": 1643325273843,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfjt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfjt.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "us",
+        "code": "7000gfjt",
+        "ids": ",us7000gfjt,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.646,
+        "rms": 0.51,
+        "gap": 208,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 39 km SSW of Fisterra, Spain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.5026,
+          42.6012,
+          10
+        ]
+      },
+      "id": "us7000gfjt"
     },
     {
       "type": "Feature",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.87,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "7 km ENE of Pāhala, Hawaii",
         "time": 1643262042520,
         "updated": 1643320518343,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Island of Hawaii, Hawaii"
+        "title": "M 2.9 - 7 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -888,6 +1008,46 @@
         ]
       },
       "id": "us7000gfgq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1643255260300,
+        "updated": 1643323849210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91047808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91047808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "av",
+        "code": "91047808",
+        "ids": ",av91047808,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 332,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.291666666667,
+          52.0211666666667,
+          1.59
+        ]
+      },
+      "id": "av91047808"
     },
     {
       "type": "Feature",
@@ -1048,6 +1208,46 @@
         ]
       },
       "id": "us7000gffj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1643248908310,
+        "updated": 1643323124420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91047793",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91047793.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "av",
+        "code": "91047793",
+        "ids": ",av91047793,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.05,
+        "gap": 335,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.262333333333,
+          52.0216666666667,
+          1.11
+        ]
+      },
+      "id": "av91047793"
     },
     {
       "type": "Feature",
