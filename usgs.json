@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643281990000,
+    "generated": 1643286490000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.58,
+        "place": "13km NNW of Grapevine, CA",
+        "time": 1643281938910,
+        "updated": 1643282430632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39924911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39924911.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "ci",
+        "code": "39924911",
+        "ids": ",ci39924911,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 57,
+        "dmin": 0.1295,
+        "rms": 0.31,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 13km NNW of Grapevine, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.99,
+          35.045,
+          7.81
+        ]
+      },
+      "id": "ci39924911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "63 km WNW of Nikiski, Alaska",
-        "time": 1643281392896,
-        "updated": 1643281659280,
+        "place": "65 km WNW of Nikiski, Alaska",
+        "time": 1643281392773,
+        "updated": 1643282290910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02218u2t37",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02218u2t37.geojson",
@@ -33,18 +73,18 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.63,
+        "rms": 0.62,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 63 km WNW of Nikiski, Alaska"
+        "title": "M 2.5 - 65 km WNW of Nikiski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.3728,
-          60.9125,
-          108.6
+          -152.3918,
+          60.9138,
+          110
         ]
       },
       "id": "ak02218u2t37"
@@ -55,12 +95,12 @@
         "mag": 2.84,
         "place": "12km NNW of Grapevine, CA",
         "time": 1643280761210,
-        "updated": 1643281784376,
+        "updated": 1643283633827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39924879",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39924879.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -95,17 +135,17 @@
         "mag": 3.37,
         "place": "13km NNW of Grapevine, CA",
         "time": 1643280682340,
-        "updated": 1643281985768,
+        "updated": 1643286388322,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39924871",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39924871.geojson",
-        "felt": 3,
+        "felt": 8,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 176,
+        "sig": 178,
         "net": "ci",
         "code": "39924871",
         "ids": ",ci39924871,us7000gfii,",
@@ -128,6 +168,46 @@
         ]
       },
       "id": "ci39924871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "99 km SE of Sand Point, Alaska",
+        "time": 1643280484978,
+        "updated": 1643282091040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfih",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfih.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.948,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000gfih",
+        "ids": ",us7000gfih,ak02218tr09d,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.217,
+        "rms": 0.98,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 99 km SE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.5767,
+          54.6141,
+          26.87
+        ]
+      },
+      "id": "us7000gfih"
     },
     {
       "type": "Feature",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "ak022177ezam"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.64,
-        "place": "8 km E of Pāhala, Hawaii",
-        "time": 1643197119760,
-        "updated": 1643259208001,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72890502",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72890502.geojson",
-        "felt": 28,
-        "cdi": 3.3,
-        "mmi": 4.513,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 213,
-        "net": "hv",
-        "code": "72890502",
-        "ids": ",hv72890502,us7000gf8l,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 160,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 8 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.399666666667,
-          19.1958333333333,
-          34.13
-        ]
-      },
-      "id": "hv72890502"
     }
   ],
   "bbox": [
