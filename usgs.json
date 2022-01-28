@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643387131000,
+    "generated": 1643390294000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1643388759856,
+        "updated": 1643390139040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfyf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gfyf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gfyf",
+        "ids": ",us7000gfyf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 7.543,
+        "rms": 0.59,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.7788,
+          -58.9726,
+          94.25
+        ]
+      },
+      "id": "us7000gfyf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.48,
         "place": "5km E of Covelo, CA",
         "time": 1643377140240,
-        "updated": 1643385495093,
+        "updated": 1643390081222,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73684891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73684891.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "73684891",
         "ids": ",nc73684891,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.09476,
         "rms": 0.11,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc73684891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "172 km W of Fort McPherson, Canada",
+        "time": 1643376505660,
+        "updated": 1643388054440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221aiyesl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0221aiyesl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.675,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "0221aiyesl",
+        "ids": ",ak0221aiyesl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 172 km W of Fort McPherson, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -138.8971,
+          67.3602,
+          40.5
+        ]
+      },
+      "id": "ak0221aiyesl"
     },
     {
       "type": "Feature",
@@ -175,17 +255,17 @@
         "mag": 3.06,
         "place": "2 km WNW of Cole, Oklahoma",
         "time": 1643372104636,
-        "updated": 1643386543789,
+        "updated": 1643388273512,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022bygv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022bygv.geojson",
-        "felt": 33,
+        "felt": 34,
         "cdi": 6.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 164,
+        "sig": 165,
         "net": "ok",
         "code": "2022bygv",
         "ids": ",ok2022bygv,us7000gftw,",
@@ -255,7 +335,7 @@
         "mag": 2.79,
         "place": "6km S of Walker, CA",
         "time": 1643369996080,
-        "updated": 1643377272290,
+        "updated": 1643389888367,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73684846",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73684846.geojson",
@@ -268,8 +348,8 @@
         "sig": 120,
         "net": "nc",
         "code": "73684846",
-        "ids": ",nc73684846,us7000gftq,",
-        "sources": ",nc,us,",
+        "ids": ",nc73684846,nn00832679,us7000gftq,",
+        "sources": ",nc,nn,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 8,
         "dmin": 0.05992,
@@ -415,11 +495,11 @@
         "mag": 2.49,
         "place": "10km NW of San Jacinto, CA",
         "time": 1643366407940,
-        "updated": 1643377247395,
+        "updated": 1643389545404,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39926031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39926031.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1612,10 +1692,10 @@
   ],
   "bbox": [
     -177.789,
-    -56.8013,
+    -58.9726,
     -1.14,
     179.7909,
-    59.7737,
+    67.3602,
     641.93
   ]
 }
