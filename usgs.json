@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1643941070000,
+    "generated": 1643944480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.94,
+        "mag": 2.46,
+        "place": "10 km E of Pāhala, Hawaii",
+        "time": 1643943752390,
+        "updated": 1643944322040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72901952",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72901952.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "72901952",
+        "ids": ",us7000ghsr,hv72901952,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 155,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.378173828125,
+          19.2198333740234,
+          31.1599998474121
+        ]
+      },
+      "id": "hv72901952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "6 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1643940931210,
+        "updated": 1643943004710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71332668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71332668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71332668",
+        "ids": ",pr71332668,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 192,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8673333333333,
+          17.92,
+          16.51
+        ]
+      },
+      "id": "pr71332668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
         "place": "22 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1643940436050,
-        "updated": 1643940856040,
+        "time": 1643940436100,
+        "updated": 1643942134240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72901872",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72901872.geojson",
@@ -23,31 +103,71 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 133,
+        "sig": 146,
         "net": "hv",
         "code": "72901872",
         "ids": ",hv72901872,us7000ghsf,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
+        "nst": 50,
         "dmin": null,
-        "rms": 0.25999999,
-        "gap": 73,
+        "rms": 0.17,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 22 km E of Honaunau-Napoopoo, Hawaii"
+        "title": "M 3.1 - 22 km E of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.65299987793,
-          19.480167388916,
-          -0.0500000007450581
+          -155.651,
+          19.4771666666667,
+          4.2
         ]
       },
       "id": "hv72901872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Kermadec Islands region",
+        "time": 1643939722951,
+        "updated": 1643941547040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ghsh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ghsh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000ghsh",
+        "ids": ",us7000ghsh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.852,
+        "rms": 0.94,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.9606,
+          -29.4204,
+          10
+        ]
+      },
+      "id": "us7000ghsh"
     },
     {
       "type": "Feature",
@@ -88,6 +208,46 @@
         ]
       },
       "id": "us7000ghsc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "4 km SSE of Indios, Puerto Rico",
+        "time": 1643939012460,
+        "updated": 1643942510390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71332663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71332663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71332663",
+        "ids": ",pr71332663,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": null,
+        "rms": 0.21,
+        "gap": 170,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8105,
+          17.9575,
+          15
+        ]
+      },
+      "id": "pr71332663"
     },
     {
       "type": "Feature",
@@ -135,7 +295,7 @@
         "mag": 5.4,
         "place": "98 km SSE of King Cove, Alaska",
         "time": 1643932412143,
-        "updated": 1643940214180,
+        "updated": 1643941149040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ghrq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ghrq.geojson",
@@ -248,6 +408,46 @@
         ]
       },
       "id": "us7000ghr3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.49,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1643921372920,
+        "updated": 1643942614980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91478356",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91478356.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 187,
+        "net": "av",
+        "code": "91478356",
+        "ids": ",av91478356,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 314,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.250833333333,
+          51.958,
+          4.15
+        ]
+      },
+      "id": "av91478356"
     },
     {
       "type": "Feature",
@@ -413,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "2 km W of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1643908239550,
         "updated": 1643913603957,
         "tz": null,
@@ -437,7 +637,7 @@
         "gap": 153,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km W of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "off the coast of Central America",
+        "place": "121 km SSW of Puerto El Triunfo, El Salvador",
         "time": 1643905074753,
         "updated": 1643921811040,
         "tz": null,
@@ -597,7 +797,7 @@
         "gap": 160,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - off the coast of Central America"
+        "title": "M 4.5 - 121 km SSW of Puerto El Triunfo, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -1728,94 +1928,14 @@
         ]
       },
       "id": "us7000ghj5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "127 km NE of Iquique, Chile",
-        "time": 1643857918099,
-        "updated": 1643860257866,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ghiy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ghiy.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000ghiy",
-        "ids": ",us7000ghiy,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.381,
-        "rms": 0.56,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 127 km NE of Iquique, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3788,
-          -19.3278,
-          112.62
-        ]
-      },
-      "id": "us7000ghiy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "218 km SW of Yakutat, Alaska",
-        "time": 1643856173043,
-        "updated": 1643873260822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ghis",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ghis.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "7000ghis",
-        "ids": ",ak0221k9ps0w,us7000ghis,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.903,
-        "rms": 0.36,
-        "gap": 138,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 218 km SW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.6078,
-          58.2719,
-          10
-        ]
-      },
-      "id": "us7000ghis"
     }
   ],
   "bbox": [
-    -176.9331,
+    -176.9606,
     -34.6224,
     -0.56,
     178.33366666667,
-    58.2719,
+    56.3271,
     375.63
   ]
 }
