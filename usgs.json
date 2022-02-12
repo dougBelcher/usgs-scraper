@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644671781000,
+    "generated": 1644675269000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "105 km NNW of San Antonio, Puerto Rico",
-        "time": 1644670480742,
-        "updated": 1644671338040,
+        "mag": 4.3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1644671478650,
+        "updated": 1644672706040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gk9v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gk9v.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gk9x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gk9x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.504,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000gk9x",
+        "ids": ",us7000gk9x,ak0221zbwycq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.861,
+        "rms": 0.54,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8855,
+          51.1184,
+          35
+        ]
+      },
+      "id": "us7000gk9x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.81,
+        "place": "104 km NNW of San Antonio, Puerto Rico",
+        "time": 1644670484090,
+        "updated": 1644673645645,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022043000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022043000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000gk9v",
-        "ids": ",us7000gk9v,",
-        "sources": ",us,",
+        "sig": 223,
+        "net": "pr",
+        "code": "2022043000",
+        "ids": ",us7000gk9v,pr2022043000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.967,
-        "rms": 0.37,
-        "gap": 186,
-        "magType": "ml",
+        "nst": 28,
+        "dmin": 0.9721,
+        "rms": 0.28,
+        "gap": 258,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 105 km NNW of San Antonio, Puerto Rico"
+        "title": "M 3.8 - 104 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.3555,
-          19.4115,
+          -67.3958,
+          19.397,
           10
         ]
       },
-      "id": "us7000gk9v"
+      "id": "pr2022043000"
     },
     {
       "type": "Feature",
@@ -92,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.58,
+        "place": "5 km SW of La Parguera, Puerto Rico",
+        "time": 1644669815190,
+        "updated": 1644674348990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71334418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71334418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "pr",
+        "code": "71334418",
+        "ids": ",pr71334418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 237,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km SW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0871666666667,
+          17.9413333333333,
+          11.41
+        ]
+      },
+      "id": "pr71334418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
-        "place": "western Texas",
+        "place": "54 km S of Whites City, New Mexico",
         "time": 1644666601330,
         "updated": 1644668227040,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +215,12 @@
         "mag": 2.5,
         "place": "4 km ENE of Hope, Kansas",
         "time": 1644666477290,
-        "updated": 1644667303527,
+        "updated": 1644674102763,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gk99",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gk99.geojson",
-        "felt": 2,
-        "cdi": 3.5,
+        "felt": 3,
+        "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -575,11 +655,11 @@
         "mag": 3.06,
         "place": "2km NNE of San Leandro, CA",
         "time": 1644635622080,
-        "updated": 1644671489934,
+        "updated": 1644672374109,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73691736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73691736.geojson",
-        "felt": 1085,
+        "felt": 1086,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "67 km WSW of Basco, Philippines",
+        "place": "Batan Islands region, Philippines",
         "time": 1644626468560,
         "updated": 1644627649040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 46,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 67 km WSW of Basco, Philippines"
+        "title": "M 5.2 - Batan Islands region, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1408,133 +1488,13 @@
         ]
       },
       "id": "ci40183056"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "203 km ESE of Kirakira, Solomon Islands",
-        "time": 1644588576033,
-        "updated": 1644670641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gjzj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gjzj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000gjzj",
-        "ids": ",us7000gjzj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.015,
-        "rms": 0.48,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 203 km ESE of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          163.5586,
-          -11.3217,
-          10
-        ]
-      },
-      "id": "us7000gjzj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1644587000813,
-        "updated": 1644594936996,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022cxyu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022cxyu.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "tx",
-        "code": "2022cxyu",
-        "ids": ",tx2022cxyu,us7000gjze,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.09351361519,
-        "rms": 0.3,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3910809,
-          31.6685959,
-          6.979931641
-        ]
-      },
-      "id": "tx2022cxyu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "56 km NNE of Angoram, Papua New Guinea",
-        "time": 1644586949690,
-        "updated": 1644588999040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gjzg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gjzg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gjzg",
-        "ids": ",us7000gjzg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 13.347,
-        "rms": 0.32,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 56 km NNE of Angoram, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1881,
-          -3.5657,
-          10
-        ]
-      },
-      "id": "us7000gjzg"
     }
   ],
   "bbox": [
     -178.4422,
     -23.4352,
     2.79,
-    178.32316666667,
+    178.8855,
     59.4445,
     558.46
   ]
