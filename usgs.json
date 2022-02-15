@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1644945297000,
+    "generated": 1644949190000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 35
   },
   "features": [
     {
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "9 km NW of Nordheim, Texas",
+        "place": "Southern Texas",
         "time": 1644912463612,
         "updated": 1644936392480,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 190,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.8 - 9 km NW of Nordheim, Texas"
+        "title": "M 2.8 - Southern Texas"
       },
       "geometry": {
         "type": "Point",
@@ -415,7 +415,7 @@
         "mag": 5,
         "place": "39 km NNE of Anse-Bertrand, Guadeloupe",
         "time": 1644912180150,
-        "updated": 1644941683191,
+        "updated": 1644948104140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gl0d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gl0d.geojson",
@@ -535,12 +535,12 @@
         "mag": 3.4,
         "place": "31 km SE of Mina, Nevada",
         "time": 1644903294330,
-        "updated": 1644905045040,
+        "updated": 1644946539955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00833880",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00833880.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -548,9 +548,9 @@
         "sig": 178,
         "net": "nn",
         "code": "00833880",
-        "ids": ",us7000gkzl,nn00833880,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00833880,us7000gkzl,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.06,
         "rms": 0.178,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "24 km SSE of Shagonar, Russia",
+        "place": "southwestern Siberia, Russia",
         "time": 1644901310226,
         "updated": 1644904736040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 24 km SSE of Shagonar, Russia"
+        "title": "M 4.9 - southwestern Siberia, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Puerto Rico region",
+        "place": "0 km NE of Palomas, Puerto Rico",
         "time": 1644890919550,
         "updated": 1644894814010,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 0 km NE of Palomas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -894,12 +894,12 @@
       "properties": {
         "mag": 3.2,
         "place": "14 km ENE of Gardendale, Texas",
-        "time": 1644881368224,
-        "updated": 1644934893744,
+        "time": 1644881368209,
+        "updated": 1644948392054,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022deeq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022deeq.geojson",
-        "felt": 53,
+        "felt": 54,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -911,10 +911,10 @@
         "ids": ",us7000gkx4,tx2022deeq,",
         "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.06172241239,
+        "nst": 19,
+        "dmin": 0.06351303581,
         "rms": 0.1,
-        "gap": 61,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.2 - 14 km ENE of Gardendale, Texas"
@@ -923,8 +923,8 @@
         "type": "Point",
         "coordinates": [
           -102.2371618,
-          32.06085205,
-          8.339070638
+          32.06268311,
+          8.436889647999998
         ]
       },
       "id": "tx2022deeq"
@@ -1255,7 +1255,7 @@
         "mag": 5.7,
         "place": "208 km W of Olonkinbyen, Svalbard and Jan Mayen",
         "time": 1644870501259,
-        "updated": 1644934594809,
+        "updated": 1644948389040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gkvb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gkvb.geojson",
@@ -1270,7 +1270,7 @@
         "code": "7000gkvb",
         "ids": ",us7000gkvb,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 2.543,
         "rms": 0.63,
@@ -1408,126 +1408,6 @@
         ]
       },
       "id": "us7000gkuv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "55 km NNE of Chenega, Alaska",
-        "time": 1644862339103,
-        "updated": 1644863394040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02222pz17q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02222pz17q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "02222pz17q",
-        "ids": ",us7000gkuk,ak02222pz17q,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 55 km NNE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.6937,
-          60.5417,
-          13.7
-        ]
-      },
-      "id": "ak02222pz17q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "45 km NW of Toyah, Texas",
-        "time": 1644861180422,
-        "updated": 1644862847040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ddtn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ddtn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2022ddtn",
-        "ids": ",us7000gkt5,tx2022ddtn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.08441163983,
-        "rms": 0.2,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 45 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.114378,
-          31.61975521,
-          6.131567383
-        ]
-      },
-      "id": "tx2022ddtn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "off the coast of Central America",
-        "time": 1644859931724,
-        "updated": 1644862381040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gksz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gksz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gksz",
-        "ids": ",us7000gksz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.371,
-        "rms": 1.01,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - off the coast of Central America"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.001,
-          3.3965,
-          10
-        ]
-      },
-      "id": "us7000gksz"
     }
   ],
   "bbox": [
