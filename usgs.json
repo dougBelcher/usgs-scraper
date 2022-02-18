@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645158150000,
+    "generated": 1645161297000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 5.1,
         "place": "38 km ESE of Ishinomaki, Japan",
         "time": 1645152908125,
-        "updated": 1645157262088,
+        "updated": 1645158400815,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glv1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glv1.geojson",
-        "felt": 1,
-        "cdi": 2.9,
+        "felt": 2,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 401,
         "net": "us",
         "code": "7000glv1",
         "ids": ",us7000glv1,",
@@ -295,11 +295,11 @@
         "mag": 3.54,
         "place": "2 km S of Pāhala, Hawaii",
         "time": 1645138177160,
-        "updated": 1645146178324,
+        "updated": 1645158216058,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72920752",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72920752.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 3.8,
         "mmi": 3.976,
         "alert": null,
@@ -310,7 +310,7 @@
         "code": "72920752",
         "ids": ",hv72920752,us7000glu7,",
         "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,shakemap,",
         "nst": 56,
         "dmin": null,
         "rms": 0.11,
@@ -532,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "Mona Passage",
+        "time": 1645136300870,
+        "updated": 1645137999910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71335378",
+        "ids": ",pr71335378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": 264,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - Mona Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0548333333333,
+          18.9403333333333,
+          9.98
+        ]
+      },
+      "id": "pr71335378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.52,
         "place": "6 km NW of Medford, Oklahoma",
         "time": 1645135198640,
@@ -695,12 +735,12 @@
         "mag": 5.1,
         "place": "239 km S of Banjar, Indonesia",
         "time": 1645127459068,
-        "updated": 1645135640040,
+        "updated": 1645160089123,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glsh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glsh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -710,7 +750,7 @@
         "code": "7000glsh",
         "ids": ",us7000glsh,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.722,
         "rms": 1,
@@ -735,7 +775,7 @@
         "mag": 3.25,
         "place": "29 km NW of Stanley, Idaho",
         "time": 1645121762830,
-        "updated": 1645132197219,
+        "updated": 1645158800957,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80538624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80538624.geojson",
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "pr71335248"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Banda Sea",
-        "time": 1645072755695,
-        "updated": 1645075807040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glki",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glki.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000glki",
-        "ids": ",us7000glki,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.053,
-        "rms": 0.56,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.6312,
-          -6.1872,
-          421.29
-        ]
-      },
-      "id": "us7000glki"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "8 km ESE of Huambo, Peru",
-        "time": 1645072195920,
-        "updated": 1645145935040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glkg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glkg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000glkg",
-        "ids": ",us7000glkg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.046,
-        "rms": 0.55,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 8 km ESE of Huambo, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.0396,
-          -15.7724,
-          127.95
-        ]
-      },
-      "id": "us7000glkg"
     }
   ],
   "bbox": [
@@ -1576,6 +1536,6 @@
     0,
     142.6135,
     63.576,
-    421.29
+    323.46
   ]
 }
