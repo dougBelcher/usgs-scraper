@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645218875000,
+    "generated": 1645222680000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "64 km SW of Tari, Papua New Guinea",
+        "time": 1645220379808,
+        "updated": 1645221708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gm2n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gm2n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000gm2n",
+        "ids": ",us7000gm2n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 10.81,
+        "rms": 1.31,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 64 km SW of Tari, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5646,
+          -6.2812,
+          10
+        ]
+      },
+      "id": "us7000gm2n"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "5 km SSW of Indios, Puerto Rico",
         "time": 1645216353720,
-        "updated": 1645217312140,
+        "updated": 1645222375683,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335568",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335568.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71335568",
         "ids": ",pr71335568,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": null,
         "rms": 0.21,
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "99 km S of La Libertad, El Salvador",
+        "time": 1645213884053,
+        "updated": 1645222394040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gm1p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gm1p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000gm1p",
+        "ids": ",us7000gm1p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.059,
+        "rms": 0.55,
+        "gap": 189,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 99 km S of La Libertad, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4082,
+          12.5887,
+          36.24
+        ]
+      },
+      "id": "us7000gm1p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.66,
         "place": "4 km SSW of Indios, Puerto Rico",
         "time": 1645212166940,
-        "updated": 1645214202160,
+        "updated": 1645219375040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71335533",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71335533.geojson",
@@ -108,8 +188,8 @@
         "sig": 109,
         "net": "pr",
         "code": "71335533",
-        "ids": ",pr71335533,",
-        "sources": ",pr,",
+        "ids": ",us7000gm1n,pr71335533,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": null,
@@ -572,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
-        "place": "1 km SE of Pāhala, Hawaii",
-        "time": 1645186690090,
-        "updated": 1645187401688,
+        "mag": 3,
+        "place": "1 km SSE of Pāhala, Hawaii",
+        "time": 1645186690050,
+        "updated": 1645219308240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72921172",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72921172.geojson",
@@ -583,28 +663,28 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 138,
         "net": "hv",
         "code": "72921172",
         "ids": ",hv72921172,us7000glxe,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
+        "nst": 56,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 143,
+        "rms": 0.12,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km SE of Pāhala, Hawaii"
+        "title": "M 3.0 - 1 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.467163085938,
-          19.1944999694824,
-          34.310001373291
+          -155.474833333333,
+          19.1903333333333,
+          34.6
         ]
       },
       "id": "hv72921172"
@@ -1252,6 +1332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1645151375549,
+        "updated": 1645221638040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000glxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000glxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000glxl",
+        "ids": ",us7000glxl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.667,
+        "rms": 0.62,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.5279,
+          -56.6481,
+          42.04
+        ]
+      },
+      "id": "us7000glxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "42 km SSW of Shizunai-furukawachō, Japan",
         "time": 1645149101311,
@@ -1688,94 +1808,14 @@
         ]
       },
       "id": "pr71335378"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "6 km NW of Medford, Oklahoma",
-        "time": 1645135198640,
-        "updated": 1645136012767,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022djoe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022djoe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ok",
-        "code": "2022djoe",
-        "ids": ",ok2022djoe,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km NW of Medford, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.78216667,
-          36.854,
-          7.5
-        ]
-      },
-      "id": "ok2022djoe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1645134646617,
-        "updated": 1645142065447,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gltf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gltf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.933,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000gltf",
-        "ids": ",us7000gltf,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.275,
-        "rms": 1.35,
-        "gap": 146,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.595,
-          -30.3992,
-          323.46
-        ]
-      },
-      "id": "us7000gltf"
     }
   ],
   "bbox": [
-    -178.595,
+    -155.48384094238,
     -59.8322,
     0,
     178.2643,
     70.7198,
-    323.46
+    225.66
   ]
 }
