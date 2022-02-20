@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645363023000,
+    "generated": 1645366523000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1645364155607,
+        "updated": 1645364651040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmfl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmfl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000gmfl",
+        "ids": ",us7000gmfl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.099,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3841,
+          31.6593,
+          5
+        ]
+      },
+      "id": "us7000gmfl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
         "place": "30 km SW of Skwentna, Alaska",
         "time": 1645361895813,
-        "updated": 1645362794102,
+        "updated": 1645366221549,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222cjwd3a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222cjwd3a.geojson",
-        "felt": 52,
+        "felt": 73,
         "cdi": 3.8,
         "mmi": 2.885,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 291,
+        "sig": 299,
         "net": "ak",
         "code": "0222cjwd3a",
         "ids": ",ak0222cjwd3a,us7000gmf9,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.43,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0222cjwd3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "61 km NE of Santa Monica, Philippines",
+        "time": 1645361327533,
+        "updated": 1645364094040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmff",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmff.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000gmff",
+        "ids": ",us7000gmff,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.41,
+        "rms": 0.55,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 61 km NE of Santa Monica, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4558,
+          10.3896,
+          10
+        ]
+      },
+      "id": "us7000gmff"
     },
     {
       "type": "Feature",
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us7000gmf6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "14 km W of Atambua, Indonesia",
+        "time": 1645360676180,
+        "updated": 1645363597040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmf4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmf4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gmf4",
+        "ids": ",us7000gmf4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.816,
+        "rms": 0.52,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 14 km W of Atambua, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.7651,
+          -9.0985,
+          35
+        ]
+      },
+      "id": "us7000gmf4"
     },
     {
       "type": "Feature",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "43 km NNE of Otra Banda, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1645351780775,
         "updated": 1645352534040,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 181,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 43 km NNE of Otra Banda, Dominican Republic"
+        "title": "M 3.2 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "3 km S of Maria Antonia, Puerto Rico",
         "time": 1645346598980,
         "updated": 1645358992031,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 3 km S of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -935,17 +1055,17 @@
         "mag": 2.83,
         "place": "9km N of San Juan Bautista, CA",
         "time": 1645332588100,
-        "updated": 1645362456534,
+        "updated": 1645363145467,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73695371",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73695371.geojson",
-        "felt": 13,
-        "cdi": 3.1,
+        "felt": 14,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 127,
+        "sig": 128,
         "net": "nc",
         "code": "73695371",
         "ids": ",nc73695371,us7000gmcn,",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "37 km ESE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1645320204506,
         "updated": 1645321995040,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 58.34,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 37 km ESE of Mina, Nevada"
+        "title": "M 2.5 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Central Alaska",
+        "place": "48 km WNW of Lake Louise, Alaska",
         "time": 1645306004637,
         "updated": 1645311973040,
         "tz": null,
@@ -1717,7 +1837,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Central Alaska"
+        "title": "M 3.0 - 48 km WNW of Lake Louise, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1848,52 +1968,12 @@
         ]
       },
       "id": "us7000gm89"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "2km SW of Anderson Springs, CA",
-        "time": 1645279844160,
-        "updated": 1645320130096,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73695131",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73695131.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "73695131",
-        "ids": ",nc73695131,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.005828,
-        "rms": 0.06,
-        "gap": 25,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2km SW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7056667,
-          38.7651667,
-          2.32
-        ]
-      },
-      "id": "nc73695131"
     }
   ],
   "bbox": [
     -175.5276,
     -56.6291,
-    2.32,
+    2.42,
     154.8729,
     69.6824,
     312.11
