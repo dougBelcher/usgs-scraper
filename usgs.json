@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645359963000,
+    "generated": 1645363023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "30 km SW of Skwentna, Alaska",
+        "time": 1645361895813,
+        "updated": 1645362794102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222cjwd3a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222cjwd3a.geojson",
+        "felt": 52,
+        "cdi": 3.8,
+        "mmi": 2.885,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 291,
+        "net": "ak",
+        "code": "0222cjwd3a",
+        "ids": ",ak0222cjwd3a,us7000gmf9,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 30 km SW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7999,
+          61.7987,
+          108
+        ]
+      },
+      "id": "ak0222cjwd3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "35 km NE of Al Kūt, Iraq",
+        "time": 1645361127683,
+        "updated": 1645362144040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmf6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmf6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000gmf6",
+        "ids": ",us7000gmf6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.434,
+        "rms": 0.52,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 35 km NE of Al Kūt, Iraq"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1203,
+          32.699,
+          10
+        ]
+      },
+      "id": "us7000gmf6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +135,17 @@
         "mag": 5.3,
         "place": "109 km SE of Perryville, Alaska",
         "time": 1645357628904,
-        "updated": 1645359179040,
+        "updated": 1645362180043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222cj8k1s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222cj8k1s.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": 3.68,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 432,
+        "sig": 433,
         "net": "ak",
         "code": "0222cj8k1s",
         "ids": ",ak0222cj8k1s,at00r7lq2n,us7000gmev,",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "us7000gmer"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "6 km SSE of Salinas, Puerto Rico",
+        "time": 1645354340670,
+        "updated": 1645360174580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71336083",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71336083.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "pr",
+        "code": "71336083",
+        "ids": ",pr71336083,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": null,
+        "rms": 0.24,
+        "gap": 185,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km SSE of Salinas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2768333333333,
+          17.9258333333333,
+          7.55
+        ]
+      },
+      "id": "pr71336083"
     },
     {
       "type": "Feature",
@@ -293,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "Dominican Republic region",
+        "place": "43 km NNE of Otra Banda, Dominican Republic",
         "time": 1645351780775,
         "updated": 1645352534040,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": 181,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Dominican Republic region"
+        "title": "M 3.2 - 43 km NNE of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "3 km S of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1645346598980,
         "updated": 1645358992031,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km S of Maria Antonia, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +895,7 @@
         "mag": 3.1,
         "place": "18 km SW of Tyonek, Alaska",
         "time": 1645333503039,
-        "updated": 1645353237635,
+        "updated": 1645362576526,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222cfexzq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222cfexzq.geojson",
@@ -815,11 +935,11 @@
         "mag": 2.83,
         "place": "9km N of San Juan Bautista, CA",
         "time": 1645332588100,
-        "updated": 1645340714421,
+        "updated": 1645362456534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73695371",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73695371.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1053,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Nevada",
+        "place": "37 km ESE of Mina, Nevada",
         "time": 1645320204506,
         "updated": 1645321995040,
         "tz": null,
@@ -1077,7 +1197,7 @@
         "gap": 58.34,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Nevada"
+        "title": "M 2.5 - 37 km ESE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "48 km WNW of Lake Louise, Alaska",
+        "place": "Central Alaska",
         "time": 1645306004637,
         "updated": 1645311973040,
         "tz": null,
@@ -1597,7 +1717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 48 km WNW of Lake Louise, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
