@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645413464000,
+    "generated": 1645417369000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 56
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "29 km WNW of Anchor Point, Alaska",
+        "time": 1645415755757,
+        "updated": 1645417208175,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222e2294h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222e2294h.geojson",
+        "felt": 17,
+        "cdi": 3.4,
+        "mmi": 3.063,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 252,
+        "net": "ak",
+        "code": "0222e2294h",
+        "ids": ",ak0222e2294h,at00r7myx6,us7000gmjq,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 29 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.3052,
+          59.8892,
+          84.5
+        ]
+      },
+      "id": "ak0222e2294h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "36 km SW of Blenheim, New Zealand",
+        "time": 1645412804880,
+        "updated": 1645417245358,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmji",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmji.geojson",
+        "felt": 35,
+        "cdi": 5.9,
+        "mmi": 5.016,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 437,
+        "net": "us",
+        "code": "7000gmji",
+        "ids": ",us7000gmji,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.594,
+        "rms": 1.16,
+        "gap": 51,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 36 km SW of Blenheim, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.6994,
+          -41.7892,
+          30.49
+        ]
+      },
+      "id": "us7000gmji"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
-        "place": "76 km SSW of Unalaska, Alaska",
-        "time": 1645410785997,
-        "updated": 1645413302471,
+        "place": "81 km SSW of Unalaska, Alaska",
+        "time": 1645410783809,
+        "updated": 1645414104801,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmjh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmjh.geojson",
@@ -32,19 +112,19 @@
         "sources": ",us,ak,at,ak,",
         "types": ",associate,dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.583,
-        "rms": 0.92,
-        "gap": 117,
+        "dmin": 0.642,
+        "rms": 1.18,
+        "gap": 105,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 76 km SSW of Unalaska, Alaska"
+        "title": "M 5.1 - 81 km SSW of Unalaska, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.8424,
-          53.2117,
-          44.11
+          -166.7857,
+          53.1552,
+          23.65
         ]
       },
       "id": "us7000gmjh"
@@ -95,12 +175,12 @@
         "mag": 4.6,
         "place": "33 km ESE of Ōarai, Japan",
         "time": 1645405972771,
-        "updated": 1645407776040,
+        "updated": 1645415424669,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmj0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmj0.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "7000gmj0",
         "ids": ",us7000gmj0,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.219,
         "rms": 0.69,
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "58 km SE of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1645385141420,
         "updated": 1645410056057,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 58 km SE of Pondaguitan, Philippines"
+        "title": "M 4.7 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -853,31 +933,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "11 km SSW of Piedecuesta, Colombia",
+        "place": "northern Colombia",
         "time": 1645382107654,
-        "updated": 1645383368040,
+        "updated": 1645415104347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmgp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmgp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "7000gmgp",
         "ids": ",us7000gmgp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.985,
         "rms": 0.88,
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 11 km SSW of Piedecuesta, Colombia"
+        "title": "M 4.3 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Mindanao, Philippines",
+        "place": "66 km SE of Pondaguitan, Philippines",
         "time": 1645381768340,
         "updated": 1645412159024,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 44,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Mindanao, Philippines"
+        "title": "M 5.6 - 66 km SE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "3 km S of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1645346598980,
         "updated": 1645358992031,
         "tz": null,
@@ -1797,7 +1877,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km S of Maria Antonia, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2168,46 +2248,6 @@
         ]
       },
       "id": "nc73695371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "270 km E of Amahai, Indonesia",
-        "time": 1645330051486,
-        "updated": 1645331829040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmch",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmch.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000gmch",
-        "ids": ",us7000gmch,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.091,
-        "rms": 1,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 270 km E of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.3474,
-          -3.5402,
-          10
-        ]
-      },
-      "id": "us7000gmch"
     }
   ],
   "bbox": [
