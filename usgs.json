@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645518010000,
+    "generated": 1645521370000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "15 km WNW of Sutcliffe, Nevada",
+        "time": 1645519724476,
+        "updated": 1645520204040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834257",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834257.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nn",
+        "code": "00834257",
+        "ids": ",us7000gmwt,nn00834257,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.433,
+        "rms": 0.2682,
+        "gap": 155.81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 15 km WNW of Sutcliffe, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7551,
+          40.0151,
+          12.7
+        ]
+      },
+      "id": "nn00834257"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 3.21,
         "place": "7 km NNW of Medford, Oklahoma",
         "time": 1645511410457,
-        "updated": 1645511829040,
+        "updated": 1645518429439,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022drna",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022drna.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -108,9 +148,9 @@
         "sig": 159,
         "net": "ok",
         "code": "2022drna",
-        "ids": ",us7000gmw8,ok2022drna,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022drna,us7000gmw8,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 76,
         "dmin": 0.06573051214,
         "rms": 0.6935441756,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "33 km W of Nelson Lagoon, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1645494816219,
         "updated": 1645495969040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 33 km W of Nelson Lagoon, Alaska"
+        "title": "M 3.5 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +815,17 @@
         "mag": 3.2,
         "place": "5 km N of Hockley, United Kingdom",
         "time": 1645484367833,
-        "updated": 1645517718267,
+        "updated": 1645521285981,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmts",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmts.geojson",
-        "felt": 643,
+        "felt": 657,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 447,
+        "sig": 453,
         "net": "us",
         "code": "7000gmts",
         "ids": ",us7000gmts,",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "58 km NNE of Ruteng, Indonesia",
+        "place": "Flores region, Indonesia",
         "time": 1645481716628,
         "updated": 1645482831040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 58 km NNE of Ruteng, Indonesia"
+        "title": "M 4.9 - Flores region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Gulf of Alaska",
+        "place": "253 km SE of Chiniak, Alaska",
         "time": 1645439297898,
         "updated": 1645442343040,
         "tz": null,
@@ -2157,7 +2197,7 @@
         "gap": 146,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - Gulf of Alaska"
+        "title": "M 4.2 - 253 km SE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2213,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "247 km SE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1645437976844,
         "updated": 1645441925040,
         "tz": null,
@@ -2237,7 +2277,7 @@
         "gap": 142,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 247 km SE of Chiniak, Alaska"
+        "title": "M 3.8 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2248,86 +2288,6 @@
         ]
       },
       "id": "us7000gmlj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "266 km W of Haveluloto, Tonga",
-        "time": 1645434918078,
-        "updated": 1645437103040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmld.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000gmld",
-        "ids": ",us7000gmld,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.006,
-        "rms": 0.64,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 266 km W of Haveluloto, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.7554,
-          -20.8255,
-          449.05
-        ]
-      },
-      "id": "us7000gmld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kuril Islands",
-        "time": 1645432520489,
-        "updated": 1645435280040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gml7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gml7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gml7",
-        "ids": ",us7000gml7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.861,
-        "rms": 0.49,
-        "gap": 133,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.7805,
-          46.9222,
-          35
-        ]
-      },
-      "id": "us7000gml7"
     }
   ],
   "bbox": [
