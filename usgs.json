@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645643625000,
+    "generated": 1645647465000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "142 km WNW of Naha, Japan",
+        "time": 1645645995928,
+        "updated": 1645647222728,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gzll",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000gzll.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000gzll",
+        "ids": ",us6000gzll,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.631,
+        "rms": 1.04,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 142 km WNW of Naha, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4463,
+          26.8656,
+          10
+        ]
+      },
+      "id": "us6000gzll"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.5,
         "place": "26 km WSW of Santa Rosa del Sur, Colombia",
         "time": 1645620571773,
-        "updated": 1645643421725,
+        "updated": 1645645220468,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gn6g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gn6g.geojson",
@@ -888,126 +928,6 @@
         ]
       },
       "id": "us7000gn1u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "25 km S of Nelchina, Alaska",
-        "time": 1645560035630,
-        "updated": 1645561765040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222fze517",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222fze517.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0222fze517",
-        "ids": ",us7000gn1g,ak0222fze517,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 25 km S of Nelchina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.7887,
-          61.7621,
-          18.5
-        ]
-      },
-      "id": "ak0222fze517"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "43 km N of Bandar Abbas, Iran",
-        "time": 1645559745574,
-        "updated": 1645561445143,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gn1e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gn1e.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gn1e",
-        "ids": ",us7000gn1e,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.622,
-        "rms": 0.58,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 43 km N of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.3267,
-          27.5761,
-          34.94
-        ]
-      },
-      "id": "us7000gn1e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "5 km SE of Maria Antonia, Puerto Rico",
-        "time": 1645559164600,
-        "updated": 1645559931650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71336688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71336688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71336688",
-        "ids": ",pr71336688,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km SE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8515,
-          17.9443333333333,
-          10.81
-        ]
-      },
-      "id": "pr71336688"
     }
   ],
   "bbox": [
@@ -1015,7 +935,7 @@
     -25.8571,
     3.82,
     167.2541,
-    61.7621,
+    61.5117,
     316.91
   ]
 }
