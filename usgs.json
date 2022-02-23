@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645583612000,
+    "generated": 1645586265000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
     {
@@ -132,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.50999999,
+        "mag": 2.56,
         "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1645569721100,
-        "updated": 1645569915530,
+        "time": 1645569720980,
+        "updated": 1645584003760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72926062",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72926062.geojson",
@@ -143,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 101,
         "net": "hv",
         "code": "72926062",
         "ids": ",hv72926062,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 35,
+        "nst": 46,
         "dmin": null,
-        "rms": 0.150000006,
-        "gap": 100,
+        "rms": 0.12,
+        "gap": 120,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SSW of Pāhala, Hawaii"
+        "title": "M 2.6 - 4 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.492492675781,
-          19.1686668395996,
-          32.3800010681152
+          -155.491,
+          19.1595,
+          33.55
         ]
       },
       "id": "hv72926062"
@@ -175,12 +175,12 @@
         "mag": 4.5,
         "place": "50 km S of Taltal, Chile",
         "time": 1645564564379,
-        "updated": 1645566448040,
+        "updated": 1645585461372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gn1x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gn1x.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +190,7 @@
         "code": "7000gn1x",
         "ids": ",us7000gn1x,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.34,
         "rms": 1.14,
@@ -535,11 +535,11 @@
         "mag": 2.45,
         "place": "13 km E of Crowder, Oklahoma",
         "time": 1645546389429,
-        "updated": 1645566434576,
+        "updated": 1645583660678,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022dsgg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022dsgg.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Central Alaska",
+        "place": "29 km WSW of Salcha, Alaska",
         "time": 1645538165097,
         "updated": 1645559412891,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Central Alaska"
+        "title": "M 3.1 - 29 km WSW of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1648,93 +1648,13 @@
         ]
       },
       "id": "us7000gmvd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "290 km SSE of Katsuura, Japan",
-        "time": 1645499603338,
-        "updated": 1645500626040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmvc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmvc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000gmvc",
-        "ids": ",us7000gmvc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.623,
-        "rms": 0.73,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 290 km SSE of Katsuura, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.7087,
-          32.7996,
-          37.12
-        ]
-      },
-      "id": "us7000gmvc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "65 km WNW of Skardu, Pakistan",
-        "time": 1645499123862,
-        "updated": 1645500975040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gmvb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gmvb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000gmvb",
-        "ids": ",us7000gmvb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.439,
-        "rms": 0.91,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 65 km WNW of Skardu, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.03,
-          35.6156,
-          10
-        ]
-      },
-      "id": "us7000gmvb"
     }
   ],
   "bbox": [
     -178.1407,
     -25.8571,
     0,
-    141.7087,
+    125.2023,
     64.6143,
     242.29
   ]
