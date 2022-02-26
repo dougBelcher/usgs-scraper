@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645874060000,
+    "generated": 1645878407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
     {
@@ -335,12 +335,12 @@
         "mag": 2.58,
         "place": "1 km ESE of Palomas, Puerto Rico",
         "time": 1645855539100,
-        "updated": 1645856793080,
+        "updated": 1645875452434,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71337368",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71337368.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +350,7 @@
         "code": "71337368",
         "ids": ",pr71337368,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": null,
         "rms": 0.15,
@@ -1728,86 +1728,6 @@
         ]
       },
       "id": "ak0222kthham"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "106 km ESE of Iquique, Chile",
-        "time": 1645791596510,
-        "updated": 1645800104102,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h03a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h03a.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 273,
-        "net": "us",
-        "code": "6000h03a",
-        "ids": ",us6000h03a,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.341,
-        "rms": 0.53,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 106 km ESE of Iquique, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1734,
-          -20.4837,
-          95.73
-        ]
-      },
-      "id": "us6000h03a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "43 km NE of Pedro Bay, Alaska",
-        "time": 1645788172183,
-        "updated": 1645868172040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222kss0zv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222kss0zv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0222kss0zv",
-        "ids": ",us6000h034,ak0222kss0zv,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 43 km NE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.5268,
-          60.0518,
-          162.6
-        ]
-      },
-      "id": "ak0222kss0zv"
     }
   ],
   "bbox": [
