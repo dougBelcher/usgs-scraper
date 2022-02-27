@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645917410000,
+    "generated": 1645924101000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "81 km N of Culebra, Puerto Rico",
+        "time": 1645920283550,
+        "updated": 1645921485410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71337693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71337693.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71337693",
+        "ids": ",pr71337693,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 299,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 81 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2415,
+          19.0345,
+          47.07
+        ]
+      },
+      "id": "pr71337693"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 4.2,
         "place": "77 km WNW of Valparaíso, Chile",
         "time": 1645910931669,
-        "updated": 1645917405428,
+        "updated": 1645917709701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0el",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0el.geojson",
-        "felt": 1,
+        "felt": 4,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 272,
+        "sig": 273,
         "net": "us",
         "code": "6000h0el",
         "ids": ",us6000h0el,",
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "78 km NW of Bukittinggi, Indonesia",
+        "place": "northern Sumatra, Indonesia",
         "time": 1645902496371,
         "updated": 1645917119040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 78 km NW of Bukittinggi, Indonesia"
+        "title": "M 4.7 - northern Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "104 km NW of Pangai, Tonga",
+        "place": "Tonga",
         "time": 1645877730847,
         "updated": 1645879253040,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 104 km NW of Pangai, Tonga"
+        "title": "M 4.5 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Mindanao, Philippines",
+        "place": "77 km SSE of Pondaguitan, Philippines",
         "time": 1645856151815,
         "updated": 1645870138620,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 75,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Mindanao, Philippines"
+        "title": "M 5.2 - 77 km SSE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "96 km NW of Gizo, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1645854200220,
         "updated": 1645857957040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 96 km NW of Gizo, Solomon Islands"
+        "title": "M 4.8 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1095,12 +1135,12 @@
         "mag": 3.5,
         "place": "36 km SE of Mina, Nevada",
         "time": 1645839743102,
-        "updated": 1645856921959,
+        "updated": 1645921653473,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834481.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1168,292 +1208,12 @@
         ]
       },
       "id": "us6000h09c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "13 km SSE of Fern Forest, Hawaii",
-        "time": 1645836604890,
-        "updated": 1645838049040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72929657",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72929657.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "hv",
-        "code": "72929657",
-        "ids": ",hv72929657,us6000h097,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 160,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 13 km SSE of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.077333333333,
-          19.3556666666667,
-          6.66
-        ]
-      },
-      "id": "hv72929657"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "32 km SE of Mina, Nevada",
-        "time": 1645836559227,
-        "updated": 1645838368040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00834472",
-        "ids": ",us6000h096,nn00834472,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.09,
-        "rms": 0.1463,
-        "gap": 88.87,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 32 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8531,
-          38.1722,
-          2.5
-        ]
-      },
-      "id": "nn00834472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "6 km ENE of Pāhala, Hawaii",
-        "time": 1645836363060,
-        "updated": 1645839714950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72929652",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72929652.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "72929652",
-        "ids": ",us6000h095,hv72929652,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 139,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.421333333333,
-          19.2148333333333,
-          34.17
-        ]
-      },
-      "id": "hv72929652"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "141 km SSW of Bengkulu, Indonesia",
-        "time": 1645833488026,
-        "updated": 1645834300040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h08t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h08t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000h08t",
-        "ids": ",us6000h08t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.35,
-        "rms": 0.88,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 141 km SSW of Bengkulu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.7405,
-          -4.9621,
-          35
-        ]
-      },
-      "id": "us6000h08t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "171 km S of Merizo Village, Guam",
-        "time": 1645833204736,
-        "updated": 1645834943040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h08w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h08w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000h08w",
-        "ids": ",us6000h08w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.891,
-        "rms": 0.96,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 171 km S of Merizo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4929,
-          11.7222,
-          10
-        ]
-      },
-      "id": "us6000h08w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "near the north coast of New Guinea, Papua New Guinea",
-        "time": 1645832500368,
-        "updated": 1645839911749,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h08r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h08r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 6.283,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000h08r",
-        "ids": ",us6000h08r,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 3.867,
-        "rms": 0.9,
-        "gap": 19,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - near the north coast of New Guinea, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.8052,
-          -3.5718,
-          10
-        ]
-      },
-      "id": "us6000h08r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "97 km ESE of Namie, Japan",
-        "time": 1645831917223,
-        "updated": 1645838204825,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h08q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h08q.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000h08q",
-        "ids": ",us6000h08q,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.147,
-        "rms": 0.92,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 97 km ESE of Namie, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.0414,
-          37.2116,
-          35
-        ]
-      },
-      "id": "us6000h08q"
     }
   ],
   "bbox": [
     -178.9265,
     -34.8145,
-    2.5,
+    4.81,
     179.9399,
     61.6304,
     563.05
