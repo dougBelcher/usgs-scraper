@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1645924101000,
+    "generated": 1645929167000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.98,
+        "place": "9km NW of Santa Paula, CA",
+        "time": 1645926258220,
+        "updated": 1645928882369,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40194736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40194736.geojson",
+        "felt": 1503,
+        "cdi": 3.9,
+        "mmi": 3.982,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 634,
+        "net": "ci",
+        "code": "40194736",
+        "ids": ",ci40194736,at00r7xwtt,us6000h0fm,ew1645926260,",
+        "sources": ",ci,at,us,ew,",
+        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 106,
+        "dmin": 0.02493,
+        "rms": 0.32,
+        "gap": 28,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.0 - 9km NW of Santa Paula, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1333313,
+          34.4121666,
+          25.89
+        ]
+      },
+      "id": "ci40194736"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 4.2,
         "place": "77 km WNW of Valparaíso, Chile",
         "time": 1645910931669,
-        "updated": 1645917709701,
+        "updated": 1645925563960,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0el",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0el.geojson",
@@ -415,11 +455,11 @@
         "mag": 2.49,
         "place": "8km NE of San Simeon, CA",
         "time": 1645881223140,
-        "updated": 1645896463040,
+        "updated": 1645927162585,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73698286",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73698286.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1088,126 +1128,6 @@
         ]
       },
       "id": "us6000h09n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "3 km WNW of Fuig, Puerto Rico",
-        "time": 1645840400230,
-        "updated": 1645843078190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71337343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71337343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "pr",
-        "code": "71337343",
-        "ids": ",pr71337343,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": null,
-        "rms": 0.23,
-        "gap": 136,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km WNW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9526666666667,
-          17.9953333333333,
-          11.34
-        ]
-      },
-      "id": "pr71337343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "36 km SE of Mina, Nevada",
-        "time": 1645839743102,
-        "updated": 1645921653473,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00834481",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00834481.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "nn",
-        "code": "00834481",
-        "ids": ",nn00834481,us6000h09d,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.122,
-        "rms": 0.1048,
-        "gap": 57.61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 36 km SE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7771,
-          38.1861,
-          5.2
-        ]
-      },
-      "id": "nn00834481"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1645838632402,
-        "updated": 1645839938040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h09c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h09c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000h09c",
-        "ids": ",us6000h09c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 22.321,
-        "rms": 0.96,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.4878,
-          30.0493,
-          10
-        ]
-      },
-      "id": "us6000h09c"
     }
   ],
   "bbox": [
