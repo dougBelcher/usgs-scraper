@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646118964000,
+    "generated": 1646122851000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "12 km W of Kalifornsky, Alaska",
+        "time": 1646120009468,
+        "updated": 1646122800265,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222rclzrf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222rclzrf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0222rclzrf",
+        "ids": ",us6000h10r,ak0222rclzrf,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km W of Kalifornsky, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5195,
+          60.4146,
+          54.4
+        ]
+      },
+      "id": "ak0222rclzrf"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "5km W of Ojai, CA",
         "time": 1646116450220,
-        "updated": 1646118700887,
+        "updated": 1646119004995,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40196752",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40196752.geojson",
-        "felt": 20,
-        "cdi": 2.8,
+        "felt": 21,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -255,17 +295,17 @@
         "mag": 2.84,
         "place": "5km WSW of Ojai, CA",
         "time": 1646110870940,
-        "updated": 1646117981825,
+        "updated": 1646121771758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40196616",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40196616.geojson",
-        "felt": 23,
+        "felt": 26,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 132,
+        "sig": 133,
         "net": "ci",
         "code": "40196616",
         "ids": ",ci40196616,us6000h101,",
@@ -2008,126 +2048,6 @@
         ]
       },
       "id": "us6000h0q3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "76 km W of Tyonek, Alaska",
-        "time": 1646035875809,
-        "updated": 1646062683905,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222ppjbzs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222ppjbzs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "0222ppjbzs",
-        "ids": ",us6000h0py,ak0222ppjbzs,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.88,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 76 km W of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.5427,
-          61.1558,
-          139.4
-        ]
-      },
-      "id": "ak0222ppjbzs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "1 km NE of Pāhala, Hawaii",
-        "time": 1646035287600,
-        "updated": 1646050107386,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72932122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72932122.geojson",
-        "felt": 9,
-        "cdi": 3.1,
-        "mmi": 3.658,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "hv",
-        "code": "72932122",
-        "ids": ",hv72932122,us6000h0pt,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 55,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 1 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.467666666667,
-          19.2105,
-          35.98
-        ]
-      },
-      "id": "hv72932122"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "15 km WNW of Sagaing, Myanmar",
-        "time": 1646034881954,
-        "updated": 1646036907040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h0pr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h0pr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000h0pr",
-        "ids": ",us6000h0pr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.612,
-        "rms": 0.43,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 15 km WNW of Sagaing, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          95.8503,
-          21.9499,
-          10
-        ]
-      },
-      "id": "us6000h0pr"
     }
   ],
   "bbox": [
@@ -2135,7 +2055,7 @@
     -37.1282,
     -2.92,
     176.6417,
-    61.1558,
+    60.4146,
     608.43
   ]
 }
