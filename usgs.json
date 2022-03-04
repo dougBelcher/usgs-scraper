@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646407120000,
+    "generated": 1646411111000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "206 km NE of Lospalos, Timor Leste",
+        "time": 1646406100531,
+        "updated": 1646407625040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h21i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h21i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000h21i",
+        "ids": ",us6000h21i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.849,
+        "rms": 0.97,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 206 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4873,
+          -7.3847,
+          157.85
+        ]
+      },
+      "id": "us6000h21i"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,12 +335,12 @@
         "mag": 3.1,
         "place": "37 km NNW of Toyah, Texas",
         "time": 1646384842404,
-        "updated": 1646386139543,
+        "updated": 1646408820631,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ejzg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ejzg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -308,9 +348,9 @@
         "sig": 148,
         "net": "tx",
         "code": "2022ejzg",
-        "ids": ",us6000h20c,tx2022ejzg,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2022ejzg,us6000h20c,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.07154602511,
         "rms": 0.2,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "hv72936277"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "71 km NNE of San Juan, Puerto Rico",
-        "time": 1646324007950,
-        "updated": 1646325235650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71338758",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71338758.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "pr",
-        "code": "71338758",
-        "ids": ",pr71338758,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": null,
-        "rms": 0.26,
-        "gap": 273,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 71 km NNE of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8951666666667,
-          19.0808333333333,
-          30.7
-        ]
-      },
-      "id": "pr71338758"
     }
   ],
   "bbox": [
