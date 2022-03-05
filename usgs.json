@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646464581000,
+    "generated": 1646468421000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.1,
+        "place": "central Peru",
+        "time": 1646466328512,
+        "updated": 1646467970025,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h29g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h29g.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000h29g",
+        "ids": ",us6000h29g,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 3.02,
+        "rms": 0.59,
+        "gap": 51,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - central Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1236,
+          -10.56,
+          134.08
+        ]
+      },
+      "id": "us6000h29g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "9 km N of Cantwell, Alaska",
         "time": 1646463390718,
-        "updated": 1646464174588,
+        "updated": 1646465379040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222xyavoj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222xyavoj.geojson",
@@ -28,9 +68,9 @@
         "sig": 130,
         "net": "ak",
         "code": "0222xyavoj",
-        "ids": ",ak0222xyavoj,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,",
+        "ids": ",ak0222xyavoj,us6000h299,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.92,
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "53 km N of Hiko, Nevada",
+        "place": "Nevada",
         "time": 1646387867488,
         "updated": 1646445973624,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 53 km N of Hiko, Nevada"
+        "title": "M 2.9 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "us6000h20b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "70 km ENE of Kimbe, Papua New Guinea",
-        "time": 1646380079660,
-        "updated": 1646387479076,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h1zu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h1zu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.719,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "6000h1zu",
-        "ids": ",us6000h1zu,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 4.661,
-        "rms": 0.76,
-        "gap": 45,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 70 km ENE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.7244,
-          -5.305,
-          156.78
-        ]
-      },
-      "id": "us6000h1zu"
     }
   ],
   "bbox": [
