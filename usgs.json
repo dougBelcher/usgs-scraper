@@ -1,43 +1,83 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646670365000,
+    "generated": 1646673547000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "6km WNW of Bodie, CA",
-        "time": 1646670162910,
-        "updated": 1646670351613,
+        "mag": 2.7,
+        "place": "35 km SSW of Los Ybanez, Texas",
+        "time": 1646672217284,
+        "updated": 1646673085051,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73702486",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73702486.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022eqbg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022eqbg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 112,
+        "net": "tx",
+        "code": "2022eqbg",
+        "ids": ",us6000h2s1,tx2022eqbg,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.2355105413,
+        "rms": 0.1,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 35 km SSW of Los Ybanez, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0785299,
+          32.42706299,
+          7.60542806
+        ]
+      },
+      "id": "tx2022eqbg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.54,
+        "place": "6km WNW of Bodie, CA",
+        "time": 1646670162910,
+        "updated": 1646673232811,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73702486",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73702486.geojson",
+        "felt": 9,
+        "cdi": 3.8,
+        "mmi": 3.308,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 196,
         "net": "nc",
         "code": "73702486",
-        "ids": ",nc73702486,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73702486,nn00835007,us6000h2rw,",
+        "sources": ",nc,nn,us,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 50,
         "dmin": 0.3079,
         "rms": 0.18,
         "gap": 94,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.6 - 6km WNW of Bodie, CA"
+        "title": "M 3.5 - 6km WNW of Bodie, CA"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Hokkaido, Japan region",
+        "place": "99 km S of Kushiro, Japan",
         "time": 1646647762271,
         "updated": 1646650599040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Hokkaido, Japan region"
+        "title": "M 4.9 - 99 km S of Kushiro, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +335,7 @@
         "mag": 3.41000009,
         "place": "4 km SSE of Pāhala, Hawaii",
         "time": 1646640454610,
-        "updated": 1646670115908,
+        "updated": 1646672475070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72941132",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72941132.geojson",
@@ -455,7 +495,7 @@
         "mag": 6.1,
         "place": "Fiji region",
         "time": 1646631258630,
-        "updated": 1646644675878,
+        "updated": 1646673531040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h2nu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h2nu.geojson",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "209 km SE of Pondaguitan, Philippines",
+        "place": "Philippine Islands region",
         "time": 1646603286659,
         "updated": 1646604078040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 209 km SE of Pondaguitan, Philippines"
+        "title": "M 4.2 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "11 km SW of Akutan, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1646600169036,
         "updated": 1646602883040,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 173,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 11 km SW of Akutan, Alaska"
+        "title": "M 3.0 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "us6000h2l2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "129 km E of San Pedro de Atacama, Chile",
-        "time": 1646586625433,
-        "updated": 1646604188040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h2kc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h2kc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000h2kc",
-        "ids": ",us6000h2kc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.135,
-        "rms": 0.98,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 129 km E of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9608,
-          -23.1239,
-          233
-        ]
-      },
-      "id": "us6000h2kc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "51 km E of Pedro Bay, Alaska",
-        "time": 1646585947518,
-        "updated": 1646588800040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0222zrt5j3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0222zrt5j3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0222zrt5j3",
-        "ids": ",us6000h2ka,ak0222zrt5j3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 51 km E of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.1856,
-          59.7535,
-          104
-        ]
-      },
-      "id": "ak0222zrt5j3"
     }
   ],
   "bbox": [
