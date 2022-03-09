@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1646817387000,
+    "generated": 1646821149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "105 km SSE of Sand Point, Alaska",
+        "time": 1646819790344,
+        "updated": 1646820502040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h39c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h39c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.087,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000h39c",
+        "ids": ",us6000h39c,ak02234m8kpg,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.957,
+        "rms": 0.8,
+        "gap": 186,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 105 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6038,
+          54.5368,
+          19.89
+        ]
+      },
+      "id": "us6000h39c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "41 km SSE of False Pass, Alaska",
+        "time": 1646819546985,
+        "updated": 1646820898040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h39b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h39b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000h39b",
+        "ids": ",us6000h39b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.379,
+        "rms": 0.69,
+        "gap": 187,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 41 km SSE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.2578,
+          54.4896,
+          10
+        ]
+      },
+      "id": "us6000h39b"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "71 km WNW of Alatna, Alaska",
         "time": 1646816131439,
-        "updated": 1646816826574,
+        "updated": 1646819306040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02234lmx6y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02234lmx6y.geojson",
@@ -28,8 +108,8 @@
         "sig": 168,
         "net": "ak",
         "code": "02234lmx6y",
-        "ids": ",ak02234lmx6y,",
-        "sources": ",ak,",
+        "ids": ",us6000h38y,ak02234lmx6y,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak02234lmx6y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "23 km SW of Esperanza, Puerto Rico",
+        "time": 1646815714310,
+        "updated": 1646819073540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71339623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71339623.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71339623",
+        "ids": ",pr71339623,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": 231,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 23 km SW of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.625,
+          17.9495,
+          13.37
+        ]
+      },
+      "id": "pr71339623"
     },
     {
       "type": "Feature",
@@ -95,12 +215,12 @@
         "mag": 2.45,
         "place": "3 km SSW of Liborio Negron Torres, Puerto Rico",
         "time": 1646807774630,
-        "updated": 1646808340250,
+        "updated": 1646819750177,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71339603",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71339603.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +230,7 @@
         "code": "71339603",
         "ids": ",pr71339603,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 5,
         "dmin": null,
         "rms": 0.06,
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "49 km NNW of Bandar Abbas, Iran",
+        "place": "southern Iran",
         "time": 1646781698981,
         "updated": 1646783158040,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 49 km NNW of Bandar Abbas, Iran"
+        "title": "M 4.5 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -495,7 +615,7 @@
         "mag": 3.6,
         "place": "10 km SSE of Point Possession, Alaska",
         "time": 1646774885060,
-        "updated": 1646791487082,
+        "updated": 1646818160641,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022335od6n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022335od6n.geojson",
@@ -1053,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Windward Islands",
+        "place": "73 km E of Dennery, Saint Lucia",
         "time": 1646747781203,
         "updated": 1646754835425,
         "tz": null,
@@ -1077,7 +1197,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Windward Islands"
+        "title": "M 4.3 - 73 km E of Dennery, Saint Lucia"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1408,6 @@
         ]
       },
       "id": "us6000h30e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "129 km WNW of Naha, Japan",
-        "time": 1646734144514,
-        "updated": 1646742543040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h308",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h308.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000h308",
-        "ids": ",us6000h308,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.523,
-        "rms": 0.34,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 129 km WNW of Naha, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.5675,
-          26.8161,
-          10
-        ]
-      },
-      "id": "us6000h308"
     }
   ],
   "bbox": [
