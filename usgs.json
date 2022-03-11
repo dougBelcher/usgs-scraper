@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647026010000,
+    "generated": 1647029866000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.46,
+        "place": "8km E of Guadalupe Victoria, B.C., MX",
+        "time": 1647029602900,
+        "updated": 1647029834501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40205392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40205392.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "ci",
+        "code": "40205392",
+        "ids": ",ci40205392,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.04605,
+        "rms": 0.11,
+        "gap": 230,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8km E of Guadalupe Victoria, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.022,
+          32.2975,
+          19.84
+        ]
+      },
+      "id": "ci40205392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.79,
         "place": "1km ENE of El Cerrito, CA",
         "time": 1647020670460,
-        "updated": 1647025891936,
+        "updated": 1647029613475,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704246",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704246.geojson",
-        "felt": 1072,
+        "felt": 1116,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73704246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "202 km ENE of Levuka, Fiji",
+        "time": 1647020625446,
+        "updated": 1647029661040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3vc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3vc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000h3vc",
+        "ids": ",us6000h3vc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.962,
+        "rms": 0.5,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 202 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.8451,
+          -17.5687,
+          524.28
+        ]
+      },
+      "id": "us6000h3vc"
     },
     {
       "type": "Feature",
@@ -1448,90 +1528,10 @@
         ]
       },
       "id": "us6000h3nt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "66 km WSW of Puerto Madero, Mexico",
-        "time": 1646940862264,
-        "updated": 1647007489691,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ms.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000h3ms",
-        "ids": ",us6000h3ms,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.972,
-        "rms": 1.1,
-        "gap": 166,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 66 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9819,
-          14.4755,
-          35
-        ]
-      },
-      "id": "us6000h3ms"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "143 km NE of Thang, India",
-        "time": 1646940531849,
-        "updated": 1646950301040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3mr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3mr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000h3mr",
-        "ids": ",us6000h3mr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.378,
-        "rms": 0.96,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 143 km NE of Thang, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.8388,
-          35.8969,
-          10
-        ]
-      },
-      "id": "us6000h3mr"
     }
   ],
   "bbox": [
-    -178.5301,
+    -178.8451,
     -37.1731,
     4.85,
     179.297,
