@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647004884000,
+    "generated": 1647008137000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.79,
+        "place": "79 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1647003853200,
+        "updated": 1647006722510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022070003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022070003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 221,
+        "net": "pr",
+        "code": "2022070003",
+        "ids": ",pr2022070003,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.0348,
+        "rms": 0.39,
+        "gap": 328,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 79 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5156,
+          19.0023,
+          29
+        ]
+      },
+      "id": "pr2022070003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "280 km WNW of Ozernovskiy, Russia",
+        "time": 1647003723485,
+        "updated": 1647005843040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3si",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3si.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000h3si",
+        "ids": ",us6000h3si,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.056,
+        "rms": 0.48,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 280 km WNW of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7584,
+          52.5139,
+          495.73
+        ]
+      },
+      "id": "us6000h3si"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 3.3,
         "place": "9 km SSE of Lincoln, Montana",
         "time": 1646999948095,
-        "updated": 1647000369040,
+        "updated": 1647006512133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ry",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ry.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000h3ry",
         "ids": ",us6000h3ry,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.118,
         "rms": 0.75,
@@ -175,7 +255,7 @@
         "mag": 2.74,
         "place": "5km WNW of Walker, CA",
         "time": 1646995556610,
-        "updated": 1647001169169,
+        "updated": 1647006190348,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704126",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704126.geojson",
@@ -932,10 +1012,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "72 km WSW of Puerto Madero, Mexico",
-        "time": 1646940862201,
-        "updated": 1646958829655,
+        "mag": 5.1,
+        "place": "66 km WSW of Puerto Madero, Mexico",
+        "time": 1646940862264,
+        "updated": 1647007489691,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ms",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ms.geojson",
@@ -945,25 +1025,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 400,
         "net": "us",
         "code": "6000h3ms",
         "ids": ",us6000h3ms,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 2.021,
-        "rms": 1.04,
-        "gap": 167,
-        "magType": "mb",
+        "dmin": 1.972,
+        "rms": 1.1,
+        "gap": 166,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 72 km WSW of Puerto Madero, Mexico"
+        "title": "M 5.1 - 66 km WSW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.0294,
-          14.4426,
+          -92.9819,
+          14.4755,
           35
         ]
       },
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "ak02236d8gtv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "7 km WSW of Iwai, Japan",
-        "time": 1646921557971,
-        "updated": 1646954744819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3k5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3k5.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000h3k5",
-        "ids": ",us6000h3k5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.41,
-        "rms": 0.54,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 7 km WSW of Iwai, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.8297,
-          36.0169,
-          61.6
-        ]
-      },
-      "id": "us6000h3k5"
     }
   ],
   "bbox": [
