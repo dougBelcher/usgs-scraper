@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647033264000,
+    "generated": 1647037050000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.75,
+        "place": "8 km N of Stanley, Idaho",
+        "time": 1647032377560,
+        "updated": 1647034853246,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80540289",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80540289.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 217,
+        "net": "mb",
+        "code": "80540289",
+        "ids": ",mb80540289,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.83,
+        "rms": 0.3,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 8 km N of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9555,
+          44.2946667,
+          8.23
+        ]
+      },
+      "id": "mb80540289"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +88,6 @@
         ]
       },
       "id": "us6000h3wf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "8km E of Guadalupe Victoria, B.C., MX",
-        "time": 1647029602900,
-        "updated": 1647033052172,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40205392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40205392.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ci",
-        "code": "40205392",
-        "ids": ",ci40205392,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.04605,
-        "rms": 0.11,
-        "gap": 230,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 8km E of Guadalupe Victoria, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.022,
-          32.2975,
-          19.84
-        ]
-      },
-      "id": "ci40205392"
     },
     {
       "type": "Feature",
@@ -132,29 +132,29 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.79,
+        "mag": 2.8,
         "place": "1km ENE of El Cerrito, CA",
         "time": 1647020670460,
-        "updated": 1647033038405,
+        "updated": 1647036835366,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704246",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704246.geojson",
-        "felt": 1143,
+        "felt": 1162,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 550,
+        "sig": 551,
         "net": "nc",
         "code": "73704246",
         "ids": ",nc73704246,us6000h3v8,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 71,
-        "dmin": 0.03744,
-        "rms": 0.11,
-        "gap": 36,
+        "nst": 120,
+        "dmin": 0.01284,
+        "rms": 0.1,
+        "gap": 21,
         "magType": "md",
         "type": "earthquake",
         "title": "M 2.8 - 1km ENE of El Cerrito, CA"
@@ -162,9 +162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3013306,
-          37.9205017,
-          4.85
+          -122.2991667,
+          37.919,
+          4.97
         ]
       },
       "id": "nc73704246"
@@ -335,7 +335,7 @@
         "mag": 2.8,
         "place": "7 km S of Talkeetna, Alaska",
         "time": 1647017345682,
-        "updated": 1647018028270,
+        "updated": 1647034036040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022381fqpe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022381fqpe.geojson",
@@ -348,8 +348,8 @@
         "sig": 121,
         "net": "ak",
         "code": "022381fqpe",
-        "ids": ",ak022381fqpe,",
-        "sources": ",ak,",
+        "ids": ",us6000h3ur,ak022381fqpe,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -455,7 +455,7 @@
         "mag": 2.6,
         "place": "2 km SW of Houston, Alaska",
         "time": 1647014718737,
-        "updated": 1647015292364,
+        "updated": 1647033553040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223816c9b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223816c9b.geojson",
@@ -468,8 +468,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0223816c9b",
-        "ids": ",ak0223816c9b,",
-        "sources": ",ak,",
+        "ids": ",us6000h3th,ak0223816c9b,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -493,9 +493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.22,
-        "place": "59 km NNE of Punta Cana, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1647010534400,
-        "updated": 1647013463120,
+        "updated": 1647033320040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71339828",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71339828.geojson",
@@ -508,8 +508,8 @@
         "sig": 160,
         "net": "pr",
         "code": "71339828",
-        "ids": ",pr71339828,",
-        "sources": ",pr,",
+        "ids": ",us6000h3sw,pr71339828,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 11,
         "dmin": null,
@@ -517,7 +517,7 @@
         "gap": 202,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 59 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 3.2 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +855,7 @@
         "mag": 3.2,
         "place": "6 km S of Lincoln, Montana",
         "time": 1646999031433,
-        "updated": 1647019947722,
+        "updated": 1647035698700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3rx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3rx.geojson",
@@ -1608,54 +1608,14 @@
         ]
       },
       "id": "us6000h3p0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": 1646950278359,
-        "updated": 1646955034040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3nt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3nt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000h3nt",
-        "ids": ",us6000h3nt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 5.528,
-        "rms": 1.09,
-        "gap": 34,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.297,
-          -23.1764,
-          553.75
-        ]
-      },
-      "id": "us6000h3nt"
     }
   ],
   "bbox": [
     -178.8451,
     -37.1731,
-    4.85,
-    179.297,
+    4.97,
+    177.452,
     69.4076,
-    553.75
+    529.17
   ]
 }
