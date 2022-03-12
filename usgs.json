@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647102264000,
+    "generated": 1647105384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 29
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 3.63,
         "place": "90 km N of Isabela, Puerto Rico",
         "time": 1647098354230,
-        "updated": 1647102233040,
+        "updated": 1647102556539,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022071002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022071002.geojson",
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "11 km NE of Santa Lucía, Peru",
+        "place": "southern Peru",
         "time": 1647095438318,
         "updated": 1647098740040,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 11 km NE of Santa Lucía, Peru"
+        "title": "M 4.5 - southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -135,11 +135,11 @@
         "mag": 5.1,
         "place": "88 km W of Copiapó, Chile",
         "time": 1647088067423,
-        "updated": 1647102008555,
+        "updated": 1647102433102,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h40b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h40b.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "off the east coast of the Kamchatka Peninsula, Russia",
+        "place": "50 km SE of Ust’-Kamchatsk Staryy, Russia",
         "time": 1647085954761,
         "updated": 1647087442040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 69,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - off the east coast of the Kamchatka Peninsula, Russia"
+        "title": "M 4.9 - 50 km SE of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -735,7 +735,7 @@
         "mag": 2.9,
         "place": "59 km WNW of Happy Valley, Alaska",
         "time": 1647039892257,
-        "updated": 1647042121040,
+        "updated": 1647104836690,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022385c88d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022385c88d.geojson",
@@ -748,8 +748,8 @@
         "sig": 129,
         "net": "ak",
         "code": "022385c88d",
-        "ids": ",us6000h3xg,ak022385c88d,",
-        "sources": ",us,ak,",
+        "ids": ",av91509691,us6000h3xg,ak022385c88d,",
+        "sources": ",av,us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -892,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "13 km SE of Santiago Astata, Mexico",
+        "time": 1647031189923,
+        "updated": 1647104838040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3wc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3wc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000h3wc",
+        "ids": ",us6000h3wc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.302,
+        "rms": 1.07,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 13 km SE of Santiago Astata, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5763,
+          15.9114,
+          10
+        ]
+      },
+      "id": "us6000h3wc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "29 km ESE of San Fernando, Peru",
         "time": 1647028951390,
@@ -1015,11 +1055,11 @@
         "mag": 2.8,
         "place": "1km ENE of El Cerrito, CA",
         "time": 1647020670460,
-        "updated": 1647099377628,
+        "updated": 1647104241319,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73704246",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73704246.geojson",
-        "felt": 1239,
+        "felt": 1240,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1128,126 +1168,6 @@
         ]
       },
       "id": "us6000h3v6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "231 km E of Levuka, Fiji",
-        "time": 1647018120410,
-        "updated": 1647020672040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3uy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3uy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000h3uy",
-        "ids": ",us6000h3uy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.256,
-        "rms": 0.79,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 231 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5301,
-          -17.7371,
-          529.17
-        ]
-      },
-      "id": "us6000h3uy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "120 km WSW of Ternate, Indonesia",
-        "time": 1647018038182,
-        "updated": 1647019574040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h3ux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h3ux.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000h3ux",
-        "ids": ",us6000h3ux,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.064,
-        "rms": 0.6,
-        "gap": 26,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 120 km WSW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3221,
-          0.5673,
-          10
-        ]
-      },
-      "id": "us6000h3ux"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "7 km S of Talkeetna, Alaska",
-        "time": 1647017345682,
-        "updated": 1647034036040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022381fqpe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022381fqpe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "022381fqpe",
-        "ids": ",us6000h3ur,ak022381fqpe,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.88,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 7 km S of Talkeetna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1146,
-          62.2585,
-          36.7
-        ]
-      },
-      "id": "ak022381fqpe"
     }
   ],
   "bbox": [
@@ -1256,6 +1176,6 @@
     1.86,
     177.0968,
     67.3016,
-    529.17
+    524.28
   ]
 }
