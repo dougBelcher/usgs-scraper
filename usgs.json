@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647145416000,
+    "generated": 1647148913000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "76 km S of San Francisco del Mar Viejo, Mexico",
+        "time": 1647146261030,
+        "updated": 1647147965040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h44l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h44l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000h44l",
+        "ids": ",us6000h44l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.488,
+        "rms": 0.79,
+        "gap": 180,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 76 km S of San Francisco del Mar Viejo, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6082,
+          15.5431,
+          35
+        ]
+      },
+      "id": "us6000h44l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,17 +655,17 @@
         "mag": 5.1,
         "place": "41 km WNW of Nikiski, Alaska",
         "time": 1647115188801,
-        "updated": 1647145015791,
+        "updated": 1647147696961,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02239qtmiy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02239qtmiy.geojson",
-        "felt": 529,
+        "felt": 531,
         "cdi": 3.8,
         "mmi": 3.734,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 601,
+        "sig": 602,
         "net": "ak",
         "code": "02239qtmiy",
         "ids": ",at00r8ne7n,ak02239qtmiy,us6000h422,",
@@ -1248,52 +1288,12 @@
         ]
       },
       "id": "us6000h3ys"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "9km NNE of Olancha, CA",
-        "time": 1647062146890,
-        "updated": 1647095113269,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40205696",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40205696.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ci",
-        "code": "40205696",
-        "ids": ",ci40205696,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.1266,
-        "rms": 0.19,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 9km NNE of Olancha, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.964,
-          36.3546667,
-          1.86
-        ]
-      },
-      "id": "ci40205696"
     }
   ],
   "bbox": [
     -175.6268,
     -59.6924,
-    1.86,
+    7,
     168.3123,
     64.8366,
     265.11
