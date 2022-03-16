@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647429259000,
+    "generated": 1647433762000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 49
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 2.56,
         "place": "4 km W of La Parguera, Puerto Rico",
         "time": 1647425860770,
-        "updated": 1647429100150,
+        "updated": 1647432010939,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71340418",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71340418.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "71340418",
         "ids": ",pr71340418,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": null,
         "rms": 0.13,
@@ -95,17 +95,17 @@
         "mag": 2.87,
         "place": "7km S of Redlands, CA",
         "time": 1647425618170,
-        "updated": 1647429111816,
+        "updated": 1647432856347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39969223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39969223.geojson",
-        "felt": 35,
+        "felt": 38,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 144,
         "net": "ci",
         "code": "39969223",
         "ids": ",ci39969223,",
@@ -135,12 +135,12 @@
         "mag": 4.07,
         "place": "13 km ENE of Guaymate, Dominican Republic",
         "time": 1647421386480,
-        "updated": 1647422996208,
+        "updated": 1647433538368,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022075000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022075000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +148,9 @@
         "sig": 255,
         "net": "pr",
         "code": "2022075000",
-        "ids": ",us6000h4zr,pr2022075000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022075000,us6000h4zr,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.4836,
         "rms": 0.06,
@@ -295,11 +295,11 @@
         "mag": 5.6,
         "place": "5 km E of Huambo, Peru",
         "time": 1647410794721,
-        "updated": 1647418227778,
+        "updated": 1647430589300,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4z7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4z7.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 7,
         "mmi": 6.367,
         "alert": "green",
@@ -495,11 +495,11 @@
         "mag": 5.3,
         "place": "80 km SW of Banjar, Indonesia",
         "time": 1647399601906,
-        "updated": 1647423651708,
+        "updated": 1647432933493,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4xf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4xf.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "63 km W of Cabra, Philippines",
+        "place": "Philippine Islands region",
         "time": 1647368153881,
         "updated": 1647369667040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 63 km W of Cabra, Philippines"
+        "title": "M 5.0 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Tarapaca-Antofagasta border region, Chile",
+        "place": "91 km NE of Tocopilla, Chile",
         "time": 1647365478799,
         "updated": 1647367995040,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Tarapaca-Antofagasta border region, Chile"
+        "title": "M 4.0 - 91 km NE of Tocopilla, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "61 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1647361531149,
         "updated": 1647366290040,
         "tz": null,
@@ -1437,7 +1437,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 61 km S of Whites City, New Mexico"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1968,126 +1968,6 @@
         ]
       },
       "id": "us6000h4q0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "8 km SE of Kutaisi, Georgia",
-        "time": 1647347159703,
-        "updated": 1647349313371,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4pa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4pa.geojson",
-        "felt": 4,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "6000h4pa",
-        "ids": ",us6000h4pa,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.473,
-        "rms": 0.5,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 8 km SE of Kutaisi, Georgia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          42.7582,
-          42.2121,
-          10
-        ]
-      },
-      "id": "us6000h4pa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "174 km W of Pariaman, Indonesia",
-        "time": 1647346351407,
-        "updated": 1647347271040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h4p4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h4p4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000h4p4",
-        "ids": ",us6000h4p4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.068,
-        "rms": 0.45,
-        "gap": 107,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 174 km W of Pariaman, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.556,
-          -0.5301,
-          37.2
-        ]
-      },
-      "id": "us6000h4p4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "30 km SSW of Alamo, Nevada",
-        "time": 1647344912728,
-        "updated": 1647380691044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00835351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00835351.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "nn",
-        "code": "00835351",
-        "ids": ",nn00835351,us6000h4ny,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.355,
-        "rms": 0.1972,
-        "gap": 75.07,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 30 km SSW of Alamo, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3165,
-          37.1209,
-          11.8
-        ]
-      },
-      "id": "nn00835351"
     }
   ],
   "bbox": [
