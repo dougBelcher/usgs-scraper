@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647555448000,
+    "generated": 1647559055000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Ascension Island region",
+        "time": 1647555946042,
+        "updated": 1647556997882,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h5jz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h5jz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000h5jz",
+        "ids": ",us6000h5jz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 3.739,
+        "rms": 0.9,
+        "gap": 28,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - Ascension Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.9573,
+          -11.4289,
+          10
+        ]
+      },
+      "id": "us6000h5jz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.9,
         "place": "160 km SSE of Sand Point, Alaska",
         "time": 1647551454774,
-        "updated": 1647552686040,
+        "updated": 1647557557650,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h5jh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h5jh.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 1.512,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 234,
         "net": "us",
         "code": "6000h5jh",
-        "ids": ",us6000h5jh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0223i1eqz7,us6000h5jh,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 0.843,
         "rms": 0.81,
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "23 km S of Rangkasbitung, Indonesia",
+        "place": "Java, Indonesia",
         "time": 1647550408611,
         "updated": 1647551209040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 73,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 23 km S of Rangkasbitung, Indonesia"
+        "title": "M 4.6 - Java, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000h5jd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "17km SSW of Santa Barbara Is., CA",
+        "time": 1647548470650,
+        "updated": 1647557880033,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39970455",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39970455.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "ci",
+        "code": "39970455",
+        "ids": ",ci39970455,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.1729,
+        "rms": 0.18,
+        "gap": 185,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 17km SSW of Santa Barbara Is., CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1171667,
+          33.3233333,
+          8.8
+        ]
+      },
+      "id": "ci39970455"
     },
     {
       "type": "Feature",
@@ -132,55 +212,15 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "47 km SE of Cantwell, Alaska",
-        "time": 1647547299814,
-        "updated": 1647548070154,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223i0rcf1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223i0rcf1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0223i0rcf1",
-        "ids": ",ak0223i0rcf1,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 47 km SE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.3331,
-          63.0743,
-          62.9
-        ]
-      },
-      "id": "ak0223i0rcf1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.8,
         "place": "9 km SSW of Clayton, New Mexico",
         "time": 1647547223860,
-        "updated": 1647555179726,
+        "updated": 1647558719166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h5ip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h5ip.geojson",
-        "felt": 14,
-        "cdi": 4.1,
+        "felt": 15,
+        "cdi": 3.6,
         "mmi": 4.661,
         "alert": null,
         "status": "reviewed",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
         "time": 1647500259510,
         "updated": 1647544522750,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Island of Hawaii, Hawaii"
+        "title": "M 2.7 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1208,6 +1248,46 @@
         ]
       },
       "id": "pr71340498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Kermadec Islands region",
+        "time": 1647488516637,
+        "updated": 1647558220040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h5al",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h5al.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000h5al",
+        "ids": ",us6000h5al,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.825,
+        "rms": 0.86,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8226,
+          -31.5683,
+          342.34
+        ]
+      },
+      "id": "us6000h5al"
     },
     {
       "type": "Feature",
@@ -1528,214 +1608,14 @@
         ]
       },
       "id": "us6000h5a6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.18,
-        "place": "60 km N of Loíza, Puerto Rico",
-        "time": 1647472568420,
-        "updated": 1647478375844,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71340468",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71340468.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 156,
-        "net": "pr",
-        "code": "71340468",
-        "ids": ",pr71340468,us6000h592,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.33,
-        "gap": 253,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 60 km N of Loíza, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8426666666667,
-          18.981,
-          16.93
-        ]
-      },
-      "id": "pr71340468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "57 km NNW of Bandar-e Lengeh, Iran",
-        "time": 1647472545700,
-        "updated": 1647545312261,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h58x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h58x.geojson",
-        "felt": 63,
-        "cdi": 7.8,
-        "mmi": 7.283,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 699,
-        "net": "us",
-        "code": "6000h58x",
-        "ids": ",us6000h58x,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 2.508,
-        "rms": 0.68,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 57 km NNW of Bandar-e Lengeh, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          54.6316,
-          27.0245,
-          10
-        ]
-      },
-      "id": "us6000h58x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "20 km E of Dilley, Texas",
-        "time": 1647471421557,
-        "updated": 1647549182547,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022fgyq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022fgyq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022fgyq",
-        "ids": ",tx2022fgyq,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.2541058639,
-        "rms": 0.3,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 20 km E of Dilley, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.96794577,
-          28.7008667,
-          6.676147461
-        ]
-      },
-      "id": "tx2022fgyq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "70 km W of Tobelo, Indonesia",
-        "time": 1647471043794,
-        "updated": 1647471867040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h58r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h58r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000h58r",
-        "ids": ",us6000h58r,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.926,
-        "rms": 0.44,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 70 km W of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.379,
-          1.7048,
-          113.8
-        ]
-      },
-      "id": "us6000h58r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "4 km ESE of Schurz, Nevada",
-        "time": 1647471005380,
-        "updated": 1647520578028,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00835467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00835467.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nn",
-        "code": "00835467",
-        "ids": ",nn00835467,us6000h58q,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.375,
-        "rms": 0.1317,
-        "gap": 61.56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km ESE of Schurz, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.7644,
-          38.9283,
-          10.2
-        ]
-      },
-      "id": "nn00835467"
     }
   ],
   "bbox": [
-    -175.962,
-    -26.91,
+    -179.8226,
+    -31.5683,
     -1.12,
     178.6476,
     69.6006,
-    209.46
+    342.34
   ]
 }
