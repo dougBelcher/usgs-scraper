@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647659845000,
+    "generated": 1647663754000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "17 km N of Fox River, Alaska",
+        "time": 1647663175511,
+        "updated": 1647663505227,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223l2dht8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223l2dht8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "0223l2dht8",
+        "ids": ",ak0223l2dht8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 17 km N of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9816,
+          60.013,
+          48.8
+        ]
+      },
+      "id": "ak0223l2dht8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "114 km WSW of Gorontalo, Indonesia",
+        "time": 1647658886251,
+        "updated": 1647660013040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h5xr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h5xr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000h5xr",
+        "ids": ",us6000h5xr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.491,
+        "rms": 0.76,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 114 km WSW of Gorontalo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0531,
+          0.3268,
+          182.51
+        ]
+      },
+      "id": "us6000h5xr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -252,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.79,
+        "mag": 2.6,
         "place": "6km W of Walker, CA",
-        "time": 1647648168790,
-        "updated": 1647658958390,
+        "time": 1647648168990,
+        "updated": 1647663014496,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73707451",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73707451.geojson",
@@ -263,28 +343,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 105,
         "net": "nc",
         "code": "73707451",
         "ids": ",nc73707451,nn00835629,",
         "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.07057,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.05101,
         "rms": 0.09,
-        "gap": 81,
+        "gap": 55,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 6km W of Walker, CA"
+        "title": "M 2.6 - 6km W of Walker, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5468369,
-          38.5185013,
-          -1.9
+          -119.5446667,
+          38.5181667,
+          -0.21
         ]
       },
       "id": "nc73707451"
@@ -695,17 +775,17 @@
         "mag": 2.61,
         "place": "16 km ESE of Lacomb, Oregon",
         "time": 1647620515120,
-        "updated": 1647659137302,
+        "updated": 1647663282042,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61814392",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61814392.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 107,
+        "sig": 108,
         "net": "uw",
         "code": "61814392",
         "ids": ",uw61814392,us6000h5qw,",
@@ -1933,7 +2013,7 @@
   "bbox": [
     -179.0036,
     -40.4094,
-    -1.9,
+    -0.54,
     179.3253,
     61.4237,
     616.62
