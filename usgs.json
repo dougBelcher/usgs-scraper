@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1647904677000,
+    "generated": 1647912045000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "10 km N of Milton, Kansas",
+        "time": 1647909202966,
+        "updated": 1647910569217,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6jx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6jx.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000h6jx",
+        "ids": ",us6000h6jx,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.369,
+        "rms": 0.39,
+        "gap": 78,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.8 - 10 km N of Milton, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.765,
+          37.5235,
+          7.55
+        ]
+      },
+      "id": "us6000h6jx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "206 km ENE of Levuka, Fiji",
+        "time": 1647907933228,
+        "updated": 1647908985040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6jt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6jt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000h6jt",
+        "ids": ",us6000h6jt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.012,
+        "rms": 0.93,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 206 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7902,
+          -17.6122,
+          533.63
+        ]
+      },
+      "id": "us6000h6jt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.45,
         "place": "5 km SSE of Pāhala, Hawaii",
         "time": 1647904219020,
-        "updated": 1647904549940,
+        "updated": 1647906253040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72958422",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72958422.geojson",
@@ -28,8 +108,8 @@
         "sig": 92,
         "net": "hv",
         "code": "72958422",
-        "ids": ",hv72958422,",
-        "sources": ",hv,",
+        "ids": ",us6000h6j7,hv72958422,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 42,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "hv72958422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "64 km E of Hualien City, Taiwan",
+        "time": 1647904151085,
+        "updated": 1647905929040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6jc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6jc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000h6jc",
+        "ids": ",us6000h6jc,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.64,
+        "rms": 0.72,
+        "gap": 96,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.9 - 64 km E of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2383,
+          23.921,
+          19.24
+        ]
+      },
+      "id": "us6000h6jc"
     },
     {
       "type": "Feature",
@@ -135,17 +255,17 @@
         "mag": 4.4,
         "place": "92 km SSE of Iquique, Chile",
         "time": 1647893939442,
-        "updated": 1647900153224,
+        "updated": 1647912034582,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6ia",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6ia.geojson",
-        "felt": 2,
-        "cdi": 2.5,
+        "felt": 4,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 299,
         "net": "us",
         "code": "6000h6ia",
         "ids": ",us6000h6ia,",
@@ -493,9 +613,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "7 km ESE of Eagle River, Alaska",
-        "time": 1647879377300,
-        "updated": 1647894665099,
+        "place": "10 km ESE of Eagle River, Alaska",
+        "time": 1647879378597,
+        "updated": 1647905900195,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223okm60n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223okm60n.geojson",
@@ -503,7 +623,7 @@
         "cdi": 4.1,
         "mmi": 2.065,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 138,
         "net": "ak",
@@ -513,18 +633,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.77,
+        "rms": 0.53,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 7 km ESE of Eagle River, Alaska"
+        "title": "M 2.9 - 10 km ESE of Eagle River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.4442,
-          61.2839,
-          19.8
+          -149.3773,
+          61.2853,
+          29.3
         ]
       },
       "id": "ak0223okm60n"
@@ -575,17 +695,17 @@
         "mag": 2.88,
         "place": "14km SSE of Malibu, CA",
         "time": 1647878542860,
-        "updated": 1647904578182,
+        "updated": 1647911408775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39973479",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39973479.geojson",
-        "felt": 106,
+        "felt": 110,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 167,
         "net": "ci",
         "code": "39973479",
         "ids": ",ci39973479,",
@@ -848,6 +968,46 @@
         ]
       },
       "id": "us6000h6dh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "19 km SSE of Waimea, Hawaii",
+        "time": 1647858998750,
+        "updated": 1647909047828,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72957797",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72957797.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "hv",
+        "code": "72957797",
+        "ids": ",hv72957797,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 52,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 120,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 19 km SSE of Waimea, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.576166666667,
+          19.8695,
+          23.96
+        ]
+      },
+      "id": "hv72957797"
     },
     {
       "type": "Feature",
@@ -1213,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "56 km W of Sardinal, Costa Rica",
+        "place": "off the coast of Costa Rica",
         "time": 1647839836980,
         "updated": 1647868383621,
         "tz": null,
@@ -1237,7 +1397,7 @@
         "gap": 153,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 56 km W of Sardinal, Costa Rica"
+        "title": "M 4.9 - off the coast of Costa Rica"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.14,
-        "place": "54 km NNE of San Juan, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1647833515420,
         "updated": 1647842629643,
         "tz": null,
@@ -1397,7 +1557,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 54 km NNE of San Juan, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1528,130 +1688,10 @@
         ]
       },
       "id": "us6000h6aj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "73 km SSE of Ishinomaki, Japan",
-        "time": 1647819841749,
-        "updated": 1647823946040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6a8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6a8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000h6a8",
-        "ids": ",us6000h6a8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.973,
-        "rms": 0.86,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 73 km SSE of Ishinomaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.747,
-          37.8594,
-          65.6
-        ]
-      },
-      "id": "us6000h6a8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "8km W of Calipatria, CA",
-        "time": 1647819108540,
-        "updated": 1647900288040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39973183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39973183.geojson",
-        "felt": 16,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ci",
-        "code": "39973183",
-        "ids": ",ci39973183,us6000h6a5,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 76,
-        "dmin": 0.01846,
-        "rms": 0.24,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 8km W of Calipatria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5998333,
-          33.1128333,
-          11.02
-        ]
-      },
-      "id": "ci39973183"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "0 km NNW of Magas Arriba, Puerto Rico",
-        "time": 1647818283800,
-        "updated": 1647865927177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71340988",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71340988.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "71340988",
-        "ids": ",pr71340988,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.21,
-        "gap": 179,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 0 km NNW of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7706666666667,
-          18.02,
-          13.34
-        ]
-      },
-      "id": "pr71340988"
     }
   ],
   "bbox": [
-    -178.4245,
+    -178.7902,
     -58.2603,
     1.1,
     178.9254,
