@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648016565000,
+    "generated": 1648019833000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "4 km WSW of Guánica, Puerto Rico",
+        "time": 1648015128220,
+        "updated": 1648016767320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71341563",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71341563.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71341563",
+        "ids": ",pr71341563,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 4 km WSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.949,
+          17.9518333333333,
+          10.21
+        ]
+      },
+      "id": "pr71341563"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1175,11 +1215,11 @@
         "mag": 6.7,
         "place": "62 km S of Hualien City, Taiwan",
         "time": 1647970898951,
-        "updated": 1648015722432,
+        "updated": 1648017030478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6nr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6nr.geojson",
-        "felt": 145,
+        "felt": 146,
         "cdi": 6.9,
         "mmi": 7.159,
         "alert": "green",
@@ -1413,12 +1453,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "48 km NW of Toyah, Texas",
-        "time": 1647962779940,
-        "updated": 1647964845040,
+        "place": "49 km NW of Toyah, Texas",
+        "time": 1647962780394,
+        "updated": 1648016954975,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6n0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6n0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022friu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022friu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -1426,28 +1466,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "us",
-        "code": "6000h6n0",
-        "ids": ",us6000h6n0,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2022friu",
+        "ids": ",us6000h6n0,tx2022friu,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.271,
-        "rms": 0.33,
-        "gap": 90,
+        "nst": 19,
+        "dmin": 0.09709060272,
+        "rms": 0.1,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 48 km NW of Toyah, Texas"
+        "title": "M 2.6 - 49 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2039,
-          31.5716,
-          5
+          -104.2120577,
+          31.58574846,
+          6.080151367
         ]
       },
-      "id": "us6000h6n0"
+      "id": "tx2022friu"
     },
     {
       "type": "Feature",
@@ -1775,11 +1815,11 @@
         "mag": 3.03,
         "place": "16km SE of Anza, CA",
         "time": 1647950380490,
-        "updated": 1647990985242,
+        "updated": 1648018821178,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39974207",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39974207.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1895,17 +1935,17 @@
         "mag": 3.28,
         "place": "6km E of Ontario, CA",
         "time": 1647945218430,
-        "updated": 1648015645730,
+        "updated": 1648017638299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39974135",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39974135.geojson",
-        "felt": 983,
+        "felt": 984,
         "cdi": 3.6,
         "mmi": 3.814,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 519,
+        "sig": 520,
         "net": "ci",
         "code": "39974135",
         "ids": ",ci39974135,",
@@ -2048,46 +2088,6 @@
         ]
       },
       "id": "us6000h6lj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "220 km SSW of Singkil, Indonesia",
-        "time": 1647930433844,
-        "updated": 1647931373040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h6l1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000h6l1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000h6l1",
-        "ids": ",us6000h6l1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.006,
-        "rms": 0.57,
-        "gap": 160,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 220 km SSW of Singkil, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          97.0736,
-          0.4255,
-          10
-        ]
-      },
-      "id": "us6000h6l1"
     }
   ],
   "bbox": [
