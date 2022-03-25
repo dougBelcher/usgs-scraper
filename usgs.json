@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648199840000,
+    "generated": 1648203666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "2 km SSE of Pāhala, Hawaii",
+        "time": 1648203135500,
+        "updated": 1648203499644,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72961577",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72961577.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "hv",
+        "code": "72961577",
+        "ids": ",hv72961577,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.170000002,
+        "gap": 98,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 2 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.469497680664,
+          19.1809997558594,
+          30.8999996185303
+        ]
+      },
+      "id": "hv72961577"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1775,12 +1815,12 @@
         "mag": 4.2,
         "place": "6 km W of Ramón Santana, Dominican Republic",
         "time": 1648122841140,
-        "updated": 1648124096040,
+        "updated": 1648199840797,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gwvb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gwvb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1790,7 +1830,7 @@
         "code": "7000gwvb",
         "ids": ",us7000gwvb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.647,
         "rms": 0.54,
@@ -1968,92 +2008,12 @@
         ]
       },
       "id": "pr71341763"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "44 km SSE of Perryville, Alaska",
-        "time": 1648115457621,
-        "updated": 1648186573040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0223tf9joi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0223tf9joi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0223tf9joi",
-        "ids": ",us7000gwuc,ak0223tf9joi,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 44 km SSE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.8212,
-          55.5538,
-          24.1
-        ]
-      },
-      "id": "ak0223tf9joi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "49 km ENE of Fort Bidwell, California",
-        "time": 1648114930537,
-        "updated": 1648189065040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00835978",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00835978.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00835978",
-        "ids": ",us7000gwt9,nn00835978,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.547,
-        "rms": 0.0758,
-        "gap": 154.11,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 49 km ENE of Fort Bidwell, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5731,
-          41.9659,
-          1.4
-        ]
-      },
-      "id": "nn00835978"
     }
   ],
   "bbox": [
     -178.865,
     -33.884,
-    1.4,
+    1.55,
     146.916,
     63.159,
     150.66
