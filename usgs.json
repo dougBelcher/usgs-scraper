@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648398309000,
+    "generated": 1648401399000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "20 km N of Poso, Indonesia",
+        "time": 1648398898976,
+        "updated": 1648400758040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gxpn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gxpn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000gxpn",
+        "ids": ",us7000gxpn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.998,
+        "rms": 0.96,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 20 km N of Poso, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7801,
+          -1.21,
+          10
+        ]
+      },
+      "id": "us7000gxpn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "3 km SSW of Guánica, Puerto Rico",
+        "time": 1648398428500,
+        "updated": 1648399680890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342288",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342288.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71342288",
+        "ids": ",pr71342288,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 184,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9196666666667,
+          17.9458333333333,
+          9.4
+        ]
+      },
+      "id": "pr71342288"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +135,17 @@
         "mag": 3.29,
         "place": "5 km ENE of Edmond, Oklahoma",
         "time": 1648393276519,
-        "updated": 1648397986155,
+        "updated": 1648401118053,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022galm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022galm.geojson",
-        "felt": 196,
+        "felt": 206,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 255,
+        "sig": 259,
         "net": "ok",
         "code": "2022galm",
         "ids": ",ok2022galm,us7000gxp5,",
@@ -735,11 +815,11 @@
         "mag": 5.2,
         "place": "13 km S of Esmeraldas, Ecuador",
         "time": 1648360383725,
-        "updated": 1648388370162,
+        "updated": 1648399833020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gxm3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gxm3.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "nc73710701"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "65 km NNE of Van Horn, Texas",
-        "time": 1648314534927,
-        "updated": 1648325657555,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022fyuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022fyuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2022fyuf",
-        "ids": ",us7000gxim,tx2022fyuf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1015026678,
-        "rms": 0.2,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 65 km NNE of Van Horn, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5797334,
-          31.59278925,
-          6.568603515999999
-        ]
-      },
-      "id": "tx2022fyuf"
     }
   ],
   "bbox": [
