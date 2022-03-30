@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648671496000,
+    "generated": 1648674963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "2 km N of Sutcliffe, Nevada",
+        "time": 1648674316923,
+        "updated": 1648674877040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00836357",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00836357.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00836357",
+        "ids": ",us7000gyj2,nn00836357,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.311,
+        "rms": 0.2481,
+        "gap": 175.2,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km N of Sutcliffe, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6052,
+          39.9723,
+          2.9
+        ]
+      },
+      "id": "nn00836357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7,
+        "place": "271 km ESE of Tadine, New Caledonia",
+        "time": 1648673825000,
+        "updated": 1648674880619,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00r9ksv5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00r9ksv5.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 754,
+        "net": "at",
+        "code": "00r9ksv5",
+        "ids": ",at00r9ksv5,pt22089000,",
+        "sources": ",at,pt,",
+        "types": ",dyfi,impact-link,origin,",
+        "nst": 9,
+        "dmin": 8.497164,
+        "rms": 2.11,
+        "gap": 100.79999193600065,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 7.0 - 271 km ESE of Tadine, New Caledonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2,
+          -22.7,
+          10
+        ]
+      },
+      "id": "at00r9ksv5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
-        "place": "off the coast of Southeastern Alaska",
+        "place": "119 km WSW of Elfin Cove, Alaska",
         "time": 1648667058699,
         "updated": 1648667453856,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - off the coast of Southeastern Alaska"
+        "title": "M 3.0 - 119 km WSW of Elfin Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "us7000gyfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "8 km NNE of Wai‘ōhinu, Hawaii",
+        "time": 1648652897710,
+        "updated": 1648673824520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72967582",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72967582.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "72967582",
+        "ids": ",hv72967582,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 121,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km NNE of Wai‘ōhinu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.5925,
+          19.142,
+          -0.38
+        ]
+      },
+      "id": "hv72967582"
     },
     {
       "type": "Feature",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Near the south coast of Papua, Indonesia",
+        "place": "136 km NE of Tual, Indonesia",
         "time": 1648627580733,
         "updated": 1648628494040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Near the south coast of Papua, Indonesia"
+        "title": "M 4.8 - 136 km NE of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "131 km SW of Bandar Lampung, Indonesia",
+        "place": "Sunda Strait, Indonesia",
         "time": 1648626279662,
         "updated": 1648627839040,
         "tz": null,
@@ -717,7 +837,7 @@
         "gap": 42,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 131 km SW of Bandar Lampung, Indonesia"
+        "title": "M 5.0 - Sunda Strait, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1648605889485,
         "updated": 1648606690040,
         "tz": null,
@@ -1117,7 +1237,7 @@
         "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - western Texas"
+        "title": "M 2.8 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.09,
-        "place": "3 km ESE of Morovis, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1648598721010,
         "updated": 1648641877234,
         "tz": null,
@@ -1397,7 +1517,7 @@
         "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 3 km ESE of Morovis, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1648,52 +1768,12 @@
         ]
       },
       "id": "pr2022088001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "159 km SW of Adak, Alaska",
-        "time": 1648586315302,
-        "updated": 1648591839040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy7t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy7t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.627,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000gy7t",
-        "ids": ",us7000gy7t,ak02241vffxq,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.963,
-        "rms": 1.28,
-        "gap": 229,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - 159 km SW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.3205,
-          50.9059,
-          10
-        ]
-      },
-      "id": "us7000gy7t"
     }
   ],
   "bbox": [
-    -178.3205,
+    -176.7672,
     -58,
-    0,
+    -0.38,
     179.9925,
     60.0519,
     247
