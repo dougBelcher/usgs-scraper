@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648643621000,
+    "generated": 1648646823000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "14 km NNE of Carrizales, Puerto Rico",
+        "time": 1648641980080,
+        "updated": 1648644224411,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71342713",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71342713.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 163,
+        "net": "pr",
+        "code": "71342713",
+        "ids": ",pr71342713,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 14 km NNE of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7545,
+          18.6083333333333,
+          16.52
+        ]
+      },
+      "id": "pr71342713"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1415,22 +1455,22 @@
         "mag": 4.8,
         "place": "28 km W of Poblacion, San Felipe, Philippines",
         "time": 1648580137258,
-        "updated": 1648581762040,
+        "updated": 1648646800768,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy70",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy70.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "7000gy70",
         "ids": ",us7000gy70,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 7.845,
         "rms": 0.69,
@@ -1735,7 +1775,7 @@
         "mag": 4.9,
         "place": "80 km WNW of Cabra, Philippines",
         "time": 1648571234997,
-        "updated": 1648574418040,
+        "updated": 1648645235040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gy5c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gy5c.geojson",
@@ -1750,7 +1790,7 @@
         "code": "7000gy5c",
         "ids": ",us7000gy5c,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 8.817,
         "rms": 0.57,
@@ -1968,132 +2008,12 @@
         ]
       },
       "id": "us7000gy4m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.51,
-        "place": "26 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1648559945210,
-        "updated": 1648617971563,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72966117",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72966117.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": 3.836,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 190,
-        "net": "hv",
-        "code": "72966117",
-        "ids": ",hv72966117,us7000gy30,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 47,
-        "dmin": null,
-        "rms": 0.16,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 26 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.616166666667,
-          19.42,
-          -0.79
-        ]
-      },
-      "id": "hv72966117"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "22 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1648557700870,
-        "updated": 1648642570040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72966037",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72966037.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "72966037",
-        "ids": ",us7000gy2y,hv72966037,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": null,
-        "rms": 0.239999995,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 22 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.658828735352,
-          19.5021667480469,
-          -1.23000001907349
-        ]
-      },
-      "id": "hv72966037"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "20 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1648557700700,
-        "updated": 1648561497690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72966042",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72966042.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "72966042",
-        "ids": ",hv72966042,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 142,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 20 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.677,
-          19.5085,
-          5.11
-        ]
-      },
-      "id": "hv72966042"
     }
   ],
   "bbox": [
     -179.4089,
     -58,
-    -1.2300000190735,
+    0,
     178.9908,
     60.0519,
     605.6
