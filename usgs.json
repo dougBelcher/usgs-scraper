@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648808477000,
+    "generated": 1648811745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "22 km NW of Seldovia, Alaska",
+        "time": 1648810565994,
+        "updated": 1648810738656,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246o6xjr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246o6xjr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02246o6xjr",
+        "ids": ",ak02246o6xjr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km NW of Seldovia, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.005,
+          59.5753,
+          0
+        ]
+      },
+      "id": "ak02246o6xjr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "5 km S of Big Lake, Alaska",
+        "time": 1648810536682,
+        "updated": 1648811569727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246o6s9l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246o6s9l.geojson",
+        "felt": 32,
+        "cdi": 3.4,
+        "mmi": 2.49,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "02246o6s9l",
+        "ids": ",ak02246o6s9l,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.96,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 5 km S of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9628,
+          61.4718,
+          19.5
+        ]
+      },
+      "id": "ak02246o6s9l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,12 +295,12 @@
         "mag": 2.9,
         "place": "Southern Alaska",
         "time": 1648800918127,
-        "updated": 1648808282941,
+        "updated": 1648811146918,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mrax3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mrax3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 2.024,
         "alert": null,
         "status": "automatic",
@@ -228,9 +308,9 @@
         "sig": 129,
         "net": "ak",
         "code": "02246mrax3",
-        "ids": ",us7000gyx6,ak02246mrax3,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",ak02246mrax3,us7000gyx6,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.86,
@@ -1655,7 +1735,7 @@
         "mag": 4.8,
         "place": "1 km NW of Ichihara, Japan",
         "time": 1648727533126,
-        "updated": 1648792575902,
+        "updated": 1648811686523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gypa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gypa.geojson",
@@ -1693,7 +1773,7 @@
   "bbox": [
     -179.7556,
     -60.6609,
-    2.75,
+    0,
     170.8015,
     61.7238,
     571.48
