@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1648801397000,
+    "generated": 1648804605000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 45
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "12 km NNW of Meadow Lakes, Alaska",
-        "time": 1648800918125,
-        "updated": 1648801346422,
+        "mag": 2.51,
+        "place": "3km NNW of Columbia, CA",
+        "time": 1648804475720,
+        "updated": 1648804567786,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mrax3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mrax3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73712996",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73712996.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "nc",
+        "code": "73712996",
+        "ids": ",nc73712996,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.03087,
+        "rms": 0.14,
+        "gap": 178,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3km NNW of Columbia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.411499,
+          38.0583344,
+          14.94
+        ]
+      },
+      "id": "nc73712996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "42 km WNW of Valdez, Alaska",
+        "time": 1648803028465,
+        "updated": 1648803795719,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mytqo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mytqo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,24 +67,144 @@
         "tsunami": 0,
         "sig": 129,
         "net": "ak",
-        "code": "02246mrax3",
-        "ids": ",us7000gyx6,ak02246mrax3,",
-        "sources": ",us,ak,",
+        "code": "02246mytqo",
+        "ids": ",ak02246mytqo,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.84,
+        "rms": 0.87,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 12 km NNW of Meadow Lakes, Alaska"
+        "title": "M 2.9 - 42 km WNW of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.6794,
-          61.7284,
-          28.8
+          -147.026,
+          61.3234,
+          15.2
+        ]
+      },
+      "id": "ak02246mytqo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "6km W of Holtville, CA",
+        "time": 1648802643320,
+        "updated": 1648803928471,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39983439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39983439.geojson",
+        "felt": 4,
+        "cdi": 2.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "ci",
+        "code": "39983439",
+        "ids": ",ci39983439,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.005403,
+        "rms": 0.32,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 6km W of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.447998,
+          32.7999992,
+          11.96
+        ]
+      },
+      "id": "ci39983439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1648801690522,
+        "updated": 1648802726040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyxa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyxa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000gyxa",
+        "ids": ",us7000gyxa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 14.136,
+        "rms": 0.63,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.1927,
+          -60.6609,
+          10
+        ]
+      },
+      "id": "us7000gyxa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "11 km NNW of Meadow Lakes, Alaska",
+        "time": 1648800918127,
+        "updated": 1648801942960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02246mrax3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02246mrax3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.011,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "02246mrax3",
+        "ids": ",us7000gyx6,ak02246mrax3,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 11 km NNW of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6886,
+          61.7238,
+          28.6
         ]
       },
       "id": "ak02246mrax3"
@@ -95,11 +255,11 @@
         "mag": 5.3,
         "place": "61 km WSW of Pelabuhanratu, Indonesia",
         "time": 1648797252770,
-        "updated": 1648799289055,
+        "updated": 1648801784705,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gywf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gywf.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -135,7 +295,7 @@
         "mag": 3.8,
         "place": "55 km S of Whites City, New Mexico",
         "time": 1648796182647,
-        "updated": 1648798152373,
+        "updated": 1648803554018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022giza",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022giza.geojson",
@@ -208,6 +368,46 @@
         ]
       },
       "id": "us7000gyw7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "16 km NNE of Karaisalı, Turkey",
+        "time": 1648791245027,
+        "updated": 1648801680040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gyvy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gyvy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000gyvy",
+        "ids": ",us7000gyvy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.561,
+        "rms": 0.93,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 16 km NNE of Karaisalı, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.122,
+          37.3966,
+          10
+        ]
+      },
+      "id": "us7000gyvy"
     },
     {
       "type": "Feature",
@@ -535,7 +735,7 @@
         "mag": 2.65,
         "place": "4km S of San Juan Bautista, CA",
         "time": 1648774709410,
-        "updated": 1648797311301,
+        "updated": 1648801454740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73712886",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73712886.geojson",
@@ -813,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "46 km E of Pedro Bay, Alaska",
+        "place": "Southern Alaska",
         "time": 1648764652553,
         "updated": 1648765192119,
         "tz": null,
@@ -837,7 +1037,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 46 km E of Pedro Bay, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1612,10 +1812,10 @@
   ],
   "bbox": [
     -179.7556,
-    -58.1044,
+    -60.6609,
     2.75,
     170.8015,
-    61.7284,
+    61.7238,
     571.48
   ]
 }
