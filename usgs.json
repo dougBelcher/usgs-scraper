@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649099662000,
+    "generated": 1649103554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 49
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.52999997,
         "place": "3 km SSE of Pāhala, Hawaii",
         "time": 1649095047210,
-        "updated": 1649095249800,
+        "updated": 1649103084040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72973327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72973327.geojson",
@@ -28,8 +28,8 @@
         "sig": 98,
         "net": "hv",
         "code": "72973327",
-        "ids": ",hv72973327,",
-        "sources": ",hv,",
+        "ids": ",us7000gzn1,hv72973327,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 41,
         "dmin": null,
@@ -92,29 +92,109 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
+        "mag": 2.5,
+        "place": "25 km SSE of Mina, Nevada",
+        "time": 1649094548189,
+        "updated": 1649102641200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00836685",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00836685.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00836685",
+        "ids": ",nn00836685,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.058,
+        "rms": 0.1195,
+        "gap": 118.75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 25 km SSE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0431,
+          38.1645,
+          11.6
+        ]
+      },
+      "id": "nn00836685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "29 km SSE of Jurm, Afghanistan",
+        "time": 1649094204212,
+        "updated": 1649102773040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzmy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzmy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000gzmy",
+        "ids": ",us7000gzmy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.598,
+        "rms": 1.04,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 29 km SSE of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.9811,
+          36.6223,
+          210.37
+        ]
+      },
+      "id": "us7000gzmy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
         "place": "19km SSE of Port Hueneme, CA",
-        "time": 1649093118480,
-        "updated": 1649094518602,
+        "time": 1649093118690,
+        "updated": 1649102464040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39986031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39986031.geojson",
-        "felt": 3,
-        "cdi": 3.1,
+        "felt": 4,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 97,
         "net": "ci",
         "code": "39986031",
-        "ids": ",ci39986031,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.1353,
-        "rms": 0.3,
-        "gap": 98,
+        "ids": ",ci39986031,us7000gzmu,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.1274,
+        "rms": 0.23,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 19km SSE of Port Hueneme, CA"
@@ -122,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1063333,
-          33.9913333,
-          3.32
+          -119.1015,
+          33.9998333,
+          9.32
         ]
       },
       "id": "ci39986031"
@@ -133,13 +213,13 @@
       "type": "Feature",
       "properties": {
         "mag": 6,
-        "place": "54 km WNW of Port-Vila, Vanuatu",
+        "place": "Vanuatu",
         "time": 1649088416658,
-        "updated": 1649098013456,
+        "updated": 1649101066715,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd000h551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd000h551.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 4.7,
         "mmi": 5.334,
         "alert": "green",
@@ -157,7 +237,7 @@
         "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.0 - 54 km WNW of Port-Vila, Vanuatu"
+        "title": "M 6.0 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +295,17 @@
         "mag": 3.8,
         "place": "10km WSW of Rio Dell, CA",
         "time": 1649085511590,
-        "updated": 1649099343281,
+        "updated": 1649102958858,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73714176",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73714176.geojson",
-        "felt": 55,
+        "felt": 56,
         "cdi": 3.1,
         "mmi": 3.454,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 239,
+        "sig": 240,
         "net": "nc",
         "code": "73714176",
         "ids": ",nc73714176,us7000gzl5,",
@@ -255,11 +335,11 @@
         "mag": 4.07,
         "place": "9km W of Rio Dell, CA",
         "time": 1649085406240,
-        "updated": 1649099160465,
+        "updated": 1649103193881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73714181",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73714181.geojson",
-        "felt": 231,
+        "felt": 232,
         "cdi": 3.8,
         "mmi": 3.65,
         "alert": "green",
@@ -288,6 +368,46 @@
         ]
       },
       "id": "nc73714181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "77 km WSW of Adak, Alaska",
+        "time": 1649082019296,
+        "updated": 1649100520040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzmx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzmx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000gzmx",
+        "ids": ",ak0224boz0q8,us7000gzmx,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.317,
+        "rms": 0.26,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 77 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.6253,
+          51.5571,
+          71.89
+        ]
+      },
+      "id": "us7000gzmx"
     },
     {
       "type": "Feature",
@@ -455,11 +575,11 @@
         "mag": 4.8,
         "place": "7 km S of Shiroi, Japan",
         "time": 1649078993299,
-        "updated": 1649098435503,
+        "updated": 1649100230914,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzkp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzkp.geojson",
-        "felt": 101,
+        "felt": 102,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "south of Alaska",
+        "place": "102 km SSE of Sand Point, Alaska",
         "time": 1649049432877,
         "updated": 1649093646381,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 194,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - south of Alaska"
+        "title": "M 3.7 - 102 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1848,90 +1968,10 @@
         ]
       },
       "id": "us7000gzf8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "61 km ESE of Pedro Bay, Alaska",
-        "time": 1649015570407,
-        "updated": 1649020660040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224a4lrhy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224a4lrhy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0224a4lrhy",
-        "ids": ",us7000gzf1,ak0224a4lrhy,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.71,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 61 km ESE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.1899,
-          59.4819,
-          88.4
-        ]
-      },
-      "id": "ak0224a4lrhy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "southeast of Easter Island",
-        "time": 1649015410666,
-        "updated": 1649016563040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gzf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000gzf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000gzf2",
-        "ids": ",us7000gzf2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 13.418,
-        "rms": 1.08,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - southeast of Easter Island"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.2955,
-          -41.1132,
-          10
-        ]
-      },
-      "id": "us7000gzf2"
     }
   ],
   "bbox": [
-    -177.4101,
+    -177.6253,
     -57.4218,
     0.69,
     170.5388,
