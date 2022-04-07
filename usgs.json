@@ -1,53 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649348740000,
+    "generated": 1649351965000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "55 km NNW of Koyukuk, Alaska",
-        "time": 1649347350795,
-        "updated": 1649347814788,
+        "mag": 2.9,
+        "place": "49 km NNW of Koyukuk, Alaska",
+        "time": 1649351000036,
+        "updated": 1649351810077,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224goo8vf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224goo8vf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224gp9pnc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224gp9pnc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "ak",
-        "code": "0224goo8vf",
-        "ids": ",ak0224goo8vf,",
+        "code": "0224gp9pnc",
+        "ids": ",ak0224gp9pnc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.96,
+        "rms": 0.64,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 55 km NNW of Koyukuk, Alaska"
+        "title": "M 2.9 - 49 km NNW of Koyukuk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -158.0476,
-          65.3598,
-          0
+          -158.2335,
+          65.2591,
+          35.7
         ]
       },
-      "id": "ak0224goo8vf"
+      "id": "ak0224gp9pnc"
     },
     {
       "type": "Feature",
@@ -55,7 +55,7 @@
         "mag": 2.6,
         "place": "53 km NW of Koyukuk, Alaska",
         "time": 1649346307774,
-        "updated": 1649346658771,
+        "updated": 1649351138040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224gobtsp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224gobtsp.geojson",
@@ -68,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0224gobtsp",
-        "ids": ",ak0224gobtsp,",
-        "sources": ",ak,",
+        "ids": ",us7000h0f5,ak0224gobtsp,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -92,25 +92,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "189 km N of Lospalos, Timor Leste",
+        "time": 1649343746900,
+        "updated": 1649350416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0el",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0el.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000h0el",
+        "ids": ",us7000h0el,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.08,
+        "rms": 0.67,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 189 km N of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1476,
+          -6.8164,
+          432.54
+        ]
+      },
+      "id": "us7000h0el"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "0 km WSW of Pāhala, Hawaii",
         "time": 1649340504270,
-        "updated": 1649341439540,
+        "updated": 1649351029273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72976252",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72976252.geojson",
         "felt": 1,
         "cdi": 2.2,
-        "mmi": null,
+        "mmi": 3.604,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 136,
         "net": "hv",
         "code": "72976252",
-        "ids": ",hv72976252,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv72976252,us7000h0d7,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 47,
         "dmin": null,
         "rms": 0.150000006,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Malawi",
+        "place": "37 km E of Nsanje, Malawi",
         "time": 1649328189315,
         "updated": 1649347969469,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 38,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Malawi"
+        "title": "M 4.9 - 37 km E of Nsanje, Malawi"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +415,7 @@
         "mag": 4.4,
         "place": "2 km S of Schimatári, Greece",
         "time": 1649317137592,
-        "updated": 1649321157040,
+        "updated": 1649351716040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0bg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0bg.geojson",
@@ -390,7 +430,7 @@
         "code": "7000h0bg",
         "ids": ",us7000h0bg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
         "dmin": 1.745,
         "rms": 0.86,
@@ -488,6 +528,46 @@
         ]
       },
       "id": "us7000h0b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "18km NNE of Olancha, CA",
+        "time": 1649306129400,
+        "updated": 1649351636140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39987815",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39987815.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "ci",
+        "code": "39987815",
+        "ids": ",ci39987815,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.1564,
+        "rms": 0.17,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18km NNE of Olancha, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9256667,
+          36.429,
+          0.96
+        ]
+      },
+      "id": "ci39987815"
     },
     {
       "type": "Feature",
@@ -1093,9 +1173,9 @@
   "bbox": [
     -158.4267,
     -24.1147,
-    0,
+    0.96,
     137.4802,
-    65.3598,
-    193.8
+    65.2591,
+    432.54
   ]
 }
