@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649312554000,
+    "generated": 1649315860000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -175,11 +175,11 @@
         "mag": 4.7,
         "place": "3 km NNW of Shinshiro, Japan",
         "time": 1649291435693,
-        "updated": 1649310586440,
+        "updated": 1649312868064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h09l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h09l.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -853,9 +853,49 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
+        "place": "22 km S of Sand Point, Alaska",
+        "time": 1649235191154,
+        "updated": 1649314222040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h05c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h05c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000h05c",
+        "ids": ",ak0224ewo5x2,us7000h05c,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.216,
+        "rms": 0.6,
+        "gap": 141,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4499,
+          55.1337,
+          10
+        ]
+      },
+      "id": "us7000h05c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
         "place": "54 km NW of Toyah, Texas",
         "time": 1649230503258,
-        "updated": 1649298670698,
+        "updated": 1649313559040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022gsdu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022gsdu.geojson",
@@ -868,8 +908,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2022gsdu",
-        "ids": ",tx2022gsdu,",
-        "sources": ",tx,",
+        "ids": ",us7000h03w,tx2022gsdu,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 14,
         "dmin": 0.1131018085,
@@ -888,46 +928,6 @@
         ]
       },
       "id": "tx2022gsdu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "120 km SW of Ternate, Indonesia",
-        "time": 1649228160631,
-        "updated": 1649245999040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h03u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h03u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h03u",
-        "ids": ",us7000h03u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.059,
-        "rms": 0.67,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 120 km SW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.6971,
-          -0.0548,
-          61.1
-        ]
-      },
-      "id": "us7000h03u"
     }
   ],
   "bbox": [
