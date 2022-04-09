@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649535535000,
+    "generated": 1649538895000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.2,
+        "place": "65 km WSW of Norsup, Vanuatu",
+        "time": 1649537557288,
+        "updated": 1649538798470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0yj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0yj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 5.055,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 591,
+        "net": "us",
+        "code": "7000h0yj",
+        "ids": ",us7000h0yj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.931,
+        "rms": 0.85,
+        "gap": 36,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.2 - 65 km WSW of Norsup, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.8458,
+          -16.3176,
+          10
+        ]
+      },
+      "id": "us7000h0yj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,6 +173,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
+        "place": "100 km NNW of Lobujya, Nepal",
+        "time": 1649529517552,
+        "updated": 1649536770040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0xr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0xr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000h0xr",
+        "ids": ",us7000h0xr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.51,
+        "rms": 0.69,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 100 km NNW of Lobujya, Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.5402,
+          28.8265,
+          10
+        ]
+      },
+      "id": "us7000h0xr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
         "place": "166 km SE of Atlasovo, Russia",
         "time": 1649528792650,
         "updated": 1649534056040,
@@ -215,7 +295,7 @@
         "mag": 5.7,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1649521756856,
-        "updated": 1649532281532,
+        "updated": 1649536763239,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0x9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0x9.geojson",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Chile-Argentina border region",
+        "place": "29 km E of Los Andes, Chile",
         "time": 1649521734759,
         "updated": 1649534564535,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 63,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Chile-Argentina border region"
+        "title": "M 4.5 - 29 km E of Los Andes, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -453,9 +533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "12 km NE of Sincik, Turkey",
-        "time": 1649512935891,
-        "updated": 1649518890478,
+        "place": "7 km NNE of Sincik, Turkey",
+        "time": 1649512935376,
+        "updated": 1649538418948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0wh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0wh.geojson",
@@ -470,20 +550,20 @@
         "code": "7000h0wh",
         "ids": ",us7000h0wh,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 1.013,
-        "rms": 0.88,
-        "gap": 77,
+        "dmin": 1.021,
+        "rms": 0.92,
+        "gap": 55,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 12 km NE of Sincik, Turkey"
+        "title": "M 5.3 - 7 km NNE of Sincik, Turkey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.7038,
-          38.12,
+          38.6379,
+          38.0982,
           10
         ]
       },
@@ -1088,86 +1168,6 @@
         ]
       },
       "id": "us7000h0tr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1649451674026,
-        "updated": 1649452490040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022gwvk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022gwvk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2022gwvk",
-        "ids": ",us7000h0tg,tx2022gwvk,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.0699020238,
-        "rms": 0.3,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4199904,
-          31.68058579,
-          6.131567383
-        ]
-      },
-      "id": "tx2022gwvk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Carlsberg Ridge",
-        "time": 1649451331056,
-        "updated": 1649452767040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0th",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0th.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000h0th",
-        "ids": ",us7000h0th,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 10.017,
-        "rms": 0.86,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          67.9701,
-          -1.8447,
-          10
-        ]
-      },
-      "id": "us7000h0th"
     }
   ],
   "bbox": [
