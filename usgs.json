@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1649507390000,
+    "generated": 1649510575000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 30
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 4.6,
         "place": "37 km SSE of Negara, Indonesia",
         "time": 1649497264717,
-        "updated": 1649507293956,
+        "updated": 1649509789640,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0vq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0vq.geojson",
-        "felt": 12,
-        "cdi": 4.1,
+        "felt": 14,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 330,
+        "sig": 332,
         "net": "us",
         "code": "7000h0vq",
         "ids": ",us7000h0vq,",
@@ -175,22 +175,22 @@
         "mag": 3.81,
         "place": "86 km N of Isabela, Puerto Rico",
         "time": 1649492592680,
-        "updated": 1649495184267,
+        "updated": 1649508527809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022099000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022099000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 223,
+        "sig": 224,
         "net": "pr",
         "code": "2022099000",
-        "ids": ",us7000h0vh,pr2022099000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022099000,us7000h0vh,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 26,
         "dmin": 0.8183,
         "rms": 0.62,
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1649440082140,
         "updated": 1649444707040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1208,132 +1208,12 @@
         ]
       },
       "id": "pr2022098000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "49 km NNW of Koyukuk, Alaska",
-        "time": 1649423537382,
-        "updated": 1649424138805,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224iah979",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224iah979.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0224iah979",
-        "ids": ",ak0224iah979,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 49 km NNW of Koyukuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.2711,
-          65.2534,
-          7.2
-        ]
-      },
-      "id": "ak0224iah979"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "53 km NNE of Nanao, Japan",
-        "time": 1649423096069,
-        "updated": 1649485432298,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0pv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0pv.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000h0pv",
-        "ids": ",us7000h0pv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.205,
-        "rms": 0.59,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 53 km NNE of Nanao, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.2446,
-          37.4767,
-          5.19
-        ]
-      },
-      "id": "us7000h0pv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "213 km WSW of Abepura, Indonesia",
-        "time": 1649421133397,
-        "updated": 1649422134040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0mt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h0mt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000h0mt",
-        "ids": ",us7000h0mt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.617,
-        "rms": 0.76,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 213 km WSW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.8629,
-          -3.337,
-          75.8
-        ]
-      },
-      "id": "us7000h0mt"
     }
   ],
   "bbox": [
     -178.5948,
     -54.5146,
-    5.19,
+    5.72,
     167.5069,
     65.3393,
     577.69
