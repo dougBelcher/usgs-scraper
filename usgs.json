@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650280508000,
+    "generated": 1650285188000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "6km SW of Gilroy, CA",
+        "time": 1650281936550,
+        "updated": 1650284992039,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73719600",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73719600.geojson",
+        "felt": 14,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "73719600",
+        "ids": ",nc73719600,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 57,
+        "dmin": 0.03837,
+        "rms": 0.17,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 6km SW of Gilroy, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.625,
+          36.972332,
+          2.83
+        ]
+      },
+      "id": "nc73719600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "54 km SE of Hengchun, Taiwan",
+        "time": 1650281918052,
+        "updated": 1650283804775,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h326",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h326.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 433,
+        "net": "us",
+        "code": "7000h326",
+        "ids": ",us7000h326,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.17,
+        "rms": 0.64,
+        "gap": 57,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 54 km SE of Hengchun, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1015,
+          21.6419,
+          10
+        ]
+      },
+      "id": "us7000h326"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.36,
         "place": "4 km SSE of Tallaboa, Puerto Rico",
         "time": 1650277688940,
-        "updated": 1650279419748,
+        "updated": 1650284956040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022108000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022108000.geojson",
@@ -28,8 +108,8 @@
         "sig": 174,
         "net": "pr",
         "code": "2022108000",
-        "ids": ",pr2022108000,",
-        "sources": ",pr,",
+        "ids": ",pr2022108000,us7000h31v,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.1236,
@@ -92,6 +172,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "8 km SSW of Arkalochóri, Greece",
+        "time": 1650275832050,
+        "updated": 1650284661320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h31m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h31m.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000h31m",
+        "ids": ",us7000h31m,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.355,
+        "rms": 1.26,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 8 km SSW of Arkalochóri, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.236,
+          35.0729,
+          10
+        ]
+      },
+      "id": "us7000h31m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "16 km SW of Cayaco, Mexico",
+        "time": 1650275780184,
+        "updated": 1650284290040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h31p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h31p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000h31p",
+        "ids": ",us7000h31p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.829,
+        "rms": 1.06,
+        "gap": 182,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 16 km SW of Cayaco, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3622,
+          16.9259,
+          42.82
+        ]
+      },
+      "id": "us7000h31p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "South Sandwich Islands region",
         "time": 1650272811128,
@@ -132,8 +292,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.45,
+        "place": "5 km SE of Maria Antonia, Puerto Rico",
+        "time": 1650272523070,
+        "updated": 1650281611200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344943.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71344943",
+        "ids": ",pr71344943,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.06,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8481666666667,
+          17.9446666666667,
+          11.86
+        ]
+      },
+      "id": "pr71344943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.02,
-        "place": "Puerto Rico region",
+        "place": "9 km SSW of Tallaboa, Puerto Rico",
         "time": 1650270439960,
         "updated": 1650273589360,
         "tz": null,
@@ -157,7 +357,7 @@
         "gap": 186,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 9 km SSW of Tallaboa, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Kepulauan Talaud, Indonesia",
+        "place": "188 km SE of Sarangani, Philippines",
         "time": 1650262433066,
         "updated": 1650265275040,
         "tz": null,
@@ -197,7 +397,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Kepulauan Talaud, Indonesia"
+        "title": "M 4.6 - 188 km SE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Greece",
+        "place": "6 km SSE of Gavaloú, Greece",
         "time": 1650242224392,
         "updated": 1650244821040,
         "tz": null,
@@ -517,7 +717,7 @@
         "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Greece"
+        "title": "M 4.2 - 6 km SSE of Gavaloú, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "83 km SE of Katsuren-haebaru, Japan",
+        "place": "Ryukyu Islands, Japan",
         "time": 1650207777325,
         "updated": 1650210193040,
         "tz": null,
@@ -877,7 +1077,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 83 km SE of Katsuren-haebaru, Japan"
+        "title": "M 4.6 - Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -888,246 +1088,6 @@
         ]
       },
       "id": "us7000h2wv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "western Montana",
-        "time": 1650198305918,
-        "updated": 1650205028460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2wc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2wc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000h2wc",
-        "ids": ",mb80543219,us7000h2wc,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.383,
-        "rms": 0.65,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - western Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.9111,
-          47.4516,
-          10
-        ]
-      },
-      "id": "us7000h2wc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "90 km E of Sarangani, Philippines",
-        "time": 1650197979685,
-        "updated": 1650199016040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2wb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2wb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000h2wb",
-        "ids": ",us7000h2wb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.853,
-        "rms": 0.53,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 90 km E of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.281,
-          5.3419,
-          84.38
-        ]
-      },
-      "id": "us7000h2wb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "103 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1650196845930,
-        "updated": 1650199362210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71344893",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71344893.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71344893",
-        "ids": ",pr71344893,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.28,
-        "gap": 309,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 103 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1315,
-          19.2576666666667,
-          30.52
-        ]
-      },
-      "id": "pr71344893"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "18 km SSE of Girdwood, Alaska",
-        "time": 1650196449005,
-        "updated": 1650237663255,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0224x5dhst",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0224x5dhst.geojson",
-        "felt": 8,
-        "cdi": 2.7,
-        "mmi": 2.799,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ak",
-        "code": "0224x5dhst",
-        "ids": ",ak0224x5dhst,us7000h2w4,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 18 km SSE of Girdwood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.0648,
-          60.7869,
-          10.6
-        ]
-      },
-      "id": "ak0224x5dhst"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "100 km ESE of Biak, Indonesia",
-        "time": 1650195155741,
-        "updated": 1650196404040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2w1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2w1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h2w1",
-        "ids": ",us7000h2w1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.82,
-        "rms": 0.49,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 100 km ESE of Biak, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.8865,
-          -1.5808,
-          37.68
-        ]
-      },
-      "id": "us7000h2w1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "81 km ESE of Biak, Indonesia",
-        "time": 1650194266399,
-        "updated": 1650195490040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h2vy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h2vy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000h2vy",
-        "ids": ",us7000h2vy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.776,
-        "rms": 0.77,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 81 km ESE of Biak, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.7803,
-          -1.3877,
-          45.87
-        ]
-      },
-      "id": "us7000h2vy"
     }
   ],
   "bbox": [
@@ -1135,7 +1095,7 @@
     -58.9024,
     2.11,
     167.235,
-    60.7869,
+    41.2953339,
     545.65
   ]
 }
