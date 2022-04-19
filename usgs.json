@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650385710000,
+    "generated": 1650389112000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "29 km ESE of San Ignacio, Philippines",
+        "time": 1650386190921,
+        "updated": 1650387677040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3dm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3dm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000h3dm",
+        "ids": ",us7000h3dm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.143,
+        "rms": 0.46,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 29 km ESE of San Ignacio, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7285,
+          6.9924,
+          79.99
+        ]
+      },
+      "id": "us7000h3dm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "266 km S of Ambon, Indonesia",
+        "time": 1650385042468,
+        "updated": 1650387791040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3cr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3cr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000h3cr",
+        "ids": ",us7000h3cr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.654,
+        "rms": 0.7,
+        "gap": 46,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 266 km S of Ambon, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.131,
+          -6.1067,
+          353.53
+        ]
+      },
+      "id": "us7000h3cr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -775,17 +855,17 @@
         "mag": 3.33,
         "place": "3km ESE of Cloverdale, CA",
         "time": 1650344409160,
-        "updated": 1650382033600,
+        "updated": 1650388718233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73719985",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73719985.geojson",
-        "felt": 167,
+        "felt": 170,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 239,
+        "sig": 240,
         "net": "nc",
         "code": "73719985",
         "ids": ",nc73719985,us7000h39a,",
@@ -1095,7 +1175,7 @@
         "mag": 2.71,
         "place": "18km S of Walker, CA",
         "time": 1650328297300,
-        "updated": 1650385697627,
+        "updated": 1650385888110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73719890",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73719890.geojson",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us7000h34z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1650299975160,
-        "updated": 1650332979408,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72988777",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72988777.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "hv",
-        "code": "72988777",
-        "ids": ",hv72988777,us7000h33x,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 5 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.492166666667,
-          19.1581666666667,
-          36.84
-        ]
-      },
-      "id": "hv72988777"
     }
   ],
   "bbox": [
@@ -1696,6 +1736,6 @@
     0,
     170.6729,
     73.4667,
-    183.25
+    353.53
   ]
 }
