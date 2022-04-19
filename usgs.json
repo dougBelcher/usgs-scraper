@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650389112000,
+    "generated": 1650392599000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.82,
+        "place": "8km SSE of Brawley, CA",
+        "time": 1650392105380,
+        "updated": 1650392480979,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40241296",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40241296.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "ci",
+        "code": "40241296",
+        "ids": ",ci40241296,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.04366,
+        "rms": 0.29,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 8km SSE of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.509,
+          32.9051667,
+          4.98
+        ]
+      },
+      "id": "ci40241296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "97 km SE of Lukatan, Philippines",
+        "time": 1650390720695,
+        "updated": 1650392291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3dv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3dv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000h3dv",
+        "ids": ",us7000h3dv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.64,
+        "rms": 0.79,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 97 km SE of Lukatan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1187,
+          6.4706,
+          71.78
+        ]
+      },
+      "id": "us7000h3dv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "29 km ESE of San Ignacio, Philippines",
-        "time": 1650386190921,
-        "updated": 1650387677040,
+        "time": 1650386190941,
+        "updated": 1650389129040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3dm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3dm.geojson",
@@ -32,8 +112,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 1.143,
-        "rms": 0.46,
+        "dmin": 1.14,
+        "rms": 0.48,
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
@@ -42,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.7285,
-          6.9924,
-          79.99
+          126.7254,
+          6.9919,
+          80.16
         ]
       },
       "id": "us7000h3dm"
@@ -172,42 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "84 km SE of Atka, Alaska",
-        "time": 1650376867203,
-        "updated": 1650385357085,
+        "mag": 3.5,
+        "place": "88 km ESE of Atka, Alaska",
+        "time": 1650376867097,
+        "updated": 1650389328040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02250hx0qf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02250hx0qf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3d7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3d7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "02250hx0qf",
-        "ids": ",ak02250hx0qf,",
-        "sources": ",ak,",
+        "sig": 188,
+        "net": "us",
+        "code": "7000h3d7",
+        "ids": ",ak02250hx0qf,us7000h3d7,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": null,
-        "rms": 0.72,
-        "gap": null,
+        "dmin": 0.785,
+        "rms": 0.29,
+        "gap": 317,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 84 km SE of Atka, Alaska"
+        "title": "M 3.5 - 88 km ESE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.2093,
-          51.7501,
-          26
+          -173.1052,
+          51.7858,
+          35
         ]
       },
-      "id": "ak02250hx0qf"
+      "id": "us7000h3d7"
     },
     {
       "type": "Feature",
@@ -295,17 +375,17 @@
         "mag": 4.9,
         "place": "2 km SE of La Unión, Mexico",
         "time": 1650372251246,
-        "updated": 1650382717544,
+        "updated": 1650391936321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3bw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3bw.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 373,
         "net": "us",
         "code": "7000h3bw",
         "ids": ",us7000h3bw,",
@@ -855,17 +935,17 @@
         "mag": 3.33,
         "place": "3km ESE of Cloverdale, CA",
         "time": 1650344409160,
-        "updated": 1650388718233,
+        "updated": 1650391287949,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73719985",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73719985.geojson",
-        "felt": 170,
+        "felt": 171,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 240,
+        "sig": 241,
         "net": "nc",
         "code": "73719985",
         "ids": ",nc73719985,us7000h39a,",
