@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650458199000,
+    "generated": 1650461720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "38 km N of Andalgalá, Argentina",
+        "time": 1650460751889,
+        "updated": 1650461682040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3jq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3jq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000h3jq",
+        "ids": ",us7000h3jq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.504,
+        "rms": 0.71,
+        "gap": 44,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 38 km N of Andalgalá, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3568,
+          -27.2319,
+          177.45
+        ]
+      },
+      "id": "us7000h3jq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.79,
         "place": "68km SW of Alberto Oviedo Mota, B.C., MX",
         "time": 1650454387410,
-        "updated": 1650455132040,
+        "updated": 1650458208874,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40242088",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40242088.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "40242088",
         "ids": ",ci40242088,us7000h3j9,",
         "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 11,
         "dmin": 0.229,
         "rms": 0.29,
@@ -55,11 +95,11 @@
         "mag": 5.7,
         "place": "2 km S of San Pedro de Atacama, Chile",
         "time": 1650453544914,
-        "updated": 1650458194288,
+        "updated": 1650460954106,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3j0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3j0.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.1,
         "mmi": 4.148,
         "alert": "green",
@@ -95,7 +135,7 @@
         "mag": 5.5,
         "place": "Scotia Sea",
         "time": 1650452736438,
-        "updated": 1650453973297,
+        "updated": 1650460143114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3ix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3ix.geojson",
@@ -215,7 +255,7 @@
         "mag": 4.1,
         "place": "40 km NNW of La Ligua, Chile",
         "time": 1650447635764,
-        "updated": 1650453275352,
+        "updated": 1650460279139,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3if",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3if.geojson",
@@ -455,11 +495,11 @@
         "mag": 3.45,
         "place": "7km SSE of Brawley, CA",
         "time": 1650431984930,
-        "updated": 1650436458353,
+        "updated": 1650461659616,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40241880",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40241880.geojson",
-        "felt": 39,
+        "felt": 40,
         "cdi": 3.7,
         "mmi": 3.691,
         "alert": null,
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Mauritius - Reunion region",
+        "place": "283 km ESE of Port Mathurin, Mauritius",
         "time": 1650418124270,
         "updated": 1650419846040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 151,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Mauritius - Reunion region"
+        "title": "M 5.0 - 283 km ESE of Port Mathurin, Mauritius"
       },
       "geometry": {
         "type": "Point",
@@ -1648,166 +1688,6 @@
         ]
       },
       "id": "ci40241024"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "95 km WSW of San Antonio de los Cobres, Argentina",
-        "time": 1650372969128,
-        "updated": 1650455476150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3bz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3bz.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h3bz",
-        "ids": ",us7000h3bz,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.928,
-        "rms": 0.64,
-        "gap": 70,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 95 km WSW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1448,
-          -24.6392,
-          174.41
-        ]
-      },
-      "id": "us7000h3bz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "2 km SE of La Unión, Mexico",
-        "time": 1650372251246,
-        "updated": 1650391936321,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3bw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3bw.geojson",
-        "felt": 10,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 373,
-        "net": "us",
-        "code": "7000h3bw",
-        "ids": ",us7000h3bw,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.754,
-        "rms": 0.8,
-        "gap": 89,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 2 km SE of La Unión, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7924,
-          17.9665,
-          35
-        ]
-      },
-      "id": "us7000h3bw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "190 km W of Bandon, Oregon",
-        "time": 1650372237275,
-        "updated": 1650434412793,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3bv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3bv.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000h3bv",
-        "ids": ",us7000h3bv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 1.996,
-        "rms": 0.44,
-        "gap": 180,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 190 km W of Bandon, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -126.7338,
-          43.3335,
-          10
-        ]
-      },
-      "id": "us7000h3bv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "9 km ESE of Pointe-Noire, Guadeloupe",
-        "time": 1650371940006,
-        "updated": 1650378632040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h3bu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h3bu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000h3bu",
-        "ids": ",us7000h3bu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.165,
-        "rms": 0.36,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 9 km ESE of Pointe-Noire, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.7008,
-          16.2093,
-          159.36
-        ]
-      },
-      "id": "us7000h3bu"
     }
   ],
   "bbox": [
