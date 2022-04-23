@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1650745144000,
+    "generated": 1650748569000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "67 km N of Ternate, Indonesia",
+        "time": 1650747058758,
+        "updated": 1650748121040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfx5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfx5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000hfx5",
+        "ids": ",us6000hfx5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.624,
+        "rms": 0.69,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 67 km N of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.266,
+          1.3925,
+          155.65
+        ]
+      },
+      "id": "us6000hfx5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.88,
-        "place": "6 km SSW of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1650734487580,
         "updated": 1650735631430,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 178,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 6 km SSW of Indios, Puerto Rico"
+        "title": "M 2.9 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -652,10 +692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "19 km S of South Van Horn, Alaska",
-        "time": 1650709824884,
-        "updated": 1650745023198,
+        "mag": 2.8,
+        "place": "16 km S of South Van Horn, Alaska",
+        "time": 1650709824786,
+        "updated": 1650748518134,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022571v18u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022571v18u.geojson",
@@ -663,9 +703,9 @@
         "cdi": 3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 142,
+        "sig": 133,
         "net": "ak",
         "code": "022571v18u",
         "ids": ",ak022571v18u,us6000hftw,",
@@ -673,18 +713,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.86,
+        "rms": 0.69,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 19 km S of South Van Horn, Alaska"
+        "title": "M 2.8 - 16 km S of South Van Horn, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.7349,
-          64.6359,
-          16.8
+          -147.7602,
+          64.662,
+          17.9
         ]
       },
       "id": "ak022571v18u"
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "45 km SE of San Fernando, Peru",
+        "place": "Central Peru",
         "time": 1650708133254,
         "updated": 1650709954040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 45 km SE of San Fernando, Peru"
+        "title": "M 4.5 - Central Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "113 km NE of Lorengau, Papua New Guinea",
+        "place": "Admiralty Islands region, Papua New Guinea",
         "time": 1650699628126,
         "updated": 1650707235129,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 73,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 113 km NE of Lorengau, Papua New Guinea"
+        "title": "M 4.7 - Admiralty Islands region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "35 km SSW of Barranca, Peru",
+        "place": "northern Peru",
         "time": 1650688773928,
         "updated": 1650689681040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 35 km SSW of Barranca, Peru"
+        "title": "M 4.3 - northern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "us6000hfqy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1650661852977,
-        "updated": 1650664200040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022hwkt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022hwkt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2022hwkt",
-        "ids": ",us6000hfql,tx2022hwkt,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.04365457108,
-        "rms": 0.3,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3102548,
-          31.6918408,
-          7.725463867
-        ]
-      },
-      "id": "tx2022hwkt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "14 km NNE of Ljubinje, Bosnia and Herzegovina",
-        "time": 1650661668292,
-        "updated": 1650741807521,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hfqj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hfqj.geojson",
-        "felt": 451,
-        "cdi": 6.5,
-        "mmi": 6.89,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 793,
-        "net": "us",
-        "code": "6000hfqj",
-        "ids": ",us6000hfqj,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.018,
-        "rms": 0.9,
-        "gap": 24,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 14 km NNE of Ljubinje, Bosnia and Herzegovina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1759,
-          43.0608,
-          10
-        ]
-      },
-      "id": "us6000hfqj"
     }
   ],
   "bbox": [
@@ -1615,7 +1575,7 @@
     -58.1211,
     5,
     148.0902,
-    64.6359,
+    64.662,
     282.17
   ]
 }
