@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651076919000,
+    "generated": 1651080369000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.89,
         "place": "106 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1651070120910,
-        "updated": 1651074307868,
+        "updated": 1651079191103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022117001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022117001.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "2022117001",
         "ids": ",pr2022117001,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 1.1287,
         "rms": 0.47,
@@ -55,12 +55,12 @@
         "mag": 4.9,
         "place": "113 km ENE of Iquique, Chile",
         "time": 1651068833544,
-        "updated": 1651075711372,
+        "updated": 1651079722381,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgpq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgpq.geojson",
-        "felt": 5,
-        "cdi": 2.5,
+        "felt": 6,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -572,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5,
         "place": "south of the Kermadec Islands",
-        "time": 1651022842083,
-        "updated": 1651024461040,
+        "time": 1651022844802,
+        "updated": 1651080209040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgkn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgkn.geojson",
@@ -585,26 +585,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 385,
         "net": "us",
         "code": "6000hgkn",
         "ids": ",us6000hgkn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": null,
-        "dmin": 4.066,
-        "rms": 0.6,
+        "dmin": 4.07,
+        "rms": 0.46,
         "gap": 75,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - south of the Kermadec Islands"
+        "title": "M 5.0 - south of the Kermadec Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.5296,
-          -33.0994,
-          55.97
+          -179.5042,
+          -33.1119,
+          79.02
         ]
       },
       "id": "us6000hgkn"
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Mindanao, Philippines",
+        "place": "86 km ESE of Caburan, Philippines",
         "time": 1651014049904,
         "updated": 1651030492040,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Mindanao, Philippines"
+        "title": "M 4.4 - 86 km ESE of Caburan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +975,11 @@
         "mag": 4.2,
         "place": "2 km ESE of Konia, Cyprus",
         "time": 1651003340568,
-        "updated": 1651073326279,
+        "updated": 1651077079286,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgid",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgid.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 6.1,
         "mmi": null,
         "alert": null,
@@ -1128,50 +1128,10 @@
         ]
       },
       "id": "pr71346198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "58 km E of Iquique, Chile",
-        "time": 1650992575547,
-        "updated": 1651021930226,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hggr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hggr.geojson",
-        "felt": 3,
-        "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "us",
-        "code": "6000hggr",
-        "ids": ",us6000hggr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.416,
-        "rms": 0.64,
-        "gap": 142,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 58 km E of Iquique, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.5941,
-          -20.1833,
-          39.9
-        ]
-      },
-      "id": "us6000hggr"
     }
   ],
   "bbox": [
-    -179.5296,
+    -179.5042,
     -60.2221,
     5.128955078,
     170.9858,
