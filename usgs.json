@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651149571000,
+    "generated": 1651153061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "159 km NE of Madang, Papua New Guinea",
+        "time": 1651150468540,
+        "updated": 1651152511040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h5m3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h5m3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000h5m3",
+        "ids": ",us7000h5m3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.497,
+        "rms": 0.97,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 159 km NE of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6536,
+          -4.07,
+          10
+        ]
+      },
+      "id": "us7000h5m3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "9 km NNE of Pilar, Philippines",
         "time": 1651146148912,
-        "updated": 1651147186040,
+        "updated": 1651151746258,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h5lp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h5lp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000h5lp",
         "ids": ",us7000h5lp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 2.904,
         "rms": 1.38,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000hgpq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "54 km NE of Akutan, Alaska",
-        "time": 1651063430643,
-        "updated": 1651120528040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hgp9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hgp9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000hgp9",
-        "ids": ",us6000hgp9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.327,
-        "rms": 0.94,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.4 - 54 km NE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.2814,
-          54.5296,
-          180.36
-        ]
-      },
-      "id": "us6000hgp9"
     }
   ],
   "bbox": [
