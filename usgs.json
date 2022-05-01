@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651389495000,
+    "generated": 1651393377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.6,
         "place": "Volcano Islands, Japan region",
         "time": 1651383788665,
-        "updated": 1651386875040,
+        "updated": 1651389695645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h661",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h661.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000h661",
         "ids": ",us7000h661,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 8.918,
         "rms": 0.94,
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "2 km NNE of Ingenio, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1651379981800,
         "updated": 1651387289607,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 188,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 2 km NNE of Ingenio, Puerto Rico"
+        "title": "M 3.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.84,
-        "place": "15 km ESE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1651324585960,
         "updated": 1651338352040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 162,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 15 km ESE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.8 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "96 km WSW of Abra Pampa, Argentina",
+        "place": "Jujuy, Argentina",
         "time": 1651317934443,
         "updated": 1651319097040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 45,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 96 km WSW of Abra Pampa, Argentina"
+        "title": "M 4.3 - Jujuy, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1088,46 +1088,6 @@
         ]
       },
       "id": "us7000h61d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "226 km SW of Bandar Lampung, Indonesia",
-        "time": 1651306487308,
-        "updated": 1651316069616,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h61c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h61c.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h61c",
-        "ids": ",us7000h61c,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.309,
-        "rms": 0.54,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 226 km SW of Bandar Lampung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.5781,
-          -6.6004,
-          20.23
-        ]
-      },
-      "id": "us7000h61c"
     }
   ],
   "bbox": [
