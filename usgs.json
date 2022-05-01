@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651425615000,
+    "generated": 1651429335000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 26
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 3.4,
         "place": "107 km E of Chignik, Alaska",
         "time": 1651414663152,
-        "updated": 1651415410040,
+        "updated": 1651425888519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225kcgsqf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225kcgsqf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -188,9 +188,9 @@
         "sig": 178,
         "net": "ak",
         "code": "0225kcgsqf",
-        "ids": ",us7000h67p,ak0225kcgsqf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0225kcgsqf,us7000h67p,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 1.05,
@@ -335,17 +335,17 @@
         "mag": 3.56,
         "place": "2 km E of Mount Vernon, Washington",
         "time": 1651403756460,
-        "updated": 1651425364904,
+        "updated": 1651429086600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61835766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61835766.geojson",
-        "felt": 406,
-        "cdi": 4.3,
+        "felt": 449,
+        "cdi": 3.4,
         "mmi": 3.255,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 348,
         "net": "uw",
         "code": "61835766",
         "ids": ",us7000h676,uw61835766,",
@@ -415,17 +415,17 @@
         "mag": 3.3,
         "place": "3 km NW of Knik, Alaska",
         "time": 1651397189733,
-        "updated": 1651425348959,
+        "updated": 1651428828803,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225k9jj1o",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225k9jj1o.geojson",
-        "felt": 94,
+        "felt": 99,
         "cdi": 3,
         "mmi": 3.749,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 196,
+        "sig": 197,
         "net": "ak",
         "code": "0225k9jj1o",
         "ids": ",ak0225k9jj1o,us7000h66p,",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "California-Nevada border region",
+        "place": "30 km SSW of Hawthorne, Nevada",
         "time": 1651396996607,
         "updated": 1651408699859,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - California-Nevada border region"
+        "title": "M 2.7 - 30 km SSW of Hawthorne, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.79,
-        "place": "2 km NNE of Ingenio, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1651379981800,
         "updated": 1651407096105,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 188,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 2 km NNE of Ingenio, Puerto Rico"
+        "title": "M 3.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1048,86 +1048,6 @@
         ]
       },
       "id": "us7000h64c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "6km NW of The Geysers, CA",
-        "time": 1651342676920,
-        "updated": 1651412143926,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73726581",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73726581.geojson",
-        "felt": 23,
-        "cdi": 4.3,
-        "mmi": 4.242,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "nc",
-        "code": "73726581",
-        "ids": ",nc73726581,us7000h63n,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 92,
-        "dmin": 0.006651,
-        "rms": 0.07,
-        "gap": 22,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 6km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8031667,
-          38.8195,
-          3.74
-        ]
-      },
-      "id": "nc73726581"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "169 km N of Bamboo Flat, India",
-        "time": 1651340044645,
-        "updated": 1651343781040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h63j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h63j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000h63j",
-        "ids": ",us7000h63j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.565,
-        "rms": 0.79,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 169 km N of Bamboo Flat, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          92.9874,
-          13.2125,
-          30.98
-        ]
-      },
-      "id": "us7000h63j"
     }
   ],
   "bbox": [
