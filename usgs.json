@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651495035000,
+    "generated": 1651498656000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1651495687452,
+        "updated": 1651496992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6cz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6cz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.485,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h6cz",
+        "ids": ",us7000h6cz,ak0225lyzuta,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.952,
+        "rms": 0.44,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.8716,
+          51.1105,
+          30.68
+        ]
+      },
+      "id": "us7000h6cz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1651494866924,
+        "updated": 1651496998080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6cu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6cu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.317,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000h6cu",
+        "ids": ",us7000h6cu,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.987,
+        "rms": 0.91,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Kermadec Islands, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.6642,
+          -30.0104,
+          234.86
+        ]
+      },
+      "id": "us7000h6cu"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +255,7 @@
         "mag": 3.04,
         "place": "19km WSW of Olancha, CA",
         "time": 1651482965170,
-        "updated": 1651488906931,
+        "updated": 1651495694489,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40250208",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40250208.geojson",
@@ -183,7 +263,7 @@
         "cdi": 2.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 143,
         "net": "ci",
@@ -1448,53 +1528,13 @@
         ]
       },
       "id": "us7000h67m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "78 km SSE of Panguna, Papua New Guinea",
-        "time": 1651409431773,
-        "updated": 1651416805792,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h67f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h67f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.226,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000h67f",
-        "ids": ",us7000h67f,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 4.479,
-        "rms": 0.64,
-        "gap": 44,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 78 km SSE of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.682,
-          -7.0029,
-          51.49
-        ]
-      },
-      "id": "us7000h67f"
     }
   ],
   "bbox": [
-    -173.5189,
+    -178.6642,
     -57.0571,
     1.41,
-    155.682,
+    177.8716,
     63.1034,
     392.79
   ]
