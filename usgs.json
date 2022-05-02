@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651509036000,
+    "generated": 1651512239000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "south of the Fiji Islands",
+        "time": 1651508874764,
+        "updated": 1651511085099,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6dx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6dx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.494,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000h6dx",
+        "ids": ",us7000h6dx,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 5.835,
+        "rms": 0.54,
+        "gap": 59,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.9386,
+          -23.6915,
+          519.34
+        ]
+      },
+      "id": "us7000h6dx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "Puerto Rico region",
+        "place": "11 km SSE of Indios, Puerto Rico",
         "time": 1651430810120,
         "updated": 1651432448500,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 240,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 11 km SSE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1571,11 +1611,11 @@
     }
   ],
   "bbox": [
-    -178.6642,
+    -179.9386,
     -57.0571,
     1.41,
     177.8716,
     63.1034,
-    392.79
+    519.34
   ]
 }
