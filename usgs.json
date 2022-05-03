@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651562299000,
+    "generated": 1651566199000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": 1651564143257,
+        "updated": 1651564960040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6ry",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6ry.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000h6ry",
+        "ids": ",us7000h6ry,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.394,
+        "rms": 1.28,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.8529,
+          -25.324,
+          488.24
+        ]
+      },
+      "id": "us7000h6ry"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1651563855304,
+        "updated": 1651565774040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6ru",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6ru.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h6ru",
+        "ids": ",us7000h6ru,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 4.496,
+        "rms": 0.89,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4796,
+          -20.8427,
+          596.21
+        ]
+      },
+      "id": "us7000h6ru"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1135,11 +1215,11 @@
         "mag": 4.3,
         "place": "15 km N of Kameoka, Japan",
         "time": 1651497663008,
-        "updated": 1651555084436,
+        "updated": 1651563498323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h6db",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h6db.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -1608,54 +1688,14 @@
         ]
       },
       "id": "ak0225lwhv11"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "8 km SW of Tallaboa, Puerto Rico",
-        "time": 1651477640550,
-        "updated": 1651479202580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71347053",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71347053.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71347053",
-        "ids": ",pr71347053,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.2,
-        "gap": 222,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km SW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.766,
-          17.9371666666667,
-          15.43
-        ]
-      },
-      "id": "pr71347053"
     }
   ],
   "bbox": [
     -179.9386,
     -62.7436,
     2.48,
-    178.30833333333,
+    179.8529,
     61.4001,
-    519.34
+    596.21
   ]
 }
