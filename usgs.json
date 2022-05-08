@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1651994248000,
+    "generated": 1651998183000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "183 km N of Madang, Papua New Guinea",
+        "time": 1651996474510,
+        "updated": 1651997654040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h7wh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h7wh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000h7wh",
+        "ids": ",us7000h7wh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.241,
+        "rms": 0.74,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 183 km N of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9392,
+          -3.5651,
+          10
+        ]
+      },
+      "id": "us7000h7wh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "89 km S of False Pass, Alaska",
+        "time": 1651996003394,
+        "updated": 1651996859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h7we",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h7we.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000h7we",
+        "ids": ",us7000h7we,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.803,
+        "rms": 0.55,
+        "gap": 189,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 89 km S of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.4592,
+          54.0548,
+          34.18
+        ]
+      },
+      "id": "us7000h7we"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 3.24,
         "place": "12 km WSW of Quinton, Oklahoma",
         "time": 1651988158835,
-        "updated": 1651989546040,
+        "updated": 1651994662104,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022iylz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022iylz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +148,9 @@
         "sig": 162,
         "net": "ok",
         "code": "2022iylz",
-        "ids": ",us7000h7w4,ok2022iylz,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022iylz,us7000h7w4,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": 0.1318635941,
         "rms": 0.8488505205,
@@ -95,17 +175,17 @@
         "mag": 3.9,
         "place": "45 km W of Tyonek, Alaska",
         "time": 1651983362401,
-        "updated": 1651993720311,
+        "updated": 1651997185273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225vr9lag",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225vr9lag.geojson",
-        "felt": 22,
-        "cdi": 2.9,
+        "felt": 24,
+        "cdi": 3.1,
         "mmi": 2.925,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 240,
+        "sig": 241,
         "net": "ak",
         "code": "0225vr9lag",
         "ids": ",ak0225vr9lag,at00rbjqio,us7000h7vr,",
@@ -1008,130 +1088,10 @@
         ]
       },
       "id": "us7000h7rj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "8km NW of The Geysers, CA",
-        "time": 1651910422990,
-        "updated": 1651979550328,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73730346",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73730346.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "73730346",
-        "ids": ",nc73730346,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.009182,
-        "rms": 0.06,
-        "gap": 37,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8128357,
-          38.8323326,
-          2.48
-        ]
-      },
-      "id": "nc73730346"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "49 km WSW of Karluk, Alaska",
-        "time": 1651910412572,
-        "updated": 1651914258040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225u60kl1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225u60kl1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0225u60kl1",
-        "ids": ",us7000h7r4,ak0225u60kl1,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 49 km WSW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2621,
-          57.457,
-          57.7
-        ]
-      },
-      "id": "ak0225u60kl1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "2 km SSW of Summit, Utah",
-        "time": 1651907941930,
-        "updated": 1651949122576,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60495807",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60495807.geojson",
-        "felt": 4,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "uu",
-        "code": "60495807",
-        "ids": ",uu60495807,us7000h7qy,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2196,
-        "rms": 0.22,
-        "gap": 152,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SSW of Summit, Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.949,
-          37.7858333,
-          6.4
-        ]
-      },
-      "id": "uu60495807"
     }
   ],
   "bbox": [
-    -156.1023,
+    -163.4592,
     -27.3036,
     1.58,
     165.8806,
