@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652091753000,
+    "generated": 1652095032000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.57,
         "place": "19km WSW of Round Valley, CA",
         "time": 1652088367530,
-        "updated": 1652088797023,
+        "updated": 1652092090362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73731161",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73731161.geojson",
@@ -95,11 +95,11 @@
         "mag": 5.2,
         "place": "western Honshu, Japan",
         "time": 1652085187547,
-        "updated": 1652090465574,
+        "updated": 1652094019134,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h82x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h82x.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -135,7 +135,7 @@
         "mag": 2.5,
         "place": "13 km NW of Central, Alaska",
         "time": 1652084255864,
-        "updated": 1652084571118,
+        "updated": 1652094490040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225xh6ygv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225xh6ygv.geojson",
@@ -148,8 +148,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0225xh6ygv",
-        "ids": ",ak0225xh6ygv,",
-        "sources": ",ak,",
+        "ids": ",us7000h82t,ak0225xh6ygv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "ak0225xh6ygv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "169 km ESE of António Enes, Mozambique",
+        "time": 1652083818872,
+        "updated": 1652093346040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h82r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h82r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h82r",
+        "ids": ",us7000h82r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.012,
+        "rms": 0.42,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 169 km ESE of António Enes, Mozambique"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.4593,
+          -16.5677,
+          10
+        ]
+      },
+      "id": "us7000h82r"
     },
     {
       "type": "Feature",
@@ -375,11 +415,11 @@
         "mag": 3.29,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1652074367530,
-        "updated": 1652091660627,
+        "updated": 1652094813073,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60393731",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60393731.geojson",
-        "felt": 3086,
+        "felt": 3507,
         "cdi": 5,
         "mmi": 5.177,
         "alert": null,
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "hv73006287"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.67,
-        "place": "27 km ESE of Miches, Dominican Republic",
-        "time": 1652005802890,
-        "updated": 1652018108031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022128000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022128000.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 207,
-        "net": "pr",
-        "code": "2022128000",
-        "ids": ",pr2022128000,us7000h7ww,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.5431,
-        "rms": 0.56,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 27 km ESE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7995,
-          18.9105,
-          9
-        ]
-      },
-      "id": "pr2022128000"
     }
   ],
   "bbox": [
