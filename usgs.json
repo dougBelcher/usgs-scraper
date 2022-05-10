@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652138368000,
+    "generated": 1652145570000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "198 km N of Madang, Papua New Guinea",
+        "time": 1652140950068,
+        "updated": 1652142114040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h87v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h87v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000h87v",
+        "ids": ",us7000h87v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.111,
+        "rms": 0.99,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 198 km N of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0831,
+          -3.4494,
+          10
+        ]
+      },
+      "id": "us7000h87v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "33 km SSW of Atka, Alaska",
+        "time": 1652140427089,
+        "updated": 1652142727040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h87t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h87t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.271,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000h87t",
+        "ids": ",us7000h87t,ak0225xqc7eg,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.304,
+        "rms": 1,
+        "gap": 218,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 33 km SSW of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.3784,
+          51.9193,
+          57.32
+        ]
+      },
+      "id": "us7000h87t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "22 km NE of Independence, California",
+        "time": 1652138496969,
+        "updated": 1652145431930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h87q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h87q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000h87q",
+        "ids": ",nc73731516,us7000h87q,",
+        "sources": ",nc,us,",
+        "types": ",focal-mechanism,origin,phase-data,scitech-link,",
+        "nst": null,
+        "dmin": 0.213,
+        "rms": 0.63,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 22 km NE of Independence, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0102,
+          36.9341,
+          5
+        ]
+      },
+      "id": "us7000h87q"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "67 km SSE of Kokhanok, Alaska",
         "time": 1652137846538,
-        "updated": 1652138191911,
+        "updated": 1652139604040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225xq2zdo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225xq2zdo.geojson",
@@ -28,8 +148,8 @@
         "sig": 112,
         "net": "ak",
         "code": "0225xq2zdo",
-        "ids": ",ak0225xq2zdo,",
-        "sources": ",ak,",
+        "ids": ",us7000h87m,ak0225xq2zdo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,22 +175,22 @@
         "mag": 6.3,
         "place": "179 km SW of Lorengau, Papua New Guinea",
         "time": 1652135586797,
-        "updated": 1652137159911,
+        "updated": 1652143333255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h87i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h87i.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 7.1,
         "mmi": 4.087,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 611,
+        "sig": 612,
         "net": "us",
         "code": "7000h87i",
         "ids": ",us7000h87i,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 5.861,
         "rms": 0.88,
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "central Peru",
+        "place": "21 km S of Anchonga, Peru",
         "time": 1652135096383,
         "updated": 1652138207040,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - central Peru"
+        "title": "M 4.5 - 21 km S of Anchonga, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -172,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.56,
-        "place": "23km E of Julian, CA",
-        "time": 1652132303610,
-        "updated": 1652137086920,
+        "mag": 2.57,
+        "place": "24km E of Julian, CA",
+        "time": 1652132304160,
+        "updated": 1652144183150,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40255152",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40255152.geojson",
@@ -183,28 +303,28 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 107,
         "net": "ci",
         "code": "40255152",
         "ids": ",ci40255152,us7000h879,",
         "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.09964,
-        "rms": 0.37,
-        "gap": 44,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 91,
+        "dmin": 0.07877,
+        "rms": 0.21,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 23km E of Julian, CA"
+        "title": "M 2.6 - 24km E of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3608333,
-          33.042,
-          0.4
+          -116.354,
+          33.0425,
+          11.99
         ]
       },
       "id": "ci40255152"
@@ -215,17 +335,17 @@
         "mag": 3.54,
         "place": "24km E of Julian, CA",
         "time": 1652132133550,
-        "updated": 1652138074455,
+        "updated": 1652145538612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40255120",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40255120.geojson",
-        "felt": 230,
+        "felt": 246,
         "cdi": 4.8,
         "mmi": 3.702,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 311,
         "net": "ci",
         "code": "40255120",
         "ids": ",ci40255120,us7000h874,",
@@ -295,12 +415,12 @@
         "mag": 3.03,
         "place": "4 km S of Guánica, Puerto Rico",
         "time": 1652129882860,
-        "updated": 1652130701700,
+        "updated": 1652142621478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71348113",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71348113.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +430,7 @@
         "code": "71348113",
         "ids": ",pr71348113,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": null,
         "rms": 0.23,
@@ -1015,7 +1135,7 @@
         "mag": 2.57,
         "place": "19km WSW of Round Valley, CA",
         "time": 1652088367530,
-        "updated": 1652133351989,
+        "updated": 1652142963690,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73731161",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73731161.geojson",
@@ -1052,39 +1172,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.89,
-        "place": "2 km SW of Pāhala, Hawaii",
-        "time": 1652085723400,
-        "updated": 1652095185040,
+        "mag": 3.09,
+        "place": "1 km SW of Pāhala, Hawaii",
+        "time": 1652085723370,
+        "updated": 1652138741514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73007062",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73007062.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 147,
         "net": "hv",
         "code": "73007062",
-        "ids": ",us7000h830,hv73007062,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
+        "ids": ",hv73007062,us7000h830,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 56,
         "dmin": null,
-        "rms": 0.109999999,
-        "gap": 68,
+        "rms": 0.12,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 2 km SW of Pāhala, Hawaii"
+        "title": "M 3.1 - 1 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.493667602539,
-          19.1916675567627,
-          31.8400001525879
+          -155.490333333333,
+          19.1888333333333,
+          32.92
         ]
       },
       "id": "hv73007062"
@@ -1093,13 +1213,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "9 km NNE of Toba, Japan",
+        "place": "western Honshu, Japan",
         "time": 1652085187547,
-        "updated": 1652106435286,
+        "updated": 1652139846615,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h82x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h82x.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1117,7 +1237,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 9 km NNE of Toba, Japan"
+        "title": "M 5.2 - western Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1213,9 +1333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "22 km WNW of Volcano, Hawaii",
         "time": 1652082965690,
-        "updated": 1652131728047,
+        "updated": 1652138730101,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73007032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73007032.geojson",
@@ -1237,7 +1357,7 @@
         "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 22 km WNW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1375,17 +1495,17 @@
         "mag": 6.3,
         "place": "70 km SW of Yonakuni, Japan",
         "time": 1652077383133,
-        "updated": 1652098646286,
+        "updated": 1652143627600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h82f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h82f.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 4.3,
         "mmi": 4.899,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 620,
+        "sig": 621,
         "net": "us",
         "code": "7000h82f",
         "ids": ",us7000h82f,",
@@ -1413,13 +1533,13 @@
       "type": "Feature",
       "properties": {
         "mag": 3.29,
-        "place": "South Carolina",
+        "place": "6 km E of Elgin, South Carolina",
         "time": 1652074367530,
-        "updated": 1652138227314,
+        "updated": 1652145446810,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60393731",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60393731.geojson",
-        "felt": 5210,
+        "felt": 5267,
         "cdi": 5,
         "mmi": 5.177,
         "alert": null,
@@ -1437,7 +1557,7 @@
         "gap": 63,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - South Carolina"
+        "title": "M 3.3 - 6 km E of Elgin, South Carolina"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Antofagasta, Chile",
+        "place": "37 km NNE of Calama, Chile",
         "time": 1652072803516,
         "updated": 1652087323040,
         "tz": null,
@@ -1477,7 +1597,7 @@
         "gap": 45,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Antofagasta, Chile"
+        "title": "M 4.4 - 37 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1728,86 +1848,6 @@
         ]
       },
       "id": "pr71348003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "237 km WSW of Olonkinbyen, Svalbard and Jan Mayen",
-        "time": 1652053810969,
-        "updated": 1652060428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h81a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h81a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000h81a",
-        "ids": ",us7000h81a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.196,
-        "rms": 0.59,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 237 km WSW of Olonkinbyen, Svalbard and Jan Mayen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.9882,
-          70.4291,
-          10
-        ]
-      },
-      "id": "us7000h81a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "246 km WSW of Olonkinbyen, Svalbard and Jan Mayen",
-        "time": 1652052795282,
-        "updated": 1652060197018,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h816.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000h816",
-        "ids": ",us7000h816,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 6.157,
-        "rms": 0.67,
-        "gap": 32,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 246 km WSW of Olonkinbyen, Svalbard and Jan Mayen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.2106,
-          70.421,
-          10
-        ]
-      },
-      "id": "us7000h816"
     }
   ],
   "bbox": [
@@ -1815,7 +1855,7 @@
     -59.2657,
     0.2,
     146.347,
-    70.4291,
+    65.6512,
     593.19
   ]
 }
