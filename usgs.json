@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652276410000,
+    "generated": 1652278714000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "7 km SSE of Pāhala, Hawaii",
+        "time": 1652278273170,
+        "updated": 1652278604260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73009452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73009452.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "73009452",
+        "ids": ",hv73009452,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": null,
+        "rms": 0.140000001,
+        "gap": 174,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.458999633789,
+          19.1399993896484,
+          28.9899997711182
+        ]
+      },
+      "id": "hv73009452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.22,
+        "place": "Wyoming",
+        "time": 1652275922230,
+        "updated": 1652278708159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60497322",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60497322.geojson",
+        "felt": 11,
+        "cdi": 3.1,
+        "mmi": 4.398,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 277,
+        "net": "uu",
+        "code": "60497322",
+        "ids": ",uu60497322,us7000h8kv,",
+        "sources": ",uu,us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 29,
+        "dmin": 0.07345,
+        "rms": 0.22,
+        "gap": 113,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9963333,
+          44.681,
+          13.95
+        ]
+      },
+      "id": "uu60497322"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,11 +535,11 @@
         "mag": 2.79,
         "place": "14km NW of Lee Vining, CA",
         "time": 1652252846580,
-        "updated": 1652257403323,
+        "updated": 1652278206334,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73732056",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73732056.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1332,6 +1412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "138 km WNW of Naha, Japan",
+        "time": 1652204393270,
+        "updated": 1652277849040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8e9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8e9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000h8e9",
+        "ids": ",us7000h8e9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.669,
+        "rms": 0.98,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 138 km WNW of Naha, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4102,
+          26.7118,
+          24.37
+        ]
+      },
+      "id": "us7000h8e9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "44 km NE of Ugashik, Alaska",
         "time": 1652204081135,
@@ -1488,166 +1608,6 @@
         ]
       },
       "id": "us7000h8cv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "10 km SSE of Hukay, Philippines",
-        "time": 1652192076939,
-        "updated": 1652214058099,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8cm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8cm.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000h8cm",
-        "ids": ",us7000h8cm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 9.488,
-        "rms": 0.34,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 10 km SSE of Hukay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.7526,
-          13.7616,
-          141.65
-        ]
-      },
-      "id": "us7000h8cm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "16 km SE of Arnprior, Canada",
-        "time": 1652191934785,
-        "updated": 1652249553040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h8by",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000h8by.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000h8by",
-        "ids": ",us7000h8by,",
-        "sources": ",us,",
-        "types": ",impact-text,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.732,
-        "rms": 0.29,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km SE of Arnprior, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.2085,
-          45.3184,
-          6.98
-        ]
-      },
-      "id": "us7000h8by"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "41 km SSE of Denali National Park, Alaska",
-        "time": 1652191066856,
-        "updated": 1652201110040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225z7y2j8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225z7y2j8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "0225z7y2j8",
-        "ids": ",us7000h8bj,ak0225z7y2j8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 41 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.4871,
-          63.1795,
-          7.4
-        ]
-      },
-      "id": "ak0225z7y2j8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "209 km SE of Perryville, Alaska",
-        "time": 1652190393282,
-        "updated": 1652196890040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0225z7vuxh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0225z7vuxh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0225z7vuxh",
-        "ids": ",us7000h8ct,ak0225z7vuxh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 209 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.8413,
-          54.5628,
-          31.7
-        ]
-      },
-      "id": "ak0225z7vuxh"
     }
   ],
   "bbox": [
@@ -1655,7 +1615,7 @@
     -55.4239,
     0,
     165.6618,
-    63.1795,
+    57.8847,
     593.16
   ]
 }
