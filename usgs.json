@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652351061000,
+    "generated": 1652354233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Fiji region",
+        "time": 1652353151705,
+        "updated": 1652354190040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkjg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkjg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000hkjg",
+        "ids": ",us6000hkjg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.062,
+        "rms": 0.94,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.8281,
+          -21.8902,
+          553.69
+        ]
+      },
+      "id": "us6000hkjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "26 km WSW of Boysun, Uzbekistan",
+        "time": 1652351261946,
+        "updated": 1652353679944,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkj2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkj2.geojson",
+        "felt": 1,
+        "cdi": 6,
+        "mmi": 6.468,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000hkj2",
+        "ids": ",us6000hkj2,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.723,
+        "rms": 1.02,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 26 km WSW of Boysun, Uzbekistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9269,
+          38.1134,
+          10
+        ]
+      },
+      "id": "us6000hkj2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1208,50 +1288,10 @@
         ]
       },
       "id": "us7000h8kk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "44 km NNW of San Antonio, Puerto Rico",
-        "time": 1652266583840,
-        "updated": 1652268518660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71348433",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71348433.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71348433",
-        "ids": ",pr71348433,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 44 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2971666666667,
-          18.8431666666667,
-          13.72
-        ]
-      },
-      "id": "pr71348433"
     }
   ],
   "bbox": [
-    -178.4044,
+    -178.8281,
     -30.3973,
     -1.65,
     179.2435,
