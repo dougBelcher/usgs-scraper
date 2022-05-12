@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652390181000,
+    "generated": 1652394096000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 28
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1652388644448,
-        "updated": 1652389523040,
+        "mag": 3.4,
+        "place": "14 km NE of Kivalina, Alaska",
+        "time": 1652392583608,
+        "updated": 1652393211217,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkp4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkp4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02262nryrc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02262nryrc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "02262nryrc",
+        "ids": ",ak02262nryrc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 14 km NE of Kivalina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.3071,
+          67.8179,
+          3.3
+        ]
+      },
+      "id": "ak02262nryrc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "11 km WNW of San Bartolo, Peru",
+        "time": 1652392548723,
+        "updated": 1652394016225,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkpv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkpv.geojson",
+        "felt": 12,
+        "cdi": 4.3,
+        "mmi": 4.36,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 454,
+        "net": "us",
+        "code": "6000hkpv",
+        "ids": ",us6000hkpv,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 0.373,
+        "rms": 0.99,
+        "gap": 65,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 11 km WNW of San Bartolo, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.89,
+          -12.3599,
+          55.86
+        ]
+      },
+      "id": "us6000hkpv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "10 km N of Darien, Colombia",
+        "time": 1652390611589,
+        "updated": 1652393955785,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkph.geojson",
+        "felt": 28,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 396,
+        "net": "us",
+        "code": "6000hkph",
+        "ids": ",us6000hkph,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.312,
+        "rms": 1.01,
+        "gap": 52,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 10 km N of Darien, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4904,
+          4.0221,
+          88.76
+        ]
+      },
+      "id": "us6000hkph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1652388644571,
+        "updated": 1652390216734,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022jgye",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022jgye.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,28 +146,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 158,
-        "net": "us",
-        "code": "6000hkp4",
-        "ids": ",us6000hkp4,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2022jgye",
+        "ids": ",us6000hkp4,tx2022jgye,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.087,
-        "rms": 0.73,
-        "gap": 109,
+        "nst": 12,
+        "dmin": 0.08206588224,
+        "rms": 0.2,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 58 km S of Whites City, New Mexico"
+        "title": "M 3.2 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4014,
-          31.6483,
-          5
+          -104.404525,
+          31.66712987,
+          5.591699219
         ]
       },
-      "id": "us6000hkp4"
+      "id": "tx2022jgye"
     },
     {
       "type": "Feature",
@@ -215,22 +335,22 @@
         "mag": 4.8,
         "place": "76 km W of Mórrope, Peru",
         "time": 1652374379579,
-        "updated": 1652376009040,
+        "updated": 1652394054286,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hkmc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hkmc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 356,
         "net": "us",
         "code": "6000hkmc",
         "ids": ",us6000hkmc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 3,
         "rms": 0.81,
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "26 km SW of Boysun, Uzbekistan",
+        "place": "eastern Uzbekistan",
         "time": 1652351264687,
         "updated": 1652370728239,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 26 km SW of Boysun, Uzbekistan"
+        "title": "M 5.3 - eastern Uzbekistan"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Alaska Peninsula",
+        "place": "120 km E of Chignik, Alaska",
         "time": 1652329380685,
         "updated": 1652330730040,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Alaska Peninsula"
+        "title": "M 2.6 - 120 km E of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,9 +1133,9 @@
   "bbox": [
     -178.8281,
     -28.3607,
-    5,
+    3.3,
     179.2435,
-    65.7592,
+    67.8179,
     586.38
   ]
 }
