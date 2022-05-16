@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652682525000,
+    "generated": 1652685666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 18
+    "count": 17
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "7km NE of Desert Hot Springs, CA",
+        "time": 1652683012230,
+        "updated": 1652685361058,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40019951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40019951.geojson",
+        "felt": 26,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "ci",
+        "code": "40019951",
+        "ids": ",ci40019951,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 79,
+        "dmin": 0.07361,
+        "rms": 0.16,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 7km NE of Desert Hot Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4455,
+          34.0078333,
+          7.52
+        ]
+      },
+      "id": "ci40019951"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.76,
         "place": "7km NE of Desert Hot Springs, CA",
         "time": 1652681810310,
-        "updated": 1652682503793,
+        "updated": 1652685432714,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40019919",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40019919.geojson",
-        "felt": 84,
+        "felt": 623,
         "cdi": 3.8,
-        "mmi": 3.958,
+        "mmi": 4.007,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 249,
+        "sig": 454,
         "net": "ci",
         "code": "40019919",
-        "ids": ",ci40019919,ew1652681810,",
-        "sources": ",ci,ew,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "ids": ",ci40019919,us6000hlen,ew1652681810,",
+        "sources": ",ci,us,ew,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 126,
         "dmin": 0.07261,
         "rms": 0.17,
@@ -55,7 +95,7 @@
         "mag": 3.6,
         "place": "80 km NW of Elfin Cove, Alaska",
         "time": 1652680122976,
-        "updated": 1652680696435,
+        "updated": 1652685235040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022690cqso",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022690cqso.geojson",
@@ -68,8 +108,8 @@
         "sig": 199,
         "net": "ak",
         "code": "022690cqso",
-        "ids": ",ak022690cqso,",
-        "sources": ",ak,",
+        "ids": ",us6000hlei,ak022690cqso,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -648,86 +688,6 @@
         ]
       },
       "id": "pr71348943"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1652598314842,
-        "updated": 1652624839241,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022jljm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022jljm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2022jljm",
-        "ids": ",us6000hl9j,tx2022jljm,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.08923964816,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3965378,
-          31.67683334,
-          7.185595703
-        ]
-      },
-      "id": "tx2022jljm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "70 km NNE of Aleneva, Alaska",
-        "time": 1652597565997,
-        "updated": 1652641596521,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02267dfp1l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02267dfp1l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.112,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "02267dfp1l",
-        "ids": ",us6000hl9h,ak02267dfp1l,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.43,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 70 km NNE of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.5169,
-          58.6613,
-          50.1
-        ]
-      },
-      "id": "ak02267dfp1l"
     }
   ],
   "bbox": [
