@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1652894720000,
+    "generated": 1652898191000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.62,
         "place": "9km W of Furnace Creek, CA",
         "time": 1652888872730,
-        "updated": 1652893799229,
+        "updated": 1652896644642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40021831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40021831.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "40021831",
         "ids": ",ci40021831,nn00839097,",
         "sources": ",ci,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.06984,
         "rms": 0.19,
@@ -292,39 +292,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.7,
+        "mag": 5.8,
         "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1652855275252,
-        "updated": 1652889175735,
+        "time": 1652855275176,
+        "updated": 1652898124590,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hlxv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hlxv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.912,
+        "mmi": 4.314,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 500,
+        "sig": 518,
         "net": "us",
         "code": "6000hlxv",
         "ids": ",at00rc2fak,us6000hlxv,ak0226cbwe6q,",
         "sources": ",at,us,ak,",
-        "types": ",impact-link,losspager,origin,phase-data,shakemap,",
+        "types": ",impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
-        "dmin": 0.45,
-        "rms": 1.08,
-        "gap": 140,
+        "dmin": 0.44,
+        "rms": 1.1,
+        "gap": 95,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 5.8 - Rat Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.728,
-          51.1085,
-          19.25
+          178.7361,
+          51.1188,
+          17.58
         ]
       },
       "id": "us6000hlxv"
@@ -613,9 +613,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1652838186173,
-        "updated": 1652856873672,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1652838186156,
+        "updated": 1652897482263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022jqli",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022jqli.geojson",
@@ -631,20 +631,20 @@
         "ids": ",us6000hlx0,tx2022jqli,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.0989609043,
-        "rms": 0.3,
-        "gap": 76,
+        "nst": 17,
+        "dmin": 0.1028133966,
+        "rms": 0.2,
+        "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 58 km S of Whites City, New Mexico"
+        "title": "M 3.0 - 59 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3779931,
-          31.64937654,
-          6.465771484
+          -104.3789726,
+          31.63834008,
+          5.026123046999999
         ]
       },
       "id": "tx2022jqli"
@@ -1293,8 +1293,8 @@
   "bbox": [
     -155.46733093262,
     -57.7221,
-    6.02,
-    178.728,
+    5.026123047,
+    178.7361,
     86.6293,
     536.87
   ]
