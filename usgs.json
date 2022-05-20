@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653071032000,
+    "generated": 1653074127000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "0 km WSW of Junction, Utah",
+        "time": 1653066507706,
+        "updated": 1653074020943,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmpy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmpy.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000hmpy",
+        "ids": ",us6000hmpy,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.267,
+        "rms": 0.5,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 0 km WSW of Junction, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2273,
+          38.236,
+          2.23
+        ]
+      },
+      "id": "us6000hmpy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "51 km SSW of Lowell Point, Alaska",
         "time": 1653064323236,
-        "updated": 1653067819245,
+        "updated": 1653071094040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226fsye0l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226fsye0l.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0226fsye0l",
-        "ids": ",ak0226fsye0l,",
-        "sources": ",ak,",
+        "ids": ",us6000hmpt,ak0226fsye0l,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,11 +135,11 @@
         "mag": 3.3,
         "place": "10km SSW of Ferndale, CA",
         "time": 1653063635540,
-        "updated": 1653070313040,
+        "updated": 1653071681372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73736021",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73736021.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.66,
-        "place": "Puerto Rico region",
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
         "time": 1653039610940,
         "updated": 1653058546540,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 195,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Puerto Rico region"
+        "title": "M 3.7 - 7 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -888,52 +928,12 @@
         ]
       },
       "id": "us6000hmhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "38km ESE of Shaver Lake, CA",
-        "time": 1652985822340,
-        "updated": 1653009877211,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73735741",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73735741.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "nc",
-        "code": "73735741",
-        "ids": ",nc73735741,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.6162,
-        "rms": 0.05,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 38km ESE of Shaver Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.9161682,
-          36.9766655,
-          34.48
-        ]
-      },
-      "id": "nc73735741"
     }
   ],
   "bbox": [
     -177.5843,
     -30.1233,
-    6.23,
+    2.23,
     155.1799,
     60.156,
     127.3
