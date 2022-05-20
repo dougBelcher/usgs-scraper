@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653016584000,
+    "generated": 1653020996000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "east of the Kuril Islands",
+        "time": 1653019215260,
+        "updated": 1653020798561,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmil",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmil.geojson",
+        "felt": 1,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "6000hmil",
+        "ids": ",us6000hmil,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 5.659,
+        "rms": 0.81,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - east of the Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.1799,
+          47.6886,
+          10
+        ]
+      },
+      "id": "us6000hmil"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
         "place": "74 km E of Kangding, China",
         "time": 1653006997224,
-        "updated": 1653011381701,
+        "updated": 1653020272881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hmi0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hmi0.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -928,92 +968,12 @@
         ]
       },
       "id": "pr71349338"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "26 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1652930949750,
-        "updated": 1652931631680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73016782",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73016782.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "73016782",
-        "ids": ",hv73016782,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 139,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.6175,
-          19.439,
-          -0.69
-        ]
-      },
-      "id": "hv73016782"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "South Sandwich Islands region",
-        "time": 1652930947959,
-        "updated": 1653008838733,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hm6v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hm6v.geojson",
-        "felt": 1,
-        "cdi": 6.3,
-        "mmi": 3.357,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 433,
-        "net": "us",
-        "code": "6000hm6v",
-        "ids": ",us6000hm6v,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 6.866,
-        "rms": 0.59,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.4138,
-          -57.0999,
-          35
-        ]
-      },
-      "id": "us6000hm6v"
     }
   ],
   "bbox": [
     -179.2831,
-    -57.0999,
-    -0.69,
+    -54.1373,
+    0,
     159.1444,
     66.4533,
     584.19
