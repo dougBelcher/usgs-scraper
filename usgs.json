@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653405631000,
+    "generated": 1653409755000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -132,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
+        "mag": 2.7,
         "place": "30 km SE of Mina, Nevada",
-        "time": 1653394368438,
-        "updated": 1653394691206,
+        "time": 1653394368925,
+        "updated": 1653408322741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00839442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00839442.geojson",
@@ -143,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 112,
         "net": "nn",
         "code": "00839442",
         "ids": ",nn00839442,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.079,
-        "rms": 0.3451,
-        "gap": 99.63,
+        "nst": 24,
+        "dmin": 0.053,
+        "rms": 0.1303,
+        "gap": 53.6,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 30 km SE of Mina, Nevada"
+        "title": "M 2.7 - 30 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8757,
-          38.1827,
-          11.1
+          -117.9031,
+          38.1671,
+          10
         ]
       },
       "id": "nn00839442"
@@ -535,7 +535,7 @@
         "mag": 2.84,
         "place": "12km S of Hamilton City, CA",
         "time": 1653369393360,
-        "updated": 1653383054333,
+        "updated": 1653408882739,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73737316",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73737316.geojson",
@@ -548,8 +548,8 @@
         "sig": 124,
         "net": "nc",
         "code": "73737316",
-        "ids": ",nc73737316,",
-        "sources": ",nc,",
+        "ids": ",nc73737316,nn00839437,",
+        "sources": ",nc,nn,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.2847,
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "6 km SW of Shiroi, Japan",
         "time": 1653363804219,
         "updated": 1653395405858,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 156,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - near the east coast of Honshu, Japan"
+        "title": "M 4.2 - 6 km SW of Shiroi, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1175,7 +1175,7 @@
         "mag": 3.2,
         "place": "59 km SE of Denali National Park, Alaska",
         "time": 1653335123970,
-        "updated": 1653335853202,
+        "updated": 1653409029040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226ktfk4r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226ktfk4r.geojson",
@@ -1188,8 +1188,8 @@
         "sig": 158,
         "net": "ak",
         "code": "0226ktfk4r",
-        "ids": ",ak0226ktfk4r,",
-        "sources": ",ak,",
+        "ids": ",us7000hc0a,ak0226ktfk4r,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1252,16 +1252,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "Southern Qinghai, China",
+        "time": 1653333063820,
+        "updated": 1653406268040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hbzu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hbzu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000hbzu",
+        "ids": ",us7000hbzu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 10.632,
+        "rms": 0.79,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Southern Qinghai, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.5583,
+          34.5834,
+          12.47
+        ]
+      },
+      "id": "us7000hbzu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "100 km SSE of San Jose Village, Northern Mariana Islands",
         "time": 1653331515314,
-        "updated": 1653405571997,
+        "updated": 1653405735503,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hbzi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hbzi.geojson",
         "felt": 13,
         "cdi": 4.9,
-        "mmi": 3.606,
+        "mmi": 3.607,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1453,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "80 km W of Tobelo, Indonesia",
+        "place": "Halmahera, Indonesia",
         "time": 1653324339541,
         "updated": 1653328846040,
         "tz": null,
@@ -1477,7 +1517,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 80 km W of Tobelo, Indonesia"
+        "title": "M 4.6 - Halmahera, Indonesia"
       },
       "geometry": {
         "type": "Point",
