@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653830918000,
+    "generated": 1653833859000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "22 km W of Stevens Village, Alaska",
+        "time": 1653831939903,
+        "updated": 1653832616026,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0226un32q1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0226un32q1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0226un32q1",
+        "ids": ",ak0226un32q1,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 22 km W of Stevens Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5832,
+          66.0151,
+          12.9
+        ]
+      },
+      "id": "ak0226un32q1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -248,6 +288,46 @@
         ]
       },
       "id": "us7000hden"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "26 km NW of Stanley, Idaho",
+        "time": 1653812221630,
+        "updated": 1653833240770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80547349",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80547349.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "mb",
+        "code": "80547349",
+        "ids": ",mb80547349,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.839,
+        "rms": 0.22,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 26 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2083333,
+          44.3585,
+          10.35
+        ]
+      },
+      "id": "mb80547349"
     },
     {
       "type": "Feature",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "48 km E of Denali National Park, Alaska",
+        "place": "Central Alaska",
         "time": 1653780247065,
         "updated": 1653780443490,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 48 km E of Denali National Park, Alaska"
+        "title": "M 2.8 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "us7000hdaa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "192 km NNW of Sola, Vanuatu",
-        "time": 1653747072461,
-        "updated": 1653772466336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hda6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hda6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.524,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000hda6",
-        "ids": ",us7000hda6,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 3.22,
-        "rms": 0.82,
-        "gap": 54,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 192 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.0339,
-          -12.2115,
-          209.09
-        ]
-      },
-      "id": "us7000hda6"
     }
   ],
   "bbox": [
@@ -1255,7 +1295,7 @@
     -31.4479,
     -0.79,
     173.2818,
-    64.8878,
-    209.09
+    66.0151,
+    181.56
   ]
 }
