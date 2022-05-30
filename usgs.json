@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1653902558000,
+    "generated": 1653906098000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "59km W of Petrolia, CA",
+        "time": 1653904256480,
+        "updated": 1653905484070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73739346",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73739346.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.225,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "nc",
+        "code": "73739346",
+        "ids": ",nc73739346,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 60,
+        "dmin": 0.5017,
+        "rms": 0.25,
+        "gap": 259,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 59km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.980835,
+          40.3728333,
+          0.75
+        ]
+      },
+      "id": "nc73739346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "2 km SSW of Magas Arriba, Puerto Rico",
+        "time": 1653901408620,
+        "updated": 1653903857040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71351428",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71351428.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71351428",
+        "ids": ",pr71351428,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": null,
+        "rms": 0.21,
+        "gap": 142,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSW of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7768333333333,
+          17.9995,
+          13.01
+        ]
+      },
+      "id": "pr71351428"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "15 km WSW of Mala, Peru",
         "time": 1653894259647,
-        "updated": 1653900239267,
+        "updated": 1653903527064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdjc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdjc.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -968,46 +1048,6 @@
         ]
       },
       "id": "us7000hdfa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "54 km N of Tuban, Indonesia",
-        "time": 1653818971250,
-        "updated": 1653887172040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hdf8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hdf8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000hdf8",
-        "ids": ",us7000hdf8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.766,
-        "rms": 0.49,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 54 km N of Tuban, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          112.0995,
-          -6.4066,
-          10
-        ]
-      },
-      "id": "us7000hdf8"
     }
   ],
   "bbox": [
