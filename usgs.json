@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654366798000,
+    "generated": 1654369987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "241 km SSE of Tateyama, Japan",
+        "time": 1654368521792,
+        "updated": 1654369816040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf0c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf0c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000hf0c",
+        "ids": ",us7000hf0c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.75,
+        "rms": 0.9,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 241 km SSE of Tateyama, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6725,
+          32.9085,
+          60.51
+        ]
+      },
+      "id": "us7000hf0c"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,42 +92,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "59 km NNE of Miches, Dominican Republic",
-        "time": 1654361815359,
-        "updated": 1654366647040,
+        "mag": 3.43,
+        "place": "40 km NNE of Miches, Dominican Republic",
+        "time": 1654361816910,
+        "updated": 1654368901940,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hezl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hezl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71352393",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71352393.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000hezl",
-        "ids": ",us7000hezl,",
-        "sources": ",us,",
+        "sig": 181,
+        "net": "pr",
+        "code": "71352393",
+        "ids": ",us7000hezl,pr71352393,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.475,
-        "rms": 0.36,
-        "gap": 221,
-        "magType": "ml",
+        "nst": 10,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": 212,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 59 km NNE of Miches, Dominican Republic"
+        "title": "M 3.4 - 40 km NNE of Miches, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.7388,
-          19.4339,
-          10
+          -68.9686666666667,
+          19.3383333333333,
+          53.8
         ]
       },
-      "id": "us7000hezl"
+      "id": "pr71352393"
     },
     {
       "type": "Feature",
@@ -1175,17 +1215,17 @@
         "mag": 4.4,
         "place": "25 km SSW of Al Aḩmadī, Kuwait",
         "time": 1654306083197,
-        "updated": 1654364082809,
+        "updated": 1654368701623,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hets",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hets.geojson",
-        "felt": 183,
+        "felt": 184,
         "cdi": 6.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 411,
+        "sig": 412,
         "net": "us",
         "code": "7000hets",
         "ids": ",us7000hets,",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us7000herc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "88 km SE of Old Harbor, Alaska",
-        "time": 1654282080822,
-        "updated": 1654282708470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02272zrkmc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02272zrkmc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "02272zrkmc",
-        "ids": ",ak02272zrkmc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 88 km SE of Old Harbor, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.4167,
-          56.5799,
-          0
-        ]
-      },
-      "id": "ak02272zrkmc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "46 km NW of Ninilchik, Alaska",
-        "time": 1654281041990,
-        "updated": 1654311389549,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02272znrmr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02272znrmr.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "ak",
-        "code": "02272znrmr",
-        "ids": ",ak02272znrmr,us7000heqh,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 46 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3142,
-          60.3153,
-          85.8
-        ]
-      },
-      "id": "ak02272znrmr"
     }
   ],
   "bbox": [
