@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654503661000,
+    "generated": 1654507068000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "177 km W of Abepura, Indonesia",
+        "time": 1654504154206,
+        "updated": 1654505339040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hfaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hfaj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000hfaj",
+        "ids": ",us7000hfaj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.791,
+        "rms": 0.44,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 177 km W of Abepura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0469,
+          -2.7543,
+          41.1
+        ]
+      },
+      "id": "us7000hfaj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "18 km SE of Ackerly, Texas",
+        "time": 1654503261379,
+        "updated": 1654506348867,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022kzqw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022kzqw.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": 5.373,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 248,
+        "net": "tx",
+        "code": "2022kzqw",
+        "ids": ",us7000hfae,tx2022kzqw,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.2111882978,
+        "rms": 0.1,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 18 km SE of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5833413,
+          32.40692139,
+          7.654337565
+        ]
+      },
+      "id": "tx2022kzqw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "52 km SSW of Whites City, New Mexico",
         "time": 1654499574306,
-        "updated": 1654502377089,
+        "updated": 1654507056215,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022kzot",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022kzot.geojson",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "pr2022156001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Nicobar Islands, India region",
-        "time": 1654420298989,
-        "updated": 1654421341040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf4j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf4j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000hf4j",
-        "ids": ",us7000hf4j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.918,
-        "rms": 0.73,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Nicobar Islands, India region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.6573,
-          8.9313,
-          10
-        ]
-      },
-      "id": "us7000hf4j"
     }
   ],
   "bbox": [
