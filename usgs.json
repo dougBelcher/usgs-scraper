@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654546692000,
+    "generated": 1654550139000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.4,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1654549197189,
+        "updated": 1654550125040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hffe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hffe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000hffe",
+        "ids": ",us7000hffe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.427,
+        "rms": 0.8,
+        "gap": 43,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.894,
+          43.6665,
+          10
+        ]
+      },
+      "id": "us7000hffe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
-        "place": "18 km WSW of Anchor Point, Alaska",
+        "place": "Southern Alaska",
         "time": 1654543409041,
         "updated": 1654544351859,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 18 km WSW of Anchor Point, Alaska"
+        "title": "M 3.0 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -293,9 +333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "78 km NW of Pangai, Tonga",
-        "time": 1654527352067,
-        "updated": 1654531125040,
+        "place": "77 km NW of Pangai, Tonga",
+        "time": 1654527352080,
+        "updated": 1654549777040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hfbe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hfbe.geojson",
@@ -312,19 +352,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": null,
-        "dmin": 6.049,
-        "rms": 0.8,
+        "dmin": 6.054,
+        "rms": 0.77,
         "gap": 84,
-        "magType": "mww",
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 78 km NW of Pangai, Tonga"
+        "title": "M 4.9 - 77 km NW of Pangai, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -174.8033,
-          -19.2502,
-          123.78
+          -174.8006,
+          -19.2574,
+          123.81
         ]
       },
       "id": "us7000hfbe"
@@ -692,6 +732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "17 km WNW of San Isidro, Costa Rica",
+        "time": 1654495558348,
+        "updated": 1654548813641,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf9x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf9x.geojson",
+        "felt": 1,
+        "cdi": 4.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000hf9x",
+        "ids": ",us7000hf9x,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.616,
+        "rms": 0.8,
+        "gap": 173,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 17 km WNW of San Isidro, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8496,
+          9.4172,
+          10
+        ]
+      },
+      "id": "us7000hf9x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.5,
         "place": "80 km SW of Nikolski, Alaska",
         "time": 1654494015002,
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Albania",
+        "place": "13 km SSW of Ulcinj, Montenegro",
         "time": 1654488987128,
         "updated": 1654541435507,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 23,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Albania"
+        "title": "M 4.5 - 13 km SSW of Ulcinj, Montenegro"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "64 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1654475821582,
         "updated": 1654477059040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 64 km S of Whites City, New Mexico"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "us7000hf7s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "8 km SSE of Guánica, Puerto Rico",
-        "time": 1654463602820,
-        "updated": 1654465446540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71352588",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71352588.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71352588",
-        "ids": ",pr71352588,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": null,
-        "rms": 0.05,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8763333333333,
-          17.9026666666667,
-          15
-        ]
-      },
-      "id": "pr71352588"
     }
   ],
   "bbox": [
