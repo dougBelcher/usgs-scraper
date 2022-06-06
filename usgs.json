@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1654553919000,
+    "generated": 1654557470000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "6 km E of Pāhala, Hawaii",
+        "time": 1654554282970,
+        "updated": 1654557099600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73036202",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73036202.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "hv",
+        "code": "73036202",
+        "ids": ",us7000hffu,hv73036202,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 142,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 6 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.417166666667,
+          19.214,
+          34.22
+        ]
+      },
+      "id": "hv73036202"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 5.5,
         "place": "northern Mid-Atlantic Ridge",
         "time": 1654549197254,
-        "updated": 1654551331414,
+        "updated": 1654556583807,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hffe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hffe.geojson",
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "Southern Alaska",
-        "time": 1654543409041,
-        "updated": 1654544351859,
+        "mag": 3.1,
+        "place": "21 km W of Anchor Point, Alaska",
+        "time": 1654543409293,
+        "updated": 1654554372147,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02277ytpq2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02277ytpq2.geojson",
@@ -103,9 +143,9 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 149,
         "net": "ak",
         "code": "02277ytpq2",
         "ids": ",ak02277ytpq2,",
@@ -113,18 +153,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.61,
+        "rms": 0.47,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Southern Alaska"
+        "title": "M 3.1 - 21 km W of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.1448,
-          59.7366,
-          63.7
+          -152.2089,
+          59.7842,
+          71.2
         ]
       },
       "id": "ak02277ytpq2"
@@ -255,17 +295,17 @@
         "mag": 2.68,
         "place": "4km SSW of Anderson Springs, CA",
         "time": 1654531532600,
-        "updated": 1654540965768,
+        "updated": 1654556214556,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73741011",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73741011.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 112,
         "net": "nc",
         "code": "73741011",
         "ids": ",nc73741011,",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "pr71352603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of Tonga",
-        "time": 1654470606563,
-        "updated": 1654471809040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hf85",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hf85.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000hf85",
-        "ids": ",us7000hf85,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.893,
-        "rms": 0.53,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.0793,
-          -25.0567,
-          10
-        ]
-      },
-      "id": "us7000hf85"
     }
   ],
   "bbox": [
