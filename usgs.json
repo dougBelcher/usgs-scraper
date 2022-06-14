@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655224149000,
+    "generated": 1655227267000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "63 km ENE of Ishinomaki, Japan",
+        "time": 1655224426827,
+        "updated": 1655226843040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhdw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhdw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000hhdw",
+        "ids": ",us7000hhdw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.352,
+        "rms": 0.54,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 63 km ENE of Ishinomaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0033,
+          38.5481,
+          58.24
+        ]
+      },
+      "id": "us7000hhdw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "74 km SSE of Halibut Cove, Alaska",
         "time": 1655224004052,
-        "updated": 1655224142681,
+        "updated": 1655226564040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227l5cuyq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227l5cuyq.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0227l5cuyq",
-        "ids": ",ak0227l5cuyq,",
-        "sources": ",ak,",
+        "ids": ",us7000hhdr,ak0227l5cuyq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,7 +95,7 @@
         "mag": 3.8,
         "place": "45 km SW of Cantwell, Alaska",
         "time": 1655221382702,
-        "updated": 1655223338073,
+        "updated": 1655226209040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227l4uzkp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227l4uzkp.geojson",
@@ -68,8 +108,8 @@
         "sig": 223,
         "net": "ak",
         "code": "0227l4uzkp",
-        "ids": ",ak0227l4uzkp,",
-        "sources": ",ak,",
+        "ids": ",ak0227l4uzkp,us7000hhdd,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
@@ -82,7 +122,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.6824,
+          -149.6822,
           63.1541,
           85.1
         ]
@@ -1375,13 +1415,13 @@
         "mag": 3.5,
         "place": "59 km W of Sitka, Alaska",
         "time": 1655153458433,
-        "updated": 1655221570040,
+        "updated": 1655226299131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227jkcfeu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227jkcfeu.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
-        "mmi": 2.652,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1390,7 +1430,7 @@
         "code": "0227jkcfeu",
         "ids": ",ak0227jkcfeu,us7000hh5u,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.77,
@@ -1728,86 +1768,6 @@
         ]
       },
       "id": "us7000hh4a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "4 km W of Fuig, Puerto Rico",
-        "time": 1655138540420,
-        "updated": 1655141257490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71353943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71353943.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71353943",
-        "ids": ",pr71353943,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km W of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9555,
-          17.9825,
-          11.16
-        ]
-      },
-      "id": "pr71353943"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "6 km WSW of Guánica, Puerto Rico",
-        "time": 1655137759800,
-        "updated": 1655138894910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71353928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71353928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "pr",
-        "code": "71353928",
-        "ids": ",pr71353928,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9628333333333,
-          17.944,
-          14.1
-        ]
-      },
-      "id": "pr71353928"
     }
   ],
   "bbox": [
