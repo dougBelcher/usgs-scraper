@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655216161000,
+    "generated": 1655219952000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "30km NNW of Santa Barbara Is., CA",
+        "time": 1655218733360,
+        "updated": 1655219030552,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40039967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40039967.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "40039967",
+        "ids": ",ci40039967,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.3947,
+        "rms": 0.28,
+        "gap": 168,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 30km NNW of Santa Barbara Is., CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1528333,
+          33.7336667,
+          0.93
+        ]
+      },
+      "id": "ci40039967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "98 km SSW of Masachapa, Nicaragua",
+        "time": 1655217461163,
+        "updated": 1655219765040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhbg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhbg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000hhbg",
+        "ids": ",us7000hhbg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 1.323,
+        "rms": 0.39,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 98 km SSW of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8449,
+          10.9542,
+          10
+        ]
+      },
+      "id": "us7000hhbg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "16 km SSW of Susitna, Alaska",
         "time": 1655216022555,
-        "updated": 1655216114725,
+        "updated": 1655218008040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227l437jj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227l437jj.geojson",
@@ -28,8 +108,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0227l437jj",
-        "ids": ",ak0227l437jj,",
-        "sources": ",ak,",
+        "ids": ",us7000hhba,ak0227l437jj,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +128,126 @@
         ]
       },
       "id": "ak0227l437jj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "16 km E of Kīsh, Iran",
+        "time": 1655215783154,
+        "updated": 1655218088040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhbb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhbb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000hhbb",
+        "ids": ",us7000hhbb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 2.42,
+        "rms": 0.79,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 16 km E of Kīsh, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.1791,
+          26.5404,
+          10
+        ]
+      },
+      "id": "us7000hhbb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "155 km SE of Akutan, Alaska",
+        "time": 1655215506778,
+        "updated": 1655216612395,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227l41qd2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227l41qd2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.021,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0227l41qd2",
+        "ids": ",ak0227l41qd2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 155 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.8744,
+          53.31,
+          37.5
+        ]
+      },
+      "id": "ak0227l41qd2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "154 km SE of Akutan, Alaska",
+        "time": 1655215505268,
+        "updated": 1655217570040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhb8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhb8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.011,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000hhb8",
+        "ids": ",ak0227l41f2l,us7000hhb8,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.22,
+        "rms": 0.34,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 154 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.8738,
+          53.329,
+          13.36
+        ]
+      },
+      "id": "us7000hhb8"
     },
     {
       "type": "Feature",
@@ -981,7 +1181,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227jkcfeu.geojson",
         "felt": 2,
         "cdi": 2,
-        "mmi": 2.652,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -990,7 +1190,7 @@
         "code": "0227jkcfeu",
         "ids": ",ak0227jkcfeu,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.77,
@@ -1052,6 +1252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "80 km NW of Finschhafen, Papua New Guinea",
+        "time": 1655147301534,
+        "updated": 1655219647040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hh4z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hh4z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000hh4z",
+        "ids": ",us7000hh4z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 5.068,
+        "rms": 1.09,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 80 km NW of Finschhafen, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4001,
+          -5.9846,
+          61.43
+        ]
+      },
+      "id": "us7000hh4z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "Prince Edward Islands region",
         "time": 1655143794379,
@@ -1088,6 +1328,46 @@
         ]
       },
       "id": "us7000hh4m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "37 km S of Jurm, Afghanistan",
+        "time": 1655142964288,
+        "updated": 1655216586040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hh4j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hh4j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000hh4j",
+        "ids": ",us7000hh4j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.641,
+        "rms": 0.82,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 37 km S of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8836,
+          36.5319,
+          204.7
+        ]
+      },
+      "id": "us7000hh4j"
     },
     {
       "type": "Feature",
@@ -1328,132 +1608,12 @@
         ]
       },
       "id": "us7000hh3k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1655133116380,
-        "updated": 1655213110040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73042942",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73042942.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "hv",
-        "code": "73042942",
-        "ids": ",us7000hh3f,hv73042942,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.495,
-          19.1693333333333,
-          34.45
-        ]
-      },
-      "id": "hv73042942"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "98 km ESE of Murghob, Tajikistan",
-        "time": 1655132816506,
-        "updated": 1655134938040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hh3e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hh3e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000hh3e",
-        "ids": ",us7000hh3e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.951,
-        "rms": 0.38,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 98 km ESE of Murghob, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.0657,
-          37.9938,
-          74.64
-        ]
-      },
-      "id": "us7000hh3e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "18 km E of Smiley, Texas",
-        "time": 1655132027962,
-        "updated": 1655134156040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022lmyn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022lmyn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022lmyn",
-        "ids": ",us7000hh3g,tx2022lmyn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.02898847432,
-        "rms": 0.3,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km E of Smiley, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.44381893,
-          29.27764893,
-          3.839396159
-        ]
-      },
-      "id": "tx2022lmyn"
     }
   ],
   "bbox": [
-    -155.495,
+    -163.8744,
     -45.9334,
-    3.839396159,
+    0.93,
     167.7728,
     61.4001,
     490.4
