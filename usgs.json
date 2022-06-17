@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655490143000,
+    "generated": 1655493275000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "87 km SW of San Pedro de Atacama, Chile",
+        "time": 1655489360416,
+        "updated": 1655490903040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi72",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi72.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000hi72",
+        "ids": ",us7000hi72,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.766,
+        "rms": 1.01,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 87 km SW of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7374,
+          -23.5236,
+          103.78
+        ]
+      },
+      "id": "us7000hi72"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 2.45,
         "place": "6km SSE of Portola Valley, CA",
         "time": 1655464082510,
-        "updated": 1655490057423,
+        "updated": 1655491189111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746671",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746671.geojson",
-        "felt": 16,
+        "felt": 18,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "nc",
         "code": "73746671",
         "ids": ",nc73746671,",
@@ -455,11 +495,11 @@
         "mag": 4.8,
         "place": "31 km NNE of The Valley, Anguilla",
         "time": 1655462891270,
-        "updated": 1655488672859,
+        "updated": 1655490420043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2s.geojson",
-        "felt": 81,
+        "felt": 82,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Kodiak Island region, Alaska",
+        "place": "56 km NE of Ouzinkie, Alaska",
         "time": 1655454930471,
         "updated": 1655458049040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Kodiak Island region, Alaska"
+        "title": "M 2.8 - 56 km NE of Ouzinkie, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "12 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1655427814110,
         "updated": 1655429087570,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 244,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 12 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1092,10 +1132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.91,
+        "mag": 2.89,
         "place": "1km ESE of Round Valley, CA",
-        "time": 1655423786820,
-        "updated": 1655433075006,
+        "time": 1655423786780,
+        "updated": 1655491934687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746481.geojson",
@@ -1103,16 +1143,16 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 129,
         "net": "nc",
         "code": "73746481",
         "ids": ",nc73746481,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.06164,
+        "nst": 32,
+        "dmin": 0.06072,
         "rms": 0.04,
         "gap": 60,
         "magType": "md",
@@ -1122,9 +1162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.5879974,
-          37.4116669,
-          11.07
+          -118.5875,
+          37.4108333,
+          11.7
         ]
       },
       "id": "nc73746481"
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "33 km SSE of Londres, Argentina",
+        "place": "Catamarca, Argentina",
         "time": 1655416950865,
         "updated": 1655418158040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 33 km SSE of Londres, Argentina"
+        "title": "M 4.2 - Catamarca, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1688,126 +1728,6 @@
         ]
       },
       "id": "us7000hhxq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "198 km NE of Lospalos, Timor Leste",
-        "time": 1655406273759,
-        "updated": 1655483018040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhxn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhxn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000hhxn",
-        "ids": ",us7000hhxn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 2.856,
-        "rms": 0.61,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 198 km NE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.4613,
-          -7.4794,
-          147.02
-        ]
-      },
-      "id": "us7000hhxn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "96 km SSW of George Town, Cayman Islands",
-        "time": 1655406066135,
-        "updated": 1655482963040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhxl.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000hhxl",
-        "ids": ",us7000hhxl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 3.946,
-        "rms": 1.09,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 96 km SSW of George Town, Cayman Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.6818,
-          18.4643,
-          10
-        ]
-      },
-      "id": "us7000hhxl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "103 km SSW of George Town, Cayman Islands",
-        "time": 1655404161179,
-        "updated": 1655482920567,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hhxe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hhxe.geojson",
-        "felt": 7,
-        "cdi": 6.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 389,
-        "net": "us",
-        "code": "7000hhxe",
-        "ids": ",us7000hhxe,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 4.005,
-        "rms": 0.99,
-        "gap": 33,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 103 km SSW of George Town, Cayman Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.7462,
-          18.4222,
-          10
-        ]
-      },
-      "id": "us7000hhxe"
     }
   ],
   "bbox": [
