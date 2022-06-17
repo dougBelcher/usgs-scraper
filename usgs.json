@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655447009000,
+    "generated": 1655450494000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "15 km ENE of Laupāhoehoe, Hawaii",
+        "time": 1655450025680,
+        "updated": 1655450355190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73046617",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73046617.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "hv",
+        "code": "73046617",
+        "ids": ",hv73046617,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": 254,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km ENE of Laupāhoehoe, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.097839355469,
+          20.0446662902832,
+          16.2199993133545
+        ]
+      },
+      "id": "hv73046617"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000hi1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "14km ENE of Red Bluff, CA",
+        "time": 1655440219580,
+        "updated": 1655448736545,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73746556",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73746556.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "nc",
+        "code": "73746556",
+        "ids": ",nc73746556,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.03271,
+        "rms": 0.09,
+        "gap": 168,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 14km ENE of Red Bluff, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0888333,
+          40.2251667,
+          57.52
+        ]
+      },
+      "id": "nc73746556"
     },
     {
       "type": "Feature",
