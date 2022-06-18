@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655540533000,
+    "generated": 1655543787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 43
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.8,
         "place": "28 km N of Four Mile Road, Alaska",
         "time": 1655540108169,
-        "updated": 1655540213219,
+        "updated": 1655542452293,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227rmoco0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227rmoco0.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +28,9 @@
         "sig": 121,
         "net": "ak",
         "code": "0227rmoco0",
-        "ids": ",ak0227rmoco0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0227rmoco0,us7000hibb,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.43,
@@ -52,82 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "5 km NW of Metter, Georgia",
-        "time": 1655539524000,
-        "updated": 1655540519426,
+        "mag": 3.9,
+        "place": "7 km E of Stillmore, Georgia",
+        "time": 1655539523720,
+        "updated": 1655543760710,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rdnyh0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rdnyh0.geojson",
-        "felt": 52,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 337,
-        "net": "at",
-        "code": "00rdnyh0",
-        "ids": ",at00rdnyh0,",
-        "sources": ",at,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 51,
-        "dmin": 0,
-        "rms": 1.06,
-        "gap": 46.7999962560003,
-        "magType": "Ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 5 km NW of Metter, Georgia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.1,
-          32.435,
-          100
-        ]
-      },
-      "id": "at00rdnyh0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "6 km ESE of Stillmore, Georgia",
-        "time": 1655539523951,
-        "updated": 1655540526770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hib6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hib6.geojson",
-        "felt": 55,
-        "cdi": 4.6,
-        "mmi": 5.421,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60400186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60400186.geojson",
+        "felt": 373,
+        "cdi": 5,
+        "mmi": 4.934,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 297,
-        "net": "us",
-        "code": "7000hib6",
-        "ids": ",at00rdnyh2,us7000hib6,",
-        "sources": ",at,us,",
-        "types": ",dyfi,impact-link,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 0.831,
-        "rms": 0.76,
-        "gap": 42,
-        "magType": "mb",
+        "sig": 420,
+        "net": "se",
+        "code": "60400186",
+        "ids": ",us7000hib6,at00rdnyh0,se60400186,at00rdnyh2,",
+        "sources": ",us,at,se,at,",
+        "types": ",associate,dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 23,
+        "dmin": 0.8316,
+        "rms": 0.29,
+        "gap": 60,
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.2 - 6 km ESE of Stillmore, Georgia"
+        "title": "M 3.9 - 7 km E of Stillmore, Georgia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.1469,
-          32.4286,
-          5
+          -82.1405,
+          32.4525,
+          0.75
         ]
       },
-      "id": "us7000hib6"
+      "id": "se60400186"
     },
     {
       "type": "Feature",
@@ -693,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "7 km SE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1655506529740,
         "updated": 1655514888550,
         "tz": null,
@@ -717,7 +677,7 @@
         "gap": 189,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km SE of Maria Antonia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1768,92 +1728,12 @@
         ]
       },
       "id": "us7000hi2g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "148 km WSW of Haveluloto, Tonga",
-        "time": 1655457118732,
-        "updated": 1655458373040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hi2f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hi2f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000hi2f",
-        "ids": ",us7000hi2f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 6.263,
-        "rms": 0.69,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 148 km WSW of Haveluloto, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.5989,
-          -21.4831,
-          224.58
-        ]
-      },
-      "id": "us7000hi2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "Kodiak Island region, Alaska",
-        "time": 1655454930471,
-        "updated": 1655458049040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227pz9c8f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227pz9c8f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0227pz9c8f",
-        "ids": ",us7000hi2e,ak0227pz9c8f,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Kodiak Island region, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8304,
-          58.2908,
-          29.4
-        ]
-      },
-      "id": "ak0227pz9c8f"
     }
   ],
   "bbox": [
     -178.5353,
     -49.2177,
-    1.94,
+    0.75,
     169.7407,
     64.8521,
     622.42
