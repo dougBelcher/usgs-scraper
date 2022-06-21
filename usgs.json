@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655846153000,
+    "generated": 1655849813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.1,
-        "place": "44 km SW of Khōst, Afghanistan",
-        "time": 1655844881478,
-        "updated": 1655846096631,
+        "mag": 5.3,
+        "place": "50 km SE of Mohr, Iran",
+        "time": 1655845777350,
+        "updated": 1655849495077,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3u.geojson",
-        "felt": 1,
-        "cdi": 4.8,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3x.geojson",
+        "felt": 4,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 573,
+        "sig": 434,
         "net": "us",
-        "code": "7000hj3u",
-        "ids": ",us7000hj3u,",
+        "code": "7000hj3x",
+        "ids": ",us7000hj3x,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 1.484,
-        "rms": 0.69,
-        "gap": 24,
-        "magType": "mww",
+        "dmin": 3.498,
+        "rms": 0.77,
+        "gap": 46,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.1 - 44 km SW of Khōst, Afghanistan"
+        "title": "M 5.3 - 50 km SE of Mohr, Iran"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          69.5285,
-          33.1087,
-          50.83
+          53.2661,
+          27.2482,
+          10.41
+        ]
+      },
+      "id": "us7000hj3x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "46 km SW of Khōst, Afghanistan",
+        "time": 1655844876148,
+        "updated": 1655849446111,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3u.geojson",
+        "felt": 38,
+        "cdi": 8.3,
+        "mmi": 7.158,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 682,
+        "net": "us",
+        "code": "7000hj3u",
+        "ids": ",us7000hj3u,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 1.496,
+        "rms": 0.89,
+        "gap": 16,
+        "magType": "mwb",
+        "type": "earthquake",
+        "title": "M 5.9 - 46 km SW of Khōst, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5135,
+          33.0924,
+          10
         ]
       },
       "id": "us7000hj3u"
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "127 km SE of Copiapó, Chile",
+        "place": "La Rioja, Argentina",
         "time": 1655798999613,
         "updated": 1655800847040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 42,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 127 km SE of Copiapó, Chile"
+        "title": "M 4.9 - La Rioja, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Samoa Islands region",
+        "place": "101 km ESE of Hihifo, Tonga",
         "time": 1655781832054,
         "updated": 1655787732040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Samoa Islands region"
+        "title": "M 4.6 - 101 km ESE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "near the west coast of Honshu, Japan",
+        "place": "55 km NNE of Nanao, Japan",
         "time": 1655775770721,
         "updated": 1655781349040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - near the west coast of Honshu, Japan"
+        "title": "M 4.3 - 55 km NNE of Nanao, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1208,133 +1248,13 @@
         ]
       },
       "id": "us7000hius"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "18 km WNW of Mountain View, Hawaii",
-        "time": 1655762017370,
-        "updated": 1655762693040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73050292",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73050292.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "hv",
-        "code": "73050292",
-        "ids": ",us7000hiuk,hv73050292,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": null,
-        "rms": 0.25,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 18 km WNW of Mountain View, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.272994995117,
-          19.6138324737549,
-          0.990000009536743
-        ]
-      },
-      "id": "hv73050292"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "south of the Fiji Islands",
-        "time": 1655762003030,
-        "updated": 1655764079040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hiul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hiul.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000hiul",
-        "ids": ",us7000hiul,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 4.321,
-        "rms": 0.72,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.7037,
-          -25.4768,
-          501.42
-        ]
-      },
-      "id": "us7000hiul"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "12 km W of Adjuntas, Puerto Rico",
-        "time": 1655760844970,
-        "updated": 1655765512130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71355203",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71355203.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71355203",
-        "ids": ",us7000hiue,pr71355203,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 44,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 12 km W of Adjuntas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8386666666667,
-          18.1571666666667,
-          19.35
-        ]
-      },
-      "id": "pr71355203"
     }
   ],
   "bbox": [
     -179.5006,
     -58.7537,
-    0.99000000953674,
-    179.7037,
+    4.9,
+    154.343,
     63.481,
     590.64
   ]
