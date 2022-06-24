@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656069296000,
+    "generated": 1656074425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "34 km SW of Petersville, Alaska",
+        "time": 1656070046140,
+        "updated": 1656070475040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02281lrcej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02281lrcej.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02281lrcej",
+        "ids": ",us7000hjvw,ak02281lrcej,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km SW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2902,
+          62.3022,
+          80.4
+        ]
+      },
+      "id": "ak02281lrcej"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "52 km SW of Jiquilillo, Nicaragua",
+        "time": 1656067033196,
+        "updated": 1656071095040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjvp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000hjvp",
+        "ids": ",us7000hjvp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.832,
+        "rms": 0.5,
+        "gap": 172,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 52 km SW of Jiquilillo, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8369,
+          12.4543,
+          59.76
+        ]
+      },
+      "id": "us7000hjvp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "Pacific-Antarctic Ridge",
         "time": 1656064197612,
-        "updated": 1656066679356,
+        "updated": 1656071586327,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjvj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjvj.geojson",
@@ -133,14 +213,14 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "7 km WNW of Quilcene, Washington",
+        "place": "Olympic Peninsula, Washington",
         "time": 1656054733078,
-        "updated": 1656056214040,
+        "updated": 1656074115530,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjun",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjun.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,14 +230,14 @@
         "code": "7000hjun",
         "ids": ",us7000hjun,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 0.308,
         "rms": 0.51,
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km WNW of Quilcene, Washington"
+        "title": "M 2.6 - Olympic Peninsula, Washington"
       },
       "geometry": {
         "type": "Point",
@@ -373,19 +453,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "near the coast of northern Peru",
+        "place": "64 km WNW of Puerto Santa, Peru",
         "time": 1656046261127,
-        "updated": 1656050480741,
+        "updated": 1656072853704,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjtz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjtz.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 403,
         "net": "us",
         "code": "7000hjtz",
         "ids": ",us7000hjtz,",
@@ -397,7 +477,7 @@
         "gap": 156,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - near the coast of northern Peru"
+        "title": "M 5.1 - 64 km WNW of Puerto Santa, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Solomon Islands",
+        "place": "61 km SE of Honiara, Solomon Islands",
         "time": 1656003988277,
         "updated": 1656015946040,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Solomon Islands"
+        "title": "M 4.7 - 61 km SE of Honiara, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "97 km E of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1655992905645,
         "updated": 1655995925251,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 167,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 97 km E of Nikolski, Alaska"
+        "title": "M 4.3 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
