@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656051755000,
+    "generated": 1656055045000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "97 km E of Red Dog Mine, Alaska",
+        "time": 1656053984571,
+        "updated": 1656054173383,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02281iz2qh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02281iz2qh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "02281iz2qh",
+        "ids": ",ak02281iz2qh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 97 km E of Red Dog Mine, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.5377,
+          68.0577,
+          0.1
+        ]
+      },
+      "id": "ak02281iz2qh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "279 km N of Kuril’sk, Russia",
+        "time": 1656050608194,
+        "updated": 1656051969040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjue",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjue.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000hjue",
+        "ids": ",us7000hjue,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.622,
+        "rms": 0.78,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 279 km N of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9643,
+          47.7371,
+          375.26
+        ]
+      },
+      "id": "us7000hjue"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,7 +895,7 @@
         "mag": 2.9,
         "place": "0km WSW of Round Valley, CA",
         "time": 1656001266950,
-        "updated": 1656011111083,
+        "updated": 1656053952907,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73750001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73750001.geojson",
@@ -1448,54 +1528,14 @@
         ]
       },
       "id": "us7000hjij"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "Off the coast of Atacama, Chile",
-        "time": 1655967157207,
-        "updated": 1655970113040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hjib",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hjib.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000hjib",
-        "ids": ",us7000hjib,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.846,
-        "rms": 0.65,
-        "gap": 155,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 3.9 - Off the coast of Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3186,
-          -28.9745,
-          10
-        ]
-      },
-      "id": "us7000hjib"
     }
   ],
   "bbox": [
     -167.4321,
     -41.1619,
-    3.28,
+    0.1,
     179.9361,
-    64.7227,
+    68.0577,
     514.17
   ]
 }
