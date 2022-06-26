@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656227746000,
+    "generated": 1656231668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Guatemala",
+        "time": 1656227101489,
+        "updated": 1656228099040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkby",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkby.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000hkby",
+        "ids": ",us7000hkby,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 0.315,
+        "rms": 0.68,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7706,
+          14.706,
+          193
+        ]
+      },
+      "id": "us7000hkby"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,11 +175,11 @@
         "mag": 3.4,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1656221514630,
-        "updated": 1656227689989,
+        "updated": 1656231420458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60400941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60400941.geojson",
-        "felt": 2493,
+        "felt": 2537,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "us7000hk5c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "22km NW of Ocotillo, CA",
-        "time": 1656144837410,
-        "updated": 1656145510570,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40291096",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40291096.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ci",
-        "code": "40291096",
-        "ids": ",ci40291096,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.09471,
-        "rms": 0.25,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 22km NW of Ocotillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1788333,
-          32.8571667,
-          4.52
-        ]
-      },
-      "id": "ci40291096"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15,
-        "place": "6 km WSW of Fuig, Puerto Rico",
-        "time": 1656143783690,
-        "updated": 1656176614980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71355873",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71355873.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "pr",
-        "code": "71355873",
-        "ids": ",pr71355873,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": null,
-        "rms": 0.25,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 6 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9746666666667,
-          17.9628333333333,
-          9.78
-        ]
-      },
-      "id": "pr71355873"
     }
   ],
   "bbox": [
