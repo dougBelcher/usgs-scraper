@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656242108000,
+    "generated": 1656246668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 3.64,
         "place": "5 km ENE of Punta Cana, Dominican Republic",
         "time": 1656230603780,
-        "updated": 1656235255743,
+        "updated": 1656245703843,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022177000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022177000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "2022177000",
         "ids": ",pr2022177000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.0874,
         "rms": 0.04,
@@ -335,17 +335,17 @@
         "mag": 3.4,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1656221514630,
-        "updated": 1656241953533,
+        "updated": 1656246621126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60400941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60400941.geojson",
-        "felt": 2772,
-        "cdi": 4.8,
+        "felt": 2999,
+        "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 658,
+        "sig": 648,
         "net": "se",
         "code": "60400941",
         "ids": ",se60400941,us7000hkb7,",
@@ -1368,53 +1368,13 @@
         ]
       },
       "id": "us7000hk6l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1656158044511,
-        "updated": 1656159340040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hk67",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hk67.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000hk67",
-        "ids": ",us7000hk67,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 3.872,
-        "rms": 1.14,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.632,
-          -22.4639,
-          23.37
-        ]
-      },
-      "id": "us7000hk67"
     }
   ],
   "bbox": [
     -177.9868,
     -60.5647,
     3.3,
-    171.632,
+    168.3117,
     79.7235,
     584.11
   ]
