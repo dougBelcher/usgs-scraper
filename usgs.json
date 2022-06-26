@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656274684000,
+    "generated": 1656278069000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "125 km E of Chignik, Alaska",
+        "time": 1656276114765,
+        "updated": 1656276731040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022852a038",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022852a038.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022852a038",
+        "ids": ",us7000hkfr,ak022852a038,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.4,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 125 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3701,
+          56.3023,
+          65.8
+        ]
+      },
+      "id": "ak022852a038"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "13 km NNW of Aïn el Bya, Algeria",
         "time": 1656271071013,
-        "updated": 1656274085040,
+        "updated": 1656276495700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkfb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkfb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 5.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 313,
         "net": "us",
         "code": "7000hkfb",
         "ids": ",us7000hkfb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": 1.747,
         "rms": 0.76,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "7 km ESE of Denpasar, Indonesia",
+        "place": "Bali region, Indonesia",
         "time": 1656246334035,
         "updated": 1656250651192,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 7 km ESE of Denpasar, Indonesia"
+        "title": "M 4.4 - Bali region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -648,6 +688,46 @@
         ]
       },
       "id": "us7000hkde"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "246km W of Ferndale, CA",
+        "time": 1656238295520,
+        "updated": 1656277574142,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73751206",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73751206.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "nc",
+        "code": "73751206",
+        "ids": ",nc73751206,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 2.187,
+        "rms": 0.2,
+        "gap": 310,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 246km W of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.157,
+          40.9065,
+          9.62
+        ]
+      },
+      "id": "nc73751206"
     },
     {
       "type": "Feature",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Guatemala",
+        "place": "6 km NNE of El Tejar, Guatemala",
         "time": 1656227101489,
         "updated": 1656228099040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 143,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Guatemala"
+        "title": "M 4.6 - 6 km NNE of El Tejar, Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +1055,11 @@
         "mag": 3.4,
         "place": "6 km E of Elgin, South Carolina",
         "time": 1656221514630,
-        "updated": 1656274673411,
+        "updated": 1656277992440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60400941",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60400941.geojson",
-        "felt": 3437,
+        "felt": 3452,
         "cdi": 6,
         "mmi": null,
         "alert": null,
@@ -1248,206 +1328,6 @@
         ]
       },
       "id": "pr71355988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "41 km SSW of Jurm, Afghanistan",
-        "time": 1656191521739,
-        "updated": 1656192224040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hk8p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hk8p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000hk8p",
-        "ids": ",us7000hk8p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 0.635,
-        "rms": 0.42,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 41 km SSW of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.7385,
-          36.5029,
-          141.79
-        ]
-      },
-      "id": "us7000hk8p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "2 km SE of Maria Antonia, Puerto Rico",
-        "time": 1656191252900,
-        "updated": 1656192785550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71355973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71355973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71355973",
-        "ids": ",pr71355973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 201,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km SE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8736666666667,
-          17.9638333333333,
-          9.91
-        ]
-      },
-      "id": "pr71355973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "62 km WNW of San Antonio de los Cobres, Argentina",
-        "time": 1656189064776,
-        "updated": 1656195539040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hk8j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hk8j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000hk8j",
-        "ids": ",us7000hk8j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.601,
-        "rms": 0.66,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 62 km WNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9082,
-          -24.0539,
-          190.31
-        ]
-      },
-      "id": "us7000hk8j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "5 km SE of Mangili, Philippines",
-        "time": 1656188577758,
-        "updated": 1656195130040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hk8i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hk8i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000hk8i",
-        "ids": ",us7000hk8i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": 1.1,
-        "rms": 0.7,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 5 km SE of Mangili, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.7253,
-          5.9714,
-          145.46
-        ]
-      },
-      "id": "us7000hk8i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "5 km ENE of Oso, Washington",
-        "time": 1656188320160,
-        "updated": 1656260963805,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61846212",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61846212.geojson",
-        "felt": 43,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "uw",
-        "code": "61846212",
-        "ids": ",uw61846212,us7000hk8g,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1078,
-        "rms": 0.25,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 5 km ENE of Oso, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.8635,
-          48.29416666666667,
-          6.29
-        ]
-      },
-      "id": "uw61846212"
     }
   ],
   "bbox": [
