@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656381194000,
+    "generated": 1656387851000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "68 km SSW of Kuril’sk, Russia",
+        "time": 1656383003659,
+        "updated": 1656385418040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkr9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkr9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000hkr9",
+        "ids": ",us7000hkr9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 3.499,
+        "rms": 0.83,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 68 km SSW of Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4063,
+          44.7128,
+          119.94
+        ]
+      },
+      "id": "us7000hkr9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.62,
         "place": "2 km SW of Pāhala, Hawaii",
         "time": 1656379929030,
-        "updated": 1656380259710,
+        "updated": 1656383516040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73058467",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73058467.geojson",
@@ -28,8 +68,8 @@
         "sig": 106,
         "net": "hv",
         "code": "73058467",
-        "ids": ",hv73058467,",
-        "sources": ",hv,",
+        "ids": ",us7000hkr0,hv73058467,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 43,
         "dmin": null,
@@ -135,13 +175,13 @@
         "mag": 3.65,
         "place": "2 km N of Maria Antonia, Puerto Rico",
         "time": 1656375952090,
-        "updated": 1656380293111,
+        "updated": 1656386633523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022179000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022179000.geojson",
-        "felt": 8,
-        "cdi": 4.1,
-        "mmi": 2.729,
+        "felt": 10,
+        "cdi": 3.4,
+        "mmi": 2.788,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -414,8 +454,8 @@
       "properties": {
         "mag": 2.49,
         "place": "46 km ESE of Naalehu, Hawaii",
-        "time": 1656360938280,
-        "updated": 1656362802040,
+        "time": 1656360938220,
+        "updated": 1656382702800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73058162",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73058162.geojson",
@@ -423,7 +463,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 95,
         "net": "hv",
@@ -431,10 +471,10 @@
         "ids": ",us7000hkp1,hv73058162,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 33,
+        "nst": 42,
         "dmin": null,
-        "rms": 0.289999992,
-        "gap": 261,
+        "rms": 0.15,
+        "gap": 263,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 46 km ESE of Naalehu, Hawaii"
@@ -442,9 +482,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.186340332031,
-          18.8856658935547,
-          6.94999980926514
+          -155.195666666667,
+          18.8696666666667,
+          9.99
         ]
       },
       "id": "hv73058162"
@@ -775,7 +815,7 @@
         "mag": 2.59,
         "place": "6km NNW of Hayfork, CA",
         "time": 1656341082590,
-        "updated": 1656375493518,
+        "updated": 1656385210436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73751651",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73751651.geojson",
