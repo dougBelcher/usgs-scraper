@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656524543000,
+    "generated": 1656527250000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "43 km E of Juneau, Alaska",
+        "time": 1656526336387,
+        "updated": 1656526481281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02289zivtp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02289zivtp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "02289zivtp",
+        "ids": ",ak02289zivtp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 43 km E of Juneau, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.6864,
+          58.3155,
+          3
+        ]
+      },
+      "id": "ak02289zivtp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "68 km NE of Teller, Alaska",
+        "time": 1656525018991,
+        "updated": 1656525256772,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02289z5lfv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02289z5lfv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "02289z5lfv",
+        "ids": ",ak02289z5lfv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.6,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 68 km NE of Teller, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.2286,
+          65.6531,
+          1.5
+        ]
+      },
+      "id": "ak02289z5lfv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 3.54,
         "place": "110km W of Petrolia, CA",
         "time": 1656511684200,
-        "updated": 1656521774239,
+        "updated": 1656526638748,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73752561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73752561.geojson",
@@ -248,6 +328,46 @@
         ]
       },
       "id": "ak02289ut4zy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "76km ESE of Maneadero, B.C., MX",
+        "time": 1656493811820,
+        "updated": 1656526832127,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37505629",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37505629.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "ci",
+        "code": "37505629",
+        "ids": ",ci37505629,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.09572,
+        "rms": 0.07,
+        "gap": 199,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 76km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.8883333,
+          31.3566667,
+          6.03
+        ]
+      },
+      "id": "ci37505629"
     },
     {
       "type": "Feature",
@@ -811,9 +931,9 @@
     }
   ],
   "bbox": [
-    -155.46916666667,
+    -165.2286,
     -6.5124,
-    2.96,
+    1.5,
     148.3646,
     69.2827,
     444.67
