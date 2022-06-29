@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656541067000,
+    "generated": 1656544703000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "6 km E of Elgin, South Carolina",
+        "time": 1656543781140,
+        "updated": 1656544684850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60401416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60401416.geojson",
+        "felt": 822,
+        "cdi": 5.3,
+        "mmi": 5.182,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 635,
+        "net": "se",
+        "code": "60401416",
+        "ids": ",se60401416,us6000hyn4,",
+        "sources": ",se,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 24,
+        "dmin": 0.03885,
+        "rms": 0.32,
+        "gap": 41,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.6 - 6 km E of Elgin, South Carolina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.728,
+          34.1646667,
+          2.95
+        ]
+      },
+      "id": "se60401416"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.51,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1656539422600,
-        "updated": 1656540599167,
+        "updated": 1656542918026,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73060367",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73060367.geojson",
-        "felt": 6,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": 3.758,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 192,
+        "sig": 193,
         "net": "hv",
         "code": "73060367",
         "ids": ",hv73060367,us6000hymn,",
@@ -48,46 +88,6 @@
         ]
       },
       "id": "hv73060367"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "24 km SSE of Naalehu, Hawaii",
-        "time": 1656538162560,
-        "updated": 1656538493450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73060352",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73060352.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "73060352",
-        "ids": ",hv73060352,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 275,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 24 km SSE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.52783203125,
-          18.8501663208008,
-          35.1199989318848
-        ]
-      },
-      "id": "hv73060352"
     },
     {
       "type": "Feature",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "54 km S of Kēng Tung, Myanmar",
+        "place": "Myanmar",
         "time": 1656528883244,
         "updated": 1656534632510,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 54 km S of Kēng Tung, Myanmar"
+        "title": "M 4.8 - Myanmar"
       },
       "geometry": {
         "type": "Point",
@@ -255,11 +255,11 @@
         "mag": 3.5,
         "place": "5 km E of Elgin, South Carolina",
         "time": 1656528236880,
-        "updated": 1656541052346,
+        "updated": 1656544515750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60401376",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60401376.geojson",
-        "felt": 4090,
+        "felt": 4398,
         "cdi": 6.1,
         "mmi": 5.349,
         "alert": null,
@@ -270,7 +270,7 @@
         "code": "60401376",
         "ids": ",se60401376,us6000hyjc,",
         "sources": ",se,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,moment-tensor,origin,phase-data,shakemap,",
         "nst": 24,
         "dmin": 0.04165,
         "rms": 0.25,
@@ -735,17 +735,17 @@
         "mag": 3.54,
         "place": "110km W of Petrolia, CA",
         "time": 1656511684200,
-        "updated": 1656530491814,
+        "updated": 1656541538810,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73752561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73752561.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2,
         "mmi": 1.184,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 193,
+        "sig": 194,
         "net": "nc",
         "code": "73752561",
         "ids": ",nc73752561,",
@@ -1295,7 +1295,7 @@
         "mag": 2.7,
         "place": "41 km NW of Toyah, Texas",
         "time": 1656460853771,
-        "updated": 1656534377820,
+        "updated": 1656541745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022mpbc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022mpbc.geojson",
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "hv73059517"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "40 km NNW of San Antonio, Puerto Rico",
-        "time": 1656456631700,
-        "updated": 1656459458250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71356553",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71356553.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "pr",
-        "code": "71356553",
-        "ids": ",pr71356553,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.2,
-        "gap": 272,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 40 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3031666666667,
-          18.7986666666667,
-          28.72
-        ]
-      },
-      "id": "pr71356553"
     }
   ],
   "bbox": [
