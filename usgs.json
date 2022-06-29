@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656509905000,
+    "generated": 1656512123000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.83,
+        "place": "96km W of Petrolia, CA",
+        "time": 1656511685190,
+        "updated": 1656512114247,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73752561",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73752561.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 226,
+        "net": "nc",
+        "code": "73752561",
+        "ids": ",nc73752561,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.8229,
+        "rms": 0.28,
+        "gap": 250,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 96km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.4108353,
+          40.3979988,
+          2.21
+        ]
+      },
+      "id": "nc73752561"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1008,92 +1048,12 @@
         ]
       },
       "id": "us7000hkuu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "43 km ESE of Santiago de Cuba, Cuba",
-        "time": 1656425517681,
-        "updated": 1656453573999,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkym",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkym.geojson",
-        "felt": 8,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 225,
-        "net": "us",
-        "code": "7000hkym",
-        "ids": ",us7000hkym,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 0.866,
-        "rms": 0.42,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 43 km ESE of Santiago de Cuba, Cuba"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.4727,
-          19.8218,
-          10
-        ]
-      },
-      "id": "us7000hkym"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "44 km W of Hengchun, Taiwan",
-        "time": 1656423809505,
-        "updated": 1656475025284,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hkud",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hkud.geojson",
-        "felt": 5,
-        "cdi": 7.8,
-        "mmi": 4.337,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 453,
-        "net": "us",
-        "code": "7000hkud",
-        "ids": ",us7000hkud,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": 1.083,
-        "rms": 0.52,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 44 km W of Hengchun, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.3116,
-          21.9956,
-          10
-        ]
-      },
-      "id": "us7000hkud"
     }
   ],
   "bbox": [
     -163.3472,
     -44.6148,
-    5,
+    2.21,
     166.9601,
     64.826,
     444.67
