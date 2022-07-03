@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656839863000,
+    "generated": 1656843585000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "33 km ESE of Khorugh, Tajikistan",
+        "time": 1656841395126,
+        "updated": 1656842608040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hziq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hziq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000hziq",
+        "ids": ",us6000hziq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 1.058,
+        "rms": 0.48,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 33 km ESE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8769,
+          37.3328,
+          168.18
+        ]
+      },
+      "id": "us6000hziq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.56,
         "place": "11 km E of Pāhala, Hawaii",
         "time": 1656839002090,
-        "updated": 1656839333160,
+        "updated": 1656841737580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73063537",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73063537.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "73063537",
         "ids": ",hv73063537,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": null,
         "rms": 0.129999995,
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "us6000hzdg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "92 km SW of Taltal, Chile",
-        "time": 1656756292352,
-        "updated": 1656757798040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzdb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzdb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000hzdb",
-        "ids": ",us6000hzdb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.378,
-        "rms": 0.61,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 92 km SW of Taltal, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.0139,
-          -26.0868,
-          23.39
-        ]
-      },
-      "id": "us6000hzdb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "3 km WSW of Palmarejo, Puerto Rico",
-        "time": 1656754271940,
-        "updated": 1656755749920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71357128",
-        "ids": ",pr71357128,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 138,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km WSW of Palmarejo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1096666666667,
-          18.0245,
-          13.43
-        ]
-      },
-      "id": "pr71357128"
     }
   ],
   "bbox": [
