@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1656992633000,
+    "generated": 1656995884000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 55
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "213 km SE of Port Blair, India",
+        "place": "Andaman Islands, India region",
         "time": 1656988497188,
         "updated": 1656989369040,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 213 km SE of Port Blair, India"
+        "title": "M 4.8 - Andaman Islands, India region"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +135,12 @@
         "mag": 4.6,
         "place": "73 km SSE of Tateyama, Japan",
         "time": 1656982278550,
-        "updated": 1656983072040,
+        "updated": 1656992954799,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzwc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzwc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000hzwc",
         "ids": ",us6000hzwc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 1.228,
         "rms": 0.76,
@@ -175,12 +175,12 @@
         "mag": 5.4,
         "place": "219 km SE of Port Blair, India",
         "time": 1656980817135,
-        "updated": 1656988221138,
+        "updated": 1656994684228,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzwa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzwa.geojson",
-        "felt": 4,
-        "cdi": 3.4,
+        "felt": 5,
+        "cdi": 3.6,
         "mmi": 2.971,
         "alert": "green",
         "status": "reviewed",
@@ -212,8 +212,88 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "135 km NW of Davila, Philippines",
+        "time": 1656980141212,
+        "updated": 1656993681040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hzwb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hzwb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000hzwb",
+        "ids": ",us6000hzwb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 3.607,
+        "rms": 0.52,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 135 km NW of Davila, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7546,
+          19.4116,
+          10
+        ]
+      },
+      "id": "us6000hzwb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "22 km W of Saint George, Alaska",
+        "time": 1656979875177,
+        "updated": 1656995708674,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228jm14qf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228jm14qf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "0228jm14qf",
+        "ids": ",ak0228jm14qf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 2.18,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 22 km W of Saint George, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.9136,
+          56.6023,
+          32.8
+        ]
+      },
+      "id": "ak0228jm14qf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "227 km SE of Port Blair, India",
+        "place": "Andaman Islands, India region",
         "time": 1656976513181,
         "updated": 1656977612040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 227 km SE of Port Blair, India"
+        "title": "M 4.6 - Andaman Islands, India region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Babar, Indonesia",
+        "place": "261 km ENE of Lospalos, Timor Leste",
         "time": 1656953358919,
         "updated": 1656962827040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Babar, Indonesia"
+        "title": "M 4.5 - 261 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "63 km SE of Sand Point, Alaska",
+        "place": "south of Alaska",
         "time": 1656948418419,
         "updated": 1656958351040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 147,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 63 km SE of Sand Point, Alaska"
+        "title": "M 3.3 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Andaman Islands, India region",
+        "place": "218 km SE of Port Blair, India",
         "time": 1656935291313,
         "updated": 1656936312040,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Andaman Islands, India region"
+        "title": "M 5.0 - 218 km SE of Port Blair, India"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "1 km W of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1656921785470,
         "updated": 1656924137100,
         "tz": null,
@@ -1957,7 +2037,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 1 km W of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Andaman Islands, India region",
+        "place": "201 km SE of Port Blair, India",
         "time": 1656912952782,
         "updated": 1656915506040,
         "tz": null,
@@ -2117,7 +2197,7 @@
         "gap": 105,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Andaman Islands, India region"
+        "title": "M 4.7 - 201 km SE of Port Blair, India"
       },
       "geometry": {
         "type": "Point",
@@ -2128,46 +2208,6 @@
         ]
       },
       "id": "us6000hznv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "43 km ENE of Bandar-e Lengeh, Iran",
-        "time": 1656908088411,
-        "updated": 1656909591040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hznl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000hznl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000hznl",
-        "ids": ",us6000hznl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.002,
-        "rms": 0.64,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 43 km ENE of Bandar-e Lengeh, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.2555,
-          26.7634,
-          10
-        ]
-      },
-      "id": "us6000hznl"
     }
   ],
   "bbox": [
