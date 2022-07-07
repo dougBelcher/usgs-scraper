@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657201872000,
+    "generated": 1657203492000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "2 km W of Indios, Puerto Rico",
+        "time": 1657200432730,
+        "updated": 1657203141750,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71357983",
+        "ids": ",pr71357983,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": null,
+        "rms": 0.09,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 2 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8436666666667,
+          17.9896666666667,
+          17.44
+        ]
+      },
+      "id": "pr71357983"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,22 +255,22 @@
         "mag": 2.78,
         "place": "11km SSE of Mammoth Lakes, CA",
         "time": 1657185546280,
-        "updated": 1657195272357,
+        "updated": 1657203152206,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73755781",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73755781.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 120,
         "net": "nc",
         "code": "73755781",
         "ids": ",nc73755781,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 20,
         "dmin": 0.07878,
         "rms": 0.06,
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "211 km SE of Port Blair, India",
+        "place": "Andaman Islands, India region",
         "time": 1657132283731,
         "updated": 1657138369040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 178,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 211 km SE of Port Blair, India"
+        "title": "M 4.5 - Andaman Islands, India region"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Andaman Islands, India region",
+        "place": "225 km SE of Port Blair, India",
         "time": 1657129920370,
         "updated": 1657137609040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 161,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Andaman Islands, India region"
+        "title": "M 4.5 - 225 km SE of Port Blair, India"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "mb80550669"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "2 km ESE of Palomas, Puerto Rico",
-        "time": 1657115887180,
-        "updated": 1657118165160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357738",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357738.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "pr",
-        "code": "71357738",
-        "ids": ",pr71357738,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 154,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 2 km ESE of Palomas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8496666666667,
-          18.0011666666667,
-          17.99
-        ]
-      },
-      "id": "pr71357738"
     }
   ],
   "bbox": [
