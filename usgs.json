@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657268773000,
+    "generated": 1657272373000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "10km NNE of Ocotillo Wells, CA",
+        "time": 1657270652690,
+        "updated": 1657271028040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40299648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40299648.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "ci",
+        "code": "40299648",
+        "ids": ",ci40299648,us6000i0t2,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 68,
+        "dmin": 0.09127,
+        "rms": 0.22,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 10km NNE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1063333,
+          33.2311667,
+          8.16
+        ]
+      },
+      "id": "ci40299648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "288 km WSW of Adak, Alaska",
+        "time": 1657268186840,
+        "updated": 1657269255040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i0sv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i0sv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.108,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000i0sv",
+        "ids": ",us6000i0sv,ak0228opfjrh,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 0.528,
+        "rms": 0.66,
+        "gap": 216,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 288 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.264,
+          51.4062,
+          60.69
+        ]
+      },
+      "id": "us6000i0sv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1248,93 +1328,13 @@
         ]
       },
       "id": "us6000i0i3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.78,
-        "place": "11km SSE of Mammoth Lakes, CA",
-        "time": 1657185546280,
-        "updated": 1657210180833,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73755781",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73755781.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "nc",
-        "code": "73755781",
-        "ids": ",nc73755781,nn00842345,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.07878,
-        "rms": 0.06,
-        "gap": 146,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 11km SSE of Mammoth Lakes, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.9276657,
-          37.5496674,
-          9.36
-        ]
-      },
-      "id": "nc73755781"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "12 km SSE of Guánica, Puerto Rico",
-        "time": 1657183630930,
-        "updated": 1657184841500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71357938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71357938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71357938",
-        "ids": ",pr71357938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": null,
-        "rms": 0.2,
-        "gap": 244,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 12 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8761666666667,
-          17.8615,
-          7.65
-        ]
-      },
-      "id": "pr71357938"
     }
   ],
   "bbox": [
     -178.5538,
     -22.4919,
     0,
-    178.3607,
+    179.264,
     70.8135,
     603.27
   ]
