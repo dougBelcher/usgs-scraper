@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657456337000,
+    "generated": 1657459517000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
     {
@@ -332,42 +332,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "11 km NNW of Alex, Oklahoma",
-        "time": 1657428335692,
-        "updated": 1657455765496,
+        "mag": 2.91,
+        "place": "11 km ESE of Chickasha, Oklahoma",
+        "time": 1657428335890,
+        "updated": 1657459315907,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i1by",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i1by.geojson",
-        "felt": 56,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022njna",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022njna.geojson",
+        "felt": 61,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 192,
-        "net": "us",
-        "code": "6000i1by",
-        "ids": ",us6000i1by,",
-        "sources": ",us,",
+        "sig": 157,
+        "net": "ok",
+        "code": "2022njna",
+        "ids": ",us6000i1by,ok2022njna,",
+        "sources": ",us,ok,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.196,
-        "rms": 0.26,
-        "gap": 48,
+        "nst": 75,
+        "dmin": 0,
+        "rms": 0.36,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 11 km NNW of Alex, Oklahoma"
+        "title": "M 2.9 - 11 km ESE of Chickasha, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.8076,
-          35.0113,
-          5
+          -97.8175,
+          35.02,
+          7.99
         ]
       },
-      "id": "us6000i1by"
+      "id": "ok2022njna"
     },
     {
       "type": "Feature",
@@ -1455,17 +1455,17 @@
         "mag": 2.68,
         "place": "3km NNE of Prattville, CA",
         "time": 1657380892230,
-        "updated": 1657386369898,
+        "updated": 1657458938775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73756726",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73756726.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 112,
         "net": "nc",
         "code": "73756726",
         "ids": ",nc73756726,nn00842517,",
@@ -1648,86 +1648,6 @@
         ]
       },
       "id": "hv73070457"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "4 km S of Guánica, Puerto Rico",
-        "time": 1657371114820,
-        "updated": 1657373244290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71358313",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71358313.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71358313",
-        "ids": ",pr71358313,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.11,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9091666666667,
-          17.9321666666667,
-          13.12
-        ]
-      },
-      "id": "pr71358313"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Mariana Islands region",
-        "time": 1657370592794,
-        "updated": 1657372122040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i17n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i17n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000i17n",
-        "ids": ",us6000i17n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 5.637,
-        "rms": 0.56,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Mariana Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.0498,
-          18.8524,
-          10
-        ]
-      },
-      "id": "us6000i17n"
     }
   ],
   "bbox": [
