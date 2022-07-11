@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657543150000,
+    "generated": 1657546831000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -55,22 +55,22 @@
         "mag": 3.37,
         "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1657536887360,
-        "updated": 1657538995427,
+        "updated": 1657546301267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73072392",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73072392.geojson",
         "felt": 5,
         "cdi": 2.9,
-        "mmi": null,
+        "mmi": 3.508,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 176,
         "net": "hv",
         "code": "73072392",
-        "ids": ",hv73072392,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv73072392,us6000i1ji,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 52,
         "dmin": null,
         "rms": 0.11,
@@ -88,6 +88,86 @@
         ]
       },
       "id": "hv73072392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "168 km NNW of Ceerigaabo, Somalia",
+        "time": 1657534629594,
+        "updated": 1657545987040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i1je",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i1je.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000i1je",
+        "ids": ",us6000i1je,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 4.039,
+        "rms": 1.08,
+        "gap": 187,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 168 km NNW of Ceerigaabo, Somalia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.9345,
+          12.0802,
+          10
+        ]
+      },
+      "id": "us6000i1je"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "31 km SW of Calama, Chile",
+        "time": 1657528488284,
+        "updated": 1657544029040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i1j2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i1j2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000i1j2",
+        "ids": ",us6000i1j2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.391,
+        "rms": 0.71,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 31 km SW of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1548,
+          -22.6372,
+          90.53
+        ]
+      },
+      "id": "us6000i1j2"
     },
     {
       "type": "Feature",
@@ -1292,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
+        "mag": 2.52,
         "place": "7 km ESE of Hebgen Lake Estates, Montana",
-        "time": 1657476257750,
-        "updated": 1657480426799,
+        "time": 1657476257690,
+        "updated": 1657545517171,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60505192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60505192.geojson",
@@ -1305,16 +1385,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 98,
         "net": "uu",
         "code": "60505192",
         "ids": ",uu60505192,",
         "sources": ",uu,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.05009,
-        "rms": 0.24,
-        "gap": 63,
+        "nst": 17,
+        "dmin": 0.0669,
+        "rms": 0.2,
+        "gap": 106,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 7 km ESE of Hebgen Lake Estates, Montana"
@@ -1322,9 +1402,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.0993333,
-          44.7463333,
-          12.28
+          -111.1026667,
+          44.745,
+          11.12
         ]
       },
       "id": "uu60505192"
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us6000i1dz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "80 km W of Puerto Santa, Peru",
-        "time": 1657459298957,
-        "updated": 1657469053040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i1dw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i1dw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000i1dw",
-        "ids": ",us6000i1dw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.929,
-        "rms": 0.86,
-        "gap": 184,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 80 km W of Puerto Santa, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3804,
-          -8.9334,
-          56.12
-        ]
-      },
-      "id": "us6000i1dw"
     }
   ],
   "bbox": [
