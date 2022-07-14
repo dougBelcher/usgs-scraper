@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657830027000,
+    "generated": 1657833447000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "10km WSW of Lytle Creek, CA",
+        "time": 1657830315420,
+        "updated": 1657832977269,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40063207",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40063207.geojson",
+        "felt": 22,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "ci",
+        "code": "40063207",
+        "ids": ",ci40063207,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 89,
+        "dmin": 0.05632,
+        "rms": 0.22,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 10km WSW of Lytle Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5941667,
+          34.2206667,
+          13.03
+        ]
+      },
+      "id": "ci40063207"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.88,
         "place": "11km NE of Don Pedro Reservoir, CA",
         "time": 1657829521490,
-        "updated": 1657829955072,
+        "updated": 1657830855291,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73758646",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73758646.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "73758646",
         "ids": ",nc73758646,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.1784,
         "rms": 0.28,
@@ -52,69 +92,29 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "5 km E of Coleville, California",
-        "time": 1657829494988,
-        "updated": 1657829693784,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00842896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00842896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00842896",
-        "ids": ",nn00842896,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.055,
-        "rms": 0.3059,
-        "gap": 59.94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 5 km E of Coleville, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.4461,
-          38.5592,
-          3.7
-        ]
-      },
-      "id": "nn00842896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.31,
+        "mag": 3.25,
         "place": "10km WSW of Lytle Creek, CA",
-        "time": 1657827034220,
-        "updated": 1657829336688,
+        "time": 1657827034210,
+        "updated": 1657833313893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40063159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40063159.geojson",
-        "felt": 294,
+        "felt": 473,
         "cdi": 4.3,
-        "mmi": 2.984,
+        "mmi": 3.429,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 295,
+        "sig": 366,
         "net": "ci",
         "code": "40063159",
         "ids": ",ci40063159,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 96,
-        "dmin": 0.05596,
-        "rms": 0.23,
-        "gap": 33,
+        "nst": 149,
+        "dmin": 0.05554,
+        "rms": 0.21,
+        "gap": 16,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 3.3 - 10km WSW of Lytle Creek, CA"
@@ -122,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5941696,
-          34.2218323,
-          13.97
+          -117.5951667,
+          34.2206667,
+          13.57
         ]
       },
       "id": "ci40063159"
@@ -135,17 +135,17 @@
         "mag": 5.4,
         "place": "35 km WNW of Güiria, Venezuela",
         "time": 1657826218881,
-        "updated": 1657829094916,
+        "updated": 1657831913916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2g9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2g9.geojson",
-        "felt": 20,
-        "cdi": 4.1,
+        "felt": 43,
+        "cdi": 5.5,
         "mmi": 4.108,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 457,
+        "sig": 472,
         "net": "us",
         "code": "6000i2g9",
         "ids": ",us6000i2g9,",
@@ -215,17 +215,17 @@
         "mag": 3.58,
         "place": "4km SW of Salton City, CA",
         "time": 1657824843220,
-        "updated": 1657829984987,
+        "updated": 1657830940265,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40063127",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40063127.geojson",
-        "felt": 25,
+        "felt": 27,
         "cdi": 4.3,
-        "mmi": 4.197,
+        "mmi": 4.157,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 208,
+        "sig": 209,
         "net": "ci",
         "code": "40063127",
         "ids": ",ci40063127,",
@@ -293,15 +293,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "28 km W of Port-Olry, Vanuatu",
-        "time": 1657821028114,
-        "updated": 1657828425585,
+        "place": "15 km W of Port-Olry, Vanuatu",
+        "time": 1657821027399,
+        "updated": 1657832205178,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2fn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2fn.geojson",
         "felt": 1,
         "cdi": 2.7,
-        "mmi": 6.407,
+        "mmi": 6.375,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -310,21 +310,21 @@
         "code": "6000i2fn",
         "ids": ",us6000i2fn,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 91,
-        "dmin": 0.522,
-        "rms": 1.19,
-        "gap": 28,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 111,
+        "dmin": 0.477,
+        "rms": 0.94,
+        "gap": 24,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 28 km W of Port-Olry, Vanuatu"
+        "title": "M 5.8 - 15 km W of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.8104,
-          -15.0857,
-          23.29
+          166.9301,
+          -15.0471,
+          21.76
         ]
       },
       "id": "us6000i2fn"
@@ -333,9 +333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "141 km SE of Atka, Alaska",
-        "time": 1657820223303,
-        "updated": 1657829416040,
+        "place": "93 km ESE of Atka, Alaska",
+        "time": 1657820225281,
+        "updated": 1657830402040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2g4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2g4.geojson",
@@ -348,23 +348,23 @@
         "sig": 112,
         "net": "us",
         "code": "6000i2g4",
-        "ids": ",us6000i2g4,",
-        "sources": ",us,",
+        "ids": ",ak0228ys51e4,us6000i2g4,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.273,
-        "rms": 1.04,
-        "gap": 233,
+        "nst": 13,
+        "dmin": 0.845,
+        "rms": 0.46,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 141 km SE of Atka, Alaska"
+        "title": "M 2.7 - 93 km ESE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -172.9922,
-          51.1737,
-          10
+          -172.8873,
+          51.9559,
+          128.74
         ]
       },
       "id": "us6000i2g4"
@@ -535,13 +535,13 @@
         "mag": 3.6,
         "place": "26 km ESE of Kasilof, Alaska",
         "time": 1657811168665,
-        "updated": 1657827407609,
+        "updated": 1657830320174,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228yqrh9k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228yqrh9k.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 2.7,
-        "mmi": 2.635,
+        "mmi": 2.623,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1573,9 +1573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "141 km W of Valparaíso, Chile",
-        "time": 1657747289213,
-        "updated": 1657751335961,
+        "place": "142 km W of Valparaíso, Chile",
+        "time": 1657747289879,
+        "updated": 1657832702040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i280",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i280.geojson",
@@ -1591,19 +1591,19 @@
         "ids": ",us6000i280,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 69,
-        "dmin": 1.256,
-        "rms": 1.16,
-        "gap": 72,
+        "nst": 103,
+        "dmin": 1.264,
+        "rms": 1.27,
+        "gap": 56,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 141 km W of Valparaíso, Chile"
+        "title": "M 5.0 - 142 km W of Valparaíso, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.1229,
-          -33.2375,
+          -73.132,
+          -33.2436,
           10
         ]
       },
@@ -1648,93 +1648,13 @@
         ]
       },
       "id": "us6000i27y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.97,
-        "place": "Puerto Rico region",
-        "time": 1657745457770,
-        "updated": 1657746540080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71359293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71359293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 136,
-        "net": "pr",
-        "code": "71359293",
-        "ids": ",pr71359293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.28,
-        "gap": 307,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9318333333333,
-          18.9431666666667,
-          55.27
-        ]
-      },
-      "id": "pr71359293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.72,
-        "place": "149 km N of Suárez, Puerto Rico",
-        "time": 1657743841810,
-        "updated": 1657747460493,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022194001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022194001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 213,
-        "net": "pr",
-        "code": "2022194001",
-        "ids": ",pr2022194001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 1.6725,
-        "rms": 0.26,
-        "gap": 281,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 149 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6286,
-          19.7681,
-          46
-        ]
-      },
-      "id": "pr2022194001"
     }
   ],
   "bbox": [
     -175.3535,
-    -33.2375,
+    -33.2436,
     0,
-    166.8104,
+    166.9301,
     63.5901,
     527.32
   ]
