@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657808837000,
+    "generated": 1657812068000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "26 km SE of Kasilof, Alaska",
+        "time": 1657811167892,
+        "updated": 1657812012068,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228yqrh9k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228yqrh9k.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 2.635,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0228yqrh9k",
+        "ids": ",ak0228yqrh9k,us6000i2eh,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 26 km SE of Kasilof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8756,
+          60.2015,
+          75.7
+        ]
+      },
+      "id": "ak0228yqrh9k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "2 km SSE of Magas Arriba, Puerto Rico",
+        "time": 1657809103210,
+        "updated": 1657810272450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71359453",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71359453.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71359453",
+        "ids": ",pr71359453,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 162,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7636666666667,
+          17.9981666666667,
+          11.76
+        ]
+      },
+      "id": "pr71359453"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +255,17 @@
         "mag": 2.63,
         "place": "3km S of Gardena, CA",
         "time": 1657785449230,
-        "updated": 1657807780950,
+        "updated": 1657810799795,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40303528",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40303528.geojson",
-        "felt": 208,
+        "felt": 211,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 177,
+        "sig": 178,
         "net": "ci",
         "code": "40303528",
         "ids": ",ci40303528,us6000i2c2,",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "us6000i24i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "90 km NE of Hihifo, Tonga",
-        "time": 1657724430594,
-        "updated": 1657730160040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i237.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000i237",
-        "ids": ",us6000i237,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
-        "dmin": 2.001,
-        "rms": 0.96,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 90 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.1744,
-          -15.3969,
-          10
-        ]
-      },
-      "id": "us6000i237"
     }
   ],
   "bbox": [
