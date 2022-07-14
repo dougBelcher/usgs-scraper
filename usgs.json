@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657787033000,
+    "generated": 1657790346000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "154 km SSW of Akhiok, Alaska",
+        "time": 1657787625211,
+        "updated": 1657788477040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0228ymrbjb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0228ymrbjb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "0228ymrbjb",
+        "ids": ",us6000i2c8,ak0228ymrbjb,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 154 km SSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.1827,
+          55.6747,
+          0.9
+        ]
+      },
+      "id": "ak0228ymrbjb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.63,
         "place": "3km S of Gardena, CA",
         "time": 1657785449230,
-        "updated": 1657786899040,
+        "updated": 1657789499754,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40303528",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40303528.geojson",
-        "felt": 149,
+        "felt": 190,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 156,
+        "sig": 169,
         "net": "ci",
         "code": "40303528",
         "ids": ",ci40303528,us6000i2c2,",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "ci40302920"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "31 km NE of Cocachacra, Peru",
-        "time": 1657703614405,
-        "updated": 1657729742484,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i220",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i220.geojson",
-        "felt": 5,
-        "cdi": 6.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 388,
-        "net": "us",
-        "code": "6000i220",
-        "ids": ",us6000i220,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 71,
-        "dmin": 1.852,
-        "rms": 1.01,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 31 km NE of Cocachacra, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5373,
-          -16.9021,
-          21.63
-        ]
-      },
-      "id": "us6000i220"
     }
   ],
   "bbox": [
