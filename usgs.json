@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1657991801000,
+    "generated": 1657995679000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1657991007358,
+        "updated": 1657994201858,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022nvkk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022nvkk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "tx",
+        "code": "2022nvkk",
+        "ids": ",us6000i32c,tx2022nvkk,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.08664910898,
+        "rms": 0.2,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3654279,
+          31.65887722,
+          7.57121582
+        ]
+      },
+      "id": "tx2022nvkk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "75 km SSW of Singaparna, Indonesia",
         "time": 1657983916545,
-        "updated": 1657988699040,
+        "updated": 1657993789581,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i31w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i31w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000i31w",
         "ids": ",us6000i31w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.571,
         "rms": 0.98,
@@ -1534,8 +1574,8 @@
       "properties": {
         "mag": 6.4,
         "place": "Off the coast of Aisen, Chile",
-        "time": 1657913841087,
-        "updated": 1657953109166,
+        "time": 1657913840906,
+        "updated": 1657994670742,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i2v0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i2v0.geojson",
@@ -1551,10 +1591,10 @@
         "ids": ",us6000i2v0,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 109,
-        "dmin": 5.671,
-        "rms": 0.97,
-        "gap": 108,
+        "nst": 114,
+        "dmin": 5.663,
+        "rms": 0.89,
+        "gap": 64,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 6.4 - Off the coast of Aisen, Chile"
@@ -1562,8 +1602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.7528,
-          -44.5696,
+          -79.7623,
+          -44.5986,
           10
         ]
       },
