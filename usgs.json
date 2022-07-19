@@ -1,29 +1,149 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658248255000,
+    "generated": 1658251735000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.06,
+        "place": "44km NNE of Toms Place, CA",
+        "time": 1658250016770,
+        "updated": 1658251380543,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73760676",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73760676.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "nc",
+        "code": "73760676",
+        "ids": ",nc73760676,nn00843203,",
+        "sources": ",nc,nn,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.2441,
+        "rms": 0.11,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 44km NNE of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.453331,
+          37.9145012,
+          11.59
+        ]
+      },
+      "id": "nc73760676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "64km W of Ferndale, CA",
+        "time": 1658249733860,
+        "updated": 1658250327034,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73760661",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73760661.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "73760661",
+        "ids": ",nc73760661,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.5861,
+        "rms": 0.2,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 64km W of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.0155029,
+          40.5006676,
+          0.18
+        ]
+      },
+      "id": "nc73760661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "106 km NE of Iquique, Chile",
+        "time": 1658249564336,
+        "updated": 1658251501120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i3pj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i3pj.geojson",
+        "felt": 3,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "6000i3pj",
+        "ids": ",us6000i3pj,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 86,
+        "dmin": 0.329,
+        "rms": 0.46,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 106 km NE of Iquique, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4835,
+          -19.482,
+          91.83
+        ]
+      },
+      "id": "us6000i3pj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.5,
-        "place": "18 km N of Larsen Bay, Alaska",
-        "time": 1658244937621,
-        "updated": 1658245826040,
+        "place": "24 km N of Larsen Bay, Alaska",
+        "time": 1658244938721,
+        "updated": 1658251023370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022970mhvc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022970mhvc.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.228,
+        "mmi": 2.5,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 188,
         "net": "ak",
@@ -33,18 +153,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.53,
+        "rms": 0.51,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 18 km N of Larsen Bay, Alaska"
+        "title": "M 3.5 - 24 km N of Larsen Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.9714,
-          57.7068,
-          34.6
+          -154.0262,
+          57.7612,
+          36.4
         ]
       },
       "id": "ak022970mhvc"
@@ -772,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.09,
+        "place": "63km S of Maneadero, B.C., MX",
+        "time": 1658190812310,
+        "updated": 1658250409753,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40066055",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40066055.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 147,
+        "net": "ci",
+        "code": "40066055",
+        "ids": ",ci40066055,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 5,
+        "dmin": 0.7062,
+        "rms": 0.2,
+        "gap": 275,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 63km S of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6578333,
+          31.1595,
+          5.34
+        ]
+      },
+      "id": "ci40066055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.76,
         "place": "4km SW of Anderson Springs, CA",
         "time": 1658189826190,
@@ -1128,92 +1288,12 @@
         ]
       },
       "id": "tx2022nzdf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "13km SE of Bodfish, CA",
-        "time": 1658164078270,
-        "updated": 1658243548195,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40065903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40065903.geojson",
-        "felt": 14,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 185,
-        "net": "ci",
-        "code": "40065903",
-        "ids": ",ci40065903,us6000i3hc,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 87,
-        "dmin": 0.1645,
-        "rms": 0.19,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 13km SE of Bodfish, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3861694,
-          35.5143318,
-          4.26
-        ]
-      },
-      "id": "ci40065903"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "44 km ESE of Naalehu, Hawaii",
-        "time": 1658162996460,
-        "updated": 1658175323920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73079022",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73079022.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "hv",
-        "code": "73079022",
-        "ids": ",hv73079022,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 44 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.207833333333,
-          18.8775,
-          5.6
-        ]
-      },
-      "id": "hv73079022"
     }
   ],
   "bbox": [
     -155.7971,
     -41.4452,
-    1.71,
+    0.18,
     166.383,
     78.6168,
     240.5
