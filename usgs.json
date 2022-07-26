@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1658873993000,
+    "generated": 1658877473000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Fiji region",
+        "time": 1658874880751,
+        "updated": 1658875993040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i5qg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i5qg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000i5qg",
+        "ids": ",us6000i5qg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 4.337,
+        "rms": 0.87,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7872,
+          -20.9098,
+          599.85
+        ]
+      },
+      "id": "us6000i5qg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 4.9,
         "place": "53 km SSW of Jurm, Afghanistan",
         "time": 1658867839092,
-        "updated": 1658871466240,
+        "updated": 1658874780359,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i5pp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i5pp.geojson",
-        "felt": 2,
-        "cdi": 3.4,
+        "felt": 3,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 371,
         "net": "us",
         "code": "6000i5pp",
         "ids": ",us6000i5pp,",
@@ -488,6 +528,46 @@
         ]
       },
       "id": "us6000i5mu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "6 km NNW of Hoback, Wyoming",
+        "time": 1658842967120,
+        "updated": 1658875861900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80552514",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80552514.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "mb",
+        "code": "80552514",
+        "ids": ",mb80552514,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.136,
+        "rms": 0.14,
+        "gap": 103,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km NNW of Hoback, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.817,
+          43.3315,
+          0.77
+        ]
+      },
+      "id": "mb80552514"
     },
     {
       "type": "Feature",
@@ -1328,54 +1408,14 @@
         ]
       },
       "id": "hv73087867"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1658790811585,
-        "updated": 1658859537233,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022omic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022omic.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022omic",
-        "ids": ",tx2022omic,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.09259288127,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3921656,
-          31.6695081,
-          7.288427734
-        ]
-      },
-      "id": "tx2022omic"
     }
   ],
   "bbox": [
     -179.6195,
     -37.8314,
-    4.100634766,
+    0.77,
     178.6579,
     64.6853,
-    530.02
+    599.85
   ]
 }
