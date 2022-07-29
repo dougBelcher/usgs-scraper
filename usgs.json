@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659060427000,
+    "generated": 1659067544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1659064446745,
+        "updated": 1659065858149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022osco",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022osco.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "tx",
+        "code": "2022osco",
+        "ids": ",us6000i6di,tx2022osco,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.09475004852,
+        "rms": 0.3,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3758188,
+          31.67765532,
+          6.285815430000001
+        ]
+      },
+      "id": "tx2022osco"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Fiji region",
+        "time": 1659061202253,
+        "updated": 1659062307040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6dc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6dc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000i6dc",
+        "ids": ",us6000i6dc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 4.333,
+        "rms": 0.78,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.2744,
+          -20.3498,
+          567.68
+        ]
+      },
+      "id": "us6000i6dc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +175,12 @@
         "mag": 4.5,
         "place": "40 km W of Santa Cruz, Costa Rica",
         "time": 1659056740937,
-        "updated": 1659057804040,
+        "updated": 1659061836235,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6cv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6cv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "6000i6cv",
         "ids": ",us6000i6cv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 0.568,
         "rms": 0.92,
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "2 km WNW of Fuig, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659055453460,
         "updated": 1659058599094,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 148,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km WNW of Fuig, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -215,12 +295,12 @@
         "mag": 4.6,
         "place": "Izu Islands, Japan region",
         "time": 1659053238808,
-        "updated": 1659054705040,
+        "updated": 1659065498103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6cn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6cn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +310,7 @@
         "code": "6000i6cn",
         "ids": ",us6000i6cn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 57,
         "dmin": 2.389,
         "rms": 1.24,
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "57 km S of Sand Point, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1658996222494,
         "updated": 1658997260040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 57 km S of Sand Point, Alaska"
+        "title": "M 3.2 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1213,15 +1293,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "24 km NW of Tocopilla, Chile",
-        "time": 1658981704174,
-        "updated": 1659049963554,
+        "place": "22 km NW of Tocopilla, Chile",
+        "time": 1658981705140,
+        "updated": 1659063246203,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i636.geojson",
         "felt": 57,
         "cdi": 7,
-        "mmi": 6.766,
+        "mmi": 6.75,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1231,71 +1311,31 @@
         "ids": ",us6000i636,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 117,
-        "dmin": 0.586,
-        "rms": 1.29,
+        "nst": 111,
+        "dmin": 0.556,
+        "rms": 1,
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 24 km NW of Tocopilla, Chile"
+        "title": "M 6.1 - 22 km NW of Tocopilla, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.376,
-          -21.9507,
-          44.74
+          -70.3404,
+          -21.9342,
+          54
         ]
       },
       "id": "us6000i636"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "81 km SSW of Nikolski, Alaska",
-        "time": 1658979833200,
-        "updated": 1659059994040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6aa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6aa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000i6aa",
-        "ids": ",ak0229lpdafi,us6000i6aa,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.642,
-        "rms": 0.45,
-        "gap": 220,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 81 km SSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.3555,
-          52.2728,
-          8.96
-        ]
-      },
-      "id": "us6000i6aa"
     }
   ],
   "bbox": [
-    -173.5718,
+    -178.2744,
     -30.8593,
     5,
     146.7438,
     62.0235,
-    186.52
+    567.68
   ]
 }
