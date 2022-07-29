@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659133124000,
+    "generated": 1659136665000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Kermadec Islands region",
+        "time": 1659134459372,
+        "updated": 1659135507040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6p3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6p3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000i6p3",
+        "ids": ",us6000i6p3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 89,
+        "dmin": 2.755,
+        "rms": 1.16,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.1246,
+          -28.3271,
+          526.21
+        ]
+      },
+      "id": "us6000i6p3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.1,
         "place": "30 km SSE of Mina, Nevada",
         "time": 1659128908240,
-        "updated": 1659132931783,
+        "updated": 1659136013040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00843841",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00843841.geojson",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "113 km SSW of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1659122983424,
         "updated": 1659123152769,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 113 km SSW of Kaktovik, Alaska"
+        "title": "M 2.5 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "2 km WNW of Fuig, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659055453460,
         "updated": 1659058599094,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 148,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km WNW of Fuig, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1568,53 +1608,13 @@
         ]
       },
       "id": "us6000i6c2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Izu Islands, Japan region",
-        "time": 1659048934026,
-        "updated": 1659051204040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6bx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6bx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000i6bx",
-        "ids": ",us6000i6bx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 2.448,
-        "rms": 0.58,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.629,
-          32.5029,
-          10
-        ]
-      },
-      "id": "us6000i6bx"
     }
   ],
   "bbox": [
     -178.2744,
     -59.4647,
     4.923291016,
-    149.2204,
+    179.1246,
     69.1555,
     567.68
   ]
