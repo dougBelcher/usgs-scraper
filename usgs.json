@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659187605000,
+    "generated": 1659190605000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 44
   },
   "features": [
     {
@@ -128,6 +128,46 @@
         ]
       },
       "id": "pr2022211000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.87,
+        "place": "32 km N of Arecibo, Puerto Rico",
+        "time": 1659181990000,
+        "updated": 1659189316650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71361648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71361648.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "pr",
+        "code": "71361648",
+        "ids": ",pr71361648,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": null,
+        "rms": 0.29,
+        "gap": 246,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 32 km N of Arecibo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6866666666667,
+          18.7603333333333,
+          6.87
+        ]
+      },
+      "id": "pr71361648"
     },
     {
       "type": "Feature",
@@ -455,11 +495,11 @@
         "mag": 2.78,
         "place": "14km W of Lakeport, CA",
         "time": 1659162940750,
-        "updated": 1659182956738,
+        "updated": 1659190297026,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73764286",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73764286.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "10 km NNW of Urb. Santo Domingo, Peru",
+        "place": "near the coast of central Peru",
         "time": 1659154816997,
         "updated": 1659165036755,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 207,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 10 km NNW of Urb. Santo Domingo, Peru"
+        "title": "M 3.8 - near the coast of central Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "113 km SSW of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1659122983424,
         "updated": 1659123152769,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 113 km SSW of Kaktovik, Alaska"
+        "title": "M 2.5 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1455,7 +1495,7 @@
         "mag": 3.37,
         "place": "77 km NW of San Antonio, Puerto Rico",
         "time": 1659117411930,
-        "updated": 1659129881800,
+        "updated": 1659189484040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71361558",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71361558.geojson",
@@ -1468,8 +1508,8 @@
         "sig": 175,
         "net": "pr",
         "code": "71361558",
-        "ids": ",pr71361558,",
-        "sources": ",pr,",
+        "ids": ",us6000i6na,pr71361558,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": null,
@@ -1728,126 +1768,6 @@
         ]
       },
       "id": "us6000i6i4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "15 km NNE of Kamárai, Greece",
-        "time": 1659102288280,
-        "updated": 1659160713040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6gf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6gf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000i6gf",
-        "ids": ",us6000i6gf,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 89,
-        "dmin": 0.629,
-        "rms": 0.54,
-        "gap": 40,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 15 km NNE of Kamárai, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.0387,
-          38.435,
-          4.52
-        ]
-      },
-      "id": "us6000i6gf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "11 km N of Berlín, El Salvador",
-        "time": 1659102086340,
-        "updated": 1659159798040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6gd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6gd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000i6gd",
-        "ids": ",us6000i6gd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.252,
-        "rms": 0.63,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 11 km N of Berlín, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.5413,
-          13.6066,
-          176.22
-        ]
-      },
-      "id": "us6000i6gd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Luzon, Philippines",
-        "time": 1659101940755,
-        "updated": 1659159281040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i6ht",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i6ht.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000i6ht",
-        "ids": ",us6000i6ht,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 4.971,
-        "rms": 0.58,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Luzon, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5794,
-          17.8427,
-          58.43
-        ]
-      },
-      "id": "us6000i6ht"
     }
   ],
   "bbox": [
