@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659577952000,
+    "generated": 1659583981000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "53 km S of Whites City, New Mexico",
+        "time": 1659577339935,
+        "updated": 1659583516040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7x4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7x4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000i7x4",
+        "ids": ",us6000i7x4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.153,
+        "rms": 0.45,
+        "gap": 116,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 53 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3233,
+          31.6917,
+          4.684
+        ]
+      },
+      "id": "us6000i7x4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 5.4,
         "place": "63 km ENE of Namie, Japan",
         "time": 1659574097227,
-        "updated": 1659576464363,
+        "updated": 1659581676269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7wm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7wm.geojson",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000i7wm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "77 km N of Suárez, Puerto Rico",
+        "time": 1659573888790,
+        "updated": 1659579341600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71362538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71362538.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "71362538",
+        "ids": ",pr71362538,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 77 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7688333333333,
+          19.1263333333333,
+          29.62
+        ]
+      },
+      "id": "pr71362538"
     },
     {
       "type": "Feature",
@@ -575,7 +655,7 @@
         "mag": 3.33,
         "place": "4km SSW of Llano, CA",
         "time": 1659552300270,
-        "updated": 1659569221777,
+        "updated": 1659580677188,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40074431",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40074431.geojson",
@@ -695,7 +775,7 @@
         "mag": 2.6,
         "place": "91 km WSW of Preston, Nevada",
         "time": 1659534352119,
-        "updated": 1659570854403,
+        "updated": 1659580790753,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00844083",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00844083.geojson",
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "pr71362263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "274 km SSW of Labuan, Indonesia",
-        "time": 1659494435526,
-        "updated": 1659496148040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i7mb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i7mb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000i7mb",
-        "ids": ",us6000i7mb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 2.197,
-        "rms": 0.55,
-        "gap": 180,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 274 km SSW of Labuan, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          104.5889,
-          -8.5278,
-          10
-        ]
-      },
-      "id": "us6000i7mb"
     }
   ],
   "bbox": [
