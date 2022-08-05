@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659716958000,
+    "generated": 1659720438000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "Puerto Rico region",
+        "place": "2 km ENE of Magas Arriba, Puerto Rico",
         "time": 1659713660050,
         "updated": 1659714785670,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 167,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 2 km ENE of Magas Arriba, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +95,11 @@
         "mag": 2.8,
         "place": "29 km WNW of Ester, Alaska",
         "time": 1659712659421,
-        "updated": 1659714618847,
+        "updated": 1659717627674,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229z4njfr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229z4njfr.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -135,12 +135,12 @@
         "mag": 3.03,
         "place": "2 km ENE of Magas Arriba, Puerto Rico",
         "time": 1659708636100,
-        "updated": 1659711474040,
+        "updated": 1659716975969,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71362923",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71362923.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "71362923",
         "ids": ",pr71362923,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": null,
         "rms": 0.12,
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "9 km NNW of Camuy, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1659659073820,
         "updated": 1659660061400,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 9 km NNW of Camuy, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1332,10 +1332,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "299 km SSE of Chenega, Alaska",
+        "time": 1659646643278,
+        "updated": 1659719720040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i860",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i860.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000i860",
+        "ids": ",us6000i860,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.887,
+        "rms": 0.82,
+        "gap": 192,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 299 km SSE of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.1651,
+          57.5503,
+          11.899
+        ]
+      },
+      "id": "us6000i860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "122 km SE of McCarthy, Alaska",
         "time": 1659643817065,
-        "updated": 1659643917465,
+        "updated": 1659719233040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0229xk1t8q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0229xk1t8q.geojson",
@@ -1348,8 +1388,8 @@
         "sig": 112,
         "net": "ak",
         "code": "0229xk1t8q",
-        "ids": ",ak0229xk1t8q,",
-        "sources": ",ak,",
+        "ids": ",us6000i85b,ak0229xk1t8q,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1372,8 +1412,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Izu Islands, Japan region",
+        "time": 1659641365515,
+        "updated": 1659718209040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i856.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000i856",
+        "ids": ",us6000i856,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 2.267,
+        "rms": 0.44,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.415,
+          32.5301,
+          10
+        ]
+      },
+      "id": "us6000i856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "29 km SW of Ashkāsham, Afghanistan",
         "time": 1659640090166,
         "updated": 1659650682040,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.6 - 29 km SW of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us6000i838"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "92 km W of San Antonio de los Cobres, Argentina",
-        "time": 1659633792227,
-        "updated": 1659707532040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i836",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i836.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000i836",
-        "ids": ",us6000i836,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.555,
-        "rms": 0.78,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 92 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2322,
-          -24.2478,
-          205.779
-        ]
-      },
-      "id": "us6000i836"
     }
   ],
   "bbox": [
