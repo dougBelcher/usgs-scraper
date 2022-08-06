@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659784482000,
+    "generated": 1659789103000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "261 km SE of Vilyuchinsk, Russia",
+        "time": 1659786482062,
+        "updated": 1659787633040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8me",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8me.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000i8me",
+        "ids": ",us6000i8me,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 88,
+        "dmin": 2.329,
+        "rms": 0.69,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 261 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.9315,
+          51.1707,
+          10
+        ]
+      },
+      "id": "us6000i8me"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "148 km WSW of Crescent City, California",
+        "time": 1659783156453,
+        "updated": 1659786754197,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8ma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8ma.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000i8ma",
+        "ids": ",us6000i8ma,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.516,
+        "rms": 0.57,
+        "gap": 255,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 148 km WSW of Crescent City, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.9014,
+          41.3621,
+          10
+        ]
+      },
+      "id": "us6000i8ma"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1168,93 +1248,13 @@
         ]
       },
       "id": "us6000i8db"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Banda Sea",
-        "time": 1659700668533,
-        "updated": 1659702507040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8d9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8d9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000i8d9",
-        "ids": ",us6000i8d9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 2.045,
-        "rms": 0.64,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.9011,
-          -6.4704,
-          141.72
-        ]
-      },
-      "id": "us6000i8d9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Izu Islands, Japan region",
-        "time": 1659699273955,
-        "updated": 1659725651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8d6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8d6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000i8d6",
-        "ids": ",us6000i8d6,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 90,
-        "dmin": 2.235,
-        "rms": 0.92,
-        "gap": 37,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.4452,
-          32.794,
-          10
-        ]
-      },
-      "id": "us6000i8d6"
     }
   ],
   "bbox": [
     -176.0848,
     -24.7304,
     6.85,
-    142.9171,
+    160.9315,
     64.902,
     311.387
   ]
