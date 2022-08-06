@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1659810156000,
+    "generated": 1659813292000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.74,
         "place": "4km ESE of Tres Pinos, CA",
         "time": 1659809925490,
-        "updated": 1659810098534,
+        "updated": 1659811757127,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73764870",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73764870.geojson",
@@ -55,11 +55,11 @@
         "mag": 4.7,
         "place": "68 km WSW of San Carlos, Mexico",
         "time": 1659802102022,
-        "updated": 1659810010515,
+        "updated": 1659811709633,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8nr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8nr.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -208,6 +208,46 @@
         ]
       },
       "id": "ak022a0r48dn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1659791973882,
+        "updated": 1659813082040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8n0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8n0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000i8n0",
+        "ids": ",us6000i8n0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 2.363,
+        "rms": 0.9,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5318,
+          32.5252,
+          10
+        ]
+      },
+      "id": "us6000i8n0"
     },
     {
       "type": "Feature",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "off the coast of Northern California",
+        "place": "148 km WSW of Crescent City, California",
         "time": 1659783156453,
         "updated": 1659786754197,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 255,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - off the coast of Northern California"
+        "title": "M 2.5 - 148 km WSW of Crescent City, California"
       },
       "geometry": {
         "type": "Point",
@@ -655,7 +695,7 @@
         "mag": 3.9,
         "place": "121 km SSW of Sand Point, Alaska",
         "time": 1659771051930,
-        "updated": 1659771622040,
+        "updated": 1659810694622,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i8lp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i8lp.geojson",
@@ -668,8 +708,8 @@
         "sig": 234,
         "net": "us",
         "code": "6000i8lp",
-        "ids": ",us6000i8lp,ak022a0ni88a,",
-        "sources": ",us,ak,",
+        "ids": ",ak022a0ni88a,us6000i8lp,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 53,
         "dmin": 0.955,
