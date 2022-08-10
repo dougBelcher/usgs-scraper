@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660169929000,
+    "generated": 1660173476000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1660167967095,
+        "updated": 1660170404040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9ti",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9ti.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000i9ti",
+        "ids": ",us6000i9ti,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 3.78,
+        "rms": 0.55,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.6807,
+          -19.9273,
+          623.573
+        ]
+      },
+      "id": "us6000i9ti"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "17 km ESE of Naalehu, Hawaii",
-        "time": 1660152566440,
-        "updated": 1660167168040,
+        "mag": 2.67,
+        "place": "19 km ESE of Naalehu, Hawaii",
+        "time": 1660152566270,
+        "updated": 1660171126160,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73105192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73105192.geojson",
@@ -143,28 +183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 110,
         "net": "hv",
         "code": "73105192",
         "ids": ",us6000i9rl,hv73105192,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 47,
         "dmin": null,
-        "rms": 0.140000001,
-        "gap": 221,
+        "rms": 0.13,
+        "gap": 226,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 17 km ESE of Naalehu, Hawaii"
+        "title": "M 2.7 - 19 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.429840087891,
-          19.0021667480469,
-          33.9500007629395
+          -155.420333333333,
+          18.9871666666667,
+          34.81
         ]
       },
       "id": "hv73105192"
@@ -335,12 +375,12 @@
         "mag": 2.48,
         "place": "8km N of Walker, CA",
         "time": 1660146117970,
-        "updated": 1660168865040,
+        "updated": 1660172104648,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73766330",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73766330.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "73766330",
         "ids": ",nc73766330,nn00844686,us6000i9qz,",
         "sources": ",nc,nn,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 16,
         "dmin": 0.04208,
         "rms": 0.12,
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Santa Cruz Islands",
+        "place": "154 km SSE of Lata, Solomon Islands",
         "time": 1660100192009,
         "updated": 1660101365040,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Santa Cruz Islands"
+        "title": "M 4.8 - 154 km SSE of Lata, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1095,7 @@
         "mag": 2.65,
         "place": "3km NNE of Pinnacles, CA",
         "time": 1660099107850,
-        "updated": 1660163955139,
+        "updated": 1660172834188,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73766140",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73766140.geojson",
@@ -1168,94 +1208,14 @@
         ]
       },
       "id": "us6000i9jl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "12 km S of Guánica, Puerto Rico",
-        "time": 1660085187750,
-        "updated": 1660086035080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71364678",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71364678.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71364678",
-        "ids": ",pr71364678,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8968333333333,
-          17.8618333333333,
-          14.14
-        ]
-      },
-      "id": "pr71364678"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "16 km S of San José de Jáchal, Argentina",
-        "time": 1660084131520,
-        "updated": 1660085294040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9j5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9j5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000i9j5",
-        "ids": ",us6000i9j5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.154,
-        "rms": 0.7,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 16 km S of San José de Jáchal, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7555,
-          -30.3898,
-          108.859
-        ]
-      },
-      "id": "us6000i9j5"
     }
   ],
   "bbox": [
-    -177.6178,
+    -178.6807,
     -57.0686,
     0,
     169.285,
     62.5905,
-    543.88
+    623.573
   ]
 }
