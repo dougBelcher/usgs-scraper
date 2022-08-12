@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660328650000,
+    "generated": 1660331703000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -295,12 +295,12 @@
         "mag": 2.56,
         "place": "24 km SSW of River Road, Washington",
         "time": 1660298545060,
-        "updated": 1660327005030,
+        "updated": 1660330712100,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61862587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61862587.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +310,7 @@
         "code": "61862587",
         "ids": ",uw61862587,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": 0.1952,
         "rms": 0.21,
@@ -575,17 +575,17 @@
         "mag": 5.2,
         "place": "11 km E of Zirándaro de los Chávez, Mexico",
         "time": 1660292245579,
-        "updated": 1660325089714,
+        "updated": 1660329870016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia64",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia64.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 421,
+        "sig": 422,
         "net": "us",
         "code": "6000ia64",
         "ids": ",us6000ia64,",
@@ -1374,8 +1374,8 @@
       "properties": {
         "mag": 2.8,
         "place": "36km N of Yucca Valley, CA",
-        "time": 1660272364340,
-        "updated": 1660272999720,
+        "time": 1660272364300,
+        "updated": 1660331688680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40323896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40323896.geojson",
@@ -1383,7 +1383,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
         "net": "ci",
@@ -1392,8 +1392,8 @@
         "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 60,
-        "dmin": 0.1198,
-        "rms": 0.15,
+        "dmin": 0.1207,
+        "rms": 0.1,
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
@@ -1402,9 +1402,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4923333,
-          34.4331667,
-          8.42
+          -116.4911667,
+          34.4333333,
+          8.15
         ]
       },
       "id": "ci40323896"
@@ -1848,46 +1848,6 @@
         ]
       },
       "id": "ak022a948y1q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1660243579549,
-        "updated": 1660246283040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9zz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9zz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000i9zz",
-        "ids": ",us6000i9zz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 1.199,
-        "rms": 1.29,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4568,
-          -30.3956,
-          38.916
-        ]
-      },
-      "id": "us6000i9zz"
     }
   ],
   "bbox": [
