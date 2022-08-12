@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660285503000,
+    "generated": 1660288661000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "15 km SSW of Laçin, Turkey",
-        "time": 1660284432931,
-        "updated": 1660285387040,
+        "mag": 3.1,
+        "place": "15 km SE of Ackerly, Texas",
+        "time": 1660287894930,
+        "updated": 1660288303040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia4m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia4m.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia5j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia5j.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 148,
+        "net": "us",
+        "code": "6000ia5j",
+        "ids": ",us6000ia5j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.296,
+        "rms": 0.53,
+        "gap": 58,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.1 - 15 km SE of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5987,
+          32.4291,
+          1.998
+        ]
+      },
+      "id": "us6000ia5j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "South Sandwich Islands region",
+        "time": 1660285113835,
+        "updated": 1660286358446,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia4x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia4x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.534,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000ia4x",
+        "ids": ",us6000ia4x,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 82,
+        "dmin": 15.71,
+        "rms": 0.71,
+        "gap": 69,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.6446,
+          -59.0028,
+          40.935
+        ]
+      },
+      "id": "us6000ia4x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "15 km SSW of Laçin, Turkey",
+        "time": 1660284432931,
+        "updated": 1660285823906,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ia4m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ia4m.geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
         "net": "us",
         "code": "6000ia4m",
         "ids": ",us6000ia4m,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.9,
         "rms": 0.84,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "us6000ia4m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "1 km WSW of Indios, Puerto Rico",
+        "time": 1660284429500,
+        "updated": 1660286643070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71365253",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71365253.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "pr",
+        "code": "71365253",
+        "ids": ",pr71365253,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": null,
+        "rms": 0.11,
+        "gap": 148,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.833,
+          17.9868333333333,
+          16.07
+        ]
+      },
+      "id": "pr71365253"
     },
     {
       "type": "Feature",
@@ -133,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "53 km SSE of Makubetsu, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1660279073044,
         "updated": 1660280228040,
         "tz": null,
@@ -157,7 +277,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 53 km SSE of Makubetsu, Japan"
+        "title": "M 4.5 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1375,7 +1495,7 @@
         "mag": 3,
         "place": "25 km SSE of Baie-Comeau, Canada",
         "time": 1660203435816,
-        "updated": 1660273233942,
+        "updated": 1660287662040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000i9wg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000i9wg.geojson",
@@ -1408,51 +1528,11 @@
         ]
       },
       "id": "us6000i9wg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1660202236599,
-        "updated": 1660271974829,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022pqec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022pqec.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": 5.073,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 314,
-        "net": "tx",
-        "code": "2022pqec",
-        "ids": ",us6000i9w6,tx2022pqec,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 53,
-        "dmin": 0.06591872267,
-        "rms": 0.2,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4253993,
-          31.68330721,
-          6.645727539
-        ]
-      },
-      "id": "tx2022pqec"
     }
   ],
   "bbox": [
     -177.7645,
-    -30.3956,
+    -59.0028,
     1.38,
     142.0572,
     59.8803,
