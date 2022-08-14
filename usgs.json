@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660497476000,
+    "generated": 1660501292000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "2 km SW of Kasilof, Alaska",
+        "time": 1660500526506,
+        "updated": 1660501238693,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ae281un",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ae281un.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "022ae281un",
+        "ids": ",ak022ae281un,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 2 km SW of Kasilof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.303,
+          60.322,
+          55.8
+        ]
+      },
+      "id": "ak022ae281un"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.01,
         "place": "12 km S of Guánica, Puerto Rico",
         "time": 1660494693470,
-        "updated": 1660496120360,
+        "updated": 1660498763305,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71365898",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71365898.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "71365898",
         "ids": ",pr71365898,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": null,
         "rms": 0.2,
@@ -333,14 +373,14 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Central California",
+        "place": "51 km NE of Keeler, California",
         "time": 1660475662076,
-        "updated": 1660475981084,
+        "updated": 1660500269455,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00844944",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00844944.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -350,14 +390,14 @@
         "code": "00844944",
         "ids": ",nn00844944,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.198,
         "rms": 0.3055,
         "gap": 120.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Central California"
+        "title": "M 2.5 - 51 km NE of Keeler, California"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.02,
-        "place": "Puerto Rico region",
+        "place": "2 km SSE of Guánica, Puerto Rico",
         "time": 1660456100310,
         "updated": 1660457768710,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 2 km SSE of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1528,166 +1568,6 @@
         ]
       },
       "id": "us6000iakp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "25 km S of Luganville, Vanuatu",
-        "time": 1660413850027,
-        "updated": 1660415799040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iakc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iakc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000iakc",
-        "ids": ",us6000iakc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.308,
-        "rms": 0.71,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 25 km S of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.1382,
-          -15.75,
-          23.7
-        ]
-      },
-      "id": "us6000iakc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "5km S of Niland, CA",
-        "time": 1660413751800,
-        "updated": 1660488397180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40324944",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40324944.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "ci",
-        "code": "40324944",
-        "ids": ",ci40324944,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.08174,
-        "rms": 0.25,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 5km S of Niland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5201667,
-          33.194,
-          5.61
-        ]
-      },
-      "id": "ci40324944"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "62 km WNW of Atka, Alaska",
-        "time": 1660412316145,
-        "updated": 1660423341040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iakm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iakm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000iakm",
-        "ids": ",ak022ace9tf5,us6000iakm,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.53,
-        "rms": 0.42,
-        "gap": 189,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 62 km WNW of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.0613,
-          52.3796,
-          259.845
-        ]
-      },
-      "id": "us6000iakm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "67 km W of Happy Valley, Alaska",
-        "time": 1660412312192,
-        "updated": 1660417655040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ace9o3q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ace9o3q.geojson",
-        "felt": 2,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "022ace9o3q",
-        "ids": ",ak022ace9o3q,us6000iak3,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 67 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.9219,
-          60.0518,
-          111
-        ]
-      },
-      "id": "ak022ace9o3q"
     }
   ],
   "bbox": [
@@ -1695,7 +1575,7 @@
     -53.2156,
     4.34,
     178.1642,
-    60.0518,
+    60.322,
     384.844
   ]
 }
