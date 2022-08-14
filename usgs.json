@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660483805000,
+    "generated": 1660486611000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.4,
+        "place": "south of the Kermadec Islands",
+        "time": 1660484657163,
+        "updated": 1660486111705,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iasi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iasi.geojson",
+        "felt": 1,
+        "cdi": 7.2,
+        "mmi": 6.547,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 631,
+        "net": "us",
+        "code": "6000iasi",
+        "ids": ",us6000iasi,pt22226003,at00rgly5y,",
+        "sources": ",us,pt,at,",
+        "types": ",dyfi,impact-link,losspager,origin,phase-data,shakemap,",
+        "nst": 68,
+        "dmin": 5.35,
+        "rms": 1.24,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.4 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.9591,
+          -32.6922,
+          10
+        ]
+      },
+      "id": "us6000iasi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "51 km NE of Keeler, California",
+        "place": "Central California",
         "time": 1660475662076,
         "updated": 1660475981084,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 120.53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 51 km NE of Keeler, California"
+        "title": "M 2.5 - Central California"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.02,
-        "place": "2 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1660456100310,
         "updated": 1660457768710,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 2 km SSE of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1768,90 +1808,10 @@
         ]
       },
       "id": "pr71365563"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "48 km NE of Yigo Village, Guam",
-        "time": 1660398260743,
-        "updated": 1660437021571,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iaiv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iaiv.geojson",
-        "felt": 4,
-        "cdi": 3.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "6000iaiv",
-        "ids": ",us6000iaiv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.419,
-        "rms": 0.56,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 48 km NE of Yigo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2192,
-          13.8343,
-          111.804
-        ]
-      },
-      "id": "us6000iaiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.0500000000000003,
-        "place": "21 km NW of Bickleton, Washington",
-        "time": 1660397482900,
-        "updated": 1660448372946,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61862977",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61862977.geojson",
-        "felt": 7,
-        "cdi": 3.1,
-        "mmi": 2.344,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "uw",
-        "code": "61862977",
-        "ids": ",uw61862977,us6000iaiq,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 27,
-        "dmin": 0.1436,
-        "rms": 0.16,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km NW of Bickleton, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.5,
-          46.13033333333333,
-          12.1
-        ]
-      },
-      "id": "uw61862977"
     }
   ],
   "bbox": [
-    -175.0613,
+    -178.9591,
     -53.2156,
     1.43,
     169.2521,
