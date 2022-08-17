@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660767605000,
+    "generated": 1660771025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.752444994,
+        "place": "17 km NNE of Hermleigh, Texas",
+        "time": 1660766880444,
+        "updated": 1660770349838,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022qcco",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022qcco.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "tx",
+        "code": "2022qcco",
+        "ids": ",tx2022qcco,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.06950794952,
+        "rms": 0.2,
+        "gap": 56,
+        "magType": "mlv",
+        "type": "earthquake",
+        "title": "M 2.8 - 17 km NNE of Hermleigh, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.6551305,
+          32.76763916,
+          7.801066081
+        ]
+      },
+      "id": "tx2022qcco"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "41 km ENE of Susitna North, Alaska",
         "time": 1660765908550,
-        "updated": 1660765993913,
+        "updated": 1660770142923,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022aj1oqut",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022aj1oqut.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "022aj1oqut",
         "ids": ",ak022aj1oqut,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.55,
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Kuril Islands",
+        "place": "169 km E of Kuril’sk, Russia",
         "time": 1660729098840,
         "updated": 1660730283040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 171,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Kuril Islands"
+        "title": "M 4.7 - 169 km E of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -655,12 +695,12 @@
         "mag": 3.1,
         "place": "9 km SW of Anchorage, Alaska",
         "time": 1660728261968,
-        "updated": 1660757525673,
+        "updated": 1660770331522,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022aivkkco",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022aivkkco.geojson",
-        "felt": 36,
-        "cdi": 3.4,
+        "felt": 37,
+        "cdi": 3.3,
         "mmi": 2.391,
         "alert": null,
         "status": "reviewed",
@@ -735,7 +775,7 @@
         "mag": 3,
         "place": "3 km ESE of Centerville, Maine",
         "time": 1660719310694,
-        "updated": 1660766189924,
+        "updated": 1660768911276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibip.geojson",
@@ -852,16 +892,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "66 km WNW of False Pass, Alaska",
+        "time": 1660711590673,
+        "updated": 1660768780040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibi5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibi5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000ibi5",
+        "ids": ",us6000ibi5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.598,
+        "rms": 0.83,
+        "gap": 194,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 66 km WNW of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.3807,
+          55.0773,
+          94.878
+        ]
+      },
+      "id": "us6000ibi5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
-        "place": "253 km SSE of Katsuura, Japan",
-        "time": 1660710286670,
-        "updated": 1660728063221,
+        "place": "256 km SSE of Katsuura, Japan",
+        "time": 1660710285167,
+        "updated": 1660768650609,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibi3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibi3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.698,
+        "mmi": 2.619,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -871,19 +951,19 @@
         "ids": ",us6000ibi3,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 68,
-        "dmin": 1.577,
-        "rms": 0.95,
-        "gap": 98,
+        "nst": 57,
+        "dmin": 1.624,
+        "rms": 0.51,
+        "gap": 70,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 253 km SSE of Katsuura, Japan"
+        "title": "M 5.6 - 256 km SSE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.6917,
-          33.1722,
+          141.7489,
+          33.1604,
           10
         ]
       },
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.42,
-        "place": "Hawaii region, Hawaii",
+        "place": "7 km E of Pāhala, Hawaii",
         "time": 1660703863810,
         "updated": 1660711177314,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Hawaii region, Hawaii"
+        "title": "M 3.4 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1368,171 +1448,11 @@
         ]
       },
       "id": "pr71366443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "201 km WSW of Pistol River, Oregon",
-        "time": 1660683803219,
-        "updated": 1660686378040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibfj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibfj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ibfj",
-        "ids": ",us6000ibfj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.165,
-        "rms": 0.71,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 201 km WSW of Pistol River, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -126.7743,
-          41.882,
-          10
-        ]
-      },
-      "id": "us6000ibfj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "285 km S of Burica, Panama",
-        "time": 1660682854806,
-        "updated": 1660687788040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibfa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibfa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ibfa",
-        "ids": ",us6000ibfa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 3.318,
-        "rms": 1.28,
-        "gap": 175,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 285 km S of Burica, Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.7016,
-          5.4543,
-          10
-        ]
-      },
-      "id": "us6000ibfa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "40 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1660681996830,
-        "updated": 1660683942730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366423.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "pr",
-        "code": "71366423",
-        "ids": ",pr71366423,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 40 km NNW of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0173333333333,
-          18.6965,
-          66.26
-        ]
-      },
-      "id": "pr71366423"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "20 km SW of Calama, Chile",
-        "time": 1660681521189,
-        "updated": 1660687384040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibf3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibf3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ibf3",
-        "ids": ",us6000ibf3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.465,
-        "rms": 1.23,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 20 km SW of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.0922,
-          -22.563,
-          118.939
-        ]
-      },
-      "id": "us6000ibf3"
     }
   ],
   "bbox": [
     -168.1379,
-    -22.563,
+    -7.0096,
     0,
     150.0349,
     62.3493,
