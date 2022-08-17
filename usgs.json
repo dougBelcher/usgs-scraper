@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660724716000,
+    "generated": 1660728002000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -132,38 +132,78 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
+        "mag": 4.6,
+        "place": "105 km SSW of Pagar Alam, Indonesia",
+        "time": 1660714699264,
+        "updated": 1660724795040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibif",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibif.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ibif",
+        "ids": ",us6000ibif,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.556,
+        "rms": 0.44,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 105 km SSW of Pagar Alam, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.9018,
+          -4.9175,
+          61.634
+        ]
+      },
+      "id": "us6000ibif"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
         "place": "253 km SSE of Katsuura, Japan",
-        "time": 1660710287184,
-        "updated": 1660717871715,
+        "time": 1660710286670,
+        "updated": 1660727901788,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ibi3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ibi3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.467,
+        "mmi": 2.698,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 482,
         "net": "us",
         "code": "6000ibi3",
         "ids": ",us6000ibi3,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 60,
-        "dmin": 1.565,
-        "rms": 0.81,
-        "gap": 114,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 68,
+        "dmin": 1.577,
+        "rms": 0.95,
+        "gap": 98,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 253 km SSE of Katsuura, Japan"
+        "title": "M 5.6 - 253 km SSE of Katsuura, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.6785,
-          33.1659,
+          141.6917,
+          33.1722,
           10
         ]
       },
@@ -172,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.99,
-        "place": "4km NNE of New Idria, CA",
-        "time": 1660710071240,
-        "updated": 1660721170873,
+        "mag": 2.82,
+        "place": "2km N of New Idria, CA",
+        "time": 1660710071340,
+        "updated": 1660725071119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73768945",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73768945.geojson",
@@ -183,28 +223,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 123,
         "net": "nc",
         "code": "73768945",
         "ids": ",nc73768945,",
         "sources": ",nc,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 70,
-        "dmin": 0.152,
-        "rms": 0.27,
-        "gap": 31,
-        "magType": "md",
+        "nst": 76,
+        "dmin": 0.1668,
+        "rms": 0.21,
+        "gap": 43,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 4km NNE of New Idria, CA"
+        "title": "M 2.8 - 2km N of New Idria, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.6516647,
-          36.4431648,
-          16.6
+          -120.6738333,
+          36.4321667,
+          18.3
         ]
       },
       "id": "nc73768945"
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.42,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1660703863810,
         "updated": 1660711177314,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Hawaii region, Hawaii"
+        "title": "M 3.4 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -375,11 +415,11 @@
         "mag": 3.34,
         "place": "1km NNE of Cabazon, CA",
         "time": 1660697581260,
-        "updated": 1660703855054,
+        "updated": 1660727021658,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40326728",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40326728.geojson",
-        "felt": 45,
+        "felt": 46,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "us6000ib9m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.01,
-        "place": "96 km NNE of San Juan, Puerto Rico",
-        "time": 1660639140620,
-        "updated": 1660640365330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366288",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366288.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "pr",
-        "code": "71366288",
-        "ids": ",pr71366288,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": 271,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 96 km NNE of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8571666666667,
-          19.3098333333333,
-          14.31
-        ]
-      },
-      "id": "pr71366288"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1660638852247,
-        "updated": 1660639992040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ib98",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ib98.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000ib98",
-        "ids": ",us6000ib98,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.671,
-        "rms": 1.18,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.3261,
-          -22.4001,
-          34.758
-        ]
-      },
-      "id": "us6000ib98"
     }
   ],
   "bbox": [
