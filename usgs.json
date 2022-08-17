@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660774676000,
+    "generated": 1660778340000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
+        "mag": 2.45,
         "place": "20km S of San Pedro, CA",
-        "time": 1660771653380,
-        "updated": 1660773711056,
+        "time": 1660771653100,
+        "updated": 1660778222599,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40327360",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40327360.geojson",
@@ -23,18 +23,18 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 94,
+        "sig": 93,
         "net": "ci",
         "code": "40327360",
         "ids": ",ci40327360,us6000ibqd,",
         "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.1609,
-        "rms": 0.33,
-        "gap": 242,
+        "nst": 57,
+        "dmin": 0.1582,
+        "rms": 0.31,
+        "gap": 207,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 20km S of San Pedro, CA"
@@ -42,12 +42,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2938333,
-          33.5513333,
-          1.05
+          -118.2731667,
+          33.555,
+          1.58
         ]
       },
       "id": "ci40327360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "79 km ESE of Atka, Alaska",
+        "time": 1660771405533,
+        "updated": 1660777407493,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022aj2pkqk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022aj2pkqk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "022aj2pkqk",
+        "ids": ",ak022aj2pkqk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 79 km ESE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.2221,
+          51.8109,
+          28.4
+        ]
+      },
+      "id": "ak022aj2pkqk"
     },
     {
       "type": "Feature",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Kuril Islands",
+        "place": "169 km E of Kuril’sk, Russia",
         "time": 1660729098840,
         "updated": 1660730283040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 171,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Kuril Islands"
+        "title": "M 4.7 - 169 km E of Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -775,11 +815,11 @@
         "mag": 3.1,
         "place": "9 km SW of Anchorage, Alaska",
         "time": 1660728261968,
-        "updated": 1660770331522,
+        "updated": 1660776547192,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022aivkkco",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022aivkkco.geojson",
-        "felt": 37,
+        "felt": 38,
         "cdi": 3.3,
         "mmi": 2.391,
         "alert": null,
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.42,
-        "place": "Hawaii region, Hawaii",
+        "place": "7 km E of Pāhala, Hawaii",
         "time": 1660703863810,
         "updated": 1660711177314,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 161,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Hawaii region, Hawaii"
+        "title": "M 3.4 - 7 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1371,7 +1411,7 @@
     }
   ],
   "bbox": [
-    -168.1379,
+    -173.2221,
     -7.0096,
     0,
     150.0349,
