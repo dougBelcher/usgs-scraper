@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1660922528000,
+    "generated": 1660926610000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "1 km SSW of Yauco, Puerto Rico",
+        "time": 1660921326680,
+        "updated": 1660923530210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366998",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366998.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71366998",
+        "ids": ",pr71366998,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km SSW of Yauco, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8553333333333,
+          18.025,
+          16.14
+        ]
+      },
+      "id": "pr71366998"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -332,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5.2,
         "place": "South Sandwich Islands region",
-        "time": 1660885088094,
-        "updated": 1660886626040,
+        "time": 1660885088821,
+        "updated": 1660926021040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ic18",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ic18.geojson",
@@ -345,26 +385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 416,
         "net": "us",
         "code": "6000ic18",
         "ids": ",us6000ic18,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 112,
-        "dmin": 5.554,
-        "rms": 0.8,
-        "gap": 40,
-        "magType": "mb",
+        "nst": 111,
+        "dmin": 5.525,
+        "rms": 0.84,
+        "gap": 39,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - South Sandwich Islands region"
+        "title": "M 5.2 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -27.3639,
-          -56.1713,
-          122.689
+          -27.4201,
+          -56.1742,
+          129.747
         ]
       },
       "id": "us6000ic18"
@@ -928,51 +968,11 @@
         ]
       },
       "id": "us6000ibwm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "4 km S of Indios, Puerto Rico",
-        "time": 1660837290000,
-        "updated": 1660855225656,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71366833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71366833.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71366833",
-        "ids": ",pr71366833,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": null,
-        "rms": 0.17,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.824,
-          17.9536666666667,
-          10.98
-        ]
-      },
-      "id": "pr71366833"
     }
   ],
   "bbox": [
     -151.0673,
-    -56.1713,
+    -56.1742,
     0,
     171.6659,
     62.7538,
