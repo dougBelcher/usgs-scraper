@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661664536000,
+    "generated": 1661667774000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -335,7 +335,7 @@
         "mag": 3.5,
         "place": "south of Alaska",
         "time": 1661651179857,
-        "updated": 1661651821040,
+        "updated": 1661664534686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i309",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i309.geojson",
@@ -348,8 +348,8 @@
         "sig": 188,
         "net": "us",
         "code": "7000i309",
-        "ids": ",us7000i309,",
-        "sources": ",us,",
+        "ids": ",ak022b0xunh4,us7000i309,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 3.853,
@@ -572,6 +572,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "21 km E of Nigel, South Africa",
+        "time": 1661641005833,
+        "updated": 1661667441500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i31z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i31z.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000i31z",
+        "ids": ",us7000i31z,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 12,
+        "dmin": 3.125,
+        "rms": 0.87,
+        "gap": 248,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.1 - 21 km E of Nigel, South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6918,
+          -26.4261,
+          10
+        ]
+      },
+      "id": "us7000i31z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "30 km SW of Vallenar, Chile",
         "time": 1661638485839,
@@ -695,17 +735,17 @@
         "mag": 3,
         "place": "10km E of Alum Rock, CA",
         "time": 1661629372740,
-        "updated": 1661659001637,
+        "updated": 1661666196968,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73772490",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73772490.geojson",
-        "felt": 172,
+        "felt": 174,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 205,
         "net": "nc",
         "code": "73772490",
         "ids": ",nc73772490,us7000i2ym,",
@@ -1248,52 +1288,12 @@
         ]
       },
       "id": "us7000i2vn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "94 km W of Akhiok, Alaska",
-        "time": 1661580409389,
-        "updated": 1661583561040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022azd1xre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022azd1xre.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "022azd1xre",
-        "ids": ",us7000i2vk,ak022azd1xre,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 94 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.7242,
-          57.0356,
-          0
-        ]
-      },
-      "id": "ak022azd1xre"
     }
   ],
   "bbox": [
-    -155.7242,
+    -155.62683105469,
     -28.7488,
-    0,
+    0.25,
     173.9795,
     69.6055,
     362.319
