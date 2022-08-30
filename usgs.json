@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661854876000,
+    "generated": 1661858208000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 46
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "36 km WNW of Valdez, Alaska",
+        "time": 1661855334248,
+        "updated": 1661855405277,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022b4e6fsg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022b4e6fsg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "022b4e6fsg",
+        "ids": ",ak022b4e6fsg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 36 km WNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.9307,
+          61.2959,
+          31.1
+        ]
+      },
+      "id": "ak022b4e6fsg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
-        "place": "13 km N of Damar, Kansas",
+        "place": "Kansas",
         "time": 1661853413800,
-        "updated": 1661854387040,
+        "updated": 1661856101933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3my",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3my.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,14 +70,14 @@
         "code": "7000i3my",
         "ids": ",us7000i3my,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.636,
         "rms": 0.28,
         "gap": 52,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.6 - 13 km N of Damar, Kansas"
+        "title": "M 2.6 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +95,7 @@
         "mag": 6.3,
         "place": "Pacific-Antarctic Ridge",
         "time": 1661850582998,
-        "updated": 1661854806241,
+        "updated": 1661857964326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3mp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3mp.geojson",
@@ -95,7 +135,7 @@
         "mag": 3.99,
         "place": "7km NNW of Delta, B.C., MX",
         "time": 1661849080750,
-        "updated": 1661852966728,
+        "updated": 1661856447782,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40334320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40334320.geojson",
@@ -108,8 +148,8 @@
         "sig": 246,
         "net": "ci",
         "code": "40334320",
-        "ids": ",ci40334320,ew1661849090,",
-        "sources": ",ci,ew,",
+        "ids": ",ci40334320,ew1661849090,us7000i3mj,",
+        "sources": ",ci,ew,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 37,
         "dmin": 0.06838,
@@ -132,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "Carlsberg Ridge",
+        "time": 1661848571800,
+        "updated": 1661856931040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3mi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3mi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000i3mi",
+        "ids": ",us7000i3mi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 11.417,
+        "rms": 1.12,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Carlsberg Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6898,
+          4.2436,
+          10
+        ]
+      },
+      "id": "us7000i3mi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.92,
         "place": "50km W of Petrolia, CA",
         "time": 1661848423850,
-        "updated": 1661848813798,
+        "updated": 1661856553520,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73773385",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73773385.geojson",
@@ -455,7 +535,7 @@
         "mag": 4.6,
         "place": "24 km SW of Lefkáda, Greece",
         "time": 1661831374760,
-        "updated": 1661848636131,
+        "updated": 1661856032362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3l9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3l9.geojson",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "64 km E of Shizunai-furukawachō, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1661793657770,
         "updated": 1661807921040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 64 km E of Shizunai-furukawachō, Japan"
+        "title": "M 4.3 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "off the coast of Northern California",
+        "place": "217 km W of Ferndale, California",
         "time": 1661786549027,
         "updated": 1661838554340,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 198,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - off the coast of Northern California"
+        "title": "M 4.5 - 217 km W of Ferndale, California"
       },
       "geometry": {
         "type": "Point",
@@ -1768,166 +1848,6 @@
         ]
       },
       "id": "us7000i3c0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "169 km WSW of Pariaman, Indonesia",
-        "time": 1661771508797,
-        "updated": 1661773622040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3bw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3bw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000i3bw",
-        "ids": ",us7000i3bw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.597,
-        "rms": 0.36,
-        "gap": 175,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 169 km WSW of Pariaman, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.6668,
-          -1.0684,
-          20.424
-        ]
-      },
-      "id": "us7000i3bw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "47 km W of Mentone, Texas",
-        "time": 1661770922672,
-        "updated": 1661801020354,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022qxio",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022qxio.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2022qxio",
-        "ids": ",us7000i3bs,tx2022qxio,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.05941110415,
-        "rms": 0.2,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 47 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.0965967,
-          31.70853181,
-          7.674047852000001
-        ]
-      },
-      "id": "tx2022qxio"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "168 km WSW of Pariaman, Indonesia",
-        "time": 1661770871511,
-        "updated": 1661772833040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3bu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3bu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000i3bu",
-        "ids": ",us7000i3bu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 2.569,
-        "rms": 0.31,
-        "gap": 175,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 168 km WSW of Pariaman, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.6624,
-          -1.0396,
-          19.552
-        ]
-      },
-      "id": "us7000i3bu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "106 km ESE of Gorontalo, Indonesia",
-        "time": 1661770717926,
-        "updated": 1661771917040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3bt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3bt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000i3bt",
-        "ids": ",us7000i3bt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.519,
-        "rms": 0.77,
-        "gap": 33,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 106 km ESE of Gorontalo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.8654,
-          0.0193,
-          107.63
-        ]
-      },
-      "id": "us7000i3bt"
     }
   ],
   "bbox": [
@@ -1935,7 +1855,7 @@
     -54.6482,
     -2.75,
     170.3138,
-    55.9933,
+    61.2959,
     616.071
   ]
 }
