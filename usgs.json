@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1661977223000,
+    "generated": 1661980643000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 2.89,
         "place": "5km N of Hollister, CA",
         "time": 1661963957430,
-        "updated": 1661970911000,
+        "updated": 1661978539334,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73773940",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73773940.geojson",
@@ -103,7 +103,7 @@
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 144,
         "net": "nc",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nc73773940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "13 km ESE of Stilfontein, South Africa",
+        "time": 1661954082143,
+        "updated": 1661980616642,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i44m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i44m.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "us",
+        "code": "7000i44m",
+        "ids": ",us7000i44m,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 6,
+        "dmin": 2.216,
+        "rms": 0.53,
+        "gap": 235,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 13 km ESE of Stilfontein, South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8893,
+          -26.9093,
+          5
+        ]
+      },
+      "id": "us7000i44m"
     },
     {
       "type": "Feature",
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
+        "mag": 4.2,
         "place": "Lake Victoria region, Uganda",
-        "time": 1661933077781,
-        "updated": 1661967560405,
+        "time": 1661933078549,
+        "updated": 1661978299487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i3yv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i3yv.geojson",
@@ -545,25 +585,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 235,
+        "sig": 272,
         "net": "us",
         "code": "7000i3yv",
         "ids": ",us7000i3yv,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 6,
-        "dmin": 2.87,
-        "rms": 0.56,
-        "gap": 156,
+        "nst": 12,
+        "dmin": 2.863,
+        "rms": 0.78,
+        "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - Lake Victoria region, Uganda"
+        "title": "M 4.2 - Lake Victoria region, Uganda"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.2767,
-          0.7477,
+          33.276,
+          0.7332,
           10
         ]
       },
@@ -655,11 +695,11 @@
         "mag": 2.88,
         "place": "148km W of Petrolia, CA",
         "time": 1661929376690,
-        "updated": 1661962096511,
+        "updated": 1661977574860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73773795",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73773795.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -1248,51 +1288,11 @@
         ]
       },
       "id": "pr71368798"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "western Texas",
-        "time": 1661892592813,
-        "updated": 1661972122188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022qzxn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022qzxn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.988,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "tx",
-        "code": "2022qzxn",
-        "ids": ",us7000i3sw,tx2022qzxn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 16,
-        "dmin": 0.05898909901,
-        "rms": 0.1,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - western Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.0976604,
-          31.70622942,
-          6.234399414
-        ]
-      },
-      "id": "tx2022qzxn"
     }
   ],
   "bbox": [
     -173.6964,
-    -25.6521,
+    -26.9093,
     0,
     179.7228,
     69.6357,
