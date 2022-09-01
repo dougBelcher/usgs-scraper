@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1662063611000,
+    "generated": 1662067091000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "102 km SW of Basco, Philippines",
+        "time": 1662061033408,
+        "updated": 1662066912040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i4f1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i4f1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000i4f1",
+        "ids": ",us7000i4f1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.98,
+        "rms": 0.73,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 102 km SW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2405,
+          19.827,
+          41.645
+        ]
+      },
+      "id": "us7000i4f1"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "38 km NNW of Toyah, Texas",
-        "time": 1662049048011,
-        "updated": 1662056504348,
+        "mag": 3.7,
+        "place": "37 km NNW of Toyah, Texas",
+        "time": 1662049047990,
+        "updated": 1662066684942,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022rdfm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022rdfm.geojson",
@@ -145,26 +185,26 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 272,
+        "sig": 211,
         "net": "tx",
         "code": "2022rdfm",
         "ids": ",us7000i4d2,tx2022rdfm,",
         "sources": ",us,tx,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 12,
-        "dmin": 0.02499825808,
-        "rms": 0.1,
-        "gap": 98,
+        "nst": 16,
+        "dmin": 0.1322998127,
+        "rms": 0.2,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - 38 km NNW of Toyah, Texas"
+        "title": "M 3.7 - 37 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9981303,
-          31.61146983,
-          8.856616211
+          -104.0085728,
+          31.60155272,
+          6.157275391
         ]
       },
       "id": "tx2022rdfm"
@@ -373,9 +413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "4km ENE of Pinnacles, CA",
-        "time": 1662039382450,
-        "updated": 1662061173251,
+        "place": "5km ENE of Pinnacles, CA",
+        "time": 1662039382150,
+        "updated": 1662067074763,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73774300",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73774300.geojson",
@@ -391,20 +431,20 @@
         "ids": ",nc73774300,at00rhj9sl,us7000i4aw,ew1662039380,",
         "sources": ",nc,at,us,ew,",
         "types": ",dyfi,focal-mechanism,impact-link,losspager,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.16,
-        "gap": 61,
+        "nst": 62,
+        "dmin": 0.04243,
+        "rms": 0.09,
+        "gap": 64,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.0 - 4km ENE of Pinnacles, CA"
+        "title": "M 4.0 - 5km ENE of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.1088333,
-          36.5478325,
-          5.48
+          -121.0965,
+          36.549,
+          1.6
         ]
       },
       "id": "nc73774300"
@@ -448,6 +488,46 @@
         ]
       },
       "id": "hv73128127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "2 km SW of Frastanz, Austria",
+        "time": 1662033463677,
+        "updated": 1662066852917,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i4af",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i4af.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000i4af",
+        "ids": ",us7000i4af,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.736,
+        "rms": 0.55,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 2 km SW of Frastanz, Austria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6018,
+          47.1997,
+          2.719
+        ]
+      },
+      "id": "us7000i4af"
     },
     {
       "type": "Feature",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.35,
-        "place": "2 km SE of Yauco, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1662003415070,
         "updated": 1662046099675,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 114,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 2 km SE of Yauco, Puerto Rico"
+        "title": "M 3.4 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
