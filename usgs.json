@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1662125999000,
+    "generated": 1662128233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 3.5,
         "place": "7 km WNW of Fox River, Alaska",
         "time": 1662118991571,
-        "updated": 1662121111324,
+        "updated": 1662121428387,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022b9dh1ae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022b9dh1ae.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.6,
         "mmi": 2.507,
         "alert": null,
@@ -95,22 +95,22 @@
         "mag": 2.9,
         "place": "10 km NE of Stanley, Idaho",
         "time": 1662115044128,
-        "updated": 1662117615040,
+        "updated": 1662127284687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i4lk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i4lk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "us",
         "code": "7000i4lk",
         "ids": ",us7000i4lk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.793,
         "rms": 0.38,
@@ -135,12 +135,12 @@
         "mag": 2.87,
         "place": "5km NE of Pinnacles, CA",
         "time": 1662107952790,
-        "updated": 1662120793377,
+        "updated": 1662126852982,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73774585",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73774585.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "73774585",
         "ids": ",nc73774585,us7000i4l7,",
         "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 69,
         "dmin": 0.04342,
         "rms": 0.21,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "nc73774585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "10 km SE of Matthews, Missouri",
+        "time": 1662107786880,
+        "updated": 1662122584830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60406967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60406967.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "nm",
+        "code": "60406967",
+        "ids": ",us7000i4l6,nm60406967,",
+        "sources": ",us,nm,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.02317,
+        "rms": 0.1,
+        "gap": 39,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km SE of Matthews, Missouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.495,
+          36.702,
+          21.23
+        ]
+      },
+      "id": "nm60406967"
     },
     {
       "type": "Feature",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Crete, Greece",
+        "place": "100 km SE of Ierápetra, Greece",
         "time": 1662101392480,
         "updated": 1662102440040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Crete, Greece"
+        "title": "M 4.4 - 100 km SE of Ierápetra, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.84,
-        "place": "Mona Passage",
+        "place": "Puerto Rico",
         "time": 1662095765230,
         "updated": 1662096850760,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Mona Passage"
+        "title": "M 2.8 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "132 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1662091195334,
         "updated": 1662092145040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 132 km NE of Lospalos, Timor Leste"
+        "title": "M 4.6 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "Puerto Rico region",
+        "place": "7 km ESE of La Parguera, Puerto Rico",
         "time": 1662089161760,
         "updated": 1662089725750,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 216,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 7 km ESE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "42 km S of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1662087382161,
         "updated": 1662095216040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 195,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 42 km S of Adak, Alaska"
+        "title": "M 3.8 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.55,
-        "place": "Puerto Rico region",
+        "place": "29 km NNE of Luquillo, Puerto Rico",
         "time": 1662086919800,
         "updated": 1662088936660,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 210,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 29 km NNE of Luquillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "37 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1662077257179,
         "updated": 1662094878813,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - 37 km NNW of Toyah, Texas"
+        "title": "M 4.2 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "255 km ENE of Lospalos, Timor Leste",
         "time": 1662049424038,
         "updated": 1662060583509,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 5.2 - 255 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "7 km ENE of Pedro García, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1662047598931,
         "updated": 1662070879364,
         "tz": null,
@@ -1637,7 +1677,7 @@
         "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 7 km ENE of Pedro García, Dominican Republic"
+        "title": "M 4.2 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "295 km WNW of Neiafu, Tonga",
+        "place": "Fiji region",
         "time": 1662042282181,
         "updated": 1662044417040,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 295 km WNW of Neiafu, Tonga"
+        "title": "M 4.7 - Fiji region"
       },
       "geometry": {
         "type": "Point",
