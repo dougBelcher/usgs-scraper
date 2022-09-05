@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1662402308000,
+    "generated": 1662405300000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "28 km NNE of Port-Olry, Vanuatu",
+        "time": 1662402056218,
+        "updated": 1662404290040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i5g5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i5g5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000i5g5",
+        "ids": ",us7000i5g5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.625,
+        "rms": 0.85,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 28 km NNE of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.202,
+          -14.8181,
+          126.108
+        ]
+      },
+      "id": "us7000i5g5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,17 +253,17 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "48 km N of Chickaloon, Alaska",
-        "time": 1662390711367,
-        "updated": 1662395268040,
+        "place": "50 km N of Chickaloon, Alaska",
+        "time": 1662390712287,
+        "updated": 1662404520143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022beea1dl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022beea1dl.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.597,
+        "mmi": 2.631,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 188,
         "net": "ak",
@@ -233,18 +273,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.49,
+        "rms": 0.75,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 48 km N of Chickaloon, Alaska"
+        "title": "M 3.5 - 50 km N of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.4044,
-          62.235,
-          28.3
+          -148.3863,
+          62.2472,
+          23.5
         ]
       },
       "id": "ak022beea1dl"
@@ -488,46 +528,6 @@
         ]
       },
       "id": "us7000i5cq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "28 km E of Crown Point, Alaska",
-        "time": 1662377518746,
-        "updated": 1662378339807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022bec0luq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022bec0luq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022bec0luq",
-        "ids": ",ak022bec0luq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.24,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 28 km E of Crown Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.8546,
-          60.4532,
-          250
-        ]
-      },
-      "id": "ak022bec0luq"
     },
     {
       "type": "Feature",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Puerto Rico region",
+        "place": "5 km SE of Maria Antonia, Puerto Rico",
         "time": 1662365368980,
         "updated": 1662369447270,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Off the coast of Valparaiso, Chile",
+        "place": "63 km WNW of Cartagena, Chile",
         "time": 1662364258719,
         "updated": 1662399221528,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 84,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.9 - Off the coast of Valparaiso, Chile"
+        "title": "M 4.9 - 63 km WNW of Cartagena, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "offshore Valparaiso, Chile",
+        "place": "65 km W of Cartagena, Chile",
         "time": 1662364198638,
         "updated": 1662385906575,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - offshore Valparaiso, Chile"
+        "title": "M 4.9 - 65 km W of Cartagena, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "eastern Xizang",
+        "place": "Eastern Xizang",
         "time": 1662361201316,
         "updated": 1662362179040,
         "tz": null,
@@ -997,7 +997,7 @@
         "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - eastern Xizang"
+        "title": "M 4.0 - Eastern Xizang"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.94,
-        "place": "Puerto Rico region",
+        "place": "25 km SE of Emajagua, Puerto Rico",
         "time": 1662358911340,
         "updated": 1662360833500,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 246,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 25 km SE of Emajagua, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Eastern Xizang",
+        "place": "83 km ENE of Nagqu, China",
         "time": 1662356287578,
         "updated": 1662357700040,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Eastern Xizang"
+        "title": "M 4.6 - 83 km ENE of Nagqu, China"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "46 km ENE of Calama, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1662350865019,
         "updated": 1662365338283,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 59,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 46 km ENE of Calama, Chile"
+        "title": "M 4.5 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "6 km NNW of Los Llanos, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1662341923290,
         "updated": 1662350230310,
         "tz": null,
@@ -1517,7 +1517,7 @@
         "gap": 161,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km NNW of Los Llanos, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "4 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1662341467670,
         "updated": 1662347186050,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "34 km NE of Jalālābād, Afghanistan",
         "time": 1662328655800,
         "updated": 1662388549043,
         "tz": null,
@@ -1797,7 +1797,7 @@
         "gap": 42,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Hindu Kush region, Afghanistan"
+        "title": "M 5.1 - 34 km NE of Jalālābād, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Loyalty Islands, New Caledonia",
+        "place": "75 km ENE of Tadine, New Caledonia",
         "time": 1662322504121,
         "updated": 1662388515040,
         "tz": null,
@@ -1917,7 +1917,7 @@
         "gap": 71,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Loyalty Islands, New Caledonia"
+        "title": "M 5.3 - 75 km ENE of Tadine, New Caledonia"
       },
       "geometry": {
         "type": "Point",
@@ -1968,46 +1968,6 @@
         ]
       },
       "id": "us7000i56h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.47,
-        "place": "4km NNE of Pinnacles, CA",
-        "time": 1662317875730,
-        "updated": 1662391546975,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73775400",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73775400.geojson",
-        "felt": 9,
-        "cdi": 2.7,
-        "mmi": 3.683,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "nc",
-        "code": "73775400",
-        "ids": ",nc73775400,us7000i565,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 83,
-        "dmin": 0.04402,
-        "rms": 0.15,
-        "gap": 66,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.5 - 4km NNE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1308333,
-          36.5688333,
-          9.91
-        ]
-      },
-      "id": "nc73775400"
     }
   ],
   "bbox": [
