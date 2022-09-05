@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1662405300000,
+    "generated": 1662409237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1662404871029,
+        "updated": 1662409184040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i5gj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i5gj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000i5gj",
+        "ids": ",us7000i5gj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.053,
+        "rms": 1.28,
+        "gap": 205,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4348,
+          52.0663,
+          43.701
+        ]
+      },
+      "id": "us7000i5gj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1015,12 +1055,12 @@
         "mag": 2.94,
         "place": "25 km SE of Emajagua, Puerto Rico",
         "time": 1662358911340,
-        "updated": 1662360833500,
+        "updated": 1662406114230,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71369943",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71369943.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1030,7 +1070,7 @@
         "code": "71369943",
         "ids": ",pr71369943,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": null,
         "rms": 0.35,
@@ -1888,93 +1928,13 @@
         ]
       },
       "id": "nc73775475"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "75 km ENE of Tadine, New Caledonia",
-        "time": 1662322504121,
-        "updated": 1662388515040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i56w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i56w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000i56w",
-        "ids": ",us7000i56w,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.694,
-        "rms": 1.23,
-        "gap": 71,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 75 km ENE of Tadine, New Caledonia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.5367,
-          -21.2477,
-          10
-        ]
-      },
-      "id": "us7000i56w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Izu Islands, Japan region",
-        "time": 1662321239563,
-        "updated": 1662387963040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i56h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i56h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000i56h",
-        "ids": ",us7000i56h,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 107,
-        "dmin": 2.269,
-        "rms": 0.81,
-        "gap": 32,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.343,
-          32.3373,
-          10
-        ]
-      },
-      "id": "us7000i56h"
     }
   ],
   "bbox": [
     -179.7531,
     -56.0574,
     3.02,
-    174.6803,
+    175.4348,
     63.1389,
     507.852
   ]
