@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663449500000,
+    "generated": 1663453211000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "60 km WNW of Nanwalek, Alaska",
+        "time": 1663452515146,
+        "updated": 1663453030040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022bycvk4h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022bycvk4h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "022bycvk4h",
+        "ids": ",us7000i8xd,ak022bycvk4h,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 60 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9312,
+          59.5307,
+          91.2
+        ]
+      },
+      "id": "ak022bycvk4h"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.39,
         "place": "14km W of Petrolia, CA",
         "time": 1663447457540,
-        "updated": 1663448951897,
+        "updated": 1663449607407,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73782876",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73782876.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 181,
+        "sig": 182,
         "net": "nc",
         "code": "73782876",
         "ids": ",nc73782876,",
@@ -55,7 +95,7 @@
         "mag": 2.97,
         "place": "14km WNW of Petrolia, CA",
         "time": 1663446721530,
-        "updated": 1663448467548,
+        "updated": 1663452582040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73782861",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73782861.geojson",
@@ -68,8 +108,8 @@
         "sig": 136,
         "net": "nc",
         "code": "73782861",
-        "ids": ",nc73782861,",
-        "sources": ",nc,",
+        "ids": ",nc73782861,us7000i8wx,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 21,
         "dmin": 0.1288,
@@ -88,6 +128,126 @@
         ]
       },
       "id": "nc73782861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "54 km SSW of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1663445880848,
+        "updated": 1663452012040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8wt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8wt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000i8wt",
+        "ids": ",us7000i8wt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 3.441,
+        "rms": 0.66,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 54 km SSW of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          162.1766,
+          55.7731,
+          53.805
+        ]
+      },
+      "id": "us7000i8wt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "59 km SSW of Yonakuni, Japan",
+        "time": 1663442756661,
+        "updated": 1663451057040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8wh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8wh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000i8wh",
+        "ids": ",us7000i8wh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.535,
+        "rms": 0.86,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 59 km SSW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7722,
+          23.9764,
+          35.323
+        ]
+      },
+      "id": "us7000i8wh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Crete, Greece",
+        "time": 1663440100218,
+        "updated": 1663450269040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8wb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8wb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000i8wb",
+        "ids": ",us7000i8wb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.773,
+        "rms": 0.82,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Crete, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8312,
+          35.3577,
+          10
+        ]
+      },
+      "id": "us7000i8wb"
     },
     {
       "type": "Feature",
@@ -533,15 +693,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "79 km ESE of Yujing, Taiwan",
-        "time": 1663425927834,
-        "updated": 1663442753055,
+        "place": "77 km ESE of Yujing, Taiwan",
+        "time": 1663425927915,
+        "updated": 1663452681070,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8v9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8v9.geojson",
         "felt": 6,
         "cdi": 6.1,
-        "mmi": 6.641,
+        "mmi": 6.798,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -550,20 +710,20 @@
         "code": "7000i8v9",
         "ids": ",us7000i8v9,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 0.198,
-        "rms": 1.07,
-        "gap": 85,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.618,
+        "rms": 0.92,
+        "gap": 86,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 79 km ESE of Yujing, Taiwan"
+        "title": "M 5.5 - 77 km ESE of Yujing, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.2155,
-          22.9716,
+          121.1927,
+          22.9618,
           10
         ]
       },
@@ -573,9 +733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "79 km E of Yujing, Taiwan",
-        "time": 1663425313988,
-        "updated": 1663428286730,
+        "place": "Taiwan",
+        "time": 1663425314181,
+        "updated": 1663451946940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8v0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8v0.geojson",
@@ -590,20 +750,20 @@
         "code": "7000i8v0",
         "ids": ",us7000i8v0,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.308,
-        "rms": 0.99,
-        "gap": 99,
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.319,
+        "rms": 1.02,
+        "gap": 98,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 79 km E of Yujing, Taiwan"
+        "title": "M 5.1 - Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.2412,
-          23.0891,
+          121.2181,
+          23.112,
           10
         ]
       },
@@ -695,17 +855,17 @@
         "mag": 5.1,
         "place": "104 km E of Iquique, Chile",
         "time": 1663422157585,
-        "updated": 1663443000257,
+        "updated": 1663451338643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8uf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8uf.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 407,
+        "sig": 408,
         "net": "us",
         "code": "7000i8uf",
         "ids": ",us7000i8uf,",
@@ -1812,10 +1972,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5,
         "place": "Kermadec Islands, New Zealand",
-        "time": 1663373215807,
-        "updated": 1663377357040,
+        "time": 1663373219883,
+        "updated": 1663451327040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8py",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8py.geojson",
@@ -1825,26 +1985,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 385,
         "net": "us",
         "code": "7000i8py",
         "ids": ",us7000i8py,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 59,
-        "dmin": 0.821,
-        "rms": 0.42,
+        "dmin": 0.798,
+        "rms": 0.51,
         "gap": 60,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Kermadec Islands, New Zealand"
+        "title": "M 5.0 - Kermadec Islands, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.8831,
-          -30.0849,
-          11.468
+          -177.9149,
+          -30.0626,
+          39.026
         ]
       },
       "id": "us7000i8py"
@@ -1888,46 +2048,6 @@
         ]
       },
       "id": "us7000i8pw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "4 km SSW of La Parguera, Puerto Rico",
-        "time": 1663365655950,
-        "updated": 1663367087670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71372088",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71372088.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71372088",
-        "ids": ",pr71372088,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": null,
-        "rms": 0.04,
-        "gap": 248,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.064,
-          17.941,
-          5.69
-        ]
-      },
-      "id": "pr71372088"
     }
   ],
   "bbox": [
