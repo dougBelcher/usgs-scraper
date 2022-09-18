@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663514480000,
+    "generated": 1663518500000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 59
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.56,
+        "place": "23km NE of Thermal, CA",
+        "time": 1663515187060,
+        "updated": 1663517194040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102487.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "ci",
+        "code": "40102487",
+        "ids": ",ci40102487,us7000i93q,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.1023,
+        "rms": 0.19,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23km NE of Thermal, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.9401667,
+          33.7626667,
+          5.61
+        ]
+      },
+      "id": "ci40102487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "145 km NE of Thang, India",
+        "time": 1663513601428,
+        "updated": 1663515166040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i93n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i93n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000i93n",
+        "ids": ",us7000i93n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 4.403,
+        "rms": 0.79,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 145 km NE of Thang, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8658,
+          35.9076,
+          10
+        ]
+      },
+      "id": "us7000i93n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.28,
-        "place": "Mona Passage",
+        "place": "Puerto Rico region",
         "time": 1663512886450,
         "updated": 1663514278040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 252,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Mona Passage"
+        "title": "M 3.3 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -173,14 +253,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.92,
-        "place": "22 km SSW of Mammoth, Wyoming",
+        "place": "Wyoming",
         "time": 1663505719720,
-        "updated": 1663514069360,
+        "updated": 1663515843343,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60515582",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60515582.geojson",
-        "felt": 15,
-        "cdi": 3.8,
+        "felt": 17,
+        "cdi": 3.5,
         "mmi": 4.415,
         "alert": null,
         "status": "reviewed",
@@ -197,7 +277,7 @@
         "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 22 km SSW of Mammoth, Wyoming"
+        "title": "M 3.9 - Wyoming"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "162 km W of Itoman, Japan",
+        "place": "Ryukyu Islands, Japan",
         "time": 1663495538932,
         "updated": 1663496498040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 162 km W of Itoman, Japan"
+        "title": "M 5.0 - Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "22 km W of Pégeia, Cyprus",
+        "place": "Cyprus region",
         "time": 1663494650009,
         "updated": 1663507986851,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 22 km W of Pégeia, Cyprus"
+        "title": "M 4.3 - Cyprus region"
       },
       "geometry": {
         "type": "Point",
@@ -455,12 +535,12 @@
         "mag": 3.3,
         "place": "23km NE of Thermal, CA",
         "time": 1663492401970,
-        "updated": 1663513291822,
+        "updated": 1663517812762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102327.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +550,7 @@
         "code": "40102327",
         "ids": ",ci40102327,us7000i920,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 78,
         "dmin": 0.1035,
         "rms": 0.16,
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.56,
-        "place": "7 km SE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1663492117080,
         "updated": 1663493164420,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 221,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km SE of Maria Antonia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "Ryukyu Islands, Japan",
+        "place": "166 km W of Itoman, Japan",
         "time": 1663488599600,
         "updated": 1663496197780,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 51,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - Ryukyu Islands, Japan"
+        "title": "M 5.7 - 166 km W of Itoman, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +855,17 @@
         "mag": 3.53,
         "place": "23km NE of Thermal, CA",
         "time": 1663484148060,
-        "updated": 1663513925196,
+        "updated": 1663517213679,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102247",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102247.geojson",
-        "felt": 23,
+        "felt": 26,
         "cdi": 3.4,
         "mmi": 3.67,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 201,
         "net": "ci",
         "code": "40102247",
         "ids": ",ci40102247,us7000i90s,",
@@ -813,19 +893,19 @@
       "type": "Feature",
       "properties": {
         "mag": 6.9,
-        "place": "86 km SE of Lugu, Taiwan",
+        "place": "Taiwan",
         "time": 1663483454735,
-        "updated": 1663510797527,
+        "updated": 1663517104340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90q.geojson",
-        "felt": 150,
-        "cdi": 8.7,
+        "felt": 152,
+        "cdi": 9.1,
         "mmi": 7.924,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 863,
+        "sig": 871,
         "net": "us",
         "code": "7000i90q",
         "ids": ",pt22261001,at00rie81r,us7000i90q,",
@@ -837,7 +917,7 @@
         "gap": 24,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.9 - 86 km SE of Lugu, Taiwan"
+        "title": "M 6.9 - Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "161 km W of Itoman, Japan",
+        "place": "Ryukyu Islands, Japan",
         "time": 1663481082727,
         "updated": 1663491008040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 161 km W of Itoman, Japan"
+        "title": "M 4.5 - Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "83 km E of Yujing, Taiwan",
+        "place": "Taiwan",
         "time": 1663478358359,
         "updated": 1663485874199,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 50,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 83 km E of Yujing, Taiwan"
+        "title": "M 5.6 - Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "11 km NNW of Hasaki, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1663466986218,
         "updated": 1663495864515,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 11 km NNW of Hasaki, Japan"
+        "title": "M 4.8 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "60 km WNW of Nanwalek, Alaska",
+        "place": "Southern Alaska",
         "time": 1663452515146,
         "updated": 1663453030040,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 60 km WNW of Nanwalek, Alaska"
+        "title": "M 3.0 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "Puerto Rico region",
+        "place": "69 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1663451279380,
         "updated": 1663453404140,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 69 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "7 km N of El Pedregal, Peru",
+        "place": "Near the coast of southern Peru",
         "time": 1663438909447,
         "updated": 1663441044040,
         "tz": null,
@@ -2157,7 +2237,7 @@
         "gap": 271,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 7 km N of El Pedregal, Peru"
+        "title": "M 4.1 - Near the coast of southern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -2288,46 +2368,6 @@
         ]
       },
       "id": "ak022by9fv1u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "168 km W of Itoman, Japan",
-        "time": 1663428991743,
-        "updated": 1663432590040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8vf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i8vf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000i8vf",
-        "ids": ",us7000i8vf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.095,
-        "rms": 0.86,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 168 km W of Itoman, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.0021,
-          26.3289,
-          10
-        ]
-      },
-      "id": "us7000i8vf"
     }
   ],
   "bbox": [
