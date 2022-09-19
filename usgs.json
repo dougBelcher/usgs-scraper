@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663568000000,
+    "generated": 1663573233000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "6 km NE of Jordán, Colombia",
+        "time": 1663567960786,
+        "updated": 1663571304716,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i97s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i97s.geojson",
+        "felt": 4,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 371,
+        "net": "us",
+        "code": "7000i97s",
+        "ids": ",us7000i97s,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 83,
+        "dmin": 0.87,
+        "rms": 1.04,
+        "gap": 37,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 6 km NE of Jordán, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.053,
+          6.7674,
+          156.025
+        ]
+      },
+      "id": "us7000i97s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 4.1,
         "place": "26 km WSW of Adak, Alaska",
         "time": 1663558691492,
-        "updated": 1663559945040,
+        "updated": 1663569666427,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i970",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i970.geojson",
@@ -188,8 +228,8 @@
         "sig": 259,
         "net": "us",
         "code": "7000i970",
-        "ids": ",us7000i970,ak022c1ctea2,",
-        "sources": ",us,ak,",
+        "ids": ",ak022c1ctea2,us7000i970,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 54,
         "dmin": 1.773,
@@ -412,42 +452,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "18 km NNW of Four Mile Road, Alaska",
-        "time": 1663550130038,
-        "updated": 1663567696882,
+        "mag": 4.8,
+        "place": "15 km N of Four Mile Road, Alaska",
+        "time": 1663550130424,
+        "updated": 1663573204099,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i967.geojson",
-        "felt": 415,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c1bhn1i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c1bhn1i.geojson",
+        "felt": 424,
         "cdi": 4.1,
-        "mmi": null,
+        "mmi": 5.086,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000i967",
-        "ids": ",us7000i967,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 81,
-        "dmin": 0.181,
-        "rms": 0.73,
-        "gap": 22,
-        "magType": "mwr",
+        "sig": 528,
+        "net": "ak",
+        "code": "022c1bhn1i",
+        "ids": ",us7000i967,ak022c1bhn1i,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.99,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 18 km NNW of Four Mile Road, Alaska"
+        "title": "M 4.8 - 15 km N of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.233,
-          64.7592,
-          16.226
+          -149.1255,
+          64.7449,
+          16.8
         ]
       },
-      "id": "us7000i967"
+      "id": "ak022c1bhn1i"
     },
     {
       "type": "Feature",
@@ -1015,12 +1055,12 @@
         "mag": 3.92,
         "place": "Wyoming",
         "time": 1663505719720,
-        "updated": 1663559463613,
+        "updated": 1663568830229,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60515582",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60515582.geojson",
-        "felt": 24,
-        "cdi": 3.4,
+        "felt": 25,
+        "cdi": 3.5,
         "mmi": 4.415,
         "alert": null,
         "status": "reviewed",
@@ -1528,206 +1568,6 @@
         ]
       },
       "id": "us7000i91h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "3 km NNE of Punta Cana, Dominican Republic",
-        "time": 1663485616000,
-        "updated": 1663490012040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022261000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022261000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "pr",
-        "code": "2022261000",
-        "ids": ",us7000i916,pr2022261000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0984,
-        "rms": 0.08,
-        "gap": 269,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 3 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3875,
-          18.6121,
-          154
-        ]
-      },
-      "id": "pr2022261000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "79 km E of Yujing, Taiwan",
-        "time": 1663484255608,
-        "updated": 1663488553329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90t.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "7000i90t",
-        "ids": ",us7000i90t,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.295,
-        "rms": 0.88,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 79 km E of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.2325,
-          23.0785,
-          10
-        ]
-      },
-      "id": "us7000i90t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.53,
-        "place": "23km NE of Thermal, CA",
-        "time": 1663484148060,
-        "updated": 1663517213679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40102247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40102247.geojson",
-        "felt": 26,
-        "cdi": 3.4,
-        "mmi": 3.67,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 201,
-        "net": "ci",
-        "code": "40102247",
-        "ids": ",ci40102247,us7000i90s,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 83,
-        "dmin": 0.1017,
-        "rms": 0.18,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 23km NE of Thermal, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.9373333,
-          33.7635,
-          6.15
-        ]
-      },
-      "id": "ci40102247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.9,
-        "place": "Taiwan",
-        "time": 1663483454735,
-        "updated": 1663556017290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90q.geojson",
-        "felt": 157,
-        "cdi": 9.1,
-        "mmi": 8.225,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 875,
-        "net": "us",
-        "code": "7000i90q",
-        "ids": ",pt22261001,at00rie81r,us7000i90q,",
-        "sources": ",pt,at,us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 119,
-        "dmin": 0.403,
-        "rms": 1.18,
-        "gap": 24,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.9 - Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.316,
-          23.1589,
-          10
-        ]
-      },
-      "id": "us7000i90q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "87 km E of Yujing, Taiwan",
-        "time": 1663482721946,
-        "updated": 1663487102110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000i90h.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000i90h",
-        "ids": ",us7000i90h,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.346,
-        "rms": 0.76,
-        "gap": 90,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 87 km E of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.315,
-          23.0886,
-          10
-        ]
-      },
-      "id": "us7000i90h"
     }
   ],
   "bbox": [
