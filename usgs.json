@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1663864238000,
+    "generated": 1663867898000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "5km E of Covelo, CA",
+        "time": 1663866412560,
+        "updated": 1663866973437,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73784676",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73784676.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "nc",
+        "code": "73784676",
+        "ids": ",nc73784676,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.09905,
+        "rms": 0.2,
+        "gap": 40,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 5km E of Covelo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1883316,
+          39.793335,
+          5.84
+        ]
+      },
+      "id": "nc73784676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "113 km NNE of Hihifo, Tonga",
+        "time": 1663863532175,
+        "updated": 1663867266040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia8t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia8t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000ia8t",
+        "ids": ",us7000ia8t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.004,
+        "rms": 0.92,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 113 km NNE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.55,
+          -14.9558,
+          20.527
+        ]
+      },
+      "id": "us7000ia8t"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.67,
         "place": "4 km SE of Hōlualoa, Hawaii",
         "time": 1663862454120,
-        "updated": 1663863756903,
+        "updated": 1663865471095,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73148302",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73148302.geojson",
-        "felt": 10,
+        "felt": 13,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 113,
         "net": "hv",
         "code": "73148302",
         "ids": ",hv73148302,",
@@ -52,20 +132,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "3 km WSW of Abetone, Italy",
+        "time": 1663861677996,
+        "updated": 1663865613884,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia8f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia8f.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 327,
+        "net": "us",
+        "code": "7000ia8f",
+        "ids": ",us7000ia8f,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 66,
+        "dmin": 0.333,
+        "rms": 0.79,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 3 km WSW of Abetone, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6239,
+          44.1351,
+          18.654
+        ]
+      },
+      "id": "us7000ia8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.49,
-        "place": "offshore Washington",
+        "place": "26 km WNW of Forks, Washington",
         "time": 1663857716900,
-        "updated": 1663864170203,
+        "updated": 1663866884207,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61882431",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61882431.geojson",
-        "felt": 3,
+        "felt": 5,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 189,
         "net": "uw",
         "code": "61882431",
         "ids": ",us7000ia6v,uw61882431,",
@@ -77,7 +197,7 @@
         "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - offshore Washington"
+        "title": "M 3.5 - 26 km WNW of Forks, Washington"
       },
       "geometry": {
         "type": "Point",
@@ -135,17 +255,17 @@
         "mag": 4.4,
         "place": "1 km N of Bogliasco, Italy",
         "time": 1663854000220,
-        "updated": 1663863874054,
+        "updated": 1663865633090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia6e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia6e.geojson",
-        "felt": 11,
-        "cdi": 4.8,
+        "felt": 12,
+        "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 304,
         "net": "us",
         "code": "7000ia6e",
         "ids": ",us7000ia6e,",
@@ -173,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "92 km SW of Basco, Philippines",
+        "place": "Babuyan Islands region, Philippines",
         "time": 1663844362557,
         "updated": 1663846586040,
         "tz": null,
@@ -197,7 +317,7 @@
         "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 92 km SW of Basco, Philippines"
+        "title": "M 4.5 - Babuyan Islands region, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "8 km SE of Ivanof Bay, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1663842703152,
         "updated": 1663842879418,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 8 km SE of Ivanof Bay, Alaska"
+        "title": "M 2.5 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -335,17 +455,17 @@
         "mag": 5.2,
         "place": "59 km N of Picton, New Zealand",
         "time": 1663837624619,
-        "updated": 1663855822105,
+        "updated": 1663866868215,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia3y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia3y.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 5.3,
         "mmi": 4.071,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 429,
+        "sig": 430,
         "net": "us",
         "code": "7000ia3y",
         "ids": ",us7000ia3y,",
@@ -535,17 +655,17 @@
         "mag": 6.8,
         "place": "Michoacan, Mexico",
         "time": 1663827369611,
-        "updated": 1663863664657,
+        "updated": 1663867722169,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia36",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ia36.geojson",
-        "felt": 567,
+        "felt": 576,
         "cdi": 7.6,
         "mmi": 7.059,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1142,
+        "sig": 1149,
         "net": "us",
         "code": "7000ia36",
         "ids": ",pt22265000,at00rillez,us7000ia36,",
@@ -693,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "84 km N of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1663822173760,
         "updated": 1663825896381,
         "tz": null,
@@ -717,7 +837,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 84 km N of San Antonio, Puerto Rico"
+        "title": "M 3.8 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "82 km NNE of Whakatane, New Zealand",
+        "place": "off the east coast of the North Island of New Zealand",
         "time": 1663820896299,
         "updated": 1663838608116,
         "tz": null,
@@ -757,7 +877,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 82 km NNE of Whakatane, New Zealand"
+        "title": "M 4.2 - off the east coast of the North Island of New Zealand"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Potosi, Bolivia",
+        "place": "75 km NE of San Pedro de Atacama, Chile",
         "time": 1663819608801,
         "updated": 1663820402040,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Potosi, Bolivia"
+        "title": "M 4.7 - 75 km NE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "98 km ESE of Ugashik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1663815441412,
         "updated": 1663815554781,
         "tz": null,
@@ -877,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 98 km ESE of Ugashik, Alaska"
+        "title": "M 2.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "69 km SE of Hasaki, Japan",
         "time": 1663799811386,
         "updated": 1663800666040,
         "tz": null,
@@ -1077,7 +1197,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - near the east coast of Honshu, Japan"
+        "title": "M 4.8 - 69 km SE of Hasaki, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "207 km WNW of Abepura, Indonesia",
+        "place": "Papua, Indonesia",
         "time": 1663797038279,
         "updated": 1663797995040,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 189,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 207 km WNW of Abepura, Indonesia"
+        "title": "M 4.4 - Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "226 km SSW of Waingapu, Indonesia",
+        "place": "south of Sumba, Indonesia",
         "time": 1663789271465,
         "updated": 1663792461040,
         "tz": null,
@@ -1317,7 +1437,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 226 km SSW of Waingapu, Indonesia"
+        "title": "M 4.7 - south of Sumba, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "5 km SSE of Khowy, Iran",
+        "place": "Turkey-Iran border region",
         "time": 1663783079244,
         "updated": 1663790243146,
         "tz": null,
@@ -1397,7 +1517,7 @@
         "gap": 71,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 5 km SSE of Khowy, Iran"
+        "title": "M 5.1 - Turkey-Iran border region"
       },
       "geometry": {
         "type": "Point",
@@ -1448,50 +1568,10 @@
         ]
       },
       "id": "us7000i9z0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "48 km W of Mentone, Texas",
-        "time": 1663779979738,
-        "updated": 1663848412123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022snvd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022snvd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022snvd",
-        "ids": ",tx2022snvd,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.03886681969,
-        "rms": 0.2,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 48 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.1096973,
-          31.73835024,
-          7.982543944999999
-        ]
-      },
-      "id": "tx2022snvd"
     }
   ],
   "bbox": [
-    -159.4046,
+    -173.55,
     -40.7598,
     5,
     177.2879,
