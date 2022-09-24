@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664032836000,
+    "generated": 1664036856000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "31 km SW of Tonsina, Alaska",
-        "time": 1664032734282,
-        "updated": 1664032831753,
+        "mag": 4.8,
+        "place": "28 km SW of Tonsina, Alaska",
+        "time": 1664032734659,
+        "updated": 1664036758456,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c9tj4z7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c9tj4z7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 104,
+        "cdi": 4.2,
+        "mmi": 3.657,
         "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 369,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 398,
         "net": "ak",
         "code": "022c9tj4z7",
-        "ids": ",ak022c9tj4z7,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak022c9tj4z7,at00ripzvi,us7000iart,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.38,
+        "rms": 0.6,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.9 - 31 km SW of Tonsina, Alaska"
+        "title": "M 4.8 - 28 km SW of Tonsina, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.6397,
-          61.477,
-          39.7
+          -145.5801,
+          61.4946,
+          39.1
         ]
       },
       "id": "ak022c9tj4z7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1664031172280,
+        "updated": 1664035001040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ias2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ias2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000ias2",
+        "ids": ",ak022c9t53a4,us7000ias2,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.298,
+        "rms": 0.33,
+        "gap": 195,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.3122,
+          51.5709,
+          68.023
+        ]
+      },
+      "id": "us7000ias2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "28 km W of Villa El Carmen, Nicaragua",
+        "time": 1664030349923,
+        "updated": 1664035512543,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iarn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iarn.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 272,
+        "net": "us",
+        "code": "7000iarn",
+        "ids": ",us7000iarn,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.476,
+        "rms": 0.58,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 28 km W of Villa El Carmen, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7592,
+          12.0244,
+          72.714
+        ]
+      },
+      "id": "us7000iarn"
     },
     {
       "type": "Feature",
@@ -92,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.699402093887329,
-        "place": "1 km SSW of Tillamook, Oregon",
-        "time": 1664020737920,
-        "updated": 1664028384957,
+        "mag": 2.45,
+        "place": "1 km S of Tillamook, Oregon",
+        "time": 1664020737930,
+        "updated": 1664033534612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61874392",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61874392.geojson",
@@ -105,26 +185,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 93,
         "net": "uw",
         "code": "61874392",
         "ids": ",uw61874392,us7000iar2,",
         "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.133,
-        "rms": 0.129999995,
-        "gap": 172,
+        "nst": 39,
+        "dmin": 0.01749,
+        "rms": 0.12,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km SSW of Tillamook, Oregon"
+        "title": "M 2.5 - 1 km S of Tillamook, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.85299682617188,
-          45.44066619873047,
-          16.7900009155273
+          -123.84683333333334,
+          45.44166666666667,
+          17.93
         ]
       },
       "id": "uw61874392"
@@ -495,17 +575,17 @@
         "mag": 2.5,
         "place": "4km ENE of Pinnacles, CA",
         "time": 1663992214050,
-        "updated": 1664016101061,
+        "updated": 1664034461642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73785241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73785241.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "nc",
         "code": "73785241",
         "ids": ",nc73785241,",
@@ -1288,213 +1368,13 @@
         ]
       },
       "id": "pr71372838"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "28 km E of Honaunau-Napoopoo, Hawaii",
-        "time": 1663950235630,
-        "updated": 1663952059840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73149577",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73149577.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "73149577",
-        "ids": ",hv73149577,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": null,
-        "rms": 0.32,
-        "gap": 74,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km E of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.592833333333,
-          19.4828333333333,
-          -1.05
-        ]
-      },
-      "id": "hv73149577"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "90 km NNW of Sola, Vanuatu",
-        "time": 1663949165187,
-        "updated": 1663951247040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iahz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iahz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000iahz",
-        "ids": ",us7000iahz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 2.266,
-        "rms": 0.59,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 90 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.1327,
-          -13.1686,
-          215.329
-        ]
-      },
-      "id": "us7000iahz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1663948108935,
-        "updated": 1663958811513,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaht",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaht.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000iaht",
-        "ids": ",us7000iaht,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.081,
-        "rms": 0.34,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4071,
-          31.6568,
-          7.799
-        ]
-      },
-      "id": "us7000iaht"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1663947004130,
-        "updated": 1663955697060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73149507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73149507.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "hv",
-        "code": "73149507",
-        "ids": ",hv73149507,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 89,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.607,
-          19.4601666666667,
-          -1.06
-        ]
-      },
-      "id": "hv73149507"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "205 km W of Panguna, Papua New Guinea",
-        "time": 1663946556609,
-        "updated": 1663950669040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iahr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iahr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000iahr",
-        "ids": ",us7000iahr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 2.342,
-        "rms": 0.84,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 205 km W of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.6555,
-          -6.014,
-          10
-        ]
-      },
-      "id": "us7000iahr"
     }
   ],
   "bbox": [
     -179.2635,
     -41.378,
     -1.09,
-    167.1327,
+    162.2598,
     78.0224,
     604.713
   ]
