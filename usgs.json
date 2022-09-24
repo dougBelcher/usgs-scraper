@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664014899000,
+    "generated": 1664018262000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Pagan region, Northern Mariana Islands",
+        "time": 1664014519604,
+        "updated": 1664016048040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaqu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaqu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000iaqu",
+        "ids": ",us7000iaqu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 5.048,
+        "rms": 0.61,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Pagan region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5162,
+          18.6273,
+          215.23
+        ]
+      },
+      "id": "us7000iaqu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "Off the coast of Valparaiso, Chile",
+        "place": "83 km W of San Antonio, Chile",
         "time": 1664006550074,
         "updated": 1664007836040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Off the coast of Valparaiso, Chile"
+        "title": "M 4.6 - 83 km W of San Antonio, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.49,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1664001832410,
         "updated": 1664009128813,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 118,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Island of Hawaii, Hawaii"
+        "title": "M 3.5 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Jujuy, Argentina",
+        "place": "63 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1663999064443,
         "updated": 1663999879040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Jujuy, Argentina"
+        "title": "M 4.2 - 63 km WNW of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -335,12 +375,12 @@
         "mag": 2.5,
         "place": "4km ENE of Pinnacles, CA",
         "time": 1663992214050,
-        "updated": 1664013916645,
+        "updated": 1664016101061,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73785241",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73785241.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "73785241",
         "ids": ",nc73785241,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 53,
         "dmin": 0.03804,
         "rms": 0.15,
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
+        "place": "40 km SSE of Jurm, Afghanistan",
         "time": 1663975988776,
         "updated": 1663977680040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Afghanistan-Tajikistan-Pakistan region"
+        "title": "M 4.1 - 40 km SSE of Jurm, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6.2,
-        "place": "40 km SSW of Meulaboh, Indonesia",
+        "place": "off the west coast of northern Sumatra",
         "time": 1663966379232,
         "updated": 1664010980754,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.2 - 40 km SSW of Meulaboh, Indonesia"
+        "title": "M 6.2 - off the west coast of northern Sumatra"
       },
       "geometry": {
         "type": "Point",
@@ -935,11 +975,11 @@
         "mag": 5.2,
         "place": "6 km W of Aquila, Mexico",
         "time": 1663957560857,
-        "updated": 1663988037755,
+        "updated": 1664017756460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaj5.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.95,
-        "place": "11 km NNW of Brenas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1663951326720,
         "updated": 1663957577900,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 196,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 11 km NNW of Brenas, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "27 km E of Honaunau-Napoopoo, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1663947004130,
         "updated": 1663955697060,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 89,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 27 km E of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.7 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "98 km WNW of Kandrian, Papua New Guinea",
         "time": 1663936466361,
         "updated": 1663943848872,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 43,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - New Britain region, Papua New Guinea"
+        "title": "M 5.4 - 98 km WNW of Kandrian, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
