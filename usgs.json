@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664036856000,
+    "generated": 1664040162000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Guerrero, Mexico",
+        "time": 1664033241440,
+        "updated": 1664040051854,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iarz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iarz.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000iarz",
+        "ids": ",us7000iarz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.588,
+        "rms": 0.68,
+        "gap": 168,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Guerrero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0358,
+          17.1798,
+          52.156
+        ]
+      },
+      "id": "us7000iarz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
         "place": "28 km SW of Tonsina, Alaska",
         "time": 1664032734659,
-        "updated": 1664036758456,
+        "updated": 1664039548488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022c9tj4z7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022c9tj4z7.geojson",
-        "felt": 104,
+        "felt": 111,
         "cdi": 4.2,
         "mmi": 3.657,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 398,
+        "sig": 401,
         "net": "ak",
         "code": "022c9tj4z7",
         "ids": ",ak022c9tj4z7,at00ripzvi,us7000iart,",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "57 km SW of Adak, Alaska",
         "time": 1664031172280,
         "updated": 1664035001040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 195,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 2.5 - 57 km SW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.49,
-        "place": "10 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1664001832410,
         "updated": 1664009128813,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 118,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 10 km ENE of Pāhala, Hawaii"
+        "title": "M 3.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "63 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Jujuy, Argentina",
         "time": 1663999064443,
         "updated": 1663999879040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 63 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.2 - Jujuy, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "40 km SSE of Jurm, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1663975988776,
         "updated": 1663977680040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 40 km SSE of Jurm, Afghanistan"
+        "title": "M 4.1 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6.2,
-        "place": "off the west coast of northern Sumatra",
+        "place": "40 km SSW of Meulaboh, Indonesia",
         "time": 1663966379232,
         "updated": 1664030056872,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.2 - off the west coast of northern Sumatra"
+        "title": "M 6.2 - 40 km SSW of Meulaboh, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1172,10 +1212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "off the coast of Oregon",
+        "time": 1663957608223,
+        "updated": 1664040012040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaj2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaj2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000iaj2",
+        "ids": ",us7000iaj2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 3.147,
+        "rms": 0.81,
+        "gap": 224,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.3932,
+          43.7826,
+          10
+        ]
+      },
+      "id": "us7000iaj2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
-        "place": "6 km W of Aquila, Mexico",
-        "time": 1663957560857,
-        "updated": 1664030540358,
+        "place": "1 km NNW of La Placita de Morelos, Mexico",
+        "time": 1663957560709,
+        "updated": 1664039485040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaj5.geojson",
@@ -1191,20 +1271,20 @@
         "ids": ",us7000iaj5,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 118,
-        "dmin": 2.445,
-        "rms": 1.13,
-        "gap": 128,
+        "nst": 170,
+        "dmin": 2.49,
+        "rms": 0.81,
+        "gap": 126,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 6 km W of Aquila, Mexico"
+        "title": "M 5.2 - 1 km NNW of La Placita de Morelos, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.5636,
-          18.5932,
-          50.628
+          -103.5925,
+          18.5469,
+          53.926
         ]
       },
       "id": "us7000iaj5"
@@ -1332,42 +1412,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.95,
-        "place": "Puerto Rico region",
-        "time": 1663951326720,
-        "updated": 1663957577900,
+        "mag": 4,
+        "place": "57 km W of La Quiaca, Argentina",
+        "time": 1663955297656,
+        "updated": 1664037949040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71372838",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71372838.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaip.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 134,
-        "net": "pr",
-        "code": "71372838",
-        "ids": ",pr71372838,",
-        "sources": ",pr,",
+        "sig": 246,
+        "net": "us",
+        "code": "7000iaip",
+        "ids": ",us7000iaip,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.44,
-        "gap": 196,
-        "magType": "md",
+        "nst": 28,
+        "dmin": 2.033,
+        "rms": 1.48,
+        "gap": 151,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 4.0 - 57 km W of La Quiaca, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.3645,
-          18.5695,
-          99.46
+          -66.1387,
+          -22.1895,
+          269.317
         ]
       },
-      "id": "pr71372838"
+      "id": "us7000iaip"
     }
   ],
   "bbox": [
