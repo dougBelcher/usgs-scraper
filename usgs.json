@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664219913000,
+    "generated": 1664223753000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "northern Alaska",
+        "time": 1664221894557,
+        "updated": 1664222147833,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cd76lin",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cd76lin.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "022cd76lin",
+        "ids": ",ak022cd76lin,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - northern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.0415,
+          69.4159,
+          0
+        ]
+      },
+      "id": "ak022cd76lin"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us6000infd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "3 km NNW of Elmo, Montana",
+        "time": 1664215606281,
+        "updated": 1664223440765,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000infa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000infa.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "us",
+        "code": "6000infa",
+        "ids": ",us6000infa,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.125,
+        "rms": 1.06,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km NNW of Elmo, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3641,
+          47.8585,
+          12.229
+        ]
+      },
+      "id": "us6000infa"
     },
     {
       "type": "Feature",
@@ -1688,54 +1768,14 @@
         ]
       },
       "id": "us7000iazx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "83 km N of Mamuju, Indonesia",
-        "time": 1664135006371,
-        "updated": 1664136885040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iaze",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iaze.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000iaze",
-        "ids": ",us7000iaze,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.185,
-        "rms": 0.94,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 83 km N of Mamuju, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.9341,
-          -1.9235,
-          44.287
-        ]
-      },
-      "id": "us7000iaze"
     }
   ],
   "bbox": [
     -178.6802,
     -58.8975,
-    2.23,
+    0,
     178.4183,
-    61.4985,
+    69.4159,
     534.179
   ]
 }
