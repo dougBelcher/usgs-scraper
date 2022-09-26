@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664209893000,
+    "generated": 1664213527000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.61,
+        "place": "5km ENE of Covelo, CA",
+        "time": 1664212058660,
+        "updated": 1664212929068,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73786101",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73786101.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "73786101",
+        "ids": ",nc73786101,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.08948,
+        "rms": 0.21,
+        "gap": 40,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5km ENE of Covelo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1910019,
+          39.8028336,
+          2.83
+        ]
+      },
+      "id": "nc73786101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
-        "place": "110 km E of Hachinohe, Japan",
-        "time": 1664208323605,
-        "updated": 1664209786056,
+        "place": "113 km E of Hachinohe, Japan",
+        "time": 1664208323173,
+        "updated": 1664212855597,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ib5i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ib5i.geojson",
@@ -31,23 +71,63 @@
         "ids": ",us7000ib5i,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 64,
-        "dmin": 1.331,
+        "nst": 66,
+        "dmin": 1.366,
         "rms": 0.53,
         "gap": 101,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 110 km E of Hachinohe, Japan"
+        "title": "M 4.9 - 113 km E of Hachinohe, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.7971,
-          40.5955,
-          36.27
+          142.8387,
+          40.5779,
+          33.566
         ]
       },
       "id": "us7000ib5i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Reykjanes Ridge",
+        "time": 1664205527112,
+        "updated": 1664212330040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ib4c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ib4c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000ib4c",
+        "ids": ",us7000ib4c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 9.282,
+        "rms": 0.64,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.007,
+          53.7688,
+          10
+        ]
+      },
+      "id": "us7000ib4c"
     },
     {
       "type": "Feature",
@@ -208,6 +288,46 @@
         ]
       },
       "id": "us7000ib4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Reykjanes Ridge",
+        "time": 1664203759626,
+        "updated": 1664210405040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ib4i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ib4i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ib4i",
+        "ids": ",us7000ib4i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 8.94,
+        "rms": 0.53,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2713,
+          54.0746,
+          10
+        ]
+      },
+      "id": "us7000ib4i"
     },
     {
       "type": "Feature",
@@ -775,22 +895,22 @@
         "mag": 4.3,
         "place": "121 km NW of Mosquera, Colombia",
         "time": 1664163719986,
-        "updated": 1664164610040,
+        "updated": 1664213411613,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ib1b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ib1b.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "7000ib1b",
         "ids": ",us7000ib1b,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 2.94,
         "rms": 1.09,
@@ -1293,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Makassar Strait, Indonesia",
+        "place": "83 km N of Mamuju, Indonesia",
         "time": 1664135006371,
         "updated": 1664136885040,
         "tz": null,
@@ -1317,7 +1437,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Makassar Strait, Indonesia"
+        "title": "M 4.7 - 83 km N of Mamuju, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1568,6 @@
         ]
       },
       "id": "us7000iayu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of the Fiji Islands",
-        "time": 1664123564216,
-        "updated": 1664126553040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iayp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iayp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000iayp",
-        "ids": ",us7000iayp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 4.478,
-        "rms": 0.54,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.1505,
-          -25.5827,
-          10
-        ]
-      },
-      "id": "us7000iayp"
     }
   ],
   "bbox": [
