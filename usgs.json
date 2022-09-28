@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664386775000,
+    "generated": 1664389955000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.39,
+        "mag": 2.6,
+        "place": "25 km N of Four Mile Road, Alaska",
+        "time": 1664389719502,
+        "updated": 1664389867056,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cghixta",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cghixta.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022cghixta",
+        "ids": ",ak022cghixta,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 25 km N of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0207,
+          64.8316,
+          15.9
+        ]
+      },
+      "id": "ak022cghixta"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "239 km NE of Saipan, Northern Mariana Islands",
+        "time": 1664386512316,
+        "updated": 1664389226142,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ip1i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ip1i.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000ip1i",
+        "ids": ",us6000ip1i,",
+        "sources": ",us,",
+        "types": ",dyfi,oaf,origin,phase-data,",
+        "nst": 88,
+        "dmin": 17.382,
+        "rms": 0.75,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 239 km NE of Saipan, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0922,
+          16.9522,
+          32.658
+        ]
+      },
+      "id": "us6000ip1i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.35,
         "place": "24km NE of Alum Rock, CA",
         "time": 1664384522080,
-        "updated": 1664386690171,
+        "updated": 1664389479253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73786811",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73786811.geojson",
-        "felt": 36,
+        "felt": 48,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -30,12 +110,12 @@
         "code": "73786811",
         "ids": ",nc73786811,",
         "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 67,
         "dmin": 0.03556,
         "rms": 0.09,
         "gap": 54,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
         "title": "M 3.4 - 24km NE of Alum Rock, CA"
       },
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Halmahera, Indonesia",
+        "place": "113 km N of Tobelo, Indonesia",
         "time": 1664365298488,
         "updated": 1664366376040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Halmahera, Indonesia"
+        "title": "M 4.6 - 113 km N of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -295,11 +375,11 @@
         "mag": 4.2,
         "place": "25 km SE of La Placita de Morelos, Mexico",
         "time": 1664361562248,
-        "updated": 1664365049895,
+        "updated": 1664387551594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inyf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inyf.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.12,
-        "place": "22 km NE of Luquillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1664336581800,
         "updated": 1664337564976,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 205,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 22 km NE of Luquillo, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1133,19 +1213,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "61 km E of Mulegé, Mexico",
+        "place": "Baja California Sur, Mexico",
         "time": 1664327904940,
-        "updated": 1664340209364,
+        "updated": 1664389917975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inv3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inv3.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": 4.371,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 450,
+        "sig": 451,
         "net": "us",
         "code": "6000inv3",
         "ids": ",us6000inv3,",
@@ -1157,7 +1237,7 @@
         "gap": 135,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 61 km E of Mulegé, Mexico"
+        "title": "M 5.4 - Baja California Sur, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "44 km ENE of Cortes, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1664327545024,
         "updated": 1664341878040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 44 km ENE of Cortes, Philippines"
+        "title": "M 5.2 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us6000inrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "47 km SW of San Pedro de Atacama, Chile",
-        "time": 1664300886903,
-        "updated": 1664303737040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inqy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inqy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000inqy",
-        "ids": ",us6000inqy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.425,
-        "rms": 1.01,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 47 km SW of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.577,
-          -23.1686,
-          169.237
-        ]
-      },
-      "id": "us6000inqy"
     }
   ],
   "bbox": [
@@ -1695,7 +1735,7 @@
     -58.0374,
     -1.75,
     171.5496,
-    54.3516,
-    169.237
+    64.8316,
+    86
   ]
 }
