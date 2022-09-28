@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664373275000,
+    "generated": 1664375735000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 55
   },
   "features": [
     {
@@ -895,12 +895,12 @@
         "mag": 4.7,
         "place": "9 km E of Tigao, Philippines",
         "time": 1664332768809,
-        "updated": 1664336215040,
+        "updated": 1664373997022,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inw3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inw3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -910,7 +910,7 @@
         "code": "6000inw3",
         "ids": ",us6000inw3,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": 2.218,
         "rms": 0.69,
@@ -2208,86 +2208,6 @@
         ]
       },
       "id": "us6000inmy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "14 km W of Susuz, Turkey",
-        "time": 1664288680518,
-        "updated": 1664292803040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inms",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inms.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000inms",
-        "ids": ",us6000inms,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.507,
-        "rms": 0.71,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 14 km W of Susuz, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          42.9609,
-          40.8022,
-          10
-        ]
-      },
-      "id": "us6000inms"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "21 km WSW of Susuz, Turkey",
-        "time": 1664287712650,
-        "updated": 1664354216170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inmr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inmr.geojson",
-        "felt": 11,
-        "cdi": 6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 439,
-        "net": "us",
-        "code": "6000inmr",
-        "ids": ",us6000inmr,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 69,
-        "dmin": 1.524,
-        "rms": 0.64,
-        "gap": 43,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 21 km WSW of Susuz, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          42.8893,
-          40.718,
-          10
-        ]
-      },
-      "id": "us6000inmr"
     }
   ],
   "bbox": [
