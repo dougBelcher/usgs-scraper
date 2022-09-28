@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664389955000,
+    "generated": 1664392896000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.6,
         "place": "25 km N of Four Mile Road, Alaska",
         "time": 1664389719502,
-        "updated": 1664389867056,
+        "updated": 1664390307097,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cghixta",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cghixta.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "022cghixta",
         "ids": ",ak022cghixta,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.64,
@@ -55,7 +55,7 @@
         "mag": 5.1,
         "place": "239 km NE of Saipan, Northern Mariana Islands",
         "time": 1664386512316,
-        "updated": 1664389226142,
+        "updated": 1664390120237,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ip1i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ip1i.geojson",
@@ -95,11 +95,11 @@
         "mag": 3.35,
         "place": "24km NE of Alum Rock, CA",
         "time": 1664384522080,
-        "updated": 1664389479253,
+        "updated": 1664390255758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73786811",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73786811.geojson",
-        "felt": 48,
+        "felt": 50,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "113 km N of Tobelo, Indonesia",
+        "place": "Halmahera, Indonesia",
         "time": 1664365298488,
         "updated": 1664366376040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 113 km N of Tobelo, Indonesia"
+        "title": "M 4.6 - Halmahera, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.12,
-        "place": "Puerto Rico region",
+        "place": "22 km NE of Luquillo, Puerto Rico",
         "time": 1664336581800,
         "updated": 1664337564976,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 205,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 22 km NE of Luquillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Baja California Sur, Mexico",
+        "place": "61 km E of Mulegé, Mexico",
         "time": 1664327904940,
         "updated": 1664389917975,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 135,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Baja California Sur, Mexico"
+        "title": "M 5.4 - 61 km E of Mulegé, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Mindanao, Philippines",
+        "place": "44 km ENE of Cortes, Philippines",
         "time": 1664327545024,
         "updated": 1664341878040,
         "tz": null,
@@ -1277,7 +1277,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Mindanao, Philippines"
+        "title": "M 5.2 - 44 km ENE of Cortes, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us6000insj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Reykjanes Ridge",
-        "time": 1664305488879,
-        "updated": 1664311117040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000inrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000inrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000inrw",
-        "ids": ",us6000inrw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 154,
-        "dmin": 9.257,
-        "rms": 0.55,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Reykjanes Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.1458,
-          53.7459,
-          10
-        ]
-      },
-      "id": "us6000inrw"
     }
   ],
   "bbox": [
