@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664576647000,
+    "generated": 1664580342000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 64
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "71 km NW of Ninilchik, Alaska",
+        "time": 1664580213803,
+        "updated": 1664580283655,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cjvjpsi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cjvjpsi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "022cjvjpsi",
+        "ids": ",ak022cjvjpsi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.34,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 71 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.6939,
+          60.444,
+          13.5
+        ]
+      },
+      "id": "ak022cjvjpsi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -655,11 +695,11 @@
         "mag": 3.41,
         "place": "17km ESE of Anza, CA",
         "time": 1664538611750,
-        "updated": 1664573274143,
+        "updated": 1664578680185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40353408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40353408.geojson",
-        "felt": 60,
+        "felt": 61,
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "180 km W of Neiafu, Tonga",
+        "place": "Tonga",
         "time": 1664537213061,
         "updated": 1664538627040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 180 km W of Neiafu, Tonga"
+        "title": "M 4.6 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "offshore Coquimbo, Chile",
+        "place": "63 km NW of La Ligua, Chile",
         "time": 1664523673724,
         "updated": 1664525039339,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 175,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - offshore Coquimbo, Chile"
+        "title": "M 4.3 - 63 km NW of La Ligua, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "36 km NNE of Angoram, Papua New Guinea",
+        "place": "near the north coast of New Guinea, Papua New Guinea",
         "time": 1664509389492,
         "updated": 1664510530040,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 36 km NNE of Angoram, Papua New Guinea"
+        "title": "M 5.0 - near the north coast of New Guinea, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Nevada",
+        "place": "6 km NNW of North Las Vegas, Nevada",
         "time": 1664507166109,
         "updated": 1664575085975,
         "tz": null,
@@ -1877,7 +1917,7 @@
         "gap": 111.66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Nevada"
+        "title": "M 2.5 - 6 km NNW of North Las Vegas, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.55,
-        "place": "Puerto Rico region",
+        "place": "109 km N of Brenas, Puerto Rico",
         "time": 1664503289450,
         "updated": 1664513413040,
         "tz": null,
@@ -2117,7 +2157,7 @@
         "gap": 281,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 109 km N of Brenas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1664502750330,
         "updated": 1664506040684,
         "tz": null,
@@ -2157,7 +2197,7 @@
         "gap": 300,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.58,
-        "place": "Virgin Islands",
+        "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1664502527960,
         "updated": 1664507533040,
         "tz": null,
@@ -2197,7 +2237,7 @@
         "gap": 314,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - 99 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "Puerto Rico region",
+        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
         "time": 1664500595820,
         "updated": 1664507279100,
         "tz": null,
@@ -2277,7 +2317,7 @@
         "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 5 km SSW of Potala Pastillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2368,206 +2408,6 @@
         ]
       },
       "id": "uu60031619"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "111 km NW of Yakutat, Alaska",
-        "time": 1664492890151,
-        "updated": 1664567409235,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ci7x3po",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ci7x3po.geojson",
-        "felt": 10,
-        "cdi": 3.8,
-        "mmi": 5.465,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 404,
-        "net": "ak",
-        "code": "022ci7x3po",
-        "ids": ",ak022ci7x3po,at00rizuxk,us6000ipgd,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 5.1 - 111 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.1915,
-          60.2205,
-          11.2
-        ]
-      },
-      "id": "ak022ci7x3po"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "50 km W of Nueva Loja, Ecuador",
-        "time": 1664492562974,
-        "updated": 1664494305040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipgb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipgb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000ipgb",
-        "ids": ",us6000ipgb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.722,
-        "rms": 0.65,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 50 km W of Nueva Loja, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.3433,
-          0.142,
-          11.789
-        ]
-      },
-      "id": "us6000ipgb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "2 km ESE of Aline, Oklahoma",
-        "time": 1664492349080,
-        "updated": 1664503350686,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022tcwv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022tcwv.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ok",
-        "code": "2022tcwv",
-        "ids": ",ok2022tcwv,us6000ipg9,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 101,
-        "dmin": 0,
-        "rms": 0.21,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 2 km ESE of Aline, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.42216667,
-          36.499,
-          7.81
-        ]
-      },
-      "id": "ok2022tcwv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1664492341334,
-        "updated": 1664502589845,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipga",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipga.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "6000ipga",
-        "ids": ",us6000ipga,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 98,
-        "dmin": 4.419,
-        "rms": 1.04,
-        "gap": 31,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.2203,
-          -22.9634,
-          10
-        ]
-      },
-      "id": "us6000ipga"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
-        "time": 1664490578870,
-        "updated": 1664512957040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iphj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iphj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000iphj",
-        "ids": ",av91686956,us6000iphj,",
-        "sources": ",av,us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.08,
-        "rms": 0.41,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Andreanof Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.7834,
-          51.6809,
-          20.485
-        ]
-      },
-      "id": "us6000iphj"
     }
   ],
   "bbox": [
@@ -2575,7 +2415,7 @@
     -45.8168,
     -1.53,
     179.9351,
-    60.2205,
+    60.444,
     585.777
   ]
 }
