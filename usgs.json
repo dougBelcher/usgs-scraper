@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664572823000,
+    "generated": 1664576647000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 65
+    "count": 64
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "123 km ENE of Tobelo, Indonesia",
+        "time": 1664574263010,
+        "updated": 1664575227040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipsr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipsr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ipsr",
+        "ids": ",us6000ipsr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 2.133,
+        "rms": 0.78,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 123 km ENE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0628,
+          2.075,
+          10
+        ]
+      },
+      "id": "us6000ipsr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 5.9,
         "place": "40 km NNE of Sibolga, Indonesia",
         "time": 1664566119083,
-        "updated": 1664569952444,
+        "updated": 1664573508694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipri",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipri.geojson",
@@ -175,7 +215,7 @@
         "mag": 2.67,
         "place": "27 km E of Honaunau-Napoopoo, Hawaii",
         "time": 1664565794650,
-        "updated": 1664568513820,
+        "updated": 1664573876040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73161357",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73161357.geojson",
@@ -188,8 +228,8 @@
         "sig": 110,
         "net": "hv",
         "code": "73161357",
-        "ids": ",hv73161357,",
-        "sources": ",hv,",
+        "ids": ",us6000iprh,hv73161357,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 28,
         "dmin": null,
@@ -208,6 +248,46 @@
         ]
       },
       "id": "hv73161357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "68 km NNE of Calama, Chile",
+        "time": 1664564546205,
+        "updated": 1664573025040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iprc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iprc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000iprc",
+        "ids": ",us6000iprc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.554,
+        "rms": 0.75,
+        "gap": 167,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 68 km NNE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6543,
+          -21.8884,
+          137.837
+        ]
+      },
+      "id": "us6000iprc"
     },
     {
       "type": "Feature",
@@ -575,7 +655,7 @@
         "mag": 3.41,
         "place": "17km ESE of Anza, CA",
         "time": 1664538611750,
-        "updated": 1664568185351,
+        "updated": 1664573274143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40353408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40353408.geojson",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Tonga",
+        "place": "180 km W of Neiafu, Tonga",
         "time": 1664537213061,
         "updated": 1664538627040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Tonga"
+        "title": "M 4.6 - 180 km W of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "63 km NW of La Ligua, Chile",
+        "place": "offshore Coquimbo, Chile",
         "time": 1664523673724,
         "updated": 1664525039339,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 175,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 63 km NW of La Ligua, Chile"
+        "title": "M 4.3 - offshore Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "near the north coast of New Guinea, Papua New Guinea",
+        "place": "36 km NNE of Angoram, Papua New Guinea",
         "time": 1664509389492,
         "updated": 1664510530040,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - near the north coast of New Guinea, Papua New Guinea"
+        "title": "M 5.0 - 36 km NNE of Angoram, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1773,13 +1853,13 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "6 km NNW of North Las Vegas, Nevada",
+        "place": "Nevada",
         "time": 1664507166109,
-        "updated": 1664569805691,
+        "updated": 1664575085975,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00848244",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00848244.geojson",
-        "felt": 433,
+        "felt": 434,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1797,7 +1877,7 @@
         "gap": 111.66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km NNW of North Las Vegas, Nevada"
+        "title": "M 2.5 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.55,
-        "place": "109 km N of Brenas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1664503289450,
         "updated": 1664513413040,
         "tz": null,
@@ -2037,7 +2117,7 @@
         "gap": 281,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 109 km N of Brenas, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2053,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Virgin Islands region",
+        "place": "Virgin Islands",
         "time": 1664502750330,
         "updated": 1664506040684,
         "tz": null,
@@ -2077,7 +2157,7 @@
         "gap": 300,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands region"
+        "title": "M 3.6 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.58,
-        "place": "99 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1664502527960,
         "updated": 1664507533040,
         "tz": null,
@@ -2117,7 +2197,7 @@
         "gap": 314,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 99 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.6 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1664500595820,
         "updated": 1664507279100,
         "tz": null,
@@ -2197,7 +2277,7 @@
         "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 5 km SSW of Potala Pastillo, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2453,7 +2533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "149 km W of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1664490578870,
         "updated": 1664512957040,
         "tz": null,
@@ -2477,7 +2557,7 @@
         "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 149 km W of Adak, Alaska"
+        "title": "M 3.2 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2488,126 +2568,6 @@
         ]
       },
       "id": "us6000iphj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "83 km SE of Mawlaik, Myanmar",
-        "time": 1664490158063,
-        "updated": 1664564822389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipft.geojson",
-        "felt": 21,
-        "cdi": 4.3,
-        "mmi": 3.838,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 491,
-        "net": "us",
-        "code": "6000ipft",
-        "ids": ",us6000ipft,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 129,
-        "dmin": 3.006,
-        "rms": 0.81,
-        "gap": 20,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 83 km SE of Mawlaik, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.9275,
-          23.0617,
-          165.131
-        ]
-      },
-      "id": "us6000ipft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Reykjanes Ridge",
-        "time": 1664489932041,
-        "updated": 1664513213040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipg7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipg7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000ipg7",
-        "ids": ",us6000ipg7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 9.164,
-        "rms": 0.52,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Reykjanes Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.1182,
-          53.8671,
-          10
-        ]
-      },
-      "id": "us6000ipg7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "11 km N of Yedisu, Turkey",
-        "time": 1664488143116,
-        "updated": 1664490788040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipfl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipfl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ipfl",
-        "ids": ",us6000ipfl,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.478,
-        "rms": 0.66,
-        "gap": 77,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.3 - 11 km N of Yedisu, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          40.5348,
-          39.5404,
-          10
-        ]
-      },
-      "id": "us6000ipfl"
     }
   ],
   "bbox": [
