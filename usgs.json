@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664631787000,
+    "generated": 1664634052000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "45 km W of Bengkulu, Indonesia",
+        "time": 1664632216564,
+        "updated": 1664633138040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipzr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipzr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ipzr",
+        "ids": ",us6000ipzr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 1.22,
+        "rms": 0.53,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 45 km W of Bengkulu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8581,
+          -3.819,
+          66.373
+        ]
+      },
+      "id": "us6000ipzr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "58 km NNW of Port-Olry, Vanuatu",
+        "time": 1664631814599,
+        "updated": 1664632887040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ipzp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ipzp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ipzp",
+        "ids": ",us6000ipzp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.944,
+        "rms": 0.73,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 58 km NNW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.9006,
+          -14.544,
+          63.422
+        ]
+      },
+      "id": "us6000ipzp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "55 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1664628561536,
         "updated": 1664629470076,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 55 km NW of Toyah, Texas"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +215,12 @@
         "mag": 3.03,
         "place": "9 km W of Lamont, Oklahoma",
         "time": 1664627427680,
-        "updated": 1664628509040,
+        "updated": 1664632985328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022tftc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022tftc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -148,9 +228,9 @@
         "sig": 141,
         "net": "ok",
         "code": "2022tftc",
-        "ids": ",us6000ipzc,ok2022tftc,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2022tftc,us6000ipzc,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 73,
         "dmin": 0.2235102504,
         "rms": 0.6458430255,
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "31 km SSW of Angoram, Papua New Guinea",
+        "place": "New Guinea, Papua New Guinea",
         "time": 1664619916581,
         "updated": 1664621302040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 31 km SSW of Angoram, Papua New Guinea"
+        "title": "M 4.9 - New Guinea, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.71,
-        "place": "Puerto Rico region",
+        "place": "23 km NNE of Isabela, Puerto Rico",
         "time": 1664614894500,
         "updated": 1664617312250,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 200,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Puerto Rico region"
+        "title": "M 3.7 - 23 km NNE of Isabela, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "115 km SSW of Puerto San José, Guatemala",
+        "place": "near the coast of Guatemala",
         "time": 1664611539441,
         "updated": 1664612195040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 222,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 115 km SSW of Puerto San José, Guatemala"
+        "title": "M 4.3 - near the coast of Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -455,22 +535,22 @@
         "mag": 3.01,
         "place": "5 km E of La Parguera, Puerto Rico",
         "time": 1664610278050,
-        "updated": 1664611999784,
+        "updated": 1664633994541,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022274000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022274000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 140,
         "net": "pr",
         "code": "2022274000",
         "ids": ",pr2022274000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.1108,
         "rms": 0.1,
@@ -535,12 +615,12 @@
         "mag": 2.71,
         "place": "12km N of Mineral, CA",
         "time": 1664608485790,
-        "updated": 1664612774112,
+        "updated": 1664633515152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73787866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73787866.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -550,7 +630,7 @@
         "code": "73787866",
         "ids": ",nc73787866,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
         "dmin": 0.03062,
         "rms": 0.09,
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Central Alaska",
+        "place": "56 km N of Petersville, Alaska",
         "time": 1664604734468,
         "updated": 1664606795040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Central Alaska"
+        "title": "M 3.0 - 56 km N of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "241 km NNE of Saipan, Northern Mariana Islands",
+        "place": "Alamagan region, Northern Mariana Islands",
         "time": 1664598401534,
         "updated": 1664599782040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 142,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 241 km NNE of Saipan, Northern Mariana Islands"
+        "title": "M 4.7 - Alamagan region, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Mariana Islands region",
+        "place": "251 km NE of Saipan, Northern Mariana Islands",
         "time": 1664598350666,
         "updated": 1664599330040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 154,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Mariana Islands region"
+        "title": "M 4.7 - 251 km NE of Saipan, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1173,13 +1253,13 @@
       "type": "Feature",
       "properties": {
         "mag": 2.95,
-        "place": "21 km NW of Forks, Washington",
+        "place": "Olympic Peninsula, Washington",
         "time": 1664589753450,
-        "updated": 1664626799512,
+        "updated": 1664633224813,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61876107",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61876107.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 2.7,
         "mmi": 1.689,
         "alert": null,
@@ -1197,7 +1277,7 @@
         "gap": 181,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 21 km NW of Forks, Washington"
+        "title": "M 3.0 - Olympic Peninsula, Washington"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "73 km WNW of Ninilchik, Alaska",
+        "place": "Southern Alaska",
         "time": 1664580270045,
         "updated": 1664591158040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 106,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 73 km WNW of Ninilchik, Alaska"
+        "title": "M 3.4 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
