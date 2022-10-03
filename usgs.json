@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1664772970000,
+    "generated": 1664775956000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.15,
         "place": "5 km ESE of Pāhala, Hawaii",
         "time": 1664772482530,
-        "updated": 1664772823700,
+        "updated": 1664773140066,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73165087",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73165087.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73165087",
         "ids": ",hv73165087,",
         "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": null,
         "rms": 0.159999996,
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us6000iq5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "66 km E of Juneau, Alaska",
-        "time": 1664686757450,
-        "updated": 1664687696040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cmviutd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cmviutd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022cmviutd",
-        "ids": ",us6000iq51,ak022cmviutd,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.16,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 66 km E of Juneau, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -133.289,
-          58.3433,
-          0
-        ]
-      },
-      "id": "ak022cmviutd"
     }
   ],
   "bbox": [
