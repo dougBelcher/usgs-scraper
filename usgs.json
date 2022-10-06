@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665034694000,
+    "generated": 1665037908000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 25
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.53,
         "place": "4km SE of Loma Linda, CA",
         "time": 1665034194000,
-        "updated": 1665034439773,
+        "updated": 1665037393040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40356424",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40356424.geojson",
-        "felt": 2,
-        "cdi": 2.2,
+        "felt": 32,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 108,
         "net": "ci",
         "code": "40356424",
-        "ids": ",ci40356424,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40356424,us6000ird1,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 89,
         "dmin": 0.09378,
         "rms": 0.24,
@@ -52,42 +52,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "128 km WNW of Haines Junction, Canada",
-        "time": 1665033511419,
-        "updated": 1665034430951,
+        "mag": 4.5,
+        "place": "122 km W of Ternate, Indonesia",
+        "time": 1665033632729,
+        "updated": 1665035746040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cti0x3q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cti0x3q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ircy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ircy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
-        "net": "ak",
-        "code": "022cti0x3q",
-        "ids": ",ak022cti0x3q,",
-        "sources": ",ak,",
+        "sig": 312,
+        "net": "us",
+        "code": "6000ircy",
+        "ids": ",us6000ircy,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.88,
-        "gap": null,
-        "magType": "ml",
+        "nst": 32,
+        "dmin": 1.081,
+        "rms": 0.44,
+        "gap": 66,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 128 km WNW of Haines Junction, Canada"
+        "title": "M 4.5 - 122 km W of Ternate, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.6184,
-          61.2911,
-          10.9
+          126.2862,
+          0.8012,
+          51.468
         ]
       },
-      "id": "ak022cti0x3q"
+      "id": "us6000ircy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "Southern Yukon Territory, Canada",
+        "time": 1665033511732,
+        "updated": 1665034775040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ircv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ircv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.142,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "6000ircv",
+        "ids": ",ak022cti0x3q,us6000ircv,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 44,
+        "dmin": 0.083,
+        "rms": 0.97,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - Southern Yukon Territory, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.5922,
+          61.2843,
+          1.166
+        ]
+      },
+      "id": "us6000ircv"
     },
     {
       "type": "Feature",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "Puerto Rico region",
+        "place": "74 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1665014778680,
         "updated": 1665016151660,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 74 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -415,11 +455,11 @@
         "mag": 4.8,
         "place": "56 km NNE of Petersville, Alaska",
         "time": 1665008208888,
-        "updated": 1665032746036,
+        "updated": 1665036287559,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cs4ljsx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cs4ljsx.geojson",
-        "felt": 169,
+        "felt": 170,
         "cdi": 3.1,
         "mmi": 3.359,
         "alert": "green",
@@ -775,17 +815,17 @@
         "mag": 3.7,
         "place": "13 km N of Houston, Alaska",
         "time": 1664964101005,
-        "updated": 1665009627422,
+        "updated": 1665036173921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022crxd45r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022crxd45r.geojson",
-        "felt": 79,
+        "felt": 80,
         "cdi": 3.4,
         "mmi": 3.103,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 237,
+        "sig": 238,
         "net": "ak",
         "code": "022crxd45r",
         "ids": ",ak022crxd45r,us6000ir0r,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "8 km SSE of Huangala, Peru",
+        "place": "Peru-Ecuador border region",
         "time": 1664958381421,
         "updated": 1665022667736,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 64,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 8 km SSE of Huangala, Peru"
+        "title": "M 5.8 - Peru-Ecuador border region"
       },
       "geometry": {
         "type": "Point",
@@ -968,130 +1008,10 @@
         ]
       },
       "id": "us6000ir0b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "214 km WSW of Adak, Alaska",
-        "time": 1664951249954,
-        "updated": 1664988442251,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022crv4xm3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022crv4xm3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "022crv4xm3",
-        "ids": ",ak022crv4xm3,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.52,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 214 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.5914,
-          51.3182,
-          39.8
-        ]
-      },
-      "id": "ak022crv4xm3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "4 km NW of Camuy, Puerto Rico",
-        "time": 1664949179380,
-        "updated": 1664952504440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71374973",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71374973.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71374973",
-        "ids": ",pr71374973,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": null,
-        "rms": 0.19,
-        "gap": 197,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 4 km NW of Camuy, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8705,
-          18.5123333333333,
-          104.92
-        ]
-      },
-      "id": "pr71374973"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "14 km ESE of Naalehu, Hawaii",
-        "time": 1664948384510,
-        "updated": 1665011004930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73167457",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73167457.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "hv",
-        "code": "73167457",
-        "ids": ",hv73167457,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.450166666667,
-          19.0178333333333,
-          39.77
-        ]
-      },
-      "id": "hv73167457"
     }
   ],
   "bbox": [
-    -179.5914,
+    -155.41283333333,
     -58.7208,
     0.7583793998,
     145.6432,
