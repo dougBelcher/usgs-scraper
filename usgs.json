@@ -1,40 +1,120 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665336445000,
+    "generated": 1665340014000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.51,
+        "place": "2 km N of Farragut, Tennessee",
+        "time": 1665336669660,
+        "updated": 1665339828487,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60410946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60410946.geojson",
+        "felt": 73,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "se",
+        "code": "60410946",
+        "ids": ",se60410946,us6000isb6,",
+        "sources": ",se,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1552,
+        "rms": 0.21,
+        "gap": 38,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km N of Farragut, Tennessee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.155,
+          35.9038333,
+          8.07
+        ]
+      },
+      "id": "se60410946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "62 km S of Whites City, New Mexico",
+        "time": 1665336095692,
+        "updated": 1665337765040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isb3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isb3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000isb3",
+        "ids": ",us6000isb3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.129,
+        "rms": 0.47,
+        "gap": 91,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 62 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3633,
+          31.6137,
+          5
+        ]
+      },
+      "id": "us6000isb3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.2,
         "place": "central Mid-Atlantic Ridge",
-        "time": 1665333484784,
-        "updated": 1665335474695,
+        "time": 1665333484963,
+        "updated": 1665338515065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isau",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isau.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 591,
+        "sig": 592,
         "net": "us",
         "code": "6000isau",
         "ids": ",us6000isau,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 58,
-        "dmin": 11.486,
-        "rms": 0.98,
-        "gap": 67,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 56,
+        "dmin": 11.523,
+        "rms": 0.78,
+        "gap": 82,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 6.2 - central Mid-Atlantic Ridge"
@@ -42,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.8746,
-          -1.4013,
+          -23.9039,
+          -1.3796,
           10
         ]
       },
@@ -295,17 +375,17 @@
         "mag": 4.9,
         "place": "54 km W of Pelabuhanratu, Indonesia",
         "time": 1665309763925,
-        "updated": 1665335331683,
+        "updated": 1665338991861,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is90",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is90.geojson",
-        "felt": 14,
+        "felt": 16,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 374,
+        "sig": 375,
         "net": "us",
         "code": "6000is90",
         "ids": ",us6000is90,",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Pulau-Pulau Talaud, Indonesia",
+        "place": "249 km SE of Sarangani, Philippines",
         "time": 1665309350795,
         "updated": 1665310293040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Pulau-Pulau Talaud, Indonesia"
+        "title": "M 4.8 - 249 km SE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Mindoro, Philippines",
+        "place": "1 km SW of Putol, Philippines",
         "time": 1665305043176,
         "updated": 1665307149040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Mindoro, Philippines"
+        "title": "M 4.4 - 1 km SW of Putol, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -528,6 +608,46 @@
         ]
       },
       "id": "us6000is8h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "31km WNW of Crescent City, CA",
+        "time": 1665297888880,
+        "updated": 1665339850770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73791271",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73791271.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "nc",
+        "code": "73791271",
+        "ids": ",nc73791271,uw61877882,",
+        "sources": ",nc,uw,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.2853,
+        "rms": 0.12,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 31km WNW of Crescent City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.566,
+          41.8303333,
+          18.99
+        ]
+      },
+      "id": "nc73791271"
     },
     {
       "type": "Feature",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "place": "245 km ESE of Attu Station, Alaska",
         "time": 1665268967946,
         "updated": 1665274839040,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 201,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.7 - 245 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Fiji region",
+        "place": "197 km ENE of Levuka, Fiji",
         "time": 1665261945009,
         "updated": 1665265583040,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 43,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Fiji region"
+        "title": "M 4.5 - 197 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Alaska Peninsula",
+        "place": "73 km WSW of Karluk, Alaska",
         "time": 1665254344537,
         "updated": 1665266516040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Alaska Peninsula"
+        "title": "M 2.8 - 73 km WSW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.75,
-        "place": "Mona Passage",
+        "place": "73 km N of San Antonio, Puerto Rico",
         "time": 1665253883550,
         "updated": 1665257185103,
         "tz": null,
@@ -1317,7 +1437,7 @@
         "gap": 285,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Mona Passage"
+        "title": "M 3.8 - 73 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1448,6 @@
         ]
       },
       "id": "pr2022281002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1665253445400,
-        "updated": 1665266630040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73171577",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73171577.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "hv",
-        "code": "73171577",
-        "ids": ",us6000is4e,hv73171577,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 138,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.396331787109,
-          19.2393341064453,
-          31.5300006866455
-        ]
-      },
-      "id": "hv73171577"
     }
   ],
   "bbox": [
