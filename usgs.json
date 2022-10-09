@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665325254000,
+    "generated": 1665329065000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1665326631394,
+        "updated": 1665329058040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isa3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isa3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000isa3",
+        "ids": ",us6000isa3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.885,
+        "rms": 0.36,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.3326,
+          -19.0798,
+          583.029
+        ]
+      },
+      "id": "us6000isa3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1208,54 +1248,14 @@
         ]
       },
       "id": "ci40357840"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "Pacific-Antarctic Ridge",
-        "time": 1665240137939,
-        "updated": 1665249511916,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000is3u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000is3u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "6000is3u",
-        "ids": ",us6000is3u,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 65,
-        "dmin": 31.478,
-        "rms": 0.88,
-        "gap": 77,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - Pacific-Antarctic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -132.8995,
-          -54.25,
-          10
-        ]
-      },
-      "id": "us6000is3u"
     }
   ],
   "bbox": [
     -178.9004,
-    -54.25,
+    -22.0666,
     1.85,
     176.3755,
     62.6327,
-    536.487
+    583.029
   ]
 }
