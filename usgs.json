@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665436794000,
+    "generated": 1665440619000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 37
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.7,
         "place": "69 km E of Hualien City, Taiwan",
         "time": 1665429880384,
-        "updated": 1665435947811,
+        "updated": 1665439851260,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isjn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isjn.geojson",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Taiwan",
+        "place": "55 km S of Hualien City, Taiwan",
         "time": 1665404268468,
         "updated": 1665431349570,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 73,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.7 - Taiwan"
+        "title": "M 4.7 - 55 km S of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "49 km E of Estique, Peru",
+        "place": "Peru-Bolivia border region",
         "time": 1665400238001,
         "updated": 1665402485040,
         "tz": null,
@@ -557,7 +557,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 49 km E of Estique, Peru"
+        "title": "M 4.3 - Peru-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "56 km S of Whites City, New Mexico",
         "time": 1665399641571,
         "updated": 1665401924294,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "2 km W of Tallaboa, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665392142980,
         "updated": 1665393820580,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 146,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km W of Tallaboa, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -768,6 +768,46 @@
         ]
       },
       "id": "pr71375898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "22 km S of Llaillay, Chile",
+        "time": 1665388708589,
+        "updated": 1665437955614,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isfc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isfc.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "us",
+        "code": "6000isfc",
+        "ids": ",us6000isfc,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.23,
+        "rms": 0.38,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 22 km S of Llaillay, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9201,
+          -33.0406,
+          69.342
+        ]
+      },
+      "id": "us6000isfc"
     },
     {
       "type": "Feature",
@@ -853,31 +893,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "61 km ESE of Metlakatla, Alaska",
+        "place": "British Columbia, Canada",
         "time": 1665381433296,
-        "updated": 1665436743923,
+        "updated": 1665438886279,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d04emm9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d04emm9.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
+        "felt": 5,
+        "cdi": 3.8,
+        "mmi": 3.878,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 261,
         "net": "ak",
         "code": "022d04emm9",
         "ids": ",ak022d04emm9,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.89,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - 61 km ESE of Metlakatla, Alaska"
+        "title": "M 4.1 - British Columbia, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -1012,20 +1052,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.84,
+        "place": "27 km S of Hana, Hawaii",
+        "time": 1665373775970,
+        "updated": 1665439099590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73173102",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73173102.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "hv",
+        "code": "73173102",
+        "ids": ",hv73173102,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": null,
+        "rms": 0.13,
+        "gap": 180,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 27 km S of Hana, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.9625,
+          20.5148333333333,
+          28.32
+        ]
+      },
+      "id": "hv73173102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "30 km SW of Covenant Life, Alaska",
         "time": 1665373556307,
-        "updated": 1665387229133,
+        "updated": 1665436819578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d035a4u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d035a4u.geojson",
-        "felt": 7,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 140,
         "net": "ak",
         "code": "022d035a4u",
         "ids": ",ak022d035a4u,us6000ise6,",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "south of Alaska",
+        "place": "99 km SSE of Sand Point, Alaska",
         "time": 1665366651085,
         "updated": 1665420286853,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 165,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - south of Alaska"
+        "title": "M 4.6 - 99 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.07999992,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1665356013030,
         "updated": 1665356208620,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 122,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Hawaii region, Hawaii"
+        "title": "M 3.1 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1408,291 +1488,11 @@
         ]
       },
       "id": "us6000isd6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "6 km NNE of Güiria, Venezuela",
-        "time": 1665353886968,
-        "updated": 1665374266040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iscy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iscy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000iscy",
-        "ids": ",us6000iscy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.616,
-        "rms": 0.41,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 6 km NNE of Güiria, Venezuela"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.2692,
-          10.6238,
-          97.063
-        ]
-      },
-      "id": "us6000iscy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
-        "time": 1665353655700,
-        "updated": 1665355332660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71375808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71375808.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "pr",
-        "code": "71375808",
-        "ids": ",pr71375808,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": null,
-        "rms": 0.29,
-        "gap": 101,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 5 km SSW of Potala Pastillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5175,
-          17.9495,
-          12
-        ]
-      },
-      "id": "pr71375808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "Puerto Rico region",
-        "time": 1665353304810,
-        "updated": 1665356905510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71375798",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71375798.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71375798",
-        "ids": ",pr71375798,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8231666666667,
-          17.9661666666667,
-          10.2
-        ]
-      },
-      "id": "pr71375798"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1665352130155,
-        "updated": 1665424472075,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022tvbo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022tvbo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2022tvbo",
-        "ids": ",us6000iscq,tx2022tvbo,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.006299652255,
-        "rms": 0.2,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2722782,
-          31.6719487,
-          2.031140137
-        ]
-      },
-      "id": "tx2022tvbo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.97,
-        "place": "14km SSW of Searles Valley, CA",
-        "time": 1665352101150,
-        "updated": 1665378738569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40358328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40358328.geojson",
-        "felt": 4,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "ci",
-        "code": "40358328",
-        "ids": ",ci40358328,us6000iscn,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.07402,
-        "rms": 0.18,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 14km SSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4856644,
-          35.658165,
-          4.21
-        ]
-      },
-      "id": "ci40358328"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "101 km SE of Chignik, Alaska",
-        "time": 1665351641412,
-        "updated": 1665366207040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cyqan4i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cyqan4i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "022cyqan4i",
-        "ids": ",us6000iscm,ak022cyqan4i,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 101 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.371,
-          55.5911,
-          2.6
-        ]
-      },
-      "id": "ak022cyqan4i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "105 km SE of Chignik, Alaska",
-        "time": 1665350435791,
-        "updated": 1665361369040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022cyq6c4q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022cyq6c4q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "022cyq6c4q",
-        "ids": ",us6000iscj,ak022cyq6c4q,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.69,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 105 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.363,
-          55.5462,
-          2.9
-        ]
-      },
-      "id": "ak022cyq6c4q"
     }
   ],
   "bbox": [
     -176.509,
-    -29.7873,
+    -33.0406,
     1.4,
     178.0791,
     60.4408,
