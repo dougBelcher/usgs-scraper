@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665387567000,
+    "generated": 1665390834000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Gulf of Mexico",
+        "time": 1665388185878,
+        "updated": 1665390511040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000isf9",
+        "ids": ",us6000isf9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 6.068,
+        "rms": 0.83,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Gulf of Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8459,
+          22.1625,
+          10
+        ]
+      },
+      "id": "us6000isf9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,86 +1488,6 @@
         ]
       },
       "id": "us6000is8t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "55 km NW of Toyah, Texas",
-        "time": 1665303791583,
-        "updated": 1665374058826,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022tuaz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022tuaz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2022tuaz",
-        "ids": ",tx2022tuaz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.114848525,
-        "rms": 0.2,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 55 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2401641,
-          31.64190362,
-          7.596923828000001
-        ]
-      },
-      "id": "tx2022tuaz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "56 km NNE of Luquillo, Puerto Rico",
-        "time": 1665301544210,
-        "updated": 1665303583030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71375703",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71375703.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71375703",
-        "ids": ",pr71375703,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": null,
-        "rms": 0.34,
-        "gap": 229,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 56 km NNE of Luquillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.5368333333333,
-          18.8546666666667,
-          31.49
-        ]
-      },
-      "id": "pr71375703"
     }
   ],
   "bbox": [
