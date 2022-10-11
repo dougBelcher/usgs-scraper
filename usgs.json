@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665519940000,
+    "generated": 1665523318000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Fiji region",
+        "time": 1665521642002,
+        "updated": 1665522973040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isu5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isu5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000isu5",
+        "ids": ",us6000isu5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 4.593,
+        "rms": 0.57,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0847,
+          -20.5464,
+          499.864
+        ]
+      },
+      "id": "us6000isu5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Izu Islands, Japan region",
+        "time": 1665520134897,
+        "updated": 1665522685040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000istt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000istt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000istt",
+        "ids": ",us6000istt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 2.379,
+        "rms": 0.62,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4552,
+          32.2765,
+          15.476
+        ]
+      },
+      "id": "us6000istt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.68,
         "place": "5km NNW of Walker, CA",
         "time": 1665517987970,
-        "updated": 1665519881654,
+        "updated": 1665523272096,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73792316",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73792316.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 111,
         "net": "nc",
         "code": "73792316",
         "ids": ",nc73792316,nn00849024,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 8,
         "dmin": 0.06723,
         "rms": 0.1,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us6000ist3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "52 km SE of Motomachi, Japan",
+        "time": 1665514656256,
+        "updated": 1665523150040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000issy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000issy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000issy",
+        "ids": ",us6000issy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 1.535,
+        "rms": 0.63,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 52 km SE of Motomachi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5013,
+          43.4516,
+          134.703
+        ]
+      },
+      "id": "us6000issy"
     },
     {
       "type": "Feature",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "73 km N of Arecibo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665495538840,
         "updated": 1665498363150,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 73 km N of Arecibo, Puerto Rico"
+        "title": "M 3.3 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "53 km WNW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1665492671953,
         "updated": 1665493869040,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 53 km WNW of Kirakira, Solomon Islands"
+        "title": "M 5.2 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "84 km E of Namie, Japan",
         "time": 1665487678754,
         "updated": 1665491854040,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the east coast of Honshu, Japan"
+        "title": "M 4.6 - 84 km E of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.17,
-        "place": "74 km N of Arecibo, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665483130960,
         "updated": 1665484477540,
         "tz": null,
@@ -757,7 +877,7 @@
         "gap": 320,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 74 km N of Arecibo, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1092,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.75,
+        "place": "6km SE of Viola, CA",
+        "time": 1665470862690,
+        "updated": 1665522374001,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73792071",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73792071.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "nc",
+        "code": "73792071",
+        "ids": ",nc73792071,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.01637,
+        "rms": 0.32,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 6km SE of Viola, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.619,
+          40.4825,
+          16.83
+        ]
+      },
+      "id": "nc73792071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.7,
         "place": "92 km SW of Nikolski, Alaska",
         "time": 1665469267980,
@@ -1333,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "16 km ESE of Fritz Creek, Alaska",
         "time": 1665454553107,
         "updated": 1665504007777,
         "tz": null,
@@ -1357,7 +1517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Kenai Peninsula, Alaska"
+        "title": "M 3.7 - 16 km ESE of Fritz Creek, Alaska"
       },
       "geometry": {
         "type": "Point",
