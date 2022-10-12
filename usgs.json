@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665588521000,
+    "generated": 1665592901000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "29 km SW of Ovalle, Chile",
+        "time": 1665587398328,
+        "updated": 1665590613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000it1l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000it1l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000it1l",
+        "ids": ",us6000it1l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.207,
+        "rms": 0.43,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 29 km SW of Ovalle, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4288,
+          -30.7799,
+          59.227
+        ]
+      },
+      "id": "us6000it1l"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 3.67,
         "place": "14km NNW of Grapevine, CA",
         "time": 1665579247080,
-        "updated": 1665586911540,
+        "updated": 1665592761196,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40359712",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40359712.geojson",
-        "felt": 12,
+        "felt": 14,
         "cdi": 2.7,
         "mmi": 3.468,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 210,
+        "sig": 211,
         "net": "ci",
         "code": "40359712",
         "ids": ",ci40359712,us6000it0r,",
@@ -292,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "105 km SE of Chignik, Alaska",
-        "time": 1665569988859,
-        "updated": 1665570519040,
+        "mag": 3.4,
+        "place": "130 km SE of Chignik, Alaska",
+        "time": 1665569988688,
+        "updated": 1665592163467,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d3i8f5x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d3i8f5x.geojson",
@@ -303,9 +343,9 @@
         "cdi": null,
         "mmi": 1,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 178,
         "net": "ak",
         "code": "022d3i8f5x",
         "ids": ",us6000it07,ak022d3i8f5x,",
@@ -313,18 +353,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.72,
+        "rms": 0.91,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 105 km SE of Chignik, Alaska"
+        "title": "M 3.4 - 130 km SE of Chignik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.4301,
-          55.5257,
-          6.5
+          -157.0584,
+          55.4026,
+          10
         ]
       },
       "id": "ak022d3i8f5x"
@@ -1688,46 +1728,6 @@
         ]
       },
       "id": "tx2022tyiu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "14 km N of Osmaniye, Turkey",
-        "time": 1665503326081,
-        "updated": 1665565017151,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000isrr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000isrr.geojson",
-        "felt": 2,
-        "cdi": 5.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 386,
-        "net": "us",
-        "code": "6000isrr",
-        "ids": ",us6000isrr,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 82,
-        "dmin": 1.677,
-        "rms": 0.67,
-        "gap": 53,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 14 km N of Osmaniye, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.2678,
-          37.2052,
-          10
-        ]
-      },
-      "id": "us6000isrr"
     }
   ],
   "bbox": [
