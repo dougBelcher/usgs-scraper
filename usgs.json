@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665733066000,
+    "generated": 1665736246000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "Puerto Rico region",
+        "time": 1665735099360,
+        "updated": 1665736189290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71376953",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71376953.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71376953",
+        "ids": ",pr71376953,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.862,
+          17.9186666666667,
+          14.91
+        ]
+      },
+      "id": "pr71376953"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "65 km E of Juneau, Alaska",
         "time": 1665732428251,
-        "updated": 1665732604563,
+        "updated": 1665733229040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d6rkfxl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d6rkfxl.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "022d6rkfxl",
-        "ids": ",ak022d6rkfxl,",
-        "sources": ",ak,",
+        "ids": ",us6000itkw,ak022d6rkfxl,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1175,17 +1215,17 @@
         "mag": 5.1,
         "place": "76 km NE of Takaka, New Zealand",
         "time": 1665669834458,
-        "updated": 1665723564933,
+        "updated": 1665734782394,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itam",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itam.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 5.8,
         "mmi": 3.631,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 409,
+        "sig": 410,
         "net": "us",
         "code": "6000itam",
         "ids": ",us6000itam,",
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "ci40360296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "Dominican Republic region",
-        "time": 1665648523620,
-        "updated": 1665657548697,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022286002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022286002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "pr",
-        "code": "2022286002",
-        "ids": ",pr2022286002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.8968,
-        "rms": 0.54,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - Dominican Republic region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.354,
-          17.6175,
-          54
-        ]
-      },
-      "id": "pr2022286002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "32 km NW of Rincón, Puerto Rico",
-        "time": 1665646844680,
-        "updated": 1665648247770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71376623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71376623.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "pr",
-        "code": "71376623",
-        "ids": ",pr71376623,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 32 km NW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4991666666667,
-          18.513,
-          9.08
-        ]
-      },
-      "id": "pr71376623"
     }
   ],
   "bbox": [
