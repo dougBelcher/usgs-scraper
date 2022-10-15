@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665818698000,
+    "generated": 1665822602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,8 +12,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "near the coast of Ecuador",
+        "time": 1665819592720,
+        "updated": 1665821841911,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itwi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itwi.geojson",
+        "felt": 5,
+        "cdi": 6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 343,
+        "net": "us",
+        "code": "6000itwi",
+        "ids": ",us6000itwi,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 97,
+        "dmin": 1.273,
+        "rms": 0.74,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - near the coast of Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9247,
+          -2.212,
+          67.742
+        ]
+      },
+      "id": "us6000itwi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "104 km NNE of Calama, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1665816777102,
         "updated": 1665818050040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 104 km NNE of Calama, Chile"
+        "title": "M 4.2 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -213,14 +253,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "13 km WNW of Cañaveral, Peru",
+        "place": "Peru-Ecuador border region",
         "time": 1665811392195,
-        "updated": 1665812467040,
+        "updated": 1665821970843,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itvu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itvu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,14 +270,14 @@
         "code": "6000itvu",
         "ids": ",us6000itvu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 42,
         "dmin": 0.789,
         "rms": 0.54,
         "gap": 173,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 13 km WNW of Cañaveral, Peru"
+        "title": "M 4.5 - Peru-Ecuador border region"
       },
       "geometry": {
         "type": "Point",
@@ -375,12 +415,12 @@
         "mag": 3.1,
         "place": "29 km SSE of Mina, Nevada",
         "time": 1665804465212,
-        "updated": 1665805486040,
+        "updated": 1665820000702,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00849318",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00849318.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -388,9 +428,9 @@
         "sig": 148,
         "net": "nn",
         "code": "00849318",
-        "ids": ",us6000itv2,nn00849318,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00849318,us6000itv2,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0.019,
         "rms": 0.1303,
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.08,
-        "place": "152 km NNW of The Valley, Anguilla",
+        "place": "north of Anguilla, Leeward Islands",
         "time": 1665797814300,
         "updated": 1665800792570,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 322,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 152 km NNW of The Valley, Anguilla"
+        "title": "M 4.1 - north of Anguilla, Leeward Islands"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "4 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665792928840,
         "updated": 1665793670070,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 200,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SW of Guánica, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "2 km SE of Chacalapa, Mexico",
+        "place": "Guerrero-Oaxaca border region, Mexico",
         "time": 1665790084780,
         "updated": 1665793980641,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 2 km SE of Chacalapa, Mexico"
+        "title": "M 4.9 - Guerrero-Oaxaca border region, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "16 km SSW of Volcano, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1665776879380,
         "updated": 1665777570491,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 172,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSW of Volcano, Hawaii"
+        "title": "M 2.8 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.50999999,
-        "place": "8 km S of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1665776540720,
         "updated": 1665777129854,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 8 km S of Pāhala, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1615,11 +1655,11 @@
         "mag": 5.02,
         "place": "7 km SSW of Pāhala, Hawaii",
         "time": 1665774449020,
-        "updated": 1665818612467,
+        "updated": 1665819458012,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72000488",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72000488.geojson",
-        "felt": 1011,
+        "felt": 1012,
         "cdi": 7,
         "mmi": 7.342,
         "alert": "green",
@@ -1693,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "4 km ESE of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1665770026322,
         "updated": 1665772516040,
         "tz": null,
@@ -1717,7 +1757,7 @@
         "gap": 56,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 4 km ESE of Pondaguitan, Philippines"
+        "title": "M 4.6 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2132,6 +2172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Nicobar Islands, India region",
+        "time": 1665753554340,
+        "updated": 1665819023040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itm8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itm8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000itm8",
+        "ids": ",us6000itm8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.747,
+        "rms": 0.55,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Nicobar Islands, India region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.9906,
+          9.1822,
+          10
+        ]
+      },
+      "id": "us6000itm8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "63 km E of Port Alsworth, Alaska",
         "time": 1665752562326,
@@ -2173,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "50 km S of Acajutla, El Salvador",
+        "place": "El Salvador",
         "time": 1665746372573,
         "updated": 1665748468040,
         "tz": null,
@@ -2197,7 +2277,7 @@
         "gap": 192,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 50 km S of Acajutla, El Salvador"
+        "title": "M 4.1 - El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -2373,7 +2453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "66 km N of Culebra, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1665736222930,
         "updated": 1665738137640,
         "tz": null,
@@ -2397,7 +2477,7 @@
         "gap": 250,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 66 km N of Culebra, Puerto Rico"
+        "title": "M 3.4 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2408,86 +2488,6 @@
         ]
       },
       "id": "pr71376968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1665735099360,
-        "updated": 1665736189290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71376953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71376953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "71376953",
-        "ids": ",pr71376953,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.862,
-          17.9186666666667,
-          14.91
-        ]
-      },
-      "id": "pr71376953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "65 km E of Juneau, Alaska",
-        "time": 1665732428251,
-        "updated": 1665733229040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d6rkfxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d6rkfxl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022d6rkfxl",
-        "ids": ",us6000itkw,ak022d6rkfxl,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.2,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 65 km E of Juneau, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -133.3044,
-          58.3442,
-          0
-        ]
-      },
-      "id": "ak022d6rkfxl"
     }
   ],
   "bbox": [
