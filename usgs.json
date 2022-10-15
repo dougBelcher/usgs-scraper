@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665847382000,
+    "generated": 1665851459000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "13 km ESE of Pāhala, Hawaii",
+        "time": 1665848533390,
+        "updated": 1665848864290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73180442",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73180442.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "hv",
+        "code": "73180442",
+        "ids": ",hv73180442,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 221,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.361663818359,
+          19.1636657714844,
+          30.3299999237061
+        ]
+      },
+      "id": "hv73180442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Mindanao, Philippines",
+        "time": 1665846865982,
+        "updated": 1665848989040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ityh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ityh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ityh",
+        "ids": ",us6000ityh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.164,
+        "rms": 0.78,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Mindanao, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8371,
+          8.8506,
+          35
+        ]
+      },
+      "id": "us6000ityh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,17 +895,17 @@
         "mag": 3.2,
         "place": "2 km ESE of Ravalli, Montana",
         "time": 1665798471783,
-        "updated": 1665837038761,
+        "updated": 1665850726015,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itul",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itul.geojson",
-        "felt": 39,
+        "felt": 42,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 170,
+        "sig": 171,
         "net": "us",
         "code": "6000itul",
         "ids": ",us6000itul,",
@@ -1935,11 +2015,11 @@
         "mag": 5.02,
         "place": "7 km SSW of Pāhala, Hawaii",
         "time": 1665774449020,
-        "updated": 1665839851275,
+        "updated": 1665849211802,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72000488",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72000488.geojson",
-        "felt": 1014,
+        "felt": 1015,
         "cdi": 7,
         "mmi": 7.342,
         "alert": "green",
@@ -2048,6 +2128,46 @@
         ]
       },
       "id": "us6000itpv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "16 km E of Lahat, Indonesia",
+        "time": 1665769241924,
+        "updated": 1665847922040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000itpt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000itpt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000itpt",
+        "ids": ",us6000itpt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.914,
+        "rms": 0.77,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 16 km E of Lahat, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6884,
+          -3.8084,
+          8.963
+        ]
+      },
+      "id": "us6000itpt"
     },
     {
       "type": "Feature",
@@ -2168,46 +2288,6 @@
         ]
       },
       "id": "tx2022udvq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "42 km E of Juneau, Alaska",
-        "time": 1665762554647,
-        "updated": 1665766860040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022d6wgn0o",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022d6wgn0o.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "022d6wgn0o",
-        "ids": ",us6000itp8,ak022d6wgn0o,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 42 km E of Juneau, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -133.6924,
-          58.2617,
-          5.5
-        ]
-      },
-      "id": "ak022d6wgn0o"
     }
   ],
   "bbox": [
