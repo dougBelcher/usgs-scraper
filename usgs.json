@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1665912242000,
+    "generated": 1665915840000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "80km E of Maneadero, B.C., MX",
+        "time": 1665914407120,
+        "updated": 1665914634095,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40361912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40361912.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "ci",
+        "code": "40361912",
+        "ids": ",ci40361912,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 5,
+        "dmin": 0.3754,
+        "rms": 0.08,
+        "gap": 289,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 80km E of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7223333,
+          31.6813333,
+          0.29
+        ]
+      },
+      "id": "ci40361912"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.93,
         "place": "6 km SW of Pāhala, Hawaii",
         "time": 1665911129600,
-        "updated": 1665911788172,
+        "updated": 1665913048040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73181557",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73181557.geojson",
@@ -28,8 +68,8 @@
         "sig": 133,
         "net": "hv",
         "code": "73181557",
-        "ids": ",hv73181557,",
-        "sources": ",hv,",
+        "ids": ",hv73181557,us6000iu3j,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 42,
         "dmin": null,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "hv73181557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "138 km NE of Shache, China",
+        "time": 1665910471106,
+        "updated": 1665913779040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu3h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu3h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000iu3h",
+        "ids": ",us6000iu3h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 86,
+        "dmin": 2.389,
+        "rms": 0.62,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 138 km NE of Shache, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2731,
+          39.3644,
+          10
+        ]
+      },
+      "id": "us6000iu3h"
     },
     {
       "type": "Feature",
@@ -215,17 +295,17 @@
         "mag": 3.4,
         "place": "2 km ESE of Hechingen, Germany",
         "time": 1665893599415,
-        "updated": 1665909886590,
+        "updated": 1665913430488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu2l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu2l.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 185,
+        "sig": 186,
         "net": "us",
         "code": "6000iu2l",
         "ids": ",us6000iu2l,",
@@ -1533,7 +1613,7 @@
   "bbox": [
     -178.3329,
     -59.4436,
-    1.69,
+    0.29,
     162.9698,
     64.9748,
     591.18
