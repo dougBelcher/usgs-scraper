@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666015324000,
+    "generated": 1666020487000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "58km W of Petrolia, CA",
+        "time": 1666020251710,
+        "updated": 1666020357677,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73794901",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73794901.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "nc",
+        "code": "73794901",
+        "ids": ",nc73794901,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.5092,
+        "rms": 0.25,
+        "gap": 309,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 58km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.9733353,
+          40.3221664,
+          2.68
+        ]
+      },
+      "id": "nc73794901"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.2,
         "place": "94 km SE of Palca, Peru",
         "time": 1666013902203,
-        "updated": 1666014660040,
+        "updated": 1666017117652,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iuad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iuad.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 417,
         "net": "us",
         "code": "6000iuad",
         "ids": ",us6000iuad,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 42,
         "dmin": 0.149,
         "rms": 0.78,
@@ -52,39 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "81 km SE of Hengchun, Taiwan",
-        "time": 1666012839335,
-        "updated": 1666014483737,
+        "mag": 5,
+        "place": "79 km SE of Hengchun, Taiwan",
+        "time": 1666012839000,
+        "updated": 1666018266447,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iuac",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iuac.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 4,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 385,
         "net": "us",
         "code": "6000iuac",
         "ids": ",us6000iuac,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 76,
-        "dmin": 1.403,
-        "rms": 0.51,
-        "gap": 79,
+        "nst": 78,
+        "dmin": 1.39,
+        "rms": 0.52,
+        "gap": 78,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 81 km SE of Hengchun, Taiwan"
+        "title": "M 5.0 - 79 km SE of Hengchun, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.2141,
-          21.4133,
-          11.185
+          121.2048,
+          21.4258,
+          9.224
         ]
       },
       "id": "us6000iuac"
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "72 km SE of Gorontalo, Indonesia",
-        "time": 1666012366178,
-        "updated": 1666013475040,
+        "place": "73 km SE of Gorontalo, Indonesia",
+        "time": 1666012366073,
+        "updated": 1666016282040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iuaa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iuaa.geojson",
@@ -111,20 +151,20 @@
         "ids": ",us6000iuaa,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.259,
+        "nst": 72,
+        "dmin": 1.264,
         "rms": 0.71,
         "gap": 46,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 72 km SE of Gorontalo, Indonesia"
+        "title": "M 5.0 - 73 km SE of Gorontalo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.4641,
-          0.0168,
-          140.849
+          123.4768,
+          0.0146,
+          141.368
         ]
       },
       "id": "us6000iuaa"
@@ -372,6 +412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "Southern Yukon Territory, Canada",
+        "time": 1665993047648,
+        "updated": 1666019911187,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dbqbhvr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dbqbhvr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "022dbqbhvr",
+        "ids": ",ak022dbqbhvr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Southern Yukon Territory, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.8641,
+          64.7267,
+          10
+        ]
+      },
+      "id": "ak022dbqbhvr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.48,
         "place": "5 km SSW of Indios, Puerto Rico",
         "time": 1665990297470,
@@ -415,17 +495,17 @@
         "mag": 4.1,
         "place": "55 km E of Pedro Bay, Alaska",
         "time": 1665987637673,
-        "updated": 1666005176157,
+        "updated": 1666019887694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dbpjlyw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dbpjlyw.geojson",
-        "felt": 87,
+        "felt": 89,
         "cdi": 2.7,
         "mmi": 3.098,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 282,
+        "sig": 283,
         "net": "ak",
         "code": "022dbpjlyw",
         "ids": ",ak022dbpjlyw,at00rjvwac,us6000iu8t,",
@@ -535,11 +615,11 @@
         "mag": 2.96,
         "place": "3km WNW of Aguanga, CA",
         "time": 1665984328900,
-        "updated": 1666012909458,
+        "updated": 1666019598153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40362256",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40362256.geojson",
-        "felt": 23,
+        "felt": 25,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1055,12 +1135,12 @@
         "mag": 2.6,
         "place": "28 km NNW of Challis, Idaho",
         "time": 1665968675164,
-        "updated": 1665970188040,
+        "updated": 1666016811841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu7d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu7d.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1070,7 +1150,7 @@
         "code": "6000iu7d",
         "ids": ",us6000iu7d,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 1.105,
         "rms": 0.91,
@@ -1608,134 +1688,14 @@
         ]
       },
       "id": "us6000iu55"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "southern Xinjiang, China",
-        "time": 1665932525828,
-        "updated": 1665935508040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu4w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu4w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000iu4w",
-        "ids": ",us6000iu4w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 4.197,
-        "rms": 0.34,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - southern Xinjiang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.1992,
-          40.1791,
-          10.475
-        ]
-      },
-      "id": "us6000iu4w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "14 km SSE of San Juan del Sur, Nicaragua",
-        "time": 1665931501515,
-        "updated": 1665934907040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu4t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu4t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000iu4t",
-        "ids": ",us6000iu4t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.55,
-        "rms": 0.34,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 14 km SSE of San Juan del Sur, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.8147,
-          11.1363,
-          84.651
-        ]
-      },
-      "id": "us6000iu4t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "214 km WSW of Adak, Alaska",
-        "time": 1665931159549,
-        "updated": 1665935339040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iu4u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iu4u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.478,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000iu4u",
-        "ids": ",ak022da6vs05,us6000iu4u,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 110,
-        "dmin": 0.759,
-        "rms": 0.53,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 214 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.2409,
-          50.8448,
-          10
-        ]
-      },
-      "id": "us6000iu4u"
     }
   ],
   "bbox": [
-    -179.2409,
+    -155.6421,
     -47.6784,
     0.46,
     165.4569,
-    63.8128,
+    64.7267,
     594.964
   ]
 }
