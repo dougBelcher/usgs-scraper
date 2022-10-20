@@ -1,71 +1,191 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666251086000,
+    "generated": 1666254641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 53
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1666248860007,
-        "updated": 1666250361040,
+        "mag": 4.24,
+        "place": "36km SW of Hayfork, CA",
+        "time": 1666252516820,
+        "updated": 1666254465327,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iv3a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iv3a.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73796766",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73796766.geojson",
+        "felt": 35,
+        "cdi": 5.3,
+        "mmi": 3.513,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 295,
+        "net": "nc",
+        "code": "73796766",
+        "ids": ",nc73796766,us6000iv42,ew1666252520,",
+        "sources": ",nc,us,ew,",
+        "types": ",dyfi,focal-mechanism,losspager,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 35,
+        "dmin": 0.03013,
+        "rms": 0.13,
+        "gap": 53,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.2 - 36km SW of Hayfork, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.518837,
+          40.3510017,
+          32.58
+        ]
+      },
+      "id": "nc73796766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "58 km NNE of Ouzinkie, Alaska",
+        "time": 1666251282991,
+        "updated": 1666251452675,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dgou3l7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dgou3l7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "022dgou3l7",
+        "ids": ",ak022dgou3l7,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 58 km NNE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.0265,
+          58.3793,
+          54.5
+        ]
+      },
+      "id": "ak022dgou3l7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Mindanao, Philippines",
+        "time": 1666250119112,
+        "updated": 1666251428040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iv3r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iv3r.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 312,
         "net": "us",
-        "code": "6000iv3a",
-        "ids": ",us6000iv3a,",
+        "code": "6000iv3r",
+        "ids": ",us6000iv3r,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.236,
-        "rms": 0.28,
-        "gap": 162,
-        "magType": "ml",
+        "nst": 38,
+        "dmin": 4.325,
+        "rms": 0.79,
+        "gap": 78,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.5 - 54 km NW of Toyah, Texas"
+        "title": "M 4.5 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2106,
-          31.6516,
-          5
+          126.4144,
+          5.0192,
+          69.384
         ]
       },
-      "id": "us6000iv3a"
+      "id": "us6000iv3r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "53 km NW of Toyah, Texas",
+        "time": 1666248860051,
+        "updated": 1666251566604,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022uoao",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022uoao.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2022uoao",
+        "ids": ",us6000iv3a,tx2022uoao,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.05585936425,
+        "rms": 0.2,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 53 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2100232,
+          31.64113972,
+          7.802587891
+        ]
+      },
+      "id": "tx2022uoao"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "52 km ESE of Port Blair, India",
+        "place": "Andaman Islands, India region",
         "time": 1666248416423,
-        "updated": 1666249906833,
+        "updated": 1666253420928,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iv38",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iv38.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 5,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 402,
         "net": "us",
         "code": "6000iv38",
         "ids": ",us6000iv38,",
@@ -77,7 +197,7 @@
         "gap": 35,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 52 km ESE of Port Blair, India"
+        "title": "M 5.1 - Andaman Islands, India region"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "21 km E of Honaunau-Napoopoo, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1666233672166,
         "updated": 1666241787040,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 21 km E of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.8 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "145 km N of Calama, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1666232767450,
         "updated": 1666238125040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 145 km N of Calama, Chile"
+        "title": "M 4.4 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "4 km SW of Las Marías, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1666232554570,
         "updated": 1666237287700,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 50,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km SW of Las Marías, Puerto Rico"
+        "title": "M 2.6 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -695,7 +815,7 @@
         "mag": 3.22,
         "place": "6km NW of The Geysers, CA",
         "time": 1666224154810,
-        "updated": 1666247368103,
+        "updated": 1666254493834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73796026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73796026.geojson",
@@ -735,7 +855,7 @@
         "mag": 3.27,
         "place": "6km NW of The Geysers, CA",
         "time": 1666223990050,
-        "updated": 1666245856925,
+        "updated": 1666253593741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73795956",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73795956.geojson",
@@ -775,7 +895,7 @@
         "mag": 3.33,
         "place": "6km NW of The Geysers, CA",
         "time": 1666223944760,
-        "updated": 1666247656132,
+        "updated": 1666253235861,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73795966",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73795966.geojson",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "62 km N of Naisano Dua, Indonesia",
+        "place": "Timor region, Indonesia",
         "time": 1666221328059,
         "updated": 1666222278040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 62 km N of Naisano Dua, Indonesia"
+        "title": "M 4.6 - Timor region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -895,11 +1015,11 @@
         "mag": 3.4,
         "place": "5 km NW of Houston, Alaska",
         "time": 1666219590594,
-        "updated": 1666247245434,
+        "updated": 1666252844003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dfaassf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dfaassf.geojson",
-        "felt": 178,
+        "felt": 179,
         "cdi": 4.1,
         "mmi": 3.18,
         "alert": null,
@@ -1295,7 +1415,7 @@
         "mag": 2.6,
         "place": "9km NNE of Petrolia, CA",
         "time": 1666213173190,
-        "updated": 1666234343566,
+        "updated": 1666253257488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73795876",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73795876.geojson",
@@ -1413,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "5 km NNW of Talisay, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1666205290072,
         "updated": 1666212730040,
         "tz": null,
@@ -1437,7 +1557,7 @@
         "gap": 113,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 5 km NNW of Talisay, Philippines"
+        "title": "M 4.5 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "37 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1666182959548,
         "updated": 1666204585420,
         "tz": null,
@@ -1797,7 +1917,7 @@
         "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 37 km NNW of Toyah, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -2008,46 +2128,6 @@
         ]
       },
       "id": "pr71378343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "4 km SSW of Magsaysay, Philippines",
-        "time": 1666166741257,
-        "updated": 1666201811344,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iust",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iust.geojson",
-        "felt": 12,
-        "cdi": 4.3,
-        "mmi": 4.821,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 454,
-        "net": "us",
-        "code": "6000iust",
-        "ids": ",us6000iust,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 87,
-        "dmin": 0.529,
-        "rms": 0.96,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 4 km SSW of Magsaysay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.1702,
-          6.7287,
-          38.244
-        ]
-      },
-      "id": "us6000iust"
     }
   ],
   "bbox": [
