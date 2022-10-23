@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666549653000,
+    "generated": 1666552801000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,32 +12,72 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.17,
+        "mag": 2.5,
+        "place": "5 km SW of Mayagüez, Puerto Rico",
+        "time": 1666551684413,
+        "updated": 1666552288040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ivyb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ivyb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000ivyb",
+        "ids": ",us6000ivyb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.059,
+        "rms": 0.55,
+        "gap": 212,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SW of Mayagüez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1743,
+          18.165,
+          30.368
+        ]
+      },
+      "id": "us6000ivyb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
         "place": "4km SE of Fortuna, CA",
         "time": 1666548983280,
-        "updated": 1666549522667,
+        "updated": 1666552670168,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73798306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73798306.geojson",
-        "felt": 10,
-        "cdi": 3.7,
-        "mmi": 3.695,
-        "alert": null,
+        "felt": 414,
+        "cdi": 3.9,
+        "mmi": 3.766,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 271,
+        "sig": 420,
         "net": "nc",
         "code": "73798306",
-        "ids": ",at00rk7xfa,nc73798306,ew1666548990,",
-        "sources": ",at,nc,ew,",
-        "types": ",dyfi,focal-mechanism,impact-link,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "ids": ",at00rk7xfa,nc73798306,us6000ivy7,ew1666548990,",
+        "sources": ",at,nc,us,ew,",
+        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 35,
         "dmin": 0.157,
         "rms": 0.12,
         "gap": 128,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.2 - 4km SE of Fortuna, CA"
+        "title": "M 4.1 - 4km SE of Fortuna, CA"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "22 km N of Chignik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1666541713646,
         "updated": 1666542364040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 22 km N of Chignik, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +255,17 @@
         "mag": 2.7,
         "place": "9km ENE of San Martin, CA",
         "time": 1666538051850,
-        "updated": 1666547732445,
+        "updated": 1666552258285,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73798266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73798266.geojson",
-        "felt": 8,
+        "felt": 10,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 115,
         "net": "nc",
         "code": "73798266",
         "ids": ",nc73798266,us6000ivxs,",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.66,
-        "place": "Dominican Republic",
+        "place": "13 km NNW of Otra Banda, Dominican Republic",
         "time": 1666501539610,
         "updated": 1666538456839,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 179,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.7 - Dominican Republic"
+        "title": "M 4.7 - 13 km NNW of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "10 km ESE of Dogonbadan, Iran",
+        "place": "southern Iran",
         "time": 1666490124673,
         "updated": 1666490994040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 10 km ESE of Dogonbadan, Iran"
+        "title": "M 4.5 - southern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "102 km N of Lae, Papua New Guinea",
         "time": 1666482783554,
         "updated": 1666520194414,
         "tz": null,
@@ -1117,7 +1157,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 5.1 - 102 km N of Lae, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1528,50 +1568,10 @@
         ]
       },
       "id": "us6000ivt3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "240 km WSW of Adak, Alaska",
-        "time": 1666465642122,
-        "updated": 1666480025040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ivtw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ivtw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000ivtw",
-        "ids": ",ak022dk6w6ic,us6000ivtw,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5,
-        "rms": 0.56,
-        "gap": 215,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 240 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.9395,
-          51.2255,
-          36.7
-        ]
-      },
-      "id": "us6000ivtw"
     }
   ],
   "bbox": [
-    -179.9395,
+    -173.6658,
     -56.2192,
     0.236836642,
     161.4215,
