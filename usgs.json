@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666720513000,
+    "generated": 1666723993000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 24
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.13,
+        "place": "15km E of Seven Trees, CA",
+        "time": 1666723640030,
+        "updated": 1666723991674,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799096.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "nc",
+        "code": "73799096",
+        "ids": ",nc73799096,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 65,
+        "dmin": 0.1014,
+        "rms": 0.06,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 15km E of Seven Trees, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6741638,
+          37.3050003,
+          6.12
+        ]
+      },
+      "id": "nc73799096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.08,
+        "place": "14km E of Seven Trees, CA",
+        "time": 1666723322660,
+        "updated": 1666723811656,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799091",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799091.geojson",
+        "felt": 534,
+        "cdi": 6.4,
+        "mmi": 5.193,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 739,
+        "net": "nc",
+        "code": "73799091",
+        "ids": ",nc73799091,ew1666723320,at00rkbny2,",
+        "sources": ",nc,ew,at,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 82,
+        "dmin": 0.04173,
+        "rms": 0.06,
+        "gap": 39,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 5.1 - 14km E of Seven Trees, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6774979,
+          37.3105011,
+          6.88
+        ]
+      },
+      "id": "nc73799091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "38 km SW of Sehwan, Pakistan",
-        "time": 1666716862520,
-        "updated": 1666718097040,
+        "time": 1666716862567,
+        "updated": 1666722089040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwfw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iwfw.geojson",
@@ -32,9 +112,9 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 29,
-        "dmin": 8.401,
-        "rms": 0.27,
-        "gap": 167,
+        "dmin": 8.396,
+        "rms": 0.3,
+        "gap": 166,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.4 - 38 km SW of Sehwan, Pakistan"
@@ -42,8 +122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.5575,
-          26.2112,
+          67.5544,
+          26.216,
           10
         ]
       },
@@ -53,15 +133,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.4,
-        "place": "Luzon, Philippines",
-        "time": 1666709941507,
-        "updated": 1666717940742,
+        "place": "12 km E of Dolores, Philippines",
+        "time": 1666709943234,
+        "updated": 1666723238466,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iwds.geojson",
-        "felt": 91,
+        "felt": 92,
         "cdi": 7.3,
-        "mmi": 7.099,
+        "mmi": 7.016,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -72,19 +152,19 @@
         "sources": ",at,pt,us,",
         "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 115,
-        "dmin": 5.142,
-        "rms": 0.48,
+        "dmin": 5.135,
+        "rms": 0.53,
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.4 - Luzon, Philippines"
+        "title": "M 6.4 - 12 km E of Dolores, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.8152,
-          17.6556,
-          15.177
+          120.823,
+          17.6621,
+          27.302
         ]
       },
       "id": "us6000iwds"
@@ -255,11 +335,11 @@
         "mag": 3,
         "place": "3 km NE of La Luz, New Mexico",
         "time": 1666695640335,
-        "updated": 1666708728243,
+        "updated": 1666720863003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwb8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000iwb8.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -335,11 +415,11 @@
         "mag": 2.59,
         "place": "9 km ESE of Independence, Virginia",
         "time": 1666689927730,
-        "updated": 1666720258237,
+        "updated": 1666723272189,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60413966",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60413966.geojson",
-        "felt": 109,
+        "felt": 111,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
