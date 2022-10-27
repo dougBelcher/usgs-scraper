@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666902136000,
+    "generated": 1666905472000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "11km ESE of Mammoth Lakes, CA",
+        "time": 1666902907210,
+        "updated": 1666903801907,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799881",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799881.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "nc",
+        "code": "73799881",
+        "ids": ",nc73799881,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.01007,
+        "rms": 0.02,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11km ESE of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8611679,
+          37.6090012,
+          2.5
+        ]
+      },
+      "id": "nc73799881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1666900969176,
+        "updated": 1666902773040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iksl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iksl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000iksl",
+        "ids": ",us7000iksl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.849,
+        "rms": 0.89,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.4348,
+          -25.4219,
+          174.263
+        ]
+      },
+      "id": "us7000iksl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +255,17 @@
         "mag": 3.41,
         "place": "7km WSW of Petrolia, CA",
         "time": 1666893262540,
-        "updated": 1666901706108,
+        "updated": 1666902701384,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73799821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73799821.geojson",
-        "felt": 29,
+        "felt": 30,
         "cdi": 4.3,
         "mmi": 2.785,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 191,
+        "sig": 192,
         "net": "nc",
         "code": "73799821",
         "ids": ",nc73799821,us7000ikrq,",
@@ -255,12 +335,12 @@
         "mag": 4.58,
         "place": "42 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1666890983960,
-        "updated": 1666896629460,
+        "updated": 1666903461548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022300001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022300001.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "felt": 3,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1371,11 +1451,11 @@
     }
   ],
   "bbox": [
-    -164.53416666667,
+    -177.4348,
     -59.5808,
     -0.93,
     178.3619,
     69.3645,
-    170.721
+    174.263
   ]
 }
