@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1666952536000,
+    "generated": 1666955877000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.96,
+        "place": "12km NNE of Hollister, CA",
+        "time": 1666953637010,
+        "updated": 1666955783339,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73800236",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73800236.geojson",
+        "felt": 9,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "nc",
+        "code": "73800236",
+        "ids": ",nc73800236,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.07423,
+        "rms": 0.12,
+        "gap": 54,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 12km NNE of Hollister, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3304977,
+          36.9423332,
+          7.91
+        ]
+      },
+      "id": "nc73800236"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "ci40366648"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "8 km NW of Central, Alaska",
-        "time": 1666868436592,
-        "updated": 1666877089040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dsbrymj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dsbrymj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022dsbrymj",
-        "ids": ",us7000ikn8,ak022dsbrymj,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km NW of Central, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.9142,
-          65.63,
-          13.5
-        ]
-      },
-      "id": "ak022dsbrymj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.29,
-        "place": "34 km N of San Juan, Puerto Rico",
-        "time": 1666866473900,
-        "updated": 1666869865012,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71380018",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71380018.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "pr",
-        "code": "71380018",
-        "ids": ",pr71380018,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4588,
-        "rms": 0.62,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 34 km N of San Juan, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1568333333333,
-          18.7713333333333,
-          44.93
-        ]
-      },
-      "id": "pr71380018"
     }
   ],
   "bbox": [
