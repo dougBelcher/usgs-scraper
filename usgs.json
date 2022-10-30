@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667164672000,
+    "generated": 1667168332000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "113 km WSW of Ternate, Indonesia",
+        "time": 1667166797540,
+        "updated": 1667167845040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ildg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ildg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000ildg",
+        "ids": ",us7000ildg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.999,
+        "rms": 0.72,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 113 km WSW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.412,
+          0.4748,
+          45.742
+        ]
+      },
+      "id": "us7000ildg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.75,
         "place": "143 km NW of Sandy Ground Village, Anguilla",
         "time": 1667162546810,
-        "updated": 1667164469490,
+        "updated": 1667165441040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022303001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022303001.geojson",
@@ -28,8 +68,8 @@
         "sig": 216,
         "net": "pr",
         "code": "2022303001",
-        "ids": ",pr2022303001,",
-        "sources": ",pr,",
+        "ids": ",us7000ildc,pr2022303001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 7,
         "dmin": 1.4457,
@@ -335,17 +375,17 @@
         "mag": 3.6,
         "place": "Southern Alaska",
         "time": 1667148499513,
-        "updated": 1667164361596,
+        "updated": 1667167475034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dxdnf6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dxdnf6d.geojson",
-        "felt": 308,
+        "felt": 312,
         "cdi": 3.5,
         "mmi": 3.597,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 307,
+        "sig": 309,
         "net": "ak",
         "code": "022dxdnf6d",
         "ids": ",ak022dxdnf6d,us7000ilcf,",
@@ -652,46 +692,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "16 km E of Smiley, Texas",
-        "time": 1667132446622,
-        "updated": 1667133958807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022vgsj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022vgsj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2022vgsj",
-        "ids": ",us7000ilbk,tx2022vgsj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.04901431548,
-        "rms": 0.1,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km E of Smiley, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.46449908,
-          29.23919678,
-          3.105753581
-        ]
-      },
-      "id": "tx2022vgsj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.6,
         "place": "170 km W of Gorontalo, Indonesia",
         "time": 1667128132867,
@@ -812,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "16 km ESE of Smiley, Texas",
-        "time": 1667118393199,
-        "updated": 1667124166114,
+        "mag": 3.5,
+        "place": "Southern Texas",
+        "time": 1667118393137,
+        "updated": 1667166308927,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022vgkq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022vgkq.geojson",
@@ -825,26 +825,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 200,
+        "sig": 189,
         "net": "tx",
         "code": "2022vgkq",
         "ids": ",us7000ilax,tx2022vgkq,",
         "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.05306148933,
-        "rms": 0.3,
-        "gap": 79,
+        "nst": 30,
+        "dmin": 0.05465250937,
+        "rms": 0.2,
+        "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 16 km ESE of Smiley, Texas"
+        "title": "M 3.5 - Southern Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.46863511,
+          -97.47070313,
           29.23736572,
-          3.301391602
+          3.986124674
         ]
       },
       "id": "tx2022vgkq"
@@ -1208,46 +1208,6 @@
         ]
       },
       "id": "us7000il86"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Kuril Islands",
-        "time": 1667079748830,
-        "updated": 1667088858040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il7y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il7y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000il7y",
-        "ids": ",us7000il7y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 6.52,
-        "rms": 0.79,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.2343,
-          46.572,
-          71.648
-        ]
-      },
-      "id": "us7000il7y"
     }
   ],
   "bbox": [
