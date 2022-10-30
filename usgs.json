@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667102841000,
+    "generated": 1667107560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "10km WSW of Petrolia, CA",
+        "time": 1667106036730,
+        "updated": 1667106515095,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73801086",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73801086.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "nc",
+        "code": "73801086",
+        "ids": ",nc73801086,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.09081,
+        "rms": 0.29,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 10km WSW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4000015,
+          40.3014984,
+          14.72
+        ]
+      },
+      "id": "nc73801086"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 5.2,
         "place": "104 km SSE of Kandrian, Papua New Guinea",
         "time": 1667070362374,
-        "updated": 1667078262040,
+        "updated": 1667103152251,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il7d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il7d.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -630,7 +670,7 @@
         "code": "7000il7d",
         "ids": ",us7000il7d,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 32,
         "dmin": 3.546,
         "rms": 0.78,
@@ -972,42 +1012,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "97 km S of Atka, Alaska",
-        "time": 1667045986864,
-        "updated": 1667066794384,
+        "mag": 3.9,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1667045985046,
+        "updated": 1667104627040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dvnk6t9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dvnk6t9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il73",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il73.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "022dvnk6t9",
-        "ids": ",ak022dvnk6t9,",
-        "sources": ",ak,",
+        "sig": 234,
+        "net": "us",
+        "code": "7000il73",
+        "ids": ",ak022dvnk6t9,us7000il73,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.45,
-        "gap": null,
-        "magType": "ml",
+        "nst": 58,
+        "dmin": 0.961,
+        "rms": 0.47,
+        "gap": 209,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.4 - 97 km S of Atka, Alaska"
+        "title": "M 3.9 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -174.3338,
-          51.3216,
-          19.2
+          -174.2142,
+          51.2421,
+          23.083
         ]
       },
-      "id": "ak022dvnk6t9"
+      "id": "us7000il73"
     },
     {
       "type": "Feature",
@@ -1211,7 +1251,7 @@
     }
   ],
   "bbox": [
-    -174.3338,
+    -174.33,
     -42.0027,
     0.46,
     172.6562,
