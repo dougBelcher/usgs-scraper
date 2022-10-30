@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667154352000,
+    "generated": 1667157355000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "5 km SSW of Volcano, Hawaii",
+        "time": 1667156383370,
+        "updated": 1667156713790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73201127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73201127.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "73201127",
+        "ids": ",hv73201127,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": null,
+        "rms": 0.189999998,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.263168334961,
+          19.3996658325195,
+          0.379999995231628
+        ]
+      },
+      "id": "hv73201127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "149 km SE of Hihifo, Tonga",
+        "time": 1667154285528,
+        "updated": 1667155456040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilcr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilcr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000ilcr",
+        "ids": ",us7000ilcr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 2.096,
+        "rms": 0.83,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 149 km SE of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.7911,
+          -16.8886,
+          10
+        ]
+      },
+      "id": "us7000ilcr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +135,17 @@
         "mag": 3.6,
         "place": "24 km SSE of Chickaloon, Alaska",
         "time": 1667148499513,
-        "updated": 1667154338262,
+        "updated": 1667157291562,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dxdnf6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dxdnf6d.geojson",
-        "felt": 291,
+        "felt": 301,
         "cdi": 3.5,
         "mmi": 3.597,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 301,
+        "sig": 305,
         "net": "ak",
         "code": "022dxdnf6d",
         "ids": ",ak022dxdnf6d,us7000ilcf,",
@@ -612,6 +692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.5,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1667115584288,
+        "updated": 1667155430546,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dx88nix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dx88nix.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "022dx88nix",
+        "ids": ",ak022dx88nix,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - Andreanof Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.3627,
+          51.3544,
+          14
+        ]
+      },
+      "id": "ak022dx88nix"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.97,
         "place": "10km WSW of Petrolia, CA",
         "time": 1667106036730,
@@ -775,12 +895,12 @@
         "mag": 4.7,
         "place": "near the coast of Chiapas, Mexico",
         "time": 1667084642561,
-        "updated": 1667085677040,
+        "updated": 1667154520540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il8g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il8g.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -790,7 +910,7 @@
         "code": "7000il8g",
         "ids": ",us7000il8g,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 1.389,
         "rms": 1,
@@ -1248,92 +1368,12 @@
         ]
       },
       "id": "us7000il7k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "104 km SSE of Kandrian, Papua New Guinea",
-        "time": 1667070362374,
-        "updated": 1667103152251,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il7d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il7d.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000il7d",
-        "ids": ",us7000il7d,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 32,
-        "dmin": 3.546,
-        "rms": 0.78,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 104 km SSE of Kandrian, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.0059,
-          -7.0321,
-          39.687
-        ]
-      },
-      "id": "us7000il7d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Solomon Islands",
-        "time": 1667069501540,
-        "updated": 1667070624040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000il7a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000il7a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000il7a",
-        "ids": ",us7000il7a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.812,
-        "rms": 0.47,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          162.3479,
-          -10.9727,
-          44.895
-        ]
-      },
-      "id": "us7000il7a"
     }
   ],
   "bbox": [
-    -174.3012,
+    -174.3627,
     -42.0027,
-    3.105753581,
+    0.37999999523163,
     172.6562,
     63.5697,
     206.082
