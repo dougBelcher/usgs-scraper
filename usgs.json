@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667258636000,
+    "generated": 1667269161000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Kermadec Islands region",
+        "time": 1667267100599,
+        "updated": 1667268875040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilme",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilme.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000ilme",
+        "ids": ",us7000ilme,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 2.099,
+        "rms": 0.7,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.778,
+          -31.2324,
+          70.326
+        ]
+      },
+      "id": "us7000ilme"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.6,
         "place": "18 km SE of Chickaloon, Alaska",
         "time": 1667256944578,
-        "updated": 1667257033544,
+        "updated": 1667260150040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022dz4sx63",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022dz4sx63.geojson",
@@ -68,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "022dz4sx63",
-        "ids": ",ak022dz4sx63,",
-        "sources": ",ak,",
+        "ids": ",us7000illr,ak022dz4sx63,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -94,8 +134,8 @@
       "properties": {
         "mag": 2.86,
         "place": "24km NNE of Trona, CA",
-        "time": 1667256825710,
-        "updated": 1667257479370,
+        "time": 1667256825650,
+        "updated": 1667261656592,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40127847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40127847.geojson",
@@ -103,18 +143,18 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 126,
         "net": "ci",
         "code": "40127847",
-        "ids": ",ci40127847,",
-        "sources": ",ci,",
+        "ids": ",ci40127847,us7000illq,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.08989,
-        "rms": 0.18,
-        "gap": 55,
+        "nst": 38,
+        "dmin": 0.08946,
+        "rms": 0.14,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.9 - 24km NNE of Trona, CA"
@@ -122,9 +162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3271667,
-          35.9736667,
-          2.36
+          -117.3248333,
+          35.974,
+          2.7
         ]
       },
       "id": "ci40127847"
@@ -135,7 +175,7 @@
         "mag": 5.5,
         "place": "11 km WSW of Tortora Marina, Italy",
         "time": 1667252570853,
-        "updated": 1667255676040,
+        "updated": 1667259994449,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilkv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilkv.geojson",
@@ -935,7 +975,7 @@
         "mag": 2.86,
         "place": "14km ESE of Alum Rock, CA",
         "time": 1667200859580,
-        "updated": 1667249931355,
+        "updated": 1667269043369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73801601",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73801601.geojson",
@@ -1015,17 +1055,17 @@
         "mag": 2.81,
         "place": "6km SE of Pleasanton, CA",
         "time": 1667196392440,
-        "updated": 1667256816531,
+        "updated": 1667269025784,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73801581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73801581.geojson",
-        "felt": 201,
+        "felt": 204,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 184,
+        "sig": 185,
         "net": "nc",
         "code": "73801581",
         "ids": ",nc73801581,",
@@ -1288,210 +1328,10 @@
         ]
       },
       "id": "us7000ileq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "21 km S of Guánica, Puerto Rico",
-        "time": 1667182049420,
-        "updated": 1667184756620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71380283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71380283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71380283",
-        "ids": ",pr71380283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1966,
-        "rms": 0.21,
-        "gap": 243,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9025,
-          17.7786666666667,
-          6.81
-        ]
-      },
-      "id": "pr71380283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "6 km E of Elgin, South Carolina",
-        "time": 1667180026900,
-        "updated": 1667257982268,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60414656",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60414656.geojson",
-        "felt": 1235,
-        "cdi": 6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 699,
-        "net": "se",
-        "code": "60414656",
-        "ids": ",us7000ileh,se60414656,",
-        "sources": ",us,se,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.02446,
-        "rms": 0.3,
-        "gap": 63,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km E of Elgin, South Carolina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.7191667,
-          34.1625,
-          3.09
-        ]
-      },
-      "id": "se60414656"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "54 km NW of Sarupathar, India",
-        "time": 1667177157071,
-        "updated": 1667183454040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ilef",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ilef.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000ilef",
-        "ids": ",us7000ilef,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 5.835,
-        "rms": 0.57,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 54 km NW of Sarupathar, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.496,
-          26.6087,
-          10
-        ]
-      },
-      "id": "us7000ilef"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "44 km SW of Komodo, Indonesia",
-        "time": 1667175322180,
-        "updated": 1667183228040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ile7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ile7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000ile7",
-        "ids": ",us7000ile7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.399,
-        "rms": 0.65,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 44 km SW of Komodo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.1917,
-          -8.8605,
-          116.05
-        ]
-      },
-      "id": "us7000ile7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "119 km SSW of Paracas, Peru",
-        "time": 1667172284820,
-        "updated": 1667181125040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ile6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ile6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000ile6",
-        "ids": ",us7000ile6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.906,
-        "rms": 0.71,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 119 km SSW of Paracas, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.579,
-          -14.8996,
-          10
-        ]
-      },
-      "id": "us7000ile6"
     }
   ],
   "bbox": [
-    -160.0696,
+    -178.778,
     -58.9772,
     0.7633366585,
     148.5439,
