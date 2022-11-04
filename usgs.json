@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667596650000,
+    "generated": 1667600310000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Melville Island region, Nunavut, Canada",
+        "time": 1667597480738,
+        "updated": 1667599329040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iml4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iml4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 369,
+        "net": "us",
+        "code": "7000iml4",
+        "ids": ",at00rkueg8,us7000iml4,",
+        "sources": ",at,us,",
+        "types": ",impact-link,origin,phase-data,",
+        "nst": 73,
+        "dmin": 7.963,
+        "rms": 0.71,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Melville Island region, Nunavut, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1808,
+          75.7605,
+          10
+        ]
+      },
+      "id": "us7000iml4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.61,
         "place": "7km NW of The Geysers, CA",
         "time": 1667593755420,
-        "updated": 1667595431207,
+        "updated": 1667598078488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73803366",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73803366.geojson",
@@ -52,39 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.43,
-        "place": "6km WNW of Cobb, CA",
+        "mag": 3.19,
+        "place": "6km W of Cobb, CA",
         "time": 1667593592930,
-        "updated": 1667595990226,
+        "updated": 1667599936714,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73803326",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73803326.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 186,
+        "sig": 163,
         "net": "nc",
         "code": "73803326",
-        "ids": ",nc73803326,",
-        "sources": ",nc,",
+        "ids": ",nc73803326,us7000imkp,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.006006,
+        "nst": 90,
+        "dmin": 0.006934,
         "rms": 0.05,
-        "gap": 44,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 6km WNW of Cobb, CA"
+        "title": "M 3.2 - 6km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.7953339,
-          38.8338318,
-          2.22
+          -122.7961667,
+          38.8331667,
+          2.47
         ]
       },
       "id": "nc73803326"
@@ -93,13 +133,13 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Southern Alaska",
+        "place": "35 km NW of Willow, Alaska",
         "time": 1667593129776,
-        "updated": 1667596340876,
+        "updated": 1667598959645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022e5pjixd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022e5pjixd.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -108,8 +148,8 @@
         "sig": 149,
         "net": "ak",
         "code": "022e5pjixd",
-        "ids": ",ak022e5pjixd,",
-        "sources": ",ak,",
+        "ids": ",ak022e5pjixd,us7000imkm,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -117,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Southern Alaska"
+        "title": "M 3.1 - 35 km NW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -495,11 +535,11 @@
         "mag": 6.1,
         "place": "80 km SSW of Bahía de Kino, Mexico",
         "time": 1667556166659,
-        "updated": 1667592780584,
+        "updated": 1667599258594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imgl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imgl.geojson",
-        "felt": 47,
+        "felt": 48,
         "cdi": 4.1,
         "mmi": 5.071,
         "alert": "green",
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "us7000imbm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "80 km WSW of Ternate, Indonesia",
-        "time": 1667510988996,
-        "updated": 1667511691040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imb1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imb1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000imb1",
-        "ids": ",us7000imb1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.701,
-        "rms": 0.99,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 80 km WSW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7061,
-          0.5353,
-          66.373
-        ]
-      },
-      "id": "us7000imb1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "1 km WNW of Falls City, Texas",
-        "time": 1667510757820,
-        "updated": 1667588825104,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022vosj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022vosj.geojson",
-        "felt": 4,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "tx",
-        "code": "2022vosj",
-        "ids": ",us7000imaz,tx2022vosj,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.06341651031,
-        "rms": 0.3,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 1 km WNW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.03527114,
-          28.98834229,
-          2.469930013
-        ]
-      },
-      "id": "tx2022vosj"
     }
   ],
   "bbox": [
