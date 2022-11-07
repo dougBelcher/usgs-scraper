@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667845450000,
+    "generated": 1667848501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "3 km WSW of Point MacKenzie, Alaska",
+        "time": 1667846002548,
+        "updated": 1667847630836,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ean1utl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ean1utl.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022ean1utl",
+        "ids": ",ak022ean1utl,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km WSW of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0483,
+          61.3518,
+          33.7
+        ]
+      },
+      "id": "ak022ean1utl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1667844841528,
+        "updated": 1667845766040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in4t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in4t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000in4t",
+        "ids": ",us7000in4t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 3.908,
+        "rms": 0.57,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.9146,
+          -25.7642,
+          510.049
+        ]
+      },
+      "id": "us7000in4t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +255,7 @@
         "mag": 2.63,
         "place": "12km SSE of San Clemente Is. (SE tip), CA",
         "time": 1667826832350,
-        "updated": 1667844145542,
+        "updated": 1667845808040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129991.geojson",
@@ -188,8 +268,8 @@
         "sig": 106,
         "net": "ci",
         "code": "40129991",
-        "ids": ",ci40129991,",
-        "sources": ",ci,",
+        "ids": ",ci40129991,us7000in2d,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 32,
         "dmin": 0.3399,
@@ -855,13 +935,13 @@
         "mag": 3.7,
         "place": "68 km ESE of Adak, Alaska",
         "time": 1667791593654,
-        "updated": 1667845229277,
+        "updated": 1667845397274,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eae2vnv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eae2vnv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.679,
+        "mmi": 1.481,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1448,94 +1528,14 @@
         ]
       },
       "id": "ak022e91akfm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1667761386278,
-        "updated": 1667762533040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imxx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imxx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000imxx",
-        "ids": ",us7000imxx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 8.772,
-        "rms": 0.59,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.2553,
-          -60.6288,
-          40.772
-        ]
-      },
-      "id": "us7000imxx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "95 km ENE of Tobelo, Indonesia",
-        "time": 1667760053165,
-        "updated": 1667761189040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000imxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000imxv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000imxv",
-        "ids": ",us7000imxv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 1.867,
-        "rms": 0.77,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 95 km ENE of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.8461,
-          1.9195,
-          10
-        ]
-      },
-      "id": "us7000imxv"
     }
   ],
   "bbox": [
-    -175.7695,
-    -60.6288,
+    -179.9146,
+    -25.7642,
     0,
     174.5268,
     63.1977,
-    191.569
+    510.049
   ]
 }
