@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667842014000,
+    "generated": 1667845450000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
@@ -168,6 +168,46 @@
         ]
       },
       "id": "hv73211752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "12km SSE of San Clemente Is. (SE tip), CA",
+        "time": 1667826832350,
+        "updated": 1667844145542,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "ci",
+        "code": "40129991",
+        "ids": ",ci40129991,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.3399,
+        "rms": 0.26,
+        "gap": 223,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 12km SSE of San Clemente Is. (SE tip), CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2761667,
+          32.727,
+          5.85
+        ]
+      },
+      "id": "ci40129991"
     },
     {
       "type": "Feature",
@@ -455,11 +495,11 @@
         "mag": 5.2,
         "place": "Babuyan Islands region, Philippines",
         "time": 1667799245921,
-        "updated": 1667833543003,
+        "updated": 1667842361594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in0d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in0d.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.51,
-        "place": "85km ESE of Maneadero, B.C., MX",
-        "time": 1667798036760,
-        "updated": 1667836985040,
+        "mag": 2.5,
+        "place": "86km E of Maneadero, B.C., MX",
+        "time": 1667798036560,
+        "updated": 1667842803890,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40129879",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40129879.geojson",
@@ -545,26 +585,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 96,
         "net": "ci",
         "code": "40129879",
         "ids": ",ci40129879,us7000in0c,",
         "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.1899,
-        "rms": 0.14,
-        "gap": 207,
+        "nst": 11,
+        "dmin": 0.1956,
+        "rms": 0.07,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 85km ESE of Maneadero, B.C., MX"
+        "title": "M 2.5 - 86km E of Maneadero, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.69,
-          31.564,
-          -0.2
+          -115.6716667,
+          31.5623333,
+          0.39
         ]
       },
       "id": "ci40129879"
@@ -812,6 +852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "68 km ESE of Adak, Alaska",
+        "time": 1667791593654,
+        "updated": 1667845229277,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eae2vnv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eae2vnv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.679,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "022eae2vnv",
+        "ids": ",ak022eae2vnv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 68 km ESE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.7695,
+          51.5709,
+          45
+        ]
+      },
+      "id": "ak022eae2vnv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.4,
         "place": "32 km ENE of Jurm, Afghanistan",
         "time": 1667791524586,
@@ -1015,17 +1095,17 @@
         "mag": 2.45,
         "place": "16km WNW of Lake Pillsbury, CA",
         "time": 1667786731510,
-        "updated": 1667809994072,
+        "updated": 1667844818165,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73804561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73804561.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 93,
+        "sig": 94,
         "net": "nc",
         "code": "73804561",
         "ids": ",nc73804561,",
@@ -1055,11 +1135,11 @@
         "mag": 3.76,
         "place": "16km WNW of Lake Pillsbury, CA",
         "time": 1667786487780,
-        "updated": 1667834502888,
+        "updated": 1667842052841,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73804556",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73804556.geojson",
-        "felt": 52,
+        "felt": 53,
         "cdi": 3.3,
         "mmi": 4.115,
         "alert": null,
@@ -1451,9 +1531,9 @@
     }
   ],
   "bbox": [
-    -158.9959,
+    -175.7695,
     -60.6288,
-    -0.2,
+    0,
     174.5268,
     63.1977,
     191.569
