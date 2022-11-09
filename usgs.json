@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1667971752000,
+    "generated": 1667975472000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "22 km NE of Marotta, Italy",
+        "time": 1667974047036,
+        "updated": 1667975410071,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000infp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000infp.geojson",
+        "felt": 2,
+        "cdi": 3.8,
+        "mmi": 5.006,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 483,
+        "net": "us",
+        "code": "7000infp",
+        "ids": ",us7000infp,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 132,
+        "dmin": 0.877,
+        "rms": 1.03,
+        "gap": 14,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 22 km NE of Marotta, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3098,
+          43.9297,
+          10
+        ]
+      },
+      "id": "us7000infp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,17 +455,17 @@
         "mag": 5.6,
         "place": "21 km E of Dipayal, Nepal",
         "time": 1667939243108,
-        "updated": 1667970212895,
+        "updated": 1667974901677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000incn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000incn.geojson",
-        "felt": 350,
+        "felt": 354,
         "cdi": 6.7,
         "mmi": 6.741,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 884,
+        "sig": 887,
         "net": "us",
         "code": "7000incn",
         "ids": ",us7000incn,",
@@ -652,10 +692,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.94,
-        "place": "16km WSW of Loyalton, CA",
-        "time": 1667925325990,
-        "updated": 1667961707114,
+        "mag": 2.76,
+        "place": "15km WSW of Loyalton, CA",
+        "time": 1667925325910,
+        "updated": 1667973851777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73802785",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73802785.geojson",
@@ -663,28 +703,28 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 135,
+        "sig": 119,
         "net": "nc",
         "code": "73802785",
         "ids": ",nc73802785,nn00850838,us7000inat,",
         "sources": ",nc,nn,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.266,
-        "rms": 0.13,
-        "gap": 42,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.1336,
+        "rms": 0.12,
+        "gap": 63,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 16km WSW of Loyalton, CA"
+        "title": "M 2.8 - 15km WSW of Loyalton, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.4024963,
-          39.6023331,
-          -1.95
+          -120.3948333,
+          39.6085,
+          -1.58
         ]
       },
       "id": "nc73802785"
@@ -1248,92 +1288,12 @@
         ]
       },
       "id": "us7000in8v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "136 km NW of Neiafu, Tonga",
-        "time": 1667888826096,
-        "updated": 1667891448040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in8k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in8k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000in8k",
-        "ids": ",us7000in8k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 1.216,
-        "rms": 0.42,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 136 km NW of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.0188,
-          -17.9083,
-          197.565
-        ]
-      },
-      "id": "us7000in8k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "65 km S of Mawlaik, Myanmar",
-        "time": 1667888822047,
-        "updated": 1667940792444,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000in8j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000in8j.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000in8j",
-        "ids": ",us7000in8j,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 68,
-        "dmin": 3.272,
-        "rms": 0.4,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 65 km S of Mawlaik, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.5045,
-          23.0574,
-          104.626
-        ]
-      },
-      "id": "us7000in8j"
     }
   ],
   "bbox": [
     -179.386,
     -38.1878,
-    -1.95,
+    -1.58,
     176.5789,
     59.4636,
     207.472
