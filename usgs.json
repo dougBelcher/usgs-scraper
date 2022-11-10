@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668104657000,
+    "generated": 1668107745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "3 km SSE of Pájaros, Puerto Rico",
+        "time": 1668103643872,
+        "updated": 1668105741040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000invi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000invi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "7000invi",
+        "ids": ",us7000invi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.121,
+        "rms": 0.38,
+        "gap": 155,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 3 km SSE of Pájaros, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2066,
+          18.3406,
+          61.798
+        ]
+      },
+      "id": "us7000invi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
         "place": "26 km NE of Senigallia, Italy",
         "time": 1668102851257,
-        "updated": 1668104542517,
+        "updated": 1668107704086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inve",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inve.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -812,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "29 km WNW of Valdez, Alaska",
-        "time": 1668044264305,
-        "updated": 1668097851903,
+        "mag": 3.4,
+        "place": "Southern Alaska",
+        "time": 1668044265085,
+        "updated": 1668107344970,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022efbkfka",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022efbkfka.geojson",
@@ -823,9 +863,9 @@
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 182,
         "net": "ak",
         "code": "022efbkfka",
         "ids": ",ak022efbkfka,us7000inpc,",
@@ -833,18 +873,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.6,
+        "rms": 0.59,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 29 km WNW of Valdez, Alaska"
+        "title": "M 3.4 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.825,
-          61.2603,
-          19.7
+          -146.839,
+          61.264,
+          14
         ]
       },
       "id": "ak022efbkfka"
@@ -1208,54 +1248,14 @@
         ]
       },
       "id": "pr71381598"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of the Fiji Islands",
-        "time": 1668019264019,
-        "updated": 1668030598040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inmi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inmi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000inmi",
-        "ids": ",us7000inmi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 4.543,
-        "rms": 0.92,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.5721,
-          -25.9393,
-          656.487
-        ]
-      },
-      "id": "us7000inmi"
     }
   ],
   "bbox": [
     -176.9048,
-    -25.9393,
+    -25.5513,
     0,
-    178.5721,
+    168.5877,
     66.3815,
-    656.487
+    135.229
   ]
 }
