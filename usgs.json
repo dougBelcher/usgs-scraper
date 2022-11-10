@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668057943000,
+    "generated": 1668061483000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,17 +15,17 @@
         "mag": 5.4,
         "place": "13 km S of Shi Yomi, India",
         "time": 1668056467520,
-        "updated": 1668057809709,
+        "updated": 1668059831788,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000inqd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000inqd.geojson",
-        "felt": 2,
-        "cdi": 3.6,
+        "felt": 11,
+        "cdi": 7.2,
         "mmi": 5.87,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 457,
         "net": "us",
         "code": "7000inqd",
         "ids": ",us7000inqd,",
@@ -95,11 +95,11 @@
         "mag": 3.58,
         "place": "21 km E of Honaunau-Napoopoo, Hawaii",
         "time": 1668054080560,
-        "updated": 1668055720488,
+        "updated": 1668061397787,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73214847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73214847.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.1,
         "mmi": 4.299,
         "alert": null,
@@ -132,14 +132,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.92,
+        "place": "18 km WNW of Rincón, Puerto Rico",
+        "time": 1668048397100,
+        "updated": 1668060378770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71381643",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71381643.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "pr",
+        "code": "71381643",
+        "ids": ",pr71381643,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.06044,
+        "rms": 0.39,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4155,
+          18.3845,
+          6.72
+        ]
+      },
+      "id": "pr71381643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.3,
         "place": "Southern Alaska",
         "time": 1668044264305,
-        "updated": 1668048545040,
+        "updated": 1668061241649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022efbkfka",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022efbkfka.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 2.5,
         "mmi": null,
         "alert": null,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "pr71381428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "22 km NE of Marotta, Italy",
-        "time": 1667974047036,
-        "updated": 1668047274990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000infp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000infp.geojson",
-        "felt": 179,
-        "cdi": 8.7,
-        "mmi": 5.577,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 638,
-        "net": "us",
-        "code": "7000infp",
-        "ids": ",us7000infp,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 132,
-        "dmin": 0.877,
-        "rms": 1.03,
-        "gap": 14,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 22 km NE of Marotta, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3098,
-          43.9297,
-          10
-        ]
-      },
-      "id": "us7000infp"
     }
   ],
   "bbox": [
