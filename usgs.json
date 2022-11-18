@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668788748000,
+    "generated": 1668791873000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "30 km WNW of Rincón, Puerto Rico",
+        "time": 1668786508010,
+        "updated": 1668790702690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71382973",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71382973.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71382973",
+        "ids": ",pr71382973,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.04981,
+        "rms": 0.33,
+        "gap": 306,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 30 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5241666666667,
+          18.4101666666667,
+          12.84
+        ]
+      },
+      "id": "pr71382973"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.7,
         "place": "37 km ESE of Port Heiden, Alaska",
         "time": 1668784868926,
-        "updated": 1668785009720,
+        "updated": 1668791144040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ess3rt8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ess3rt8.geojson",
@@ -68,8 +108,8 @@
         "sig": 112,
         "net": "ak",
         "code": "022ess3rt8",
-        "ids": ",ak022ess3rt8,",
-        "sources": ",ak,",
+        "ids": ",us7000iqre,ak022ess3rt8,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -492,42 +532,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "western Texas",
-        "time": 1668762296371,
-        "updated": 1668772450040,
+        "mag": 2.7,
+        "place": "38 km WSW of Mentone, Texas",
+        "time": 1668762296057,
+        "updated": 1668790062199,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iqmw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iqmw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wpem",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wpem.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000iqmw",
-        "ids": ",us7000iqmw,",
-        "sources": ",us,",
+        "sig": 112,
+        "net": "tx",
+        "code": "2022wpem",
+        "ids": ",us7000iqmw,tx2022wpem,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.011,
-        "rms": 0.38,
-        "gap": 52,
+        "nst": 36,
+        "dmin": 0.01943858787,
+        "rms": 0.2,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.7 - 38 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9221,
-          31.6377,
-          7.47
+          -104.0005158,
+          31.63248808,
+          6.093005371
         ]
       },
-      "id": "us7000iqmw"
+      "id": "tx2022wpem"
     },
     {
       "type": "Feature",
@@ -535,12 +575,12 @@
         "mag": 2.7,
         "place": "28 km WSW of Salcha, Alaska",
         "time": 1668761295804,
-        "updated": 1668761413259,
+        "updated": 1668789318545,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eso3jfo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eso3jfo.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -550,7 +590,7 @@
         "code": "022eso3jfo",
         "ids": ",ak022eso3jfo,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.46,
@@ -1135,11 +1175,11 @@
         "mag": 4.9,
         "place": "9 km W of Point MacKenzie, Alaska",
         "time": 1668729789624,
-        "updated": 1668788532409,
+        "updated": 1668790995730,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022esj2eua",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022esj2eua.geojson",
-        "felt": 1827,
+        "felt": 1828,
         "cdi": 4.5,
         "mmi": 3.846,
         "alert": "green",
@@ -1368,6 +1408,46 @@
         ]
       },
       "id": "ak022er7ri7p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "37 km WSW of Mentone, Texas",
+        "time": 1668711624883,
+        "updated": 1668790567217,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wocp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wocp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2022wocp",
+        "ids": ",tx2022wocp,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.02725711418,
+        "rms": 0.2,
+        "gap": 32,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 37 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9911103,
+          31.6348178,
+          6.427209473
+        ]
+      },
+      "id": "tx2022wocp"
     },
     {
       "type": "Feature",
