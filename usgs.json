@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668853100000,
+    "generated": 1668856442000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 59
+    "count": 61
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "39 km WSW of Mentone, Texas",
-        "time": 1668852232195,
-        "updated": 1668853040040,
+        "mag": 2.6,
+        "place": "20 km WSW of Salcha, Alaska",
+        "time": 1668853592347,
+        "updated": 1668853692467,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iqyv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iqyv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eucp2o2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eucp2o2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022eucp2o2",
+        "ids": ",ak022eucp2o2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.4,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 20 km WSW of Salcha, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.3131,
+          64.4716,
+          11.4
+        ]
+      },
+      "id": "ak022eucp2o2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "253 km ENE of Levuka, Fiji",
+        "time": 1668853111335,
+        "updated": 1668854859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iqz1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iqz1.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 298,
         "net": "us",
-        "code": "7000iqyv",
-        "ids": ",us7000iqyv,",
+        "code": "7000iqz1",
+        "ids": ",us7000iqz1,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.064,
-        "rms": 0.23,
-        "gap": 80,
+        "nst": 26,
+        "dmin": 3.401,
+        "rms": 0.26,
+        "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 39 km WSW of Mentone, Texas"
+        "title": "M 4.4 - 253 km ENE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.0076,
-          31.631,
-          5
+          -178.4,
+          -17.4002,
+          585.55
         ]
       },
-      "id": "us7000iqyv"
+      "id": "us7000iqz1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.014836064,
+        "place": "38 km WSW of Mentone, Texas",
+        "time": 1668852232362,
+        "updated": 1668854552319,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022wrbx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022wrbx.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 4.419,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 248,
+        "net": "tx",
+        "code": "2022wrbx",
+        "ids": ",us7000iqyv,tx2022wrbx,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 53,
+        "dmin": 0.01817197667,
+        "rms": 0.2,
+        "gap": 30,
+        "magType": "mlv",
+        "type": "earthquake",
+        "title": "M 4.0 - 38 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.0013175,
+          31.63133636,
+          7.532653809
+        ]
+      },
+      "id": "tx2022wrbx"
     },
     {
       "type": "Feature",
@@ -2376,6 +2456,6 @@
     0,
     170.2289,
     66.4127,
-    406.435
+    585.55
   ]
 }
