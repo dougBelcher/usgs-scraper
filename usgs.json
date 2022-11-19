@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1668892520000,
+    "generated": 1668896215000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 55
+    "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Southern Alaska",
+        "time": 1668894811787,
+        "updated": 1668895193040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022eujemld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022eujemld.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022eujemld",
+        "ids": ",us7000ir1y,ak022eujemld,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.37,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Southern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.9758,
+          59.0722,
+          123.9
+        ]
+      },
+      "id": "ak022eujemld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "10km WNW of Templeton, CA",
+        "time": 1668894562140,
+        "updated": 1668895931643,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73809431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73809431.geojson",
+        "felt": 13,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "nc",
+        "code": "73809431",
+        "ids": ",nc73809431,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.08086,
+        "rms": 0.06,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 10km WNW of Templeton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8099976,
+          35.5713348,
+          4.04
+        ]
+      },
+      "id": "nc73809431"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +215,12 @@
         "mag": 5,
         "place": "51 km SSW of Singaparna, Indonesia",
         "time": 1668882510551,
-        "updated": 1668884428470,
+        "updated": 1668893305521,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ir0i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ir0i.geojson",
-        "felt": 3,
-        "cdi": 3.3,
+        "felt": 4,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -2168,46 +2248,6 @@
         ]
       },
       "id": "us7000iqv8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "69 km ENE of Ugashik, Alaska",
-        "time": 1668806890622,
-        "updated": 1668808023100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022esvpvi5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022esvpvi5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.273,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "022esvpvi5",
-        "ids": ",us7000iqux,ak022esvpvi5,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.57,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 69 km ENE of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.2723,
-          57.6806,
-          4.9
-        ]
-      },
-      "id": "ak022esvpvi5"
     }
   ],
   "bbox": [
