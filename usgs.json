@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669019097000,
+    "generated": 1669022330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "109 km E of Chignik, Alaska",
+        "time": 1669021594920,
+        "updated": 1669021754260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022exn21xg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022exn21xg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022exn21xg",
+        "ids": ",ak022exn21xg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 109 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.646,
+          56.2411,
+          31.5
+        ]
+      },
+      "id": "ak022exn21xg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "18 km WSW of Ciranjang-hilir, Indonesia",
         "time": 1669011670003,
-        "updated": 1669019009813,
+        "updated": 1669021886004,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ir9t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ir9t.geojson",
-        "felt": 103,
+        "felt": 110,
         "cdi": 8.3,
         "mmi": 6.838,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 735,
+        "sig": 741,
         "net": "us",
         "code": "7000ir9t",
         "ids": ",us7000ir9t,",
@@ -495,17 +535,17 @@
         "mag": 5.5,
         "place": "Crete, Greece",
         "time": 1668986699335,
-        "updated": 1669017861925,
+        "updated": 1669021683863,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ir86",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ir86.geojson",
-        "felt": 34,
-        "cdi": 4.6,
+        "felt": 36,
+        "cdi": 4.9,
         "mmi": 4.003,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 481,
+        "sig": 483,
         "net": "us",
         "code": "7000ir86",
         "ids": ",us7000ir86,",
@@ -1288,90 +1328,10 @@
         ]
       },
       "id": "ak022evzp4dv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "23 km E of Kushiro, Japan",
-        "time": 1668935844841,
-        "updated": 1668943222203,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ir4k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ir4k.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "7000ir4k",
-        "ids": ",us7000ir4k,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 86,
-        "dmin": 1.456,
-        "rms": 0.66,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 23 km E of Kushiro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6605,
-          42.9561,
-          53.41
-        ]
-      },
-      "id": "us7000ir4k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": 1668934508006,
-        "updated": 1668935743040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ir4h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ir4h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000ir4h",
-        "ids": ",us7000ir4h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 5.302,
-        "rms": 0.73,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.9551,
-          -24.1592,
-          513.803
-        ]
-      },
-      "id": "us7000ir4h"
     }
   ],
   "bbox": [
-    -179.9551,
+    -179.6256,
     -42.9281,
     1.7,
     148.3627,
