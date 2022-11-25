@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669350070000,
+    "generated": 1669353318000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "Virgin Islands",
+        "time": 1669350394592,
+        "updated": 1669352287040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is91",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is91.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000is91",
+        "ids": ",us7000is91,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.881,
+        "rms": 0.68,
+        "gap": 290,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.676,
+          19.1968,
+          30.382
+        ]
+      },
+      "id": "us7000is91"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71383923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "68 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1669347379630,
+        "updated": 1669352410980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71383918",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71383918.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "pr",
+        "code": "71383918",
+        "ids": ",pr71383918,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6078,
+        "rms": 0.17,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 68 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8823333333333,
+          18.9593333333333,
+          7.85
+        ]
+      },
+      "id": "pr71383918"
     },
     {
       "type": "Feature",
@@ -135,22 +215,22 @@
         "mag": 2.5,
         "place": "4 km WSW of Danville, Kansas",
         "time": 1669346990909,
-        "updated": 1669347741040,
+        "updated": 1669352848916,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is8q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is8q.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "us",
         "code": "7000is8q",
         "ids": ",us7000is8q,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.183,
         "rms": 0.29,
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "97 km E of Taltal, Chile",
+        "place": "Antofagasta-Atacama border region, Chile",
         "time": 1669341347671,
         "updated": 1669343521040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 80,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.4 - 97 km E of Taltal, Chile"
+        "title": "M 4.4 - Antofagasta-Atacama border region, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Solomon Islands",
+        "place": "30 km WSW of Malango, Solomon Islands",
         "time": 1669329814244,
         "updated": 1669343068553,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 30,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Solomon Islands"
+        "title": "M 5.0 - 30 km WSW of Malango, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "48 km NW of Valdez, Alaska",
+        "place": "Southern Alaska",
         "time": 1669320711440,
         "updated": 1669332986906,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 48 km NW of Valdez, Alaska"
+        "title": "M 3.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -815,11 +895,11 @@
         "mag": 4.9,
         "place": "38 km WSW of Mentone, Texas",
         "time": 1669317568736,
-        "updated": 1669345470449,
+        "updated": 1669353180321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xaxs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xaxs.geojson",
-        "felt": 25,
+        "felt": 27,
         "cdi": 3.3,
         "mmi": 4.62,
         "alert": "green",
@@ -855,11 +935,11 @@
         "mag": 4.5,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1669317259623,
-        "updated": 1669341985862,
+        "updated": 1669352972114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xaxp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xaxp.geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 3.4,
         "mmi": 4.495,
         "alert": "green",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Luzon, Philippines",
+        "place": "19 km E of Pasuquin, Philippines",
         "time": 1669302305702,
         "updated": 1669331250790,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 29,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Luzon, Philippines"
+        "title": "M 5.1 - 19 km E of Pasuquin, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "57 km S of Whites City, New Mexico",
         "time": 1669274291198,
         "updated": 1669321329470,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 112,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "79 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1669271566590,
         "updated": 1669277230040,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 79 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.9 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.59,
-        "place": "Virgin Islands",
+        "place": "76 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1669271168310,
         "updated": 1669274217160,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 286,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - 76 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1888,46 +1968,6 @@
         ]
       },
       "id": "pr71383718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of the Fiji Islands",
-        "time": 1669265679949,
-        "updated": 1669267511040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irzw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irzw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000irzw",
-        "ids": ",us7000irzw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 3.877,
-        "rms": 0.7,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.359,
-          -25.5874,
-          504.43
-        ]
-      },
-      "id": "us7000irzw"
     }
   ],
   "bbox": [
