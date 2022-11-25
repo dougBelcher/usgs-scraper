@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669331897000,
+    "generated": 1669340128000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "21 km S of Caucasia, Colombia",
+        "time": 1669336532327,
+        "updated": 1669337630040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is7z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is7z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000is7z",
+        "ids": ",us7000is7z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.554,
+        "rms": 1.3,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 21 km S of Caucasia, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2152,
+          7.795,
+          58.779
+        ]
+      },
+      "id": "us7000is7z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "50 km SE of Glacier View, Alaska",
+        "time": 1669335951012,
+        "updated": 1669337003040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f43yncc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f43yncc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022f43yncc",
+        "ids": ",us7000is7y,ak022f43yncc,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 50 km SE of Glacier View, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.9762,
+          61.4945,
+          13.5
+        ]
+      },
+      "id": "ak022f43yncc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "52 km WNW of Nanwalek, Alaska",
+        "time": 1669335486074,
+        "updated": 1669336221040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f43x1qv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f43x1qv.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022f43x1qv",
+        "ids": ",ak022f43x1qv,us7000is7x,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.36,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 52 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.7271,
+          59.5903,
+          88.7
+        ]
+      },
+      "id": "ak022f43x1qv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
-        "place": "29 km WSW of Malango, Solomon Islands",
-        "time": 1669329814675,
-        "updated": 1669330915040,
+        "place": "Solomon Islands",
+        "time": 1669329814244,
+        "updated": 1669332909040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is7j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is7j.geojson",
@@ -30,20 +150,20 @@
         "code": "7000is7j",
         "ids": ",us7000is7j,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
-        "dmin": 0.575,
-        "rms": 0.83,
-        "gap": 31,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.582,
+        "rms": 0.65,
+        "gap": 30,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 29 km WSW of Malango, Solomon Islands"
+        "title": "M 5.0 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          159.46,
-          -9.7567,
+          159.4503,
+          -9.7536,
           10
         ]
       },
@@ -215,22 +335,22 @@
         "mag": 3,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1669323046383,
-        "updated": 1669324884894,
+        "updated": 1669336461136,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xbaw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xbaw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "tx",
         "code": "2022xbaw",
         "ids": ",tx2022xbaw,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.00920061333,
         "rms": 0.1,
@@ -295,11 +415,11 @@
         "mag": 3.7,
         "place": "48 km NW of Valdez, Alaska",
         "time": 1669320711440,
-        "updated": 1669324664047,
+        "updated": 1669332986906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f2s8yw9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f2s8yw9.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": 3.491,
         "alert": null,
@@ -335,11 +455,11 @@
         "mag": 4.9,
         "place": "38 km WSW of Mentone, Texas",
         "time": 1669317568736,
-        "updated": 1669325109477,
+        "updated": 1669340063378,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xaxs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xaxs.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 3.6,
         "mmi": 4.62,
         "alert": "green",
@@ -375,11 +495,11 @@
         "mag": 4.5,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1669317259623,
-        "updated": 1669324780965,
+        "updated": 1669339943401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xaxp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xaxp.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.4,
         "mmi": 4.495,
         "alert": "green",
@@ -1608,166 +1728,6 @@
         ]
       },
       "id": "us7000irz7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
-        "time": 1669250876220,
-        "updated": 1669253054230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91721341",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91721341.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "av",
-        "code": "91721341",
-        "ids": ",av91721341,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 96,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Andreanof Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9745,
-          51.8581666666667,
-          5.02
-        ]
-      },
-      "id": "av91721341"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "10 km ESE of Polémi, Cyprus",
-        "time": 1669250018212,
-        "updated": 1669274485529,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iryp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iryp.geojson",
-        "felt": 8,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 288,
-        "net": "us",
-        "code": "7000iryp",
-        "ids": ",us7000iryp,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.607,
-        "rms": 0.72,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 10 km ESE of Polémi, Cyprus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.608,
-          34.8383,
-          10
-        ]
-      },
-      "id": "us7000iryp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "194 km ENE of Olonkinbyen, Svalbard and Jan Mayen",
-        "time": 1669249917326,
-        "updated": 1669251020040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iryq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iryq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000iryq",
-        "ids": ",us7000iryq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 6.079,
-        "rms": 0.7,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 194 km ENE of Olonkinbyen, Svalbard and Jan Mayen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.5827,
-          71.4515,
-          10.964
-        ]
-      },
-      "id": "us7000iryq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "57 km S of Angoram, Papua New Guinea",
-        "time": 1669248191827,
-        "updated": 1669249183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000iryc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000iryc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000iryc",
-        "ids": ",us7000iryc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 5.702,
-        "rms": 0.74,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 57 km S of Angoram, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.0383,
-          -4.5861,
-          107.123
-        ]
-      },
-      "id": "us7000iryc"
     }
   ],
   "bbox": [
@@ -1775,7 +1735,7 @@
     -25.5874,
     0,
     159.7882,
-    71.4515,
+    62.248,
     582.102
   ]
 }
