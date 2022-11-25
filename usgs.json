@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669340128000,
+    "generated": 1669345337000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "66 km WSW of Akhiok, Alaska",
+        "time": 1669342976210,
+        "updated": 1669343090529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022f454vrp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022f454vrp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022f454vrp",
+        "ids": ",ak022f454vrp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.82,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 66 km WSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.1056,
+          56.645,
+          0
+        ]
+      },
+      "id": "ak022f454vrp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Jujuy, Argentina",
+        "time": 1669342953250,
+        "updated": 1669343962040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is8d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is8d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000is8d",
+        "ids": ",us7000is8d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.832,
+        "rms": 0.51,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Jujuy, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1979,
+          -22.8149,
+          256.289
+        ]
+      },
+      "id": "us7000is8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Antofagasta-Atacama border region, Chile",
+        "time": 1669341347671,
+        "updated": 1669343521040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is87",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is87.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000is87",
+        "ids": ",us7000is87,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.417,
+        "rms": 0.79,
+        "gap": 80,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - Antofagasta-Atacama border region, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5306,
+          -25.5781,
+          115.159
+        ]
+      },
+      "id": "us7000is87"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -133,14 +253,14 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Solomon Islands",
+        "place": "30 km WSW of Malango, Solomon Islands",
         "time": 1669329814244,
-        "updated": 1669332909040,
+        "updated": 1669343068553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000is7j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000is7j.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,14 +270,14 @@
         "code": "7000is7j",
         "ids": ",us7000is7j,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 88,
         "dmin": 0.582,
         "rms": 0.65,
         "gap": 30,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Solomon Islands"
+        "title": "M 5.0 - 30 km WSW of Malango, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "48 km NW of Valdez, Alaska",
+        "place": "Southern Alaska",
         "time": 1669320711440,
         "updated": 1669332986906,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 48 km NW of Valdez, Alaska"
+        "title": "M 3.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +615,17 @@
         "mag": 4.5,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1669317259623,
-        "updated": 1669339943401,
+        "updated": 1669341985862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xaxp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xaxp.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.4,
         "mmi": 4.495,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 317,
+        "sig": 318,
         "net": "tx",
         "code": "2022xaxp",
         "ids": ",us7000is61,tx2022xaxp,",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Luzon, Philippines",
+        "place": "19 km E of Pasuquin, Philippines",
         "time": 1669302305702,
         "updated": 1669331250790,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": 29,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Luzon, Philippines"
+        "title": "M 5.1 - 19 km E of Pasuquin, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "57 km S of Whites City, New Mexico",
         "time": 1669274291198,
         "updated": 1669321329470,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 112,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "79 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1669271566590,
         "updated": 1669277230040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - 79 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.9 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.59,
-        "place": "Virgin Islands",
+        "place": "76 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1669271168310,
         "updated": 1669274217160,
         "tz": null,
@@ -1357,7 +1477,7 @@
         "gap": 286,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - 76 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Puerto Rico region",
+        "place": "4 km S of Guánica, Puerto Rico",
         "time": 1669262748460,
         "updated": 1669299621735,
         "tz": null,
@@ -1597,7 +1717,7 @@
         "gap": 200,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km S of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1648,86 +1768,6 @@
         ]
       },
       "id": "pr71383693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "2 km NW of Las Marias, Puerto Rico",
-        "time": 1669258381020,
-        "updated": 1669262427327,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71383688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71383688.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71383688",
-        "ids": ",pr71383688,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.306,
-        "rms": 0.13,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km NW of Las Marias, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1686666666667,
-          18.3088333333333,
-          14.96
-        ]
-      },
-      "id": "pr71383688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "214 km WSW of Bengkulu, Indonesia",
-        "time": 1669255884986,
-        "updated": 1669262252040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irz7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000irz7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000irz7",
-        "ids": ",us7000irz7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 2.539,
-        "rms": 0.71,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 214 km WSW of Bengkulu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.4093,
-          -4.3276,
-          16.289
-        ]
-      },
-      "id": "us7000irz7"
     }
   ],
   "bbox": [
