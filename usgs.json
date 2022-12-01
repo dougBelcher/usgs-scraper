@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1669929215000,
+    "generated": 1669932937000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "6km E of Round Valley, CA",
+        "time": 1669929432060,
+        "updated": 1669931656432,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73813551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73813551.geojson",
+        "felt": 2,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "73813551",
+        "ids": ",nc73813551,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.06605,
+        "rms": 0.07,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6km E of Round Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.5321667,
+          37.4145,
+          6.06
+        ]
+      },
+      "id": "nc73813551"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "66 km SE of Pedro Bay, Alaska",
         "time": 1669928629271,
-        "updated": 1669928832323,
+        "updated": 1669932336085,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fedk4mb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fedk4mb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "022fedk4mb",
         "ids": ",ak022fedk4mb,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.77,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak022fedk4mb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "54 km W of Mentone, Texas",
+        "time": 1669922099576,
+        "updated": 1669930493454,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xnsd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xnsd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2022xnsd",
+        "ids": ",tx2022xnsd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.06037789876,
+        "rms": 0.3,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 54 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.1708528,
+          31.69946955,
+          6.131567383
+        ]
+      },
+      "id": "tx2022xnsd"
     },
     {
       "type": "Feature",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "98 km N of Isangel, Vanuatu",
+        "place": "Vanuatu",
         "time": 1669915710355,
         "updated": 1669919139040,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 192,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 98 km N of Isangel, Vanuatu"
+        "title": "M 4.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Vanuatu",
+        "place": "103 km N of Isangel, Vanuatu",
         "time": 1669915246191,
         "updated": 1669918743040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Vanuatu"
+        "title": "M 4.5 - 103 km N of Isangel, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +375,17 @@
         "mag": 3.82,
         "place": "12km NNW of Ocotillo, CA",
         "time": 1669908509660,
-        "updated": 1669928778030,
+        "updated": 1669932923983,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40383192",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40383192.geojson",
-        "felt": 254,
+        "felt": 256,
         "cdi": 4,
         "mmi": 4.19,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 327,
         "net": "ci",
         "code": "40383192",
         "ids": ",ci40383192,us6000j61g,ew1669908510,",
@@ -332,42 +412,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "35 km WSW of Mentone, Texas",
-        "time": 1669906789534,
-        "updated": 1669915616040,
+        "mag": 2.7,
+        "place": "36 km WSW of Mentone, Texas",
+        "time": 1669906789587,
+        "updated": 1669932327922,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j61f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j61f.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xnjs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xnjs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000j61f",
-        "ids": ",us6000j61f,",
-        "sources": ",us,",
+        "sig": 112,
+        "net": "tx",
+        "code": "2022xnjs",
+        "ids": ",us6000j61f,tx2022xnjs,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.03,
-        "rms": 0.47,
-        "gap": 74,
+        "nst": 16,
+        "dmin": 0.004820225393,
+        "rms": 0.1,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 35 km WSW of Mentone, Texas"
+        "title": "M 2.7 - 36 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9603,
-          31.6213,
-          7.972
+          -103.9658675,
+          31.61479245,
+          6.697143555000001
         ]
       },
-      "id": "us6000j61f"
+      "id": "tx2022xnjs"
     },
     {
       "type": "Feature",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "50 km W of San Pedro de Atacama, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1669903161992,
         "updated": 1669908896040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 50 km W of San Pedro de Atacama, Chile"
+        "title": "M 4.3 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "85 km SSW of Unalaska, Alaska",
         "time": 1669897044916,
         "updated": 1669922304533,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 3.1 - 85 km SSW of Unalaska, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "3 km SW of Luis Lopez, New Mexico",
+        "place": "New Mexico",
         "time": 1669880510896,
         "updated": 1669928189405,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km SW of Luis Lopez, New Mexico"
+        "title": "M 2.7 - New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "near the coast of Ecuador",
+        "place": "27 km NW of Muisne, Ecuador",
         "time": 1669877548299,
         "updated": 1669879254040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 160,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - near the coast of Ecuador"
+        "title": "M 4.2 - 27 km NW of Muisne, Ecuador"
       },
       "geometry": {
         "type": "Point",
@@ -1215,13 +1295,13 @@
         "mag": 4.1,
         "place": "93 km SW of Atka, Alaska",
         "time": 1669872067692,
-        "updated": 1669920843448,
+        "updated": 1669920683291,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j5xt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j5xt.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.371,
+        "mmi": 2.347,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1669868623670,
         "updated": 1669874499040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "off the east coast of Honshu, Japan",
+        "place": "186 km ENE of Miyako, Japan",
         "time": 1669865821406,
         "updated": 1669871649040,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - off the east coast of Honshu, Japan"
+        "title": "M 4.8 - 186 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
