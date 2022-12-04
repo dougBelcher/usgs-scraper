@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670145289000,
+    "generated": 1670148990000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.5,
+        "place": "35 km S of Lambaréné, Gabon",
+        "time": 1670147592843,
+        "updated": 1670148889513,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6u0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6u0.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 7.065,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "6000j6u0",
+        "ids": ",us6000j6u0,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 92,
+        "dmin": 4.768,
+        "rms": 0.57,
+        "gap": 21,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 35 km S of Lambaréné, Gabon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2209,
+          -1.021,
+          10
+        ]
+      },
+      "id": "us6000j6u0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.94,
         "place": "3 km S of Volcano, Hawaii",
         "time": 1670141282790,
-        "updated": 1670143466716,
+        "updated": 1670146269734,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73257597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73257597.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 143,
         "net": "hv",
         "code": "73257597",
-        "ids": ",hv73257597,",
-        "sources": ",hv,",
+        "ids": ",hv73257597,us6000j6tn,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": null,
@@ -55,7 +95,7 @@
         "mag": 3.5,
         "place": "57 km NW of Toyah, Texas",
         "time": 1670140703548,
-        "updated": 1670143515621,
+        "updated": 1670148155921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xsii",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xsii.geojson",
@@ -95,22 +135,22 @@
         "mag": 4.4,
         "place": "11 km S of Lipari, Italy",
         "time": 1670137965059,
-        "updated": 1670141254040,
+        "updated": 1670147167817,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6ti",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6ti.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 299,
         "net": "us",
         "code": "6000j6ti",
         "ids": ",us6000j6ti,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 61,
         "dmin": 1.754,
         "rms": 0.54,
@@ -135,7 +175,7 @@
         "mag": 2.7,
         "place": "108 km SE of McCarthy, Alaska",
         "time": 1670137377228,
-        "updated": 1670137482117,
+        "updated": 1670145340040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fj3tvzu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fj3tvzu.geojson",
@@ -148,8 +188,8 @@
         "sig": 112,
         "net": "ak",
         "code": "022fj3tvzu",
-        "ids": ",ak022fj3tvzu,",
-        "sources": ",ak,",
+        "ids": ",us6000j6tf,ak022fj3tvzu,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.26,
-        "place": "4 km WNW of Santo Domingo, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1670134218050,
         "updated": 1670137518850,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 61,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 4 km WNW of Santo Domingo, Puerto Rico"
+        "title": "M 3.3 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "4 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1670133309350,
         "updated": 1670136825680,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 200,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km WSW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.08,
-        "place": "12 km NW of Puerto Real, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1670131728350,
         "updated": 1670136182890,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 12 km NW of Puerto Real, Puerto Rico"
+        "title": "M 3.1 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.69,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "27 km E of Honaunau-Napoopoo, Hawaii",
         "time": 1670113009060,
         "updated": 1670142089566,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 67,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Island of Hawaii, Hawaii"
+        "title": "M 2.7 - 27 km E of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "37 km WNW of Añatuya, Argentina",
+        "place": "Santiago del Estero, Argentina",
         "time": 1670095446061,
         "updated": 1670112307040,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 37 km WNW of Añatuya, Argentina"
+        "title": "M 4.3 - Santiago del Estero, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Chile-Argentina border region",
+        "place": "50 km NNE of San Felipe, Chile",
         "time": 1670094856089,
         "updated": 1670111757040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Chile-Argentina border region"
+        "title": "M 4.1 - 50 km NNE of San Felipe, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "66 km SSW of Whites City, New Mexico",
         "time": 1670071292795,
         "updated": 1670086417538,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 66 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "16 km SSE of Riosucio, Colombia",
+        "place": "Panama-Colombia border region",
         "time": 1670067697743,
         "updated": 1670068647040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 16 km SSE of Riosucio, Colombia"
+        "title": "M 5.0 - Panama-Colombia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Near the coast of Valparaiso, Chile",
+        "place": "28 km NW of Valparaíso, Chile",
         "time": 1670063946550,
         "updated": 1670097467033,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 129,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Near the coast of Valparaiso, Chile"
+        "title": "M 4.3 - 28 km NW of Valparaíso, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000j6mi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "18 km ESE of Banjar, Indonesia",
-        "time": 1670060979978,
-        "updated": 1670124910461,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6k5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6k5.geojson",
-        "felt": 35,
-        "cdi": 4.6,
-        "mmi": 4.227,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 516,
-        "net": "us",
-        "code": "6000j6k5",
-        "ids": ",us6000j6k5,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 105,
-        "dmin": 0.221,
-        "rms": 0.82,
-        "gap": 54,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 18 km ESE of Banjar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.588,
-          -7.2485,
-          112.454
-        ]
-      },
-      "id": "us6000j6k5"
     }
   ],
   "bbox": [
