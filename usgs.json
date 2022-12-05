@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670249732000,
+    "generated": 1670253452000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "97 km NNW of Hihifo, Tonga",
+        "time": 1670250081888,
+        "updated": 1670251754040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j70t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j70t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000j70t",
+        "ids": ",us6000j70t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 3.484,
+        "rms": 0.65,
+        "gap": 51,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 97 km NNW of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.1541,
+          -15.1482,
+          109.433
+        ]
+      },
+      "id": "us6000j70t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,7 +295,7 @@
         "mag": 5.7,
         "place": "80 km SE of Lata, Solomon Islands",
         "time": 1670218508674,
-        "updated": 1670225888665,
+        "updated": 1670252844040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6zd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6zd.geojson",
@@ -270,7 +310,7 @@
         "code": "6000j6zd",
         "ids": ",us6000j6zd,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 80,
         "dmin": 4.209,
         "rms": 0.6,
@@ -455,7 +495,7 @@
         "mag": 5.2,
         "place": "Mariana Islands region",
         "time": 1670207477004,
-        "updated": 1670229684900,
+        "updated": 1670251282293,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6y9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6y9.geojson",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "tx2022xsxh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "96 km NNE of Paciran, Indonesia",
-        "time": 1670166169809,
-        "updated": 1670168597040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6uw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6uw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000j6uw",
-        "ids": ",us6000j6uw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 2.479,
-        "rms": 0.86,
-        "gap": 32,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 96 km NNE of Paciran, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          112.7401,
-          -6.0809,
-          599.389
-        ]
-      },
-      "id": "us6000j6uw"
     }
   ],
   "bbox": [
@@ -1296,6 +1296,6 @@
     7.314135742,
     178.6792,
     62.3409,
-    599.389
+    425.423
   ]
 }
