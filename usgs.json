@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670271452000,
+    "generated": 1670274838000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "2 km S of Magas Arriba, Puerto Rico",
+        "time": 1670269459410,
+        "updated": 1670272811640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71385663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71385663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "pr",
+        "code": "71385663",
+        "ids": ",pr71385663,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.02003,
+        "rms": 0.09,
+        "gap": 190,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 2 km S of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.766,
+          17.993,
+          15.32
+        ]
+      },
+      "id": "pr71385663"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "tx2022xvap"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "Revilla Gigedo Islands region",
+        "time": 1670264475961,
+        "updated": 1670274338040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j73p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j73p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000j73p",
+        "ids": ",us6000j73p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 6.78,
+        "rms": 0.64,
+        "gap": 234,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - Revilla Gigedo Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.9879,
+          19.5792,
+          10
+        ]
+      },
+      "id": "us6000j73p"
     },
     {
       "type": "Feature",
@@ -455,12 +535,12 @@
         "mag": 2.79,
         "place": "British Columbia, Canada",
         "time": 1670240565480,
-        "updated": 1670267644450,
+        "updated": 1670272251656,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61897296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61897296.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +550,7 @@
         "code": "61897296",
         "ids": ",uw61897296,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.219,
         "rms": 0.5,
@@ -895,7 +975,7 @@
         "mag": 5.2,
         "place": "Mariana Islands region",
         "time": 1670207477004,
-        "updated": 1670251282293,
+        "updated": 1670272890695,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6y9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6y9.geojson",
@@ -935,12 +1015,12 @@
         "mag": 2.84,
         "place": "10km SW of Kettleman City, CA",
         "time": 1670207211940,
-        "updated": 1670248757437,
+        "updated": 1670273297614,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73814616",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73814616.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -950,7 +1030,7 @@
         "code": "73814616",
         "ids": ",nc73814616,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 52,
         "dmin": 0.08854,
         "rms": 0.13,
@@ -1168,173 +1248,13 @@
         ]
       },
       "id": "us6000j6x2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Catamarca, Argentina",
-        "time": 1670187864162,
-        "updated": 1670211345814,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6wu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6wu.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000j6wu",
-        "ids": ",us6000j6wu,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 92,
-        "dmin": 2.485,
-        "rms": 0.86,
-        "gap": 24,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Catamarca, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6177,
-          -27.9303,
-          169.863
-        ]
-      },
-      "id": "us6000j6wu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1670187426203,
-        "updated": 1670224837562,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6wr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6wr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.774,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000j6wr",
-        "ids": ",ak022fjbw7oc,us6000j6wr,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 25,
-        "dmin": 0.408,
-        "rms": 0.84,
-        "gap": 217,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.6792,
-          51.2606,
-          27.07
-        ]
-      },
-      "id": "us6000j6wr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "118 km NE of Hihifo, Tonga",
-        "time": 1670185645454,
-        "updated": 1670186848040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6wk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6wk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000j6wk",
-        "ids": ",us6000j6wk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 2.579,
-        "rms": 1.32,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 118 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.0617,
-          -15.1525,
-          32.841
-        ]
-      },
-      "id": "us6000j6wk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "102 km ESE of Nichinan, Japan",
-        "time": 1670185629648,
-        "updated": 1670187608040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j6wi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j6wi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000j6wi",
-        "ids": ",us6000j6wi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.679,
-        "rms": 1.15,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 102 km ESE of Nichinan, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          132.4104,
-          31.3709,
-          10
-        ]
-      },
-      "id": "us6000j6wi"
     }
   ],
   "bbox": [
     -177.8784,
     -60.5475,
     4.111,
-    178.6792,
+    166.2044,
     62.3409,
     425.423
   ]
