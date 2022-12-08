@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670508901000,
+    "generated": 1670512575000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1670510726403,
+        "updated": 1670511744040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7wg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7wg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000j7wg",
+        "ids": ",us6000j7wg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 18.004,
+        "rms": 0.78,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6689,
+          -63.1466,
+          10
+        ]
+      },
+      "id": "us6000j7wg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "northern Mid-Atlantic Ridge",
         "time": 1670503442130,
-        "updated": 1670508572252,
+        "updated": 1670510843280,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7w4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7w4.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000j7w4",
         "ids": ",us6000j7w4,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 96,
         "dmin": 7.713,
         "rms": 0.92,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr71386128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "4 km W of San Clemente, Chile",
+        "time": 1670498496569,
+        "updated": 1670510358040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7vu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7vu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000j7vu",
+        "ids": ",us6000j7vu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.246,
+        "rms": 0.47,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 4 km W of San Clemente, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5352,
+          -35.5352,
+          78.994
+        ]
+      },
+      "id": "us6000j7vu"
     },
     {
       "type": "Feature",
@@ -332,42 +412,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
+        "mag": 3.2,
         "place": "36 km WSW of Mentone, Texas",
-        "time": 1670488805426,
-        "updated": 1670489751040,
+        "time": 1670488805447,
+        "updated": 1670509841984,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7v1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7v1.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022xzrs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022xzrs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000j7v1",
-        "ids": ",us6000j7v1,",
-        "sources": ",us,",
+        "sig": 158,
+        "net": "tx",
+        "code": "2022xzrs",
+        "ids": ",us6000j7v1,tx2022xzrs,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.043,
-        "rms": 0.28,
-        "gap": 101,
+        "nst": 36,
+        "dmin": 0.001352266876,
+        "rms": 0.2,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 36 km WSW of Mentone, Texas"
+        "title": "M 3.2 - 36 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9637,
-          31.6076,
-          5
+          -103.9685452,
+          31.61202644,
+          9.987768555
         ]
       },
-      "id": "us6000j7v1"
+      "id": "tx2022xzrs"
     },
     {
       "type": "Feature",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "48 km ENE of Fort Bidwell, California",
+        "place": "Nevada",
         "time": 1670482767136,
         "updated": 1670483818040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 118,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 48 km ENE of Fort Bidwell, California"
+        "title": "M 2.5 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -493,38 +573,38 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "9 km E of Tsurib, Russia",
-        "time": 1670481729294,
-        "updated": 1670495614396,
+        "place": "Caucasus region, Russia",
+        "time": 1670481735831,
+        "updated": 1670510965754,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7uj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7uj.geojson",
         "felt": 11,
         "cdi": 4.8,
-        "mmi": 6.646,
-        "alert": "yellow",
+        "mmi": 4.363,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 655,
+        "sig": 471,
         "net": "us",
         "code": "6000j7uj",
         "ids": ",us6000j7uj,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 113,
-        "dmin": 7.09,
-        "rms": 0.85,
-        "gap": 28,
+        "nst": 115,
+        "dmin": 0.925,
+        "rms": 0.98,
+        "gap": 31,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 9 km E of Tsurib, Russia"
+        "title": "M 5.5 - Caucasus region, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.941,
-          42.2495,
-          10
+          46.8937,
+          42.2729,
+          60.036
         ]
       },
       "id": "us6000j7uj"
@@ -695,17 +775,17 @@
         "mag": 2.69,
         "place": "0 km NW of Valley Hill, North Carolina",
         "time": 1670469801460,
-        "updated": 1670508667711,
+        "updated": 1670512369064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60501781",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60501781.geojson",
-        "felt": 692,
+        "felt": 728,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 374,
+        "sig": 388,
         "net": "se",
         "code": "60501781",
         "ids": ",us6000j7tp,se60501781,",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Western Turkey",
+        "place": "western Turkey",
         "time": 1670452546704,
         "updated": 1670500243616,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Western Turkey"
+        "title": "M 4.3 - western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "Oklahoma",
+        "place": "9 km SW of Minco, Oklahoma",
         "time": 1670431863669,
         "updated": 1670458079040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 26,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Oklahoma"
+        "title": "M 2.7 - 9 km SW of Minco, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Central Alaska",
+        "place": "43 km SSW of South Van Horn, Alaska",
         "time": 1670430106036,
         "updated": 1670484695139,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Central Alaska"
+        "title": "M 3.7 - 43 km SSW of South Van Horn, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1368,51 +1448,11 @@
         ]
       },
       "id": "ak022fo7uoc5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "69 km NNE of Yigo Village, Guam",
-        "time": 1670425176377,
-        "updated": 1670426479613,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j7mk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j7mk.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000j7mk",
-        "ids": ",us6000j7mk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 14.895,
-        "rms": 0.57,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 69 km NNE of Yigo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.076,
-          14.1332,
-          157.269
-        ]
-      },
-      "id": "us6000j7mk"
     }
   ],
   "bbox": [
     -177.9904,
-    -58.747,
+    -63.1466,
     -2.05,
     158.0116,
     64.4389,
