@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670689296000,
+    "generated": 1670692409000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "255 km E of Nabire, Indonesia",
+        "time": 1670687274754,
+        "updated": 1670689643040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8fu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8fu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000j8fu",
+        "ids": ",us6000j8fu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 5.534,
+        "rms": 0.36,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 255 km E of Nabire, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.7857,
+          -3.1421,
+          59.173
+        ]
+      },
+      "id": "us6000j8fu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.4,
         "place": "60 km E of Cruz Bay, U.S. Virgin Islands",
         "time": 1670685699430,
-        "updated": 1670688732360,
+        "updated": 1670692055040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71386498",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71386498.geojson",
@@ -28,8 +68,8 @@
         "sig": 178,
         "net": "pr",
         "code": "71386498",
-        "ids": ",pr71386498,",
-        "sources": ",pr,",
+        "ids": ",us6000j8fm,pr71386498,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.5206,
@@ -48,46 +88,6 @@
         ]
       },
       "id": "pr71386498"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5100000000000002,
-        "place": "38 km S of Ucluelet, Canada",
-        "time": 1670683385510,
-        "updated": 1670685107910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61898151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61898151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "uw",
-        "code": "61898151",
-        "ids": ",uw61898151,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.3299,
-        "rms": 0.22,
-        "gap": 291,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 38 km S of Ucluelet, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.60516666666666,
-          48.59766666666667,
-          4.9
-        ]
-      },
-      "id": "uw61898151"
     },
     {
       "type": "Feature",
@@ -135,7 +135,7 @@
         "mag": 2.47,
         "place": "0 km SSW of Kealakekua, Hawaii",
         "time": 1670680354150,
-        "updated": 1670680684900,
+        "updated": 1670692260040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73265367",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73265367.geojson",
@@ -148,8 +148,8 @@
         "sig": 94,
         "net": "hv",
         "code": "73265367",
-        "ids": ",hv73265367,",
-        "sources": ",hv,",
+        "ids": ",us6000j8f8,hv73265367,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 46,
         "dmin": null,
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "111 km SW of Jinchang, China",
+        "place": "northern Qinghai, China",
         "time": 1670680060479,
         "updated": 1670689132040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 111 km SW of Jinchang, China"
+        "title": "M 4.8 - northern Qinghai, China"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Southern Alaska",
+        "place": "31 km W of Nanwalek, Alaska",
         "time": 1670670858558,
         "updated": 1670671470040,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Southern Alaska"
+        "title": "M 2.9 - 31 km W of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +615,17 @@
         "mag": 4.4,
         "place": "33 km WSW of Las Brisas, Mexico",
         "time": 1670660609072,
-        "updated": 1670669092176,
+        "updated": 1670690636076,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8dw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8dw.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 299,
         "net": "us",
         "code": "6000j8dw",
         "ids": ",us6000j8dw,",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "201 km SW of Labuan, Indonesia",
+        "place": "southwest of Sumatra, Indonesia",
         "time": 1670659559389,
         "updated": 1670661688040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 201 km SW of Labuan, Indonesia"
+        "title": "M 4.5 - southwest of Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -813,13 +813,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Antofagasta, Chile",
+        "place": "23 km SSE of San Pedro de Atacama, Chile",
         "time": 1670654488703,
-        "updated": 1670677403684,
+        "updated": 1670689898436,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8cw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8cw.geojson",
-        "felt": 12,
+        "felt": 13,
         "cdi": 4.4,
         "mmi": 3.864,
         "alert": "green",
@@ -837,7 +837,7 @@
         "gap": 53,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Antofagasta, Chile"
+        "title": "M 5.6 - 23 km SSE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "55 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1670652794454,
         "updated": 1670653482040,
         "tz": null,
@@ -917,7 +917,7 @@
         "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 55 km NW of Toyah, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "33 km WNW of Stevens Village, Alaska",
+        "place": "northern Alaska",
         "time": 1670651599081,
         "updated": 1670652983040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 33 km WNW of Stevens Village, Alaska"
+        "title": "M 2.6 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,19 +1093,19 @@
       "type": "Feature",
       "properties": {
         "mag": 3.44,
-        "place": "Oklahoma",
+        "place": "10 km W of Lamont, Oklahoma",
         "time": 1670646383845,
-        "updated": 1670673112366,
+        "updated": 1670691126268,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022ydai",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022ydai.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 182,
+        "sig": 183,
         "net": "ok",
         "code": "2022ydai",
         "ids": ",ok2022ydai,us6000j8cd,",
@@ -1117,7 +1117,7 @@
         "gap": 54.20694733,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Oklahoma"
+        "title": "M 3.4 - 10 km W of Lamont, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1133,12 +1133,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "49 km ENE of Fort Bidwell, California",
-        "time": 1670643260932,
-        "updated": 1670655707541,
+        "place": "51 km ENE of Fort Bidwell, California",
+        "time": 1670643261481,
+        "updated": 1670691915752,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8c8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8c8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00853128",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00853128.geojson",
         "felt": 1,
         "cdi": 2.2,
         "mmi": null,
@@ -1146,28 +1146,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "6000j8c8",
-        "ids": ",us6000j8c8,",
-        "sources": ",us,",
+        "net": "nn",
+        "code": "00853128",
+        "ids": ",us6000j8c8,nn00853128,",
+        "sources": ",us,nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.542,
-        "rms": 1.29,
-        "gap": 93,
+        "nst": 5,
+        "dmin": 0.565,
+        "rms": 0.1629,
+        "gap": 208.1,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 49 km ENE of Fort Bidwell, California"
+        "title": "M 2.7 - 51 km ENE of Fort Bidwell, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5905,
-          42.0116,
-          5
+          -119.5497,
+          41.9702,
+          0.7
         ]
       },
-      "id": "us6000j8c8"
+      "id": "nn00853128"
     },
     {
       "type": "Feature",
@@ -1373,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Tajikistan",
+        "place": "98 km ENE of Khorugh, Tajikistan",
         "time": 1670635326055,
         "updated": 1670638598040,
         "tz": null,
@@ -1397,7 +1397,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Tajikistan"
+        "title": "M 4.0 - 98 km ENE of Khorugh, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000j8bg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "50 km ENE of Fort Bidwell, California",
-        "time": 1670634251582,
-        "updated": 1670636536040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8bh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8bh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000j8bh",
-        "ids": ",us6000j8bh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.547,
-        "rms": 0.91,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 50 km ENE of Fort Bidwell, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.585,
-          42.0161,
-          5
-        ]
-      },
-      "id": "us6000j8bh"
     },
     {
       "type": "Feature",
@@ -1613,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Ryukyu Islands, Japan",
+        "place": "109 km NE of Nago, Japan",
         "time": 1670625874956,
         "updated": 1670628799040,
         "tz": null,
@@ -1637,7 +1597,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Ryukyu Islands, Japan"
+        "title": "M 4.3 - 109 km NE of Nago, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Samar, Philippines",
+        "place": "73 km NE of Cabatuan, Philippines",
         "time": 1670624291963,
         "updated": 1670627018040,
         "tz": null,
@@ -1677,7 +1637,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Samar, Philippines"
+        "title": "M 4.5 - 73 km NE of Cabatuan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1693,13 +1653,13 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "near the south coast of Honshu, Japan",
+        "place": "4 km WNW of Urayasu, Japan",
         "time": 1670621821441,
-        "updated": 1670681452599,
+        "updated": 1670690519900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j89y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j89y.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1717,7 +1677,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - near the south coast of Honshu, Japan"
+        "title": "M 4.2 - 4 km WNW of Urayasu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.14,
-        "place": "137 km N of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1670619365030,
         "updated": 1670626662040,
         "tz": null,
@@ -1757,7 +1717,7 @@
         "gap": 293,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 137 km N of Suárez, Puerto Rico"
+        "title": "M 4.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1812,8 +1772,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "87 km SE of Arica, Chile",
+        "time": 1670611862502,
+        "updated": 1670689527040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j87y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j87y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000j87y",
+        "ids": ",us6000j87y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.694,
+        "rms": 0.74,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 87 km SE of Arica, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8195,
+          -19.1169,
+          95.74
+        ]
+      },
+      "id": "us6000j87y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "58 km S of Mandráki, Greece",
+        "place": "Dodecanese Islands, Greece",
         "time": 1670611459226,
         "updated": 1670627315040,
         "tz": null,
@@ -1837,7 +1837,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 58 km S of Mandráki, Greece"
+        "title": "M 4.2 - Dodecanese Islands, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "10 km WSW of Point Possession, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1670611369315,
         "updated": 1670639920821,
         "tz": null,
@@ -1877,7 +1877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 10 km WSW of Point Possession, Alaska"
+        "title": "M 3.2 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2048,92 +2048,12 @@
         ]
       },
       "id": "us6000j87i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "151 km ENE of Georgetown, Saint Helena",
-        "time": 1670605705714,
-        "updated": 1670609934040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000j878",
-        "ids": ",us6000j878,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 117,
-        "dmin": 1.319,
-        "rms": 1.08,
-        "gap": 35,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 151 km ENE of Georgetown, Saint Helena"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.2704,
-          -7.1708,
-          6.995
-        ]
-      },
-      "id": "us6000j878"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "116 km W of Ternate, Indonesia",
-        "time": 1670603773330,
-        "updated": 1670607703040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j872.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000j872",
-        "ids": ",us6000j872,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.024,
-        "rms": 0.75,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 116 km W of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3432,
-          0.7342,
-          50.823
-        ]
-      },
-      "id": "us6000j872"
     }
   ],
   "bbox": [
     -179.4469,
     -57.9205,
-    0.9931418896,
+    0.7,
     147.5652,
     66.1659,
     579.96
