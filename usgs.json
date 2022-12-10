@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670699556000,
+    "generated": 1670703396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Tonga",
+        "time": 1670701965597,
+        "updated": 1670703059040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8gt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8gt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000j8gt",
+        "ids": ",us6000j8gt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.053,
+        "rms": 1.01,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.1414,
+          -20.1126,
+          119.597
+        ]
+      },
+      "id": "us6000j8gt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "7 km W of Kenai, Alaska",
+        "time": 1670700887199,
+        "updated": 1670700976218,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ft8e0cv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ft8e0cv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "022ft8e0cv",
+        "ids": ",ak022ft8e0cv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km W of Kenai, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.3917,
+          60.5496,
+          42.5
+        ]
+      },
+      "id": "ak022ft8e0cv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "1 km WNW of Chase, Alaska",
+        "time": 1670699494704,
+        "updated": 1670699591130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022ft891w6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022ft891w6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "022ft891w6",
+        "ids": ",ak022ft891w6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km WNW of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1314,
+          62.4552,
+          55.4
+        ]
+      },
+      "id": "ak022ft891w6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.65,
         "place": "10 km E of Pāhala, Hawaii",
         "time": 1670693089530,
-        "updated": 1670693457194,
+        "updated": 1670699878040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73265522",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73265522.geojson",
@@ -28,8 +148,8 @@
         "sig": 108,
         "net": "hv",
         "code": "73265522",
-        "ids": ",hv73265522,",
-        "sources": ",hv,",
+        "ids": ",hv73265522,us6000j8g5,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 48,
         "dmin": null,
@@ -95,12 +215,12 @@
         "mag": 2.6,
         "place": "62 km NNE of Van Horn, Texas",
         "time": 1670688839602,
-        "updated": 1670692740040,
+        "updated": 1670702819933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8fy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8fy.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +230,7 @@
         "code": "6000j8fy",
         "ids": ",us6000j8fy,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.128,
         "rms": 0.31,
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5999999,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "4 km ESE of Pāhala, Hawaii",
         "time": 1670674244290,
         "updated": 1670674431890,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 147,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 4 km ESE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.33,
-        "place": "Puerto Rico region",
+        "place": "102 km N of San Juan, Puerto Rico",
         "time": 1670672211100,
         "updated": 1670674018110,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 102 km N of San Juan, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -815,12 +935,12 @@
         "mag": 3.07,
         "place": "34 km S of Lamboglia, Puerto Rico",
         "time": 1670655700160,
-        "updated": 1670658057210,
+        "updated": 1670700432555,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71386413",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71386413.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -830,7 +950,7 @@
         "code": "71386413",
         "ids": ",pr71386413,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.3273,
         "rms": 0.2,
@@ -1135,12 +1255,12 @@
         "mag": 3.66,
         "place": "6 km NNW of Vega Baja, Puerto Rico",
         "time": 1670648323900,
-        "updated": 1670650293726,
+        "updated": 1670700113475,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022344000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022344000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1148,9 +1268,9 @@
         "sig": 206,
         "net": "pr",
         "code": "2022344000",
-        "ids": ",us6000j8ci,pr2022344000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022344000,us6000j8ci,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.3748,
         "rms": 0.16,
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "off the coast of Northern California",
+        "place": "258 km W of Ferndale, California",
         "time": 1670642250627,
         "updated": 1670657112877,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 181,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - off the coast of Northern California"
+        "title": "M 4.9 - 258 km W of Ferndale, California"
       },
       "geometry": {
         "type": "Point",
@@ -1808,46 +1928,6 @@
         ]
       },
       "id": "pr2022343000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "Mindanao, Philippines",
-        "time": 1670616115852,
-        "updated": 1670698117336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j88f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j88f.geojson",
-        "felt": 15,
-        "cdi": 4.6,
-        "mmi": 4.197,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 489,
-        "net": "us",
-        "code": "6000j88f",
-        "ids": ",us6000j88f,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 213,
-        "dmin": 0.934,
-        "rms": 0.79,
-        "gap": 17,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - Mindanao, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.2235,
-          6.385,
-          68.045
-        ]
-      },
-      "id": "us6000j88f"
     }
   ],
   "bbox": [
