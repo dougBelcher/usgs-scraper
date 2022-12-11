@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670793200000,
+    "generated": 1670796920000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.9,
         "place": "46 km N of Solomon, Alaska",
         "time": 1670792201855,
-        "updated": 1670792911133,
+        "updated": 1670794874116,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022fuwnhsp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022fuwnhsp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 4.761,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 234,
         "net": "ak",
         "code": "022fuwnhsp",
-        "ids": ",ak022fuwnhsp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak022fuwnhsp,us6000j8nb,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.94,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak022fuwnhsp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "eastern Honshu, Japan",
+        "time": 1670790567316,
+        "updated": 1670794115040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8na",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8na.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000j8na",
+        "ids": ",us6000j8na,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.466,
+        "rms": 0.33,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - eastern Honshu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8776,
+          39.4611,
+          62.49
+        ]
+      },
+      "id": "us6000j8na"
     },
     {
       "type": "Feature",
@@ -455,11 +495,11 @@
         "mag": 6,
         "place": "3 km WNW of El Ticui, Mexico",
         "time": 1670769089648,
-        "updated": 1670790962831,
+        "updated": 1670795726091,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8lp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8lp.geojson",
-        "felt": 85,
+        "felt": 86,
         "cdi": 6.3,
         "mmi": 6.239,
         "alert": "yellow",
@@ -1568,126 +1608,6 @@
         ]
       },
       "id": "us6000j8he"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "179 km SE of Attu Station, Alaska",
-        "time": 1670710266716,
-        "updated": 1670775677169,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8hb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8hb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.144,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000j8hb",
-        "ids": ",us6000j8hb,ak022fta1cpp,",
-        "sources": ",us,ak,",
-        "types": ",oaf,origin,phase-data,shakemap,",
-        "nst": 103,
-        "dmin": 1.111,
-        "rms": 0.72,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 179 km SE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.3693,
-          51.9385,
-          42.859
-        ]
-      },
-      "id": "us6000j8hb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "3 km ENE of Crescent, Oklahoma",
-        "time": 1670709103332,
-        "updated": 1670713670040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022yeiv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022yeiv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "ok",
-        "code": "2022yeiv",
-        "ids": ",us6000j8h7,ok2022yeiv,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 0.07169639319,
-        "rms": 0.5250007912,
-        "gap": 15.81014442,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km ENE of Crescent, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.55510712,
-          35.96725464,
-          5.919128895
-        ]
-      },
-      "id": "ok2022yeiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "northern Sumatra, Indonesia",
-        "time": 1670708401561,
-        "updated": 1670710736112,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8h6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8h6.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000j8h6",
-        "ids": ",us6000j8h6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.603,
-        "rms": 0.55,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - northern Sumatra, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.9305,
-          2.0867,
-          10
-        ]
-      },
-      "id": "us6000j8h6"
     }
   ],
   "bbox": [
