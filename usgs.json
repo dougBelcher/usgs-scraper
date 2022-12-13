@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1670908482000,
+    "generated": 1670912499000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -15,11 +15,11 @@
         "mag": 3.03,
         "place": "7 km WSW of Minco, Oklahoma",
         "time": 1670904553974,
-        "updated": 1670908016241,
+        "updated": 1670910747319,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022yimh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2022yimh.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
@@ -1292,6 +1292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Fiji region",
+        "time": 1670848543193,
+        "updated": 1670908878040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8rd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8rd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000j8rd",
+        "ids": ",us6000j8rd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.043,
+        "rms": 0.56,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4616,
+          -21.3278,
+          507.39
+        ]
+      },
+      "id": "us6000j8rd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "17 km SE of Livengood, Alaska",
         "time": 1670846429348,
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "us6000j8q6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Fiji region",
-        "time": 1670825529329,
-        "updated": 1670828058040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8q1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8q1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000j8q1",
-        "ids": ",us6000j8q1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 3.068,
-        "rms": 0.78,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4557,
-          -20.751,
-          576.912
-        ]
-      },
-      "id": "us6000j8q1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "37 km WSW of Mentone, Texas",
-        "time": 1670823347281,
-        "updated": 1670824985040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8py",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000j8py.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000j8py",
-        "ids": ",us6000j8py,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.046,
-        "rms": 0.24,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 37 km WSW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.9791,
-          31.6162,
-          9.271
-        ]
-      },
-      "id": "us6000j8py"
     }
   ],
   "bbox": [
@@ -1776,6 +1736,6 @@
     1.01,
     150.6296,
     65.431,
-    576.912
+    541.655
   ]
 }
