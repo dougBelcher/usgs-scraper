@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1671448354000,
+    "generated": 1671453047000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58999991,
+        "mag": 2.56,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1671448074950,
-        "updated": 1671448278450,
+        "updated": 1671449471040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73275977",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73275977.geojson",
@@ -25,17 +25,17 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 101,
         "net": "hv",
         "code": "73275977",
-        "ids": ",hv73275977,",
-        "sources": ",hv,",
+        "ids": ",us6000jaaq,hv73275977,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 37,
         "dmin": null,
         "rms": 0.180000007,
         "gap": 134,
-        "magType": "md",
+        "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 9 km ENE of Pāhala, Hawaii"
       },
@@ -52,8 +52,88 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "108 km NW of Yakutat, Alaska",
+        "time": 1671447828829,
+        "updated": 1671448586040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jaap",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jaap.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "us",
+        "code": "6000jaap",
+        "ids": ",us6000jaap,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.215,
+        "rms": 0.48,
+        "gap": 87,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 108 km NW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.8647,
+          60.34,
+          10.567
+        ]
+      },
+      "id": "us6000jaap"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "13 km ENE of Portoviejo, Ecuador",
+        "time": 1671447716161,
+        "updated": 1671451421893,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jaar",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jaar.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000jaar",
+        "ids": ",us6000jaar,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 8.368,
+        "rms": 0.41,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 13 km ENE of Portoviejo, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.338,
+          -1.016,
+          35
+        ]
+      },
+      "id": "us6000jaar"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.45,
-        "place": "2 km ESE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1671443256030,
         "updated": 1671445711470,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 200,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km ESE of Maria Antonia, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "57 km E of Yakutat, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1671441948555,
         "updated": 1671442098058,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 57 km E of Yakutat, Alaska"
+        "title": "M 2.5 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "96 km SW of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1671421629001,
         "updated": 1671422756040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 96 km SW of Kaktovik, Alaska"
+        "title": "M 3.0 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Puerto Rico region",
+        "place": "7 km WSW of Guánica, Puerto Rico",
         "time": 1671415139362,
         "updated": 1671422185040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 200,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - 7 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "9 km WSW of Smiths Ferry, Idaho",
+        "place": "southern Idaho",
         "time": 1671412958839,
         "updated": 1671415635501,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 9 km WSW of Smiths Ferry, Idaho"
+        "title": "M 2.9 - southern Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Peru-Ecuador border region",
+        "place": "65 km W of Alianza Cristiana, Peru",
         "time": 1671411424782,
         "updated": 1671418106441,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Peru-Ecuador border region"
+        "title": "M 5.0 - 65 km W of Alianza Cristiana, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.62,
-        "place": "Virgin Islands",
+        "place": "109 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1671398256760,
         "updated": 1671411370040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 299,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - 109 km N of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Kepulauan Mentawai region, Indonesia",
+        "place": "238 km SSW of Padang, Indonesia",
         "time": 1671390434355,
         "updated": 1671397541040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 175,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Kepulauan Mentawai region, Indonesia"
+        "title": "M 4.7 - 238 km SSW of Padang, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Turkey-Syria border region",
+        "place": "8 km E of Uzunkavak, Turkey",
         "time": 1671387189310,
         "updated": 1671447880813,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Turkey-Syria border region"
+        "title": "M 4.7 - 8 km E of Uzunkavak, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.68,
-        "place": "82 km NNE of Suárez, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1671384574770,
         "updated": 1671386007983,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 284,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 82 km NNE of Suárez, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "18 km SE of Naalehu, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1671381880600,
         "updated": 1671430818640,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 225,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 18 km SE of Naalehu, Hawaii"
+        "title": "M 3.2 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "30 km WSW of Bolitoc, Philippines",
+        "place": "Luzon, Philippines",
         "time": 1671370426951,
         "updated": 1671431845847,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 67,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 30 km WSW of Bolitoc, Philippines"
+        "title": "M 5.2 - Luzon, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1488,6 @@
         ]
       },
       "id": "us6000ja51"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "7 km NNE of Néa Stíra, Greece",
-        "time": 1671365461694,
-        "updated": 1671428706040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ja4w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ja4w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000ja4w",
-        "ids": ",us6000ja4w,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.676,
-        "rms": 0.7,
-        "gap": 90,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 7 km NNE of Néa Stíra, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.2344,
-          38.2462,
-          10
-        ]
-      },
-      "id": "us6000ja4w"
     }
   ],
   "bbox": [
