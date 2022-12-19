@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1671467087000,
+    "generated": 1671469967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.58,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1671466032260,
-        "updated": 1671466361770,
+        "updated": 1671467161040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73276397",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73276397.geojson",
@@ -28,8 +28,8 @@
         "sig": 102,
         "net": "hv",
         "code": "73276397",
-        "ids": ",hv73276397,",
-        "sources": ",hv,",
+        "ids": ",us6000jad3,hv73276397,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 45,
         "dmin": null,
@@ -172,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
+        "mag": 3,
         "place": "Gulf of Alaska",
-        "time": 1671452852305,
-        "updated": 1671453067215,
+        "time": 1671452869235,
+        "updated": 1671468313511,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022g800qh1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022g800qh1.geojson",
@@ -183,9 +183,9 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 138,
         "net": "ak",
         "code": "022g800qh1",
         "ids": ",ak022g800qh1,",
@@ -193,18 +193,18 @@
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.06,
+        "rms": 0.56,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Gulf of Alaska"
+        "title": "M 3.0 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.5323,
-          56.2333,
-          14.9
+          -146.011,
+          56.9001,
+          7.1
         ]
       },
       "id": "ak022g800qh1"
@@ -1175,11 +1175,11 @@
         "mag": 4.7,
         "place": "8 km E of Uzunkavak, Turkey",
         "time": 1671387189310,
-        "updated": 1671457426754,
+        "updated": 1671467566240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ja6e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ja6e.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 7.3,
         "mmi": null,
         "alert": null,
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "pr2022352002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "Hawaii region, Hawaii",
-        "time": 1671381880600,
-        "updated": 1671430818640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73275217",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73275217.geojson",
-        "felt": 9,
-        "cdi": 2.2,
-        "mmi": 2.857,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "hv",
-        "code": "73275217",
-        "ids": ",hv73275217,us6000ja5y,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 225,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.434,
-          18.9746666666667,
-          36.5
-        ]
-      },
-      "id": "hv73275217"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1671381127817,
-        "updated": 1671464924816,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2022ysoh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2022ysoh.geojson",
-        "felt": 2,
-        "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "tx",
-        "code": "2022ysoh",
-        "ids": ",tx2022ysoh,us6000ja5v,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.04553327659,
-        "rms": 0.2,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3767625,
-          31.66248276,
-          6.131567383
-        ]
-      },
-      "id": "tx2022ysoh"
     }
   ],
   "bbox": [
