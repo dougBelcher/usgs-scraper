@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1671912887000,
+    "generated": 1671916359000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "129 km S of Unalaska, Alaska",
+        "time": 1671914938387,
+        "updated": 1671915918040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbh9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbh9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.656,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000jbh9",
+        "ids": ",us6000jbh9,ak022ggelbiu,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 48,
+        "dmin": 1.011,
+        "rms": 0.76,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 129 km S of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.6933,
+          52.7177,
+          23.08
+        ]
+      },
+      "id": "us6000jbh9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "79 km W of San Antonio de los Cobres, Argentina",
+        "time": 1671912129012,
+        "updated": 1671913036040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbh6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbh6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000jbh6",
+        "ids": ",us6000jbh6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.565,
+        "rms": 1.4,
+        "gap": 41,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 79 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0968,
+          -24.1671,
+          171.499
+        ]
+      },
+      "id": "us6000jbh6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.54,
         "place": "1 km S of Mountain View, Hawaii",
         "time": 1671911865660,
-        "updated": 1671912225040,
+        "updated": 1671915478571,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281247",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281247.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 99,
+        "sig": 100,
         "net": "hv",
         "code": "73281247",
-        "ids": ",us6000jbh5,hv73281247,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73281247,us6000jbh5,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": null,
         "rms": 0.170000002,
@@ -95,17 +175,17 @@
         "mag": 4.13,
         "place": "8km E of Hydesville, CA",
         "time": 1671910424220,
-        "updated": 1671912777354,
+        "updated": 1671916077031,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73824236",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73824236.geojson",
-        "felt": 174,
-        "cdi": 4.1,
-        "mmi": 3.897,
+        "felt": 365,
+        "cdi": 4.3,
+        "mmi": 3.883,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 334,
+        "sig": 419,
         "net": "nc",
         "code": "73824236",
         "ids": ",ew1671910430,nc73824236,us6000jbh1,",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.81,
-        "place": "Puerto Rico region",
+        "place": "4 km SW of Fuig, Puerto Rico",
         "time": 1671882717120,
         "updated": 1671896128338,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 4 km SW of Fuig, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1671875914350,
         "updated": 1671878116970,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 300,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 103 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.2 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +655,11 @@
         "mag": 4.5,
         "place": "102 km WSW of Prince Rupert, Canada",
         "time": 1671872482283,
-        "updated": 1671907413800,
+        "updated": 1671915782173,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbf4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbf4.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -695,12 +775,12 @@
         "mag": 3.09,
         "place": "17km WNW of Petrolia, CA",
         "time": 1671858787510,
-        "updated": 1671912523947,
+        "updated": 1671916053396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73824006",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73824006.geojson",
-        "felt": 7,
-        "cdi": 2.7,
+        "felt": 8,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "143 km SE of Kokopo, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1671846429698,
         "updated": 1671848607040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 143 km SE of Kokopo, Papua New Guinea"
+        "title": "M 4.7 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "121 km ENE of Shikotan, Russia",
+        "place": "Kuril Islands",
         "time": 1671845991776,
         "updated": 1671847064040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 121 km ENE of Shikotan, Russia"
+        "title": "M 4.6 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1093,31 +1173,31 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Southern Alaska",
+        "place": "16 km NE of Chickaloon, Alaska",
         "time": 1671838881162,
-        "updated": 1671839575040,
+        "updated": 1671915671997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gessp4n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gessp4n.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "022gessp4n",
-        "ids": ",us6000jbcz,ak022gessp4n,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak022gessp4n,us6000jbcz,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.65,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Southern Alaska"
+        "title": "M 3.0 - 16 km NE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1175,11 +1255,11 @@
         "mag": 2.7,
         "place": "4 km WNW of Amalga, Utah",
         "time": 1671833362300,
-        "updated": 1671907239453,
+        "updated": 1671915651428,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60528612",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60528612.geojson",
-        "felt": 22,
+        "felt": 23,
         "cdi": 3,
         "mmi": null,
         "alert": null,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us6000jbcc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77999997,
-        "place": "8 km ENE of Pāhala, Hawaii",
-        "time": 1671828128850,
-        "updated": 1671828324250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73279737",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73279737.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 119,
-        "net": "hv",
-        "code": "73279737",
-        "ids": ",hv73279737,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 154,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 8 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.400161743164,
-          19.2201671600342,
-          34.560001373291
-        ]
-      },
-      "id": "hv73279737"
     }
   ],
   "bbox": [
