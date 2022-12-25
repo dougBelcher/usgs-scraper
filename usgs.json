@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1671935867000,
+    "generated": 1671938199000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "3 km SW of Pāhala, Hawaii",
+        "time": 1671936095980,
+        "updated": 1671937581040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281637.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "73281637",
+        "ids": ",us6000jbj2,hv73281637,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": null,
+        "rms": 0.109999999,
+        "gap": 94,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.498840332031,
+          19.1805000305176,
+          35.2700004577637
+        ]
+      },
+      "id": "hv73281637"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.69,
         "place": "8 km WSW of Volcano, Hawaii",
         "time": 1671935271490,
-        "updated": 1671935603400,
+        "updated": 1671936035166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281617",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281617.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 111,
         "net": "hv",
         "code": "73281617",
         "ids": ",hv73281617,",
@@ -55,7 +95,7 @@
         "mag": 2.74,
         "place": "10 km WSW of Volcano, Hawaii",
         "time": 1671935270160,
-        "updated": 1671935784796,
+        "updated": 1671937127040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281622",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281622.geojson",
@@ -68,8 +108,8 @@
         "sig": 116,
         "net": "hv",
         "code": "73281622",
-        "ids": ",hv73281622,",
-        "sources": ",hv,",
+        "ids": ",hv73281622,us6000jbip,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 40,
         "dmin": null,
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "23 km SSE of Klyuchi, Russia",
-        "time": 1671934664468,
-        "updated": 1671935520040,
+        "place": "26 km SSE of Klyuchi, Russia",
+        "time": 1671934663586,
+        "updated": 1671936550040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbil",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbil.geojson",
@@ -111,20 +151,20 @@
         "ids": ",us6000jbil,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 3.391,
-        "rms": 0.69,
+        "nst": 110,
+        "dmin": 3.363,
+        "rms": 0.6,
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 23 km SSE of Klyuchi, Russia"
+        "title": "M 5.3 - 26 km SSE of Klyuchi, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.9755,
-          56.1265,
-          117.025
+          160.9787,
+          56.0948,
+          113.016
         ]
       },
       "id": "us6000jbil"
@@ -132,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "Puerto Rico region",
+        "time": 1671934590930,
+        "updated": 1671936287970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71388938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71388938.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71388938",
+        "ids": ",pr71388938,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.08499,
+        "rms": 0.09,
+        "gap": 238,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8515,
+          17.8938333333333,
+          12.33
+        ]
+      },
+      "id": "pr71388938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "off the west coast of the South Island of New Zealand",
-        "time": 1671933937698,
-        "updated": 1671935142191,
+        "place": "100 km W of Te Anau, New Zealand",
+        "time": 1671933937724,
+        "updated": 1671936065259,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbii",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbii.geojson",
@@ -150,20 +230,20 @@
         "code": "6000jbii",
         "ids": ",us6000jbii,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.536,
-        "rms": 0.65,
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.522,
+        "rms": 0.81,
         "gap": 89,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - off the west coast of the South Island of New Zealand"
+        "title": "M 4.8 - 100 km W of Te Anau, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.4169,
-          -45.33,
+          166.4307,
+          -45.3496,
           10
         ]
       },
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "Mississippi",
+        "place": "4 km ENE of Booneville, Mississippi",
         "time": 1671922189670,
         "updated": 1671934189096,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Mississippi"
+        "title": "M 2.5 - 4 km ENE of Booneville, Mississippi"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "16 km NW of Stanton, Texas",
         "time": 1671921126077,
         "updated": 1671931669772,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 16 km NW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "southern Idaho",
+        "place": "18 km NW of Challis, Idaho",
         "time": 1671920364799,
         "updated": 1671921649040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - southern Idaho"
+        "title": "M 2.6 - 18 km NW of Challis, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "160 km SSW of Srandakan, Indonesia",
+        "place": "south of Java, Indonesia",
         "time": 1671915452463,
         "updated": 1671916466040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 53,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 160 km SSW of Srandakan, Indonesia"
+        "title": "M 5.0 - south of Java, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -735,17 +815,17 @@
         "mag": 4.2,
         "place": "8km E of Hydesville, CA",
         "time": 1671910424220,
-        "updated": 1671935026518,
+        "updated": 1671937791988,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73824236",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73824236.geojson",
-        "felt": 427,
+        "felt": 431,
         "cdi": 4.3,
         "mmi": 3.896,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 455,
+        "sig": 457,
         "net": "nc",
         "code": "73824236",
         "ids": ",ew1671910430,nc73824236,us6000jbh1,",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.81,
-        "place": "Puerto Rico region",
+        "place": "4 km SW of Fuig, Puerto Rico",
         "time": 1671882717120,
         "updated": 1671896128338,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 4 km SW of Fuig, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1671875914350,
         "updated": 1671878116970,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 300,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 103 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.2 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1572,10 +1652,10 @@
   ],
   "bbox": [
     -178.0215,
-    -45.33,
+    -45.3496,
     0.56999999284744,
     178.7498,
-    56.1265,
+    56.0948,
     567.747
   ]
 }
