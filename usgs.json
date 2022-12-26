@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672017517000,
+    "generated": 1672022197000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.96000004,
+        "place": "Hawaii region, Hawaii",
+        "time": 1672021765200,
+        "updated": 1672021955560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73283082",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73283082.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 135,
+        "net": "hv",
+        "code": "73283082",
+        "ids": ",hv73283082,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": null,
+        "rms": 0.189999998,
+        "gap": 227,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - Hawaii region, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.488830566406,
+          19.1599998474121,
+          26.7199993133545
+        ]
+      },
+      "id": "hv73283082"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Cochabamba-Santa Cruz border region, Bolivia",
+        "place": "Cochabamba, Bolivia",
         "time": 1672014862581,
         "updated": 1672016328040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 104,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Cochabamba-Santa Cruz border region, Bolivia"
+        "title": "M 4.1 - Cochabamba, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "30 km ENE of Parcoy, Peru",
+        "place": "northern Peru",
         "time": 1672013428974,
         "updated": 1672014987040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 30 km ENE of Parcoy, Peru"
+        "title": "M 4.6 - northern Peru"
       },
       "geometry": {
         "type": "Point",
@@ -172,82 +212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "23 km ENE of Mina, Nevada",
-        "time": 1672009884531,
-        "updated": 1672013730040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00854164",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00854164.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "nn",
-        "code": "00854164",
-        "ids": ",us6000jbpa,nn00854164,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.317,
-        "rms": 0.2928,
-        "gap": 107.42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 23 km ENE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.887,
-          38.5064,
-          2.4
-        ]
-      },
-      "id": "nn00854164"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.6,
-        "place": "14 km NE of Mina, Nevada",
-        "time": 1672009874517,
-        "updated": 1672010090231,
+        "place": "18 km ENE of Mina, Nevada",
+        "time": 1672009884779,
+        "updated": 1672020402029,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00854166",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00854166.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbpa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbpa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "nn",
-        "code": "00854166",
-        "ids": ",nn00854166,",
-        "sources": ",nn,",
+        "net": "us",
+        "code": "6000jbpa",
+        "ids": ",nn00854164,us6000jbpa,nn00854166,",
+        "sources": ",nn,us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.146,
-        "rms": 0.1189,
-        "gap": 236.71,
+        "nst": 61,
+        "dmin": 0.179,
+        "rms": 0.69,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 14 km NE of Mina, Nevada"
+        "title": "M 2.6 - 18 km ENE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9726,
-          38.4639,
-          2
+          -117.9358,
+          38.4803,
+          5
         ]
       },
-      "id": "nn00854166"
+      "id": "us6000jbpa"
     },
     {
       "type": "Feature",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "9 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1672003589130,
         "updated": 1672004168510,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 236,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 9 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "9 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1671992188890,
         "updated": 1671999825040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 226,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 9 km SSE of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "57 km W of Anchor Point, Alaska",
+        "place": "Southern Alaska",
         "time": 1671988283059,
         "updated": 1671988477603,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 57 km W of Anchor Point, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -655,12 +655,12 @@
         "mag": 4.35,
         "place": "113 km NNE of San Juan, Puerto Rico",
         "time": 1671982700070,
-        "updated": 1671989576040,
+        "updated": 1672020649603,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022359000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022359000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -668,9 +668,9 @@
         "sig": 291,
         "net": "pr",
         "code": "2022359000",
-        "ids": ",us6000jbly,pr2022359000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2022359000,us6000jbly,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 1.177,
         "rms": 0.46,
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Tonga",
+        "place": "157 km W of Neiafu, Tonga",
         "time": 1671970639960,
         "updated": 1671971965040,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Tonga"
+        "title": "M 4.6 - 157 km W of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Azores Islands region",
+        "place": "277 km SSW of Lajes das Flores, Portugal",
         "time": 1671959218413,
         "updated": 1671961208040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Azores Islands region"
+        "title": "M 4.8 - 277 km SSW of Lajes das Flores, Portugal"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "176 km WSW of Adak, Alaska",
         "time": 1671949840289,
         "updated": 1672010096892,
         "tz": null,
@@ -1317,7 +1317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.1 - 176 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "ak022ghtopkr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "53 km ESE of Kingston, Nevada",
-        "time": 1671947717617,
-        "updated": 1671947956184,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00854137",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00854137.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00854137",
-        "ids": ",nn00854137,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.487,
-        "rms": 0.2739,
-        "gap": 140.44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 53 km ESE of Kingston, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5169,
-          38.9988,
-          1.8
-        ]
-      },
-      "id": "nn00854137"
     },
     {
       "type": "Feature",
@@ -1488,332 +1448,12 @@
         ]
       },
       "id": "hv73281637"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "8 km WSW of Volcano, Hawaii",
-        "time": 1671935271490,
-        "updated": 1671936035166,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281617",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281617.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "hv",
-        "code": "73281617",
-        "ids": ",hv73281617,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": null,
-        "rms": 0.280000001,
-        "gap": 94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.310668945312,
-          19.4099998474121,
-          0.569999992847443
-        ]
-      },
-      "id": "hv73281617"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "10 km WSW of Volcano, Hawaii",
-        "time": 1671935270160,
-        "updated": 1671937127040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281622.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "73281622",
-        "ids": ",hv73281622,us6000jbip,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": null,
-        "rms": 0.289999992,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.322494506836,
-          19.3993339538574,
-          3.49000000953674
-        ]
-      },
-      "id": "hv73281622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "26 km SSE of Klyuchi, Russia",
-        "time": 1671934663586,
-        "updated": 1671936550040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbil",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbil.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000jbil",
-        "ids": ",us6000jbil,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 110,
-        "dmin": 3.363,
-        "rms": 0.6,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 26 km SSE of Klyuchi, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9787,
-          56.0948,
-          113.016
-        ]
-      },
-      "id": "us6000jbil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "Puerto Rico region",
-        "time": 1671934590930,
-        "updated": 1671936287970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71388938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71388938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71388938",
-        "ids": ",pr71388938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.08499,
-        "rms": 0.09,
-        "gap": 238,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8515,
-          17.8938333333333,
-          12.33
-        ]
-      },
-      "id": "pr71388938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "100 km W of Te Anau, New Zealand",
-        "time": 1671933937724,
-        "updated": 1671936065259,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbii",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbii.geojson",
-        "felt": 4,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 356,
-        "net": "us",
-        "code": "6000jbii",
-        "ids": ",us6000jbii,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.522,
-        "rms": 0.81,
-        "gap": 89,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.8 - 100 km W of Te Anau, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.4307,
-          -45.3496,
-          10
-        ]
-      },
-      "id": "us6000jbii"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46000004,
-        "place": "10 km E of Pāhala, Hawaii",
-        "time": 1671933544010,
-        "updated": 1671933732490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73281577",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73281577.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "73281577",
-        "ids": ",hv73281577,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 10 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.384002685547,
-          19.2140007019043,
-          32.689998626709
-        ]
-      },
-      "id": "hv73281577"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "186 km NNW of Sola, Vanuatu",
-        "time": 1671932533125,
-        "updated": 1671933414040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000jbie",
-        "ids": ",us6000jbie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 3.142,
-        "rms": 0.52,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 186 km NNW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.9395,
-          -12.2966,
-          196.452
-        ]
-      },
-      "id": "us6000jbie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1671931378958,
-        "updated": 1671932726040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbi9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbi9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000jbi9",
-        "ids": ",us6000jbi9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.215,
-        "rms": 0.62,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3064,
-          -30.3574,
-          10
-        ]
-      },
-      "id": "us6000jbi9"
     }
   ],
   "bbox": [
     -178.9331,
     -59.3573,
-    0.56999999284744,
+    0.97000002861023,
     172.0483,
     59.7821,
     238.742
