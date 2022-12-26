@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672085739000,
+    "generated": 1672089173000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "52 km W of Anchor Point, Alaska",
-        "time": 1672084945164,
-        "updated": 1672085577363,
+        "mag": 2.9,
+        "place": "60 km NE of Nikolai, Alaska",
+        "time": 1672086167303,
+        "updated": 1672086296804,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gjpe38p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gjpe38p.geojson",
-        "felt": 5,
-        "cdi": 2.4,
-        "mmi": 2.875,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gjpifa2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gjpifa2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 201,
+        "sig": 129,
+        "net": "ak",
+        "code": "022gjpifa2",
+        "ids": ",ak022gjpifa2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.92,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 60 km NE of Nikolai, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.5497,
+          63.4106,
+          0
+        ]
+      },
+      "id": "ak022gjpifa2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "54 km W of Anchor Point, Alaska",
+        "time": 1672084946186,
+        "updated": 1672087184649,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gjpe38p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gjpe38p.geojson",
+        "felt": 9,
+        "cdi": 2.2,
+        "mmi": 2.999,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 236,
         "net": "ak",
         "code": "022gjpe38p",
         "ids": ",ak022gjpe38p,",
@@ -33,18 +73,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.32,
+        "rms": 0.91,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 52 km W of Anchor Point, Alaska"
+        "title": "M 3.9 - 54 km W of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.7521,
-          59.6986,
-          93.4
+          -152.7896,
+          59.6933,
+          88.3
         ]
       },
       "id": "ak022gjpe38p"
@@ -1533,9 +1573,9 @@
   "bbox": [
     -179.6032,
     -65.351,
-    0.9361166954,
+    0,
     148.5557,
-    59.6986,
+    63.4106,
     514.765
   ]
 }
