@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672168309000,
+    "generated": 1672172142000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.6,
         "place": "95 km SE of Ugashik, Alaska",
         "time": 1672165032974,
-        "updated": 1672165139152,
+        "updated": 1672170954040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022glbtrc1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022glbtrc1.geojson",
@@ -28,8 +28,8 @@
         "sig": 104,
         "net": "ak",
         "code": "022glbtrc1",
-        "ids": ",ak022glbtrc1,",
-        "sources": ",ak,",
+        "ids": ",us7000j0eu,ak022glbtrc1,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,7 +55,7 @@
         "mag": 2.46,
         "place": "2km NW of The Geysers, CA",
         "time": 1672164439010,
-        "updated": 1672166407111,
+        "updated": 1672170076270,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73825756",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73825756.geojson",
@@ -88,6 +88,46 @@
         ]
       },
       "id": "nc73825756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "108 km E of Shikotan, Russia",
+        "time": 1672162425270,
+        "updated": 1672169154040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j0en",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j0en.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000j0en",
+        "ids": ",us7000j0en,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 178,
+        "dmin": 3.948,
+        "rms": 0.61,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 108 km E of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0585,
+          43.9099,
+          59.636
+        ]
+      },
+      "id": "us7000j0en"
     },
     {
       "type": "Feature",
@@ -1528,86 +1568,6 @@
         ]
       },
       "id": "ak022gjpifa2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "54 km W of Anchor Point, Alaska",
-        "time": 1672084946186,
-        "updated": 1672159737040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gjpe38p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gjpe38p.geojson",
-        "felt": 11,
-        "cdi": 2.5,
-        "mmi": 2.999,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 237,
-        "net": "ak",
-        "code": "022gjpe38p",
-        "ids": ",ak022gjpe38p,us6000jbu3,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.91,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 54 km W of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.7896,
-          59.6933,
-          88.3
-        ]
-      },
-      "id": "ak022gjpe38p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "164 km NNW of Amahai, Indonesia",
-        "time": 1672084944580,
-        "updated": 1672160327040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jbv4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jbv4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000jbv4",
-        "ids": ",us6000jbv4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.909,
-        "rms": 0.89,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 164 km NNW of Amahai, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.2345,
-          -2.0231,
-          32.313
-        ]
-      },
-      "id": "us6000jbv4"
     }
   ],
   "bbox": [
