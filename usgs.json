@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672348369000,
+    "generated": 1672352095000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "12 km SE of Esperanza, Puerto Rico",
+        "time": 1672348364670,
+        "updated": 1672349518280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389593",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389593.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71389593",
+        "ids": ",pr71389593,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1775,
+        "rms": 0.19,
+        "gap": 226,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km SE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3868333333333,
+          18.0156666666667,
+          18.66
+        ]
+      },
+      "id": "pr71389593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "54 km SSE of Koróni, Greece",
+        "time": 1672348317336,
+        "updated": 1672351037040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j0x4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j0x4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000j0x4",
+        "ids": ",us7000j0x4,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 103,
+        "dmin": 0.869,
+        "rms": 0.67,
+        "gap": 40,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.1 - 54 km SSE of Koróni, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0976,
+          36.3191,
+          10
+        ]
+      },
+      "id": "us7000j0x4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.82,
         "place": "3 km WSW of Fuig, Puerto Rico",
         "time": 1672338878330,
-        "updated": 1672340297840,
+        "updated": 1672350046040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389588",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389588.geojson",
@@ -28,8 +108,8 @@
         "sig": 122,
         "net": "pr",
         "code": "71389588",
-        "ids": ",pr71389588,",
-        "sources": ",pr,",
+        "ids": ",us7000j0w1,pr71389588,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 31,
         "dmin": 0.03534,
