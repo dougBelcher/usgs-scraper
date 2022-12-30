@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672438435000,
+    "generated": 1672442093000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "off the east coast of the Kamchatka Peninsula, Russia",
+        "time": 1672440132429,
+        "updated": 1672441555040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j154",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j154.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000j154",
+        "ids": ",us7000j154,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.227,
+        "rms": 0.49,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - off the east coast of the Kamchatka Peninsula, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.4082,
+          52.4237,
+          35
+        ]
+      },
+      "id": "us7000j154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "Puerto Rico region",
+        "time": 1672439484340,
+        "updated": 1672441753590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71389918",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71389918.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "pr",
+        "code": "71389918",
+        "ids": ",pr71389918,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.03885,
+        "rms": 0.12,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8686666666667,
+          17.9373333333333,
+          17.04
+        ]
+      },
+      "id": "pr71389918"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,14 +133,14 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "65 km SW of Changuillo, Peru",
-        "time": 1672437212636,
-        "updated": 1672438232040,
+        "place": "67 km WSW of Changuillo, Peru",
+        "time": 1672437210776,
+        "updated": 1672440845396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j14p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j14p.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,21 +150,21 @@
         "code": "7000j14p",
         "ids": ",us7000j14p,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 74,
-        "dmin": 3.194,
-        "rms": 0.83,
-        "gap": 141,
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 104,
+        "dmin": 3.173,
+        "rms": 0.63,
+        "gap": 104,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 65 km SW of Changuillo, Peru"
+        "title": "M 5.2 - 67 km WSW of Changuillo, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.7215,
-          -15.0073,
-          27.663
+          -75.7533,
+          -14.9969,
+          17.74
         ]
       },
       "id": "us7000j14p"
@@ -175,7 +255,7 @@
         "mag": 4.18,
         "place": "15 km N of Isabela, Puerto Rico",
         "time": 1672426165070,
-        "updated": 1672433562762,
+        "updated": 1672441676735,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022364001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2022364001.geojson",
@@ -1128,86 +1208,6 @@
         ]
       },
       "id": "us7000j0y6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "20km ESE of Yosemite Valley, CA",
-        "time": 1672355015000,
-        "updated": 1672368491716,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73826571",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73826571.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nc",
-        "code": "73826571",
-        "ids": ",nc73826571,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": null,
-        "rms": 0.2,
-        "gap": 78,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 20km ESE of Yosemite Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.3876648,
-          37.6453323,
-          12.17
-        ]
-      },
-      "id": "nc73826571"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "20 km ESE of Susitna North, Alaska",
-        "time": 1672353510520,
-        "updated": 1672356582040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak022gopeq4s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak022gopeq4s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "022gopeq4s",
-        "ids": ",us7000j0y0,ak022gopeq4s,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.57,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 20 km ESE of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.5074,
-          62.0768,
-          36.4
-        ]
-      },
-      "id": "ak022gopeq4s"
     }
   ],
   "bbox": [
