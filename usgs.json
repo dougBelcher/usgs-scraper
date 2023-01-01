@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672576135000,
+    "generated": 1672579085000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Antofagasta, Chile",
+        "time": 1672575538248,
+        "updated": 1672577264102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j1ew",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j1ew.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000j1ew",
+        "ids": ",us7000j1ew,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.685,
+        "rms": 0.9,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Antofagasta, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9089,
+          -23.0803,
+          113.381
+        ]
+      },
+      "id": "us7000j1ew"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,13 +335,13 @@
         "mag": 4.04,
         "place": "9km NW of Pinnacles, CA",
         "time": 1672555750190,
-        "updated": 1672575709789,
+        "updated": 1672579071015,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73827436",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73827436.geojson",
-        "felt": 246,
+        "felt": 247,
         "cdi": 4.1,
-        "mmi": 4.361,
+        "mmi": 4.36,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -455,7 +495,7 @@
         "mag": 2.91,
         "place": "4km S of Humboldt Hill, CA",
         "time": 1672550297960,
-        "updated": 1672561001645,
+        "updated": 1672577350651,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73827421",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73827421.geojson",
@@ -470,7 +510,7 @@
         "code": "73827421",
         "ids": ",nc73827421,ew1672550300,us7000j1cb,",
         "sources": ",nc,ew,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 19,
         "dmin": 0.2249,
         "rms": 0.12,
@@ -1008,173 +1048,13 @@
         ]
       },
       "id": "pr71390013"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61999989,
-        "place": "11 km ENE of Pāhala, Hawaii",
-        "time": 1672492318390,
-        "updated": 1672492501290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73289112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73289112.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "73289112",
-        "ids": ",hv73289112,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": null,
-        "rms": 0.170000002,
-        "gap": 147,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.377166748047,
-          19.246166229248,
-          29.3999996185303
-        ]
-      },
-      "id": "hv73289112"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Vanuatu",
-        "time": 1672491974539,
-        "updated": 1672508447040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j18y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j18y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000j18y",
-        "ids": ",us7000j18y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 4.03,
-        "rms": 0.84,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.2234,
-          -18.6293,
-          71.172
-        ]
-      },
-      "id": "us7000j18y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "South Sandwich Islands region",
-        "time": 1672491012368,
-        "updated": 1672492249040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j18u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j18u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000j18u",
-        "ids": ",us7000j18u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 7.115,
-        "rms": 0.46,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.6677,
-          -58.0365,
-          62.275
-        ]
-      },
-      "id": "us7000j18u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "35 km WNW of La Ligua, Chile",
-        "time": 1672490877911,
-        "updated": 1672518787392,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j18l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j18l.geojson",
-        "felt": 12,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 316,
-        "net": "us",
-        "code": "7000j18l",
-        "ids": ",us7000j18l,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.539,
-        "rms": 0.64,
-        "gap": 101,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.5 - 35 km WNW of La Ligua, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5481,
-          -32.2754,
-          56.199
-        ]
-      },
-      "id": "us7000j18l"
     }
   ],
   "bbox": [
     -173.1833,
     -58.8341,
     0,
-    168.2234,
+    155.1723,
     62.4239,
     195.856
   ]
