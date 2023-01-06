@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1672973043000,
+    "generated": 1672975023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "Island of Hawaii, Hawaii",
+        "time": 1672974279640,
+        "updated": 1672974609060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73297697",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73297697.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "hv",
+        "code": "73297697",
+        "ids": ",hv73297697,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 132,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Island of Hawaii, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.279830932617,
+          19.4226665496826,
+          -0.28999999165535
+        ]
+      },
+      "id": "hv73297697"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1175,7 +1215,7 @@
         "mag": 3.31,
         "place": "75 km NE of Punta Cana, Dominican Republic",
         "time": 1672891976230,
-        "updated": 1672893333820,
+        "updated": 1672974617040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71391048",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71391048.geojson",
@@ -1188,8 +1228,8 @@
         "sig": 169,
         "net": "pr",
         "code": "71391048",
-        "ids": ",pr71391048,",
-        "sources": ",pr,",
+        "ids": ",us7000j27s,pr71391048,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 14,
         "dmin": 0.8334,
@@ -1214,8 +1254,8 @@
       "properties": {
         "mag": 4.5,
         "place": "Reykjanes Ridge",
-        "time": 1672891390694,
-        "updated": 1672893866040,
+        "time": 1672891390474,
+        "updated": 1672974106040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j27w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j27w.geojson",
@@ -1232,8 +1272,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 34,
-        "dmin": 18.83,
-        "rms": 0.55,
+        "dmin": 18.837,
+        "rms": 0.52,
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
@@ -1242,8 +1282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.0439,
-          52.696,
+          -35.031,
+          52.6963,
           10
         ]
       },
@@ -1252,10 +1292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "35 km N of Santa Rosa, Peru",
-        "time": 1672889896619,
-        "updated": 1672890965040,
+        "mag": 4.8,
+        "place": "36 km N of Santa Rosa, Peru",
+        "time": 1672889896073,
+        "updated": 1672973686040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j27d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j27d.geojson",
@@ -1265,26 +1305,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 354,
         "net": "us",
         "code": "7000j27d",
         "ids": ",us7000j27d,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 2.371,
-        "rms": 0.86,
+        "nst": 157,
+        "dmin": 2.369,
+        "rms": 0.62,
         "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 35 km N of Santa Rosa, Peru"
+        "title": "M 4.8 - 36 km N of Santa Rosa, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.8769,
-          -10.5982,
-          113.258
+          -74.8881,
+          -10.5869,
+          117.625
         ]
       },
       "id": "us7000j27d"
@@ -1333,7 +1373,7 @@
   "bbox": [
     -155.39833068848,
     -59.3869,
-    0.57,
+    -0.28999999165535,
     166.8464,
     61.3549,
     193.786
