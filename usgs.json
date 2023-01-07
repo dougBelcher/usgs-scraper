@@ -1,29 +1,149 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673068439000,
+    "generated": 1673072285000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 42
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "Bering Strait",
+        "time": 1673070493152,
+        "updated": 1673071431444,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bo0wvb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bo0wvb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.45,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "023bo0wvb",
+        "ids": ",us7000j2r4,ak023bo0wvb,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.94,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - Bering Strait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.5928,
+          67.5953,
+          15
+        ]
+      },
+      "id": "ak023bo0wvb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "8 km SE of Pāhala, Hawaii",
+        "time": 1673069769930,
+        "updated": 1673070655040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73298462",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73298462.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "73298462",
+        "ids": ",us7000j2r2,hv73298462,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 171,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.424835205078,
+          19.1490001678467,
+          32.939998626709
+        ]
+      },
+      "id": "hv73298462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "229 km SSE of Tabiauan, Philippines",
+        "time": 1673068916171,
+        "updated": 1673070070040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2qz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2qz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j2qz",
+        "ids": ",us7000j2qz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 4.015,
+        "rms": 0.59,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 229 km SSE of Tabiauan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7883,
+          4.1517,
+          579.382
+        ]
+      },
+      "id": "us7000j2qz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
-        "place": "35 km ESE of Skwentna, Alaska",
-        "time": 1673065108422,
-        "updated": 1673066734041,
+        "place": "34 km ESE of Skwentna, Alaska",
+        "time": 1673065108899,
+        "updated": 1673071968434,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bn92yd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bn92yd.geojson",
         "felt": 2,
         "cdi": 3.4,
-        "mmi": 2.662,
+        "mmi": 2.643,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 149,
         "net": "ak",
@@ -33,18 +153,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.5,
+        "rms": 0.7,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 35 km ESE of Skwentna, Alaska"
+        "title": "M 3.1 - 34 km ESE of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.7375,
-          61.9103,
-          51.5
+          -150.7715,
+          61.898,
+          54.5
         ]
       },
       "id": "ak023bn92yd"
@@ -248,6 +368,46 @@
         ]
       },
       "id": "us7000j2pr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "2 km NNE of Míthymna, Greece",
+        "time": 1673056378305,
+        "updated": 1673068542127,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2pq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2pq.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 341,
+        "net": "us",
+        "code": "7000j2pq",
+        "ids": ",us7000j2pq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 61,
+        "dmin": 1.496,
+        "rms": 0.7,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 2 km NNE of Míthymna, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.19,
+          39.3915,
+          10
+        ]
+      },
+      "id": "us7000j2pq"
     },
     {
       "type": "Feature",
@@ -1133,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "57 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1673011663959,
         "updated": 1673021242623,
         "tz": null,
@@ -1157,7 +1317,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 57 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1255,11 +1415,11 @@
         "mag": 3.27,
         "place": "3km SW of Humboldt Hill, CA",
         "time": 1673008039500,
-        "updated": 1673068299201,
+        "updated": 1673069679752,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73829331",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73829331.geojson",
-        "felt": 203,
+        "felt": 205,
         "cdi": 3.4,
         "mmi": 3.262,
         "alert": null,
@@ -1528,54 +1688,14 @@
         ]
       },
       "id": "pr71391223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "130 km ENE of Tadine, New Caledonia",
-        "time": 1672983365518,
-        "updated": 1672995312040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2hm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2hm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000j2hm",
-        "ids": ",us7000j2hm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.172,
-        "rms": 0.72,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 130 km ENE of Tadine, New Caledonia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.9641,
-          -20.9535,
-          10
-        ]
-      },
-      "id": "us7000j2hm"
     }
   ],
   "bbox": [
     -179.948,
     -34.3691,
     2.219,
-    168.9641,
-    62.9913,
-    574.355
+    144.9428,
+    67.5953,
+    579.382
   ]
 }
