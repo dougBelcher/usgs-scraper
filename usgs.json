@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673161979000,
+    "generated": 1673165951000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "Puerto Rico region",
-        "time": 1673161178000,
-        "updated": 1673161712103,
+        "mag": 2.66,
+        "place": "2km NNE of The Geysers, CA",
+        "time": 1673163776600,
+        "updated": 1673164150346,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt23008050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt23008050.geojson",
-        "felt": 1,
-        "cdi": 2.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73829906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73829906.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 340,
-        "net": "pt",
-        "code": "23008050",
-        "ids": ",pt23008050,",
-        "sources": ",pt,",
-        "types": ",dyfi,origin,",
-        "nst": 13,
+        "sig": 109,
+        "net": "nc",
+        "code": "73829906",
+        "ids": ",nc73829906,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
         "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Ml",
+        "rms": 0.25,
+        "gap": 143,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.7 - Puerto Rico region"
+        "title": "M 2.7 - 2km NNE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.069,
-          19.016,
-          10
+          -122.7473297,
+          38.7941666,
+          -0.63
         ]
       },
-      "id": "pt23008050"
+      "id": "nc73829906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "65 km SE of Denali National Park, Alaska",
+        "time": 1673162910302,
+        "updated": 1673164356040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dcmvjq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dcmvjq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "023dcmvjq",
+        "ids": ",us7000j2xl,ak023dcmvjq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 65 km SE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6501,
+          63.2111,
+          130.2
+        ]
+      },
+      "id": "ak023dcmvjq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.16,
+        "place": "75 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1673161178660,
+        "updated": 1673164942723,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023008000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023008000.geojson",
+        "felt": 16,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 272,
+        "net": "pr",
+        "code": "2023008000",
+        "ids": ",pt23008050,us7000j2x9,pr2023008000,",
+        "sources": ",pt,us,pr,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.6691,
+        "rms": 0.18,
+        "gap": 201,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.2 - 75 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0768,
+          19.0126,
+          23
+        ]
+      },
+      "id": "pr2023008000"
     },
     {
       "type": "Feature",
@@ -1175,11 +1255,11 @@
         "mag": 2.5,
         "place": "2 km SSW of Pointe-Calumet, Canada",
         "time": 1673085558526,
-        "updated": 1673155481529,
+        "updated": 1673164692584,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2s6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2s6.geojson",
-        "felt": 64,
+        "felt": 65,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -1288,134 +1368,14 @@
         ]
       },
       "id": "us7000j2s0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "12 km SSW of Bni Bouayach, Morocco",
-        "time": 1673079148146,
-        "updated": 1673120774186,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j2ru",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j2ru.geojson",
-        "felt": 6,
-        "cdi": 5.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 419,
-        "net": "us",
-        "code": "7000j2ru",
-        "ids": ",us7000j2ru,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 156,
-        "dmin": 2.245,
-        "rms": 0.57,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 12 km SSW of Bni Bouayach, Morocco"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.8945,
-          35.0003,
-          10
-        ]
-      },
-      "id": "us7000j2ru"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "74 km NNE of Vieques, Puerto Rico",
-        "time": 1673078020630,
-        "updated": 1673080355512,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71391428",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71391428.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71391428",
-        "ids": ",pr71391428,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.7273,
-        "rms": 0.11,
-        "gap": 253,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 74 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4813333333333,
-          19.0136666666667,
-          42.29
-        ]
-      },
-      "id": "pr71391428"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "3 km SW of Guánica, Puerto Rico",
-        "time": 1673077359940,
-        "updated": 1673078446770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71391413",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71391413.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71391413",
-        "ids": ",pr71391413,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.03409,
-        "rms": 0.08,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 3 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9365,
-          17.9506666666667,
-          10.07
-        ]
-      },
-      "id": "pr71391413"
     }
   ],
   "bbox": [
     -179.1652,
     -56.349,
-    0.38,
+    -0.63,
     179.8875,
-    61.3493,
+    63.2111,
     582.979
   ]
 }
