@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673288415000,
+    "generated": 1673291595000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "4 km NW of Tanaina, Alaska",
+        "time": 1673289262708,
+        "updated": 1673289387106,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023f6r9fi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023f6r9fi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023f6r9fi",
+        "ids": ",ak023f6r9fi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km NW of Tanaina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4908,
+          61.6604,
+          37.8
+        ]
+      },
+      "id": "ak023f6r9fi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Kepulauan Tanimbar, Indonesia",
+        "time": 1673287793488,
+        "updated": 1673289580592,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j38c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j38c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.863,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000j38c",
+        "ids": ",us7000j38c,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 40,
+        "dmin": 1.485,
+        "rms": 0.96,
+        "gap": 36,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - Kepulauan Tanimbar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0796,
+          -7.1141,
+          102.682
+        ]
+      },
+      "id": "us7000j38c"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.75,
         "place": "1km NNW of The Geysers, CA",
         "time": 1673286545960,
-        "updated": 1673287413400,
+        "updated": 1673290691654,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830356.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -55,22 +135,22 @@
         "mag": 7.6,
         "place": "Kepulauan Tanimbar, Indonesia",
         "time": 1673286454301,
-        "updated": 1673288255197,
+        "updated": 1673291560440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j36j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j36j.geojson",
-        "felt": 38,
-        "cdi": 5.1,
+        "felt": 102,
+        "cdi": 5,
         "mmi": 7.238,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 908,
+        "sig": 940,
         "net": "us",
         "code": "7000j36j",
         "ids": ",us7000j36j,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 48,
         "dmin": 1.535,
         "rms": 0.89,
@@ -1368,54 +1448,14 @@
         ]
       },
       "id": "us7000j30u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "south of the Fiji Islands",
-        "time": 1673202744857,
-        "updated": 1673206284040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j30q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j30q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000j30q",
-        "ids": ",us7000j30q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 8.266,
-        "rms": 0.78,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.8195,
-          -25.886,
-          498.211
-        ]
-      },
-      "id": "us7000j30q"
     }
   ],
   "bbox": [
     -178.7526,
     -59.3336,
     -1.59,
-    179.8195,
-    60.4553,
+    166.8311,
+    61.6604,
     593.383
   ]
 }
