@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673331676000,
+    "generated": 1673334857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "74 km NE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1673330510835,
-        "updated": 1673330908040,
+        "mag": 2.73,
+        "place": "3km NE of San Leandro, CA",
+        "time": 1673333989800,
+        "updated": 1673334512012,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3cd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3cd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830631.geojson",
+        "felt": 28,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "nc",
+        "code": "73830631",
+        "ids": ",nc73830631,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 64,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 36,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3km NE of San Leandro, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1301651,
+          37.7398338,
+          5.91
+        ]
+      },
+      "id": "nc73830631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "8 km NW of Puerto Real, Puerto Rico",
+        "time": 1673331541530,
+        "updated": 1673332932800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71391968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71391968.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000j3cd",
-        "ids": ",us7000j3cd,",
-        "sources": ",us,",
+        "sig": 106,
+        "net": "pr",
+        "code": "71391968",
+        "ids": ",pr71391968,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.759,
-        "rms": 0.32,
-        "gap": 221,
-        "magType": "ml",
+        "nst": 11,
+        "dmin": 0.1529,
+        "rms": 0.26,
+        "gap": 245,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 74 km NE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 2.6 - 8 km NW of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.365,
-          18.8667,
-          35
+          -67.2398333333333,
+          18.1315,
+          19.61
         ]
       },
-      "id": "us7000j3cd"
+      "id": "pr71391968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.83,
+        "place": "70 km NE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1673330512710,
+        "updated": 1673332033151,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023010001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023010001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 226,
+        "net": "pr",
+        "code": "2023010001",
+        "ids": ",us7000j3cd,pr2023010001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.7407,
+        "rms": 0.21,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 70 km NE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.405,
+          18.8468,
+          37
+        ]
+      },
+      "id": "pr2023010001"
     },
     {
       "type": "Feature",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Myanmar",
+        "place": "71 km NNW of Sarupathar, India",
         "time": 1673314980200,
         "updated": 1673318291971,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Myanmar"
+        "title": "M 4.6 - 71 km NNW of Sarupathar, India"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "Virgin Islands",
+        "place": "109 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1673309533230,
         "updated": 1673312321240,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 297,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands"
+        "title": "M 3.4 - 109 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "23 km NNE of Eloúnda, Greece",
+        "place": "Crete, Greece",
         "time": 1673305198047,
         "updated": 1673306784588,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 23 km NNE of Eloúnda, Greece"
+        "title": "M 4.2 - Crete, Greece"
       },
       "geometry": {
         "type": "Point",
@@ -415,11 +495,11 @@
         "mag": 4.7,
         "place": "Sunda Strait, Indonesia",
         "time": 1673304086406,
-        "updated": 1673313824395,
+        "updated": 1673333771979,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3as",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3as.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 1,
         "mmi": null,
         "alert": null,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Kepulauan Tanimbar, Indonesia",
+        "place": "Pulau Pulau Tanimbar, Indonesia",
         "time": 1673302829088,
         "updated": 1673308568040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Kepulauan Tanimbar, Indonesia"
+        "title": "M 4.1 - Pulau Pulau Tanimbar, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +575,17 @@
         "mag": 2.78,
         "place": "4km SW of San Juan Bautista, CA",
         "time": 1673300942410,
-        "updated": 1673329630634,
+        "updated": 1673334651636,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830451",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830451.geojson",
-        "felt": 15,
+        "felt": 18,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 124,
         "net": "nc",
         "code": "73830451",
         "ids": ",nc73830451,us7000j3ab,",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "65 km W of Luganville, Vanuatu",
+        "place": "Vanuatu",
         "time": 1673299314301,
         "updated": 1673303499040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 57,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 65 km W of Luganville, Vanuatu"
+        "title": "M 5.0 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.14,
-        "place": "Puerto Rico region",
+        "place": "67 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1673267565190,
         "updated": 1673270290000,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 265,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 67 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Taiwan",
+        "place": "68 km SSW of Hualien City, Taiwan",
         "time": 1673263908858,
         "updated": 1673265175040,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 96,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - Taiwan"
+        "title": "M 4.2 - 68 km SSW of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Bismarck Sea",
+        "place": "124 km N of Kimbe, Papua New Guinea",
         "time": 1673262741298,
         "updated": 1673329774040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Bismarck Sea"
+        "title": "M 4.3 - 124 km N of Kimbe, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1375,7 +1455,7 @@
         "mag": 2.63,
         "place": "12km S of Olancha, CA",
         "time": 1673261269280,
-        "updated": 1673300465080,
+        "updated": 1673333596040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40154919",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40154919.geojson",
@@ -1388,8 +1468,8 @@
         "sig": 107,
         "net": "ci",
         "code": "40154919",
-        "ids": ",ci40154919,",
-        "sources": ",ci,",
+        "ids": ",ci40154919,us7000j33t,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
         "dmin": 0.085,
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.17,
-        "place": "Puerto Rico region",
+        "place": "75 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1673254007910,
         "updated": 1673254756190,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 274,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 75 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "112 km SE of Shizunai-furukawachō, Japan",
+        "place": "Hokkaido, Japan region",
         "time": 1673253477274,
         "updated": 1673268288040,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 112 km SE of Shizunai-furukawachō, Japan"
+        "title": "M 4.2 - Hokkaido, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1688,126 +1768,6 @@
         ]
       },
       "id": "us7000j32x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "33 km NNE of Eloúnda, Greece",
-        "time": 1673248317677,
-        "updated": 1673277567617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j32w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j32w.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000j32w",
-        "ids": ",us7000j32w,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 1.961,
-        "rms": 0.44,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 33 km NNE of Eloúnda, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.8502,
-          35.5454,
-          10
-        ]
-      },
-      "id": "us7000j32w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "156 km SE of Kokopo, Papua New Guinea",
-        "time": 1673245457232,
-        "updated": 1673254947040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j32n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j32n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000j32n",
-        "ids": ",us7000j32n,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 79,
-        "dmin": 1.582,
-        "rms": 0.52,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 156 km SE of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.3525,
-          -5.2463,
-          36.269
-        ]
-      },
-      "id": "us7000j32n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "52 km ENE of Fort Bidwell, California",
-        "time": 1673245444480,
-        "updated": 1673301013331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00854671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00854671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00854671",
-        "ids": ",nn00854671,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.571,
-        "rms": 0.1551,
-        "gap": 129,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 52 km ENE of Fort Bidwell, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5431,
-          41.9789,
-          2.9
-        ]
-      },
-      "id": "nn00854671"
     }
   ],
   "bbox": [
