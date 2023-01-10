@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673388969000,
+    "generated": 1673392560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "233 km SW of Yakutat, Alaska",
+        "time": 1673387153224,
+        "updated": 1673391667040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3hx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3hx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000j3hx",
+        "ids": ",us7000j3hx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.051,
+        "rms": 0.34,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 233 km SW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.6485,
+          58.097,
+          15.166
+        ]
+      },
+      "id": "us7000j3hx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "30 km S of Lambaréné, Gabon",
+        "time": 1673387114280,
+        "updated": 1673391135040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3i2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3i2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000j3i2",
+        "ids": ",us7000j3i2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 12.342,
+        "rms": 0.53,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 30 km S of Lambaréné, Gabon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2509,
+          -0.9801,
+          10
+        ]
+      },
+      "id": "us7000j3i2"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.12,
         "place": "3km WSW of San Juan Bautista, CA",
         "time": 1673386027070,
-        "updated": 1673388100068,
+        "updated": 1673392032857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830836.geojson",
-        "felt": 18,
+        "felt": 22,
         "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 155,
+        "sig": 156,
         "net": "nc",
         "code": "73830836",
-        "ids": ",nc73830836,",
-        "sources": ",nc,",
+        "ids": ",nc73830836,us7000j3hu,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 51,
         "dmin": 0.05273,
@@ -212,32 +292,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.44,
+        "mag": 3.61,
         "place": "6km E of McKinleyville, CA",
         "time": 1673375534700,
-        "updated": 1673388078305,
+        "updated": 1673392083758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830791",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830791.geojson",
-        "felt": 612,
+        "felt": 632,
         "cdi": 3.6,
-        "mmi": 3.223,
+        "mmi": 3.233,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 428,
         "net": "nc",
         "code": "73830791",
         "ids": ",nc73830791,us7000j3gt,",
         "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 45,
         "dmin": 0.1389,
         "rms": 0.14,
         "gap": 107,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.4 - 6km E of McKinleyville, CA"
+        "title": "M 3.6 - 6km E of McKinleyville, CA"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "western Texas",
+        "place": "55 km S of Whites City, New Mexico",
         "time": 1673366506672,
         "updated": 1673377878061,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - western Texas"
+        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -455,7 +535,7 @@
         "mag": 3.15,
         "place": "10km ENE of Porterville, CA",
         "time": 1673364890590,
-        "updated": 1673387793099,
+        "updated": 1673391447720,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40155183",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40155183.geojson",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "106 km SW of Jiquilillo, Nicaragua",
+        "place": "off the coast of Central America",
         "time": 1673339265701,
         "updated": 1673340837040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 106 km SW of Jiquilillo, Nicaragua"
+        "title": "M 4.7 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "15 km E of Murghob, Tajikistan",
+        "place": "Tajikistan-Xinjiang border region",
         "time": 1673336578395,
         "updated": 1673338611040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 15 km E of Murghob, Tajikistan"
+        "title": "M 4.4 - Tajikistan-Xinjiang border region"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "6 km SW of Behram, Turkey",
+        "place": "near the coast of western Turkey",
         "time": 1673336311473,
         "updated": 1673381771040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 6 km SW of Behram, Turkey"
+        "title": "M 4.9 - near the coast of western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -815,17 +895,17 @@
         "mag": 2.73,
         "place": "3km NE of San Leandro, CA",
         "time": 1673333989800,
-        "updated": 1673388147868,
+        "updated": 1673391320708,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830631",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830631.geojson",
-        "felt": 634,
+        "felt": 637,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 419,
+        "sig": 420,
         "net": "nc",
         "code": "73830631",
         "ids": ",nc73830631,us7000j3ch,",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "8 km NW of Puerto Real, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1673331541530,
         "updated": 1673332932800,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 8 km NW of Puerto Real, Puerto Rico"
+        "title": "M 2.6 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.83,
-        "place": "70 km NE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1673330512710,
         "updated": 1673332033151,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - 70 km NE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.8 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1093,9 +1173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "71 km NNW of Sarupathar, India",
-        "time": 1673314980200,
-        "updated": 1673318291971,
+        "place": "73 km NNW of Sarupathar, India",
+        "time": 1673314978343,
+        "updated": 1673389528744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3bs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3bs.geojson",
@@ -1111,20 +1191,20 @@
         "ids": ",us7000j3bs,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 7.431,
-        "rms": 0.44,
+        "nst": 58,
+        "dmin": 7.45,
+        "rms": 0.36,
         "gap": 114,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 71 km NNW of Sarupathar, India"
+        "title": "M 4.6 - 73 km NNW of Sarupathar, India"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          96.4952,
-          26.7831,
-          26.126
+          96.4856,
+          26.8008,
+          12.719
         ]
       },
       "id": "us7000j3bs"
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "109 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1673309533230,
         "updated": 1673312321240,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 297,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 109 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.4 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1288,126 +1368,6 @@
         ]
       },
       "id": "tx2023aqki"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Crete, Greece",
-        "time": 1673305198047,
-        "updated": 1673306784588,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3b4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3b4.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000j3b4",
-        "ids": ",us7000j3b4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 2.023,
-        "rms": 0.51,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Crete, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.8082,
-          35.4639,
-          10
-        ]
-      },
-      "id": "us7000j3b4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Sunda Strait, Indonesia",
-        "time": 1673304086406,
-        "updated": 1673333771979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3as",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3as.geojson",
-        "felt": 2,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000j3as",
-        "ids": ",us7000j3as,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 2.664,
-        "rms": 0.63,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Sunda Strait, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          104.7949,
-          -6.3076,
-          43.156
-        ]
-      },
-      "id": "us7000j3as"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": 1673302829088,
-        "updated": 1673308568040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3ai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000j3ai",
-        "ids": ",us7000j3ai,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.584,
-        "rms": 0.51,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Pulau Pulau Tanimbar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.0002,
-          -7.0543,
-          103.712
-        ]
-      },
-      "id": "us7000j3ai"
     }
   ],
   "bbox": [
@@ -1415,7 +1375,7 @@
     -31.7346,
     0.3,
     167.2362,
-    55.3437,
+    58.097,
     576.266
   ]
 }
