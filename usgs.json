@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673414101000,
+    "generated": 1673418018000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "16 km SSW of Henefer, Utah",
-        "time": 1673412615752,
-        "updated": 1673414075049,
+        "place": "281 km SSE of Chiniak, Alaska",
+        "time": 1673414350134,
+        "updated": 1673417567882,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3k6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3k6.geojson",
-        "felt": 32,
-        "cdi": 3.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ia06ft",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ia06ft.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 121,
+        "net": "ak",
+        "code": "023ia06ft",
+        "ids": ",ak023ia06ft,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 281 km SSE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8529,
+          55.4657,
+          5
+        ]
+      },
+      "id": "ak023ia06ft"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Utah",
+        "time": 1673412615752,
+        "updated": 1673417456382,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3k6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3k6.geojson",
+        "felt": 59,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
         "net": "us",
         "code": "7000j3k6",
         "ids": ",us7000j3k6,",
@@ -37,7 +77,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSW of Henefer, Utah"
+        "title": "M 2.8 - Utah"
       },
       "geometry": {
         "type": "Point",
@@ -95,21 +135,21 @@
         "mag": 3.7,
         "place": "54 km ESE of Akutan, Alaska",
         "time": 1673407723686,
-        "updated": 1673408601040,
+        "updated": 1673417488783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3jh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3jh.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.935,
+        "mmi": 1.744,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "us",
         "code": "7000j3jh",
-        "ids": ",us7000j3jh,ak023i8v7nr,",
-        "sources": ",us,ak,",
+        "ids": ",ak023i8v7nr,us7000j3jh,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 27,
         "dmin": 0.488,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000j3jh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "near the south coast of Honshu, Japan",
+        "time": 1673407185679,
+        "updated": 1673417742835,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3k9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3k9.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000j3k9",
+        "ids": ",us7000j3k9,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.111,
+        "rms": 0.33,
+        "gap": 152,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - near the south coast of Honshu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1796,
+          35.4321,
+          30.943
+        ]
+      },
+      "id": "us7000j3k9"
     },
     {
       "type": "Feature",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "214 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1673382096251,
         "updated": 1673395088442,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 214 km SE of Perryville, Alaska"
+        "title": "M 3.8 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -575,17 +655,17 @@
         "mag": 3.61,
         "place": "6km E of McKinleyville, CA",
         "time": 1673375534700,
-        "updated": 1673413538269,
+        "updated": 1673417871166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73830791",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73830791.geojson",
-        "felt": 678,
+        "felt": 687,
         "cdi": 3.6,
         "mmi": 3.233,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 445,
+        "sig": 448,
         "net": "nc",
         "code": "73830791",
         "ids": ",nc73830791,us7000j3gt,",
@@ -773,19 +853,19 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1673366506672,
-        "updated": 1673409924709,
+        "updated": 1673416205002,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023arrh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023arrh.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "tx",
         "code": "2023arrh",
         "ids": ",tx2023arrh,us7000j3er,",
@@ -797,7 +877,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "off the coast of Central America",
+        "place": "106 km SW of Jiquilillo, Nicaragua",
         "time": 1673339265701,
         "updated": 1673340837040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - off the coast of Central America"
+        "title": "M 4.7 - 106 km SW of Jiquilillo, Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Tajikistan-Xinjiang border region",
+        "place": "15 km E of Murghob, Tajikistan",
         "time": 1673336578395,
         "updated": 1673338611040,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Tajikistan-Xinjiang border region"
+        "title": "M 4.4 - 15 km E of Murghob, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "near the coast of western Turkey",
+        "place": "6 km SW of Behram, Turkey",
         "time": 1673336311473,
         "updated": 1673381771040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - near the coast of western Turkey"
+        "title": "M 4.9 - 6 km SW of Behram, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1248,173 +1328,13 @@
         ]
       },
       "id": "nc73830631"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "Mona Passage",
-        "time": 1673331541530,
-        "updated": 1673332932800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71391968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71391968.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71391968",
-        "ids": ",pr71391968,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1529,
-        "rms": 0.26,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2398333333333,
-          18.1315,
-          19.61
-        ]
-      },
-      "id": "pr71391968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "4 km WSW of Kahaluu-Keauhou, Hawaii",
-        "time": 1673331227520,
-        "updated": 1673387592551,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73300642",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73300642.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "hv",
-        "code": "73300642",
-        "ids": ",hv73300642,us7000j3ce,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 49,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 235,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km WSW of Kahaluu-Keauhou, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.004333333333,
-          19.5533333333333,
-          36.72
-        ]
-      },
-      "id": "hv73300642"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.83,
-        "place": "Virgin Islands",
-        "time": 1673330512710,
-        "updated": 1673332033151,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023010001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023010001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 226,
-        "net": "pr",
-        "code": "2023010001",
-        "ids": ",us7000j3cd,pr2023010001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.7407,
-        "rms": 0.21,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.405,
-          18.8468,
-          37
-        ]
-      },
-      "id": "pr2023010001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "18 km ENE of Port-Olry, Vanuatu",
-        "time": 1673328288618,
-        "updated": 1673335677483,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3cb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3cb.geojson",
-        "felt": 3,
-        "cdi": 3.8,
-        "mmi": 4.143,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 501,
-        "net": "us",
-        "code": "7000j3cb",
-        "ids": ",us7000j3cb,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 92,
-        "dmin": 0.442,
-        "rms": 0.66,
-        "gap": 27,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 18 km ENE of Port-Olry, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.2362,
-          -15.0035,
-          109.853
-        ]
-      },
-      "id": "us7000j3cb"
     }
   ],
   "bbox": [
     -174.41,
     -31.7346,
     -0.89,
-    167.2362,
+    166.06,
     62.1549,
     576.266
   ]
