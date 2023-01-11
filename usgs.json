@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673443582000,
+    "generated": 1673446942000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "22 km SSW of Glacier View, Alaska",
         "time": 1673442480524,
-        "updated": 1673442567099,
+        "updated": 1673445601688,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023iep62s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023iep62s.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "023iep62s",
         "ids": ",ak023iep62s,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.61,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak023iep62s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "east of the Kuril Islands",
+        "time": 1673441938949,
+        "updated": 1673445012040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3n1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3n1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000j3n1",
+        "ids": ",us7000j3n1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 7.223,
+        "rms": 0.54,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - east of the Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.6977,
+          46.1591,
+          10
+        ]
+      },
+      "id": "us7000j3n1"
     },
     {
       "type": "Feature",
@@ -135,7 +175,7 @@
         "mag": 5.6,
         "place": "Tonga region",
         "time": 1673436627934,
-        "updated": 1673438762635,
+        "updated": 1673444067220,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3mj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3mj.geojson",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "near the coast of southern Peru",
+        "place": "68 km WSW of Atico, Peru",
         "time": 1673432124621,
         "updated": 1673433763040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 172,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - near the coast of southern Peru"
+        "title": "M 4.5 - 68 km WSW of Atico, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "40 km WNW of Port-Olry, Vanuatu",
+        "place": "Vanuatu",
         "time": 1673426393573,
         "updated": 1673433832270,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 26,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 40 km WNW of Port-Olry, Vanuatu"
+        "title": "M 5.8 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "167 km ENE of Nabire, Indonesia",
+        "place": "Near the north coast of Papua, Indonesia",
         "time": 1673423962456,
         "updated": 1673426140040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 167 km ENE of Nabire, Indonesia"
+        "title": "M 4.8 - Near the north coast of Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "45 km E of Port Alsworth, Alaska",
+        "place": "Southern Alaska",
         "time": 1673423475368,
         "updated": 1673423719043,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 45 km E of Port Alsworth, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Gulf of Alaska",
+        "place": "281 km SSE of Chiniak, Alaska",
         "time": 1673414350134,
         "updated": 1673417567882,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Gulf of Alaska"
+        "title": "M 2.8 - 281 km SSE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -533,19 +573,19 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "16 km SSW of Henefer, Utah",
+        "place": "Utah",
         "time": 1673412615752,
-        "updated": 1673440734826,
+        "updated": 1673445937618,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3k6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3k6.geojson",
-        "felt": 61,
+        "felt": 65,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 143,
         "net": "us",
         "code": "7000j3k6",
         "ids": ",us7000j3k6,",
@@ -557,7 +597,7 @@
         "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSW of Henefer, Utah"
+        "title": "M 2.8 - Utah"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +695,17 @@
         "mag": 3.9,
         "place": "near the south coast of Honshu, Japan",
         "time": 1673407185679,
-        "updated": 1673427054402,
+        "updated": 1673446753099,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3k9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3k9.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 235,
+        "sig": 236,
         "net": "us",
         "code": "7000j3k9",
         "ids": ",us7000j3k9,",
@@ -688,6 +728,46 @@
         ]
       },
       "id": "us7000j3k9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "14 km N of Summit Park, Utah",
+        "time": 1673405460170,
+        "updated": 1673446589930,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60529507",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60529507.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "uu",
+        "code": "60529507",
+        "ids": ",uu60529507,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.1116,
+        "rms": 0.17,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km N of Summit Park, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5825,
+          40.8701667,
+          6.26
+        ]
+      },
+      "id": "uu60529507"
     },
     {
       "type": "Feature",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "214 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1673382096251,
         "updated": 1673395088442,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 214 km SE of Perryville, Alaska"
+        "title": "M 3.8 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1135,7 @@
         "mag": 5,
         "place": "201 km SE of Perryville, Alaska",
         "time": 1673379723142,
-        "updated": 1673423525551,
+        "updated": 1673445125212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023guxpjr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023guxpjr.geojson",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1673366506672,
         "updated": 1673416205002,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us7000j3ej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "240 km SW of Merizo Village, Guam",
-        "time": 1673359722591,
-        "updated": 1673364360040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3ec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000j3ec",
-        "ids": ",us7000j3ec,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.525,
-        "rms": 0.91,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 240 km SW of Merizo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.1585,
-          11.6832,
-          10
-        ]
-      },
-      "id": "us7000j3ec"
     }
   ],
   "bbox": [
