@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673504411000,
+    "generated": 1673507635000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Near the coast of Coquimbo, Chile",
+        "time": 1673504351474,
+        "updated": 1673507143916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ty",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3ty.geojson",
+        "felt": 8,
+        "cdi": 4.1,
+        "mmi": 4.515,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 469,
+        "net": "us",
+        "code": "7000j3ty",
+        "ids": ",us7000j3ty,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 93,
+        "dmin": 0.352,
+        "rms": 0.77,
+        "gap": 41,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Near the coast of Coquimbo, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2294,
+          -30.636,
+          56.702
+        ]
+      },
+      "id": "us7000j3ty"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.82,
-        "place": "3 km W of Miranda, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1673490748840,
         "updated": 1673493505050,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 3 km W of Miranda, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -852,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Chile-Bolivia border region",
+        "time": 1673438610689,
+        "updated": 1673506363040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3mp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3mp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000j3mp",
+        "ids": ",us7000j3mp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.034,
+        "rms": 0.23,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Chile-Bolivia border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5025,
+          -21.521,
+          151.233
+        ]
+      },
+      "id": "us7000j3mp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "193 km SW of Tual, Indonesia",
         "time": 1673438007170,
@@ -928,6 +1008,46 @@
         ]
       },
       "id": "us7000j3mj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "southern Idaho",
+        "time": 1673434573846,
+        "updated": 1673506164040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3lg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j3lg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000j3lg",
+        "ids": ",us7000j3lg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.861,
+        "rms": 1.1,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - southern Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.15,
+          44.2674,
+          10
+        ]
+      },
+      "id": "us7000j3lg"
     },
     {
       "type": "Feature",
@@ -1248,92 +1368,12 @@
         ]
       },
       "id": "ak023ibdtev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "100 km NW of Yakutat, Alaska",
-        "time": 1673420447935,
-        "updated": 1673452394040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ib2ygy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ib2ygy.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": 4.91,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 312,
-        "net": "ak",
-        "code": "023ib2ygy",
-        "ids": ",ak023ib2ygy,at00rob7he,us7000j3kk,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 100 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.0609,
-          60.155,
-          5
-        ]
-      },
-      "id": "ak023ib2ygy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "2 km SSE of La Parguera, Puerto Rico",
-        "time": 1673418928090,
-        "updated": 1673420439270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71392208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71392208.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71392208",
-        "ids": ",pr71392208,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01254,
-        "rms": 0.1,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SSE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0363333333333,
-          17.9593333333333,
-          6.34
-        ]
-      },
-      "id": "pr71392208"
     }
   ],
   "bbox": [
     -177.2449,
     -55.381,
-    5,
+    6.594311523,
     166.7486,
     61.6125,
     177.7
