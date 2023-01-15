@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673809895000,
+    "generated": 1673813732000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "19 km SE of Córdoba, Colombia",
+        "time": 1673805559735,
+        "updated": 1673811056040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4jw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4jw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000j4jw",
+        "ids": ",us7000j4jw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.405,
+        "rms": 0.79,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 19 km SE of Córdoba, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3832,
+          0.7426,
+          9.463
+        ]
+      },
+      "id": "us7000j4jw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 2.65,
         "place": "16km WNW of Lopez Point, CA",
         "time": 1673775431800,
-        "updated": 1673777052303,
+        "updated": 1673812072213,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832206",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832206.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -630,7 +670,7 @@
         "code": "73832206",
         "ids": ",nc73832206,us7000j4i2,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": 0.1238,
         "rms": 0.15,
@@ -1095,7 +1135,7 @@
         "mag": 4.7,
         "place": "14 km NE of Doğanyol, Turkey",
         "time": 1673753788193,
-        "updated": 1673768634985,
+        "updated": 1673810449543,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4gh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4gh.geojson",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000j4fa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Taiwan region",
-        "time": 1673725226204,
-        "updated": 1673747216861,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4f5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4f5.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000j4f5",
-        "ids": ",us7000j4f5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.811,
-        "rms": 0.55,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Taiwan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.5648,
-          25.1721,
-          179.692
-        ]
-      },
-      "id": "us7000j4f5"
     }
   ],
   "bbox": [
