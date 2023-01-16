@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1673907260000,
+    "generated": 1673910932000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69,
-        "place": "5 km SW of Dibble, Oklahoma",
-        "time": 1673906908925,
-        "updated": 1673907088298,
+        "mag": 2.74,
+        "place": "16km WSW of Ferndale, CA",
+        "time": 1673910816390,
+        "updated": 1673910911068,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bdcj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bdcj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832961",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832961.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 116,
+        "net": "nc",
+        "code": "73832961",
+        "ids": ",nc73832961,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.08309,
+        "rms": 0.09,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 16km WSW of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4346695,
+          40.5131683,
+          16.37
+        ]
+      },
+      "id": "nc73832961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "5 km SW of Dibble, Oklahoma",
+        "time": 1673906908925,
+        "updated": 1673909668040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bdcj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bdcj.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
         "net": "ok",
         "code": "2023bdcj",
-        "ids": ",ok2023bdcj,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2023bdcj,us7000j4sl,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 0.1048872694,
         "rms": 0.8264851344,
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.2,
+        "place": "22 km NNE of Sabang Indan, Philippines",
+        "time": 1673906258829,
+        "updated": 1673909757702,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4sk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4sk.geojson",
+        "felt": 3,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 417,
+        "net": "us",
+        "code": "7000j4sk",
+        "ids": ",us7000j4sk,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 90,
+        "dmin": 7.723,
+        "rms": 0.55,
+        "gap": 73,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 22 km NNE of Sabang Indan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9956,
+          14.4102,
+          10
+        ]
+      },
+      "id": "us7000j4sk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "49 km SE of Lata, Solomon Islands",
+        "place": "Santa Cruz Islands",
         "time": 1673904607953,
         "updated": 1673906429040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 49 km SE of Lata, Solomon Islands"
+        "title": "M 4.8 - Santa Cruz Islands"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "71 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1673893471520,
         "updated": 1673894059160,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 278,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 71 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.0 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -215,17 +295,17 @@
         "mag": 4.6,
         "place": "10 km N of Meadow Lakes, Alaska",
         "time": 1673891007373,
-        "updated": 1673907135422,
+        "updated": 1673910700602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023qqz70l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023qqz70l.geojson",
-        "felt": 657,
+        "felt": 683,
         "cdi": 3.4,
-        "mmi": 3.425,
+        "mmi": 3.753,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 549,
+        "sig": 558,
         "net": "ak",
         "code": "023qqz70l",
         "ids": ",ak023qqz70l,at00rolake,us7000j4q9,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Salta, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1673884059840,
         "updated": 1673885107040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 51,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - Salta, Argentina"
+        "title": "M 5.0 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "10 km SE of Comapa, Guatemala",
+        "place": "Guatemala",
         "time": 1673869398410,
         "updated": 1673870142040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 155,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 10 km SE of Comapa, Guatemala"
+        "title": "M 4.0 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Xinjiang-Xizang border region",
+        "place": "149 km S of Hotan, China",
         "time": 1673868581803,
         "updated": 1673869541040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Xinjiang-Xizang border region"
+        "title": "M 4.2 - 149 km S of Hotan, China"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "81 km NNE of Calama, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1673855432314,
         "updated": 1673883774821,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 81 km NNE of Calama, Chile"
+        "title": "M 5.0 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "31 km SSE of Mina, Nevada",
+        "place": "Nevada",
         "time": 1673855204347,
         "updated": 1673855326755,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 131.94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 31 km SSE of Mina, Nevada"
+        "title": "M 2.6 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Alaska Peninsula",
+        "place": "123 km WSW of Akhiok, Alaska",
         "time": 1673842856021,
         "updated": 1673843175040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Alaska Peninsula"
+        "title": "M 2.6 - 123 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "171 km ENE of Lospalos, Timor Leste",
         "time": 1673841096346,
         "updated": 1673842389040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 128,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.3 - 171 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1135,12 +1215,12 @@
         "mag": 4.5,
         "place": "3 km E of Zapotitlán, Guatemala",
         "time": 1673834042872,
-        "updated": 1673845242090,
+        "updated": 1673909823129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4ly",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4ly.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1150,7 +1230,7 @@
         "code": "7000j4ly",
         "ids": ",us7000j4ly,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": 52,
         "dmin": 0.23,
         "rms": 0.59,
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.73,
-        "place": "20 km NNE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1673824888480,
         "updated": 1673828894040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 159,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 20 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1328,166 +1408,6 @@
         ]
       },
       "id": "pr2023015002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "9 km NW of Atiquizaya, El Salvador",
-        "time": 1673824073923,
-        "updated": 1673899457027,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4ld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4ld.geojson",
-        "felt": 14,
-        "cdi": 6.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 426,
-        "net": "us",
-        "code": "7000j4ld",
-        "ids": ",us7000j4ld,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.132,
-        "rms": 0.61,
-        "gap": 84,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 9 km NW of Atiquizaya, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.8234,
-          14.0282,
-          10
-        ]
-      },
-      "id": "us7000j4ld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.38,
-        "place": "21km ENE of Le Grand, CA",
-        "time": 1673823095920,
-        "updated": 1673899380242,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73832526",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73832526.geojson",
-        "felt": 203,
-        "cdi": 4.8,
-        "mmi": 3.256,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 273,
-        "net": "nc",
-        "code": "73832526",
-        "ids": ",nc73832526,us7000j4la,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 46,
-        "dmin": 0.126,
-        "rms": 0.23,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 21km ENE of Le Grand, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.028,
-          37.2951667,
-          16.43
-        ]
-      },
-      "id": "nc73832526"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "northern Sumatra, Indonesia",
-        "time": 1673821798919,
-        "updated": 1673905444685,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4kr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4kr.geojson",
-        "felt": 8,
-        "cdi": 4.3,
-        "mmi": 5.508,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 595,
-        "net": "us",
-        "code": "7000j4kr",
-        "ids": ",us7000j4kr,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 97,
-        "dmin": 0.822,
-        "rms": 0.48,
-        "gap": 52,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.2 - northern Sumatra, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.0141,
-          2.0042,
-          37
-        ]
-      },
-      "id": "us7000j4kr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Banda Sea",
-        "time": 1673821537664,
-        "updated": 1673831660040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4kq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4kq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000j4kq",
-        "ids": ",us7000j4kq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.754,
-        "rms": 0.27,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.8684,
-          -6.9435,
-          99.525
-        ]
-      },
-      "id": "us7000j4kq"
     }
   ],
   "bbox": [
