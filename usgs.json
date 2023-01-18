@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674033343000,
+    "generated": 1674037043000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 41
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 5.5,
         "place": "143 km NW of Tobelo, Indonesia",
         "time": 1674028886730,
-        "updated": 1674030817357,
+        "updated": 1674036292040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j56g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j56g.geojson",
@@ -95,7 +95,7 @@
         "mag": 2.56,
         "place": "24km NNW of Tehachapi, CA",
         "time": 1674026930880,
-        "updated": 1674032585866,
+        "updated": 1674034333040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40403560",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40403560.geojson",
@@ -108,8 +108,8 @@
         "sig": 103,
         "net": "ci",
         "code": "40403560",
-        "ids": ",ci40403560,",
-        "sources": ",ci,",
+        "ids": ",ci40403560,us7000j56d,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
         "nst": 53,
         "dmin": 0.1233,
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "Oklahoma",
+        "place": "5 km E of Hennessey, Oklahoma",
         "time": 1674001035022,
         "updated": 1674008704888,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 29.91387939,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Oklahoma"
+        "title": "M 2.9 - 5 km E of Hennessey, Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Antofagasta-Atacama border region, Chile",
+        "place": "Atacama, Chile",
         "time": 1673982513087,
         "updated": 1673986525040,
         "tz": null,
@@ -957,7 +957,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Antofagasta-Atacama border region, Chile"
+        "title": "M 4.3 - Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1648,214 +1648,14 @@
         ]
       },
       "id": "ak023saaswd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Acre, Brazil",
-        "time": 1673949565642,
-        "updated": 1673951079040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4v4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4v4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000j4v4",
-        "ids": ",us7000j4v4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.416,
-        "rms": 0.65,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Acre, Brazil"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.3375,
-          -8.1443,
-          635.507
-        ]
-      },
-      "id": "us7000j4v4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "1 km SSE of Magas Arriba, Puerto Rico",
-        "time": 1673949323710,
-        "updated": 1673953794600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "pr",
-        "code": "71393028",
-        "ids": ",pr71393028,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1133,
-        "rms": 0.12,
-        "gap": 178,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km SSE of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7651666666667,
-          18.0075,
-          14.1
-        ]
-      },
-      "id": "pr71393028"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "southern East Pacific Rise",
-        "time": 1673948438044,
-        "updated": 1673951076040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4v2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4v2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000j4v2",
-        "ids": ",us7000j4v2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 27.349,
-        "rms": 0.37,
-        "gap": 184,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - southern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.9762,
-          -35.0251,
-          10
-        ]
-      },
-      "id": "us7000j4v2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "119 km NE of Hihifo, Tonga",
-        "time": 1673948328034,
-        "updated": 1673950164040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4v1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4v1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000j4v1",
-        "ids": ",us7000j4v1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 2.495,
-        "rms": 0.38,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 119 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.8909,
-          -15.3297,
-          10
-        ]
-      },
-      "id": "us7000j4v1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "75 km NE of Punta Cana, Dominican Republic",
-        "time": 1673947337850,
-        "updated": 1673975992350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393038",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393038.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71393038",
-        "ids": ",pr71393038,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.7101,
-        "rms": 0.45,
-        "gap": 249,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 75 km NE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8471666666667,
-          19.0155,
-          4.89
-        ]
-      },
-      "id": "pr71393038"
     }
   ],
   "bbox": [
-    -172.8909,
+    -171.0694,
     -38.2009,
     1.407245874,
     178.6992,
     63.0486,
-    635.507
+    175.3
   ]
 }
