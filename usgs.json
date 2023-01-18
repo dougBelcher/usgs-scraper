@@ -1,59 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674022868000,
+    "generated": 1674026083000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 7.2,
-        "place": "150 km NW of Tobelo, Indonesia",
-        "time": 1674021974000,
-        "updated": 1674022677720,
+        "mag": 2.6,
+        "place": "39 km SSE of Cantwell, Alaska",
+        "time": 1674023427413,
+        "updated": 1674023584224,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00roo3mf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00roo3mf.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023tvfc45",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023tvfc45.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 798,
-        "net": "at",
-        "code": "00roo3mf",
-        "ids": ",pt23018001,at00roo3mf,",
-        "sources": ",pt,at,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 50,
-        "dmin": 0,
-        "rms": 1.32,
-        "gap": 53.999995680000346,
-        "magType": "Mi",
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023tvfc45",
+        "ids": ",ak023tvfc45,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.24,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 7.2 - 150 km NW of Tobelo, Indonesia"
+        "title": "M 2.6 - 39 km SSE of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.111,
-          2.751,
-          60
+          -148.7177,
+          63.0486,
+          55.1
         ]
       },
-      "id": "at00roo3mf"
+      "id": "ak023tvfc45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7,
+        "place": "154 km NW of Tobelo, Indonesia",
+        "time": 1674021973707,
+        "updated": 1674024847267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j553",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j553.geojson",
+        "felt": 6,
+        "cdi": 2.7,
+        "mmi": 5.717,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 755,
+        "net": "us",
+        "code": "7000j553",
+        "ids": ",at00roo3mf,pt23018001,us7000j553,",
+        "sources": ",at,pt,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 110,
+        "dmin": 1.98,
+        "rms": 1.14,
+        "gap": 23,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.0 - 154 km NW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0512,
+          2.7401,
+          47.994
+        ]
+      },
+      "id": "us7000j553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "Puerto Rico",
+        "time": 1674021439580,
+        "updated": 1674024559440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393123",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393123.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "pr",
+        "code": "71393123",
+        "ids": ",pr71393123,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.03922,
+        "rms": 0.09,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8381666666667,
+          17.9721666666667,
+          16.93
+        ]
+      },
+      "id": "pr71393123"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "48 km W of Hirara, Japan",
+        "place": "southwestern Ryukyu Islands, Japan",
         "time": 1674016406858,
         "updated": 1674018911040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 48 km W of Hirara, Japan"
+        "title": "M 4.8 - southwestern Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6,
-        "place": "61 km SSE of Gorontalo, Indonesia",
+        "place": "Sulawesi, Indonesia",
         "time": 1674002084767,
         "updated": 1674010047407,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 18,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.0 - 61 km SSE of Gorontalo, Indonesia"
+        "title": "M 6.0 - Sulawesi, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "off the coast of Central America",
+        "place": "57 km SW of Jiquilisco, El Salvador",
         "time": 1674001204413,
         "updated": 1674002356040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 188,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - off the coast of Central America"
+        "title": "M 4.1 - 57 km SW of Jiquilisco, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "5 km E of Hennessey, Oklahoma",
+        "place": "Oklahoma",
         "time": 1674001035022,
         "updated": 1674008704888,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 29.91387939,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km E of Hennessey, Oklahoma"
+        "title": "M 2.9 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "13 km SW of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1673993111580,
         "updated": 1673994351040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 13 km SW of Pondaguitan, Philippines"
+        "title": "M 4.5 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "121 km ENE of Diego de Almagro, Chile",
+        "place": "Antofagasta-Atacama border region, Chile",
         "time": 1673982513087,
         "updated": 1673986525040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 89,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 121 km ENE of Diego de Almagro, Chile"
+        "title": "M 4.3 - Antofagasta-Atacama border region, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "96 km NNE of Taltal, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1673978742309,
         "updated": 1673980552040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 96 km NNE of Taltal, Chile"
+        "title": "M 4.4 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -853,19 +933,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "14 km S of Jūybār, Iran",
+        "place": "northern Iran",
         "time": 1673977386181,
-        "updated": 1674013924310,
+        "updated": 1674023666301,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4y6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j4y6.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 313,
         "net": "us",
         "code": "7000j4y6",
         "ids": ",us7000j4y6,",
@@ -877,7 +957,7 @@
         "gap": 153,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 14 km S of Jūybār, Iran"
+        "title": "M 4.5 - northern Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "Virgin Islands region",
+        "place": "50 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1673964753380,
         "updated": 1673966696040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 274,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Virgin Islands region"
+        "title": "M 2.7 - 50 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "69 km SW of Cañete, Chile",
+        "place": "Off the coast of Araucania, Chile",
         "time": 1673956406414,
         "updated": 1673961128040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 160,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 69 km SW of Cañete, Chile"
+        "title": "M 4.4 - Off the coast of Araucania, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "63 km W of Tarauacá, Brazil",
+        "place": "Acre, Brazil",
         "time": 1673949565642,
         "updated": 1673951079040,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 63 km W of Tarauacá, Brazil"
+        "title": "M 4.3 - Acre, Brazil"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Samoa Islands region",
+        "place": "119 km NE of Hihifo, Tonga",
         "time": 1673948328034,
         "updated": 1673950164040,
         "tz": null,
@@ -1517,7 +1597,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Samoa Islands region"
+        "title": "M 4.9 - 119 km NE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "Puerto Rico region",
+        "place": "14 km SSW of Pole Ojea, Puerto Rico",
         "time": 1673942868550,
         "updated": 1673944092130,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 287,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 14 km SSW of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1695,7 +1775,7 @@
     -38.2009,
     1.407245874,
     178.6992,
-    61.6271,
+    63.0486,
     635.507
   ]
 }
