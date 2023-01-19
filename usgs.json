@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674134607000,
+    "generated": 1674137755000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "21km ESE of Little Lake, CA",
+        "time": 1674136720430,
+        "updated": 1674137203788,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40403984",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40403984.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "ci",
+        "code": "40403984",
+        "ids": ",ci40403984,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.07212,
+        "rms": 0.17,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 21km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6988297,
+          35.8568344,
+          8.39
+        ]
+      },
+      "id": "ci40403984"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "32 km NE of Yigo Village, Guam",
         "time": 1674133268147,
-        "updated": 1674134475404,
+        "updated": 1674136882016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5hv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5hv.geojson",
-        "felt": 10,
-        "cdi": 3.5,
+        "felt": 20,
+        "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 388,
+        "sig": 392,
         "net": "us",
         "code": "7000j5hv",
         "ids": ",us7000j5hv,",
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "Molucca Sea",
+        "time": 1674133221470,
+        "updated": 1674135712040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5ht",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5ht.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000j5ht",
+        "ids": ",us7000j5ht,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.165,
+        "rms": 0.89,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Molucca Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.049,
+          2.9275,
+          53.443
+        ]
+      },
+      "id": "us7000j5ht"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "Hokkaido, Japan region",
+        "place": "113 km E of Mutsu, Japan",
         "time": 1674131080492,
         "updated": 1674132960040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 170,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hokkaido, Japan region"
+        "title": "M 4.4 - 113 km E of Mutsu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -253,14 +333,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "8 km WSW of Lamitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1674119669711,
-        "updated": 1674123381040,
+        "updated": 1674136717365,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5fu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5fu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,14 +350,14 @@
         "code": "7000j5fu",
         "ids": ",us7000j5fu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 53,
         "dmin": 0.997,
         "rms": 0.95,
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 8 km WSW of Lamitan, Philippines"
+        "title": "M 4.7 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "43 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Jujuy, Argentina",
         "time": 1674107724350,
         "updated": 1674110209040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 43 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.6 - Jujuy, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "27 km SSW of Tahara, Japan",
+        "place": "near the south coast of Honshu, Japan",
         "time": 1674098734756,
         "updated": 1674101704040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 27 km SSW of Tahara, Japan"
+        "title": "M 4.5 - near the south coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "8 km WSW of Smiths Ferry, Idaho",
+        "place": "Oregon-Idaho border region",
         "time": 1674086872919,
         "updated": 1674109808040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 8 km WSW of Smiths Ferry, Idaho"
+        "title": "M 2.6 - Oregon-Idaho border region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "161 km NW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1674065737184,
         "updated": 1674073307040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 161 km NW of Tobelo, Indonesia"
+        "title": "M 4.6 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "central Mediterranean Sea",
+        "place": "102 km SSW of Żurrieq, Malta",
         "time": 1674061212874,
         "updated": 1674064719040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - central Mediterranean Sea"
+        "title": "M 4.7 - 102 km SSW of Żurrieq, Malta"
       },
       "geometry": {
         "type": "Point",
@@ -1408,46 +1488,6 @@
         ]
       },
       "id": "us7000j59h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "163 km NW of Tobelo, Indonesia",
-        "time": 1674049186149,
-        "updated": 1674050366040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j57i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j57i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000j57i",
-        "ids": ",us7000j57i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 2.029,
-        "rms": 1.21,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 163 km NW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.9797,
-          2.7773,
-          50.613
-        ]
-      },
-      "id": "us7000j57i"
     }
   ],
   "bbox": [
