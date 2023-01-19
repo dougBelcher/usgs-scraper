@@ -1,19 +1,179 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674126807000,
+    "generated": 1674131508000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "8 km NE of Pāhala, Hawaii",
+        "time": 1674130025480,
+        "updated": 1674130357480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73307587",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73307587.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "73307587",
+        "ids": ",hv73307587,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": null,
+        "rms": 0.159999996,
+        "gap": 128,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.411163330078,
+          19.2463340759277,
+          32.3899993896484
+        ]
+      },
+      "id": "hv73307587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "255 km N of Metinaro, Timor Leste",
+        "time": 1674129411880,
+        "updated": 1674130558040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5hm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5hm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000j5hm",
+        "ids": ",us7000j5hm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 3.662,
+        "rms": 0.65,
+        "gap": 37,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 255 km N of Metinaro, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3943,
+          -6.2454,
+          546.03
+        ]
+      },
+      "id": "us7000j5hm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "147 km S of False Pass, Alaska",
+        "time": 1674128714375,
+        "updated": 1674129664040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5hk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5hk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.745,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000j5hk",
+        "ids": ",us7000j5hk,ak023vm11eq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 96,
+        "dmin": 1.159,
+        "rms": 0.84,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 147 km S of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6261,
+          53.5331,
+          25.299
+        ]
+      },
+      "id": "us7000j5hk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "47 km ENE of Pārūn, Afghanistan",
+        "time": 1674127842468,
+        "updated": 1674131318070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5hh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5hh.geojson",
+        "felt": 8,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 403,
+        "net": "us",
+        "code": "7000j5hh",
+        "ids": ",us7000j5hh,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 81,
+        "dmin": 2.194,
+        "rms": 0.84,
+        "gap": 86,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 47 km ENE of Pārūn, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4241,
+          35.5411,
+          96.044
+        ]
+      },
+      "id": "us7000j5hh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
-        "place": "8 km WSW of Lamitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1674119669711,
         "updated": 1674123381040,
         "tz": null,
@@ -37,7 +197,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 8 km WSW of Lamitan, Philippines"
+        "title": "M 4.7 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "43 km WNW of San Antonio de los Cobres, Argentina",
+        "place": "Jujuy, Argentina",
         "time": 1674107724350,
         "updated": 1674110209040,
         "tz": null,
@@ -237,7 +397,7 @@
         "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 43 km WNW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.6 - Jujuy, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "27 km SSW of Tahara, Japan",
+        "place": "near the south coast of Honshu, Japan",
         "time": 1674098734756,
         "updated": 1674101704040,
         "tz": null,
@@ -317,7 +477,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 27 km SSW of Tahara, Japan"
+        "title": "M 4.5 - near the south coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "8 km WSW of Smiths Ferry, Idaho",
+        "place": "Oregon-Idaho border region",
         "time": 1674086872919,
         "updated": 1674109808040,
         "tz": null,
@@ -517,7 +677,7 @@
         "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 8 km WSW of Smiths Ferry, Idaho"
+        "title": "M 2.6 - Oregon-Idaho border region"
       },
       "geometry": {
         "type": "Point",
@@ -775,17 +935,17 @@
         "mag": 4.2,
         "place": "1 km NNW of Áno Kastrítsi, Greece",
         "time": 1674066170479,
-        "updated": 1674118062021,
+        "updated": 1674128934932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5al",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5al.geojson",
-        "felt": 1,
-        "cdi": 3.8,
+        "felt": 3,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 272,
+        "sig": 273,
         "net": "us",
         "code": "7000j5al",
         "ids": ",us7000j5al,",
@@ -933,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "central Mediterranean Sea",
+        "place": "102 km SSW of Żurrieq, Malta",
         "time": 1674061212874,
         "updated": 1674064719040,
         "tz": null,
@@ -957,7 +1117,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - central Mediterranean Sea"
+        "title": "M 4.7 - 102 km SSW of Żurrieq, Malta"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "central Mediterranean Sea",
+        "place": "107 km S of Żurrieq, Malta",
         "time": 1674057286484,
         "updated": 1674073967068,
         "tz": null,
@@ -1117,7 +1277,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - central Mediterranean Sea"
+        "title": "M 5.1 - 107 km S of Żurrieq, Malta"
       },
       "geometry": {
         "type": "Point",
@@ -1216,6 +1376,6 @@
     6.080151367,
     175.5503,
     62.2092,
-    227.978
+    546.03
   ]
 }
