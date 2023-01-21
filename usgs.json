@@ -1,31 +1,191 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674256548000,
+    "generated": 1674264048000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.86,
+        "place": "1km ESE of Portola Valley, CA",
+        "time": 1674262549700,
+        "updated": 1674263819452,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834856.geojson",
+        "felt": 72,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "nc",
+        "code": "73834856",
+        "ids": ",nc73834856,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 59,
+        "dmin": 0.02602,
+        "rms": 0.12,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 1km ESE of Portola Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2251663,
+          37.3800011,
+          6.55
+        ]
+      },
+      "id": "nc73834856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "Oklahoma",
+        "time": 1674262220522,
+        "updated": 1674262448533,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bkps",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bkps.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ok",
+        "code": "2023bkps",
+        "ids": ",ok2023bkps,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.06787914038,
+        "rms": 0.5608945134,
+        "gap": 26.77935028,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50495911,
+          36.2809906,
+          1.931678534
+        ]
+      },
+      "id": "ok2023bkps"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.01,
+        "place": "118 km N of Suárez, Puerto Rico",
+        "time": 1674258045770,
+        "updated": 1674261916616,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023020000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023020000.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 248,
+        "net": "pr",
+        "code": "2023020000",
+        "ids": ",pr2023020000,us7000j5yk,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.2385,
+        "rms": 0.51,
+        "gap": 279,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - 118 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.744,
+          19.5,
+          116
+        ]
+      },
+      "id": "pr2023020000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "130 km ENE of Iquique, Chile",
+        "time": 1674254845714,
+        "updated": 1674258794811,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5xr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5xr.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j5xr",
+        "ids": ",us7000j5xr,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.364,
+        "rms": 0.81,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 130 km ENE of Iquique, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9363,
+          -19.9412,
+          121.466
+        ]
+      },
+      "id": "us7000j5xr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.8,
-        "place": "Santiago del Estero, Argentina",
+        "place": "24 km SW of Campo Gallo, Argentina",
         "time": 1674252579774,
-        "updated": 1674255760432,
+        "updated": 1674261864276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5x2.geojson",
-        "felt": 8,
-        "cdi": 2.7,
+        "felt": 13,
+        "cdi": 4.1,
         "mmi": 2.797,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 714,
+        "sig": 717,
         "net": "us",
         "code": "7000j5x2",
         "ids": ",us7000j5x2,",
@@ -37,7 +197,7 @@
         "gap": 61,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.8 - Santiago del Estero, Argentina"
+        "title": "M 6.8 - 24 km SW of Campo Gallo, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -95,12 +255,12 @@
         "mag": 4.6,
         "place": "33 km N of Kiomboi, Tanzania",
         "time": 1674250251287,
-        "updated": 1674251416677,
+        "updated": 1674259584481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5wu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5wu.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -173,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "56 km NE of Namie, Japan",
         "time": 1674237942096,
         "updated": 1674245528040,
         "tz": null,
@@ -197,7 +357,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - near the east coast of Honshu, Japan"
+        "title": "M 4.5 - 56 km NE of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "162 km NW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1674236974446,
         "updated": 1674239891040,
         "tz": null,
@@ -277,7 +437,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 162 km NW of Tobelo, Indonesia"
+        "title": "M 5.0 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -415,11 +575,11 @@
         "mag": 6.2,
         "place": "40 km WSW of Pointe-Noire, Guadeloupe",
         "time": 1674213821042,
-        "updated": 1674252582202,
+        "updated": 1674263781611,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5sc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5sc.geojson",
-        "felt": 166,
+        "felt": 167,
         "cdi": 4.3,
         "mmi": 4.454,
         "alert": "green",
@@ -615,17 +775,17 @@
         "mag": 4.26,
         "place": "16km WSW of Weitchpec, CA",
         "time": 1674201674570,
-        "updated": 1674255216480,
+        "updated": 1674263840394,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834441",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834441.geojson",
-        "felt": 466,
+        "felt": 469,
         "cdi": 4.3,
         "mmi": 4.073,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 480,
+        "sig": 481,
         "net": "nc",
         "code": "73834441",
         "ids": ",ew1674201680,nc73834441,us7000j5qc,",
@@ -695,11 +855,11 @@
         "mag": 2.59,
         "place": "2km N of Woodside, CA",
         "time": 1674198658210,
-        "updated": 1674245362854,
+        "updated": 1674259528751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834396.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 3,
         "mmi": null,
         "alert": null,
@@ -735,17 +895,17 @@
         "mag": 2.91,
         "place": "1km SE of Portola Valley, CA",
         "time": 1674198547850,
-        "updated": 1674254617195,
+        "updated": 1674263983484,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834386",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834386.geojson",
-        "felt": 119,
+        "felt": 127,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 185,
+        "sig": 189,
         "net": "nc",
         "code": "73834386",
         "ids": ",nc73834386,us7000j5q4,",
@@ -773,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "0 km N of Magas Arriba, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1674195750630,
         "updated": 1674196862520,
         "tz": null,
@@ -797,7 +957,7 @@
         "gap": 163,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 0 km N of Magas Arriba, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "117 km ENE of Hihifo, Tonga",
+        "place": "Samoa Islands region",
         "time": 1674184291544,
         "updated": 1674185439040,
         "tz": null,
@@ -1117,7 +1277,7 @@
         "gap": 166,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 117 km ENE of Hihifo, Tonga"
+        "title": "M 4.9 - Samoa Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "40 km WNW of Skwentna, Alaska",
+        "place": "Central Alaska",
         "time": 1674180786023,
         "updated": 1674181321040,
         "tz": null,
@@ -1197,7 +1357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 40 km WNW of Skwentna, Alaska"
+        "title": "M 2.6 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1208,212 +1368,12 @@
         ]
       },
       "id": "ak023x40ltz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Xinjiang-Xizang border region",
-        "time": 1674177611791,
-        "updated": 1674179586040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5nn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5nn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000j5nn",
-        "ids": ",us7000j5nn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 6.123,
-        "rms": 1.12,
-        "gap": 246,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Xinjiang-Xizang border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.3517,
-          35.4849,
-          10
-        ]
-      },
-      "id": "us7000j5nn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.59,
-        "place": "9km SW of Cloverdale, CA",
-        "time": 1674177487660,
-        "updated": 1674238704914,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834231.geojson",
-        "felt": 123,
-        "cdi": 3.8,
-        "mmi": 3.807,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 245,
-        "net": "nc",
-        "code": "73834231",
-        "ids": ",nc73834231,ew1674177490,us7000j5nm,",
-        "sources": ",nc,ew,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 76,
-        "dmin": 0.06508,
-        "rms": 0.09,
-        "gap": 85,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.6 - 9km SW of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0948333,
-          38.7511667,
-          6.28
-        ]
-      },
-      "id": "nc73834231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "89 km SW of Corinto, Nicaragua",
-        "time": 1674176235739,
-        "updated": 1674181766040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5ni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5ni.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000j5ni",
-        "ids": ",us7000j5ni,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.057,
-        "rms": 0.54,
-        "gap": 171,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 89 km SW of Corinto, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7477,
-          11.9085,
-          37.368
-        ]
-      },
-      "id": "us7000j5ni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "Puerto Rico region",
-        "time": 1674175671600,
-        "updated": 1674177040720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71393253",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71393253.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "pr",
-        "code": "71393253",
-        "ids": ",pr71393253,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4751,
-        "rms": 0.12,
-        "gap": 265,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4311666666667,
-          18.9455,
-          20.19
-        ]
-      },
-      "id": "pr71393253"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "74 km E of Darnah, Libya",
-        "time": 1674174565090,
-        "updated": 1674176169040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5ne",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5ne.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000j5ne",
-        "ids": ",us7000j5ne,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 4.639,
-        "rms": 0.78,
-        "gap": 206,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 74 km E of Darnah, Libya"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.4225,
-          32.6949,
-          10
-        ]
-      },
-      "id": "us7000j5ne"
     }
   ],
   "bbox": [
     -176.2771,
     -28.144,
-    6.28,
+    1.931678534,
     142.0923,
     62.1494,
     610.671
