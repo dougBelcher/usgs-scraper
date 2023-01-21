@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674307110000,
+    "generated": 1674310350000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "33 km NW of Ninilchik, Alaska",
+        "time": 1674308488464,
+        "updated": 1674308584274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023yy9rs2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023yy9rs2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "023yy9rs2",
+        "ids": ",ak023yy9rs2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 33 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.1258,
+          60.2456,
+          90.4
+        ]
+      },
+      "id": "ak023yy9rs2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Pagan region, Northern Mariana Islands",
+        "time": 1674307563339,
+        "updated": 1674308789040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j62k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j62k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000j62k",
+        "ids": ",us7000j62k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 4.79,
+        "rms": 1.05,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Pagan region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9099,
+          18.3,
+          152.773
+        ]
+      },
+      "id": "us7000j62k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1575,17 +1655,17 @@
         "mag": 2.86,
         "place": "1km ESE of Portola Valley, CA",
         "time": 1674262549700,
-        "updated": 1674283881216,
+        "updated": 1674310212351,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73834856",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73834856.geojson",
-        "felt": 107,
+        "felt": 108,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 167,
         "net": "nc",
         "code": "73834856",
         "ids": ",nc73834856,",
@@ -1893,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "56 km NE of Namie, Japan",
+        "place": "near the east coast of Honshu, Japan",
         "time": 1674237942096,
         "updated": 1674299894496,
         "tz": null,
@@ -1917,7 +1997,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 56 km NE of Namie, Japan"
+        "title": "M 4.5 - near the east coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -2008,53 +2088,13 @@
         ]
       },
       "id": "us7000j5vr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "131 km SW of Nikolski, Alaska",
-        "time": 1674222879752,
-        "updated": 1674232733314,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023xat8ng",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023xat8ng.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.262,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "023xat8ng",
-        "ids": ",ak023xat8ng,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 131 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -170.4085,
-          52.2302,
-          25.6
-        ]
-      },
-      "id": "ak023xat8ng"
     }
   ],
   "bbox": [
-    -170.4085,
+    -163.5332,
     -57.3216,
     0.1,
-    141.5403,
+    145.9099,
     63.2956,
     610.671
   ]
