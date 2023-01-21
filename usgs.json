@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674310350000,
+    "generated": 1674314070000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58,
+        "place": "20 km ESE of Naalehu, Hawaii",
+        "time": 1674313335840,
+        "updated": 1674313667090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73309337",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73309337.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "73309337",
+        "ids": ",hv73309337,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 223,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 20 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.407165527344,
+          18.9876670837402,
+          37.2599983215332
+        ]
+      },
+      "id": "hv73309337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "87 km NNW of Karluk, Alaska",
+        "time": 1674312043775,
+        "updated": 1674312111292,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023yyv0ux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023yyv0ux.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023yyv0ux",
+        "ids": ",ak023yyv0ux,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 87 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.1717,
+          58.2581,
+          0
+        ]
+      },
+      "id": "ak023yyv0ux"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "33 km NW of Ninilchik, Alaska",
         "time": 1674308488464,
-        "updated": 1674308584274,
+        "updated": 1674312124040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023yy9rs2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023yy9rs2.geojson",
@@ -28,8 +108,8 @@
         "sig": 158,
         "net": "ak",
         "code": "023yy9rs2",
-        "ids": ",ak023yy9rs2,",
-        "sources": ",ak,",
+        "ids": ",us7000j62p,ak023yy9rs2,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ak023yy9rs2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "14 km E of Tallkalakh, Syria",
+        "time": 1674307918104,
+        "updated": 1674311989032,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j62n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j62n.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 286,
+        "net": "us",
+        "code": "7000j62n",
+        "ids": ",us7000j62n,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.556,
+        "rms": 1.02,
+        "gap": 222,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 14 km E of Tallkalakh, Syria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4205,
+          34.6894,
+          10
+        ]
+      },
+      "id": "us7000j62n"
     },
     {
       "type": "Feature",
@@ -2093,7 +2213,7 @@
   "bbox": [
     -163.5332,
     -57.3216,
-    0.1,
+    0,
     145.9099,
     63.2956,
     610.671
