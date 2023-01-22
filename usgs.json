@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674355428000,
+    "generated": 1674357408000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 72
+    "count": 75
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "129 km ENE of ‘Ohonua, Tonga",
+        "time": 1674355717071,
+        "updated": 1674356737040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j65p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j65p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000j65p",
+        "ids": ",us7000j65p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.304,
+        "rms": 0.84,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 129 km ENE of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.7549,
+          -21.0091,
+          10
+        ]
+      },
+      "id": "us7000j65p"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.55,
         "place": "6 km E of Hennessey, Oklahoma",
         "time": 1674349489717,
-        "updated": 1674350321040,
+        "updated": 1674355555536,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023bmls",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023bmls.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -68,9 +108,9 @@
         "sig": 100,
         "net": "ok",
         "code": "2023bmls",
-        "ids": ",us7000j65j,ok2023bmls,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2023bmls,us7000j65j,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 71,
         "dmin": 0.1100522503,
         "rms": 0.5920504624,
@@ -88,6 +128,86 @@
         ]
       },
       "id": "ok2023bmls"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "90 km NW of Elfin Cove, Alaska",
+        "time": 1674347718290,
+        "updated": 1674356541040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j65e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j65e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000j65e",
+        "ids": ",us7000j65e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.025,
+        "rms": 0.71,
+        "gap": 151,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 90 km NW of Elfin Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.4467,
+          58.7598,
+          10
+        ]
+      },
+      "id": "us7000j65e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "northern Sumatra, Indonesia",
+        "time": 1674347280463,
+        "updated": 1674356092040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j65h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j65h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000j65h",
+        "ids": ",us7000j65h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.558,
+        "rms": 0.73,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - northern Sumatra, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9862,
+          1.9718,
+          137.876
+        ]
+      },
+      "id": "us7000j65h"
     },
     {
       "type": "Feature",
@@ -168,6 +288,46 @@
         ]
       },
       "id": "pr71393758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Mindanao, Philippines",
+        "time": 1674343305069,
+        "updated": 1674355461040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j64y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j64y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000j64y",
+        "ids": ",us7000j64y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.117,
+        "rms": 0.65,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Mindanao, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6926,
+          6.9056,
+          143.798
+        ]
+      },
+      "id": "us7000j64y"
     },
     {
       "type": "Feature",
@@ -2848,46 +3008,6 @@
         ]
       },
       "id": "nc73834926"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "85 km NNW of Sinabang, Indonesia",
-        "time": 1674269436279,
-        "updated": 1674341107040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j5zt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000j5zt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000j5zt",
-        "ids": ",us7000j5zt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.123,
-        "rms": 0.77,
-        "gap": 167,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 85 km NNW of Sinabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.1937,
-          3.2299,
-          47.098
-        ]
-      },
-      "id": "us7000j5zt"
     }
   ],
   "bbox": [
