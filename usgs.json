@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674584364000,
+    "generated": 1674587544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.4,
+        "place": "33 km WSW of Campo Gallo, Argentina",
+        "time": 1674585420559,
+        "updated": 1674587467748,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jiyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jiyj.geojson",
+        "felt": 2,
+        "cdi": 1,
+        "mmi": 2.389,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 630,
+        "net": "us",
+        "code": "6000jiyj",
+        "ids": ",us6000jiyj,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 155,
+        "dmin": 5.239,
+        "rms": 1.27,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.4 - 33 km WSW of Campo Gallo, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.165,
+          -26.6892,
+          601.024
+        ]
+      },
+      "id": "us6000jiyj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "10km ESE of Rio Dell, CA",
+        "time": 1674584403790,
+        "updated": 1674585657916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73836746",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73836746.geojson",
+        "felt": 2,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "73836746",
+        "ids": ",nc73836746,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": null,
+        "rms": 0.08,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 10km ESE of Rio Dell, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0051651,
+          40.4480019,
+          21.21
+        ]
+      },
+      "id": "nc73836746"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1976,6 +2056,6 @@
     -0.43,
     160.2688,
     69.5383,
-    567.066
+    601.024
   ]
 }
