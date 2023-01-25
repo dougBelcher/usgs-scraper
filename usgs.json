@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674627609000,
+    "generated": 1674631020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.63,
+        "place": "Puerto Rico region",
+        "time": 1674629212520,
+        "updated": 1674630518935,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023025001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023025001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 203,
+        "net": "pr",
+        "code": "2023025001",
+        "ids": ",pr2023025001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.2406,
+        "rms": 0.22,
+        "gap": 207,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7998,
+          18.5828,
+          13
+        ]
+      },
+      "id": "pr2023025001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,14 +92,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "41 km SSW of Puerto El Triunfo, El Salvador",
+        "time": 1674623730147,
+        "updated": 1674628330389,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jj31",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jj31.geojson",
+        "felt": 2,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000jj31",
+        "ids": ",us6000jj31,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 119,
+        "dmin": 0.789,
+        "rms": 0.99,
+        "gap": 135,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 41 km SSW of Puerto El Triunfo, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7273,
+          12.9459,
+          67.408
+        ]
+      },
+      "id": "us6000jj31"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.79,
-        "place": "Utah",
+        "place": "7 km SW of Corinne, Utah",
         "time": 1674623612330,
-        "updated": 1674627443087,
+        "updated": 1674630340040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60530292",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60530292.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -68,8 +148,8 @@
         "sig": 126,
         "net": "uu",
         "code": "60530292",
-        "ids": ",uu60530292,",
-        "sources": ",uu,",
+        "ids": ",uu60530292,us6000jj30,",
+        "sources": ",uu,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": null,
@@ -77,7 +157,7 @@
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Utah"
+        "title": "M 2.8 - 7 km SW of Corinne, Utah"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "46 km ENE of La Paz, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1674617720686,
         "updated": 1674618872040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 130,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 46 km ENE of La Paz, Philippines"
+        "title": "M 4.7 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "70 km SE of Pope-Vannoy Landing, Alaska",
+        "place": "Southern Alaska",
         "time": 1674609327870,
         "updated": 1674609465978,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 70 km SE of Pope-Vannoy Landing, Alaska"
+        "title": "M 3.1 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -295,11 +375,11 @@
         "mag": 5.2,
         "place": "63 km E of Namie, Japan",
         "time": 1674608448770,
-        "updated": 1674627549122,
+        "updated": 1674629470362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jj1u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jj1u.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "54 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1674592436557,
         "updated": 1674593518455,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 54 km S of Whites City, New Mexico"
+        "title": "M 2.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -495,17 +575,17 @@
         "mag": 5.3,
         "place": "105 km S of Żurrieq, Malta",
         "time": 1674591934852,
-        "updated": 1674600422874,
+        "updated": 1674630802149,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jj05",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jj05.geojson",
-        "felt": 16,
+        "felt": 19,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 438,
+        "sig": 439,
         "net": "us",
         "code": "6000jj05",
         "ids": ",us6000jj05,",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "174 km NW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1674588340572,
         "updated": 1674598601040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 174 km NW of Tobelo, Indonesia"
+        "title": "M 4.4 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "102 km NNE of Calama, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1674587309504,
         "updated": 1674590176040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 36,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 102 km NNE of Calama, Chile"
+        "title": "M 4.5 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.06,
-        "place": "Mona Passage",
+        "place": "Mona Passage, Puerto Rico",
         "time": 1674559125880,
         "updated": 1674561267910,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 205,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Mona Passage"
+        "title": "M 3.1 - Mona Passage, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1573,13 +1653,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Nepal",
+        "place": "62 km NW of Jumla, Nepal",
         "time": 1674550712284,
-        "updated": 1674607504074,
+        "updated": 1674630413152,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jivm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jivm.geojson",
-        "felt": 40,
+        "felt": 41,
         "cdi": 7.3,
         "mmi": 5.331,
         "alert": "green",
@@ -1597,7 +1677,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.6 - Nepal"
+        "title": "M 5.6 - 62 km NW of Jumla, Nepal"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Kodiak Island region, Alaska",
+        "place": "81 km N of Aleneva, Alaska",
         "time": 1674549723368,
         "updated": 1674569624040,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - Kodiak Island region, Alaska"
+        "title": "M 3.1 - 81 km N of Aleneva, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "18 km E of Naalehu, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1674547044240,
         "updated": 1674569356040,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 18 km E of Naalehu, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "hv73311422"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "56 km ENE of Cordova, Alaska",
-        "time": 1674541801309,
-        "updated": 1674543425040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02313snd2a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02313snd2a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "02313snd2a",
-        "ids": ",us6000jiv7,ak02313snd2a,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.38,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 56 km ENE of Cordova, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.8644,
-          60.8036,
-          38.3
-        ]
-      },
-      "id": "ak02313snd2a"
     }
   ],
   "bbox": [
