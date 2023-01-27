@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1674803665000,
+    "generated": 1674807620000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "northern Sumatra, Indonesia",
+        "time": 1674803524610,
+        "updated": 1674804721040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjmh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjmh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000jjmh",
+        "ids": ",us6000jjmh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.916,
+        "rms": 0.63,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - northern Sumatra, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.459,
+          1.6595,
+          174.233
+        ]
+      },
+      "id": "us6000jjmh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,12 +215,12 @@
         "mag": 3.4,
         "place": "12 km NNW of Río Sereno, Panama",
         "time": 1674791380180,
-        "updated": 1674797456040,
+        "updated": 1674804517054,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jjlg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jjlg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +230,7 @@
         "code": "6000jjlg",
         "ids": ",us6000jjlg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.241,
         "rms": 0.44,
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47000003,
-        "place": "18 km E of Naalehu, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1674791375280,
         "updated": 1674791582490,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 211,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 18 km E of Naalehu, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Southern Alaska",
+        "place": "37 km SSW of Tatitlek, Alaska",
         "time": 1674780901673,
         "updated": 1674789771040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Southern Alaska"
+        "title": "M 2.8 - 37 km SSW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Kyrgyzstan",
+        "place": "80 km SSE of Kadzhi-Say, Kyrgyzstan",
         "time": 1674778243268,
         "updated": 1674789214784,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Kyrgyzstan"
+        "title": "M 4.6 - 80 km SSE of Kadzhi-Say, Kyrgyzstan"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "26 km NW of Aguadilla, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1674768353470,
         "updated": 1674770961530,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 26 km NW of Aguadilla, Puerto Rico"
+        "title": "M 2.8 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "86 km NNW of Karluk, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1674759186320,
         "updated": 1674759299572,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 86 km NNW of Karluk, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "pr2023026000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "26km SW of Ocotillo Wells, CA",
-        "time": 1674719885400,
-        "updated": 1674797981258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40162055",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40162055.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "ci",
-        "code": "40162055",
-        "ids": ",ci40162055,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 89,
-        "dmin": 0.007128,
-        "rms": 0.2,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 26km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3011667,
-          32.9615,
-          10.43
-        ]
-      },
-      "id": "ci40162055"
     }
   ],
   "bbox": [
