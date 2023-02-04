@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1675541706000,
+    "generated": 1675545186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.7,
         "place": "37 km WSW of Mentone, Texas",
         "time": 1675539620272,
-        "updated": 1675541600877,
+        "updated": 1675543313263,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023clqb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023clqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.171,
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 4.172,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "tx",
         "code": "2023clqb",
-        "ids": ",us6000jlg3,tx2023clqb,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",tx2023clqb,us6000jlg3,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 22,
         "dmin": 0.01408549174,
         "rms": 0.1,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "ak0231m6ukrk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "116 km E of McCarthy, Alaska",
+        "time": 1675534408268,
+        "updated": 1675543450040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlfn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlfn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000jlfn",
+        "ids": ",us6000jlfn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.647,
+        "rms": 0.69,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 116 km E of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.7406,
+          61.5276,
+          5
+        ]
+      },
+      "id": "us6000jlfn"
     },
     {
       "type": "Feature",
@@ -535,12 +575,12 @@
         "mag": 5.7,
         "place": "37 km ESE of Kainantu, Papua New Guinea",
         "time": 1675513356508,
-        "updated": 1675520778603,
+        "updated": 1675544642240,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jlds.geojson",
-        "felt": 14,
-        "cdi": 5.4,
+        "felt": 16,
+        "cdi": 4.7,
         "mmi": 4.723,
         "alert": "green",
         "status": "reviewed",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us6000jl9j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "16 km NE of Hermleigh, Texas",
-        "time": 1675457819191,
-        "updated": 1675458945079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023cjxc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023cjxc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "tx",
-        "code": "2023cjxc",
-        "ids": ",us6000jl94,tx2023cjxc,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.07230142005,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 16 km NE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.6465558,
-          32.75299072,
-          8.73034668
-        ]
-      },
-      "id": "tx2023cjxc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "7 km SW of Guánica, Puerto Rico",
-        "time": 1675456060240,
-        "updated": 1675456918810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71395323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71395323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71395323",
-        "ids": ",pr71395323,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.06598,
-        "rms": 0.06,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9493333333333,
-          17.9185,
-          12.39
-        ]
-      },
-      "id": "pr71395323"
     }
   ],
   "bbox": [
@@ -1655,7 +1615,7 @@
     -40.7315,
     0.51,
     175.8628,
-    59.8707,
+    61.5276,
     219.586
   ]
 }
