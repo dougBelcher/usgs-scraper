@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676046187000,
+    "generated": 1676049312000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.26,
+        "place": "50 km SW of Captain Cook, Hawaii",
+        "time": 1676046405010,
+        "updated": 1676047110409,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73322527",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73322527.geojson",
+        "felt": 5,
+        "cdi": 2.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 165,
+        "net": "hv",
+        "code": "73322527",
+        "ids": ",hv73322527,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.239999995,
+        "gap": 250,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 50 km SW of Captain Cook, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.319839477539,
+          19.2403335571289,
+          15.3500003814697
+        ]
+      },
+      "id": "hv73322527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1676045234459,
+        "updated": 1676046720040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jn4j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jn4j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000jn4j",
+        "ids": ",us6000jn4j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.023,
+        "rms": 0.74,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Kermadec Islands, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0521,
+          -30.2657,
+          10
+        ]
+      },
+      "id": "us6000jn4j"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.83,
         "place": "10km NW of The Geysers, CA",
         "time": 1676043392430,
-        "updated": 1676045226677,
+        "updated": 1676048953082,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73844546",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73844546.geojson",
@@ -1095,17 +1175,17 @@
         "mag": 3.12,
         "place": "southeastern Missouri",
         "time": 1675998658540,
-        "updated": 1676045480548,
+        "updated": 1676048784088,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60509971",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60509971.geojson",
-        "felt": 66,
+        "felt": 69,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 181,
+        "sig": 183,
         "net": "nm",
         "code": "60509971",
         "ids": ",nm60509971,us6000jmzt,",
@@ -1652,6 +1732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "155 km S of Severo-Kuril’sk, Russia",
+        "time": 1675968119041,
+        "updated": 1676048459040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmty",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmty.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000jmty",
+        "ids": ",us6000jmty,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 4.114,
+        "rms": 0.71,
+        "gap": 170,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 155 km S of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.9558,
+          49.2798,
+          41.824
+        ]
+      },
+      "id": "us6000jmty"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "2km N of The Geysers, CA",
         "time": 1675964585630,
@@ -1688,53 +1808,13 @@
         ]
       },
       "id": "nc73844071"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "112 km W of San Antonio de los Cobres, Argentina",
-        "time": 1675959927800,
-        "updated": 1675969536040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jmrg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jmrg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "6000jmrg",
-        "ids": ",us6000jmrg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.447,
-        "rms": 1.09,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 112 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4226,
-          -24.2278,
-          211.298
-        ]
-      },
-      "id": "us6000jmrg"
     }
   ],
   "bbox": [
     -178.222,
     -55.6193,
     2.1,
-    153.6963,
+    155.9558,
     62.9585,
     264.778
   ]
