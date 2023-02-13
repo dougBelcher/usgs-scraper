@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676319461000,
+    "generated": 1676322842000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.8,
         "place": "Central Turkey",
         "time": 1676316027585,
-        "updated": 1676318845040,
+        "updated": 1676321849760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnmc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnmc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "6000jnmc",
         "ids": ",us6000jnmc,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 81,
         "dmin": 0.944,
         "rms": 0.74,
@@ -212,6 +212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "south of Africa",
+        "time": 1676307355140,
+        "updated": 1676322382040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnly.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000jnly",
+        "ids": ",us6000jnly,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 20.452,
+        "rms": 0.73,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - south of Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5001,
+          -52.4217,
+          10
+        ]
+      },
+      "id": "us6000jnly"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.16,
         "place": "22 km SW of Stella, Puerto Rico",
         "time": 1676304537880,
@@ -248,6 +288,46 @@
         ]
       },
       "id": "pr71396193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "208 km E of Sofifi, Indonesia",
+        "time": 1676302850822,
+        "updated": 1676321100040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnlm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnlm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000jnlm",
+        "ids": ",us6000jnlm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 2.067,
+        "rms": 0.7,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 208 km E of Sofifi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4054,
+          0.4297,
+          18.873
+        ]
+      },
+      "id": "us6000jnlm"
     },
     {
       "type": "Feature",
@@ -295,17 +375,17 @@
         "mag": 5,
         "place": "0 km S of Dobrița, Romania",
         "time": 1676300285854,
-        "updated": 1676319059862,
+        "updated": 1676322623721,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnl6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnl6.geojson",
-        "felt": 221,
+        "felt": 226,
         "cdi": 5.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 515,
+        "sig": 518,
         "net": "us",
         "code": "6000jnl6",
         "ids": ",us6000jnl6,",
@@ -1808,51 +1888,11 @@
         ]
       },
       "id": "us6000jnhw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "15 km NE of Hermleigh, Texas",
-        "time": 1676234064157,
-        "updated": 1676237708520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023dahw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023dahw.geojson",
-        "felt": 2,
-        "cdi": 4.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "tx",
-        "code": "2023dahw",
-        "ids": ",tx2023dahw,us6000jnhq,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.08149686084,
-        "rms": 0.1,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 15 km NE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.6572742,
-          32.74932861,
-          8.290161133
-        ]
-      },
-      "id": "tx2023dahw"
     }
   ],
   "bbox": [
     -177.9727,
-    -29.5218,
+    -52.4217,
     2.97,
     151.5935,
     63.0302,
