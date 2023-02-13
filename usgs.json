@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676265313000,
+    "generated": 1676269273000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "17 km E of Naalehu, Hawaii",
+        "time": 1676268906980,
+        "updated": 1676269248320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73323592",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73323592.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "73323592",
+        "ids": ",hv73323592,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": null,
+        "rms": 0.170000002,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 17 km E of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.415161132812,
+          19.056999206543,
+          35.2799987792969
+        ]
+      },
+      "id": "hv73323592"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,21 +215,21 @@
         "mag": 4,
         "place": "7 km WNW of Nikolski, Alaska",
         "time": 1676251883723,
-        "updated": 1676252852040,
+        "updated": 1676268203845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnip.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.832,
+        "mmi": 2.876,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 246,
         "net": "us",
         "code": "6000jnip",
-        "ids": ",us6000jnip,ak02320sfef8,",
-        "sources": ",us,ak,",
+        "ids": ",ak02320sfef8,us6000jnip,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 32,
         "dmin": 0.064,
@@ -1808,46 +1848,6 @@
         ]
       },
       "id": "us6000jnes"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.85,
-        "place": "Utah",
-        "time": 1676181694510,
-        "updated": 1676228854324,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60530961",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60530961.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "uu",
-        "code": "60530961",
-        "ids": ",uu60530961,us6000jneg,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.07521,
-        "rms": 0.39,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.0748367,
-          39.3848343,
-          3.59
-        ]
-      },
-      "id": "uu60530961"
     }
   ],
   "bbox": [
