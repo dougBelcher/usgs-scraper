@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676283493000,
+    "generated": 1676286793000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 51
+    "count": 49
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.36,
         "place": "26km SE of Ocotillo Wells, CA",
         "time": 1676282986160,
-        "updated": 1676283376356,
+        "updated": 1676286748035,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40414104",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40414104.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 11,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 174,
+        "sig": 178,
         "net": "ci",
         "code": "40414104",
         "ids": ",ci40414104,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 116,
         "dmin": 0.0911,
         "rms": 0.29,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci40414104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "53 km S of Ten Sleep, Wyoming",
+        "time": 1676282868372,
+        "updated": 1676284863235,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnke",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnke.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.139,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000jnke",
+        "ids": ",us6000jnke,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 21,
+        "dmin": 1.107,
+        "rms": 0.58,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 53 km S of Ten Sleep, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3955,
+          43.5553,
+          11.104
+        ]
+      },
+      "id": "us6000jnke"
     },
     {
       "type": "Feature",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Puerto Rico region",
+        "place": "5 km SSW of Potala Pastillo, Puerto Rico",
         "time": 1676271610800,
         "updated": 1676272455680,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 167,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 5 km SSW of Potala Pastillo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "239 km ENE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1676255606133,
         "updated": 1676256626040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 239 km ENE of Lospalos, Timor Leste"
+        "title": "M 4.8 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "11 km E of Göksun, Turkey",
+        "place": "central Turkey",
         "time": 1676242379864,
         "updated": 1676269930098,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 11 km E of Göksun, Turkey"
+        "title": "M 4.5 - central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "2 km SSW of Basco, Philippines",
+        "place": "Batan Islands region, Philippines",
         "time": 1676237178592,
         "updated": 1676242475040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 2 km SSW of Basco, Philippines"
+        "title": "M 4.4 - Batan Islands region, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Central Turkey",
+        "place": "24 km SSE of Kahramanmaraş, Turkey",
         "time": 1676226795503,
         "updated": 1676232738292,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Central Turkey"
+        "title": "M 4.7 - 24 km SSE of Kahramanmaraş, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1373,31 +1413,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "southern Iran",
+        "place": "39 km NW of Gerāsh, Iran",
         "time": 1676226106328,
-        "updated": 1676229324040,
+        "updated": 1676286189478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jngz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jngz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000jngz",
         "ids": ",us6000jngz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 3.635,
         "rms": 0.67,
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - southern Iran"
+        "title": "M 4.3 - 39 km NW of Gerāsh, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Turkey-Syria border region",
+        "place": "17 km SW of Musabeyli, Turkey",
         "time": 1676204723077,
         "updated": 1676218032122,
         "tz": null,
@@ -1837,7 +1877,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Turkey-Syria border region"
+        "title": "M 4.2 - 17 km SW of Musabeyli, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1928,126 +1968,6 @@
         ]
       },
       "id": "us6000jnfe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "32 km SSE of Tezpur, India",
-        "time": 1676198894834,
-        "updated": 1676220382334,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jngh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jngh.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000jngh",
-        "ids": ",us6000jngh,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 5.677,
-        "rms": 0.37,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 32 km SSE of Tezpur, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          92.9309,
-          26.3679,
-          10
-        ]
-      },
-      "id": "us6000jngh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "near the north coast of Papua, Indonesia",
-        "time": 1676198631997,
-        "updated": 1676199612040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnf9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnf9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000jnf9",
-        "ids": ",us6000jnf9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 2.346,
-        "rms": 0.42,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - near the north coast of Papua, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.1926,
-          -1.5944,
-          44.092
-        ]
-      },
-      "id": "us6000jnf9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Honduras",
-        "time": 1676197837313,
-        "updated": 1676250138268,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jnf8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jnf8.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000jnf8",
-        "ids": ",us6000jnf8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.724,
-        "rms": 0.64,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.3097,
-          14.7842,
-          12.57
-        ]
-      },
-      "id": "us6000jnf8"
     }
   ],
   "bbox": [
