@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676556925000,
+    "generated": 1676560622000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "14 km NNW of Doğanşehir, Turkey",
+        "time": 1676558742064,
+        "updated": 1676559652040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpdx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000jpdx",
+        "ids": ",us6000jpdx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.979,
+        "rms": 1.15,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 14 km NNW of Doğanşehir, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.8096,
+          38.2035,
+          10
+        ]
+      },
+      "id": "us6000jpdx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "11 km SSE of Susitna North, Alaska",
+        "time": 1676558654663,
+        "updated": 1676559961040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02325yuub3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02325yuub3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "02325yuub3",
+        "ids": ",us6000jpdw,ak02325yuub3,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 11 km SSE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7443,
+          62.0682,
+          30.3
+        ]
+      },
+      "id": "ak02325yuub3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "13 km S of Susitna North, Alaska",
         "time": 1676554136229,
-        "updated": 1676554272596,
+        "updated": 1676560268040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02325y62gm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02325y62gm.geojson",
@@ -28,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "02325y62gm",
-        "ids": ",ak02325y62gm,",
-        "sources": ",ak,",
+        "ids": ",us6000jpdq,ak02325y62gm,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,17 +175,17 @@
         "mag": 4.8,
         "place": "26 km W of Yayladağı, Turkey",
         "time": 1676546183422,
-        "updated": 1676555512041,
+        "updated": 1676558374590,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpd5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpd5.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 358,
+        "sig": 359,
         "net": "us",
         "code": "6000jpd5",
         "ids": ",us6000jpd5,",
@@ -133,14 +213,14 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "27 km W of San Nicolas, Philippines",
+        "place": "Luzon, Philippines",
         "time": 1676543638875,
-        "updated": 1676547925040,
+        "updated": 1676560153904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpc7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpc7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,14 +230,14 @@
         "code": "6000jpc7",
         "ids": ",us6000jpc7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 137,
         "dmin": 7.886,
         "rms": 0.63,
         "gap": 92,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 27 km W of San Nicolas, Philippines"
+        "title": "M 5.0 - Luzon, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -175,17 +255,17 @@
         "mag": 4.3,
         "place": "17 km NE of Hermleigh, Texas",
         "time": 1676543345696,
-        "updated": 1676556752287,
+        "updated": 1676560371843,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpbv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpbv.geojson",
-        "felt": 178,
+        "felt": 194,
         "cdi": 5.8,
         "mmi": 6.319,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 388,
+        "sig": 397,
         "net": "us",
         "code": "6000jpbv",
         "ids": ",us6000jpbv,",
@@ -215,12 +295,12 @@
         "mag": 4.8,
         "place": "4 km WNW of Baška, Croatia",
         "time": 1676540865901,
-        "updated": 1676555134818,
+        "updated": 1676557698750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpbt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpbt.geojson",
-        "felt": 16,
-        "cdi": 6.6,
+        "felt": 17,
+        "cdi": 6.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -252,39 +332,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.16,
-        "place": "7 km SW of Corinne, Utah",
-        "time": 1676538455410,
-        "updated": 1676556379591,
+        "mag": 3.17,
+        "place": "Utah",
+        "time": 1676538455320,
+        "updated": 1676560465016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60531356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60531356.geojson",
-        "felt": 31,
+        "felt": 40,
         "cdi": 3.4,
-        "mmi": 4.006,
+        "mmi": 3.268,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 164,
+        "sig": 168,
         "net": "uu",
         "code": "60531356",
         "ids": ",uu60531356,",
         "sources": ",uu,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 41,
-        "dmin": null,
-        "rms": 0.19,
-        "gap": 71,
+        "nst": 43,
+        "dmin": 0.1001,
+        "rms": 0.21,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 7 km SW of Corinne, Utah"
+        "title": "M 3.2 - Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.1735,
-          41.5068333,
-          3.06
+          -112.1761667,
+          41.507,
+          7.26
         ]
       },
       "id": "uu60531356"
@@ -292,39 +372,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.5,
-        "place": "42 km W of Bombardopolis, Haiti",
-        "time": 1676530246925,
-        "updated": 1676544622301,
+        "mag": 5.4,
+        "place": "42 km WSW of Bombardopolis, Haiti",
+        "time": 1676530246602,
+        "updated": 1676559556672,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpbd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpbd.geojson",
         "felt": 8,
         "cdi": 4.4,
-        "mmi": 4.603,
+        "mmi": 4.415,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 469,
+        "sig": 452,
         "net": "us",
         "code": "6000jpbd",
         "ids": ",us6000jpbd,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 88,
-        "dmin": 0.726,
-        "rms": 0.82,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 93,
+        "dmin": 0.729,
+        "rms": 0.77,
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 42 km W of Bombardopolis, Haiti"
+        "title": "M 5.4 - 42 km WSW of Bombardopolis, Haiti"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7316,
-          19.6191,
-          16.399
+          -73.7376,
+          19.6104,
+          14.244
         ]
       },
       "id": "us6000jpbd"
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.87,
-        "place": "Mona Passage",
+        "place": "12 km WSW of Salvaleón de Higüey, Dominican Republic",
         "time": 1676529889640,
         "updated": 1676534256618,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 158,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Mona Passage"
+        "title": "M 3.9 - 12 km WSW of Salvaleón de Higüey, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "7 km SW of Port-Olry, Vanuatu",
+        "place": "Vanuatu",
         "time": 1676525825138,
         "updated": 1676548154887,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 26,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 7 km SW of Port-Olry, Vanuatu"
+        "title": "M 5.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Meghalaya, India region",
+        "place": "11 km NE of Chhātak, Bangladesh",
         "time": 1676519789148,
         "updated": 1676555307068,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Meghalaya, India region"
+        "title": "M 4.3 - 11 km NE of Chhātak, Bangladesh"
       },
       "geometry": {
         "type": "Point",
@@ -852,6 +932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "34 km NNE of San Vicente, Mexico",
+        "time": 1676514393042,
+        "updated": 1676558240760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpa4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpa4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000jpa4",
+        "ids": ",ci40415072,us6000jpa4,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.3,
+        "rms": 0.59,
+        "gap": 186,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 34 km NNE of San Vicente, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0519,
+          31.5853,
+          10
+        ]
+      },
+      "id": "us6000jpa4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "2 km WNW of Arcani, Romania",
         "time": 1676509624815,
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Central Turkey",
+        "place": "10 km ENE of Göksun, Turkey",
         "time": 1676499958228,
         "updated": 1676500984040,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Central Turkey"
+        "title": "M 4.1 - 10 km ENE of Göksun, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "Masbate region, Philippines",
+        "place": "10 km NNE of Miaga, Philippines",
         "time": 1676484610060,
         "updated": 1676544523284,
         "tz": null,
@@ -1197,7 +1317,7 @@
         "gap": 47,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - Masbate region, Philippines"
+        "title": "M 6.1 - 10 km NNE of Miaga, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1328,91 +1448,11 @@
         ]
       },
       "id": "pr71396373"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.58,
-        "place": "81km W of Petrolia, CA",
-        "time": 1676472641270,
-        "updated": 1676510538210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73846771",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73846771.geojson",
-        "felt": 5,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 198,
-        "net": "nc",
-        "code": "73846771",
-        "ids": ",nc73846771,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 69,
-        "dmin": 0.6908,
-        "rms": 0.29,
-        "gap": 260,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 81km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.2376667,
-          40.384,
-          10
-        ]
-      },
-      "id": "nc73846771"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "off the east coast of the North Island of New Zealand",
-        "time": 1676472507728,
-        "updated": 1676504880868,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp5v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jp5v.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": 3.145,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 386,
-        "net": "us",
-        "code": "6000jp5v",
-        "ids": ",us6000jp5v,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 62,
-        "dmin": 0.779,
-        "rms": 1.23,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - off the east coast of the North Island of New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          177.4541,
-          -37.1808,
-          115.208
-        ]
-      },
-      "id": "us6000jp5v"
     }
   ],
   "bbox": [
     -176.5762,
-    -37.1808,
+    -24.778,
     1.799,
     179.4131,
     62.7417,
