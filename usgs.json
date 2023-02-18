@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676751372000,
+    "generated": 1676754772000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "74 km N of Brenas, Puerto Rico",
+        "time": 1676752460510,
+        "updated": 1676754347180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71396643",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71396643.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "pr",
+        "code": "71396643",
+        "ids": ",pr71396643,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.6843,
+        "rms": 0.1,
+        "gap": 275,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 74 km N of Brenas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3253333333333,
+          19.137,
+          16.09
+        ]
+      },
+      "id": "pr71396643"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "9 km ENE of Göksun, Turkey",
         "time": 1676748691398,
-        "updated": 1676751121749,
+        "updated": 1676752923460,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpyq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpyq.geojson",
-        "felt": 6,
-        "cdi": 3.6,
+        "felt": 11,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 387,
+        "sig": 388,
         "net": "us",
         "code": "6000jpyq",
         "ids": ",us6000jpyq,",
@@ -1768,126 +1808,6 @@
         ]
       },
       "id": "hv73326717"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "11 km NE of Konya, Turkey",
-        "time": 1676667185841,
-        "updated": 1676731096854,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jput",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jput.geojson",
-        "felt": 4,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "us",
-        "code": "6000jput",
-        "ids": ",us6000jput,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.647,
-        "rms": 0.72,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km NE of Konya, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.5878,
-          37.928,
-          10
-        ]
-      },
-      "id": "us6000jput"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "6 km ENE of Fairmont, Oklahoma",
-        "time": 1676666757679,
-        "updated": 1676692085837,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023djlr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023djlr.geojson",
-        "felt": 5,
-        "cdi": 3.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "ok",
-        "code": "2023djlr",
-        "ids": ",ok2023djlr,us6000jprr,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 98,
-        "dmin": 0,
-        "rms": 0.19,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 6 km ENE of Fairmont, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.64483333,
-          36.38233333,
-          7.74
-        ]
-      },
-      "id": "ok2023djlr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "Alaska Peninsula",
-        "time": 1676665385165,
-        "updated": 1676676200040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jps0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jps0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000jps0",
-        "ids": ",ak02327pu9j1,us6000jps0,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.76,
-        "rms": 0.72,
-        "gap": 138,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - Alaska Peninsula"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -161.4009,
-          56.1128,
-          182.34
-        ]
-      },
-      "id": "us6000jps0"
     }
   ],
   "bbox": [
