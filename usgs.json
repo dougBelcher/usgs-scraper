@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1676787612000,
+    "generated": 1676790852000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -92,15 +92,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "time": 1676783978544,
+        "updated": 1676789654040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jq1s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jq1s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000jq1s",
+        "ids": ",us6000jq1s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.493,
+        "rms": 0.6,
+        "gap": 248,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - Fox Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.1233,
+          52.7568,
+          35
+        ]
+      },
+      "id": "us6000jq1s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.55,
         "place": "76 km SE of Punta Cana, Dominican Republic",
         "time": 1676783102470,
-        "updated": 1676786364932,
+        "updated": 1676790490402,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023050000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023050000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -108,9 +148,9 @@
         "sig": 194,
         "net": "pr",
         "code": "2023050000",
-        "ids": ",us6000jq1m,pr2023050000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2023050000,us6000jq1m,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.0177,
         "rms": 0.1,
@@ -1888,46 +1928,6 @@
         ]
       },
       "id": "us6000jpvh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands region",
-        "time": 1676702212538,
-        "updated": 1676703915040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jpv9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jpv9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000jpv9",
-        "ids": ",us6000jpv9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 1.627,
-        "rms": 0.83,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.8968,
-          -27.8899,
-          35
-        ]
-      },
-      "id": "us6000jpv9"
     }
   ],
   "bbox": [
