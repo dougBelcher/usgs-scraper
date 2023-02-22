@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677100500000,
+    "generated": 1677104040000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "25 km SE of Port Graham, Alaska",
+        "time": 1677101983663,
+        "updated": 1677102156481,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232g07y66",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232g07y66.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0232g07y66",
+        "ids": ",ak0232g07y66,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.08,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 25 km SE of Port Graham, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5174,
+          59.1843,
+          2
+        ]
+      },
+      "id": "ak0232g07y66"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,86 @@
         ]
       },
       "id": "nn00856288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "79 km WSW of Constitución, Chile",
+        "time": 1677089905802,
+        "updated": 1677102330040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqvf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqvf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000jqvf",
+        "ids": ",us6000jqvf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.045,
+        "rms": 0.72,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 79 km WSW of Constitución, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1617,
+          -35.7008,
+          35
+        ]
+      },
+      "id": "us6000jqvf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "78 km WNW of Cauquenes, Chile",
+        "time": 1677088075177,
+        "updated": 1677102026040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqv1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqv1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000jqv1",
+        "ids": ",us6000jqv1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.998,
+        "rms": 0.66,
+        "gap": 198,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 78 km WNW of Cauquenes, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1518,
+          -35.7487,
+          35
+        ]
+      },
+      "id": "us6000jqv1"
     },
     {
       "type": "Feature",
@@ -1532,8 +1652,8 @@
   ],
   "bbox": [
     -177.612,
-    -30.0389,
-    2.64,
+    -35.7487,
+    2,
     143.413,
     61.257,
     520.122
