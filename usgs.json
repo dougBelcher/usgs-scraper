@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677165420000,
+    "generated": 1677169421000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "19 km W of Susitna, Alaska",
+        "time": 1677168981860,
+        "updated": 1677169077440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232hkn5hm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232hkn5hm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0232hkn5hm",
+        "ids": ",ak0232hkn5hm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.21,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 19 km W of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8809,
+          61.5742,
+          63.9
+        ]
+      },
+      "id": "ak0232hkn5hm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "6 km NW of Kışlak, Turkey",
+        "time": 1677167627208,
+        "updated": 1677168700040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jr1t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jr1t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000jr1t",
+        "ids": ",us6000jr1t,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 156,
+        "dmin": 1.453,
+        "rms": 0.96,
+        "gap": 34,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.9 - 6 km NW of Kışlak, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1109,
+          36.0165,
+          10
+        ]
+      },
+      "id": "us6000jr1t"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "39 km SE of Perryville, Alaska",
         "time": 1677161307114,
-        "updated": 1677162084740,
+        "updated": 1677168250040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232hjekyf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232hjekyf.geojson",
@@ -28,8 +108,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0232hjekyf",
-        "ids": ",ak0232hjekyf,",
-        "sources": ",ak,",
+        "ids": ",ak0232hjekyf,us6000jr1f,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,7 +175,7 @@
         "mag": 2.5,
         "place": "73 km SSE of Kokhanok, Alaska",
         "time": 1677159661783,
-        "updated": 1677159778177,
+        "updated": 1677167659040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232hj062v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232hj062v.geojson",
@@ -108,8 +188,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0232hj062v",
-        "ids": ",ak0232hj062v,",
-        "sources": ",ak,",
+        "ids": ",us6000jr1d,ak0232hj062v,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "Off the coast of Valparaiso, Chile",
+        "place": "151 km WSW of San Antonio, Chile",
         "time": 1677147818907,
         "updated": 1677159091587,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 51,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - Off the coast of Valparaiso, Chile"
+        "title": "M 5.5 - 151 km WSW of San Antonio, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "65 km W of Murghob, Tajikistan",
+        "place": "Tajikistan-Xinjiang border region",
         "time": 1677139262881,
         "updated": 1677141343040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 65 km W of Murghob, Tajikistan"
+        "title": "M 4.7 - Tajikistan-Xinjiang border region"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.67,
-        "place": "105 km ENE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Leeward Islands",
         "time": 1677135334020,
         "updated": 1677139377172,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 228,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 105 km ENE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.7 - Leeward Islands"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "offshore Coquimbo, Chile",
+        "place": "52 km WNW of Ovalle, Chile",
         "time": 1677122337663,
         "updated": 1677149444434,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 187,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.4 - offshore Coquimbo, Chile"
+        "title": "M 4.4 - 52 km WNW of Ovalle, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Tajikistan-Xinjiang border region",
+        "place": "64 km W of Murghob, Tajikistan",
         "time": 1677118066940,
         "updated": 1677118937040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Tajikistan-Xinjiang border region"
+        "title": "M 4.8 - 64 km W of Murghob, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "122 km WSW of Ikey, Russia",
+        "place": "Irkutskaya Oblast', Russia",
         "time": 1677107182156,
         "updated": 1677110542040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 122 km WSW of Ikey, Russia"
+        "title": "M 4.7 - Irkutskaya Oblast', Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1288,166 +1368,6 @@
         ]
       },
       "id": "tx2023dshl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "21 km WSW of Point MacKenzie, Alaska",
-        "time": 1677081407583,
-        "updated": 1677099750323,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232fwr00m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232fwr00m.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0232fwr00m",
-        "ids": ",ak0232fwr00m,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.93,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 21 km WSW of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.3203,
-          61.257,
-          250
-        ]
-      },
-      "id": "ak0232fwr00m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "83 km W of Coquimbo, Chile",
-        "time": 1677081099859,
-        "updated": 1677086155040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jqup.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000jqup",
-        "ids": ",us6000jqup,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.801,
-        "rms": 1.16,
-        "gap": 179,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.0 - 83 km W of Coquimbo, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.2035,
-          -30.0389,
-          12.059
-        ]
-      },
-      "id": "us6000jqup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "5km ESE of Ferndale, CA",
-        "time": 1677080901690,
-        "updated": 1677113045211,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73850141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73850141.geojson",
-        "felt": 55,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 176,
-        "net": "nc",
-        "code": "73850141",
-        "ids": ",nc73850141,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.2341,
-        "rms": 0.12,
-        "gap": 177,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 5km ESE of Ferndale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.2126694,
-          40.5558319,
-          14.43
-        ]
-      },
-      "id": "nc73850141"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.76,
-        "place": "Mona Passage, Dominican Republic",
-        "time": 1677079086170,
-        "updated": 1677081281369,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023053000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023053000.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 218,
-        "net": "pr",
-        "code": "2023053000",
-        "ids": ",pr2023053000,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.3076,
-        "rms": 0.27,
-        "gap": 205,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - Mona Passage, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2605,
-          18.231,
-          96
-        ]
-      },
-      "id": "pr2023053000"
     }
   ],
   "bbox": [
