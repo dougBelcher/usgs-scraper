@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677504349000,
+    "generated": 1677507354000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 45
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "Kenai Peninsula, Alaska",
+        "time": 1677505116027,
+        "updated": 1677505314272,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232o54zht",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232o54zht.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0232o54zht",
+        "ids": ",ak0232o54zht,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.89,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Kenai Peninsula, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4515,
+          59.9127,
+          26.1
+        ]
+      },
+      "id": "ak0232o54zht"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "Antofagasta, Chile",
+        "place": "11 km SE of Calama, Chile",
         "time": 1677502404234,
         "updated": 1677503198040,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Antofagasta, Chile"
+        "title": "M 4.4 - 11 km SE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "98 km SW of Atocha, Bolivia",
+        "place": "Potosi, Bolivia",
         "time": 1677499706272,
         "updated": 1677500611040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 98 km SW of Atocha, Bolivia"
+        "title": "M 4.6 - Potosi, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "26 km WSW of Leadore, Idaho",
+        "place": "Idaho-Montana border region",
         "time": 1677497649214,
         "updated": 1677498121040,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 26 km WSW of Leadore, Idaho"
+        "title": "M 3.0 - Idaho-Montana border region"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +215,7 @@
         "mag": 2.83999991,
         "place": "34 km WNW of Puako, Hawaii",
         "time": 1677494050510,
-        "updated": 1677494989603,
+        "updated": 1677506948040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73331392",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73331392.geojson",
@@ -188,8 +228,8 @@
         "sig": 124,
         "net": "hv",
         "code": "73331392",
-        "ids": ",hv73331392,",
-        "sources": ",hv,",
+        "ids": ",hv73331392,us6000jrwu,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": null,
@@ -213,19 +253,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "14 km SE of Champerico, Guatemala",
+        "place": "offshore Guatemala",
         "time": 1677491618669,
-        "updated": 1677503093539,
+        "updated": 1677504354707,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrwq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrwq.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 285,
+        "sig": 286,
         "net": "us",
         "code": "6000jrwq",
         "ids": ",us6000jrwq,",
@@ -237,7 +277,7 @@
         "gap": 171,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 14 km SE of Champerico, Guatemala"
+        "title": "M 4.3 - offshore Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "28 km SSE of Karluk, Alaska",
+        "place": "Kodiak Island region, Alaska",
         "time": 1677490377737,
         "updated": 1677491878040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - 28 km SSE of Karluk, Alaska"
+        "title": "M 4.1 - Kodiak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "51 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1677488722468,
         "updated": 1677492384040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 51 km NW of Toyah, Texas"
+        "title": "M 3.0 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -373,9 +413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "8 km SSE of Yeşilyurt, Turkey",
+        "place": "eastern Turkey",
         "time": 1677488691978,
-        "updated": 1677501290676,
+        "updated": 1677506283040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrw4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrw4.geojson",
@@ -390,14 +430,14 @@
         "code": "6000jrw4",
         "ids": ",us6000jrw4,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 85,
         "dmin": 0.864,
         "rms": 1.09,
         "gap": 26,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 8 km SSE of Yeşilyurt, Turkey"
+        "title": "M 5.2 - eastern Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.56,
-        "place": "Puerto Rico region",
+        "place": "31 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1677479508660,
         "updated": 1677483899556,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 251,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
+        "title": "M 3.6 - 31 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "47 km ENE of Pedro Bay, Alaska",
         "time": 1677476204228,
         "updated": 1677476444749,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 47 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -853,9 +893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "Central Turkey",
+        "place": "10 km NNW of Gölbaşı, Turkey",
         "time": 1677466281144,
-        "updated": 1677473112040,
+        "updated": 1677506432040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrtz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrtz.geojson",
@@ -870,14 +910,14 @@
         "code": "6000jrtz",
         "ids": ",us6000jrtz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 124,
         "dmin": 0.753,
         "rms": 0.73,
         "gap": 30,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - Central Turkey"
+        "title": "M 5.0 - 10 km NNW of Gölbaşı, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "79 km NNW of Aksu, China",
+        "place": "Kyrgyzstan-Xinjiang border region",
         "time": 1677455884181,
         "updated": 1677471414819,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 79 km NNW of Aksu, China"
+        "title": "M 5.1 - Kyrgyzstan-Xinjiang border region"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Gulf of Alaska",
+        "place": "278 km ESE of Chiniak, Alaska",
         "time": 1677452750679,
         "updated": 1677468678040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 190,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Gulf of Alaska"
+        "title": "M 4.1 - 278 km ESE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "104 km NNW of Aksu, China",
+        "place": "Kyrgyzstan",
         "time": 1677447733986,
         "updated": 1677466686040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 104 km NNW of Aksu, China"
+        "title": "M 4.9 - Kyrgyzstan"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.66,
-        "place": "113 km NNE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1677442561400,
         "updated": 1677445668963,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 272,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 113 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 3.7 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.54,
-        "place": "Mona Passage",
+        "place": "30 km N of Otra Banda, Dominican Republic",
         "time": 1677430759830,
         "updated": 1677436083111,
         "tz": null,
@@ -1557,7 +1597,7 @@
         "gap": 189,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Mona Passage"
+        "title": "M 3.5 - 30 km N of Otra Banda, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "118 km NNW of Naisano Dua, Indonesia",
+        "place": "Flores region, Indonesia",
         "time": 1677429675756,
         "updated": 1677430577040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 118 km NNW of Naisano Dua, Indonesia"
+        "title": "M 5.1 - Flores region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1732,162 +1772,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "Southern Alaska",
-        "time": 1677420595930,
-        "updated": 1677430876040,
+        "mag": 2.56,
+        "place": "9 km ENE of Steele, Missouri",
+        "time": 1677423621600,
+        "updated": 1677507295530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232mi0wd9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232mi0wd9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0232mi0wd9",
-        "ids": ",us6000jrr5,ak0232mi0wd9,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - Southern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.5736,
-          61.4621,
-          20
-        ]
-      },
-      "id": "ak0232mi0wd9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "120 km WSW of Adak, Alaska",
-        "time": 1677419598822,
-        "updated": 1677485030354,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrqy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrqy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.585,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000jrqy",
-        "ids": ",us6000jrqy,ak0232mhotbn,",
-        "sources": ",us,ak,",
-        "types": ",oaf,origin,phase-data,shakemap,",
-        "nst": 44,
-        "dmin": 0.364,
-        "rms": 0.85,
-        "gap": 175,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 120 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.3295,
-          51.6088,
-          45.225
-        ]
-      },
-      "id": "us6000jrqy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "184 km W of Mil’kovo, Russia",
-        "time": 1677419355033,
-        "updated": 1677431319040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jrr7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000jrr7.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60512801",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60512801.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000jrr7",
-        "ids": ",us6000jrr7,",
-        "sources": ",us,",
+        "sig": 101,
+        "net": "nm",
+        "code": "60512801",
+        "ids": ",nm60512801,",
+        "sources": ",nm,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.787,
-        "rms": 0.61,
-        "gap": 88,
-        "magType": "mb",
+        "nst": 61,
+        "dmin": 0.02579,
+        "rms": 0.22,
+        "gap": 57,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - 184 km W of Mil’kovo, Russia"
+        "title": "M 2.6 - 9 km ENE of Steele, Missouri"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          155.7843,
-          54.4847,
-          436.216
+          -89.7333333333333,
+          36.1246666666667,
+          5.53
         ]
       },
-      "id": "us6000jrr7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "45 km NW of Venetie, Alaska",
-        "time": 1677418832636,
-        "updated": 1677419029069,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232mhm25u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232mhm25u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0232mhm25u",
-        "ids": ",ak0232mhm25u,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 45 km NW of Venetie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.1044,
-          67.3285,
-          4
-        ]
-      },
-      "id": "ak0232mhm25u"
+      "id": "nm60512801"
     }
   ],
   "bbox": [
