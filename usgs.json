@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677658934000,
+    "generated": 1677662234000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 63
+    "count": 64
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "39 km NNE of Culebra, Puerto Rico",
+        "time": 1677660840170,
+        "updated": 1677661737730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71397913",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71397913.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71397913",
+        "ids": ",pr71397913,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.3458,
+        "rms": 0.27,
+        "gap": 235,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 39 km NNE of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2255,
+          18.6508333333333,
+          16.51
+        ]
+      },
+      "id": "pr71397913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Off the coast of southern Peru",
+        "time": 1677658154567,
+        "updated": 1677659349040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000jgip",
+        "ids": ",us7000jgip,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 4.112,
+        "rms": 1.11,
+        "gap": 162,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Off the coast of southern Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6139,
+          -17.7428,
+          10
+        ]
+      },
+      "id": "us7000jgip"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "41 km NNW of Hughes, Alaska",
         "time": 1677657016097,
-        "updated": 1677657208510,
+        "updated": 1677660118040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232rcplwp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232rcplwp.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0232rcplwp",
-        "ids": ",ak0232rcplwp,",
-        "sources": ",ak,",
+        "ids": ",us7000jgik,ak0232rcplwp,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,7 +175,7 @@
         "mag": 3.43,
         "place": "8km NW of The Geysers, CA",
         "time": 1677654580830,
-        "updated": 1677656232667,
+        "updated": 1677661691179,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73853396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73853396.geojson",
@@ -108,8 +188,8 @@
         "sig": 182,
         "net": "nc",
         "code": "73853396",
-        "ids": ",nc73853396,",
-        "sources": ",nc,",
+        "ids": ",nc73853396,us7000jgib,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 70,
         "dmin": 0.005696,
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "39 km NNW of Hughes, Alaska",
+        "place": "northern Alaska",
         "time": 1677650641763,
         "updated": 1677652792040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 39 km NNW of Hughes, Alaska"
+        "title": "M 3.9 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -295,17 +375,17 @@
         "mag": 4,
         "place": "50 km SE of Port Graham, Alaska",
         "time": 1677650279415,
-        "updated": 1677657861952,
+        "updated": 1677661677212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232rbkc00",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232rbkc00.geojson",
-        "felt": 40,
+        "felt": 41,
         "cdi": 2.8,
         "mmi": 3.117,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 257,
+        "sig": 258,
         "net": "ak",
         "code": "0232rbkc00",
         "ids": ",ak0232rbkc00,at00rqtv8m,us7000jgg8,",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Alaska Peninsula",
+        "place": "24 km WNW of Egegik, Alaska",
         "time": 1677650141983,
         "updated": 1677650473848,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Alaska Peninsula"
+        "title": "M 2.8 - 24 km WNW of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.18,
-        "place": "Mona Passage",
+        "place": "98 km N of San Antonio, Puerto Rico",
         "time": 1677649191770,
         "updated": 1677653400380,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Mona Passage"
+        "title": "M 3.2 - 98 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "39 km NNW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1677645227420,
         "updated": 1677646145420,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 296,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 39 km NNW of San Antonio, Puerto Rico"
+        "title": "M 3.1 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "18 km NNE of Balmorhea, Texas",
+        "place": "western Texas",
         "time": 1677642060393,
         "updated": 1677648453040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 18 km NNE of Balmorhea, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Central Turkey",
+        "place": "21 km SW of Ekinözü, Turkey",
         "time": 1677637402553,
         "updated": 1677647733040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Central Turkey"
+        "title": "M 4.4 - 21 km SW of Ekinözü, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "43 km S of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1677633999093,
         "updated": 1677647206040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 43 km S of Jurm, Afghanistan"
+        "title": "M 4.4 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "192 km WNW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1677622010550,
         "updated": 1677624444040,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 192 km WNW of Tobelo, Indonesia"
+        "title": "M 4.5 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "6 km S of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1677618431500,
         "updated": 1677619608650,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km S of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "1 km NNE of Ichinomiya, Japan",
+        "place": "western Honshu, Japan",
         "time": 1677603110264,
         "updated": 1677604958040,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 50,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 1 km NNE of Ichinomiya, Japan"
+        "title": "M 4.2 - western Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +2053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "23 km ESE of Göksun, Turkey",
+        "place": "central Turkey",
         "time": 1677595757367,
         "updated": 1677601543251,
         "tz": null,
@@ -1997,7 +2077,7 @@
         "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 23 km ESE of Göksun, Turkey"
+        "title": "M 4.4 - central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Central Turkey",
+        "place": "30 km NW of Kahramanmaraş, Turkey",
         "time": 1677595194975,
         "updated": 1677600162040,
         "tz": null,
@@ -2117,7 +2197,7 @@
         "gap": 37,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.4 - Central Turkey"
+        "title": "M 4.4 - 30 km NW of Kahramanmaraş, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.87,
-        "place": "Puerto Rico region",
+        "place": "60 km N of Tierras Nuevas Poniente, Puerto Rico",
         "time": 1677594762660,
         "updated": 1677595997910,
         "tz": null,
@@ -2157,7 +2237,7 @@
         "gap": 323,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 60 km N of Tierras Nuevas Poniente, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2293,7 +2373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.58,
-        "place": "131 km NNE of Vieques, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1677583053780,
         "updated": 1677587868352,
         "tz": null,
@@ -2317,7 +2397,7 @@
         "gap": 306,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 131 km NNE of Vieques, Puerto Rico"
+        "title": "M 3.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2488,46 +2568,6 @@
         ]
       },
       "id": "ak0232pq6204"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "40 km N of San Antonio, Puerto Rico",
-        "time": 1677574172250,
-        "updated": 1677575053940,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71397658",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71397658.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71397658",
-        "ids": ",pr71397658,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.5345,
-        "rms": 0.23,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 40 km N of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1198333333333,
-          18.8605,
-          6.15
-        ]
-      },
-      "id": "pr71397658"
     }
   ],
   "bbox": [
