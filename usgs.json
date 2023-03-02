@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677781475000,
+    "generated": 1677784361000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.8,
-        "place": "92 km W of Luganville, Vanuatu",
-        "time": 1677780271000,
-        "updated": 1677781448666,
+        "mag": 5.4,
+        "place": "48 km WNW of Port-Olry, Vanuatu",
+        "time": 1677780667192,
+        "updated": 1677782135800,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rqwnjj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rqwnjj.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 711,
-        "net": "at",
-        "code": "00rqwnjj",
-        "ids": ",at00rqwnjj,pt23061000,",
-        "sources": ",at,pt,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 19,
-        "dmin": 5.57225,
-        "rms": 5.94,
-        "gap": 82.79999337600053,
-        "magType": "Mi",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jgv8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jgv8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 6.246,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000jgv8",
+        "ids": ",us7000jgv8,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 42,
+        "dmin": 6.041,
+        "rms": 0.79,
+        "gap": 45,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.8 - 92 km W of Luganville, Vanuatu"
+        "title": "M 5.4 - 48 km WNW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.3,
-          -15.5,
-          33
+          166.6423,
+          -14.9109,
+          10
         ]
       },
-      "id": "at00rqwnjj"
+      "id": "us7000jgv8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "Vanuatu",
+        "time": 1677780269540,
+        "updated": 1677784282040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd000j5jt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd000j5jt.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": 6.217,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 650,
+        "net": "us",
+        "code": "d000j5jt",
+        "ids": ",at00rqwnjj,usd000j5jt,pt23061000,",
+        "sources": ",at,us,pt,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 5.483,
+        "rms": 1.38,
+        "gap": 45,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.3656,
+          -15.4087,
+          10
+        ]
+      },
+      "id": "usd000j5jt"
     },
     {
       "type": "Feature",
@@ -1494,7 +1534,7 @@
     -179.9222,
     -55.0984,
     3.23,
-    166.3,
+    166.6423,
     63.9024,
     514.89
   ]
