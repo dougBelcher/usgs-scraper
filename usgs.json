@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678011411000,
+    "generated": 1678014773000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "65 km SE of Denali National Park, Alaska",
+        "time": 1678013964192,
+        "updated": 1678014074571,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232y0p8p8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232y0p8p8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0232y0p8p8",
+        "ids": ",ak0232y0p8p8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 65 km SE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6458,
+          63.2118,
+          128.2
+        ]
+      },
+      "id": "ak0232y0p8p8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "70 km NE of Punta Cana, Dominican Republic",
+        "time": 1678011506766,
+        "updated": 1678014704040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhg4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhg4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000jhg4",
+        "ids": ",us7000jhg4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.67,
+        "rms": 0.42,
+        "gap": 183,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 70 km NE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9105,
+          19.0175,
+          10.313
+        ]
+      },
+      "id": "us7000jhg4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1008,46 +1088,6 @@
         ]
       },
       "id": "us7000jhby"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "61 km SSE of Atka, Alaska",
-        "time": 1677925903174,
-        "updated": 1677960820411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhbm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhbm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.353,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000jhbm",
-        "ids": ",ak0232wczywg,us7000jhbm,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 116,
-        "dmin": 1.456,
-        "rms": 0.76,
-        "gap": 173,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 61 km SSE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.7957,
-          51.7043,
-          56.538
-        ]
-      },
-      "id": "us7000jhbm"
     }
   ],
   "bbox": [
@@ -1055,7 +1095,7 @@
     -22.063,
     -0.02,
     139.6217,
-    60.211,
+    63.2118,
     410.355
   ]
 }
