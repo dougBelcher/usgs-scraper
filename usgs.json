@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1677980678000,
+    "generated": 1677985178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "58 km WNW of Ninilchik, Alaska",
+        "time": 1677982954800,
+        "updated": 1677983853040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0232xvpv94",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0232xvpv94.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0232xvpv94",
+        "ids": ",us7000jheg,ak0232xvpv94,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.23,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 58 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.6726,
+          60.211,
+          105.6
+        ]
+      },
+      "id": "ak0232xvpv94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "18 km WNW of Ashkāsham, Afghanistan",
+        "time": 1677979587131,
+        "updated": 1677980761040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jheb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jheb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000jheb",
+        "ids": ",us7000jheb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.653,
+        "rms": 0.72,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 18 km WNW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.3394,
+          36.7523,
+          180.599
+        ]
+      },
+      "id": "us7000jheb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.82,
+        "place": "15 km SE of Esperanza, Puerto Rico",
+        "time": 1677978054290,
+        "updated": 1677981047360,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71398323",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71398323.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "pr",
+        "code": "71398323",
+        "ids": ",pr71398323,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.1922,
+        "rms": 0.06,
+        "gap": 231,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 15 km SE of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3855,
+          17.9888333333333,
+          13.96
+        ]
+      },
+      "id": "pr71398323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.47,
-        "place": "4 km E of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1677978040560,
         "updated": 1677979145720,
         "tz": null,
@@ -77,7 +197,7 @@
         "gap": 158,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km E of La Parguera, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -175,12 +295,12 @@
         "mag": 2.54,
         "place": "18km SE of Pinnacles, CA",
         "time": 1677973563080,
-        "updated": 1677976871203,
+        "updated": 1677981955736,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73855481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73855481.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +310,7 @@
         "code": "73855481",
         "ids": ",nc73855481,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 24,
         "dmin": 0.05982,
         "rms": 0.15,
@@ -213,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.25,
-        "place": "Puerto Rico region",
+        "place": "92 km N of Arecibo, Puerto Rico",
         "time": 1677972937670,
         "updated": 1677973641410,
         "tz": null,
@@ -237,7 +357,7 @@
         "gap": 302,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 92 km N of Arecibo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "117 km WSW of Abepura, Indonesia",
+        "place": "near the north coast of Papua, Indonesia",
         "time": 1677968758107,
         "updated": 1677970776040,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 115,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 117 km WSW of Abepura, Indonesia"
+        "title": "M 4.4 - near the north coast of Papua, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "41 km S of La Libertad, El Salvador",
+        "place": "El Salvador",
         "time": 1677963464085,
         "updated": 1677968872040,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": 216,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 41 km S of La Libertad, El Salvador"
+        "title": "M 4.4 - El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "45 km SSW of Suai, Timor Leste",
+        "place": "East Timor region",
         "time": 1677962716383,
         "updated": 1677968030040,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 45 km SSW of Suai, Timor Leste"
+        "title": "M 4.4 - East Timor region"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Fiji region",
+        "place": "242 km E of Levuka, Fiji",
         "time": 1677924014586,
         "updated": 1677926083040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Fiji region"
+        "title": "M 4.3 - 242 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Lake Edward region, Uganda",
+        "place": "10 km S of Bundibugyo, Uganda",
         "time": 1677908049088,
         "updated": 1677909331040,
         "tz": null,
@@ -1117,7 +1237,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Lake Edward region, Uganda"
+        "title": "M 4.6 - 10 km S of Bundibugyo, Uganda"
       },
       "geometry": {
         "type": "Point",
@@ -1375,7 +1495,7 @@
     -29.4748,
     -0.02,
     178.7486,
-    58.1897,
+    60.211,
     587.269
   ]
 }
