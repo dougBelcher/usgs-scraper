@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678295747000,
+    "generated": 1678299698000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "34 km WNW of Akhiok, Alaska",
+        "time": 1678297531785,
+        "updated": 1678298268632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023333ec5m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023333ec5m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023333ec5m",
+        "ids": ",ak023333ec5m,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.45,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km WNW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.7211,
+          57.0096,
+          20.3
+        ]
+      },
+      "id": "ak023333ec5m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "10 km ESE of Knik-Fairview, Alaska",
+        "time": 1678296265922,
+        "updated": 1678299645433,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233339thf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233339thf.geojson",
+        "felt": 194,
+        "cdi": 3.4,
+        "mmi": 2.875,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 300,
+        "net": "ak",
+        "code": "0233339thf",
+        "ids": ",ak0233339thf,us7000ji7i,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 10 km ESE of Knik-Fairview, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4278,
+          61.4745,
+          40.4
+        ]
+      },
+      "id": "ak0233339thf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
-        "place": "Nevada",
-        "time": 1678294952650,
-        "updated": 1678295127286,
+        "place": "31 km SE of Mina, Nevada",
+        "time": 1678294953418,
+        "updated": 1678298492040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00856693",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00856693.geojson",
@@ -23,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "nn",
         "code": "00856693",
-        "ids": ",nn00856693,",
-        "sources": ",nn,",
+        "ids": ",us7000ji7a,nn00856693,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.099,
-        "rms": 0.3635,
-        "gap": 141.44,
+        "nst": 11,
+        "dmin": 0.053,
+        "rms": 0.16,
+        "gap": 80.02,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Nevada"
+        "title": "M 2.7 - 31 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8537,
-          38.1919,
-          10
+          -117.8993,
+          38.1625,
+          11.5
         ]
       },
       "id": "nn00856693"
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "off the east coast of the Kamchatka Peninsula, Russia",
+        "place": "182 km SSE of Vilyuchinsk, Russia",
         "time": 1678291850289,
         "updated": 1678292938040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - off the east coast of the Kamchatka Peninsula, Russia"
+        "title": "M 5.2 - 182 km SSE of Vilyuchinsk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +215,7 @@
         "mag": 5.4,
         "place": "207 km NNE of Fais, Micronesia",
         "time": 1678283003060,
-        "updated": 1678290824705,
+        "updated": 1678298022060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ji58",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ji58.geojson",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Mindanao, Philippines",
+        "place": "12 km ESE of San Mariano, Philippines",
         "time": 1678272454117,
         "updated": 1678276400211,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 116,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Mindanao, Philippines"
+        "title": "M 4.5 - 12 km ESE of San Mariano, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Afghanistan-Tajikistan border region",
+        "place": "27 km ESE of Khorugh, Tajikistan",
         "time": 1678272174685,
         "updated": 1678274748040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Afghanistan-Tajikistan border region"
+        "title": "M 4.2 - 27 km ESE of Khorugh, Tajikistan"
       },
       "geometry": {
         "type": "Point",
@@ -492,42 +572,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "10 km WSW of Richland, Oregon",
-        "time": 1678267986032,
-        "updated": 1678290609648,
+        "mag": 3.11,
+        "place": "9 km WSW of Richland, Oregon",
+        "time": 1678267986070,
+        "updated": 1678297187114,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ji49",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ji49.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61901007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61901007.geojson",
         "felt": 2,
-        "cdi": 3.6,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
-        "net": "us",
-        "code": "7000ji49",
-        "ids": ",us7000ji49,",
-        "sources": ",us,",
+        "sig": 149,
+        "net": "uw",
+        "code": "61901007",
+        "ids": ",us7000ji49,uw61901007,",
+        "sources": ",us,uw,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.113,
-        "rms": 0.49,
-        "gap": 62,
+        "nst": 14,
+        "dmin": 0.1134,
+        "rms": 0.43,
+        "gap": 73,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 10 km WSW of Richland, Oregon"
+        "title": "M 3.1 - 9 km WSW of Richland, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2881,
-          44.74,
-          13.918
+          -117.28283333333333,
+          44.74033333333333,
+          4.92
         ]
       },
-      "id": "us7000ji49"
+      "id": "uw61901007"
     },
     {
       "type": "Feature",
@@ -735,12 +815,12 @@
         "mag": 4.5,
         "place": "124 km E of McCarthy, Alaska",
         "time": 1678260775514,
-        "updated": 1678263192040,
+        "updated": 1678298148572,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ji35",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ji35.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": 5.327,
         "alert": null,
         "status": "reviewed",
@@ -748,9 +828,9 @@
         "sig": 312,
         "net": "us",
         "code": "7000ji35",
-        "ids": ",ak02332xd9ds,us7000ji35,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",us7000ji35,ak02332xd9ds,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 86,
         "dmin": 0.408,
         "rms": 1.26,
@@ -975,17 +1055,17 @@
         "mag": 2.77,
         "place": "10km SSW of Joshua Tree, CA",
         "time": 1678248452850,
-        "updated": 1678291213050,
+        "updated": 1678298590097,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40422016",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40422016.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "ci",
         "code": "40422016",
         "ids": ",ci40422016,",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Southern Alaska",
+        "place": "49 km E of Port Alsworth, Alaska",
         "time": 1678248107194,
         "updated": 1678249981780,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - Southern Alaska"
+        "title": "M 4.1 - 49 km E of Port Alsworth, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1375,17 +1455,17 @@
         "mag": 4.1,
         "place": "20 km WNW of Heyuan, China",
         "time": 1678223733683,
-        "updated": 1678283654295,
+        "updated": 1678298807959,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhzt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jhzt.geojson",
-        "felt": 8,
-        "cdi": 3.1,
+        "felt": 9,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 261,
+        "sig": 262,
         "net": "us",
         "code": "7000jhzt",
         "ids": ",us7000jhzt,",
@@ -1493,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "136 km SSW of Kokopo, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1678221965565,
         "updated": 1678288844040,
         "tz": null,
@@ -1517,7 +1597,7 @@
         "gap": 15,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 136 km SSW of Kokopo, Papua New Guinea"
+        "title": "M 5.3 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Molucca Sea",
+        "place": "176 km S of Tomohon, Indonesia",
         "time": 1678221089060,
         "updated": 1678287631848,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Molucca Sea"
+        "title": "M 5.4 - 176 km S of Tomohon, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "us7000jhz2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "52 km NNE of Otra Banda, Dominican Republic",
-        "time": 1678209372810,
-        "updated": 1678219626377,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023066001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023066001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "pr",
-        "code": "2023066001",
-        "ids": ",us7000jhx0,pr2023066001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.5963,
-        "rms": 0.84,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 52 km NNE of Otra Banda, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5058,
-          19.0971,
-          9
-        ]
-      },
-      "id": "pr2023066001"
     }
   ],
   "bbox": [
@@ -1615,7 +1655,7 @@
     -42.832,
     -0.39,
     179.9738,
-    61.4054,
+    61.4745,
     495.169
   ]
 }
