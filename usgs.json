@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678482828000,
+    "generated": 1678486507000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 75
+    "count": 83
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "5 km SSW of Pilot Point, Alaska",
+        "time": 1678486373313,
+        "updated": 1678486468061,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02336h9637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02336h9637.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "02336h9637",
+        "ids": ",ak02336h9637,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km SSW of Pilot Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.6285,
+          57.5164,
+          50
+        ]
+      },
+      "id": "ak02336h9637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.47,
+        "place": "Puerto Rico region",
+        "time": 1678482623700,
+        "updated": 1678486022622,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023069001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023069001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 185,
+        "net": "pr",
+        "code": "2023069001",
+        "ids": ",pr2023069001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.7571,
+        "rms": 0.17,
+        "gap": 325,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.5 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3446,
+          18.8203,
+          86
+        ]
+      },
+      "id": "pr2023069001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +135,22 @@
         "mag": 4.3,
         "place": "4 km N of Sequndo, Colorado",
         "time": 1678480296287,
-        "updated": 1678482744094,
+        "updated": 1678486295524,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jiyi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jiyi.geojson",
-        "felt": 3,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
+        "felt": 8,
+        "cdi": 5,
+        "mmi": 4.708,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 286,
+        "sig": 288,
         "net": "us",
         "code": "7000jiyi",
         "ids": ",us7000jiyi,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 15,
         "dmin": 0.064,
         "rms": 1.07,
@@ -132,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "Hokkaido, Japan region",
+        "time": 1678479158929,
+        "updated": 1678486434648,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jiya",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jiya.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000jiya",
+        "ids": ",us7000jiya,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 133,
+        "dmin": 0.225,
+        "rms": 0.73,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Hokkaido, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9438,
+          42.1745,
+          57.945
+        ]
+      },
+      "id": "us7000jiya"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "45 km ENE of Pedro Bay, Alaska",
         "time": 1678475756727,
-        "updated": 1678475997958,
+        "updated": 1678484294040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02336fhioo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02336fhioo.geojson",
@@ -148,8 +268,8 @@
         "sig": 96,
         "net": "ak",
         "code": "02336fhioo",
-        "ids": ",ak02336fhioo,",
-        "sources": ",ak,",
+        "ids": ",us7000jixi,ak02336fhioo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -172,82 +292,122 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.27,
-        "place": "101 km W of Adak, Alaska",
-        "time": 1678471947760,
-        "updated": 1678475597840,
+        "mag": 2.7,
+        "place": "102 km W of Adak, Alaska",
+        "time": 1678474151899,
+        "updated": 1678483899040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91796596",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91796596.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jixc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jixc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 165,
-        "net": "av",
-        "code": "91796596",
-        "ids": ",av91796596,",
-        "sources": ",av,",
+        "sig": 112,
+        "net": "us",
+        "code": "7000jixc",
+        "ids": ",av91796656,us7000jixc,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": null,
-        "rms": 0.17,
-        "gap": 110,
+        "nst": 15,
+        "dmin": 0.017,
+        "rms": 0.52,
+        "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 101 km W of Adak, Alaska"
+        "title": "M 2.7 - 102 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.110333333333,
-          51.8526666666667,
-          5
+          -178.1158,
+          51.8983,
+          9.795
         ]
       },
-      "id": "av91796596"
+      "id": "us7000jixc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "101 km W of Adak, Alaska",
-        "time": 1678471907832,
-        "updated": 1678475329929,
+        "mag": 3.6,
+        "place": "100 km W of Adak, Alaska",
+        "time": 1678471947559,
+        "updated": 1678483450040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02336ev7k5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02336ev7k5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jixg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jixg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "02336ev7k5",
-        "ids": ",av91796591,ak02336ev7k5,",
-        "sources": ",av,ak,",
+        "sig": 199,
+        "net": "us",
+        "code": "7000jixg",
+        "ids": ",av91796596,us7000jixg,",
+        "sources": ",av,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
+        "nst": 17,
+        "dmin": 0.044,
+        "rms": 0.42,
+        "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 101 km W of Adak, Alaska"
+        "title": "M 3.6 - 100 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.101,
-          51.848,
-          5.7
+          -178.093,
+          51.8623,
+          10.285
         ]
       },
-      "id": "ak02336ev7k5"
+      "id": "us7000jixg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "101 km W of Adak, Alaska",
+        "time": 1678471908511,
+        "updated": 1678483226040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jix7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jix7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000jix7",
+        "ids": ",av91796591,ak02336ev7k5,us7000jix7,",
+        "sources": ",av,ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.039,
+        "rms": 0.6,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 101 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.1068,
+          51.8766,
+          10.999
+        ]
+      },
+      "id": "us7000jix7"
     },
     {
       "type": "Feature",
@@ -533,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "100 km W of Adak, Alaska",
         "time": 1678463571560,
         "updated": 1678476092940,
         "tz": null,
@@ -557,7 +717,7 @@
         "gap": 201,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 2.8 - 100 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +815,17 @@
         "mag": 3.5,
         "place": "8 km N of Segundo, Colorado",
         "time": 1678462255920,
-        "updated": 1678481865157,
+        "updated": 1678484810954,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jivk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jivk.geojson",
-        "felt": 13,
-        "cdi": 4.1,
+        "felt": 11,
+        "cdi": 3.6,
         "mmi": 4.501,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 194,
+        "sig": 192,
         "net": "us",
         "code": "7000jivk",
         "ids": ",us7000jivk,",
@@ -775,17 +935,17 @@
         "mag": 3.6,
         "place": "14 km E of Rico, Colorado",
         "time": 1678456983466,
-        "updated": 1678480486848,
+        "updated": 1678485953357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jitc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jitc.geojson",
-        "felt": 21,
+        "felt": 23,
         "cdi": 3.8,
-        "mmi": 4.434,
+        "mmi": 4.446,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 207,
+        "sig": 208,
         "net": "us",
         "code": "7000jitc",
         "ids": ",us7000jitc,",
@@ -1013,9 +1173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.22,
-        "place": "54 km WNW of Kailua-Kona, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1678448783590,
-        "updated": 1678482425310,
+        "updated": 1678483131978,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73336367",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73336367.geojson",
@@ -1037,7 +1197,7 @@
         "gap": 315,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 54 km WNW of Kailua-Kona, Hawaii"
+        "title": "M 3.2 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1092,6 +1252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.78,
+        "place": "14 km S of Fern Forest, Hawaii",
+        "time": 1678447731260,
+        "updated": 1678483258460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73336362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73336362.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "hv",
+        "code": "73336362",
+        "ids": ",hv73336362,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": null,
+        "rms": 0.1,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 14 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.132166666667,
+          19.3323333333333,
+          6.07
+        ]
+      },
+      "id": "hv73336362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.51,
         "place": "101 km W of Adak, Alaska",
         "time": 1678446131490,
@@ -1133,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "New Britain region, Papua New Guinea",
+        "place": "53 km E of Kokopo, Papua New Guinea",
         "time": 1678446057519,
         "updated": 1678447422927,
         "tz": null,
@@ -1157,7 +1357,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - New Britain region, Papua New Guinea"
+        "title": "M 5.0 - 53 km E of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Colorado",
+        "place": "8 km N of Segundo, Colorado",
         "time": 1678441402570,
         "updated": 1678467142020,
         "tz": null,
@@ -1237,7 +1437,7 @@
         "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Colorado"
+        "title": "M 2.5 - 8 km N of Segundo, Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1253,19 +1453,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "northern Colombia",
+        "place": "12 km N of Jordán, Colombia",
         "time": 1678439921372,
-        "updated": 1678481950027,
+        "updated": 1678486253377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jirz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jirz.geojson",
-        "felt": 258,
+        "felt": 260,
         "cdi": 6.1,
         "mmi": 3.465,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 606,
+        "sig": 607,
         "net": "us",
         "code": "7000jirz",
         "ids": ",us7000jirz,",
@@ -1277,7 +1477,7 @@
         "gap": 31,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - northern Colombia"
+        "title": "M 5.4 - 12 km N of Jordán, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "7 km N of Valdez, Colorado",
+        "place": "Colorado",
         "time": 1678437609226,
         "updated": 1678482221415,
         "tz": null,
@@ -1357,7 +1557,7 @@
         "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km N of Valdez, Colorado"
+        "title": "M 2.8 - Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.94,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "105 km W of Adak, Alaska",
         "time": 1678435297580,
         "updated": 1678480192510,
         "tz": null,
@@ -1477,7 +1677,7 @@
         "gap": 115,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 2.9 - 105 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "7 km NNE of Segundo, Colorado",
+        "place": "Colorado",
         "time": 1678428408024,
         "updated": 1678481523134,
         "tz": null,
@@ -1757,7 +1957,7 @@
         "gap": 58,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 7 km NNE of Segundo, Colorado"
+        "title": "M 4.3 - Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "94 km W of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1678422611650,
         "updated": 1678429978580,
         "tz": null,
@@ -2117,7 +2317,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 94 km W of Adak, Alaska"
+        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "101 km W of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1678421117779,
         "updated": 1678425444040,
         "tz": null,
@@ -2197,7 +2397,7 @@
         "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 101 km W of Adak, Alaska"
+        "title": "M 3.1 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2292,10 +2492,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.59,
+        "place": "101 km W of Adak, Alaska",
+        "time": 1678415915580,
+        "updated": 1678482827720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91794571",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91794571.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "av",
+        "code": "91794571",
+        "ids": ",av91794571,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": 139,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 101 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.105166666667,
+          51.8441666666667,
+          4.72
+        ]
+      },
+      "id": "av91794571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "12 km W of Hacılar, Turkey",
         "time": 1678415294775,
-        "updated": 1678452454914,
+        "updated": 1678484766573,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jiph",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jiph.geojson",
@@ -2328,6 +2568,126 @@
         ]
       },
       "id": "us7000jiph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1678415230480,
+        "updated": 1678485067270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91794536",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91794536.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "av",
+        "code": "91794536",
+        "ids": ",av91794536,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 129,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.097833333333,
+          51.8573333333333,
+          4.98
+        ]
+      },
+      "id": "av91794536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "100 km W of Adak, Alaska",
+        "time": 1678414093030,
+        "updated": 1678486316600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91093298",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91093298.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "av",
+        "code": "91093298",
+        "ids": ",av91093298,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": 210,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 100 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.092,
+          51.8605,
+          4.23
+        ]
+      },
+      "id": "av91093298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.02,
+        "place": "102 km W of Adak, Alaska",
+        "time": 1678413994010,
+        "updated": 1678485711200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91794481",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91794481.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "av",
+        "code": "91794481",
+        "ids": ",av91794481,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": 133,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 102 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.116833333333,
+          51.8526666666667,
+          5
+        ]
+      },
+      "id": "av91794481"
     },
     {
       "type": "Feature",
@@ -2533,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "101 km W of Adak, Alaska",
         "time": 1678409030380,
         "updated": 1678480055740,
         "tz": null,
@@ -2557,7 +2917,7 @@
         "gap": 135,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 2.5 - 101 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2693,7 +3053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "295 km WNW of Haveluloto, Tonga",
+        "place": "Fiji region",
         "time": 1678407899192,
         "updated": 1678409897040,
         "tz": null,
@@ -2717,7 +3077,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 295 km WNW of Haveluloto, Tonga"
+        "title": "M 4.3 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -2893,7 +3253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Puerto Rico region",
+        "place": "88 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1678402324710,
         "updated": 1678404143482,
         "tz": null,
@@ -2917,7 +3277,7 @@
         "gap": 270,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 88 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -2968,46 +3328,6 @@
         ]
       },
       "id": "us7000jip5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "83 km SSW of Calama, Chile",
-        "time": 1678397400324,
-        "updated": 1678399330040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jimb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jimb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000jimb",
-        "ids": ",us7000jimb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.444,
-        "rms": 1.15,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 83 km SSW of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3516,
-          -23.1028,
-          98.023
-        ]
-      },
-      "id": "us7000jimb"
     }
   ],
   "bbox": [
