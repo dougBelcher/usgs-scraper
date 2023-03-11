@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678522728000,
+    "generated": 1678526054000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 66
+    "count": 65
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1678524592069,
+        "updated": 1678525529040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jj3k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jj3k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000jj3k",
+        "ids": ",us7000jj3k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 70,
+        "dmin": 5.266,
+        "rms": 0.73,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.9607,
+          -24.0847,
+          498.911
+        ]
+      },
+      "id": "us7000jj3k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "40 km NNE of Calama, Chile",
+        "time": 1678523261933,
+        "updated": 1678524267040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jj3f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jj3f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000jj3f",
+        "ids": ",us7000jj3f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.849,
+        "rms": 0.89,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 40 km NNE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8398,
+          -22.1025,
+          113.094
+        ]
+      },
+      "id": "us7000jj3f"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.64,
         "place": "24km SW of Ocotillo Wells, CA",
         "time": 1678522279060,
-        "updated": 1678522512212,
+        "updated": 1678523943612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40183175",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40183175.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "40183175",
         "ids": ",ci40183175,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 69,
         "dmin": 0.02189,
         "rms": 0.24,
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.47,
-        "place": "44 km NW of San Antonio, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1678482623700,
         "updated": 1678486022622,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 325,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 44 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -975,13 +1055,13 @@
         "mag": 3.9,
         "place": "6 km NNE of Segundo, Colorado",
         "time": 1678480296320,
-        "updated": 1678522641089,
+        "updated": 1678522861762,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jiyi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jiyi.geojson",
         "felt": 13,
         "cdi": 5,
-        "mmi": 4.708,
+        "mmi": 4.477,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -990,7 +1070,7 @@
         "code": "7000jiyi",
         "ids": ",us7000jiyi,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,groundmotion-packet,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 15,
         "dmin": 0.07,
         "rms": 0.97,
@@ -1532,42 +1612,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "77 km N of Arecibo, Puerto Rico",
-        "time": 1678466804239,
-        "updated": 1678474439040,
+        "mag": 3.65,
+        "place": "Puerto Rico region",
+        "time": 1678466806310,
+        "updated": 1678525099742,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jivz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jivz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023069000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023069000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000jivz",
-        "ids": ",us7000jivz,",
-        "sources": ",us,",
+        "sig": 205,
+        "net": "pr",
+        "code": "2023069000",
+        "ids": ",us7000jivz,pr2023069000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.684,
-        "rms": 0.34,
-        "gap": 261,
-        "magType": "ml",
+        "nst": 22,
+        "dmin": 0.6595,
+        "rms": 0.42,
+        "gap": 224,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 77 km N of Arecibo, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.5881,
-          19.1627,
-          40.682
+          -66.555,
+          19.1361,
+          22
         ]
       },
-      "id": "us7000jivz"
+      "id": "pr2023069000"
     },
     {
       "type": "Feature",
@@ -2528,130 +2608,10 @@
         ]
       },
       "id": "us7000jirz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "101 km W of Adak, Alaska",
-        "time": 1678439225040,
-        "updated": 1678479569780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91795476",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91795476.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "av",
-        "code": "91795476",
-        "ids": ",av91795476,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 101 km W of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1085,
-          51.8565,
-          4.95
-        ]
-      },
-      "id": "av91795476"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "Colorado",
-        "time": 1678437609226,
-        "updated": 1678482221415,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jirv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jirv.geojson",
-        "felt": 5,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "us",
-        "code": "7000jirv",
-        "ids": ",us7000jirv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.098,
-        "rms": 0.87,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.697,
-          37.1921,
-          7.062
-        ]
-      },
-      "id": "us7000jirv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "20 km S of Tallaboa, Puerto Rico",
-        "time": 1678436982030,
-        "updated": 1678438220800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71399008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71399008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71399008",
-        "ids": ",pr71399008,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2044,
-        "rms": 0.1,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 20 km S of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.75,
-          17.811,
-          4.34
-        ]
-      },
-      "id": "pr71399008"
     }
   ],
   "bbox": [
-    -179.4981,
+    -179.9607,
     -45.6478,
     -1.8,
     178.3414,
