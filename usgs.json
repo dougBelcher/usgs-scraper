@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678738648000,
+    "generated": 1678742050000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "5 km SE of West Yellowstone, Montana",
+        "time": 1678736868580,
+        "updated": 1678738646480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60032784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60032784.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "uu",
+        "code": "60032784",
+        "ids": ",uu60032784,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.0465,
+        "rms": 0.19,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SE of West Yellowstone, Montana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0473333,
+          44.6323333,
+          9.15
+        ]
+      },
+      "id": "uu60032784"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
         "place": "18 km NE of Sama Grande, Peru",
         "time": 1678735155164,
-        "updated": 1678737623994,
+        "updated": 1678740273155,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjll",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjll.geojson",
-        "felt": 3,
+        "felt": 5,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 402,
+        "sig": 403,
         "net": "us",
         "code": "7000jjll",
         "ids": ",us7000jjll,",
@@ -455,12 +495,12 @@
         "mag": 4.5,
         "place": "Luzon, Philippines",
         "time": 1678711927441,
-        "updated": 1678716036040,
+        "updated": 1678741221124,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjiv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjiv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +510,7 @@
         "code": "7000jjiv",
         "ids": ",us7000jjiv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 8.62,
         "rms": 0.88,
@@ -2008,166 +2048,6 @@
         ]
       },
       "id": "us7000jjek"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "13 km E of El Negro, Puerto Rico",
-        "time": 1678654994790,
-        "updated": 1678660931631,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71399228",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71399228.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71399228",
-        "ids": ",pr71399228,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1498,
-        "rms": 0.31,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 13 km E of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7286666666667,
-          18.0446666666667,
-          10.61
-        ]
-      },
-      "id": "pr71399228"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "104 km E of Lata, Solomon Islands",
-        "time": 1678654611580,
-        "updated": 1678655829040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jje1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jje1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000jje1",
-        "ids": ",us7000jje1,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 56,
-        "dmin": 4.671,
-        "rms": 0.68,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 104 km E of Lata, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.755,
-          -10.7682,
-          9.249
-        ]
-      },
-      "id": "us7000jje1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "12 km NNE of Jordán, Colombia",
-        "time": 1678652804651,
-        "updated": 1678655117040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjdu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjdu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000jjdu",
-        "ids": ",us7000jjdu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.943,
-        "rms": 0.83,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 12 km NNE of Jordán, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.0645,
-          6.8416,
-          145.927
-        ]
-      },
-      "id": "us7000jjdu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "50 km E of Yamada, Japan",
-        "time": 1678652733329,
-        "updated": 1678656659040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjdw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjdw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000jjdw",
-        "ids": ",us7000jjdw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.704,
-        "rms": 0.52,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 50 km E of Yamada, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5343,
-          39.5095,
-          88.742
-        ]
-      },
-      "id": "us7000jjdw"
     }
   ],
   "bbox": [
