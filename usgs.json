@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678797621000,
+    "generated": 1678800854000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.96,
+        "place": "16km N of Deep Springs, CA",
+        "time": 1678800308850,
+        "updated": 1678800732194,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856710",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856710.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 135,
+        "net": "nc",
+        "code": "73856710",
+        "ids": ",nc73856710,nn00856982,",
+        "sources": ",nc,nn,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.4489,
+        "rms": 0.21,
+        "gap": 116,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 16km N of Deep Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9769974,
+          37.5178337,
+          5.59
+        ]
+      },
+      "id": "nc73856710"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.8,
         "place": "16km N of Deep Springs, CA",
         "time": 1678790745290,
-        "updated": 1678791192211,
+        "updated": 1678800030012,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856680",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856680.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "73856680",
         "ids": ",nc73856680,nn00856973,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 20,
         "dmin": 0.3767,
         "rms": 0.2,
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "62 km N of Tobelo, Indonesia",
+        "time": 1678789431921,
+        "updated": 1678799313040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjsw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000jjsw",
+        "ids": ",us7000jjsw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.656,
+        "rms": 0.7,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 62 km N of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0355,
+          2.2973,
+          10
+        ]
+      },
+      "id": "us7000jjsw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.88,
         "place": "17km N of Deep Springs, CA",
         "time": 1678788798680,
-        "updated": 1678797018783,
+        "updated": 1678800012122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856670",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856670.geojson",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Central California",
+        "place": "17 km SSE of Dyer, Nevada",
         "time": 1678785908351,
         "updated": 1678786939564,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 75.47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - Central California"
+        "title": "M 3.3 - 17 km SSE of Dyer, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "53 km NNE of Chase, Alaska",
+        "place": "Central Alaska",
         "time": 1678780850931,
         "updated": 1678780938157,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 53 km NNE of Chase, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Kodiak Island region, Alaska",
+        "place": "22 km NNW of Karluk, Alaska",
         "time": 1678780493528,
         "updated": 1678784172040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Kodiak Island region, Alaska"
+        "title": "M 2.9 - 22 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "California-Nevada border region",
+        "place": "43 km S of Silver Peak, Nevada",
         "time": 1678774279886,
         "updated": 1678774365170,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 178.88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - California-Nevada border region"
+        "title": "M 2.5 - 43 km S of Silver Peak, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "83 km SSE of Tondano, Indonesia",
+        "place": "Molucca Sea",
         "time": 1678764471951,
         "updated": 1678765950971,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 79,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 83 km SSE of Tondano, Indonesia"
+        "title": "M 4.2 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6.3,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "119 km E of Madang, Papua New Guinea",
         "time": 1678754948501,
         "updated": 1678789038733,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 13,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.3 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 6.3 - 119 km E of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Catamarca-La Rioja region, Argentina",
+        "place": "12 km S of Tinogasta, Argentina",
         "time": 1678747845519,
         "updated": 1678748874040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 30,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Catamarca-La Rioja region, Argentina"
+        "title": "M 5.2 - 12 km S of Tinogasta, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "190 km NE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1678745134111,
         "updated": 1678746083040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 190 km NE of Lospalos, Timor Leste"
+        "title": "M 4.2 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "western Texas",
+        "place": "58 km S of Whites City, New Mexico",
         "time": 1678720599128,
         "updated": 1678723575040,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 109,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - western Texas"
+        "title": "M 2.6 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "138 km SE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1678717797603,
         "updated": 1678721346040,
         "tz": null,
@@ -1837,7 +1917,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 138 km SE of Kuril’sk, Russia"
+        "title": "M 4.6 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1968,46 +2048,6 @@
         ]
       },
       "id": "us7000jjiy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "18 km NE of Sabang Indan, Philippines",
-        "time": 1678711927441,
-        "updated": 1678741221124,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjiv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjiv.geojson",
-        "felt": 1,
-        "cdi": 3.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000jjiv",
-        "ids": ",us7000jjiv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 8.62,
-        "rms": 0.88,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 18 km NE of Sabang Indan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.0237,
-          14.3515,
-          35.592
-        ]
-      },
-      "id": "us7000jjiv"
     }
   ],
   "bbox": [
