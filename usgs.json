@@ -1,27 +1,67 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678789228000,
+    "generated": 1678792528000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "16km N of Deep Springs, CA",
+        "time": 1678790745290,
+        "updated": 1678791192211,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856680",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856680.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "73856680",
+        "ids": ",nc73856680,nn00856973,",
+        "sources": ",nc,nn,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.3767,
+        "rms": 0.2,
+        "gap": 116,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 16km N of Deep Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9766693,
+          37.5181656,
+          0.8
+        ]
+      },
+      "id": "nc73856680"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.88,
         "place": "17km N of Deep Springs, CA",
         "time": 1678788799500,
-        "updated": 1678789212019,
+        "updated": 1678792458329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856670",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856670.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.976,
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": 3.957,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -30,7 +70,7 @@
         "code": "73856670",
         "ids": ",nc73856670,nn00856965,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 35,
         "dmin": 0.381,
         "rms": 0.29,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73856670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "153 km SSE of Vilyuchinsk, Russia",
+        "time": 1678788075052,
+        "updated": 1678789594040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjsn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjsn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000jjsn",
+        "ids": ",us7000jjsn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 98,
+        "dmin": 1.392,
+        "rms": 0.68,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 153 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.5407,
+          51.7449,
+          10
+        ]
+      },
+      "id": "us7000jjsn"
     },
     {
       "type": "Feature",
@@ -2088,166 +2168,6 @@
         ]
       },
       "id": "ak0233b9cgeh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.84,
-        "place": "74 km E of Cruz Bay, U.S. Virgin Islands",
-        "time": 1678705130200,
-        "updated": 1678788071040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023072002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023072002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 227,
-        "net": "pr",
-        "code": "2023072002",
-        "ids": ",us7000jjin,pr2023072002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.8713,
-        "rms": 0.22,
-        "gap": 347,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 74 km E of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.0881,
-          18.2813,
-          117
-        ]
-      },
-      "id": "pr2023072002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kepulauan Tanimbar, Indonesia",
-        "time": 1678704951613,
-        "updated": 1678711973040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjib",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjib.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jjib",
-        "ids": ",us7000jjib,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.759,
-        "rms": 0.74,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kepulauan Tanimbar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.3319,
-          -7.2664,
-          83.938
-        ]
-      },
-      "id": "us7000jjib"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Luzon, Philippines",
-        "time": 1678703073725,
-        "updated": 1678720435374,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jji7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jji7.geojson",
-        "felt": 2,
-        "cdi": 4.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "7000jji7",
-        "ids": ",us7000jji7,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 8.573,
-        "rms": 0.82,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Luzon, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.0328,
-          14.4015,
-          21.817
-        ]
-      },
-      "id": "us7000jji7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.05,
-        "place": "55 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1678702936870,
-        "updated": 1678708024060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71399388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71399388.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "pr",
-        "code": "71399388",
-        "ids": ",pr71399388,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.4832,
-        "rms": 0.23,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 55 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4995,
-          18.962,
-          27.55
-        ]
-      },
-      "id": "pr71399388"
     }
   ],
   "bbox": [
