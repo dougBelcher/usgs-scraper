@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678792528000,
+    "generated": 1678797621000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "12 km WNW of Point Possession, Alaska",
+        "time": 1678792455482,
+        "updated": 1678792552276,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233cwv4x8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233cwv4x8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0233cwv4x8",
+        "ids": ",ak0233cwv4x8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km WNW of Point Possession, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9041,
+          60.9515,
+          14.7
+        ]
+      },
+      "id": "ak0233cwv4x8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -54,27 +94,27 @@
       "properties": {
         "mag": 3.88,
         "place": "17km N of Deep Springs, CA",
-        "time": 1678788799500,
-        "updated": 1678792458329,
+        "time": 1678788798680,
+        "updated": 1678797018783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856670",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856670.geojson",
         "felt": 3,
         "cdi": 2.7,
-        "mmi": 3.957,
+        "mmi": 3.711,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 232,
         "net": "nc",
         "code": "73856670",
-        "ids": ",nc73856670,nn00856965,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "ids": ",nc73856670,us7000jjsp,nn00856965,",
+        "sources": ",nc,us,nn,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 35,
-        "dmin": 0.381,
-        "rms": 0.29,
-        "gap": 116,
+        "dmin": 0.3153,
+        "rms": 0.07,
+        "gap": 117,
         "magType": "mw",
         "type": "earthquake",
         "title": "M 3.9 - 17km N of Deep Springs, CA"
@@ -82,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9813309,
-          37.5268326,
-          8.03
+          -117.971,
+          37.5213333,
+          -1.23
         ]
       },
       "id": "nc73856670"
@@ -135,7 +175,7 @@
         "mag": 2.81,
         "place": "17km N of Deep Springs, CA",
         "time": 1678787855610,
-        "updated": 1678788253931,
+        "updated": 1678797317816,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856665",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856665.geojson",
@@ -175,7 +215,7 @@
         "mag": 3.27,
         "place": "18km N of Deep Springs, CA",
         "time": 1678786529530,
-        "updated": 1678788743118,
+        "updated": 1678794495518,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856635",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856635.geojson",
@@ -255,7 +295,7 @@
         "mag": 2.66,
         "place": "17km N of Deep Springs, CA",
         "time": 1678786371670,
-        "updated": 1678787295835,
+        "updated": 1678793717442,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73856630",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73856630.geojson",
@@ -1495,17 +1535,17 @@
         "mag": 5.1,
         "place": "18 km NE of Sama Grande, Peru",
         "time": 1678735155164,
-        "updated": 1678743742349,
+        "updated": 1678793255566,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jjll",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jjll.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 403,
+        "sig": 404,
         "net": "us",
         "code": "7000jjll",
         "ids": ",us7000jjll,",
@@ -1968,212 +2008,12 @@
         ]
       },
       "id": "us7000jjiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "5 km W of Fuig, Puerto Rico",
-        "time": 1678710040330,
-        "updated": 1678710920368,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71399418",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71399418.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71399418",
-        "ids": ",pr71399418,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.07166,
-        "rms": 0.09,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km W of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.97,
-          17.9815,
-          45.56
-        ]
-      },
-      "id": "pr71399418"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "229 km SE of Chiniak, Alaska",
-        "time": 1678708924650,
-        "updated": 1678732521316,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233b9upw6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233b9upw6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "0233b9upw6",
-        "ids": ",ak0233b9upw6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 229 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6566,
-          56.1288,
-          10
-        ]
-      },
-      "id": "ak0233b9upw6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "235 km SE of Chiniak, Alaska",
-        "time": 1678708841470,
-        "updated": 1678732283583,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233b9u9vu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233b9u9vu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0233b9u9vu",
-        "ids": ",ak0233b9u9vu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.71,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 235 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.4373,
-          56.1758,
-          8.8
-        ]
-      },
-      "id": "ak0233b9u9vu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "6 km SW of Liborio Negron Torres, Puerto Rico",
-        "time": 1678707773330,
-        "updated": 1678710021120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71399408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71399408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "pr",
-        "code": "71399408",
-        "ids": ",pr71399408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.07219,
-        "rms": 0.17,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 6 km SW of Liborio Negron Torres, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9745,
-          17.998,
-          39.18
-        ]
-      },
-      "id": "pr71399408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "107 km E of Chignik, Alaska",
-        "time": 1678706246177,
-        "updated": 1678706374083,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233b9cgeh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233b9cgeh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0233b9cgeh",
-        "ids": ",ak0233b9cgeh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.29,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 107 km E of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.6651,
-          56.3766,
-          16.7
-        ]
-      },
-      "id": "ak0233b9cgeh"
     }
   ],
   "bbox": [
     -178.1175,
     -31.5023,
-    0,
+    -1.23,
     166.0362,
     69.0474,
     213
