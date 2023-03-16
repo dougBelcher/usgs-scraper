@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1678934299000,
+    "generated": 1678936595000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 65
+    "count": 67
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "99 km W of Adak, Alaska",
+        "time": 1678935508628,
+        "updated": 1678936278980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkc3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkc3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000jkc3",
+        "ids": ",av91807266,us7000jkc3,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.03,
+        "rms": 0.36,
+        "gap": 137,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 99 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0842,
+          51.8404,
+          7.141
+        ]
+      },
+      "id": "us7000jkc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "100 km W of Adak, Alaska",
+        "time": 1678935006290,
+        "updated": 1678936098160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91807261",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91807261.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "av",
+        "code": "91807261",
+        "ids": ",av91807261,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 100 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0915,
+          51.8496666666667,
+          4.07
+        ]
+      },
+      "id": "av91807261"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.19,
         "place": "9 km ESE of Canadian, Oklahoma",
         "time": 1678931460490,
-        "updated": 1678931682900,
+        "updated": 1678934739817,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023ffix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023ffix.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +110,7 @@
         "code": "2023ffix",
         "ids": ",ok2023ffix,",
         "sources": ",ok,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 0.09186146408,
         "rms": 0.7843153595,
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.86,
-        "place": "Hawaii region, Hawaii",
+        "place": "44 km S of Hawaiian Ocean View, Hawaii",
         "time": 1678928703860,
         "updated": 1678929034780,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 310,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Hawaii region, Hawaii"
+        "title": "M 2.9 - 44 km S of Hawaiian Ocean View, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "Puerto Rico region",
+        "place": "32 km NNW of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1678928176750,
         "updated": 1678929289100,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 256,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 32 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -255,13 +335,13 @@
         "mag": 7,
         "place": "Kermadec Islands region",
         "time": 1678928162207,
-        "updated": 1678932887040,
+        "updated": 1678935785030,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkbd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkbd.geojson",
         "felt": 1,
         "cdi": 8.2,
-        "mmi": 4.254,
+        "mmi": 4.603,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.74,
-        "place": "Puerto Rico region",
+        "place": "61 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1678927266690,
         "updated": 1678929180188,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 214,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Puerto Rico region"
+        "title": "M 3.7 - 61 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "Hawaii region, Hawaii",
+        "place": "21 km SSE of Naalehu, Hawaii",
         "time": 1678919062800,
         "updated": 1678920265040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 260,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - 21 km SSE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Colombia",
+        "place": "18 km ESE of San Pedro, Colombia",
         "time": 1678917042472,
         "updated": 1678918376040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Colombia"
+        "title": "M 4.6 - 18 km ESE of San Pedro, Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "near the coast of Antofagasta, Chile",
+        "place": "91 km SSW of Antofagasta, Chile",
         "time": 1678916121464,
         "updated": 1678919623040,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 127,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - near the coast of Antofagasta, Chile"
+        "title": "M 4.4 - 91 km SSW of Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Fiji region",
+        "place": "217 km E of Levuka, Fiji",
         "time": 1678905559198,
         "updated": 1678909009040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 40,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Fiji region"
+        "title": "M 4.5 - 217 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.45,
-        "place": "Puerto Rico region",
+        "place": "5 km SW of Guánica, Puerto Rico",
         "time": 1678879381310,
         "updated": 1678890204353,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 199,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - Puerto Rico region"
+        "title": "M 3.5 - 5 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.16,
-        "place": "Puerto Rico region",
+        "place": "80 km N of Arecibo, Puerto Rico",
         "time": 1678873801140,
         "updated": 1678877078480,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 261,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 80 km N of Arecibo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.79,
-        "place": "Puerto Rico region",
+        "place": "6 km SW of Guánica, Puerto Rico",
         "time": 1678870365440,
         "updated": 1678871301880,
         "tz": null,
@@ -1877,7 +1957,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 6 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "5 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1678869001760,
         "updated": 1678889372800,
         "tz": null,
@@ -1917,7 +1997,7 @@
         "gap": 208,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km WSW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.53,
-        "place": "Puerto Rico region",
+        "place": "4 km SW of Fuig, Puerto Rico",
         "time": 1678868100990,
         "updated": 1678871050890,
         "tz": null,
@@ -1957,7 +2037,7 @@
         "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 4 km SW of Fuig, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Puerto Rico region",
+        "place": "6 km SW of Guánica, Puerto Rico",
         "time": 1678866706470,
         "updated": 1678916274161,
         "tz": null,
@@ -2157,7 +2237,7 @@
         "gap": 225,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - Puerto Rico region"
+        "title": "M 4.2 - 6 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -2533,7 +2613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "104 km SW of Jinchang, China",
+        "place": "northern Qinghai, China",
         "time": 1678851514145,
         "updated": 1678919932040,
         "tz": null,
@@ -2557,7 +2637,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 104 km SW of Jinchang, China"
+        "title": "M 4.2 - northern Qinghai, China"
       },
       "geometry": {
         "type": "Point",
