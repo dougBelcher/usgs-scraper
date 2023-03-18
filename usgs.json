@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679123585000,
+    "generated": 1679127518000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "35 km E of Port Heiden, Alaska",
+        "time": 1679126894073,
+        "updated": 1679127006446,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233jh6xof",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233jh6xof.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0233jh6xof",
+        "ids": ",ak0233jh6xof,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 35 km E of Port Heiden, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.049,
+          56.9057,
+          0
+        ]
+      },
+      "id": "ak0233jh6xof"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Halmahera, Indonesia",
+        "time": 1679123680961,
+        "updated": 1679124640040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jl1j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jl1j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000jl1j",
+        "ids": ",us7000jl1j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.186,
+        "rms": 0.79,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Halmahera, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8997,
+          2.3406,
+          10.06
+        ]
+      },
+      "id": "us7000jl1j"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.93,
         "place": "15km N of Deep Springs, CA",
         "time": 1679123022990,
-        "updated": 1679123447320,
+        "updated": 1679127191871,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73858500",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73858500.geojson",
-        "felt": 1,
+        "felt": 4,
         "cdi": 2.7,
-        "mmi": 3.723,
+        "mmi": 3.625,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 238,
+        "sig": 239,
         "net": "nc",
         "code": "73858500",
-        "ids": ",ew1679123030,nc73858500,",
-        "sources": ",ew,nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "ids": ",ew1679123030,nc73858500,us7000jl1g,",
+        "sources": ",ew,nc,us,",
+        "types": ",dyfi,focal-mechanism,groundmotion-packet,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 35,
         "dmin": 0.3675,
         "rms": 0.17,
@@ -92,6 +172,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "77 km NNE of Bandar-e Lengeh, Iran",
+        "time": 1679121592972,
+        "updated": 1679124948040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jl1b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jl1b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000jl1b",
+        "ids": ",us7000jl1b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 2.512,
+        "rms": 0.73,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 77 km NNE of Bandar-e Lengeh, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0512,
+          27.2426,
+          10
+        ]
+      },
+      "id": "us7000jl1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "southern Idaho",
+        "time": 1679121507741,
+        "updated": 1679123983400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jl19",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jl19.geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000jl19",
+        "ids": ",us7000jl19,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.831,
+        "rms": 0.79,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - southern Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1454,
+          44.263,
+          10
+        ]
+      },
+      "id": "us7000jl19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.56,
         "place": "6 km SW of Guánica, Puerto Rico",
         "time": 1679121170210,
@@ -135,7 +295,7 @@
         "mag": 2.5,
         "place": "29 km WNW of Willow, Alaska",
         "time": 1679119106734,
-        "updated": 1679119227302,
+        "updated": 1679124073040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233jfpdn5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233jfpdn5.geojson",
@@ -148,8 +308,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0233jfpdn5",
-        "ids": ",ak0233jfpdn5,",
-        "sources": ",ak,",
+        "ids": ",us7000jl14,ak0233jfpdn5,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1175,17 +1335,17 @@
         "mag": 5.3,
         "place": "North Island of New Zealand",
         "time": 1679067961944,
-        "updated": 1679105416880,
+        "updated": 1679124744408,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkvz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkvz.geojson",
-        "felt": 45,
+        "felt": 46,
         "cdi": 6.7,
         "mmi": 6.145,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 462,
+        "sig": 463,
         "net": "us",
         "code": "7000jkvz",
         "ids": ",us7000jkvz,",
@@ -1292,6 +1452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Kepulauan Babar, Indonesia",
+        "time": 1679062521553,
+        "updated": 1679126041040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkub",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkub.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000jkub",
+        "ids": ",us7000jkub,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 2.888,
+        "rms": 0.49,
+        "gap": 108,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Kepulauan Babar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1932,
+          -7.3408,
+          134.804
+        ]
+      },
+      "id": "us7000jkub"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "Luzon, Philippines",
         "time": 1679061364248,
@@ -1328,6 +1528,46 @@
         ]
       },
       "id": "us7000jku9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "4 km SSW of Savália, Greece",
+        "time": 1679060744366,
+        "updated": 1679125360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jku7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jku7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000jku7",
+        "ids": ",us7000jku7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.787,
+        "rms": 0.83,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 4 km SSW of Savália, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2823,
+          37.7784,
+          34.144
+        ]
+      },
+      "id": "us7000jku7"
     },
     {
       "type": "Feature",
@@ -1648,132 +1888,12 @@
         ]
       },
       "id": "tx2023fhrx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "off the coast of Oregon",
-        "time": 1679040965999,
-        "updated": 1679107930247,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkrv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jkrv.geojson",
-        "felt": 6,
-        "cdi": 3.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 287,
-        "net": "us",
-        "code": "7000jkrv",
-        "ids": ",us7000jkrv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.185,
-        "rms": 1.02,
-        "gap": 208,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - off the coast of Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.1969,
-          43.6578,
-          10
-        ]
-      },
-      "id": "us7000jkrv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "32km WSW of San Simeon, CA",
-        "time": 1679039091460,
-        "updated": 1679082339422,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73858060",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73858060.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "nc",
-        "code": "73858060",
-        "ids": ",nc73858060,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.3281,
-        "rms": 0.35,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 32km WSW of San Simeon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.5254974,
-          35.5559998,
-          -0.3
-        ]
-      },
-      "id": "nc73858060"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.79,
-        "place": "67 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1679037751650,
-        "updated": 1679039389994,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023076001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023076001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 221,
-        "net": "pr",
-        "code": "2023076001",
-        "ids": ",us7000jkrk,pr2023076001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.5996,
-        "rms": 0.35,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 67 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9905,
-          18.9523,
-          50
-        ]
-      },
-      "id": "pr2023076001"
     }
   ],
   "bbox": [
     -177.5499,
     -43.7444,
-    -0.3,
+    0,
     176.6406,
     61.8361,
     392.263
