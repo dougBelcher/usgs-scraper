@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679469244000,
+    "generated": 1679473144000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "6km SE of Lake Pillsbury, CA",
+        "time": 1679471109330,
+        "updated": 1679472256292,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73860520",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73860520.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nc",
+        "code": "73860520",
+        "ids": ",nc73860520,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.1706,
+        "rms": 0.13,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 6km SE of Lake Pillsbury, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9078369,
+          39.3764992,
+          3.43
+        ]
+      },
+      "id": "nc73860520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "118 km NE of Miyako, Japan",
+        "time": 1679470621134,
+        "updated": 1679472936040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jlw8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jlw8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.369,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "7000jlw8",
+        "ids": ",us7000jlw8,",
+        "sources": ",us,",
+        "types": ",groundmotion-packet,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 77,
+        "dmin": 1.579,
+        "rms": 0.9,
+        "gap": 98,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 118 km NE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0358,
+          40.3031,
+          35.412
+        ]
+      },
+      "id": "us7000jlw8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "0 km WSW of Indios, Puerto Rico",
+        "time": 1679469682130,
+        "updated": 1679471828110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71401088",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71401088.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "pr",
+        "code": "71401088",
+        "ids": ",pr71401088,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.05217,
+        "rms": 0.1,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 0 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8266666666667,
+          17.9898333333333,
+          14.53
+        ]
+      },
+      "id": "pr71401088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
-        "place": "99 km ESE of Perryville, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1679467896105,
         "updated": 1679468056659,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 99 km ESE of Perryville, Alaska"
+        "title": "M 2.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -53,31 +173,31 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "0 km SSW of La Union, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1679459294974,
-        "updated": 1679460067040,
+        "updated": 1679472991243,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jlvr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jlvr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "7000jlvr",
         "ids": ",us7000jlvr,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 0.623,
         "rms": 0.65,
         "gap": 142,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 0 km SSW of La Union, Philippines"
+        "title": "M 4.8 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "6 km SSW of Lamboglia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679456540100,
         "updated": 1679459280940,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 234,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 6 km SSW of Lamboglia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "23 km SSW of Trapper Creek, Alaska",
+        "place": "Central Alaska",
         "time": 1679456424492,
         "updated": 1679465096807,
         "tz": null,
@@ -157,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 23 km SSW of Trapper Creek, Alaska"
+        "title": "M 3.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -535,11 +655,11 @@
         "mag": 4.54,
         "place": "10km WSW of Ferndale, CA",
         "time": 1679440699630,
-        "updated": 1679468278507,
+        "updated": 1679469271138,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73860415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73860415.geojson",
-        "felt": 688,
+        "felt": 689,
         "cdi": 4.5,
         "mmi": 4.121,
         "alert": "green",
@@ -1055,11 +1175,11 @@
         "mag": 6.5,
         "place": "40 km SSE of Jurm, Afghanistan",
         "time": 1679417243695,
-        "updated": 1679469123356,
+        "updated": 1679472041384,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jln7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jln7.geojson",
-        "felt": 1047,
+        "felt": 1054,
         "cdi": 7,
         "mmi": 4.701,
         "alert": "green",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Vanuatu",
+        "place": "89 km ESE of Isangel, Vanuatu",
         "time": 1679398237280,
         "updated": 1679404803040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 92,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Vanuatu"
+        "title": "M 4.7 - 89 km ESE of Isangel, Vanuatu"
       },
       "geometry": {
         "type": "Point",
