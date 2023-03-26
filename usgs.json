@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679847546000,
+    "generated": 1679850740000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.7,
         "place": "8 km WSW of Kasilof, Alaska",
         "time": 1679847003983,
-        "updated": 1679847267419,
+        "updated": 1679850207393,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233wu9l4t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233wu9l4t.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
+        "felt": 31,
+        "cdi": 3.3,
+        "mmi": 2.907,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 221,
         "net": "ak",
         "code": "0233wu9l4t",
-        "ids": ",ak0233wu9l4t,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak0233wu9l4t,us7000jmvx,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.55,
@@ -53,9 +53,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1679843425320,
-        "updated": 1679846806650,
+        "updated": 1679849301040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71401658",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71401658.geojson",
@@ -68,8 +68,8 @@
         "sig": 174,
         "net": "pr",
         "code": "71401658",
-        "ids": ",pr71401658,",
-        "sources": ",pr,",
+        "ids": ",us7000jmvu,pr71401658,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.5235,
@@ -77,7 +77,7 @@
         "gap": 268,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands"
+        "title": "M 3.4 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -132,8 +132,88 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "33 km ESE of Ishinomaki, Japan",
+        "time": 1679841184402,
+        "updated": 1679849123040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmvh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmvh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000jmvh",
+        "ids": ",us7000jmvh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 2.479,
+        "rms": 0.98,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 33 km ESE of Ishinomaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6744,
+          38.3522,
+          66.429
+        ]
+      },
+      "id": "us7000jmvh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "42 km SW of Ashkāsham, Afghanistan",
+        "time": 1679836472905,
+        "updated": 1679848447040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmuz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmuz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000jmuz",
+        "ids": ",us7000jmuz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.57,
+        "rms": 0.79,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 42 km SW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.1775,
+          36.4356,
+          117.67
+        ]
+      },
+      "id": "us7000jmuz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
-        "place": "Banda Sea",
+        "place": "113 km NW of Tual, Indonesia",
         "time": 1679834471396,
         "updated": 1679835434040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 38,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - Banda Sea"
+        "title": "M 5.1 - 113 km NW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
+        "place": "Kepulauan Tanimbar, Indonesia",
         "time": 1679827424822,
         "updated": 1679828452040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Pulau Pulau Tanimbar, Indonesia"
+        "title": "M 4.9 - Kepulauan Tanimbar, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "western Texas",
+        "place": "59 km S of Whites City, New Mexico",
         "time": 1679814687633,
         "updated": 1679816239985,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - western Texas"
+        "title": "M 3.3 - 59 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.77,
-        "place": "4 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1679810929070,
         "updated": 1679812270200,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 218,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "south of Alaska",
+        "place": "117 km SSE of Sand Point, Alaska",
         "time": 1679803608245,
         "updated": 1679804662040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 199,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - south of Alaska"
+        "title": "M 3.3 - 117 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "94 km WSW of Banda Aceh, Indonesia",
+        "place": "northern Sumatra, Indonesia",
         "time": 1679799208468,
         "updated": 1679801366040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 94 km WSW of Banda Aceh, Indonesia"
+        "title": "M 4.5 - northern Sumatra, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.04,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1679797504060,
         "updated": 1679798788973,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Hawaii region, Hawaii"
+        "title": "M 3.0 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "near the coast of Oaxaca, Mexico",
+        "place": "98 km SSW of Cabeza de Toro, Mexico",
         "time": 1679797068517,
         "updated": 1679799089040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 227,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - near the coast of Oaxaca, Mexico"
+        "title": "M 4.2 - 98 km SSW of Cabeza de Toro, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "63 km SW of Port-Vila, Vanuatu",
+        "place": "Vanuatu",
         "time": 1679774276941,
         "updated": 1679777804040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 63 km SW of Port-Vila, Vanuatu"
+        "title": "M 4.8 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.21,
-        "place": "Virgin Islands region",
+        "place": "17 km NNW of Cruz Bay, U.S. Virgin Islands",
         "time": 1679771233290,
         "updated": 1679772243330,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 267,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Virgin Islands region"
+        "title": "M 3.2 - 17 km NNW of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "26 km W of Cohoe, Alaska",
         "time": 1679766175191,
         "updated": 1679772546040,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Kenai Peninsula, Alaska"
+        "title": "M 2.5 - 26 km W of Cohoe, Alaska"
       },
       "geometry": {
         "type": "Point",
