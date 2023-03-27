@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679930250000,
+    "generated": 1679933970000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "Puerto Rico",
+        "time": 1679928884750,
+        "updated": 1679930712750,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71401763",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71401763.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71401763",
+        "ids": ",pr71401763,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.02163,
+        "rms": 0.06,
+        "gap": 143,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0563333333333,
+          17.9878333333333,
+          15.14
+        ]
+      },
+      "id": "pr71401763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "6 km NNE of Göksun, Turkey",
+        "time": 1679927716052,
+        "updated": 1679931908040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jn0d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jn0d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000jn0d",
+        "ids": ",us7000jn0d,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 96,
+        "dmin": 0.347,
+        "rms": 0.72,
+        "gap": 38,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 6 km NNE of Göksun, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5315,
+          38.0716,
+          7.802
+        ]
+      },
+      "id": "us7000jn0d"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +175,12 @@
         "mag": 3.2,
         "place": "90 km NNW of Karluk, Alaska",
         "time": 1679918174741,
-        "updated": 1679919006425,
+        "updated": 1679931503004,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233yf3n8n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233yf3n8n.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -108,9 +188,9 @@
         "sig": 158,
         "net": "ak",
         "code": "0233yf3n8n",
-        "ids": ",us7000jmzq,ak0233yf3n8n,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0233yf3n8n,us7000jmzq,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.89,
@@ -375,11 +455,11 @@
         "mag": 4.12,
         "place": "52 km ESE of Naalehu, Hawaii",
         "time": 1679891956340,
-        "updated": 1679919039915,
+        "updated": 1679933853244,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73350092",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73350092.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": 2.857,
         "alert": "green",
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "us7000jmw1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "9 km WSW of Cohoe, Alaska",
-        "time": 1679847004741,
-        "updated": 1679887234264,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233wu9l4t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233wu9l4t.geojson",
-        "felt": 34,
-        "cdi": 3.3,
-        "mmi": 3.021,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "0233wu9l4t",
-        "ids": ",ak0233wu9l4t,us7000jmvx,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 9 km WSW of Cohoe, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.46,
-          60.3302,
-          46.4
-        ]
-      },
-      "id": "ak0233wu9l4t"
     }
   ],
   "bbox": [
