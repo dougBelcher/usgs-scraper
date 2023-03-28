@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1679970859000,
+    "generated": 1679973359000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.25,
         "place": "8km WSW of Petrolia, CA",
         "time": 1679970388730,
-        "updated": 1679970511651,
+        "updated": 1679971524040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73863320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73863320.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 162,
+        "sig": 163,
         "net": "nc",
         "code": "73863320",
-        "ids": ",nc73863320,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc73863320,us6000k08b,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.07158,
         "rms": 0.09,
@@ -335,11 +335,11 @@
         "mag": 6.1,
         "place": "73 km W of Buala, Solomon Islands",
         "time": 1679955555836,
-        "updated": 1679963144378,
+        "updated": 1679971704782,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k05c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k05c.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.8,
         "mmi": 5.081,
         "alert": "green",
@@ -455,17 +455,17 @@
         "mag": 4.9,
         "place": "Lake Edward region, Congo-Uganda",
         "time": 1679941236153,
-        "updated": 1679948964149,
+        "updated": 1679973326029,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k03l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k03l.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 375,
+        "sig": 376,
         "net": "us",
         "code": "6000k03l",
         "ids": ",us6000k03l,",
@@ -648,6 +648,46 @@
         ]
       },
       "id": "us7000jn12"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "2 km W of Unalaska, Alaska",
+        "time": 1679932323620,
+        "updated": 1679973187990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av91821751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av91821751.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "av",
+        "code": "91821751",
+        "ids": ",av91821751,",
+        "sources": ",av,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 112,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km W of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.565166666667,
+          53.8741666666667,
+          6.15
+        ]
+      },
+      "id": "av91821751"
     },
     {
       "type": "Feature",
@@ -1208,134 +1248,14 @@
         ]
       },
       "id": "pr71401708"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "128 km N of Lae, Papua New Guinea",
-        "time": 1679885766731,
-        "updated": 1679887054040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmyc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmyc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000jmyc",
-        "ids": ",us7000jmyc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.821,
-        "rms": 0.77,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 128 km N of Lae, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.923,
-          -5.5666,
-          186.972
-        ]
-      },
-      "id": "us7000jmyc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1679885623417,
-        "updated": 1679886554040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmyb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmyb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000jmyb",
-        "ids": ",us7000jmyb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 3.952,
-        "rms": 0.94,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.7227,
-          -22.7695,
-          10.385
-        ]
-      },
-      "id": "us7000jmyb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1679884957872,
-        "updated": 1679885848040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jmy9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jmy9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000jmy9",
-        "ids": ",us7000jmy9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 4.406,
-        "rms": 0.94,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.5166,
-          -26.154,
-          630.659
-        ]
-      },
-      "id": "us7000jmy9"
     }
   ],
   "bbox": [
     -178.7466,
     -44.0814,
     0.6,
-    178.5166,
+    158.9268,
     60.3491,
-    630.659
+    404.557
   ]
 }
