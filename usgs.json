@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680157160000,
+    "generated": 1680160451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "3km W of Walker, CA",
+        "time": 1680157965920,
+        "updated": 1680158746552,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73864350",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73864350.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "nc",
+        "code": "73864350",
+        "ids": ",nc73864350,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.1781,
+        "rms": 0.16,
+        "gap": 84,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3km W of Walker, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5136642,
+          38.5178337,
+          7.77
+        ]
+      },
+      "id": "nc73864350"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "29 km N of Hughes, Alaska",
         "time": 1680154743036,
-        "updated": 1680154900492,
+        "updated": 1680157933040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02343a1f1g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02343a1f1g.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "02343a1f1g",
-        "ids": ",ak02343a1f1g,",
-        "sources": ",ak,",
+        "ids": ",us6000k0ta,ak02343a1f1g,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -175,12 +215,12 @@
         "mag": 3.3,
         "place": "114 km SE of Yakutat, Alaska",
         "time": 1680131068121,
-        "updated": 1680131500040,
+        "updated": 1680157165867,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02341x0fe2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02341x0fe2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -188,9 +228,9 @@
         "sig": 168,
         "net": "ak",
         "code": "02341x0fe2",
-        "ids": ",us6000k0rq,ak02341x0fe2,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02341x0fe2,us6000k0rq,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.97,
@@ -1728,126 +1768,6 @@
         ]
       },
       "id": "us6000k0i4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "21km ESE of Little Lake, CA",
-        "time": 1680073877280,
-        "updated": 1680102722705,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40191095",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40191095.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "ci",
-        "code": "40191095",
-        "ids": ",ci40191095,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.06459,
-        "rms": 0.13,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 21km ESE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7021667,
-          35.8483333,
-          6.55
-        ]
-      },
-      "id": "ci40191095"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "249 km ESE of Chiniak, Alaska",
-        "time": 1680072716516,
-        "updated": 1680109243949,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02341n6b7h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02341n6b7h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02341n6b7h",
-        "ids": ",ak02341n6b7h,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 249 km ESE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.4772,
-          56.7389,
-          3
-        ]
-      },
-      "id": "ak02341n6b7h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "17 km SW of Sacsamarca, Peru",
-        "time": 1680071938555,
-        "updated": 1680132323780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0hu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0hu.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000k0hu",
-        "ids": ",us6000k0hu,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 3.105,
-        "rms": 0.67,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 17 km SW of Sacsamarca, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.4411,
-          -14.041,
-          89.479
-        ]
-      },
-      "id": "us6000k0hu"
     }
   ],
   "bbox": [
