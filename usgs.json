@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680286641000,
+    "generated": 1680289874000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.55999994,
-        "place": "17 km SW of Laupāhoehoe, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1680285109780,
-        "updated": 1680285314560,
+        "updated": 1680289610040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73353612",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73353612.geojson",
@@ -28,8 +28,8 @@
         "sig": 101,
         "net": "hv",
         "code": "73353612",
-        "ids": ",hv73353612,",
-        "sources": ",hv,",
+        "ids": ",us6000k16p,hv73353612,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 35,
         "dmin": null,
@@ -37,7 +37,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 17 km SW of Laupāhoehoe, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -135,12 +135,12 @@
         "mag": 4.8,
         "place": "39 km WNW of Sérifos, Greece",
         "time": 1680278717728,
-        "updated": 1680285277447,
+        "updated": 1680289120342,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k168",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k168.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us6000k168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "252 km ENE of Levuka, Fiji",
+        "time": 1680278401368,
+        "updated": 1680289840040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k167",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k167.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000k167",
+        "ids": ",us6000k167,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 4.38,
+        "rms": 0.38,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 252 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4089,
+          -17.3832,
+          543.924
+        ]
+      },
+      "id": "us6000k167"
     },
     {
       "type": "Feature",
@@ -255,7 +295,7 @@
         "mag": 2.46,
         "place": "47km NNW of Susanville, CA",
         "time": 1680275540460,
-        "updated": 1680284230577,
+        "updated": 1680288915059,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73864950",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73864950.geojson",
@@ -294,8 +334,8 @@
       "properties": {
         "mag": 2.69,
         "place": "10km NNE of Ocotillo Wells, CA",
-        "time": 1680269816210,
-        "updated": 1680270483590,
+        "time": 1680269816120,
+        "updated": 1680288250750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39508058",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39508058.geojson",
@@ -303,7 +343,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 111,
         "net": "ci",
@@ -311,10 +351,10 @@
         "ids": ",ci39508058,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 69,
-        "dmin": 0.09239,
-        "rms": 0.21,
-        "gap": 35,
+        "nst": 96,
+        "dmin": 0.08937,
+        "rms": 0.19,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 10km NNE of Ocotillo Wells, CA"
@@ -322,9 +362,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.104,
-          33.2311667,
-          9.88
+          -116.1055,
+          33.2283333,
+          10.35
         ]
       },
       "id": "ci39508058"
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Southern Qinghai, China",
+        "place": "southern Qinghai, China",
         "time": 1680241504688,
         "updated": 1680268104040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Southern Qinghai, China"
+        "title": "M 4.1 - southern Qinghai, China"
       },
       "geometry": {
         "type": "Point",
@@ -1132,10 +1172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.28,
+        "mag": 2.83,
         "place": "7km SW of Ferndale, CA",
-        "time": 1680221861660,
-        "updated": 1680245966221,
+        "time": 1680221861630,
+        "updated": 1680289781346,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73864625",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73864625.geojson",
@@ -1143,28 +1183,28 @@
         "cdi": 3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
+        "sig": 126,
         "net": "nc",
         "code": "73864625",
         "ids": ",nc73864625,us6000k10h,",
         "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.06066,
-        "rms": 0.08,
-        "gap": 240,
-        "magType": "ml",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.04313,
+        "rms": 0.1,
+        "gap": 190,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 7km SW of Ferndale, CA"
+        "title": "M 2.8 - 7km SW of Ferndale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.3201675,
-          40.534832,
-          16.98
+          -124.3243333,
+          40.5341667,
+          16.84
         ]
       },
       "id": "nc73864625"
@@ -1568,93 +1608,13 @@
         ]
       },
       "id": "us6000k0y6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "229 km ESE of Attu Station, Alaska",
-        "time": 1680202028840,
-        "updated": 1680212139141,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0y3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0y3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.967,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000k0y3",
-        "ids": ",ak02343httk1,us6000k0y3,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 34,
-        "dmin": 1.441,
-        "rms": 0.66,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 229 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.2433,
-          51.9657,
-          38.514
-        ]
-      },
-      "id": "us6000k0y3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "113 km NW of Tomé, Chile",
-        "time": 1680200794582,
-        "updated": 1680206698040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k0xp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k0xp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000k0xp",
-        "ids": ",us6000k0xp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.037,
-        "rms": 1.01,
-        "gap": 186,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 113 km NW of Tomé, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6952,
-          -35.7925,
-          23.335
-        ]
-      },
-      "id": "us6000k0xp"
     }
   ],
   "bbox": [
     -178.5694,
     -49.1167,
     -0.48,
-    176.2433,
+    149.3147,
     66.3339,
     572.598
   ]
