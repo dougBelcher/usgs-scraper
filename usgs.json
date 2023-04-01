@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680347483000,
+    "generated": 1680351983000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "5km NW of Palomar Observatory, CA",
+        "time": 1680351007020,
+        "updated": 1680351656480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39508650",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39508650.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "ci",
+        "code": "39508650",
+        "ids": ",ci39508650,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 104,
+        "dmin": 0.09988,
+        "rms": 0.25,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 5km NW of Palomar Observatory, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.904335,
+          33.3818321,
+          12.49
+        ]
+      },
+      "id": "ci39508650"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -575,11 +615,11 @@
         "mag": 4.15,
         "place": "5km NW of Palomar Observatory, CA",
         "time": 1680311767820,
-        "updated": 1680347243885,
+        "updated": 1680351859995,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39508378",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39508378.geojson",
-        "felt": 6396,
+        "felt": 6411,
         "cdi": 4.9,
         "mmi": 4.54,
         "alert": "green",
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "ak023451t09d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69000006,
-        "place": "12 km ENE of Pāhala, Hawaii",
-        "time": 1680264321300,
-        "updated": 1680264506960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73353452",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73353452.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "hv",
-        "code": "73353452",
-        "ids": ",hv73353452,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": null,
-        "rms": 0.109999999,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.365173339844,
-          19.2473335266113,
-          30.9899997711182
-        ]
-      },
-      "id": "hv73353452"
     }
   ],
   "bbox": [
