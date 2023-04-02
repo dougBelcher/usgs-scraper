@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680390824000,
+    "generated": 1680398294000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "29 km S of Esperanza, Puerto Rico",
+        "time": 1680391196060,
+        "updated": 1680392432230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "pr",
+        "code": "71402303",
+        "ids": ",pr71402303,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2907,
+        "rms": 0.23,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 29 km S of Esperanza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4226666666667,
+          17.8328333333333,
+          13.42
+        ]
+      },
+      "id": "pr71402303"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
         "place": "off the coast of Oregon",
         "time": 1680389618188,
-        "updated": 1680390649040,
+        "updated": 1680392752668,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1et",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1et.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000k1et",
         "ids": ",us6000k1et,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 1.968,
         "rms": 0.42,
@@ -455,17 +495,17 @@
         "mag": 3.01,
         "place": "3km NNE of San Leandro, CA",
         "time": 1680367428280,
-        "updated": 1680390330907,
+        "updated": 1680398082204,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73865505",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73865505.geojson",
-        "felt": 692,
+        "felt": 700,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 375,
+        "sig": 377,
         "net": "nc",
         "code": "73865505",
         "ids": ",nc73865505,us6000k1dc,",
@@ -535,17 +575,17 @@
         "mag": 3,
         "place": "3km NNE of San Leandro, CA",
         "time": 1680366296230,
-        "updated": 1680390523550,
+        "updated": 1680397501818,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73865490",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73865490.geojson",
-        "felt": 771,
+        "felt": 776,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 377,
+        "sig": 379,
         "net": "nc",
         "code": "73865490",
         "ids": ",nc73865490,us6000k1da,",
@@ -732,10 +772,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Central Turkey",
+        "time": 1680352852193,
+        "updated": 1680354998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1cm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1cm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000k1cm",
+        "ids": ",us6000k1cm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 1.54,
+        "rms": 0.65,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Central Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9102,
+          36.0392,
+          10
+        ]
+      },
+      "id": "us6000k1cm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
-        "place": "22 km WSW of Uzunbağ, Turkey",
-        "time": 1680352476839,
-        "updated": 1680354157040,
+        "place": "21 km WSW of Uzunbağ, Turkey",
+        "time": 1680352477015,
+        "updated": 1680355402040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1cg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1cg.geojson",
@@ -751,19 +831,19 @@
         "ids": ",us6000k1cg,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.591,
-        "rms": 0.46,
-        "gap": 65,
+        "nst": 45,
+        "dmin": 1.568,
+        "rms": 0.4,
+        "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 22 km WSW of Uzunbağ, Turkey"
+        "title": "M 4.3 - 21 km WSW of Uzunbağ, Turkey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.8115,
-          36.0453,
+          35.8179,
+          36.0671,
           10
         ]
       },
@@ -855,7 +935,7 @@
         "mag": 3.11,
         "place": "5km NW of Palomar Observatory, CA",
         "time": 1680351007020,
-        "updated": 1680384020509,
+        "updated": 1680397138692,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39508650",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39508650.geojson",
@@ -863,7 +943,7 @@
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 183,
         "net": "ci",
@@ -1488,134 +1568,14 @@
         ]
       },
       "id": "ak02346j4tsk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.15,
-        "place": "5km NW of Palomar Observatory, CA",
-        "time": 1680311767820,
-        "updated": 1680390766853,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39508378",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39508378.geojson",
-        "felt": 6603,
-        "cdi": 4.5,
-        "mmi": 4.54,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 715,
-        "net": "ci",
-        "code": "39508378",
-        "ids": ",ew1680311770,ci39508378,at00rsewuv,us6000k19p,",
-        "sources": ",ew,ci,at,us,",
-        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 96,
-        "dmin": 0.09986,
-        "rms": 0.23,
-        "gap": 25,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 4.2 - 5km NW of Palomar Observatory, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9046631,
-          33.3818321,
-          14.45
-        ]
-      },
-      "id": "ci39508378"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "northern Alaska",
-        "time": 1680310399813,
-        "updated": 1680311913040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02346i7zl0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02346i7zl0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "02346i7zl0",
-        "ids": ",us6000k19k,ak02346i7zl0,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - northern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.4295,
-          66.381,
-          0
-        ]
-      },
-      "id": "ak02346i7zl0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "83 km SSW of Iquique, Chile",
-        "time": 1680310063305,
-        "updated": 1680316325355,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k19h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k19h.geojson",
-        "felt": 2,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000k19h",
-        "ids": ",us6000k19h,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.708,
-        "rms": 1.2,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 83 km SSW of Iquique, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5035,
-          -20.8932,
-          31.021
-        ]
-      },
-      "id": "us6000k19h"
     }
   ],
   "bbox": [
     -178.08216666667,
-    -20.8932,
+    -20.3957,
     0,
     169.4023,
-    66.381,
+    62.8949,
     648.297
   ]
 }
