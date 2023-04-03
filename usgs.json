@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680559943000,
+    "generated": 1680563609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.6,
         "place": "107 km E of Chignik, Alaska",
         "time": 1680559497936,
-        "updated": 1680559643679,
+        "updated": 1680560360040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234a63skh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234a63skh.geojson",
@@ -28,8 +28,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0234a63skh",
-        "ids": ",ak0234a63skh,",
-        "sources": ",ak,",
+        "ids": ",us6000k1u3,ak0234a63skh,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ak0234a63skh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Owen Fracture Zone region",
+        "time": 1680559222520,
+        "updated": 1680560487040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1u2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1u2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000k1u2",
+        "ids": ",us6000k1u2,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 87,
+        "dmin": 10.378,
+        "rms": 0.98,
+        "gap": 66,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - Owen Fracture Zone region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3995,
+          14.5149,
+          10
+        ]
+      },
+      "id": "us6000k1u2"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000k1ty"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Owen Fracture Zone region",
+        "time": 1680558254711,
+        "updated": 1680560317112,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1u1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1u1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000k1u1",
+        "ids": ",us6000k1u1,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 81,
+        "dmin": 10.471,
+        "rms": 0.78,
+        "gap": 40,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Owen Fracture Zone region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3116,
+          14.4203,
+          10
+        ]
+      },
+      "id": "us6000k1u1"
     },
     {
       "type": "Feature",
@@ -333,19 +413,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Bali region, Indonesia",
+        "place": "30 km S of Amlapura, Indonesia",
         "time": 1680546406362,
-        "updated": 1680557690405,
+        "updated": 1680563409564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1ss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1ss.geojson",
-        "felt": 27,
+        "felt": 35,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 308,
+        "sig": 310,
         "net": "us",
         "code": "6000k1ss",
         "ids": ",us6000k1ss,",
@@ -357,7 +437,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Bali region, Indonesia"
+        "title": "M 4.4 - 30 km S of Amlapura, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -735,11 +815,11 @@
         "mag": 3.8,
         "place": "Southern Alaska",
         "time": 1680524834484,
-        "updated": 1680559617431,
+        "updated": 1680563280693,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234a0aako",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234a0aako.geojson",
-        "felt": 274,
+        "felt": 275,
         "cdi": 3.1,
         "mmi": 2.822,
         "alert": null,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "pr71402383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "New Guinea, Papua New Guinea",
-        "time": 1680477185592,
-        "updated": 1680522005521,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1lt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1lt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000k1lt",
-        "ids": ",us6000k1lt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 6.397,
-        "rms": 0.71,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - New Guinea, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.0407,
-          -4.4517,
-          99.379
-        ]
-      },
-      "id": "us6000k1lt"
     }
   ],
   "bbox": [
