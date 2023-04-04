@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680606692000,
+    "generated": 1680611323000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "42 km SSW of Cantwell, Alaska",
+        "place": "Central Alaska",
         "time": 1680597815061,
         "updated": 1680597925652,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 42 km SSW of Cantwell, Alaska"
+        "title": "M 2.6 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +135,7 @@
         "mag": 2.84,
         "place": "21km S of Mammoth Lakes, CA",
         "time": 1680596108690,
-        "updated": 1680596773925,
+        "updated": 1680608534111,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73866665",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73866665.geojson",
@@ -215,12 +215,12 @@
         "mag": 2.86,
         "place": "2 km SSW of Magas Arriba, Puerto Rico",
         "time": 1680589242730,
-        "updated": 1680589988110,
+        "updated": 1680609482211,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402468",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402468.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "71402468",
         "ids": ",pr71402468,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 0.09901,
         "rms": 0.08,
@@ -335,22 +335,22 @@
         "mag": 2.45,
         "place": "5 km SW of Fuig, Puerto Rico",
         "time": 1680585363900,
-        "updated": 1680585864120,
+        "updated": 1680609607068,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71402438",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71402438.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "pr",
         "code": "71402438",
         "ids": ",pr71402438,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 0.07905,
         "rms": 0.09,
@@ -533,19 +533,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Oaxaca, Mexico",
+        "place": "8 km NW of San Jerónimo Coatlán, Mexico",
         "time": 1680574321496,
-        "updated": 1680605599979,
+        "updated": 1680610866852,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1uw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1uw.geojson",
-        "felt": 67,
+        "felt": 68,
         "cdi": 5.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 471,
+        "sig": 472,
         "net": "us",
         "code": "6000k1uw",
         "ids": ",us6000k1uw,",
@@ -557,7 +557,7 @@
         "gap": 147,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Oaxaca, Mexico"
+        "title": "M 5.3 - 8 km NW of San Jerónimo Coatlán, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Talaud, Indonesia",
+        "place": "226 km ESE of Sarangani, Philippines",
         "time": 1680570729377,
         "updated": 1680573260040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Talaud, Indonesia"
+        "title": "M 4.5 - 226 km ESE of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Bali region, Indonesia",
+        "place": "30 km S of Amlapura, Indonesia",
         "time": 1680546406362,
         "updated": 1680602832803,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Bali region, Indonesia"
+        "title": "M 4.4 - 30 km S of Amlapura, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1255,17 +1255,17 @@
         "mag": 6.1,
         "place": "72 km SW of Padangsidempuan, Indonesia",
         "time": 1680533982316,
-        "updated": 1680585845346,
+        "updated": 1680606790506,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1qa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1qa.geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 5.3,
         "mmi": 5.155,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 582,
+        "sig": 583,
         "net": "us",
         "code": "6000k1qa",
         "ids": ",us6000k1qa,",
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000k1pd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "Southern Alaska",
-        "time": 1680524834484,
-        "updated": 1680601503320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234a0aako",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234a0aako.geojson",
-        "felt": 292,
-        "cdi": 3.1,
-        "mmi": 2.822,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 313,
-        "net": "ak",
-        "code": "0234a0aako",
-        "ids": ",ak0234a0aako,at00rsjh9d,us6000k1pc,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - Southern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1823,
-          61.3712,
-          36.7
-        ]
-      },
-      "id": "ak0234a0aako"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "14km E of Arvin, CA",
-        "time": 1680521728000,
-        "updated": 1680577027094,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39509394",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39509394.geojson",
-        "felt": 40,
-        "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "ci",
-        "code": "39509394",
-        "ids": ",ci39509394,us6000k1p7,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.03039,
-        "rms": 0.15,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 14km E of Arvin, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.6721667,
-          35.2038333,
-          5.99
-        ]
-      },
-      "id": "ci39509394"
     }
   ],
   "bbox": [
