@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680639332000,
+    "generated": 1680642763000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.52,
+        "place": "2km E of Aromas, CA",
+        "time": 1680640946170,
+        "updated": 1680641892203,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73866890",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73866890.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "73866890",
+        "ids": ",nc73866890,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.02701,
+        "rms": 0.36,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2km E of Aromas, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6244965,
+          36.8914986,
+          0.36
+        ]
+      },
+      "id": "nc73866890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.9,
-        "place": "Atacama, Chile",
+        "place": "65 km W of Copiapó, Chile",
         "time": 1680635326854,
-        "updated": 1680639131746,
+        "updated": 1680642738632,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1zt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1zt.geojson",
-        "felt": 4,
-        "cdi": 7.4,
+        "felt": 7,
+        "cdi": 6.5,
         "mmi": 5.459,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 538,
+        "sig": 540,
         "net": "us",
         "code": "6000k1zt",
         "ids": ",us6000k1zt,",
@@ -37,7 +77,7 @@
         "gap": 100,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - Atacama, Chile"
+        "title": "M 5.9 - 65 km W of Copiapó, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Philippine Islands region",
+        "place": "110 km E of Gigmoto, Philippines",
         "time": 1680630513321,
         "updated": 1680633780040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Philippine Islands region"
+        "title": "M 4.5 - 110 km E of Gigmoto, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -175,11 +215,11 @@
         "mag": 5,
         "place": "10 km ESE of Chebika, Tunisia",
         "time": 1680625627294,
-        "updated": 1680634156061,
+        "updated": 1680642487006,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1z0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1z0.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 5.6,
         "mmi": null,
         "alert": null,
@@ -1295,17 +1335,17 @@
         "mag": 5.4,
         "place": "9 km WSW of San Jerónimo Coatlán, Mexico",
         "time": 1680574319843,
-        "updated": 1680633894259,
+        "updated": 1680641688216,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1uw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1uw.geojson",
-        "felt": 75,
+        "felt": 76,
         "cdi": 5.8,
         "mmi": 5.008,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 492,
+        "sig": 493,
         "net": "us",
         "code": "6000k1uw",
         "ids": ",us6000k1uw,",
@@ -1374,8 +1414,8 @@
       "properties": {
         "mag": 4.5,
         "place": "226 km ESE of Sarangani, Philippines",
-        "time": 1680570729377,
-        "updated": 1680573260040,
+        "time": 1680570729333,
+        "updated": 1680642089040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1us",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1us.geojson",
@@ -1391,9 +1431,9 @@
         "ids": ",us6000k1us,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 3.023,
-        "rms": 0.51,
+        "nst": 36,
+        "dmin": 3.022,
+        "rms": 0.34,
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
@@ -1402,9 +1442,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.3401,
-          4.5894,
-          58.584
+          127.3429,
+          4.5928,
+          61.021
         ]
       },
       "id": "us6000k1us"
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "us6000k1tw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1680556312113,
-        "updated": 1680622262897,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023gnsh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023gnsh.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2023gnsh",
-        "ids": ",us6000k1tq,tx2023gnsh,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.03094797345,
-        "rms": 0.2,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4286637,
-          31.68696204,
-          6.131567383
-        ]
-      },
-      "id": "tx2023gnsh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "124 km NNW of Pante Makasar, Timor Leste",
-        "time": 1680555032882,
-        "updated": 1680556297040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1tm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1tm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000k1tm",
-        "ids": ",us6000k1tm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 100,
-        "dmin": 1.575,
-        "rms": 1,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 124 km NNW of Pante Makasar, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.795,
-          -8.2418,
-          184.221
-        ]
-      },
-      "id": "us6000k1tm"
     }
   ],
   "bbox": [
