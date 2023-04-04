@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680614323000,
+    "generated": 1680617665000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 6.2,
         "place": "124 km E of Gigmoto, Philippines",
         "time": 1680612872603,
-        "updated": 1680614227898,
+        "updated": 1680617374040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1x2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1x2.geojson",
-        "felt": 2,
+        "felt": 9,
         "cdi": 4.3,
         "mmi": 3.976,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 592,
+        "sig": 595,
         "net": "us",
         "code": "6000k1x2",
         "ids": ",us6000k1x2,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 158,
         "dmin": 6.642,
         "rms": 0.53,
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Central Alaska",
+        "place": "42 km SSW of Cantwell, Alaska",
         "time": 1680597815061,
         "updated": 1680597925652,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Central Alaska"
+        "title": "M 2.6 - 42 km SSW of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -175,12 +175,12 @@
         "mag": 2.84,
         "place": "21km S of Mammoth Lakes, CA",
         "time": 1680596108690,
-        "updated": 1680608534111,
+        "updated": 1680615180441,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73866665",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73866665.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +190,7 @@
         "code": "73866665",
         "ids": ",nc73866665,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 11,
         "dmin": 0.1479,
         "rms": 0.06,
@@ -573,19 +573,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "8 km NW of San Jerónimo Coatlán, Mexico",
+        "place": "Oaxaca, Mexico",
         "time": 1680574321496,
-        "updated": 1680610866852,
+        "updated": 1680616395842,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k1uw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k1uw.geojson",
-        "felt": 68,
+        "felt": 71,
         "cdi": 5.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 472,
+        "sig": 473,
         "net": "us",
         "code": "6000k1uw",
         "ids": ",us6000k1uw,",
@@ -597,7 +597,7 @@
         "gap": 147,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 8 km NW of San Jerónimo Coatlán, Mexico"
+        "title": "M 5.3 - Oaxaca, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "226 km ESE of Sarangani, Philippines",
+        "place": "Kepulauan Talaud, Indonesia",
         "time": 1680570729377,
         "updated": 1680573260040,
         "tz": null,
@@ -677,7 +677,7 @@
         "gap": 135,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 226 km ESE of Sarangani, Philippines"
+        "title": "M 4.5 - Kepulauan Talaud, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "30 km S of Amlapura, Indonesia",
+        "place": "Bali region, Indonesia",
         "time": 1680546406362,
         "updated": 1680602832803,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 30 km S of Amlapura, Indonesia"
+        "title": "M 4.4 - Bali region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1328,46 +1328,6 @@
         ]
       },
       "id": "us6000k1qa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "87 km ENE of Ouzinkie, Alaska",
-        "time": 1680528426752,
-        "updated": 1680568577140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234a0vpig",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234a0vpig.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.738,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "0234a0vpig",
-        "ids": ",us6000k1pk,ak0234a0vpig,",
-        "sources": ",us,ak,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 87 km ENE of Ouzinkie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.1577,
-          58.2499,
-          47.1
-        ]
-      },
-      "id": "ak0234a0vpig"
     }
   ],
   "bbox": [
