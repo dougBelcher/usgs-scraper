@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680984875000,
+    "generated": 1680988265000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "49 km WSW of Akhiok, Alaska",
+        "time": 1680987074224,
+        "updated": 1680987227481,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234ievn3y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234ievn3y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0234ievn3y",
+        "ids": ",ak0234ievn3y,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 49 km WSW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.9494,
+          56.8205,
+          1.6
+        ]
+      },
+      "id": "ak0234ievn3y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "32 km SE of Akutan, Alaska",
+        "time": 1680985511888,
+        "updated": 1680987919609,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2wm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2wm.geojson",
+        "felt": 11,
+        "cdi": 3.4,
+        "mmi": 3.621,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 404,
+        "net": "us",
+        "code": "6000k2wm",
+        "ids": ",at00rstcpz,ak0234ieq2c8,us6000k2wm,",
+        "sources": ",at,ak,us,",
+        "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 157,
+        "dmin": 0.295,
+        "rms": 0.8,
+        "gap": 64,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 5.1 - 32 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4573,
+          53.9099,
+          66.396
+        ]
+      },
+      "id": "us6000k2wm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1048,52 +1128,12 @@
         ]
       },
       "id": "us6000k2ru"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "102 km W of Adak, Alaska",
-        "time": 1680899510909,
-        "updated": 1680906649411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2ri",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2ri.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000k2ri",
-        "ids": ",av91838956,ak0234gr836i,us6000k2ri,",
-        "sources": ",av,ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.052,
-        "rms": 0.46,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 102 km W of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1159,
-          51.8539,
-          5
-        ]
-      },
-      "id": "us6000k2ri"
     }
   ],
   "bbox": [
-    -178.1159,
+    -175.5013,
     -16.5627,
-    2.09,
+    1.6,
     179.3416,
     62.6545,
     177.924
