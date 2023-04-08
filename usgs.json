@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1680930745000,
+    "generated": 1680934620000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.45,
         "place": "7km WNW of The Geysers, CA",
         "time": 1680930516210,
-        "updated": 1680930610912,
+        "updated": 1680931345267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73868955",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73868955.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73868955",
         "ids": ",nc73868955,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
         "nst": 13,
         "dmin": 0.01182,
         "rms": 0.02,
@@ -55,22 +55,22 @@
         "mag": 3.29,
         "place": "8km W of Cobb, CA",
         "time": 1680930478590,
-        "updated": 1680930731624,
+        "updated": 1680933439329,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73868965",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73868965.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 8,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 167,
+        "sig": 169,
         "net": "nc",
         "code": "73868965",
-        "ids": ",nc73868965,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",nc73868965,us6000k2ta,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 69,
         "dmin": 0.009939,
         "rms": 0.09,
@@ -92,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.93,
+        "place": "27 km N of Punta Cana, Dominican Republic",
+        "time": 1680929771340,
+        "updated": 1680932349736,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023098000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023098000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 238,
+        "net": "pr",
+        "code": "2023098000",
+        "ids": ",pr2023098000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.9223,
+        "rms": 0.49,
+        "gap": 189,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 27 km N of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3886,
+          18.8301,
+          103
+        ]
+      },
+      "id": "pr2023098000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "108 km NE of Hihifo, Tonga",
+        "place": "Samoa Islands region",
         "time": 1680927500457,
         "updated": 1680928912040,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 108 km NE of Hihifo, Tonga"
+        "title": "M 4.4 - Samoa Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "135 km NNE of Lospalos, Timor Leste",
+        "place": "Kepulauan Barat Daya, Indonesia",
         "time": 1680917007291,
         "updated": 1680918289040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 135 km NNE of Lospalos, Timor Leste"
+        "title": "M 4.4 - Kepulauan Barat Daya, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -255,7 +295,7 @@
         "mag": 2.9,
         "place": "30 km NNE of Akhiok, Alaska",
         "time": 1680913890748,
-        "updated": 1680913977600,
+        "updated": 1680931082040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234i2upyq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234i2upyq.geojson",
@@ -268,8 +308,8 @@
         "sig": 129,
         "net": "ak",
         "code": "0234i2upyq",
-        "ids": ",ak0234i2upyq,",
-        "sources": ",ak,",
+        "ids": ",us6000k2s8,ak0234i2upyq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "11 km ESE of Chenega, Alaska",
         "time": 1680909255064,
         "updated": 1680910616040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 11 km ESE of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "2 km E of Lluveras, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1680893744400,
         "updated": 1680895555530,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 99,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 2 km E of Lluveras, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -852,10 +892,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Kuril Islands",
+        "time": 1680878510362,
+        "updated": 1680932927040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2nt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2nt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000k2nt",
+        "ids": ",us6000k2nt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 3.545,
+        "rms": 0.38,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.1602,
+          49.9421,
+          120.832
+        ]
+      },
+      "id": "us6000k2nt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.81,
         "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1680875713080,
-        "updated": 1680923145377,
+        "updated": 1680933780040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73358362",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73358362.geojson",
@@ -868,8 +948,8 @@
         "sig": 123,
         "net": "hv",
         "code": "73358362",
-        "ids": ",hv73358362,",
-        "sources": ",hv,",
+        "ids": ",hv73358362,us6000k2nn,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 46,
         "dmin": null,
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "3 km ESE of Carney, Oklahoma",
+        "place": "Oklahoma",
         "time": 1680874592990,
         "updated": 1680894538112,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 3 km ESE of Carney, Oklahoma"
+        "title": "M 3.4 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "53 km N of Isabela, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1680865063340,
         "updated": 1680867707040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 269,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 53 km N of Isabela, Puerto Rico"
+        "title": "M 3.4 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1488,53 +1568,13 @@
         ]
       },
       "id": "us6000k2lv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "15 km SSE of Stanton, Texas",
-        "time": 1680845082127,
-        "updated": 1680928223040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023gtva",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023gtva.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2023gtva",
-        "ids": ",us6000k2lk,tx2023gtva,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.084462769,
-        "rms": 0.1,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 15 km SSE of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.7076744,
-          32.00958252,
-          9.023803711
-        ]
-      },
-      "id": "tx2023gtva"
     }
   ],
   "bbox": [
     -179.8573,
     -24.1123,
     0.48,
-    145.7677,
+    155.1602,
     62.6545,
     556.14
   ]
