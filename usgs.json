@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681017180000,
+    "generated": 1681021045000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "116 km SSE of Sumbawa Besar, Indonesia",
+        "time": 1681017634061,
+        "updated": 1681019343040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2yt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2yt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000k2yt",
+        "ids": ",us6000k2yt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.67,
+        "rms": 0.82,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 116 km SSE of Sumbawa Besar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.7326,
+          -9.5,
+          64.708
+        ]
+      },
+      "id": "us6000k2yt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1415,12 +1455,12 @@
         "mag": 4.4,
         "place": "30 km NNE of Jalālābād, Afghanistan",
         "time": 1680944856806,
-        "updated": 1680946670040,
+        "updated": 1681017417681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2un",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2un.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1430,7 +1470,7 @@
         "code": "6000k2un",
         "ids": ",us6000k2un,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 1.315,
         "rms": 0.47,
@@ -1448,6 +1488,46 @@
         ]
       },
       "id": "us6000k2un"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "West Chile Rise",
+        "time": 1680941243269,
+        "updated": 1681019196040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k2ue",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k2ue.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000k2ue",
+        "ids": ",us6000k2ue,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 9.531,
+        "rms": 0.97,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - West Chile Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2256,
+          -41.16,
+          10
+        ]
+      },
+      "id": "us6000k2ue"
     },
     {
       "type": "Feature",
@@ -1535,7 +1615,7 @@
         "mag": 3.95,
         "place": "34 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1680936434170,
-        "updated": 1681004035446,
+        "updated": 1681017675040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023098001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023098001.geojson",
@@ -1548,8 +1628,8 @@
         "sig": 240,
         "net": "pr",
         "code": "2023098001",
-        "ids": ",pr2023098001,",
-        "sources": ",pr,",
+        "ids": ",pr2023098001,us6000k2ty,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 0.6004,
@@ -1572,7 +1652,7 @@
   ],
   "bbox": [
     -178.1233,
-    -21.7226,
+    -41.16,
     -0.56,
     179.3416,
     69.2314,
