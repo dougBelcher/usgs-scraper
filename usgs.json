@@ -1,19 +1,179 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681064185000,
+    "generated": 1681067415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "14 km SSW of Guánica, Puerto Rico",
+        "time": 1681065374179,
+        "updated": 1681066956575,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k33y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k33y.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "6000k33y",
+        "ids": ",us6000k33y,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.136,
+        "rms": 0.46,
+        "gap": 237,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 14 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9644,
+          17.8564,
+          10
+        ]
+      },
+      "id": "us6000k33y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "68 km SSW of Ocós, Guatemala",
+        "time": 1681064877865,
+        "updated": 1681066456040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k33w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k33w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000k33w",
+        "ids": ",us6000k33w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 2.58,
+        "rms": 1.16,
+        "gap": 181,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 68 km SSW of Ocós, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4364,
+          13.9374,
+          35
+        ]
+      },
+      "id": "us6000k33w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "10km WNW of The Geysers, CA",
+        "time": 1681064360690,
+        "updated": 1681065196308,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73869850",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73869850.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "nc",
+        "code": "73869850",
+        "ids": ",nc73869850,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 57,
+        "dmin": 0.003874,
+        "rms": 0.06,
+        "gap": 27,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8519974,
+          38.8268318,
+          2.81
+        ]
+      },
+      "id": "nc73869850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "3 km SE of Palmarejo, Puerto Rico",
+        "time": 1681063482490,
+        "updated": 1681066987645,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71403363",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71403363.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "pr",
+        "code": "71403363",
+        "ids": ",pr71403363,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.04817,
+        "rms": 0.07,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SE of Palmarejo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0601666666667,
+          18.0168333333333,
+          7.81
+        ]
+      },
+      "id": "pr71403363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.53,
-        "place": "42 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1681058903800,
         "updated": 1681061408110,
         "tz": null,
@@ -37,7 +197,7 @@
         "gap": 251,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 42 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.5 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -55,12 +215,12 @@
         "mag": 4,
         "place": "off the coast of Oregon",
         "time": 1681058539703,
-        "updated": 1681059499040,
+        "updated": 1681064403409,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k33l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k33l.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +230,7 @@
         "code": "6000k33l",
         "ids": ",us6000k33l,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 4.054,
         "rms": 0.6,
@@ -88,6 +248,46 @@
         ]
       },
       "id": "us6000k33l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "90 km SE of Perryville, Alaska",
+        "time": 1681058170817,
+        "updated": 1681065871986,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234jzy1pn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234jzy1pn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0234jzy1pn",
+        "ids": ",ak0234jzy1pn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 90 km SE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.9853,
+          55.4353,
+          8.2
+        ]
+      },
+      "id": "ak0234jzy1pn"
     },
     {
       "type": "Feature",
@@ -173,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1681052064590,
         "updated": 1681055886040,
         "tz": null,
@@ -197,7 +397,7 @@
         "gap": 189,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "82 km N of Isabela, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1681051089920,
         "updated": 1681055969040,
         "tz": null,
@@ -277,7 +477,7 @@
         "gap": 290,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 82 km N of Isabela, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -333,13 +533,13 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of Guánica, Puerto Rico",
         "time": 1681045736590,
-        "updated": 1681063854069,
+        "updated": 1681065475705,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023099000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023099000.geojson",
-        "felt": 188,
+        "felt": 189,
         "cdi": 4.9,
         "mmi": 3.932,
         "alert": "green",
@@ -357,7 +557,7 @@
         "gap": 202,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - Puerto Rico region"
+        "title": "M 4.5 - 4 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "37 km SSE of Jurm, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1681024458127,
         "updated": 1681028719040,
         "tz": null,
@@ -957,7 +1157,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 37 km SSE of Jurm, Afghanistan"
+        "title": "M 4.1 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "73 km SE of Hengchun, Taiwan",
+        "place": "Taiwan region",
         "time": 1681017194742,
         "updated": 1681022182040,
         "tz": null,
@@ -1117,7 +1317,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 73 km SE of Hengchun, Taiwan"
+        "title": "M 4.4 - Taiwan region"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "117 km SSW of Kaktovik, Alaska",
+        "place": "northern Alaska",
         "time": 1681016025601,
         "updated": 1681016773424,
         "tz": null,
@@ -1157,7 +1357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 117 km SSW of Kaktovik, Alaska"
+        "title": "M 2.8 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "29 km SE of Champerico, Guatemala",
+        "place": "Guatemala",
         "time": 1681010279478,
         "updated": 1681012209748,
         "tz": null,
@@ -1237,7 +1437,7 @@
         "gap": 206,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 29 km SE of Champerico, Guatemala"
+        "title": "M 4.4 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "13 km S of Iztapa, Guatemala",
+        "place": "near the coast of Guatemala",
         "time": 1681010097344,
         "updated": 1681012233702,
         "tz": null,
@@ -1277,7 +1477,7 @@
         "gap": 162,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 13 km S of Iztapa, Guatemala"
+        "title": "M 4.4 - near the coast of Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "298 km SE of Isangel, Vanuatu",
+        "place": "southeast of the Loyalty Islands",
         "time": 1681006491482,
         "updated": 1681007424040,
         "tz": null,
@@ -1437,7 +1637,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 298 km SE of Isangel, Vanuatu"
+        "title": "M 4.9 - southeast of the Loyalty Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1653,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Peru-Bolivia border region",
+        "place": "Tarapaca, Chile",
         "time": 1680996992764,
         "updated": 1680998783040,
         "tz": null,
@@ -1677,7 +1877,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Peru-Bolivia border region"
+        "title": "M 4.2 - Tarapaca, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "4 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1680995018570,
         "updated": 1680996766820,
         "tz": null,
@@ -1717,7 +1917,7 @@
         "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "New Guinea, Papua New Guinea",
+        "place": "54 km SE of Ambunti, Papua New Guinea",
         "time": 1680993349649,
         "updated": 1680994391348,
         "tz": null,
@@ -1757,7 +1957,7 @@
         "gap": 168,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - New Guinea, Papua New Guinea"
+        "title": "M 4.4 - 54 km SE of Ambunti, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "New Guinea, Papua New Guinea",
+        "place": "55 km SE of Ambunti, Papua New Guinea",
         "time": 1680992602853,
         "updated": 1680993736034,
         "tz": null,
@@ -1797,7 +1997,7 @@
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - New Guinea, Papua New Guinea"
+        "title": "M 4.8 - 55 km SE of Ambunti, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.29,
-        "place": "Puerto Rico region",
+        "place": "52 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1680989347030,
         "updated": 1680991821140,
         "tz": null,
@@ -1837,7 +2037,7 @@
         "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 52 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
