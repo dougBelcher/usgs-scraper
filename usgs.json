@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681150649000,
+    "generated": 1681153863000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 54
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.6,
         "place": "115 km WSW of Akhiok, Alaska",
         "time": 1681146673448,
-        "updated": 1681146823517,
+        "updated": 1681152933040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234lnxgkw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234lnxgkw.geojson",
@@ -68,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0234lnxgkw",
-        "ids": ",ak0234lnxgkw,",
-        "sources": ",ak,",
+        "ids": ",us6000k3b6,ak0234lnxgkw,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1412,39 +1412,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.94,
+        "mag": 2.85,
         "place": "15km N of Deep Springs, CA",
-        "time": 1681086186790,
-        "updated": 1681144313464,
+        "time": 1681086186960,
+        "updated": 1681153155308,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73870040",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73870040.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 133,
+        "sig": 125,
         "net": "nc",
         "code": "73870040",
         "ids": ",nc73870040,nn00858024,",
         "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.3725,
-        "rms": 0.26,
-        "gap": 147,
-        "magType": "ml",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.3061,
+        "rms": 0.18,
+        "gap": 115,
+        "magType": "md",
         "type": "earthquake",
         "title": "M 2.9 - 15km N of Deep Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.965332,
-          37.5045013,
-          -0.79
+          -117.9835,
+          37.506,
+          1.32
         ]
       },
       "id": "nc73870040"
@@ -1495,17 +1495,17 @@
         "mag": 4.6,
         "place": "Kenai Peninsula, Alaska",
         "time": 1681085816398,
-        "updated": 1681148951990,
+        "updated": 1681153405190,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234ldu94w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234ldu94w.geojson",
-        "felt": 952,
+        "felt": 955,
         "cdi": 3.9,
         "mmi": 3.489,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 697,
+        "sig": 698,
         "net": "ak",
         "code": "0234ldu94w",
         "ids": ",ak0234ldu94w,at00rsvi47,us6000k35y,",
@@ -2168,172 +2168,12 @@
         ]
       },
       "id": "pr71403413"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "15 km SSE of Yonakuni, Japan",
-        "time": 1681065936893,
-        "updated": 1681123989401,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k341",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k341.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "6000k341",
-        "ids": ",us6000k341,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 66,
-        "dmin": 0.136,
-        "rms": 0.63,
-        "gap": 97,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.9 - 15 km SSE of Yonakuni, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.0306,
-          24.3322,
-          53.659
-        ]
-      },
-      "id": "us6000k341"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "7 km ESE of La Parguera, Puerto Rico",
-        "time": 1681065375720,
-        "updated": 1681068349040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71403393",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71403393.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71403393",
-        "ids": ",us6000k33y,pr71403393,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.06749,
-        "rms": 0.13,
-        "gap": 206,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 7 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.979,
-          17.9428333333333,
-          8.33
-        ]
-      },
-      "id": "pr71403393"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "68 km SSW of Ocós, Guatemala",
-        "time": 1681064877865,
-        "updated": 1681066456040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k33w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k33w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000k33w",
-        "ids": ",us6000k33w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 2.58,
-        "rms": 1.16,
-        "gap": 181,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 68 km SSW of Ocós, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.4364,
-          13.9374,
-          35
-        ]
-      },
-      "id": "us6000k33w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "10km WNW of The Geysers, CA",
-        "time": 1681064360690,
-        "updated": 1681067651564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73869850",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73869850.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "nc",
-        "code": "73869850",
-        "ids": ",nc73869850,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.003874,
-        "rms": 0.06,
-        "gap": 27,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 10km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8519974,
-          38.8268318,
-          2.81
-        ]
-      },
-      "id": "nc73869850"
     }
   ],
   "bbox": [
     -173.792,
     -48.1762,
-    -0.79,
+    0,
     179.9941,
     62.8061,
     522.49
