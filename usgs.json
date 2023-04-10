@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681157715000,
+    "generated": 1681161172000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "6 km SW of Guánica, Puerto Rico",
+        "time": 1681159992190,
+        "updated": 1681160970110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71403818",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71403818.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71403818",
+        "ids": ",pr71403818,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.08305,
+        "rms": 0.11,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9548333333333,
+          17.9333333333333,
+          16.17
+        ]
+      },
+      "id": "pr71403818"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "Southern Alaska",
         "time": 1681156062470,
-        "updated": 1681156172861,
+        "updated": 1681159752922,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234lpc3t3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234lpc3t3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "0234lpc3t3",
         "ids": ",ak0234lpc3t3,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.51,
@@ -1455,7 +1495,7 @@
         "mag": 2.85,
         "place": "15km N of Deep Springs, CA",
         "time": 1681086186960,
-        "updated": 1681153155308,
+        "updated": 1681159272963,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73870040",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73870040.geojson",
@@ -1535,17 +1575,17 @@
         "mag": 4.6,
         "place": "10 km NW of Point Possession, Alaska",
         "time": 1681085816398,
-        "updated": 1681154949611,
+        "updated": 1681161055435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234ldu94w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234ldu94w.geojson",
-        "felt": 956,
+        "felt": 958,
         "cdi": 3.9,
         "mmi": 3.489,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 698,
+        "sig": 699,
         "net": "ak",
         "code": "0234ldu94w",
         "ids": ",ak0234ldu94w,at00rsvi47,us6000k35y,",
@@ -1928,86 +1968,6 @@
         ]
       },
       "id": "ak0234k2sylz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Nicobar Islands, India region",
-        "time": 1681073758186,
-        "updated": 1681075212040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k34r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k34r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000k34r",
-        "ids": ",us6000k34r,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 110,
-        "dmin": 2.877,
-        "rms": 0.85,
-        "gap": 42,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Nicobar Islands, India region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.925,
-          9.0077,
-          10
-        ]
-      },
-      "id": "us6000k34r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "Puerto Rico region",
-        "time": 1681071476950,
-        "updated": 1681072639520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71403448",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71403448.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71403448",
-        "ids": ",pr71403448,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.07848,
-        "rms": 0.13,
-        "gap": 223,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9505,
-          17.9353333333333,
-          13.83
-        ]
-      },
-      "id": "pr71403448"
     }
   ],
   "bbox": [
