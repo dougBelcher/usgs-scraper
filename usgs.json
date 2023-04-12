@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681323544000,
+    "generated": 1681326664000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.8,
         "place": "72 km WNW of Aleneva, Alaska",
         "time": 1681321612081,
-        "updated": 1681321678038,
+        "updated": 1681325176790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234oz7qm0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234oz7qm0.geojson",
@@ -28,8 +28,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0234oz7qm0",
-        "ids": ",ak0234oz7qm0,",
-        "sources": ",ak,",
+        "ids": ",av91845741,ak0234oz7qm0,",
+        "sources": ",av,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -532,39 +532,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.27,
+        "mag": 3.09,
         "place": "3km NNW of The Geysers, CA",
-        "time": 1681281034000,
-        "updated": 1681309241884,
+        "time": 1681281034020,
+        "updated": 1681326496089,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871740",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871740.geojson",
-        "felt": 4,
+        "felt": 8,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 166,
+        "sig": 149,
         "net": "nc",
         "code": "73871740",
         "ids": ",ew1681281030,nc73871740,",
         "sources": ",ew,nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 60,
-        "dmin": 0.01016,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
+        "nst": 98,
+        "dmin": 0.01054,
         "rms": 0.06,
-        "gap": 32,
+        "gap": 31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 3km NNW of The Geysers, CA"
+        "title": "M 3.1 - 3km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.7726669,
-          38.8014984,
-          0.12
+          -122.7731667,
+          38.8013333,
+          0.39
         ]
       },
       "id": "nc73871740"
@@ -855,17 +855,17 @@
         "mag": 4.43,
         "place": "7km WNW of Cobb, CA",
         "time": 1681277991750,
-        "updated": 1681322648535,
+        "updated": 1681326396226,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871215",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871215.geojson",
-        "felt": 755,
+        "felt": 758,
         "cdi": 4.9,
         "mmi": 4.71,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 672,
+        "sig": 673,
         "net": "nc",
         "code": "73871215",
         "ids": ",ew1681277990,nc73871215,at00rszmei,us6000k3qg,",
@@ -1015,11 +1015,11 @@
         "mag": 2.66,
         "place": "35km NW of Desert Center, CA",
         "time": 1681271584050,
-        "updated": 1681314723249,
+        "updated": 1681324173322,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40439912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40439912.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1768,46 +1768,6 @@
         ]
       },
       "id": "us6000k3lr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "13 km NW of Kalaoa, Hawaii",
-        "time": 1681239871810,
-        "updated": 1681247834960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73361492",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73361492.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "73361492",
-        "ids": ",us6000k3l0,hv73361492,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": 189,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km NW of Kalaoa, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.088,
-          19.8013333333333,
-          6.7
-        ]
-      },
-      "id": "hv73361492"
     }
   ],
   "bbox": [
