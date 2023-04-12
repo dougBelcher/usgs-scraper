@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681297952000,
+    "generated": 1681302544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 48
   },
   "features": [
     {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "35 km N of Eureka Roadhouse, Alaska",
+        "place": "Central Alaska",
         "time": 1681294843252,
         "updated": 1681295667040,
         "tz": null,
@@ -77,7 +77,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 35 km N of Eureka Roadhouse, Alaska"
+        "title": "M 3.2 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Chile-Bolivia border region",
+        "place": "58 km NNE of Calama, Chile",
         "time": 1681287871716,
         "updated": 1681289728040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Chile-Bolivia border region"
+        "title": "M 4.1 - 58 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +295,7 @@
         "mag": 3.27,
         "place": "3km NNW of The Geysers, CA",
         "time": 1681281034000,
-        "updated": 1681297406076,
+        "updated": 1681298472170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871740",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871740.geojson",
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "6 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1681279956250,
         "updated": 1681281689200,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km WSW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -572,29 +572,69 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.82,
+        "place": "7km WNW of Cobb, CA",
+        "time": 1681278030970,
+        "updated": 1681301891501,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871185",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871185.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "nc",
+        "code": "73871185",
+        "ids": ",nc73871185,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.01133,
+        "rms": 0.04,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 7km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8048333,
+          38.8378333,
+          0.27
+        ]
+      },
+      "id": "nc73871185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.43,
         "place": "7km WNW of Cobb, CA",
-        "time": 1681277991780,
-        "updated": 1681294425496,
+        "time": 1681277991750,
+        "updated": 1681301651458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871215",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871215.geojson",
-        "felt": 681,
+        "felt": 690,
         "cdi": 4.9,
-        "mmi": 4.694,
+        "mmi": 4.71,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 636,
+        "sig": 640,
         "net": "nc",
         "code": "73871215",
         "ids": ",ew1681277990,nc73871215,at00rszmei,us6000k3qg,",
         "sources": ",ew,nc,at,us,",
         "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 74,
-        "dmin": 0.01251,
+        "nst": 103,
+        "dmin": 0.01202,
         "rms": 0.07,
-        "gap": 25,
+        "gap": 24,
         "magType": "mw",
         "type": "earthquake",
         "title": "M 4.4 - 7km WNW of Cobb, CA"
@@ -602,9 +642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.8068314,
-          38.8356667,
-          1.97
+          -122.8068333,
+          38.8351667,
+          2.45
         ]
       },
       "id": "nc73871215"
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Bihar, India",
+        "place": "7 km E of Banmankhi, India",
         "time": 1681257907273,
         "updated": 1681267163047,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 178,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Bihar, India"
+        "title": "M 4.0 - 7 km E of Banmankhi, India"
       },
       "geometry": {
         "type": "Point",
@@ -1773,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Central Alaska",
+        "place": "47 km ENE of Susitna North, Alaska",
         "time": 1681218368438,
         "updated": 1681218440057,
         "tz": null,
@@ -1797,7 +1837,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Central Alaska"
+        "title": "M 2.8 - 47 km ENE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "27 km N of Kandrian, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1681216564328,
         "updated": 1681237341999,
         "tz": null,
@@ -1877,7 +1917,7 @@
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 27 km N of Kandrian, Papua New Guinea"
+        "title": "M 5.6 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1888,126 +1928,6 @@
         ]
       },
       "id": "us6000k3hc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "139 km ESE of Antofagasta, Chile",
-        "time": 1681213928786,
-        "updated": 1681232690040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k3h9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k3h9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000k3h9",
-        "ids": ",us6000k3h9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.23,
-        "rms": 0.66,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 139 km ESE of Antofagasta, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.0831,
-          -24.0175,
-          91.479
-        ]
-      },
-      "id": "us6000k3h9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "5 km WSW of Guánica, Puerto Rico",
-        "time": 1681213305690,
-        "updated": 1681219205280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71404063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71404063.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71404063",
-        "ids": ",pr71404063,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.07817,
-        "rms": 0.06,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9573333333333,
-          17.9506666666667,
-          15.66
-        ]
-      },
-      "id": "pr71404063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "19 km SSW of Vilyuchinsk, Russia",
-        "time": 1681213159069,
-        "updated": 1681216565753,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k3h7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k3h7.geojson",
-        "felt": 3,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "6000k3h7",
-        "ids": ",us6000k3h7,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 119,
-        "dmin": 0.336,
-        "rms": 0.81,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 19 km SSW of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          158.2643,
-          52.7827,
-          111.292
-        ]
-      },
-      "id": "us6000k3h7"
     }
   ],
   "bbox": [
