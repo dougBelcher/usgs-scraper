@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681366744000,
+    "generated": 1681369984000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 31
   },
   "features": [
     {
@@ -295,22 +295,22 @@
         "mag": 2.63,
         "place": "22km NW of San Simeon, CA",
         "time": 1681351856030,
-        "updated": 1681358892393,
+        "updated": 1681369485800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73872805",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73872805.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 107,
         "net": "nc",
         "code": "73872805",
         "ids": ",nc73872805,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 41,
         "dmin": 0.1944,
         "rms": 0.1,
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "17 km NNW of Rabaul, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1681351678217,
         "updated": 1681352441040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 240,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 17 km NNW of Rabaul, Papua New Guinea"
+        "title": "M 4.4 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "Gulf of Alaska",
+        "place": "257 km SE of Chiniak, Alaska",
         "time": 1681346410392,
         "updated": 1681354316722,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 219,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Gulf of Alaska"
+        "title": "M 3.6 - 257 km SE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
+        "place": "197 km WSW of Tual, Indonesia",
         "time": 1681340866544,
         "updated": 1681342015040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Pulau Pulau Tanimbar, Indonesia"
+        "title": "M 4.9 - 197 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "21 km NE of Teller, Alaska",
+        "place": "northern Alaska",
         "time": 1681331205105,
         "updated": 1681331858316,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 21 km NE of Teller, Alaska"
+        "title": "M 3.1 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Alaska Peninsula",
+        "place": "72 km WNW of Aleneva, Alaska",
         "time": 1681321612081,
         "updated": 1681325176790,
         "tz": null,
@@ -837,7 +837,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Alaska Peninsula"
+        "title": "M 2.8 - 72 km WNW of Aleneva, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "35 km N of Eureka Roadhouse, Alaska",
+        "place": "Central Alaska",
         "time": 1681294843252,
         "updated": 1681349175692,
         "tz": null,
@@ -1077,7 +1077,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 35 km N of Eureka Roadhouse, Alaska"
+        "title": "M 3.2 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Chile-Bolivia border region",
+        "place": "58 km NNE of Calama, Chile",
         "time": 1681287871716,
         "updated": 1681289728040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Chile-Bolivia border region"
+        "title": "M 4.1 - 58 km NNE of Calama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1248,252 +1248,12 @@
         ]
       },
       "id": "pr71404438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "29 km SE of Jurm, Afghanistan",
-        "time": 1681282473482,
-        "updated": 1681288410040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k3rd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k3rd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000k3rd",
-        "ids": ",us6000k3rd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.563,
-        "rms": 0.71,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 29 km SE of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.0722,
-          36.6839,
-          219.406
-        ]
-      },
-      "id": "us6000k3rd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "11 km W of Captain Cook, Hawaii",
-        "time": 1681281770320,
-        "updated": 1681340037120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73361762",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73361762.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "hv",
-        "code": "73361762",
-        "ids": ",hv73361762,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": null,
-        "rms": 0.32,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km W of Captain Cook, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.026833333333,
-          19.4813333333333,
-          3.42
-        ]
-      },
-      "id": "hv73361762"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "Utah",
-        "time": 1681281445150,
-        "updated": 1681305232310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60536896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60536896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "uu",
-        "code": "60536896",
-        "ids": ",uu60536896,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.07884,
-        "rms": 0.18,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.13,
-          37.435,
-          12.73
-        ]
-      },
-      "id": "uu60536896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "3km NW of The Geysers, CA",
-        "time": 1681281070470,
-        "updated": 1681314494852,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871735",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871735.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "nc",
-        "code": "73871735",
-        "ids": ",nc73871735,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.03934,
-        "rms": 0.2,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7791672,
-          38.7999992,
-          -0.77
-        ]
-      },
-      "id": "nc73871735"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "3km NNW of The Geysers, CA",
-        "time": 1681281034020,
-        "updated": 1681337174092,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73871740",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73871740.geojson",
-        "felt": 8,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "nc",
-        "code": "73871740",
-        "ids": ",ew1681281030,nc73871740,",
-        "sources": ",ew,nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 98,
-        "dmin": 0.01054,
-        "rms": 0.06,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 3km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7731667,
-          38.8013333,
-          0.39
-        ]
-      },
-      "id": "nc73871740"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "25 km NNE of Isabela, Puerto Rico",
-        "time": 1681280865080,
-        "updated": 1681282014980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71404413",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71404413.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71404413",
-        "ids": ",pr71404413,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.2849,
-        "rms": 0.16,
-        "gap": 229,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 25 km NNE of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9771666666667,
-          18.7238333333333,
-          61.82
-        ]
-      },
-      "id": "pr71404413"
     }
   ],
   "bbox": [
     -166.0172,
     -24.6412,
-    -0.77,
+    3.56,
     179.8486,
     65.9118,
     505.256
