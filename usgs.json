@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681463673000,
+    "generated": 1681467333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7,
+        "place": "96 km N of Tuban, Indonesia",
+        "time": 1681466145265,
+        "updated": 1681467288040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k49j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k49j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.78,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 754,
+        "net": "us",
+        "code": "6000k49j",
+        "ids": ",us6000k49j,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 131,
+        "dmin": 1.881,
+        "rms": 0.83,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.0 - 96 km N of Tuban, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0332,
+          -6.0255,
+          594.028
+        ]
+      },
+      "id": "us6000k49j"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 2.6,
         "place": "1 km W of Adams Center, New York",
         "time": 1681450233470,
-        "updated": 1681461152671,
+        "updated": 1681467254510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k48t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k48t.geojson",
-        "felt": 39,
+        "felt": 43,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 120,
+        "sig": 122,
         "net": "us",
         "code": "6000k48t",
         "ids": ",us6000k48t,",
@@ -168,6 +208,46 @@
         ]
       },
       "id": "us6000k48t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "224 km SE of Chiniak, Alaska",
+        "time": 1681447820010,
+        "updated": 1681465595513,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234s2krmk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234s2krmk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0234s2krmk",
+        "ids": ",ak0234s2krmk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 224 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.549,
+          56.2569,
+          10
+        ]
+      },
+      "id": "ak0234s2krmk"
     },
     {
       "type": "Feature",
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "pr2023103002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "Puerto Rico region",
-        "time": 1681377625590,
-        "updated": 1681378656390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71404718",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71404718.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "pr",
-        "code": "71404718",
-        "ids": ",pr71404718,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.04916,
-        "rms": 0.12,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9561666666667,
-          17.9528333333333,
-          15.41
-        ]
-      },
-      "id": "pr71404718"
     }
   ],
   "bbox": [
@@ -1096,6 +1136,6 @@
     2.02,
     150.5489,
     61.8122,
-    393.7
+    594.028
   ]
 }
