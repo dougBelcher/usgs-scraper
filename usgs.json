@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681561628000,
+    "generated": 1681564568000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Kermadec Islands region",
+        "time": 1681561062192,
+        "updated": 1681563120040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4nx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4nx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000k4nx",
+        "ids": ",us6000k4nx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.996,
+        "rms": 0.69,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.6386,
+          -31.165,
+          91.394
+        ]
+      },
+      "id": "us6000k4nx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.01,
-        "place": "5 km SE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1681545596170,
         "updated": 1681546608400,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 213,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 5 km SE of Maria Antonia, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -295,12 +335,12 @@
         "mag": 4.4,
         "place": "50 km ESE of Ōtsuchi, Japan",
         "time": 1681526452673,
-        "updated": 1681527640040,
+        "updated": 1681561638369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k4lr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k4lr.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +350,7 @@
         "code": "6000k4lr",
         "ids": ",us6000k4lr,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 1.9,
         "rms": 0.97,
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1681523042920,
         "updated": 1681524053070,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.44,
-        "place": "Mona Passage, Puerto Rico",
+        "place": "16 km WNW of Rincón, Puerto Rico",
         "time": 1681520654540,
         "updated": 1681523004330,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Mona Passage, Puerto Rico"
+        "title": "M 3.4 - 16 km WNW of Rincón, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "26 km SSW of Madang, Papua New Guinea",
+        "place": "eastern New Guinea region, Papua New Guinea",
         "time": 1681510124308,
         "updated": 1681557131447,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 26 km SSW of Madang, Papua New Guinea"
+        "title": "M 4.4 - eastern New Guinea region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the coast of Chiapas, Mexico",
+        "place": "79 km SW of Puerto Madero, Mexico",
         "time": 1681507633544,
         "updated": 1681508922040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 139,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the coast of Chiapas, Mexico"
+        "title": "M 4.6 - 79 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "126 km E of McCarthy, Alaska",
+        "place": "Southern Yukon Territory, Canada",
         "time": 1681507044540,
         "updated": 1681508156040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 126 km E of McCarthy, Alaska"
+        "title": "M 2.9 - Southern Yukon Territory, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "245 km SE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1681497112458,
         "updated": 1681520376328,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 219,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 245 km SE of Chiniak, Alaska"
+        "title": "M 3.4 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "near the coast of Chiapas, Mexico",
+        "place": "offshore Guatemala",
         "time": 1681491979242,
         "updated": 1681500269040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - near the coast of Chiapas, Mexico"
+        "title": "M 4.4 - offshore Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "28 km SSE of Jurm, Afghanistan",
         "time": 1681483832206,
         "updated": 1681536882040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Hindu Kush region, Afghanistan"
+        "title": "M 4.0 - 28 km SSE of Jurm, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1371,8 +1411,8 @@
     }
   ],
   "bbox": [
-    -178.06916666667,
-    -30.8459,
+    -178.6386,
+    -31.165,
     1.071,
     167.5355,
     63.2065,
