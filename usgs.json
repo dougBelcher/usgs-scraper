@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681831035000,
+    "generated": 1681834635000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
+        "mag": 2.59,
+        "place": "3km S of Cobb, CA",
+        "time": 1681831458040,
+        "updated": 1681834280202,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73875125",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73875125.geojson",
+        "felt": 4,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "73875125",
+        "ids": ",nc73875125,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 55,
+        "dmin": 0.01512,
+        "rms": 0.08,
+        "gap": 41,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3km S of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7225037,
+          38.793499,
+          2.33
+        ]
+      },
+      "id": "nc73875125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
         "place": "14km WSW of Heber, CA",
         "time": 1681830880460,
-        "updated": 1681831008593,
+        "updated": 1681834360040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40442384",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40442384.geojson",
@@ -25,16 +65,16 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 108,
         "net": "ci",
         "code": "40442384",
-        "ids": ",ci40442384,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 67,
-        "dmin": 0.0618,
+        "ids": ",ci40442384,us6000k5bp,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.06045,
         "rms": 0.3,
-        "gap": 47,
+        "gap": 31,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 14km WSW of Heber, CA"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6740036,
-          32.6926651,
-          14.97
+          -115.6766667,
+          32.693,
+          14.45
         ]
       },
       "id": "ci40442384"
@@ -55,7 +95,7 @@
         "mag": 2.5,
         "place": "18 km SW of Womens Bay, Alaska",
         "time": 1681830553039,
-        "updated": 1681830723840,
+        "updated": 1681833957040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234yv0xuv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234yv0xuv.geojson",
@@ -68,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0234yv0xuv",
-        "ids": ",ak0234yv0xuv,",
-        "sources": ",ak,",
+        "ids": ",us6000k5bm,ak0234yv0xuv,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southeastern Alaska",
+        "place": "73 km ESE of Yakutat, Alaska",
         "time": 1681818122710,
         "updated": 1681818275386,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southeastern Alaska"
+        "title": "M 2.5 - 73 km ESE of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.17,
-        "place": "Mona Passage",
+        "place": "80 km NNW of San Antonio, Puerto Rico",
         "time": 1681816072420,
         "updated": 1681821267273,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 195,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.2 - Mona Passage"
+        "title": "M 4.2 - 80 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -332,8 +372,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "Alaska Peninsula",
+        "time": 1681804703714,
+        "updated": 1681831974537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234yqjzwv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234yqjzwv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.991,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0234yqjzwv",
+        "ids": ",ak0234yqjzwv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.266,
+          55.3006,
+          18.7
+        ]
+      },
+      "id": "ak0234yqjzwv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
-        "place": "55 km W of Sardinal, Costa Rica",
+        "place": "off the coast of Costa Rica",
         "time": 1681798145755,
         "updated": 1681800180040,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 55 km W of Sardinal, Costa Rica"
+        "title": "M 4.5 - off the coast of Costa Rica"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.16,
-        "place": "Puerto Rico region",
+        "place": "78 km N of San Juan, Puerto Rico",
         "time": 1681788091800,
         "updated": 1681789465030,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 285,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 78 km N of San Juan, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1368,6 @@
         ]
       },
       "id": "us6000k53s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.62,
-        "place": "28km ENE of Barstow, CA",
-        "time": 1681745276450,
-        "updated": 1681821220038,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40441936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40441936.geojson",
-        "felt": 12,
-        "cdi": 3.6,
-        "mmi": 4.317,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 206,
-        "net": "ci",
-        "code": "40441936",
-        "ids": ",ci40441936,us6000k52p,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 40,
-        "dmin": 0.142,
-        "rms": 0.14,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 28km ENE of Barstow, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7195,
-          34.9518333,
-          1.8
-        ]
-      },
-      "id": "ci40441936"
     }
   ],
   "bbox": [
