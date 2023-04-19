@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1681938737000,
+    "generated": 1681942425000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
     {
@@ -55,22 +55,22 @@
         "mag": 3.05,
         "place": "2 km SSE of Meno, Oklahoma",
         "time": 1681926131830,
-        "updated": 1681926869040,
+        "updated": 1681941156328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023hqrj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023hqrj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 143,
+        "sig": 144,
         "net": "ok",
         "code": "2023hqrj",
-        "ids": ",us6000k5ki,ok2023hqrj,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2023hqrj,us6000k5ki,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 78,
         "dmin": 0,
         "rms": 0.13,
@@ -175,17 +175,17 @@
         "mag": 4.5,
         "place": "off the east coast of the United States",
         "time": 1681920421081,
-        "updated": 1681938604672,
+        "updated": 1681940856470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k5k8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k5k8.geojson",
-        "felt": 4,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 313,
+        "sig": 314,
         "net": "us",
         "code": "6000k5k8",
         "ids": ",us6000k5k8,",
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "us6000k5e9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "60 km SE of Denali National Park, Alaska",
-        "time": 1681855297967,
-        "updated": 1681855944040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0234yz5b8k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0234yz5b8k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "0234yz5b8k",
-        "ids": ",us6000k5e7,ak0234yz5b8k,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.5,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 60 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.8069,
-          63.1884,
-          124.5
-        ]
-      },
-      "id": "ak0234yz5b8k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "5km S of Humboldt Hill, CA",
-        "time": 1681853277030,
-        "updated": 1681935458495,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73875220",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73875220.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73875220",
-        "ids": ",nc73875220,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.18,
-        "rms": 0.16,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5km S of Humboldt Hill, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.1816635,
-          40.6793327,
-          14.24
-        ]
-      },
-      "id": "nc73875220"
     }
   ],
   "bbox": [
