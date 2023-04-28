@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682712899000,
+    "generated": 1682716349000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "23 km SSW of Sape, Indonesia",
+        "time": 1682714311343,
+        "updated": 1682716109724,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jwt6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jwt6.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000jwt6",
+        "ids": ",us7000jwt6,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 37,
+        "dmin": 1.148,
+        "rms": 1,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 23 km SSW of Sape, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.937,
+          -8.7777,
+          124.514
+        ]
+      },
+      "id": "us7000jwt6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "293 km NNW of Sabang, Indonesia",
+        "time": 1682712420659,
+        "updated": 1682715100040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jwsv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jwsv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000jwsv",
+        "ids": ",us7000jwsv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 4.124,
+        "rms": 0.85,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 293 km NNW of Sabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0867,
+          8.2383,
+          13.196
+        ]
+      },
+      "id": "us7000jwsv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 5.5,
         "place": "Near the south coast of Papua, Indonesia",
         "time": 1682705571113,
-        "updated": 1682706976474,
+        "updated": 1682712965803,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jws2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jws2.geojson",
@@ -295,12 +375,12 @@
         "mag": 2.66,
         "place": "3km SSW of Heber, CA",
         "time": 1682693325650,
-        "updated": 1682695484273,
+        "updated": 1682715811129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40212839",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40212839.geojson",
         "felt": 17,
-        "cdi": 3.1,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1414,15 +1494,15 @@
       "properties": {
         "mag": 5.5,
         "place": "south of the Fiji Islands",
-        "time": 1682652850983,
-        "updated": 1682653873040,
+        "time": 1682652851264,
+        "updated": 1682716080683,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jwi2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jwi2.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 1.135,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 465,
@@ -1430,11 +1510,11 @@
         "code": "7000jwi2",
         "ids": ",us7000jwi2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 5.27,
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 105,
+        "dmin": 5.278,
         "rms": 0.94,
-        "gap": 55,
+        "gap": 38,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.5 - south of the Fiji Islands"
@@ -1442,9 +1522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.3823,
-          -25.1079,
-          569.607
+          178.3611,
+          -25.113,
+          578.534
         ]
       },
       "id": "us7000jwi2"
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "ak0235dujyl0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "Central Alaska",
-        "time": 1682629580652,
-        "updated": 1682630838040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0235duf1cu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0235duf1cu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0235duf1cu",
-        "ids": ",us7000jwe6,ak0235duf1cu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Central Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.8019,
-          63.0316,
-          97.1
-        ]
-      },
-      "id": "ak0235duf1cu"
     }
   ],
   "bbox": [
