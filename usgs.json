@@ -1,19 +1,179 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1682982955000,
+    "generated": 1682990090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.05,
+        "place": "22km NNW of Searles Valley, CA",
+        "time": 1682986775380,
+        "updated": 1682988239040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40217047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40217047.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "ci",
+        "code": "40217047",
+        "ids": ",ci40217047,us7000jxfb,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.1548,
+        "rms": 0.2,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 22km NNW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4970016,
+          35.9474983,
+          -1.12
+        ]
+      },
+      "id": "ci40217047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "31 km ENE of Palca, Peru",
+        "time": 1682984649286,
+        "updated": 1682986464040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jxf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jxf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000jxf9",
+        "ids": ",us7000jxf9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.214,
+        "rms": 0.4,
+        "gap": 223,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 31 km ENE of Palca, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6999,
+          -17.632,
+          151.601
+        ]
+      },
+      "id": "us7000jxf9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.61,
+        "place": "4km SE of Point Arena, CA",
+        "time": 1682982827480,
+        "updated": 1682989806630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73882866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73882866.geojson",
+        "felt": 88,
+        "cdi": 3.7,
+        "mmi": 3.983,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 233,
+        "net": "nc",
+        "code": "73882866",
+        "ids": ",ew1682982830,nc73882866,us7000jxf0,",
+        "sources": ",ew,nc,us,",
+        "types": ",associate,dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 66,
+        "dmin": 0.08718,
+        "rms": 0.1,
+        "gap": 216,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 4km SE of Point Arena, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6595,
+          38.8905,
+          9.07
+        ]
+      },
+      "id": "nc73882866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "112 km WNW of Kirakira, Solomon Islands",
+        "time": 1682982030681,
+        "updated": 1682989731040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jxf1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jxf1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000jxf1",
+        "ids": ",us7000jxf1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 10.95,
+        "rms": 0.52,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 112 km WNW of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.9951,
+          -10.0095,
+          70.587
+        ]
+      },
+      "id": "us7000jxf1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "Chile-Argentina border region",
+        "place": "120 km W of San Antonio de los Cobres, Argentina",
         "time": 1682977900521,
         "updated": 1682980174040,
         "tz": null,
@@ -37,7 +197,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Argentina border region"
+        "title": "M 4.2 - 120 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -95,17 +255,17 @@
         "mag": 2.48,
         "place": "18km SE of Ocotillo Wells, CA",
         "time": 1682976084710,
-        "updated": 1682979362245,
+        "updated": 1682986291372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40216983",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40216983.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "ci",
         "code": "40216983",
         "ids": ",ci40216983,",
@@ -255,17 +415,17 @@
         "mag": 2.77,
         "place": "3 km ESE of Ridgely, Tennessee",
         "time": 1682966754550,
-        "updated": 1682980977016,
+        "updated": 1682984232837,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60523031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60523031.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "nm",
         "code": "60523031",
         "ids": ",nm60523031,us7000jxdq,",
@@ -293,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "10 km NNW of Levittown, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1682964017780,
         "updated": 1682970348671,
         "tz": null,
@@ -317,7 +477,7 @@
         "gap": 188,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 10 km NNW of Levittown, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Northern Peru",
+        "place": "45 km E of Contamana, Peru",
         "time": 1682933469421,
         "updated": 1682936850542,
         "tz": null,
@@ -557,7 +717,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Northern Peru"
+        "title": "M 5.2 - 45 km E of Contamana, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "eastern New Guinea region, Papua New Guinea",
+        "place": "85 km SSE of Popondetta, Papua New Guinea",
         "time": 1682927645629,
         "updated": 1682930409040,
         "tz": null,
@@ -637,7 +797,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - eastern New Guinea region, Papua New Guinea"
+        "title": "M 4.9 - 85 km SSE of Popondetta, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.56,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1682918903530,
         "updated": 1682920038730,
         "tz": null,
@@ -757,7 +917,7 @@
         "gap": 85,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Hawaii region, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.02,
-        "place": "3 km ENE of San Germán, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1682915328050,
         "updated": 1682962916854,
         "tz": null,
@@ -837,7 +997,7 @@
         "gap": 61,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 3 km ENE of San Germán, Puerto Rico"
+        "title": "M 3.0 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Mona Passage",
+        "place": "42 km NNW of San Antonio, Puerto Rico",
         "time": 1682914533120,
         "updated": 1682920687220,
         "tz": null,
@@ -877,7 +1037,7 @@
         "gap": 282,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Mona Passage"
+        "title": "M 3.0 - 42 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Ryukyu Islands, Japan",
+        "place": "75 km ESE of Katsuren-haebaru, Japan",
         "time": 1682913751488,
         "updated": 1682914748040,
         "tz": null,
@@ -917,7 +1077,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Ryukyu Islands, Japan"
+        "title": "M 5.1 - 75 km ESE of Katsuren-haebaru, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.54,
-        "place": "93 km N of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1682911066110,
         "updated": 1682915086608,
         "tz": null,
@@ -1037,7 +1197,7 @@
         "gap": 296,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 93 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.5 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "southern Italy",
+        "place": "35 km WSW of Cittadella del Capo, Italy",
         "time": 1682908886395,
         "updated": 1682977980368,
         "tz": null,
@@ -1077,7 +1237,7 @@
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - southern Italy"
+        "title": "M 5.2 - 35 km WSW of Cittadella del Capo, Italy"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Ryukyu Islands, Japan",
+        "place": "81 km ESE of Katsuren-haebaru, Japan",
         "time": 1682907660774,
         "updated": 1682909229040,
         "tz": null,
@@ -1157,7 +1317,7 @@
         "gap": 64,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - Ryukyu Islands, Japan"
+        "title": "M 5.1 - 81 km ESE of Katsuren-haebaru, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "56 km NNE of Chignik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1682904049747,
         "updated": 1682960516550,
         "tz": null,
@@ -1357,7 +1517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 56 km NNE of Chignik, Alaska"
+        "title": "M 3.0 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1368,332 +1528,12 @@
         ]
       },
       "id": "ak0235k4qtim"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "9 km SSE of Bajandas, Puerto Rico",
-        "time": 1682903162270,
-        "updated": 1682904812770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71407368",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71407368.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71407368",
-        "ids": ",pr71407368,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1304,
-        "rms": 0.18,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 9 km SSE of Bajandas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7443333333333,
-          18.0821666666667,
-          9.06
-        ]
-      },
-      "id": "pr71407368"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "52 km N of Hatillo, Puerto Rico",
-        "time": 1682902332250,
-        "updated": 1682904621640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71407343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71407343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "71407343",
-        "ids": ",us7000jx9r,pr71407343,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6064,
-        "rms": 0.09,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 52 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7821666666667,
-          18.9556666666667,
-          37.75
-        ]
-      },
-      "id": "pr71407343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "51 km N of Hatillo, Puerto Rico",
-        "time": 1682902140850,
-        "updated": 1682903828880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71407338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71407338.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 147,
-        "net": "pr",
-        "code": "71407338",
-        "ids": ",pr71407338,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.5998,
-        "rms": 0.21,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 51 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7861666666667,
-          18.9488333333333,
-          14.1
-        ]
-      },
-      "id": "pr71407338"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "54 km N of Hatillo, Puerto Rico",
-        "time": 1682902013270,
-        "updated": 1682903065390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71407353",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71407353.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71407353",
-        "ids": ",pr71407353,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.6209,
-        "rms": 0.26,
-        "gap": 328,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7608333333333,
-          18.9708333333333,
-          8.3
-        ]
-      },
-      "id": "pr71407353"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1682900181305,
-        "updated": 1682902782040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jx9j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jx9j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000jx9j",
-        "ids": ",us7000jx9j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 0.682,
-        "rms": 0.59,
-        "gap": 121,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4789,
-          -29.8271,
-          32.745
-        ]
-      },
-      "id": "us7000jx9j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "66 km NNE of Bandar Abbas, Iran",
-        "time": 1682900019987,
-        "updated": 1682982072040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jx9i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jx9i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000jx9i",
-        "ids": ",us7000jx9i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 2.77,
-        "rms": 0.75,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 66 km NNE of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          56.6289,
-          27.6999,
-          10
-        ]
-      },
-      "id": "us7000jx9i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Hokkaido, Japan region",
-        "time": 1682899100478,
-        "updated": 1682980709040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jx9f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jx9f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000jx9f",
-        "ids": ",us7000jx9f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.477,
-        "rms": 0.7,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Hokkaido, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.5182,
-          42.0419,
-          71.928
-        ]
-      },
-      "id": "us7000jx9f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "15 km E of Hitachi, Japan",
-        "time": 1682898665854,
-        "updated": 1682917963040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jxa1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000jxa1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000jxa1",
-        "ids": ",us7000jxa1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 2.099,
-        "rms": 0.57,
-        "gap": 156,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 15 km E of Hitachi, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.8155,
-          36.5775,
-          48.059
-        ]
-      },
-      "id": "us7000jxa1"
     }
   ],
   "bbox": [
     -179.4234,
     -29.8898,
-    0,
+    -1.12,
     161.2247,
     57.1719,
     570.098
