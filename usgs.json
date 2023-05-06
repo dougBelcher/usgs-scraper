@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683382315000,
+    "generated": 1683385986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.55,
+        "place": "3km SSW of Heber, CA",
+        "time": 1683384090850,
+        "updated": 1683384728250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40219847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40219847.geojson",
+        "felt": 2,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "ci",
+        "code": "40219847",
+        "ids": ",ci40219847,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.09218,
+        "rms": 0.29,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 3km SSW of Heber, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5388333,
+          32.7041667,
+          7.08
+        ]
+      },
+      "id": "ci40219847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.55,
+        "place": "2km SW of Heber, CA",
+        "time": 1683382562610,
+        "updated": 1683385718728,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40219807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40219807.geojson",
+        "felt": 36,
+        "cdi": 3.5,
+        "mmi": 4.083,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 206,
+        "net": "ci",
+        "code": "40219807",
+        "ids": ",ci40219807,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 68,
+        "dmin": 0.05487,
+        "rms": 0.3,
+        "gap": 48,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.6 - 2km SW of Heber, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5465012,
+          32.715168,
+          6.8
+        ]
+      },
+      "id": "ci40219807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
-        "place": "23 km SSE of Göksun, Turkey",
+        "place": "Central Turkey",
         "time": 1683376167138,
         "updated": 1683377034040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 23 km SSE of Göksun, Turkey"
+        "title": "M 4.2 - Central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "107 km N of Lobuche, Nepal",
+        "place": "western Xizang",
         "time": 1683360062922,
         "updated": 1683361817040,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 97,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 107 km N of Lobuche, Nepal"
+        "title": "M 4.3 - western Xizang"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.52,
-        "place": "7 km NNW of Velma, Oklahoma",
+        "place": "Oklahoma",
         "time": 1683359523427,
         "updated": 1683361130040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 44.69424438,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km NNW of Velma, Oklahoma"
+        "title": "M 2.5 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "19 km SW of Karluk, Alaska",
+        "place": "Kodiak Island region, Alaska",
         "time": 1683354995725,
         "updated": 1683356337040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 19 km SW of Karluk, Alaska"
+        "title": "M 3.1 - Kodiak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "8 km SW of Nueva América, Mexico",
+        "place": "Mexico-Guatemala border region",
         "time": 1683348984948,
         "updated": 1683351343113,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 123,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 8 km SW of Nueva América, Mexico"
+        "title": "M 5.0 - Mexico-Guatemala border region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.24,
-        "place": "72 km NE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1683310461000,
         "updated": 1683314404040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 236,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 72 km NE of Punta Cana, Dominican Republic"
+        "title": "M 3.2 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1683302161050,
         "updated": 1683325722490,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 95,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 3 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1288,206 +1368,6 @@
         ]
       },
       "id": "hv73390102"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "New Mexico",
-        "time": 1683299370636,
-        "updated": 1683319471769,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k9tj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k9tj.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": 4.518,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "us",
-        "code": "6000k9tj",
-        "ids": ",us6000k9tj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 16,
-        "dmin": 0.111,
-        "rms": 0.39,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.8297,
-          36.9101,
-          3.038
-        ]
-      },
-      "id": "us6000k9tj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "168 km ESE of Attu Station, Alaska",
-        "time": 1683298641137,
-        "updated": 1683308265643,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k9tg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k9tg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.018,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000k9tg",
-        "ids": ",ak0235qyupqg,us6000k9tg,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 24,
-        "dmin": 1.004,
-        "rms": 0.51,
-        "gap": 211,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 168 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.2808,
-          52.0341,
-          39.192
-        ]
-      },
-      "id": "us6000k9tg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "18 km SW of Göksun, Turkey",
-        "time": 1683298350540,
-        "updated": 1683358548040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k9td",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k9td.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000k9td",
-        "ids": ",us6000k9td,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 77,
-        "dmin": 0.343,
-        "rms": 0.47,
-        "gap": 29,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.8 - 18 km SW of Göksun, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.328,
-          37.9234,
-          15.713
-        ]
-      },
-      "id": "us6000k9td"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "12 km ENE of Beluga, Alaska",
-        "time": 1683297185069,
-        "updated": 1683371234004,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0235qypj4x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0235qypj4x.geojson",
-        "felt": 7,
-        "cdi": 4.1,
-        "mmi": 2.067,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 141,
-        "net": "ak",
-        "code": "0235qypj4x",
-        "ids": ",ak0235qypj4x,us6000k9ta,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 12 km ENE of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.8627,
-          61.1786,
-          2.5
-        ]
-      },
-      "id": "ak0235qypj4x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "41 km NE of Anamizu, Japan",
-        "time": 1683296330087,
-        "updated": 1683355111040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k9t2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000k9t2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000k9t2",
-        "ids": ",us6000k9t2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.24,
-        "rms": 0.67,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 41 km NE of Anamizu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.2217,
-          37.5061,
-          10.59
-        ]
-      },
-      "id": "us6000k9t2"
     }
   ],
   "bbox": [
