@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683558918000,
+    "generated": 1683562758000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.36,
-        "place": "2km NW of Las Flores, CA",
-        "time": 1683558324240,
-        "updated": 1683558755324,
+        "mag": 4.7,
+        "place": "236 km SSW of Prince Rupert, Canada",
+        "time": 1683562207000,
+        "updated": 1683562574228,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40220951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40220951.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": 3.423,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00ruckwv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00ruckwv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
         "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "ci",
-        "code": "40220951",
-        "ids": ",ci40220951,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 125,
-        "dmin": 0.01309,
-        "rms": 0.29,
-        "gap": 60,
-        "magType": "ml",
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 340,
+        "net": "at",
+        "code": "00ruckwv",
+        "ids": ",at00ruckwv,",
+        "sources": ",at,",
+        "types": ",impact-link,origin,",
+        "nst": 31,
+        "dmin": 0.7482966,
+        "rms": 1.6,
+        "gap": 179.99998560000114,
+        "magType": "Mb",
         "type": "earthquake",
-        "title": "M 3.4 - 2km NW of Las Flores, CA"
+        "title": "M 4.7 - 236 km SSW of Prince Rupert, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.6483307,
-          34.0463333,
-          6.86
+          -131.868,
+          52.4,
+          1
+        ]
+      },
+      "id": "at00ruckwv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "2km WNW of Las Flores, CA",
+        "time": 1683558324100,
+        "updated": 1683562726742,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40220951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40220951.geojson",
+        "felt": 355,
+        "cdi": 3.1,
+        "mmi": 3.472,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 280,
+        "net": "ci",
+        "code": "40220951",
+        "ids": ",ci40220951,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 113,
+        "dmin": 0.0153,
+        "rms": 0.27,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 2km WNW of Las Flores, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6536667,
+          34.0453333,
+          7.22
         ]
       },
       "id": "ci40220951"
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "85 km ESE of Adak, Alaska",
+        "time": 1683557649258,
+        "updated": 1683561278040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kadz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kadz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.499,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000kadz",
+        "ids": ",ak0235vxg2xu,us6000kadz,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 119,
+        "dmin": 0.507,
+        "rms": 0.65,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 85 km ESE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5215,
+          51.5469,
+          45.953
+        ]
+      },
+      "id": "us6000kadz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "23 km N of Chickaloon, Alaska",
         "time": 1683556261076,
-        "updated": 1683556338431,
+        "updated": 1683559488040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0235vxb4yj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0235vxb4yj.geojson",
@@ -68,8 +148,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0235vxb4yj",
-        "ids": ",ak0235vxb4yj,",
-        "sources": ",ak,",
+        "ids": ",us6000kads,ak0235vxb4yj,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "ak0235vxb4yj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "12 km NE of Modisi, Indonesia",
+        "time": 1683556220878,
+        "updated": 1683558959040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kadt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kadt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kadt",
+        "ids": ",us6000kadt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.342,
+        "rms": 0.84,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 12 km NE of Modisi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5271,
+          0.5189,
+          119.854
+        ]
+      },
+      "id": "us6000kadt"
     },
     {
       "type": "Feature",
@@ -215,7 +335,7 @@
         "mag": 3.8,
         "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1683550306253,
-        "updated": 1683551502040,
+        "updated": 1683559438450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kad8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kad8.geojson",
@@ -228,8 +348,8 @@
         "sig": 222,
         "net": "us",
         "code": "6000kad8",
-        "ids": ",us6000kad8,ak0235vw8nsh,",
-        "sources": ",us,ak,",
+        "ids": ",ak0235vw8nsh,us6000kad8,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 28,
         "dmin": 0.792,
@@ -1328,46 +1448,6 @@
         ]
       },
       "id": "us6000ka8w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "128 km ESE of Bitung, Indonesia",
-        "time": 1683474512157,
-        "updated": 1683475960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ka8q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ka8q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000ka8q",
-        "ids": ",us6000ka8q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.266,
-        "rms": 1,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 128 km ESE of Bitung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.1014,
-          0.8122,
-          23.063
-        ]
-      },
-      "id": "us6000ka8q"
     }
   ],
   "bbox": [
