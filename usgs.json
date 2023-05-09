@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683659457000,
+    "generated": 1683663297000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "9 km NW of Velma, Oklahoma",
+        "time": 1683662632330,
+        "updated": 1683662808671,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023jbkc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023jbkc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "ok",
+        "code": "2023jbkc",
+        "ids": ",ok2023jbkc,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.1071250513,
+        "rms": 1.027047442,
+        "gap": 93.72492981,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 9 km NW of Velma, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73465729,
+          34.53050613,
+          1.56059885
+        ]
+      },
+      "id": "ok2023jbkc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Bermuda region",
+        "time": 1683658106989,
+        "updated": 1683661912550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kape",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kape.geojson",
+        "felt": 1,
+        "cdi": 6.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000kape",
+        "ids": ",us6000kape,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.774,
+        "rms": 0.66,
+        "gap": 208,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Bermuda region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2574,
+          31.6906,
+          7.566
+        ]
+      },
+      "id": "us6000kape"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1048,92 +1128,12 @@
         ]
       },
       "id": "us6000kagp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "47 km ENE of Anamizu, Japan",
-        "time": 1683576858123,
-        "updated": 1683604814099,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kagl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kagl.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000kagl",
-        "ids": ",us6000kagl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 70,
-        "dmin": 1.13,
-        "rms": 0.93,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 47 km ENE of Anamizu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.3632,
-          37.4546,
-          8.798
-        ]
-      },
-      "id": "us6000kagl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1683573310911,
-        "updated": 1683576586614,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023iznb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023iznb.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2023iznb",
-        "ids": ",tx2023iznb,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.02931322478,
-        "rms": 0.2,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.2921877,
-          31.65379827,
-          8.188208008
-        ]
-      },
-      "id": "tx2023iznb"
     }
   ],
   "bbox": [
     -173.4273,
     -22.5145,
-    7.24,
+    1.56059885,
     163.1783,
     63.6489,
     295.673
