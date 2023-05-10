@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683706705000,
+    "generated": 1683710077000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Alaska Peninsula",
+        "time": 1683709765030,
+        "updated": 1683709882614,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0235z5a00n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0235z5a00n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0235z5a00n",
+        "ids": ",ak0235z5a00n,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.5645,
+          56.8381,
+          8.3
+        ]
+      },
+      "id": "ak0235z5a00n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.86,
+        "place": "2km NNW of Glen Avon, CA",
+        "time": 1683706602060,
+        "updated": 1683709508230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40222087",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40222087.geojson",
+        "felt": 73,
+        "cdi": 3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ci",
+        "code": "40222087",
+        "ids": ",ci40222087,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 118,
+        "dmin": 0.05899,
+        "rms": 0.24,
+        "gap": 17,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 2km NNW of Glen Avon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4953333,
+          34.0258333,
+          17.87
+        ]
+      },
+      "id": "ci40222087"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,17 +455,17 @@
         "mag": 4.1,
         "place": "9 km NW of Kulu, Turkey",
         "time": 1683674090926,
-        "updated": 1683674990020,
+        "updated": 1683709875705,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000karb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000karb.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
+        "sig": 260,
         "net": "us",
         "code": "6000karb",
         "ids": ",us6000karb,",
@@ -855,7 +935,7 @@
         "mag": 5,
         "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1683641444451,
-        "updated": 1683685246870,
+        "updated": 1683706859163,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kamj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kamj.geojson",
@@ -1088,53 +1168,13 @@
         ]
       },
       "id": "us6000kak8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "100 km SSE of Ust’-Kamchatsk Staryy, Russia",
-        "time": 1683621336728,
-        "updated": 1683638958040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kak7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kak7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000kak7",
-        "ids": ",us6000kak7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 3.958,
-        "rms": 0.74,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 100 km SSE of Ust’-Kamchatsk Staryy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          163.1783,
-          55.4164,
-          42.728
-        ]
-      },
-      "id": "us6000kak7"
     }
   ],
   "bbox": [
     -167.4771,
     -22.5145,
     0,
-    163.1783,
+    157.4113,
     62.7198,
     295.673
   ]
