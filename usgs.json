@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683803459000,
+    "generated": 1683808182000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "119 km SSE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1683806599575,
+        "updated": 1683807638040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kb2y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kb2y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000kb2y",
+        "ids": ",us6000kb2y,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 3.461,
+        "rms": 1.33,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 119 km SSE of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.1793,
+          55.2274,
+          36.017
+        ]
+      },
+      "id": "us6000kb2y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.65,
+        "place": "87 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1683802217870,
+        "updated": 1683804171274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023131006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023131006.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 205,
+        "net": "pr",
+        "code": "2023131006",
+        "ids": ",pr2023131006,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.9514,
+        "rms": 0.34,
+        "gap": 289,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 87 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7836,
+          19.1176,
+          60
+        ]
+      },
+      "id": "pr2023131006"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "46 km NNE of Chickaloon, Alaska",
         "time": 1683799948107,
-        "updated": 1683800058819,
+        "updated": 1683804670040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02360tffih",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02360tffih.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "ak",
         "code": "02360tffih",
-        "ids": ",ak02360tffih,",
-        "sources": ",ak,",
+        "ids": ",us6000kb2g,ak02360tffih,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.61,
-        "place": "Virgin Islands",
+        "place": "90 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1683784864810,
         "updated": 1683786730623,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 286,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Virgin Islands"
+        "title": "M 3.6 - 90 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "41 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1683760850237,
         "updated": 1683772527189,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 41 km NW of Toyah, Texas"
+        "title": "M 3.6 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "86 km SSE of Isangel, Vanuatu",
+        "place": "Vanuatu",
         "time": 1683755604022,
         "updated": 1683756441040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 86 km SSE of Isangel, Vanuatu"
+        "title": "M 5.0 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +1055,11 @@
         "mag": 3.1,
         "place": "off the coast of Oregon",
         "time": 1683753623659,
-        "updated": 1683767235962,
+        "updated": 1683804252998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kazh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kazh.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1683747020060,
         "updated": 1683748660880,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 227,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1175,17 +1255,17 @@
         "mag": 5.2,
         "place": "9 km WSW of Katsuura, Japan",
         "time": 1683746201631,
-        "updated": 1683801455594,
+        "updated": 1683807801993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kayd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kayd.geojson",
-        "felt": 97,
+        "felt": 99,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 467,
+        "sig": 468,
         "net": "us",
         "code": "6000kayd",
         "ids": ",us6000kayd,",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "5 km SSE of Happy Valley, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1683742189863,
         "updated": 1683742508557,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 5 km SSE of Happy Valley, Alaska"
+        "title": "M 2.8 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "158 km SSW of Merizo Village, Guam",
+        "place": "Guam region",
         "time": 1683740612577,
         "updated": 1683742992040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 158 km SSW of Merizo Village, Guam"
+        "title": "M 4.9 - Guam region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "96 km WNW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1683738096253,
         "updated": 1683742684040,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 96 km WNW of Kirakira, Solomon Islands"
+        "title": "M 5.0 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Mindanao, Philippines",
+        "place": "100 km SE of Pondaguitan, Philippines",
         "time": 1683730757704,
         "updated": 1683734759040,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Mindanao, Philippines"
+        "title": "M 4.4 - 100 km SE of Pondaguitan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1648,46 +1728,6 @@
         ]
       },
       "id": "us6000kau6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "94 km E of Metro, Indonesia",
-        "time": 1683721483511,
-        "updated": 1683722700040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kau5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kau5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000kau5",
-        "ids": ",us6000kau5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.714,
-        "rms": 0.94,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 94 km E of Metro, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.1546,
-          -5.1764,
-          286.384
-        ]
-      },
-      "id": "us6000kau5"
     }
   ],
   "bbox": [
