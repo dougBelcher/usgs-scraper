@@ -1,43 +1,123 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683951385000,
+    "generated": 1683954784000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 54
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "37 km SW of Cañete, Chile",
+        "time": 1683953485586,
+        "updated": 1683954704908,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbmg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbmg.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000kbmg",
+        "ids": ",us6000kbmg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 40,
+        "dmin": 1.362,
+        "rms": 1.01,
+        "gap": 134,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - 37 km SW of Cañete, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6815,
+          -38.0551,
+          24.412
+        ]
+      },
+      "id": "us6000kbmg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "8 km SSW of Orocovis, Puerto Rico",
+        "time": 1683953110260,
+        "updated": 1683954084940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71409108",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71409108.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71409108",
+        "ids": ",pr71409108,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.08419,
+        "rms": 0.31,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 8 km SSW of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4068333333333,
+          18.1536666666667,
+          5.59
+        ]
+      },
+      "id": "pr71409108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.3,
-        "place": "Southern Alaska",
+        "place": "10 km W of Tyonek, Alaska",
         "time": 1683950038238,
-        "updated": 1683951190360,
+        "updated": 1683954499720,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023640kxsy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023640kxsy.geojson",
-        "felt": 52,
-        "cdi": 3.4,
+        "felt": 268,
+        "cdi": 3.3,
         "mmi": 4.164,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 302,
+        "sig": 373,
         "net": "ak",
         "code": "023640kxsy",
         "ids": ",ak023640kxsy,at00rukw5x,us6000kbm6,",
         "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.03,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - Southern Alaska"
+        "title": "M 4.3 - 10 km W of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Gulf of California",
+        "place": "57 km NE of Loreto, Mexico",
         "time": 1683947056585,
         "updated": 1683949480984,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Gulf of California"
+        "title": "M 4.4 - 57 km NE of Loreto, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "Alaska Peninsula",
+        "place": "86 km NNW of Karluk, Alaska",
         "time": 1683944859761,
         "updated": 1683950967739,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - Alaska Peninsula"
+        "title": "M 3.8 - 86 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +215,7 @@
         "mag": 3.46,
         "place": "3 km SSW of Pāhala, Hawaii",
         "time": 1683944661840,
-        "updated": 1683949974783,
+        "updated": 1683951978928,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73399367",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73399367.geojson",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Kansas",
+        "place": "5 km W of Zurich, Kansas",
         "time": 1683937354350,
         "updated": 1683949458114,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 119,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - Kansas"
+        "title": "M 2.5 - 5 km W of Zurich, Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "28 km WSW of Hawthorne, Nevada",
+        "place": "California-Nevada border region",
         "time": 1683930554464,
         "updated": 1683935028040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 64.37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 28 km WSW of Hawthorne, Nevada"
+        "title": "M 2.8 - California-Nevada border region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "6 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1683922377440,
         "updated": 1683925522770,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 216,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 6 km WSW of Guánica, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Vanuatu",
+        "place": "60 km NNE of Isangel, Vanuatu",
         "time": 1683921734497,
         "updated": 1683925147040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Vanuatu"
+        "title": "M 4.6 - 60 km NNE of Isangel, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Taiwan",
+        "place": "90 km S of Hualien City, Taiwan",
         "time": 1683912621311,
         "updated": 1683915244040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Taiwan"
+        "title": "M 4.5 - 90 km S of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "10 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1683901587310,
         "updated": 1683943015642,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 10 km ENE of Pāhala, Hawaii"
+        "title": "M 3.4 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.76,
-        "place": "Virgin Islands region",
+        "place": "72 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1683898697360,
         "updated": 1683900424625,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 263,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Virgin Islands region"
+        "title": "M 3.8 - 72 km N of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Shikoku, Japan",
+        "place": "5 km W of Yawatahama, Japan",
         "time": 1683895505729,
         "updated": 1683896522610,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Shikoku, Japan"
+        "title": "M 4.3 - 5 km W of Yawatahama, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1415,11 +1495,11 @@
         "mag": 5.16,
         "place": "4km NW of Canyondam, CA",
         "time": 1683886721310,
-        "updated": 1683949436320,
+        "updated": 1683954435931,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887046",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887046.geojson",
-        "felt": 1328,
+        "felt": 1330,
         "cdi": 6.2,
         "mmi": 6.511,
         "alert": "green",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "12 km WNW of Peque, Colombia",
+        "place": "northern Colombia",
         "time": 1683884728530,
         "updated": 1683941357749,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 124,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 12 km WNW of Peque, Colombia"
+        "title": "M 4.6 - northern Colombia"
       },
       "geometry": {
         "type": "Point",
@@ -1495,11 +1575,11 @@
         "mag": 3.3,
         "place": "4 km S of Lazy Mountain, Alaska",
         "time": 1683880784509,
-        "updated": 1683943615041,
+        "updated": 1683954359339,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02362fxqb6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02362fxqb6.geojson",
-        "felt": 119,
+        "felt": 120,
         "cdi": 3.4,
         "mmi": 2.672,
         "alert": null,
@@ -1653,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "108 km SSW of Merizo Village, Guam",
+        "place": "Guam region",
         "time": 1683878551722,
         "updated": 1683943961258,
         "tz": null,
@@ -1677,7 +1757,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.4 - 108 km SSW of Merizo Village, Guam"
+        "title": "M 5.4 - Guam region"
       },
       "geometry": {
         "type": "Point",
@@ -2088,46 +2168,6 @@
         ]
       },
       "id": "nc73886936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "14 km E of Santa Monica, Philippines",
-        "time": 1683866090012,
-        "updated": 1683868836040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbbe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbbe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000kbbe",
-        "ids": ",us6000kbbe,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 3.008,
-        "rms": 1.05,
-        "gap": 68,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 14 km E of Santa Monica, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.1699,
-          10.0398,
-          10
-        ]
-      },
-      "id": "us6000kbbe"
     }
   ],
   "bbox": [
