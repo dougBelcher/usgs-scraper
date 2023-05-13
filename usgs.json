@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1683990784000,
+    "generated": 1683994624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.46,
         "place": "2km NE of Almanor, CA",
         "time": 1683987545330,
-        "updated": 1683990030627,
+        "updated": 1683992595749,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887636.geojson",
@@ -92,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "41 km SW of Sarpol-e Z̄ahāb, Iran",
+        "time": 1683987481352,
+        "updated": 1683993216636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbpi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbpi.geojson",
+        "felt": 1,
+        "cdi": 6.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000kbpi",
+        "ids": ",us6000kbpi,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 39,
+        "dmin": 3.384,
+        "rms": 0.83,
+        "gap": 194,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 41 km SW of Sarpol-e Z̄ahāb, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.503,
+          34.2413,
+          10
+        ]
+      },
+      "id": "us6000kbpi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "1km N of Prattville, CA",
         "time": 1683984784410,
-        "updated": 1683990491552,
+        "updated": 1683993316040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887621",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887621.geojson",
@@ -108,8 +148,8 @@
         "sig": 130,
         "net": "nc",
         "code": "73887621",
-        "ids": ",nc73887621,nn00859469,",
-        "sources": ",nc,nn,",
+        "ids": ",nc73887621,nn00859469,us6000kbpb,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.3347,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "nc73887621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Afghanistan-Tajikistan border region",
+        "time": 1683984342999,
+        "updated": 1683992663040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbpa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbpa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000kbpa",
+        "ids": ",us6000kbpa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 1.539,
+        "rms": 1.59,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Afghanistan-Tajikistan border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.6202,
+          37.9432,
+          10
+        ]
+      },
+      "id": "us6000kbpa"
     },
     {
       "type": "Feature",
@@ -295,17 +375,17 @@
         "mag": 3.08,
         "place": "1km NNE of Prattville, CA",
         "time": 1683979275320,
-        "updated": 1683989471500,
+        "updated": 1683990945244,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887581.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 147,
+        "sig": 148,
         "net": "nc",
         "code": "73887581",
         "ids": ",nc73887581,nn00859466,us6000kbnu,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.69,
-        "place": "5 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1683975581180,
         "updated": 1683978928040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 203,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 5 km WSW of Guánica, Puerto Rico"
+        "title": "M 3.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1683959274003,
         "updated": 1683960707640,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -693,9 +773,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "10 km W of Tyonek, Alaska",
+        "place": "Southern Alaska",
         "time": 1683950038238,
-        "updated": 1683989605941,
+        "updated": 1683992160682,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023640kxsy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023640kxsy.geojson",
@@ -717,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 10 km W of Tyonek, Alaska"
+        "title": "M 4.3 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "57 km NE of Loreto, Mexico",
+        "place": "Gulf of California",
         "time": 1683947056585,
         "updated": 1683949480984,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 57 km NE of Loreto, Mexico"
+        "title": "M 4.4 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "5 km W of Zurich, Kansas",
+        "place": "Kansas",
         "time": 1683937354350,
         "updated": 1683981528594,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 119,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km W of Zurich, Kansas"
+        "title": "M 2.5 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "California-Nevada border region",
+        "place": "28 km WSW of Hawthorne, Nevada",
         "time": 1683930554464,
         "updated": 1683935028040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 64.37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - California-Nevada border region"
+        "title": "M 2.8 - 28 km WSW of Hawthorne, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "Puerto Rico region",
+        "place": "6 km WSW of Guánica, Puerto Rico",
         "time": 1683922377440,
         "updated": 1683925522770,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 216,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 6 km WSW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "60 km NNE of Isangel, Vanuatu",
+        "place": "Vanuatu",
         "time": 1683921734497,
         "updated": 1683925147040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 60 km NNE of Isangel, Vanuatu"
+        "title": "M 4.6 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "90 km S of Hualien City, Taiwan",
+        "place": "Taiwan",
         "time": 1683912621311,
         "updated": 1683915244040,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 90 km S of Hualien City, Taiwan"
+        "title": "M 4.5 - Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "nc73887201"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "4km ESE of Prattville, CA",
-        "time": 1683905055610,
-        "updated": 1683918794917,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73887171",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73887171.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "nc",
-        "code": "73887171",
-        "ids": ",nc73887171,nn00859436,us6000kbgv,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.3229,
-        "rms": 0.44,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 4km ESE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1146698,
-          40.1980019,
-          -1.39
-        ]
-      },
-      "id": "nc73887171"
     }
   ],
   "bbox": [
