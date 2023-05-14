@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684091444000,
+    "generated": 1684095269000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 56
+    "count": 55
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.89,
         "place": "2km WSW of Pinnacles, CA",
         "time": 1684089202270,
-        "updated": 1684090609502,
+        "updated": 1684094984040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888096",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888096.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,8 +28,8 @@
         "sig": 129,
         "net": "nc",
         "code": "73888096",
-        "ids": ",nc73888096,",
-        "sources": ",nc,",
+        "ids": ",nc73888096,us6000kbwd,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 51,
         "dmin": 0.05115,
@@ -55,7 +55,7 @@
         "mag": 2.84,
         "place": "4km NW of Canyondam, CA",
         "time": 1684089067460,
-        "updated": 1684090448860,
+        "updated": 1684094654359,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888086",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888086.geojson",
@@ -68,8 +68,8 @@
         "sig": 124,
         "net": "nc",
         "code": "73888086",
-        "ids": ",nc73888086,nn00859533,",
-        "sources": ",nc,nn,",
+        "ids": ",nc73888086,nn00859533,us6000kbwc,",
+        "sources": ",nc,nn,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.3171,
@@ -95,7 +95,7 @@
         "mag": 2.71,
         "place": "4km S of East Shore, CA",
         "time": 1684088039400,
-        "updated": 1684091351990,
+        "updated": 1684093573040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888076",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888076.geojson",
@@ -108,8 +108,8 @@
         "sig": 113,
         "net": "nc",
         "code": "73888076",
-        "ids": ",nc73888076,nn00859531,",
-        "sources": ",nc,nn,",
+        "ids": ",nc73888076,nn00859531,us6000kbwa,",
+        "sources": ",nc,nn,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": 0.2914,
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Izu Islands, Japan region",
+        "place": "142 km SSE of Shimoda, Japan",
         "time": 1684073010553,
         "updated": 1684074149040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 73,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Izu Islands, Japan region"
+        "title": "M 5.2 - 142 km SSE of Shimoda, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.89,
-        "place": "Puerto Rico region",
+        "place": "14 km SW of Pole Ojea, Puerto Rico",
         "time": 1684070050960,
         "updated": 1684071095290,
         "tz": null,
@@ -757,7 +757,7 @@
         "gap": 266,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - Puerto Rico region"
+        "title": "M 2.9 - 14 km SW of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "12 km E of Malim, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1684068269516,
         "updated": 1684069674395,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 73,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 12 km E of Malim, Philippines"
+        "title": "M 4.9 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "162 km S of Shimoda, Japan",
+        "place": "Izu Islands, Japan region",
         "time": 1684063747590,
         "updated": 1684065744040,
         "tz": null,
@@ -877,7 +877,7 @@
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 162 km S of Shimoda, Japan"
+        "title": "M 4.8 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "State of Yap, Federated States of Micronesia",
+        "place": "222 km NNE of Fais, Micronesia",
         "time": 1684057782069,
         "updated": 1684079987657,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 48,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - State of Yap, Federated States of Micronesia"
+        "title": "M 5.1 - 222 km NNE of Fais, Micronesia"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "152 km SSE of Shimoda, Japan",
+        "place": "Izu Islands, Japan region",
         "time": 1684052501106,
         "updated": 1684060108572,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 31,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 152 km SSE of Shimoda, Japan"
+        "title": "M 5.8 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "148 km SSE of Shimoda, Japan",
+        "place": "Izu Islands, Japan region",
         "time": 1684051917241,
         "updated": 1684059516368,
         "tz": null,
@@ -1157,7 +1157,7 @@
         "gap": 42,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 148 km SSE of Shimoda, Japan"
+        "title": "M 5.5 - Izu Islands, Japan region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "166 km NNW of Maubara, Timor Leste",
+        "place": "Banda Sea",
         "time": 1684044832615,
         "updated": 1684045738040,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 68,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 166 km NNW of Maubara, Timor Leste"
+        "title": "M 5.2 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.82,
-        "place": "Mona Passage",
+        "place": "71 km NE of Punta Cana, Dominican Republic",
         "time": 1684043748000,
         "updated": 1684049272040,
         "tz": null,
@@ -1557,7 +1557,7 @@
         "gap": 250,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Mona Passage"
+        "title": "M 3.8 - 71 km NE of Punta Cana, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.95,
-        "place": "4 km SSE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1684042898500,
         "updated": 1684048538040,
         "tz": null,
@@ -1597,7 +1597,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km SSE of Pāhala, Hawaii"
+        "title": "M 3.0 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "Mona Passage",
+        "place": "87 km NNW of San Antonio, Puerto Rico",
         "time": 1684024948800,
         "updated": 1684027745110,
         "tz": null,
@@ -1837,7 +1837,7 @@
         "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - Mona Passage"
+        "title": "M 3.6 - 87 km NNW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1933,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.31,
-        "place": "106 km NW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1684024813750,
         "updated": 1684041762060,
         "tz": null,
@@ -1957,7 +1957,7 @@
         "gap": 275,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 106 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "14 km SE of Lincolnville, Kansas",
+        "place": "Kansas",
         "time": 1684022933440,
         "updated": 1684085513450,
         "tz": null,
@@ -1997,7 +1997,7 @@
         "gap": 157,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 14 km SE of Lincolnville, Kansas"
+        "title": "M 2.5 - Kansas"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "70 km NW of Nikolski, Alaska",
         "time": 1684009188604,
         "updated": 1684074593842,
         "tz": null,
@@ -2157,7 +2157,7 @@
         "gap": 80,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 5.4 - 70 km NW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2208,46 +2208,6 @@
         ]
       },
       "id": "nc73887696"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "5 km NE of Kiupo, Philippines",
-        "time": 1684005406308,
-        "updated": 1684013036741,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbqf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbqf.geojson",
-        "felt": 1,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000kbqf",
-        "ids": ",us6000kbqf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 86,
-        "dmin": 1.201,
-        "rms": 0.85,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 5 km NE of Kiupo, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.3503,
-          5.8828,
-          92.088
-        ]
-      },
-      "id": "us6000kbqf"
     }
   ],
   "bbox": [
