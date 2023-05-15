@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684153830000,
+    "generated": 1684156650000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -215,12 +215,12 @@
         "mag": 5.3,
         "place": "95 km W of Abra Pampa, Argentina",
         "time": 1684136379508,
-        "updated": 1684137596040,
+        "updated": 1684154724208,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbzl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbzl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "6000kbzl",
         "ids": ",us6000kbzl,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 105,
         "dmin": 1.445,
         "rms": 0.81,
@@ -288,6 +288,46 @@
         ]
       },
       "id": "ok2023jljw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "61 km W of Talcahuano, Chile",
+        "time": 1684131513949,
+        "updated": 1684156479040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbzb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbzb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kbzb",
+        "ids": ",us6000kbzb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.491,
+        "rms": 0.52,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 61 km W of Talcahuano, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7966,
+          -36.8129,
+          24.029
+        ]
+      },
+      "id": "us6000kbzb"
     },
     {
       "type": "Feature",
@@ -1335,7 +1375,7 @@
         "mag": 4.5,
         "place": "27 km WSW of Las Brisas, Mexico",
         "time": 1684077494087,
-        "updated": 1684108700323,
+        "updated": 1684156310003,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbvb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbvb.geojson",
@@ -1568,91 +1608,11 @@
         ]
       },
       "id": "us6000kbuw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "14 km SW of Pole Ojea, Puerto Rico",
-        "time": 1684070050960,
-        "updated": 1684071095290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71409408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71409408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "pr",
-        "code": "71409408",
-        "ids": ",pr71409408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1821,
-        "rms": 0.18,
-        "gap": 266,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 14 km SW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2701666666667,
-          17.8731666666667,
-          10.85
-        ]
-      },
-      "id": "pr71409408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Mindanao, Philippines",
-        "time": 1684068269516,
-        "updated": 1684103089130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kbun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kbun.geojson",
-        "felt": 4,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "6000kbun",
-        "ids": ",us6000kbun,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.056,
-        "rms": 0.47,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Mindanao, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.5454,
-          7.4689,
-          11.107
-        ]
-      },
-      "id": "us6000kbun"
     }
   ],
   "bbox": [
     -178.2536,
-    -22.7719,
+    -36.8129,
     -1.56,
     148.487,
     75.3895,
