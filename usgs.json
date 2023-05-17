@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684297013000,
+    "generated": 1684300415000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "16km NW of Walker, CA",
+        "time": 1684299559790,
+        "updated": 1684299666132,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889011",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889011.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "73889011",
+        "ids": ",nc73889011,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.07324,
+        "rms": 0.13,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16km NW of Walker, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.597168,
+          38.6271667,
+          3.7
+        ]
+      },
+      "id": "nc73889011"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.83,
         "place": "2 km WSW of Pāhala, Hawaii",
         "time": 1684288815090,
-        "updated": 1684289299040,
+        "updated": 1684297764326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73405602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73405602.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -55,12 +95,12 @@
         "mag": 3.03,
         "place": "5 km WSW of Guánica, Puerto Rico",
         "time": 1684283966610,
-        "updated": 1684284765090,
+        "updated": 1684299808297,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71409668",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71409668.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71409668",
         "ids": ",pr71409668,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0.04597,
         "rms": 0.13,
@@ -692,10 +732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.83,
-        "place": "58km WNW of Petrolia, CA",
-        "time": 1684254129380,
-        "updated": 1684290730393,
+        "mag": 3,
+        "place": "77km W of Petrolia, CA",
+        "time": 1684254128330,
+        "updated": 1684299798458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888821.geojson",
@@ -703,28 +743,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 138,
         "net": "nc",
         "code": "73888821",
         "ids": ",nc73888821,us6000kcbg,",
         "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.5812,
-        "rms": 0.28,
-        "gap": 289,
-        "magType": "md",
+        "nst": 44,
+        "dmin": 0.6556,
+        "rms": 0.29,
+        "gap": 258,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 58km WNW of Petrolia, CA"
+        "title": "M 3.0 - 77km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.9558334,
-          40.4253349,
-          -0.37
+          -125.1891667,
+          40.3941667,
+          10
         ]
       },
       "id": "nc73888821"
@@ -1213,7 +1253,7 @@
   "bbox": [
     -173.7758,
     -22.5374,
-    -0.37,
+    0,
     143.1157,
     62.331,
     242.84
