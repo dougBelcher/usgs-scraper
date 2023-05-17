@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684336475000,
+    "generated": 1684340333000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "42km W of Ferndale, CA",
+        "time": 1684339850600,
+        "updated": 1684339948323,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889196",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889196.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "nc",
+        "code": "73889196",
+        "ids": ",nc73889196,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.4803,
+        "rms": 0.24,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 42km W of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7598343,
+          40.5231667,
+          1.67
+        ]
+      },
+      "id": "nc73889196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "48 km ENE of Ouzinkie, Alaska",
+        "time": 1684339306469,
+        "updated": 1684339454853,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236au5smu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236au5smu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0236au5smu",
+        "ids": ",ak0236au5smu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 48 km ENE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7581,
+          58.1144,
+          31.4
+        ]
+      },
+      "id": "ak0236au5smu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.15,
         "place": "17km NW of Pinnacles, CA",
         "time": 1684335705480,
-        "updated": 1684336307088,
+        "updated": 1684337811164,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889176",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889176.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 3,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47000003,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1684310219210,
         "updated": 1684310405830,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "10 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1684303776980,
         "updated": 1684311088198,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 10 km ENE of Pāhala, Hawaii"
+        "title": "M 3.4 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "6 km E of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1684303497450,
         "updated": 1684305036260,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 6 km E of La Parguera, Puerto Rico"
+        "title": "M 3.1 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Gulf of Alaska",
+        "place": "132 km ESE of Chiniak, Alaska",
         "time": 1684301691361,
         "updated": 1684309398040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Gulf of Alaska"
+        "title": "M 3.7 - 132 km ESE of Chiniak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "112 km ESE of Kegen, Kazakhstan",
+        "place": "Kazakhstan-Xinjiang border region",
         "time": 1684274183236,
         "updated": 1684276361040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 112 km ESE of Kegen, Kazakhstan"
+        "title": "M 4.7 - Kazakhstan-Xinjiang border region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "50 km NE of San Pedro de Atacama, Chile",
+        "place": "Chile-Bolivia border region",
         "time": 1684264685900,
         "updated": 1684267641040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 49,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - 50 km NE of San Pedro de Atacama, Chile"
+        "title": "M 4.2 - Chile-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "6 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1684259328900,
         "updated": 1684260670420,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 220,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 6 km SW of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1135,7 +1215,7 @@
         "mag": 3.8,
         "place": "22 km NE of Susitna North, Alaska",
         "time": 1684256647782,
-        "updated": 1684302144140,
+        "updated": 1684337758040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236978fur",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236978fur.geojson",
@@ -1150,7 +1230,7 @@
         "code": "0236978fur",
         "ids": ",ak0236978fur,us6000kcbv,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.61,
