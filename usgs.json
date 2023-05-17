@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684361616000,
+    "generated": 1684365171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "64 km E of Ugashik, Alaska",
+        "time": 1684363148343,
+        "updated": 1684364194040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236axygio",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236axygio.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0236axygio",
+        "ids": ",us6000kcn6,ak0236axygio,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.29,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 64 km E of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3282,
+          57.5442,
+          107.5
+        ]
+      },
+      "id": "ak0236axygio"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Kuril Islands",
+        "time": 1684362861503,
+        "updated": 1684363993040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kcn7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kcn7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kcn7",
+        "ids": ",us6000kcn7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 5.588,
+        "rms": 0.47,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9323,
+          47.1842,
+          178.394
+        ]
+      },
+      "id": "us6000kcn7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.72,
-        "place": "7 km SW of Volcano, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1684359749780,
         "updated": 1684360952030,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.7 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -492,46 +572,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "13 km S of Fern Forest, Hawaii",
-        "time": 1684325324520,
-        "updated": 1684325655840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73406212",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73406212.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "hv",
-        "code": "73406212",
-        "ids": ",hv73406212,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": null,
-        "rms": 0.0700000003,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km S of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.137832641602,
-          19.3443336486816,
-          6.71999979019165
-        ]
-      },
-      "id": "hv73406212"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.85,
         "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1684320833580,
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47000003,
-        "place": "10 km ENE of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1684310219210,
         "updated": 1684310405830,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 10 km ENE of Pāhala, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1684303776980,
         "updated": 1684311088198,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - Island of Hawaii, Hawaii"
+        "title": "M 3.4 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "Puerto Rico region",
+        "place": "6 km E of La Parguera, Puerto Rico",
         "time": 1684303497450,
         "updated": 1684305036260,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
+        "title": "M 3.1 - 6 km E of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
