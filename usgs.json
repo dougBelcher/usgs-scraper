@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684321890000,
+    "generated": 1684326515000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "13 km S of Fern Forest, Hawaii",
+        "time": 1684325324520,
+        "updated": 1684325655840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73406212",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73406212.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "73406212",
+        "ids": ",hv73406212,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": null,
+        "rms": 0.0700000003,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.137832641602,
+          19.3443336486816,
+          6.71999979019165
+        ]
+      },
+      "id": "hv73406212"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,39 +212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.98,
-        "place": "Oklahoma",
-        "time": 1684310372455,
-        "updated": 1684316333605,
+        "mag": 2.75,
+        "place": "10 km W of Lamont, Oklahoma",
+        "time": 1684310371739,
+        "updated": 1684325938009,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023jpcg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023jpcg.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 117,
         "net": "ok",
         "code": "2023jpcg",
         "ids": ",ok2023jpcg,us6000kcgz,",
         "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 88,
-        "dmin": 0.2094768882,
-        "rms": 0.7378490589,
-        "gap": 55.08900642,
+        "nst": 95,
+        "dmin": 0,
+        "rms": 0.13,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Oklahoma"
+        "title": "M 2.8 - 10 km W of Lamont, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.66845703,
-          36.70863342,
-          5
+          -97.6705,
+          36.70133333,
+          4
         ]
       },
       "id": "ok2023jpcg"
@@ -1128,86 +1168,6 @@
         ]
       },
       "id": "us6000kca2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "149 km S of Shimoda, Japan",
-        "time": 1684238199459,
-        "updated": 1684252532040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kc9j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kc9j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000kc9j",
-        "ids": ",us6000kc9j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.577,
-        "rms": 0.43,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 149 km S of Shimoda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.1833,
-          33.3478,
-          10
-        ]
-      },
-      "id": "us6000kc9j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "2km NNE of Almanor, CA",
-        "time": 1684237046630,
-        "updated": 1684281532060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73888746",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73888746.geojson",
-        "felt": 18,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "nc",
-        "code": "73888746",
-        "ids": ",nc73888746,nn00859587,us6000kc9f,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.02014,
-        "rms": 0.2,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 2km NNE of Almanor, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1678333,
-          40.2371667,
-          6.02
-        ]
-      },
-      "id": "nc73888746"
     }
   ],
   "bbox": [
