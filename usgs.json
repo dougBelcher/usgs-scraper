@@ -1,26 +1,146 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684318535000,
+    "generated": 1684321890000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "10 km ENE of Pāhala, Hawaii",
+        "time": 1684320833580,
+        "updated": 1684321258040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73406132",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73406132.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "hv",
+        "code": "73406132",
+        "ids": ",us6000kchf,hv73406132,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": null,
+        "rms": 0.150000006,
+        "gap": 142,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 10 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.385162353516,
+          19.2423324584961,
+          32.0699996948242
+        ]
+      },
+      "id": "hv73406132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "93 km NNW of Villa General Roca, Argentina",
+        "time": 1684318591887,
+        "updated": 1684319525040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kchd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kchd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000kchd",
+        "ids": ",us6000kchd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 1.643,
+        "rms": 0.76,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 93 km NNW of Villa General Roca, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7961,
+          -31.8797,
+          127.943
+        ]
+      },
+      "id": "us6000kchd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Java, Indonesia",
+        "time": 1684317018805,
+        "updated": 1684321519843,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kchb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kchb.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000kchb",
+        "ids": ",us6000kchb,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 1.855,
+        "rms": 1.08,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Java, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1056,
+          -5.6762,
+          319.137
+        ]
+      },
+      "id": "us6000kchb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.8,
         "place": "45 km ESE of Nikolski, Alaska",
         "time": 1684314599298,
-        "updated": 1684315444040,
+        "updated": 1684321493966,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kch4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kch4.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 2.137,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +150,7 @@
         "code": "6000kch4",
         "ids": ",us6000kch4,ak0236aq1lc3,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 26,
         "dmin": 0.422,
         "rms": 1.18,
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Chile-Bolivia border region",
+        "place": "50 km NE of San Pedro de Atacama, Chile",
         "time": 1684264685900,
         "updated": 1684267641040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 49,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.2 - Chile-Bolivia border region"
+        "title": "M 4.2 - 50 km NE of San Pedro de Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1088,94 +1208,14 @@
         ]
       },
       "id": "nc73888746"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "23 km N of Khorugh, Tajikistan",
-        "time": 1684235265783,
-        "updated": 1684260321040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kc99",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kc99.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000kc99",
-        "ids": ",us6000kc99,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 57,
-        "dmin": 1.783,
-        "rms": 0.52,
-        "gap": 75,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.1 - 23 km N of Khorugh, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.6032,
-          37.6986,
-          10
-        ]
-      },
-      "id": "us6000kc99"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "139 km SSE of Shimoda, Japan",
-        "time": 1684235089832,
-        "updated": 1684239184040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kc9a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kc9a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000kc9a",
-        "ids": ",us6000kc9a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.518,
-        "rms": 0.72,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 139 km SSE of Shimoda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3643,
-          33.4713,
-          10
-        ]
-      },
-      "id": "us6000kc9a"
     }
   ],
   "bbox": [
     -173.7758,
-    -22.5374,
+    -31.8797,
     0,
     143.1157,
     62.331,
-    242.84
+    319.137
   ]
 }
