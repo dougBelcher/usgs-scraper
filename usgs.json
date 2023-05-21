@@ -1,31 +1,31 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684685852000,
+    "generated": 1684689121000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 53
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "55 km WNW of Kirakira, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1684683913032,
-        "updated": 1684685833422,
+        "updated": 1684687059516,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdnw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdnw.geojson",
-        "felt": 2,
-        "cdi": 3.8,
+        "felt": 4,
+        "cdi": 4.2,
         "mmi": 5.291,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 573,
+        "sig": 574,
         "net": "us",
         "code": "6000kdnw",
         "ids": ",us6000kdnw,",
@@ -37,7 +37,7 @@
         "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 55 km WNW of Kirakira, Solomon Islands"
+        "title": "M 6.1 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +55,7 @@
         "mag": 2.5,
         "place": "10 km WNW of Point MacKenzie, Alaska",
         "time": 1684682473499,
-        "updated": 1684682587983,
+        "updated": 1684687130040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236hftys5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236hftys5.geojson",
@@ -68,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0236hftys5",
-        "ids": ",ak0236hftys5,",
-        "sources": ",ak,",
+        "ids": ",us6000kdnd,ak0236hftys5,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "98 km NE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1684681468020,
         "updated": 1684684559100,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 256,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 98 km NE of Punta Cana, Dominican Republic"
+        "title": "M 3.4 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +135,7 @@
         "mag": 2.53,
         "place": "9 km WSW of Volcano, Hawaii",
         "time": 1684681077110,
-        "updated": 1684681408820,
+        "updated": 1684686656040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73413887",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73413887.geojson",
@@ -148,8 +148,8 @@
         "sig": 98,
         "net": "hv",
         "code": "73413887",
-        "ids": ",hv73413887,",
-        "sources": ",hv,",
+        "ids": ",us6000kdmm,hv73413887,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 39,
         "dmin": null,
@@ -175,7 +175,7 @@
         "mag": 6.8,
         "place": "Prince Edward Islands region",
         "time": 1684681005352,
-        "updated": 1684684517040,
+        "updated": 1684688479098,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdmq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdmq.geojson",
@@ -252,6 +252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "70 km E of Yairipok, India",
+        "time": 1684676852722,
+        "updated": 1684686161040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdmh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdmh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000kdmh",
+        "ids": ",us6000kdmh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 4.523,
+        "rms": 0.9,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 70 km E of Yairipok, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.7328,
+          24.7813,
+          80.354
+        ]
+      },
+      "id": "us6000kdmh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "15 km ESE of Saimbeyli, Turkey",
         "time": 1684673173478,
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.15,
-        "place": "Puerto Rico region",
+        "place": "88 km N of Culebra, Puerto Rico",
         "time": 1684672750140,
         "updated": 1684674427710,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 262,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - 88 km N of Culebra, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.33,
-        "place": "71 km NW of San Antonio, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1684665495110,
         "updated": 1684668836800,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 71 km NW of San Antonio, Puerto Rico"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Gulf of Alaska",
+        "place": "163 km SSE of Cordova, Alaska",
         "time": 1684663210577,
         "updated": 1684664077040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Gulf of Alaska"
+        "title": "M 3.7 - 163 km SSE of Cordova, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kuril Islands",
+        "place": "32 km SE of Shikotan, Russia",
         "time": 1684661985607,
         "updated": 1684662960040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Kuril Islands"
+        "title": "M 4.9 - 32 km SE of Shikotan, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -693,9 +733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "53 km S of Silver Peak, Nevada",
-        "time": 1684661826224,
-        "updated": 1684662040945,
+        "place": "52 km S of Silver Peak, Nevada",
+        "time": 1684661827305,
+        "updated": 1684686126153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00859920",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00859920.geojson",
@@ -703,7 +743,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "nn",
@@ -711,20 +751,20 @@
         "ids": ",nn00859920,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.328,
-        "rms": 0.2623,
-        "gap": 99.81,
+        "nst": 20,
+        "dmin": 0.075,
+        "rms": 0.1988,
+        "gap": 68.82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 53 km S of Silver Peak, Nevada"
+        "title": "M 2.5 - 52 km S of Silver Peak, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5883,
-          37.2717,
-          0
+          -117.5779,
+          37.2841,
+          6.2
         ]
       },
       "id": "nn00859920"
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "Tonga",
+        "place": "109 km SE of Neiafu, Tonga",
         "time": 1684646591387,
         "updated": 1684654073725,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 76,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - Tonga"
+        "title": "M 5.8 - 109 km SE of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1048,6 +1088,46 @@
         ]
       },
       "id": "nn00859827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Unimak Island region, Alaska",
+        "time": 1684640491335,
+        "updated": 1684688858272,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236h8t3lp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236h8t3lp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0236h8t3lp",
+        "ids": ",ak0236h8t3lp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Unimak Island region, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.93,
+          53.523,
+          48.1
+        ]
+      },
+      "id": "ak0236h8t3lp"
     },
     {
       "type": "Feature",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.15,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1684634912140,
         "updated": 1684645483490,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - Island of Hawaii, Hawaii"
+        "title": "M 3.2 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "103 km SSW of Jucuarán, El Salvador",
+        "place": "off the coast of Central America",
         "time": 1684631736148,
         "updated": 1684632843040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 200,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 103 km SSW of Jucuarán, El Salvador"
+        "title": "M 4.3 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "110 km S of Puerto El Triunfo, El Salvador",
+        "place": "offshore El Salvador",
         "time": 1684629017732,
         "updated": 1684631008040,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 110 km S of Puerto El Triunfo, El Salvador"
+        "title": "M 4.6 - offshore El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.83,
-        "place": "Kentucky-Tennessee border region",
+        "place": "14 km WSW of New Tazewell, Tennessee",
         "time": 1684619732230,
         "updated": 1684647552071,
         "tz": null,
@@ -1757,7 +1837,7 @@
         "gap": 48,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Kentucky-Tennessee border region"
+        "title": "M 2.8 - 14 km WSW of New Tazewell, Tennessee"
       },
       "geometry": {
         "type": "Point",
@@ -1768,6 +1848,46 @@
         ]
       },
       "id": "se60526396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "46 km W of Cantwell, Alaska",
+        "time": 1684612495910,
+        "updated": 1684688623664,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236fuvn57",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236fuvn57.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0236fuvn57",
+        "ids": ",ak0236fuvn57,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.82,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 46 km W of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8646,
+          63.3132,
+          50.6
+        ]
+      },
+      "id": "ak0236fuvn57"
     },
     {
       "type": "Feature",
@@ -1813,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "65 km ENE of Yazd, Iran",
+        "place": "central Iran",
         "time": 1684607552604,
         "updated": 1684616398040,
         "tz": null,
@@ -1837,7 +1957,7 @@
         "gap": 118,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 65 km ENE of Yazd, Iran"
+        "title": "M 4.1 - central Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1893,7 +2013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Alaska Peninsula",
+        "place": "57 km ESE of Egegik, Alaska",
         "time": 1684606848707,
         "updated": 1684663753446,
         "tz": null,
@@ -1917,7 +2037,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Alaska Peninsula"
+        "title": "M 2.7 - 57 km ESE of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2008,94 +2128,14 @@
         ]
       },
       "id": "us6000kdh5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "1 km ESE of Amber, Oklahoma",
-        "time": 1684600269306,
-        "updated": 1684610698893,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023jvfq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023jvfq.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "ok",
-        "code": "2023jvfq",
-        "ids": ",ok2023jvfq,us6000kdgu,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.04417540506,
-        "rms": 0.6538237466,
-        "gap": 82.1068573,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km ESE of Amber, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.86220551,
-          35.15684128,
-          3.498575211
-        ]
-      },
-      "id": "ok2023jvfq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "20 km NE of Sama Grande, Peru",
-        "time": 1684599936487,
-        "updated": 1684606210040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdgt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000kdgt",
-        "ids": ",us6000kdgt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.71,
-        "rms": 0.86,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 20 km NE of Sama Grande, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.3674,
-          -17.6573,
-          114.092
-        ]
-      },
-      "id": "us6000kdgt"
     }
   ],
   "bbox": [
     -179.3562,
     -57.9691,
-    0,
+    0.55,
     172.834,
-    61.3828,
+    63.3132,
     622.635
   ]
 }
