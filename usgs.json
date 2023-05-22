@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684764779000,
+    "generated": 1684768511000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "western Texas",
+        "time": 1684766324546,
+        "updated": 1684768431014,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023jysx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023jysx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "tx",
+        "code": "2023jysx",
+        "ids": ",us6000kdvm,tx2023jysx,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.02358033187,
+        "rms": 0.3,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.548623,
+          31.70241475,
+          4.511962890999999
+        ]
+      },
+      "id": "tx2023jysx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.123927164,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1684765230164,
+        "updated": 1684766217665,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023jysi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023jysi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "tx",
+        "code": "2023jysi",
+        "ids": ",us6000kdvi,tx2023jysi,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.05158027421,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "mlv",
+        "type": "earthquake",
+        "title": "M 3.1 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3217915,
+          31.65408656,
+          6.851391602
+        ]
+      },
+      "id": "tx2023jysi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 5.1,
         "place": "33 km NE of Hihifo, Tonga",
         "time": 1684762238774,
-        "updated": 1684763498040,
+        "updated": 1684767278857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdvb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdvb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "6000kdvb",
         "ids": ",us6000kdvb,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 66,
         "dmin": 3.265,
         "rms": 0.83,
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.12,
-        "place": "Puerto Rico region",
+        "place": "139 km N of Suárez, Puerto Rico",
         "time": 1684745883930,
         "updated": 1684753167968,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 241,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - Puerto Rico region"
+        "title": "M 4.1 - 139 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "42 km SE of Shimoda, Japan",
+        "place": "near the south coast of Honshu, Japan",
         "time": 1684741360378,
         "updated": 1684747351864,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 100,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 42 km SE of Shimoda, Japan"
+        "title": "M 5.1 - near the south coast of Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "6 km SSE of Pāhala, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1684736832190,
         "updated": 1684737164270,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 308,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SSE of Pāhala, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "47 km SW of Ashkāsham, Afghanistan",
+        "place": "Afghanistan-Tajikistan-Pakistan region",
         "time": 1684734207109,
         "updated": 1684735297040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 57,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 47 km SW of Ashkāsham, Afghanistan"
+        "title": "M 4.9 - Afghanistan-Tajikistan-Pakistan region"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Pulau-Pulau Talaud, Indonesia",
+        "place": "203 km NW of Tobelo, Indonesia",
         "time": 1684724454486,
         "updated": 1684725400040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Pulau-Pulau Talaud, Indonesia"
+        "title": "M 4.6 - 203 km NW of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "California-Nevada border region",
+        "place": "52 km S of Silver Peak, Nevada",
         "time": 1684708127506,
         "updated": 1684713221090,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 76.39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - California-Nevada border region"
+        "title": "M 2.5 - 52 km S of Silver Peak, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Central Turkey",
+        "place": "16 km ESE of Saimbeyli, Turkey",
         "time": 1684700182079,
         "updated": 1684704239040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Central Turkey"
+        "title": "M 4.1 - 16 km ESE of Saimbeyli, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "California-Nevada border region",
+        "place": "52 km S of Silver Peak, Nevada",
         "time": 1684698526273,
         "updated": 1684706546901,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 72.77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - California-Nevada border region"
+        "title": "M 2.7 - 52 km S of Silver Peak, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1175,17 +1255,17 @@
         "mag": 5.54,
         "place": "108km W of Petrolia, CA",
         "time": 1684694641400,
-        "updated": 1684763795922,
+        "updated": 1684767811103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73890906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73890906.geojson",
-        "felt": 600,
+        "felt": 602,
         "cdi": 5.7,
         "mmi": 3.817,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 814,
+        "sig": 815,
         "net": "nc",
         "code": "73890906",
         "ids": ",ew1684694660,nc73890906,at00rv0upg,us6000kdq8,",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "60 km W of Nueva Loja, Ecuador",
+        "place": "Colombia-Ecuador border region",
         "time": 1684694377707,
         "updated": 1684698177040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 60 km W of Nueva Loja, Ecuador"
+        "title": "M 4.1 - Colombia-Ecuador border region"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Sulawesi, Indonesia",
+        "place": "55 km NW of Poso, Indonesia",
         "time": 1684690265633,
         "updated": 1684697209040,
         "tz": null,
@@ -1317,7 +1397,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Sulawesi, Indonesia"
+        "title": "M 4.8 - 55 km NW of Poso, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "Solomon Islands",
+        "place": "55 km WNW of Kirakira, Solomon Islands",
         "time": 1684683913032,
         "updated": 1684729175411,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - Solomon Islands"
+        "title": "M 6.1 - 55 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1448,126 +1528,6 @@
         ]
       },
       "id": "ak0236hftys5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "Mona Passage",
-        "time": 1684681468020,
-        "updated": 1684684559100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410213",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410213.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71410213",
-        "ids": ",pr71410213,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.8129,
-        "rms": 0.58,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7053333333333,
-          19.1728333333333,
-          33.8
-        ]
-      },
-      "id": "pr71410213"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "9 km WSW of Volcano, Hawaii",
-        "time": 1684681077110,
-        "updated": 1684686656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73413887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73413887.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "73413887",
-        "ids": ",us6000kdmm,hv73413887,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": null,
-        "rms": 0.389999986,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.317840576172,
-          19.4171657562256,
-          3.05999994277954
-        ]
-      },
-      "id": "hv73413887"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.8,
-        "place": "Prince Edward Islands region",
-        "time": 1684681005352,
-        "updated": 1684688479098,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdmq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdmq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 711,
-        "net": "us",
-        "code": "6000kdmq",
-        "ids": ",us6000kdmq,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 62,
-        "dmin": 9.353,
-        "rms": 0.97,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.8 - Prince Edward Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.3676,
-          -43.4362,
-          10
-        ]
-      },
-      "id": "us6000kdmq"
     }
   ],
   "bbox": [
