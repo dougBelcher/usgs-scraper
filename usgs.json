@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684768511000,
+    "generated": 1684772339000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 36
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3,
         "place": "western Texas",
         "time": 1684766324546,
-        "updated": 1684768431014,
+        "updated": 1684768951591,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023jysx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023jysx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "tx",
         "code": "2023jysx",
-        "ids": ",us6000kdvm,tx2023jysx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023jysx,us6000kdvm,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.02358033187,
         "rms": 0.3,
@@ -293,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Cochabamba-Santa Cruz border region, Bolivia",
+        "place": "38 km NW of Villa Yapacaní, Bolivia",
         "time": 1684741871617,
         "updated": 1684742849040,
         "tz": null,
@@ -317,7 +317,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Cochabamba-Santa Cruz border region, Bolivia"
+        "title": "M 4.8 - 38 km NW of Villa Yapacaní, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -975,7 +975,7 @@
         "mag": 5.5,
         "place": "129 km WSW of Kurio, Japan",
         "time": 1684707605361,
-        "updated": 1684715178174,
+        "updated": 1684769534040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdrq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdrq.geojson",
@@ -990,7 +990,7 @@
         "code": "6000kdrq",
         "ids": ",us6000kdrq,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 72,
         "dmin": 1.999,
         "rms": 1.02,
@@ -1448,86 +1448,6 @@
         ]
       },
       "id": "us6000kdpx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "55 km WNW of Kirakira, Solomon Islands",
-        "time": 1684683913032,
-        "updated": 1684729175411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdnw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdnw.geojson",
-        "felt": 8,
-        "cdi": 5.2,
-        "mmi": 5.291,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 577,
-        "net": "us",
-        "code": "6000kdnw",
-        "ids": ",us6000kdnw,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 1.692,
-        "rms": 0.87,
-        "gap": 34,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 55 km WNW of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.4442,
-          -10.2728,
-          77.791
-        ]
-      },
-      "id": "us6000kdnw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "10 km WNW of Point MacKenzie, Alaska",
-        "time": 1684682473499,
-        "updated": 1684703114976,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236hftys5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236hftys5.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0236hftys5",
-        "ids": ",ak0236hftys5,us6000kdnd,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 10 km WNW of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1735,
-          61.3828,
-          32.4
-        ]
-      },
-      "id": "ak0236hftys5"
     }
   ],
   "bbox": [
@@ -1535,7 +1455,7 @@
     -52.2014,
     -1.39,
     178.3705,
-    61.3828,
+    60.7556,
     613.114
   ]
 }
