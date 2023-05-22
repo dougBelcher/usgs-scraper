@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684746899000,
+    "generated": 1684750559000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.12,
+        "place": "139 km N of Suárez, Puerto Rico",
+        "time": 1684745883930,
+        "updated": 1684747796806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023142002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023142002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 261,
+        "net": "pr",
+        "code": "2023142002",
+        "ids": ",pr2023142002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.4475,
+        "rms": 0.71,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.1 - 139 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7376,
+          19.6816,
+          12
+        ]
+      },
+      "id": "pr2023142002"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "38 km NW of Villa Yapacaní, Bolivia",
+        "place": "Cochabamba-Santa Cruz border region, Bolivia",
         "time": 1684741871617,
         "updated": 1684742849040,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 37,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 38 km NW of Villa Yapacaní, Bolivia"
+        "title": "M 4.8 - Cochabamba-Santa Cruz border region, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +135,11 @@
         "mag": 5.1,
         "place": "near the south coast of Honshu, Japan",
         "time": 1684741360378,
-        "updated": 1684745211144,
+        "updated": 1684747351864,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdu2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdu2.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -415,17 +455,17 @@
         "mag": 3.08,
         "place": "2km ESE of Canyondam, CA",
         "time": 1684729189400,
-        "updated": 1684734628415,
+        "updated": 1684749321642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73891101",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73891101.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 147,
+        "sig": 148,
         "net": "nc",
         "code": "73891101",
         "ids": ",nc73891101,us6000kdta,",
@@ -1768,206 +1808,6 @@
         ]
       },
       "id": "us6000kdl5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "20km E of Little Lake, CA",
-        "time": 1684663747260,
-        "updated": 1684664410080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40230247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40230247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "ci",
-        "code": "40230247",
-        "ids": ",ci40230247,us6000kdl2,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.1002,
-        "rms": 0.16,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 20km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6903333,
-          35.9541667,
-          2.27
-        ]
-      },
-      "id": "ci40230247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "157 km SSE of Cordova, Alaska",
-        "time": 1684663211571,
-        "updated": 1684689415910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236hcqakb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236hcqakb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0236hcqakb",
-        "ids": ",us6000kdkz,ak0236hcqakb,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 157 km SSE of Cordova, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.6562,
-          59.2467,
-          5
-        ]
-      },
-      "id": "ak0236hcqakb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "12 km NE of Pāhala, Hawaii",
-        "time": 1684662607450,
-        "updated": 1684663162040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73413472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73413472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "73413472",
-        "ids": ",us6000kdkx,hv73413472,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": null,
-        "rms": 0.159999996,
-        "gap": 129,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.378829956055,
-          19.2703342437744,
-          29.0499992370605
-        ]
-      },
-      "id": "hv73413472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Kuril Islands",
-        "time": 1684661985607,
-        "updated": 1684662960040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdkw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdkw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000kdkw",
-        "ids": ",us6000kdkw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 3.23,
-        "rms": 0.49,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.9956,
-          43.5821,
-          24.227
-        ]
-      },
-      "id": "us6000kdkw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "50 km WSW of Masachapa, Nicaragua",
-        "time": 1684661089712,
-        "updated": 1684662018040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdkq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdkq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000kdkq",
-        "ids": ",us6000kdkq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.849,
-        "rms": 0.6,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 50 km WSW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.9622,
-          11.6636,
-          55.086
-        ]
-      },
-      "id": "us6000kdkq"
     }
   ],
   "bbox": [
