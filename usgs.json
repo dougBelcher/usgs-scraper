@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684833242000,
+    "generated": 1684836902000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "16 km SSW of Weston, Colorado",
+        "time": 1684833065623,
+        "updated": 1684833962040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k37h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k37h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000k37h",
+        "ids": ",us7000k37h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.169,
+        "rms": 0.49,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 16 km SSW of Weston, Colorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9267,
+          36.998,
+          6.47
+        ]
+      },
+      "id": "us7000k37h"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,12 +455,12 @@
         "mag": 2.65,
         "place": "15km SSW of Searles Valley, CA",
         "time": 1684801874680,
-        "updated": 1684809934040,
+        "updated": 1684836655549,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40231903",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40231903.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -430,7 +470,7 @@
         "code": "40231903",
         "ids": ",ci40231903,us7000k34i,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": 0.03427,
         "rms": 0.17,
