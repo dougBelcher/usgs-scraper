@@ -1,54 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684818791000,
+    "generated": 1684822698000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 49
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "109 km SE of Perryville, Alaska",
-        "time": 1684816329750,
-        "updated": 1684817086320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236kkf8o9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236kkf8o9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0236kkf8o9",
-        "ids": ",ak0236kkf8o9,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 109 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.9192,
-          55.217,
-          58.1
-        ]
-      },
-      "id": "ak0236kkf8o9"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +48,46 @@
         ]
       },
       "id": "us7000k35e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "south of Alaska",
+        "time": 1684811379658,
+        "updated": 1684818993806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236kjp2nt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236kjp2nt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0236kjp2nt",
+        "ids": ",ak0236kjp2nt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - south of Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.1896,
+          54.704,
+          46
+        ]
+      },
+      "id": "ak0236kjp2nt"
     },
     {
       "type": "Feature",
@@ -252,46 +252,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "12 km ESE of Chase, Alaska",
-        "time": 1684801926981,
-        "updated": 1684802029248,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236ki1i2i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236ki1i2i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0236ki1i2i",
-        "ids": ",ak0236ki1i2i,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 12 km ESE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.8887,
-          62.3934,
-          2
-        ]
-      },
-      "id": "ak0236ki1i2i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.65,
         "place": "15km SSW of Searles Valley, CA",
         "time": 1684801874680,
@@ -335,12 +295,12 @@
         "mag": 2.99,
         "place": "10 km W of Volcano, Hawaii",
         "time": 1684801297790,
-        "updated": 1684801997770,
+        "updated": 1684821835722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73416507",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73416507.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -348,9 +308,9 @@
         "sig": 138,
         "net": "hv",
         "code": "73416507",
-        "ids": ",us7000k34h,hv73416507,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv73416507,us7000k34h,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": null,
         "rms": 0.15,
@@ -2008,86 +1968,6 @@
         ]
       },
       "id": "hv73415192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Afghanistan-Tajikistan-Pakistan region",
-        "time": 1684734207109,
-        "updated": 1684735297040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdtp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kdtp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000kdtp",
-        "ids": ",us6000kdtp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 99,
-        "dmin": 2.519,
-        "rms": 0.75,
-        "gap": 57,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - Afghanistan-Tajikistan-Pakistan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.1699,
-          36.3705,
-          100.325
-        ]
-      },
-      "id": "us6000kdtp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.77,
-        "place": "35 km SSW of Boca de Yuma, Dominican Republic",
-        "time": 1684733192880,
-        "updated": 1684773904040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023142001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023142001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 219,
-        "net": "pr",
-        "code": "2023142001",
-        "ids": ",us6000kdtj,pr2023142001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5783,
-        "rms": 0.4,
-        "gap": 227,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 35 km SSW of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7901,
-          18.1048,
-          95
-        ]
-      },
-      "id": "pr2023142001"
     }
   ],
   "bbox": [
@@ -2095,7 +1975,7 @@
     -23.7485,
     0.76,
     171.6763,
-    62.3934,
+    62.0976,
     613.114
   ]
 }
