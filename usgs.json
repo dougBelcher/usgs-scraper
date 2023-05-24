@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684948330000,
+    "generated": 1684952245000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 6.2,
         "place": "Banda Sea",
         "time": 1684943374919,
-        "updated": 1684948091585,
+        "updated": 1684951003542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3h5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3h5.geojson",
@@ -55,7 +55,7 @@
         "mag": 2.57,
         "place": "6km SW of Salton City, CA",
         "time": 1684942435510,
-        "updated": 1684944002885,
+        "updated": 1684949350635,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40232887",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40232887.geojson",
@@ -63,7 +63,7 @@
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 103,
         "net": "ci",
@@ -71,10 +71,10 @@
         "ids": ",ci40232887,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 64,
-        "dmin": 0.08461,
-        "rms": 0.19,
-        "gap": 31,
+        "nst": 80,
+        "dmin": 0.02662,
+        "rms": 0.17,
+        "gap": 18,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 6km SW of Salton City, CA"
@@ -83,8 +83,8 @@
         "type": "Point",
         "coordinates": [
           -115.9995,
-          33.2563333,
-          3.63
+          33.256,
+          4.74
         ]
       },
       "id": "ci40232887"
@@ -208,6 +208,46 @@
         ]
       },
       "id": "pr2023144002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "80 km WNW of Nagata, Japan",
+        "time": 1684935214148,
+        "updated": 1684949261040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3gc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3gc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000k3gc",
+        "ids": ",us7000k3gc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 1.121,
+        "rms": 0.55,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 80 km WNW of Nagata, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6367,
+          30.6307,
+          222.938
+        ]
+      },
+      "id": "us7000k3gc"
     },
     {
       "type": "Feature",
@@ -375,7 +415,7 @@
         "mag": 5.5,
         "place": "Pacific-Antarctic Ridge",
         "time": 1684924399587,
-        "updated": 1684946426144,
+        "updated": 1684950983040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3fh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3fh.geojson",
@@ -390,7 +430,7 @@
         "code": "7000k3fh",
         "ids": ",us7000k3fh,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 80,
         "dmin": 27.407,
         "rms": 1.04,
@@ -975,17 +1015,17 @@
         "mag": 2.96,
         "place": "3km NNE of Almanor, CA",
         "time": 1684894542450,
-        "updated": 1684943539109,
+        "updated": 1684950386480,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889245",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889245.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 142,
         "net": "nc",
         "code": "73889245",
         "ids": ",nc73889245,nn00860238,",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000k3b3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "54 km S of Silver Peak, Nevada",
-        "time": 1684863214171,
-        "updated": 1684865941040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3av",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3av.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000k3av",
-        "ids": ",nn00860199,us7000k3av,",
-        "sources": ",nn,us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.063,
-        "rms": 0.48,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 54 km S of Silver Peak, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5813,
-          37.2695,
-          12.485
-        ]
-      },
-      "id": "us7000k3av"
     }
   ],
   "bbox": [
