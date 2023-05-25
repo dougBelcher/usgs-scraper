@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685009717000,
+    "generated": 1685013074000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "2km NNW of West Bishop, CA",
+        "time": 1685011354200,
+        "updated": 1685012952083,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73889690",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73889690.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "nc",
+        "code": "73889690",
+        "ids": ",nc73889690,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.2099,
+        "rms": 0.21,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 2km NNW of West Bishop, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4686661,
+          37.3796654,
+          16.19
+        ]
+      },
+      "id": "nc73889690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1685011177614,
+        "updated": 1685012390545,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3ps",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3ps.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000k3ps",
+        "ids": ",us7000k3ps,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 65,
+        "dmin": 3.149,
+        "rms": 0.76,
+        "gap": 63,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.7972,
+          -23.2286,
+          10
+        ]
+      },
+      "id": "us7000k3ps"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,12 +255,12 @@
         "mag": 3.37,
         "place": "1 km W of Punta Santiago, Puerto Rico",
         "time": 1685004507370,
-        "updated": 1685007742040,
+        "updated": 1685010738446,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410928.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -188,9 +268,9 @@
         "sig": 175,
         "net": "pr",
         "code": "71410928",
-        "ids": ",us7000k3pd,pr71410928,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr71410928,us7000k3pd,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 17,
         "dmin": 0.08882,
         "rms": 0.29,
@@ -255,12 +335,12 @@
         "mag": 4.5,
         "place": "Panama-Colombia border region",
         "time": 1685000113109,
-        "updated": 1685001685040,
+        "updated": 1685011553781,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3pa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3pa.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +350,7 @@
         "code": "7000k3pa",
         "ids": ",us7000k3pa,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 2.152,
         "rms": 0.68,
@@ -1648,91 +1728,11 @@
         ]
       },
       "id": "pr71410783"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Pacific-Antarctic Ridge",
-        "time": 1684924399587,
-        "updated": 1684950983040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3fh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3fh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000k3fh",
-        "ids": ",us7000k3fh,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 80,
-        "dmin": 27.407,
-        "rms": 1.04,
-        "gap": 47,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Pacific-Antarctic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.8458,
-          -56.8701,
-          10
-        ]
-      },
-      "id": "us7000k3fh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "Mona Passage",
-        "time": 1684923330080,
-        "updated": 1684932349040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71410768",
-        "ids": ",us7000k3ff,pr71410768,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.492,
-        "rms": 0.42,
-        "gap": 318,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7156666666667,
-          18.8246666666667,
-          37.78
-        ]
-      },
-      "id": "pr71410768"
     }
   ],
   "bbox": [
     -179.1073,
-    -56.8701,
+    -38.3746,
     0.2,
     179.1983,
     63.2753,
