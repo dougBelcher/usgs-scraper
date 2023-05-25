@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1684984525000,
+    "generated": 1684988237000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.6,
-        "place": "43 km NE of Puerto Obaldía, Panama",
-        "time": 1684983934000,
-        "updated": 1684984514656,
+        "mag": 4.9,
+        "place": "41 km NE of Puerto Obaldía, Panama",
+        "time": 1684984497757,
+        "updated": 1684986445040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00rv71xa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00rv71xa.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3n8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3n8.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
-        "sig": 671,
-        "net": "at",
-        "code": "00rv71xa",
-        "ids": ",pt23145000,at00rv71xa,",
-        "sources": ",pt,at,",
-        "types": ",dyfi,impact-link,origin,",
-        "nst": 45,
-        "dmin": 0,
-        "rms": 2.73,
-        "gap": 82.79999337600053,
-        "magType": "Mi",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000k3n8",
+        "ids": ",us7000k3n8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.156,
+        "rms": 0.65,
+        "gap": 76,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 6.6 - 43 km NE of Puerto Obaldía, Panama"
+        "title": "M 4.9 - 41 km NE of Puerto Obaldía, Panama"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1,
-          8.9,
+          -77.1197,
+          8.8985,
           10
         ]
       },
-      "id": "at00rv71xa"
+      "id": "us7000k3n8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.6,
+        "place": "Panama-Colombia border region",
+        "time": 1684983933394,
+        "updated": 1684988091662,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3n3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3n3.geojson",
+        "felt": 81,
+        "cdi": 6.7,
+        "mmi": 6.369,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 724,
+        "net": "us",
+        "code": "7000k3n3",
+        "ids": ",pt23145000,at00rv71xa,us7000k3n3,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 50,
+        "dmin": 2.163,
+        "rms": 0.91,
+        "gap": 129,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.6 - Panama-Colombia border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1231,
+          8.8894,
+          10
+        ]
+      },
+      "id": "us7000k3n3"
     },
     {
       "type": "Feature",
@@ -133,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "offshore Sucre, Venezuela",
+        "place": "49 km NNW of Güiria, Venezuela",
         "time": 1684974912654,
         "updated": 1684981618011,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 84,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - offshore Sucre, Venezuela"
+        "title": "M 4.6 - 49 km NNW of Güiria, Venezuela"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "104 km W of San Antonio de los Cobres, Argentina",
+        "place": "Chile-Argentina border region",
         "time": 1684972988278,
         "updated": 1684981634040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 93,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 104 km W of San Antonio de los Cobres, Argentina"
+        "title": "M 4.3 - Chile-Argentina border region"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Luzon, Philippines",
+        "place": "44 km ESE of Lapi, Philippines",
         "time": 1684972540410,
         "updated": 1684976580040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Luzon, Philippines"
+        "title": "M 4.5 - 44 km ESE of Lapi, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "place": "288 km W of Adak, Alaska",
         "time": 1684962689536,
         "updated": 1684974997040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 134,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 2.9 - 288 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Off the coast of Araucania, Chile",
+        "place": "178 km WSW of Lebu, Chile",
         "time": 1684952935927,
         "updated": 1684957320040,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 165,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Off the coast of Araucania, Chile"
+        "title": "M 4.6 - 178 km WSW of Lebu, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -695,17 +735,17 @@
         "mag": 2.57,
         "place": "6km SW of Salton City, CA",
         "time": 1684942435510,
-        "updated": 1684964490160,
+        "updated": 1684986037980,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40232887",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40232887.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 104,
         "net": "ci",
         "code": "40232887",
         "ids": ",ci40232887,",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "101 km ESE of Kokopo, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1684934106870,
         "updated": 1684935199040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 83,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 101 km ESE of Kokopo, Papua New Guinea"
+        "title": "M 5.0 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.4,
-        "place": "72 km NW of Rincón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1684923330080,
         "updated": 1684932349040,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 318,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 72 km NW of Rincón, Puerto Rico"
+        "title": "M 3.4 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "36 km SSE of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1684918557445,
         "updated": 1684919935040,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 112,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 36 km SSE of Pondaguitan, Philippines"
+        "title": "M 4.6 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "47 km SW of Port-Vila, Vanuatu",
+        "place": "Vanuatu",
         "time": 1684917022360,
         "updated": 1684965355153,
         "tz": null,
@@ -1237,7 +1277,7 @@
         "gap": 152,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 47 km SW of Port-Vila, Vanuatu"
+        "title": "M 4.4 - Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -1408,206 +1448,6 @@
         ]
       },
       "id": "ak0236m8hwzm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "170 km SSE of Teluk Dalam, Indonesia",
-        "time": 1684901263053,
-        "updated": 1684978341040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3ef",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3ef.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000k3ef",
-        "ids": ",us7000k3ef,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.287,
-        "rms": 0.85,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 170 km SSE of Teluk Dalam, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.4678,
-          -0.8165,
-          19.486
-        ]
-      },
-      "id": "us7000k3ef"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "0 km S of Vázquez, Puerto Rico",
-        "time": 1684901009490,
-        "updated": 1684903428451,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410708",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410708.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71410708",
-        "ids": ",pr71410708,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.09529,
-        "rms": 0.17,
-        "gap": 139,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 0 km S of Vázquez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2386666666667,
-          18.0645,
-          18.48
-        ]
-      },
-      "id": "pr71410708"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.27,
-        "place": "31 km WSW of Stella, Puerto Rico",
-        "time": 1684899809390,
-        "updated": 1684900897270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410693",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410693.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 165,
-        "net": "pr",
-        "code": "71410693",
-        "ids": ",pr71410693,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.2133,
-        "rms": 0.36,
-        "gap": 144,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 31 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5008333333333,
-          18.171,
-          5.33
-        ]
-      },
-      "id": "pr71410693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "53 km ENE of Huara, Chile",
-        "time": 1684899777981,
-        "updated": 1684975913040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3ec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3ec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000k3ec",
-        "ids": ",us7000k3ec,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.16,
-        "rms": 0.67,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 53 km ENE of Huara, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3074,
-          -19.7886,
-          108.112
-        ]
-      },
-      "id": "us7000k3ec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "46 km SW of Ashkāsham, Afghanistan",
-        "time": 1684898286724,
-        "updated": 1684974672040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3e7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3e7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000k3e7",
-        "ids": ",us7000k3e7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 2.532,
-        "rms": 0.68,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 46 km SW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.1921,
-          36.371,
-          147.678
-        ]
-      },
-      "id": "us7000k3e7"
     }
   ],
   "bbox": [
