@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685070857000,
+    "generated": 1685074635000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 3.8,
         "place": "81 km NW of Yakutat, Alaska",
         "time": 1685069873388,
-        "updated": 1685070686723,
+        "updated": 1685071760507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236phzv3d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236phzv3d.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 3.987,
         "alert": null,
         "status": "automatic",
@@ -108,9 +108,9 @@
         "sig": 222,
         "net": "ak",
         "code": "0236phzv3d",
-        "ids": ",us7000k457,ak0236phzv3d,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",ak0236phzv3d,us7000k457,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.95,
@@ -173,19 +173,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Southern Alaska",
+        "place": "26 km NW of Susitna, Alaska",
         "time": 1685067479421,
-        "updated": 1685070691298,
+        "updated": 1685074312919,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236phrb1h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236phrb1h.geojson",
-        "felt": 97,
-        "cdi": 3.3,
+        "felt": 101,
+        "cdi": 3.8,
         "mmi": 3.095,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 291,
+        "sig": 297,
         "net": "ak",
         "code": "0236phrb1h",
         "ids": ",ak0236phrb1h,at00rv8udz,us7000k44y,",
@@ -197,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.1 - Southern Alaska"
+        "title": "M 4.1 - 26 km NW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,14 +373,14 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Nias region, Indonesia",
+        "place": "63 km WNW of Gunungsitoli, Indonesia",
         "time": 1685054277433,
-        "updated": 1685056817056,
+        "updated": 1685070895974,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k446",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k446.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -397,7 +397,7 @@
         "gap": 177,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Nias region, Indonesia"
+        "title": "M 4.8 - 63 km WNW of Gunungsitoli, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Caucasus region, Russia",
+        "place": "5 km ENE of Ol’ginka, Russia",
         "time": 1685041364810,
         "updated": 1685046359040,
         "tz": null,
@@ -477,7 +477,7 @@
         "gap": 28,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Caucasus region, Russia"
+        "title": "M 4.2 - 5 km ENE of Ol’ginka, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "eastern Turkey",
+        "place": "7 km WNW of Sincik, Turkey",
         "time": 1685026926706,
         "updated": 1685035765040,
         "tz": null,
@@ -637,7 +637,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - eastern Turkey"
+        "title": "M 4.0 - 7 km WNW of Sincik, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "54 km SSW of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1685006991108,
         "updated": 1685058981343,
         "tz": null,
@@ -1037,7 +1037,7 @@
         "gap": 83,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 54 km SSW of Whites City, New Mexico"
+        "title": "M 3.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "44 km NE of Puerto Obaldía, Panama",
+        "place": "Panama-Colombia border region",
         "time": 1685005321454,
         "updated": 1685006264040,
         "tz": null,
@@ -1117,7 +1117,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 44 km NE of Puerto Obaldía, Panama"
+        "title": "M 4.5 - Panama-Colombia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Panama-Colombia border region",
+        "place": "44 km NE of Puerto Obaldía, Panama",
         "time": 1684997310803,
         "updated": 1684999810040,
         "tz": null,
@@ -1357,7 +1357,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Panama-Colombia border region"
+        "title": "M 4.6 - 44 km NE of Puerto Obaldía, Panama"
       },
       "geometry": {
         "type": "Point",
@@ -1568,86 +1568,6 @@
         ]
       },
       "id": "hv73420432"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "Puerto Rico",
-        "time": 1684988195380,
-        "updated": 1684989409470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71410898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71410898.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "pr",
-        "code": "71410898",
-        "ids": ",pr71410898,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.02997,
-        "rms": 0.2,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8051666666667,
-          17.9928333333333,
-          17.57
-        ]
-      },
-      "id": "pr71410898"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "41 km NE of Puerto Obaldía, Panama",
-        "time": 1684984497757,
-        "updated": 1684986445040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k3n8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k3n8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000k3n8",
-        "ids": ",us7000k3n8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.156,
-        "rms": 0.65,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 41 km NE of Puerto Obaldía, Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.1197,
-          8.8985,
-          10
-        ]
-      },
-      "id": "us7000k3n8"
     }
   ],
   "bbox": [
