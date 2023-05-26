@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685139151000,
+    "generated": 1685142872000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "West Chile Rise",
+        "time": 1685139505307,
+        "updated": 1685141233440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4cr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4cr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000k4cr",
+        "ids": ",us7000k4cr,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 88,
+        "dmin": 11.491,
+        "rms": 0.84,
+        "gap": 101,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - West Chile Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4284,
+          -39.0293,
+          10
+        ]
+      },
+      "id": "us7000k4cr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 3.09,
         "place": "6km SSE of Markleeville, CA",
         "time": 1685133541440,
-        "updated": 1685136448208,
+        "updated": 1685142730757,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73890315",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73890315.geojson",
@@ -1015,17 +1055,17 @@
         "mag": 3.8,
         "place": "69 km NNW of Yakutat, Alaska",
         "time": 1685069872541,
-        "updated": 1685120144403,
+        "updated": 1685140283288,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236phzv3d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236phzv3d.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.7,
         "mmi": 3.828,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 223,
         "net": "ak",
         "code": "0236phzv3d",
         "ids": ",ak0236phzv3d,us7000k457,",
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "ak0236o6vrjt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "83 km NNE of Punta Cana, Dominican Republic",
-        "time": 1685054701450,
-        "updated": 1685056948040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71411018",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71411018.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71411018",
-        "ids": ",pr71411018,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.8096,
-        "rms": 0.24,
-        "gap": 284,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 83 km NNE of Punta Cana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1978333333333,
-          19.3095,
-          12.14
-        ]
-      },
-      "id": "pr71411018"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "63 km WNW of Gunungsitoli, Indonesia",
-        "time": 1685054277433,
-        "updated": 1685070895974,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k446",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k446.geojson",
-        "felt": 2,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000k446",
-        "ids": ",us7000k446,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.528,
-        "rms": 0.69,
-        "gap": 177,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 63 km WNW of Gunungsitoli, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          97.0643,
-          1.4389,
-          26.116
-        ]
-      },
-      "id": "us7000k446"
     }
   ],
   "bbox": [
