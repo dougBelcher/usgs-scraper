@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685200395000,
+    "generated": 1685204295000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "10 km ENE of Pāhala, Hawaii",
+        "time": 1685203292690,
+        "updated": 1685203627000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73424512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73424512.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "hv",
+        "code": "73424512",
+        "ids": ",hv73424512,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 154,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 10 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.380493164062,
+          19.224666595459,
+          30.0699996948242
+        ]
+      },
+      "id": "hv73424512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "South Sandwich Islands region",
+        "time": 1685200907279,
+        "updated": 1685202255796,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4gs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4gs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.545,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000k4gs",
+        "ids": ",us7000k4gs,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 44,
+        "dmin": 7.064,
+        "rms": 0.72,
+        "gap": 71,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.6669,
+          -57.922,
+          46.969
+        ]
+      },
+      "id": "us7000k4gs"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1372,7 +1452,7 @@
   ],
   "bbox": [
     -175.1814,
-    -43.1719,
+    -57.922,
     -1.35,
     179.6882,
     78.6341,
