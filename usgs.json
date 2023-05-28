@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685237134000,
+    "generated": 1685241691000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Near the coast of Antofagasta, Chile",
+        "time": 1685239579111,
+        "updated": 1685241269087,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4jl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4jl.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000k4jl",
+        "ids": ",us7000k4jl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.844,
+        "rms": 0.63,
+        "gap": 128,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.6 - Near the coast of Antofagasta, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0663,
+          -23.4194,
+          36.412
+        ]
+      },
+      "id": "us7000k4jl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "near the east coast of the Kamchatka Peninsula, Russia",
+        "time": 1685236662975,
+        "updated": 1685237495040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4jg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4jg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000k4jg",
+        "ids": ",us7000k4jg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 2.107,
+        "rms": 1.11,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - near the east coast of the Kamchatka Peninsula, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.4609,
+          54.3029,
+          65.421
+        ]
+      },
+      "id": "us7000k4jg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.51,
         "place": "9 km ENE of Pāhala, Hawaii",
         "time": 1685232262480,
-        "updated": 1685232593380,
+        "updated": 1685238751040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73425267",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73425267.geojson",
@@ -28,8 +108,8 @@
         "sig": 97,
         "net": "hv",
         "code": "73425267",
-        "ids": ",hv73425267,",
-        "sources": ",hv,",
+        "ids": ",us7000k4j8,hv73425267,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 55,
         "dmin": null,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "hv73425267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "32 km NNW of Challis, Idaho",
+        "time": 1685229273632,
+        "updated": 1685238239040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4j2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4j2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000k4j2",
+        "ids": ",us7000k4j2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.461,
+        "rms": 0.62,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 32 km NNW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3922,
+          44.777,
+          10
+        ]
+      },
+      "id": "us7000k4j2"
     },
     {
       "type": "Feature",
@@ -264,13 +384,13 @@
         "mmi": 2.917,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 1,
+        "tsunami": 0,
         "sig": 302,
         "net": "ak",
         "code": "0236rdtjd6",
-        "ids": ",ak0236rdtjd6,at00rvbtea,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdtjd6,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -304,13 +424,13 @@
         "mmi": 2.249,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 0,
+        "tsunami": 1,
         "sig": 326,
         "net": "us",
         "code": "7000k4hp",
-        "ids": ",ak0236rdti6b,us7000k4hp,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdti6b,at00rvbtea,us7000k4hp,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": 91,
         "dmin": 0.18,
         "rms": 0.52,
@@ -1208,86 +1328,6 @@
         ]
       },
       "id": "pr71411153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.85,
-        "place": "113 km N of Suárez, Puerto Rico",
-        "time": 1685153357600,
-        "updated": 1685155980214,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023147000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023147000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 228,
-        "net": "pr",
-        "code": "2023147000",
-        "ids": ",pr2023147000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.1961,
-        "rms": 0.52,
-        "gap": 274,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 113 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6695,
-          19.4393,
-          111
-        ]
-      },
-      "id": "pr2023147000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "0 km SSE of Guánica, Puerto Rico",
-        "time": 1685151317910,
-        "updated": 1685153193860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71411133",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71411133.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71411133",
-        "ids": ",pr71411133,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.006574,
-        "rms": 0.14,
-        "gap": 208,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 0 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9058333333333,
-          17.9661666666667,
-          10.24
-        ]
-      },
-      "id": "pr71411133"
     }
   ],
   "bbox": [
