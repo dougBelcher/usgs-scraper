@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685283077000,
+    "generated": 1685286807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,17 +15,17 @@
         "mag": 3.6,
         "place": "6 km N of Greenvale, Australia",
         "time": 1685281312244,
-        "updated": 1685282937492,
+        "updated": 1685286785184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4me",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4me.geojson",
-        "felt": 90,
-        "cdi": 4.9,
+        "felt": 1103,
+        "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 243,
+        "sig": 729,
         "net": "us",
         "code": "7000k4me",
         "ids": ",us7000k4me,",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.96,
-        "place": "Puerto Rico region",
+        "place": "135 km N of Suárez, Puerto Rico",
         "time": 1685243889330,
         "updated": 1685247921324,
         "tz": null,
@@ -1237,7 +1237,7 @@
         "gap": 289,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.0 - Puerto Rico region"
+        "title": "M 4.0 - 135 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1368,6 +1368,46 @@
         ]
       },
       "id": "hv73425267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "32 km NNW of Challis, Idaho",
+        "time": 1685229360090,
+        "updated": 1685283706740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90015973",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90015973.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "mb",
+        "code": "90015973",
+        "ids": ",mb90015973,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.4598,
+        "rms": 0.17,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 32 km NNW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.416166666667,
+          44.7618333333333,
+          2.64
+        ]
+      },
+      "id": "mb90015973"
     },
     {
       "type": "Feature",
@@ -1664,13 +1704,13 @@
         "mmi": 2.917,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 1,
+        "tsunami": 0,
         "sig": 302,
         "net": "ak",
         "code": "0236rdtjd6",
-        "ids": ",ak0236rdtjd6,at00rvbtea,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdtjd6,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -1704,13 +1744,13 @@
         "mmi": 2.249,
         "alert": null,
         "status": "reviewed",
-        "tsunami": 0,
+        "tsunami": 1,
         "sig": 326,
         "net": "us",
         "code": "7000k4hp",
-        "ids": ",ak0236rdti6b,us7000k4hp,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "ids": ",ak0236rdti6b,at00rvbtea,us7000k4hp,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
         "nst": 91,
         "dmin": 0.18,
         "rms": 0.52,
@@ -1848,46 +1888,6 @@
         ]
       },
       "id": "us7000k4gs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "193 km W of Longyearbyen, Svalbard and Jan Mayen",
-        "time": 1685197446530,
-        "updated": 1685199039040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k4gr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k4gr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000k4gr",
-        "ids": ",us7000k4gr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.964,
-        "rms": 0.95,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 193 km W of Longyearbyen, Svalbard and Jan Mayen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2361,
-          78.6341,
-          10
-        ]
-      },
-      "id": "us7000k4gr"
     }
   ],
   "bbox": [
@@ -1895,7 +1895,7 @@
     -57.922,
     0,
     161.4609,
-    78.6341,
+    78.5114,
     223.835
   ]
 }
