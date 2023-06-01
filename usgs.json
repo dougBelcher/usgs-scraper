@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685610874000,
+    "generated": 1685614654000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Kenai Peninsula, Alaska",
+        "time": 1685612468937,
+        "updated": 1685613623040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236zjagjx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236zjagjx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0236zjagjx",
+        "ids": ",us7000k5ge,ak0236zjagjx,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Kenai Peninsula, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.9094,
+          59.4952,
+          74.3
+        ]
+      },
+      "id": "ak0236zjagjx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.41,
         "place": "12km WSW of Ferndale, CA",
         "time": 1685609836240,
-        "updated": 1685610852170,
+        "updated": 1685613986108,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73894986",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73894986.geojson",
-        "felt": 16,
-        "cdi": 3.3,
+        "felt": 19,
+        "cdi": 3.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 184,
+        "sig": 185,
         "net": "nc",
         "code": "73894986",
-        "ids": ",nc73894986,",
-        "sources": ",nc,",
+        "ids": ",nc73894986,us7000k5ga,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 21,
         "dmin": 0.06098,
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
+        "mag": 4.9,
         "place": "New Britain region, Papua New Guinea",
+        "time": 1685609346216,
+        "updated": 1685611569040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k5g9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k5g9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000k5g9",
+        "ids": ",us7000k5g9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 1.512,
+        "rms": 0.45,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - New Britain region, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9684,
+          -5.7009,
+          10
+        ]
+      },
+      "id": "us7000k5g9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "160 km S of Kokopo, Papua New Guinea",
         "time": 1685608843340,
         "updated": 1685610599040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 164,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Britain region, Papua New Guinea"
+        "title": "M 4.6 - 160 km S of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -255,17 +335,17 @@
         "mag": 2.64,
         "place": "2km NNW of Signal Hill, CA",
         "time": 1685585754100,
-        "updated": 1685608633187,
+        "updated": 1685611529354,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40239415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40239415.geojson",
-        "felt": 941,
+        "felt": 944,
         "cdi": 4.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 521,
+        "sig": 523,
         "net": "ci",
         "code": "40239415",
         "ids": ",ci40239415,",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "10 km NE of Ambon, Indonesia",
+        "place": "Seram, Indonesia",
         "time": 1685570198451,
         "updated": 1685571050040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 10 km NE of Ambon, Indonesia"
+        "title": "M 5.2 - Seram, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.93,
-        "place": "Mona Passage, Dominican Republic",
+        "place": "18 km S of Boca de Yuma, Dominican Republic",
         "time": 1685542929380,
         "updated": 1685546117856,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Mona Passage, Dominican Republic"
+        "title": "M 3.9 - 18 km S of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "106 km N of Ambler, Alaska",
+        "place": "northern Alaska",
         "time": 1685530348007,
         "updated": 1685594266040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 106 km N of Ambler, Alaska"
+        "title": "M 2.5 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -888,54 +968,14 @@
         ]
       },
       "id": "us7000k58b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1685525279838,
-        "updated": 1685526660040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k570",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k570.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000k570",
-        "ids": ",us7000k570,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 4.413,
-        "rms": 0.44,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.7906,
-          -25.1592,
-          558.058
-        ]
-      },
-      "id": "us7000k570"
     }
   ],
   "bbox": [
-    -179.7906,
-    -25.1592,
+    -163.9064,
+    -23.4886,
     4.81,
     171.6923,
     68.0328,
-    558.058
+    176.116
   ]
 }
