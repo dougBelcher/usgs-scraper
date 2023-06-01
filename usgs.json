@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685593114000,
+    "generated": 1685596439000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 24
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 2.64,
         "place": "2km NNW of Signal Hill, CA",
         "time": 1685585754100,
-        "updated": 1685592936364,
+        "updated": 1685596180295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40239415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40239415.geojson",
-        "felt": 881,
-        "cdi": 5,
+        "felt": 906,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 548,
+        "sig": 524,
         "net": "ci",
         "code": "40239415",
         "ids": ",ci40239415,",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "10 km NE of Ambon, Indonesia",
+        "place": "Seram, Indonesia",
         "time": 1685570198451,
         "updated": 1685571050040,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 10 km NE of Ambon, Indonesia"
+        "title": "M 5.2 - Seram, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.93,
-        "place": "Mona Passage, Dominican Republic",
+        "place": "18 km S of Boca de Yuma, Dominican Republic",
         "time": 1685542929380,
         "updated": 1685546117856,
         "tz": null,
@@ -397,7 +397,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Mona Passage, Dominican Republic"
+        "title": "M 3.9 - 18 km S of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -532,42 +532,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "104 km SSE of Sand Point, Alaska",
-        "time": 1685535864882,
-        "updated": 1685548347016,
+        "mag": 3.7,
+        "place": "122 km SSE of Sand Point, Alaska",
+        "time": 1685535863412,
+        "updated": 1685594481040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0236xxft66",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0236xxft66.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k59n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k59n.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "0236xxft66",
-        "ids": ",ak0236xxft66,",
-        "sources": ",ak,",
+        "sig": 211,
+        "net": "us",
+        "code": "7000k59n",
+        "ids": ",ak0236xxft66,us7000k59n,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
+        "nst": 46,
+        "dmin": 1.111,
+        "rms": 0.71,
+        "gap": 200,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.5 - 104 km SSE of Sand Point, Alaska"
+        "title": "M 3.7 - 122 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.9291,
-          54.4575,
-          25.5
+          -159.7267,
+          54.3292,
+          35
         ]
       },
-      "id": "ak0236xxft66"
+      "id": "us7000k59n"
     },
     {
       "type": "Feature",
@@ -648,6 +648,46 @@
         ]
       },
       "id": "us7000k58f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "northern Alaska",
+        "time": 1685530348007,
+        "updated": 1685594266040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k58d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k58d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000k58d",
+        "ids": ",us7000k58d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.664,
+        "rms": 0.54,
+        "gap": 138,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - northern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.087,
+          68.0328,
+          7.589
+        ]
+      },
+      "id": "us7000k58d"
     },
     {
       "type": "Feature",
@@ -935,7 +975,7 @@
     -56.715,
     4.81,
     176.7847,
-    55.3195,
+    68.0328,
     558.058
   ]
 }
