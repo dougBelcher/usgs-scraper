@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685816210000,
+    "generated": 1685819501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -95,7 +95,7 @@
         "mag": 2.49,
         "place": "2 km WSW of Pāhala, Hawaii",
         "time": 1685812495870,
-        "updated": 1685814528556,
+        "updated": 1685818840040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73438217",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73438217.geojson",
@@ -108,8 +108,8 @@
         "sig": 96,
         "net": "hv",
         "code": "73438217",
-        "ids": ",hv73438217,",
-        "sources": ",hv,",
+        "ids": ",hv73438217,us7000k64p,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": null,
@@ -292,24 +292,64 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "151 km S of False Pass, Alaska",
+        "time": 1685806641710,
+        "updated": 1685818404043,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02372xwxf8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02372xwxf8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "02372xwxf8",
+        "ids": ",ak02372xwxf8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 151 km S of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.2189,
+          53.5001,
+          25.6
+        ]
+      },
+      "id": "ak02372xwxf8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "152 km S of False Pass, Alaska",
         "time": 1685805899464,
-        "updated": 1685807410040,
+        "updated": 1685818172689,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k642",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k642.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.795,
+        "mmi": 1.679,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 354,
         "net": "us",
         "code": "7000k642",
-        "ids": ",us7000k642,ak02372xub10,",
-        "sources": ",us,ak,",
+        "ids": ",ak02372xub10,us7000k642,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 89,
         "dmin": 1.341,
@@ -654,27 +694,27 @@
       "properties": {
         "mag": 4.45,
         "place": "2km NW of The Geysers, CA",
-        "time": 1685793678980,
-        "updated": 1685815916966,
+        "time": 1685793678960,
+        "updated": 1685819450425,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73895826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73895826.geojson",
-        "felt": 226,
+        "felt": 229,
         "cdi": 4.3,
-        "mmi": 5.082,
+        "mmi": 4.939,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 402,
+        "sig": 403,
         "net": "nc",
         "code": "73895826",
         "ids": ",ew1685793680,nc73895826,at00rvoeq9,us7000k637,",
         "sources": ",ew,nc,at,us,",
         "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 73,
-        "dmin": 0.007608,
-        "rms": 0.07,
-        "gap": 33,
+        "nst": 106,
+        "dmin": 0.007429,
+        "rms": 0.06,
+        "gap": 25,
         "magType": "mw",
         "type": "earthquake",
         "title": "M 4.5 - 2km NW of The Geysers, CA"
@@ -682,9 +722,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.7783356,
-          38.791832,
-          3.55
+          -122.7785,
+          38.7921667,
+          3.83
         ]
       },
       "id": "nc73895826"
@@ -2968,46 +3008,6 @@
         ]
       },
       "id": "pr71412133"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "103 km NNW of San Antonio de los Cobres, Argentina",
-        "time": 1685732330944,
-        "updated": 1685751885850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k5vc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k5vc.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000k5vc",
-        "ids": ",us7000k5vc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.353,
-        "rms": 0.96,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 103 km NNW of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7866,
-          -23.3888,
-          203.693
-        ]
-      },
-      "id": "us7000k5vc"
     }
   ],
   "bbox": [
