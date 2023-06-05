@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685956490000,
+    "generated": 1685960150000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Tonga",
+        "time": 1685958095010,
+        "updated": 1685959627040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6df",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6df.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000k6df",
+        "ids": ",us7000k6df,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 2.975,
+        "rms": 0.36,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.5061,
+          -15.1165,
+          10
+        ]
+      },
+      "id": "us7000k6df"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.46,
         "place": "6km E of Santa Rosa, CA",
         "time": 1685953339440,
-        "updated": 1685956282357,
+        "updated": 1685959708938,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73897186",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73897186.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -335,17 +375,17 @@
         "mag": 4.5,
         "place": "Guam region",
         "time": 1685927547330,
-        "updated": 1685932899384,
+        "updated": 1685959405221,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6bk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6bk.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 314,
+        "sig": 315,
         "net": "us",
         "code": "7000k6bk",
         "ids": ",us7000k6bk,",
@@ -1168,94 +1208,14 @@
         ]
       },
       "id": "us7000k695"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Minahasa, Sulawesi, Indonesia",
-        "time": 1685873726085,
-        "updated": 1685874551040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k68i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k68i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000k68i",
-        "ids": ",us7000k68i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.873,
-        "rms": 0.47,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Minahasa, Sulawesi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2208,
-          0.4379,
-          560.69
-        ]
-      },
-      "id": "us7000k68i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "3 km N of West Canton, North Carolina",
-        "time": 1685873375060,
-        "updated": 1685948046760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60500788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60500788.geojson",
-        "felt": 619,
-        "cdi": 3.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 378,
-        "net": "se",
-        "code": "60500788",
-        "ids": ",us7000k68h,se60500788,",
-        "sources": ",us,se,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1056,
-        "rms": 0.22,
-        "gap": 106,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 3 km N of West Canton, North Carolina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.8641666666667,
-          35.5723333333333,
-          2.9
-        ]
-      },
-      "id": "se60500788"
     }
   ],
   "bbox": [
-    -157.4143,
+    -173.5061,
     -62.3246,
     -0.05,
     179.7521,
     59.2698,
-    560.69
+    490.621
   ]
 }
