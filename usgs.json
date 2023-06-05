@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1685996091000,
+    "generated": 1685999515000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "31 km NE of Circle, Alaska",
+        "time": 1685997277830,
+        "updated": 1685997430804,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02376by6ef",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02376by6ef.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02376by6ef",
+        "ids": ",ak02376by6ef,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.84,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 31 km NE of Circle, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.5677,
+          66.0283,
+          0
+        ]
+      },
+      "id": "ak02376by6ef"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,12 +455,12 @@
         "mag": 4.6,
         "place": "13 km NNW of Upahuacho, Peru",
         "time": 1685968997051,
-        "updated": 1685970397040,
+        "updated": 1685996126048,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6e9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6e9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +470,7 @@
         "code": "7000k6e9",
         "ids": ",us7000k6e9,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 4.317,
         "rms": 0.47,
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us7000k6at"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "222 km SSW of Dunhuang, China",
-        "time": 1685911148812,
-        "updated": 1685912517040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6al",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6al.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000k6al",
-        "ids": ",us7000k6al,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 8.339,
-        "rms": 0.8,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 222 km SSW of Dunhuang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.6793,
-          38.316,
-          10
-        ]
-      },
-      "id": "us7000k6al"
     }
   ],
   "bbox": [
