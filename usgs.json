@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686161886000,
+    "generated": 1686165075000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "Kodiak Island region, Alaska",
+        "time": 1686164116526,
+        "updated": 1686164201355,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02379lygkk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02379lygkk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "02379lygkk",
+        "ids": ",ak02379lygkk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Kodiak Island region, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.4254,
+          58.7606,
+          14.8
+        ]
+      },
+      "id": "ak02379lygkk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 5.6,
         "place": "139 km S of Wonosari, Indonesia",
         "time": 1686157495860,
-        "updated": 1686161671020,
+        "updated": 1686164889798,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6xu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6xu.geojson",
-        "felt": 15,
+        "felt": 18,
         "cdi": 4.4,
         "mmi": 3.28,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 489,
+        "sig": 490,
         "net": "us",
         "code": "7000k6xu",
         "ids": ",us7000k6xu,",
@@ -1495,11 +1535,11 @@
         "mag": 3.0300000000000002,
         "place": "8 km NNE of Government Camp, Oregon",
         "time": 1686087315240,
-        "updated": 1686153438742,
+        "updated": 1686162250730,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61930961",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61930961.geojson",
-        "felt": 35,
+        "felt": 36,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1608,86 +1648,6 @@
         ]
       },
       "id": "us7000k6q0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "33 km ENE of Circle, Alaska",
-        "time": 1686077722166,
-        "updated": 1686156460040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02377yf4j8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02377yf4j8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "02377yf4j8",
-        "ids": ",us7000k6pf,ak02377yf4j8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 33 km ENE of Circle, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.446,
-          65.9944,
-          9
-        ]
-      },
-      "id": "ak02377yf4j8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "41 km ESE of La Plaine, Dominica",
-        "time": 1686075795652,
-        "updated": 1686078257040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k6pa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k6pa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000k6pa",
-        "ids": ",us7000k6pa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.491,
-        "rms": 0.43,
-        "gap": 157,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 41 km ESE of La Plaine, Dominica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.8788,
-          15.2057,
-          123.781
-        ]
-      },
-      "id": "us7000k6pa"
     }
   ],
   "bbox": [
@@ -1695,7 +1655,7 @@
     -60.4502,
     -0.34999999403954,
     170.3839,
-    65.9944,
+    62.7329,
     605.537
   ]
 }
