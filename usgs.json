@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686486428000,
+    "generated": 1686489319000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "2km N of Prattville, CA",
+        "time": 1686487735930,
+        "updated": 1686489010552,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73899941",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73899941.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "73899941",
+        "ids": ",nc73899941,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.3321,
+        "rms": 0.26,
+        "gap": 80,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2km N of Prattville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1561661,
+          40.2218323,
+          -0.35
+        ]
+      },
+      "id": "nc73899941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "127 km NNE of Labuan Bajo, Indonesia",
+        "time": 1686487621884,
+        "updated": 1686488525040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7tx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7tx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000k7tx",
+        "ids": ",us7000k7tx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.28,
+        "rms": 0.94,
+        "gap": 50,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 127 km NNE of Labuan Bajo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2871,
+          -7.416,
+          399.853
+        ]
+      },
+      "id": "us7000k7tx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Taiwan region",
+        "time": 1686486338663,
+        "updated": 1686488056861,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7tt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7tt.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000k7tt",
+        "ids": ",us7000k7tt,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.546,
+        "rms": 0.57,
+        "gap": 74,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.7 - Taiwan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4863,
+          24.2047,
+          51.676
+        ]
+      },
+      "id": "us7000k7tt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "9 km SE of Kasilof, Alaska",
         "time": 1686485396667,
         "updated": 1686485803040,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Kenai Peninsula, Alaska"
+        "title": "M 2.9 - 9 km SE of Kasilof, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "49 km SSE of Perryville, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1686471818817,
         "updated": 1686471934203,
         "tz": null,
@@ -237,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 49 km SSE of Perryville, Alaska"
+        "title": "M 2.5 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -575,11 +695,11 @@
         "mag": 4.1,
         "place": "8 km SW of Kuşadası, Turkey",
         "time": 1686458522153,
-        "updated": 1686482176042,
+        "updated": 1686487925272,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7rj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7rj.geojson",
-        "felt": 13,
+        "felt": 14,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "151 km S of Kokopo, Papua New Guinea",
+        "place": "New Britain region, Papua New Guinea",
         "time": 1686455819210,
         "updated": 1686457128040,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 151 km S of Kokopo, Papua New Guinea"
+        "title": "M 4.8 - New Britain region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.32,
-        "place": "83 km NNE of Punta Cana, Dominican Republic",
+        "place": "Mona Passage",
         "time": 1686455687690,
         "updated": 1686457230920,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 332,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 83 km NNE of Punta Cana, Dominican Republic"
+        "title": "M 3.3 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -895,17 +1015,17 @@
         "mag": 5,
         "place": "South Africa",
         "time": 1686443932455,
-        "updated": 1686486257614,
+        "updated": 1686489044542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7q8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7q8.geojson",
-        "felt": 1281,
-        "cdi": 5.8,
+        "felt": 1294,
+        "cdi": 5.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 965,
+        "sig": 975,
         "net": "us",
         "code": "7000k7q8",
         "ids": ",us7000k7q8,",
@@ -1613,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Tarapaca-Antofagasta border region, Chile",
+        "place": "82 km NNE of María Elena, Chile",
         "time": 1686409606970,
         "updated": 1686460718215,
         "tz": null,
@@ -1637,7 +1757,7 @@
         "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Tarapaca-Antofagasta border region, Chile"
+        "title": "M 4.6 - 82 km NNE of María Elena, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1808,52 +1928,12 @@
         ]
       },
       "id": "us7000k7mt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "south of the Fiji Islands",
-        "time": 1686401007422,
-        "updated": 1686402079040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k7mr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k7mr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000k7mr",
-        "ids": ",us7000k7mr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 5.337,
-        "rms": 0.99,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.9849,
-          -24.2337,
-          510.126
-        ]
-      },
-      "id": "us7000k7mr"
     }
   ],
   "bbox": [
-    -179.9849,
+    -179.8783,
     -55.9331,
-    -0.07,
+    -0.35,
     178.3222,
     67.4526,
     518.463
