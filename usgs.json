@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686673140000,
+    "generated": 1686676317000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "134 km WSW of Adak, Alaska",
+        "time": 1686672962390,
+        "updated": 1686675373300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k86m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k86m.geojson",
+        "felt": 1,
+        "cdi": 5.4,
+        "mmi": 5.956,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 433,
+        "net": "us",
+        "code": "7000k86m",
+        "ids": ",us7000k86m,at00rw796s,ak0237jhra9p,",
+        "sources": ",us,at,ak,",
+        "types": ",dyfi,impact-link,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 113,
+        "dmin": 0.257,
+        "rms": 0.77,
+        "gap": 141,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 134 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4426,
+          51.4427,
+          16.252
+        ]
+      },
+      "id": "us7000k86m"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.61,
         "place": "14km ESE of Wofford Heights, CA",
         "time": 1686671516840,
-        "updated": 1686672614225,
+        "updated": 1686673593040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40484736.geojson",
@@ -28,8 +68,8 @@
         "sig": 106,
         "net": "ci",
         "code": "40484736",
-        "ids": ",ci40484736,",
-        "sources": ",ci,",
+        "ids": ",ci40484736,us7000k86h,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 36,
         "dmin": 0.0568,
@@ -53,23 +93,23 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "112 km E of Atka, Alaska",
         "time": 1686669619326,
-        "updated": 1686672321040,
+        "updated": 1686675333407,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k86f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k86f.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.476,
+        "mmi": 1.839,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "us",
         "code": "7000k86f",
-        "ids": ",us7000k86f,ak0237jh6qqd,",
-        "sources": ",us,ak,",
+        "ids": ",ak0237jh6qqd,us7000k86f,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 25,
         "dmin": 2.155,
@@ -77,7 +117,7 @@
         "gap": 200,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.7 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.7 - 112 km E of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "51 km SSW of Andalgalá, Argentina",
+        "place": "Catamarca, Argentina",
         "time": 1686641718336,
         "updated": 1686657429040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 51 km SSW of Andalgalá, Argentina"
+        "title": "M 4.5 - Catamarca, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.58,
-        "place": "5 km NE of Animas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1686639513800,
         "updated": 1686640187330,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 134,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 5 km NE of Animas, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.81,
-        "place": "Puerto Rico region",
+        "place": "3 km ESE of Jauca, Puerto Rico",
         "time": 1686625979030,
         "updated": 1686626711970,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 185,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 3 km ESE of Jauca, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "6 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1686622822410,
         "updated": 1686623645660,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 205,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 6 km WSW of Guánica, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "3 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1686601690800,
         "updated": 1686602631580,
         "tz": null,
@@ -1037,7 +1077,7 @@
         "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 3 km SW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "western Texas",
+        "place": "53 km S of Whites City, New Mexico",
         "time": 1686594325068,
         "updated": 1686595859543,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - western Texas"
+        "title": "M 2.9 - 53 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1131,7 +1171,7 @@
     }
   ],
   "bbox": [
-    -175.7449,
+    -178.4426,
     -27.9716,
     2.89,
     162.1042,
