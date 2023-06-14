@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686751980000,
+    "generated": 1686755649000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "6 km ENE of La Parguera, Puerto Rico",
+        "time": 1686752585830,
+        "updated": 1686755415370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71413463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71413463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "pr",
+        "code": "71413463",
+        "ids": ",pr71413463,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.06026,
+        "rms": 0.19,
+        "gap": 126,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km ENE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9911666666667,
+          18.0025,
+          8.14
+        ]
+      },
+      "id": "pr71413463"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.1,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1686744933949,
-        "updated": 1686745928040,
+        "updated": 1686754468123,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8df",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8df.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.219,
+        "mmi": 1.893,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 259,
         "net": "us",
         "code": "7000k8df",
-        "ids": ",us7000k8df,ak0237l2wrbz,",
-        "sources": ",us,ak,",
+        "ids": ",ak0237l2wrbz,us7000k8df,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 46,
         "dmin": 1.102,
@@ -1215,11 +1255,11 @@
         "mag": 3.9,
         "place": "26 km SW of Susitna, Alaska",
         "time": 1686686893519,
-        "updated": 1686725486251,
+        "updated": 1686752111768,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237jk3bt8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237jk3bt8.geojson",
-        "felt": 161,
+        "felt": 162,
         "cdi": 3.4,
         "mmi": 2.894,
         "alert": null,
@@ -1412,10 +1452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5.2,
         "place": "Kermadec Islands, New Zealand",
-        "time": 1686677895897,
-        "updated": 1686682667040,
+        "time": 1686677894819,
+        "updated": 1686754285040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k87x",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k87x.geojson",
@@ -1425,26 +1465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 416,
         "net": "us",
         "code": "7000k87x",
         "ids": ",us7000k87x,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 82,
-        "dmin": 0.747,
-        "rms": 0.92,
-        "gap": 73,
+        "nst": 137,
+        "dmin": 0.742,
+        "rms": 0.64,
+        "gap": 53,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Kermadec Islands, New Zealand"
+        "title": "M 5.2 - Kermadec Islands, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.0733,
-          -29.3664,
-          23.142
+          -177.0835,
+          -29.3917,
+          17.564
         ]
       },
       "id": "us7000k87x"
@@ -1454,8 +1494,8 @@
       "properties": {
         "mag": 5.2,
         "place": "Kermadec Islands, New Zealand",
-        "time": 1686675801208,
-        "updated": 1686681498040,
+        "time": 1686675801242,
+        "updated": 1686753000040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k87z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k87z.geojson",
@@ -1471,10 +1511,10 @@
         "ids": ",us7000k87z,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.594,
-        "rms": 1.05,
-        "gap": 126,
+        "nst": 105,
+        "dmin": 0.56,
+        "rms": 0.81,
+        "gap": 74,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.2 - Kermadec Islands, New Zealand"
@@ -1482,9 +1522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.2486,
-          -29.1697,
-          57.26
+          -177.2825,
+          -29.2047,
+          57.762
         ]
       },
       "id": "us7000k87z"
@@ -1495,7 +1535,7 @@
         "mag": 5.4,
         "place": "Kermadec Islands region",
         "time": 1686675696412,
-        "updated": 1686751530415,
+        "updated": 1686752753917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k87y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k87y.geojson",
