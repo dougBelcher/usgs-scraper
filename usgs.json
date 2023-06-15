@@ -1,43 +1,83 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686796746000,
+    "generated": 1686798906000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "64 km S of Cantwell, Alaska",
+        "time": 1686798627171,
+        "updated": 1686798734060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237ml2419",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237ml2419.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "0237ml2419",
+        "ids": ",ak0237ml2419,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 64 km S of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.975,
+          62.8097,
+          56.9
+        ]
+      },
+      "id": "ak0237ml2419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.2,
-        "place": "5 km S of Hukay, Philippines",
+        "place": "Mindoro, Philippines",
         "time": 1686795565261,
-        "updated": 1686796729313,
+        "updated": 1686798658875,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8jz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8jz.geojson",
-        "felt": 21,
+        "felt": 122,
         "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
+        "mmi": 4.75,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 603,
+        "sig": 656,
         "net": "us",
         "code": "7000k8jz",
         "ids": ",us7000k8jz,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 83,
         "dmin": 8.981,
         "rms": 0.84,
         "gap": 41,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.2 - 5 km S of Hukay, Philippines"
+        "title": "M 6.2 - Mindoro, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -215,12 +255,12 @@
         "mag": 4.4,
         "place": "Taiwan",
         "time": 1686787137958,
-        "updated": 1686789280040,
+        "updated": 1686796784792,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8jg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8jg.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +270,7 @@
         "code": "7000k8jg",
         "ids": ",us7000k8jg,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 37,
         "dmin": 0.261,
         "rms": 0.75,
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "88 km NW of Tobelo, Indonesia",
+        "place": "Molucca Sea",
         "time": 1686766147606,
         "updated": 1686771308040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 88 km NW of Tobelo, Indonesia"
+        "title": "M 4.5 - Molucca Sea"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "Puerto Rico region",
+        "place": "6 km ENE of La Parguera, Puerto Rico",
         "time": 1686752585830,
         "updated": 1686755415370,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 126,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 6 km ENE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "13 km ENE of Pāhala, Hawaii",
         "time": 1686741446540,
         "updated": 1686784750350,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 133,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Island of Hawaii, Hawaii"
+        "title": "M 2.8 - 13 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "34 km E of Nelson, Canada",
+        "place": "British Columbia, Canada",
         "time": 1686740996730,
         "updated": 1686751365080,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 227,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 34 km E of Nelson, Canada"
+        "title": "M 2.5 - British Columbia, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "northern Alaska",
+        "place": "38 km SSE of Kivalina, Alaska",
         "time": 1686734699381,
         "updated": 1686739612040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 206,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - northern Alaska"
+        "title": "M 3.2 - 38 km SSE of Kivalina, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "186 km SW of Tual, Indonesia",
+        "place": "Kepulauan Tanimbar, Indonesia",
         "time": 1686733780300,
         "updated": 1686739434040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 186 km SW of Tual, Indonesia"
+        "title": "M 4.5 - Kepulauan Tanimbar, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "39 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1686714385421,
         "updated": 1686791363040,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 39 km NW of Toyah, Texas"
+        "title": "M 3.2 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1168,86 +1208,6 @@
         ]
       },
       "id": "tx2023lnxz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.97,
-        "place": "Puerto Rico region",
-        "time": 1686712423940,
-        "updated": 1686789686040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71413373",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71413373.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 136,
-        "net": "pr",
-        "code": "71413373",
-        "ids": ",pr71413373,us7000k8ca,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.06906,
-        "rms": 0.22,
-        "gap": 45,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9443333333333,
-          18.1251666666667,
-          21.58
-        ]
-      },
-      "id": "pr71413373"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "3 km NNE of Sabana Grande, Puerto Rico",
-        "time": 1686712397140,
-        "updated": 1686787857019,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023165004",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023165004.geojson",
-        "felt": 11,
-        "cdi": 3.4,
-        "mmi": 2.529,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 203,
-        "net": "pr",
-        "code": "2023165004",
-        "ids": ",pr2023165004,us7000k8bk,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 24,
-        "dmin": 0.1485,
-        "rms": 0.3,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 3 km NNE of Sabana Grande, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9516,
-          18.1121,
-          20
-        ]
-      },
-      "id": "pr2023165004"
     }
   ],
   "bbox": [
