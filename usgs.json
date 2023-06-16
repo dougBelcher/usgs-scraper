@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1686913870000,
+    "generated": 1686918551000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "269 km SSW of ‘Ohonua, Tonga",
+        "time": 1686916088246,
+        "updated": 1686917293040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8wn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8wn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000k8wn",
+        "ids": ",us7000k8wn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 2.554,
+        "rms": 1.01,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 269 km SSW of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5352,
+          -23.717,
+          30.342
+        ]
+      },
+      "id": "us7000k8wn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "33 km SSW of White Mountain, Alaska",
+        "time": 1686914887557,
+        "updated": 1686915616040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8wi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8wi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000k8wi",
+        "ids": ",us7000k8wi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.669,
+        "rms": 0.39,
+        "gap": 92,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - 33 km SSW of White Mountain, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6858,
+          64.4022,
+          14.986
+        ]
+      },
+      "id": "us7000k8wi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Banda Sea",
+        "time": 1686914050547,
+        "updated": 1686917889583,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8wg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8wg.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000k8wg",
+        "ids": ",us7000k8wg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.078,
+        "rms": 0.74,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.7419,
+          -6.6081,
+          165.868
+        ]
+      },
+      "id": "us7000k8wg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
-        "place": "Central Alaska",
+        "place": "65 km NE of Susitna North, Alaska",
         "time": 1686912804875,
         "updated": 1686912910095,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Central Alaska"
+        "title": "M 2.8 - 65 km NE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -53,9 +173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "254 km SSW of ‘Ohonua, Tonga",
-        "time": 1686912324817,
-        "updated": 1686913722586,
+        "place": "255 km SSW of ‘Ohonua, Tonga",
+        "time": 1686912324145,
+        "updated": 1686915684612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8we",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8we.geojson",
@@ -70,24 +190,64 @@
         "code": "7000k8we",
         "ids": ",us7000k8we,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 67,
-        "dmin": 2.421,
-        "rms": 2.07,
-        "gap": 76,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 90,
+        "dmin": 2.42,
+        "rms": 0.63,
+        "gap": 93,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 254 km SSW of ‘Ohonua, Tonga"
+        "title": "M 5.7 - 255 km SSW of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.5099,
-          -23.5856,
-          10.641
+          -175.5291,
+          -23.5827,
+          10
         ]
       },
       "id": "us7000k8we"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "266 km SSW of ‘Ohonua, Tonga",
+        "time": 1686910709357,
+        "updated": 1686917363040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8wb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8wb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000k8wb",
+        "ids": ",us7000k8wb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.479,
+        "rms": 0.86,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 266 km SSW of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.9558,
+          -23.5602,
+          35
+        ]
+      },
+      "id": "us7000k8wb"
     },
     {
       "type": "Feature",
@@ -173,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Tonga region",
+        "place": "260 km SSW of ‘Ohonua, Tonga",
         "time": 1686905463575,
         "updated": 1686906496040,
         "tz": null,
@@ -197,7 +357,7 @@
         "gap": 120,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Tonga region"
+        "title": "M 4.9 - 260 km SSW of ‘Ohonua, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "29 km SSW of White Mountain, Alaska",
+        "place": "northern Alaska",
         "time": 1686902448799,
         "updated": 1686903312040,
         "tz": null,
@@ -317,7 +477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 29 km SSW of White Mountain, Alaska"
+        "title": "M 3.3 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -495,12 +655,12 @@
         "mag": 3.8,
         "place": "135 km N of Suárez, Puerto Rico",
         "time": 1686893884770,
-        "updated": 1686895981152,
+        "updated": 1686917235363,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023167000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023167000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +670,7 @@
         "code": "2023167000",
         "ids": ",pr2023167000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 7,
         "dmin": 1.3854,
         "rms": 0.31,
@@ -533,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Oaxaca-Veracruz border region, Mexico",
+        "place": "4 km S of Nuevo Ixcatlán, Mexico",
         "time": 1686892468643,
         "updated": 1686893430040,
         "tz": null,
@@ -557,7 +717,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Oaxaca-Veracruz border region, Mexico"
+        "title": "M 4.2 - 4 km S of Nuevo Ixcatlán, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -573,13 +733,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "India-Bangladesh border region",
+        "place": "23 km SE of Sylhet, Bangladesh",
         "time": 1686890771403,
-        "updated": 1686912022569,
+        "updated": 1686916153282,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8uw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k8uw.geojson",
-        "felt": 47,
+        "felt": 48,
         "cdi": 6.8,
         "mmi": null,
         "alert": null,
@@ -597,7 +757,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - India-Bangladesh border region"
+        "title": "M 5.0 - 23 km SE of Sylhet, Bangladesh"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "6 km WSW of Santiago Xanica, Mexico",
+        "place": "near the coast of Oaxaca, Mexico",
         "time": 1686881024760,
         "updated": 1686896834621,
         "tz": null,
@@ -677,7 +837,7 @@
         "gap": 172,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 6 km WSW of Santiago Xanica, Mexico"
+        "title": "M 4.8 - near the coast of Oaxaca, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "13 km ENE of Minto, Alaska",
+        "place": "northern Alaska",
         "time": 1686877940960,
         "updated": 1686879244040,
         "tz": null,
@@ -797,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 13 km ENE of Minto, Alaska"
+        "title": "M 2.6 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -932,6 +1092,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "23 km SW of Jal, New Mexico",
+        "time": 1686871670106,
+        "updated": 1686914425583,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023lrgm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023lrgm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023lrgm",
+        "ids": ",tx2023lrgm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.03069787557,
+        "rms": 0.1,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 23 km SW of Jal, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3461734,
+          31.94501103,
+          7.905419922
+        ]
+      },
+      "id": "tx2023lrgm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
         "place": "65 km SSW of Palaióchora, Greece",
         "time": 1686866570378,
@@ -1013,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.69,
-        "place": "143 km NE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Leeward Islands",
         "time": 1686860458120,
         "updated": 1686862986729,
         "tz": null,
@@ -1037,7 +1237,7 @@
         "gap": 301,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 143 km NE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.7 - Leeward Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 7.2,
-        "place": "280 km SW of Houma, Tonga",
+        "place": "south of the Fiji Islands",
         "time": 1686852387791,
         "updated": 1686906378809,
         "tz": null,
@@ -1117,7 +1317,7 @@
         "gap": 24,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.2 - 280 km SW of Houma, Tonga"
+        "title": "M 7.2 - south of the Fiji Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "61 km SSW of Nanwalek, Alaska",
+        "place": "Kodiak Island region, Alaska",
         "time": 1686852370734,
         "updated": 1686852451280,
         "tz": null,
@@ -1157,7 +1357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 61 km SSW of Nanwalek, Alaska"
+        "title": "M 2.7 - Kodiak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "186 km N of Las Khorey, Somalia",
+        "place": "Gulf of Aden",
         "time": 1686843613300,
         "updated": 1686844912040,
         "tz": null,
@@ -1357,7 +1557,7 @@
         "gap": 72,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 186 km N of Las Khorey, Somalia"
+        "title": "M 4.9 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1368,94 +1568,14 @@
         ]
       },
       "id": "us7000k8nx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "northern Alaska",
-        "time": 1686831506189,
-        "updated": 1686837638402,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237mqgq0i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237mqgq0i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "0237mqgq0i",
-        "ids": ",us7000k8mr,ak0237mqgq0i,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.72,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - northern Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.0414,
-          66.3698,
-          21.2
-        ]
-      },
-      "id": "ak0237mqgq0i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "4km NE of Almanor, CA",
-        "time": 1686829913770,
-        "updated": 1686871693307,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73901331",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73901331.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "nc",
-        "code": "73901331",
-        "ids": ",nc73901331,us7000k8mn,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.007624,
-        "rms": 0.28,
-        "gap": 28,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 4km NE of Almanor, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1515,
-          40.2416667,
-          5.89
-        ]
-      },
-      "id": "nc73901331"
     }
   ],
   "bbox": [
     -177.2075,
     -34.5191,
-    5.89,
+    6.483,
     162.8089,
-    66.3698,
+    65.1787,
     167.404
   ]
 }
