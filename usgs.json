@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687029017000,
+    "generated": 1687032857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.7,
         "place": "Samoa Islands region",
         "time": 1687027497485,
-        "updated": 1687028966284,
+        "updated": 1687029585250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k98q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k98q.geojson",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "us7000k98q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "51 km N of San Juan, Puerto Rico",
+        "time": 1687026645940,
+        "updated": 1687029633790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71413778",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71413778.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "pr",
+        "code": "71413778",
+        "ids": ",pr71413778,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.5599,
+        "rms": 0.18,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 51 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1796666666667,
+          18.9306666666667,
+          19.9
+        ]
+      },
+      "id": "pr71413778"
     },
     {
       "type": "Feature",
@@ -1375,17 +1415,17 @@
         "mag": 2.55,
         "place": "2 km N of Pembroke, Virginia",
         "time": 1686965498880,
-        "updated": 1687026519497,
+        "updated": 1687032818932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60500853",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60500853.geojson",
-        "felt": 16,
-        "cdi": 3.3,
+        "felt": 18,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 105,
+        "sig": 106,
         "net": "se",
         "code": "60500853",
         "ids": ",us7000k951,se60500853,",
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "us7000k92j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Bonin Islands, Japan region",
-        "time": 1686944625864,
-        "updated": 1686953192040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k924",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k924.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000k924",
-        "ids": ",us7000k924,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 132,
-        "dmin": 4.134,
-        "rms": 0.65,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Bonin Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.4108,
-          28.9831,
-          410.969
-        ]
-      },
-      "id": "us7000k924"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "243 km SSW of ‘Ohonua, Tonga",
-        "time": 1686942650520,
-        "updated": 1687019092669,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k91w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k91w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 591,
-        "net": "us",
-        "code": "7000k91w",
-        "ids": ",us7000k91w,pt23167002,",
-        "sources": ",us,pt,",
-        "types": ",ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 107,
-        "dmin": 2.315,
-        "rms": 1.01,
-        "gap": 53,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.2 - 243 km SSW of ‘Ohonua, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.5092,
-          -23.478,
-          16
-        ]
-      },
-      "id": "us7000k91w"
     }
   ],
   "bbox": [
