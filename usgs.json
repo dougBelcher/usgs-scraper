@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687072382000,
+    "generated": 1687076172000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Kermadec Islands",
+        "time": 1687071376197,
+        "updated": 1687072649040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9be",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9be.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000k9be",
+        "ids": ",us7000k9be,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.942,
+        "rms": 0.97,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.2136,
+          -33.057,
+          57.51
+        ]
+      },
+      "id": "us7000k9be"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 4.35,
         "place": "8km SE of Talmage, CA",
         "time": 1687059899090,
-        "updated": 1687072209311,
+        "updated": 1687074855214,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73902356",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73902356.geojson",
-        "felt": 423,
+        "felt": 426,
         "cdi": 4.3,
         "mmi": 4.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 473,
+        "sig": 474,
         "net": "nc",
         "code": "73902356",
         "ids": ",ew1687059900,at00rwfjqz,nc73902356,us7000k9ai,",
@@ -1731,7 +1771,7 @@
     }
   ],
   "bbox": [
-    -177.5784,
+    -179.2136,
     -34.8795,
     2.01,
     150.6543,
