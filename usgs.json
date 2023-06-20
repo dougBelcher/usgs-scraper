@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687238057000,
+    "generated": 1687241958000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1687238722146,
+        "updated": 1687241360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9t5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9t5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.706,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000k9t5",
+        "ids": ",ak0237uw0x26,us7000k9t5,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 42,
+        "dmin": 0.466,
+        "rms": 0.58,
+        "gap": 207,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.0514,
+          51.5805,
+          51.84
+        ]
+      },
+      "id": "us7000k9t5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "28 km NE of Akhiok, Alaska",
+        "time": 1687238216851,
+        "updated": 1687240595763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237uvz28s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237uvz28s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "0237uvz28s",
+        "ids": ",us7000k9t0,ak0237uvz28s,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 28 km NE of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.8385,
+          57.1267,
+          11.4
+        ]
+      },
+      "id": "ak0237uvz28s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,39 +132,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.78,
-        "place": "3 km SW of Volcano, Hawaii",
-        "time": 1687237011780,
-        "updated": 1687237695659,
+        "mag": 2.45,
+        "place": "Island of Hawaii, Hawaii",
+        "time": 1687237011800,
+        "updated": 1687238757926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73456007",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73456007.geojson",
-        "felt": 6,
-        "cdi": 2.7,
+        "felt": 8,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 95,
         "net": "hv",
         "code": "73456007",
         "ids": ",hv73456007,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
+        "nst": 32,
         "dmin": null,
-        "rms": 0.159999996,
-        "gap": 40,
+        "rms": 0.09,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 3 km SW of Volcano, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.261337280273,
-          19.4190006256104,
-          -0.0700000002980232
+          -155.261833333333,
+          19.4223333333333,
+          0.13
         ]
       },
       "id": "hv73456007"
@@ -95,12 +175,12 @@
         "mag": 5.2,
         "place": "284 km S of ‘Ohonua, Tonga",
         "time": 1687232734816,
-        "updated": 1687234533040,
+        "updated": 1687239464934,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9sj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9sj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "7000k9sj",
         "ids": ",us7000k9sj,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 2.733,
         "rms": 0.84,
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "61 km SSE of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1687225541347,
         "updated": 1687227586040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 61 km SSE of Pondaguitan, Philippines"
+        "title": "M 4.6 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -292,8 +372,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.5,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1687222758333,
+        "updated": 1687240273377,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237ut9278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237ut9278.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "0237ut9278",
+        "ids": ",ak0237ut9278,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.71,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.7788,
+          50.2428,
+          4.7
+        ]
+      },
+      "id": "ak0237ut9278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.48,
-        "place": "4 km SW of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1687219867660,
         "updated": 1687237525712,
         "tz": null,
@@ -317,7 +437,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SW of Pāhala, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Romania",
+        "place": "1 km E of Cașoca, Romania",
         "time": 1687214700758,
         "updated": 1687216014040,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Romania"
+        "title": "M 4.1 - 1 km E of Cașoca, Romania"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "248 km WNW of Houma, Tonga",
+        "place": "Fiji region",
         "time": 1687213932546,
         "updated": 1687214984040,
         "tz": null,
@@ -477,7 +597,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 248 km WNW of Houma, Tonga"
+        "title": "M 4.6 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Halmahera, Indonesia",
+        "place": "50 km NE of Tobelo, Indonesia",
         "time": 1687209389134,
         "updated": 1687210301040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Halmahera, Indonesia"
+        "title": "M 5.2 - 50 km NE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -615,17 +735,17 @@
         "mag": 2.5,
         "place": "1km N of Pacifica, CA",
         "time": 1687200380390,
-        "updated": 1687237324975,
+        "updated": 1687240794297,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73902991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73902991.geojson",
-        "felt": 132,
+        "felt": 134,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 138,
         "net": "nc",
         "code": "73902991",
         "ids": ",nc73902991,",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "northern Alaska",
+        "place": "104 km NE of Wiseman, Alaska",
         "time": 1687187028146,
         "updated": 1687192719040,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - northern Alaska"
+        "title": "M 2.7 - 104 km NE of Wiseman, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Colorado",
+        "place": "6 km WNW of Hoehne, Colorado",
         "time": 1687184336000,
         "updated": 1687220623958,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Colorado"
+        "title": "M 4.3 - 6 km WNW of Hoehne, Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "8 km N of El Moro, Colorado",
+        "place": "Colorado",
         "time": 1687183986875,
         "updated": 1687222663955,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 8 km N of El Moro, Colorado"
+        "title": "M 3.8 - Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "128 km E of La Playa, Mexico",
+        "place": "Gulf of California",
         "time": 1687164911300,
         "updated": 1687227824986,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 145,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 128 km E of La Playa, Mexico"
+        "title": "M 5.2 - Gulf of California"
       },
       "geometry": {
         "type": "Point",
@@ -1408,53 +1528,13 @@
         ]
       },
       "id": "ci40488576"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "228 km S of Burica, Panama",
-        "time": 1687151954479,
-        "updated": 1687152971040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9il",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9il.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000k9il",
-        "ids": ",us7000k9il,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 3.311,
-        "rms": 1.2,
-        "gap": 88,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 228 km S of Burica, Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.7326,
-          5.969,
-          10
-        ]
-      },
-      "id": "us7000k9il"
     }
   ],
   "bbox": [
     -177.5581,
     -23.9108,
     -1.41,
-    153.1857,
+    178.7788,
     67.9423,
     486.263
   ]
