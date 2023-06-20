@@ -1,43 +1,163 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687252388000,
+    "generated": 1687256108000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 42
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.68,
+        "place": "Oklahoma",
+        "time": 1687253374491,
+        "updated": 1687255792812,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023lzii",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023lzii.geojson",
+        "felt": 3,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ok",
+        "code": "2023lzii",
+        "ids": ",ok2023lzii,us7000k9u1,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 66,
+        "dmin": 0.06530272961,
+        "rms": 0.6673470849,
+        "gap": 30.3062439,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53720856,
+          35.1373558,
+          1.058426142
+        ]
+      },
+      "id": "ok2023lzii"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "76 km NNE of San Pedro de Atacama, Chile",
+        "time": 1687251870487,
+        "updated": 1687254026040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9tr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9tr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000k9tr",
+        "ids": ",us7000k9tr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.711,
+        "rms": 0.62,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 76 km NNE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7983,
+          -22.331,
+          176.354
+        ]
+      },
+      "id": "us7000k9tr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Banda Sea",
+        "time": 1687251400210,
+        "updated": 1687252433040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9tq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9tq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000k9tq",
+        "ids": ",us7000k9tq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.592,
+        "rms": 0.6,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0608,
+          -5.6286,
+          93.708
+        ]
+      },
+      "id": "us7000k9tq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
-        "place": "159 km NW of Tuapejat, Indonesia",
+        "place": "Kepulauan Batu, Indonesia",
         "time": 1687250358170,
-        "updated": 1687251873844,
+        "updated": 1687255427212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9ti",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9ti.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 5.063,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 466,
         "net": "us",
         "code": "7000k9ti",
         "ids": ",us7000k9ti,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 118,
         "dmin": 2.493,
         "rms": 0.77,
         "gap": 52,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 159 km NW of Tuapejat, Indonesia"
+        "title": "M 5.5 - Kepulauan Batu, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.91,
-        "place": "Puerto Rico region",
+        "place": "110 km N of Suárez, Puerto Rico",
         "time": 1687247745000,
         "updated": 1687249069861,
         "tz": null,
@@ -77,7 +197,7 @@
         "gap": 277,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Puerto Rico region"
+        "title": "M 3.9 - 110 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.84,
-        "place": "Puerto Rico region",
+        "place": "149 km N of Suárez, Puerto Rico",
         "time": 1687247438420,
         "updated": 1687249226581,
         "tz": null,
@@ -117,7 +237,7 @@
         "gap": 290,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.8 - Puerto Rico region"
+        "title": "M 3.8 - 149 km N of Suárez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Hawaii region, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1687237011800,
         "updated": 1687238757926,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Hawaii region, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "61 km SSE of Pondaguitan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1687225541347,
         "updated": 1687227586040,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 61 km SSE of Pondaguitan, Philippines"
+        "title": "M 4.6 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.48,
-        "place": "4 km SW of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1687219867660,
         "updated": 1687237525712,
         "tz": null,
@@ -637,7 +757,7 @@
         "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km SW of Pāhala, Hawaii"
+        "title": "M 2.5 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Romania",
+        "place": "1 km E of Cașoca, Romania",
         "time": 1687214700758,
         "updated": 1687216014040,
         "tz": null,
@@ -717,7 +837,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Romania"
+        "title": "M 4.1 - 1 km E of Cașoca, Romania"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "248 km WNW of Houma, Tonga",
+        "place": "Fiji region",
         "time": 1687213932546,
         "updated": 1687214984040,
         "tz": null,
@@ -797,7 +917,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 248 km WNW of Houma, Tonga"
+        "title": "M 4.6 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Halmahera, Indonesia",
+        "place": "50 km NE of Tobelo, Indonesia",
         "time": 1687209389134,
         "updated": 1687210301040,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - Halmahera, Indonesia"
+        "title": "M 5.2 - 50 km NE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -935,11 +1055,11 @@
         "mag": 2.5,
         "place": "1km N of Pacifica, CA",
         "time": 1687200380390,
-        "updated": 1687240794297,
+        "updated": 1687255605629,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73902991",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73902991.geojson",
-        "felt": 134,
+        "felt": 135,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "northern Alaska",
+        "place": "104 km NE of Wiseman, Alaska",
         "time": 1687187028146,
         "updated": 1687192719040,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - northern Alaska"
+        "title": "M 2.7 - 104 km NE of Wiseman, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Colorado",
+        "place": "6 km WNW of Hoehne, Colorado",
         "time": 1687184336000,
         "updated": 1687220623958,
         "tz": null,
@@ -1237,7 +1357,7 @@
         "gap": 39,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Colorado"
+        "title": "M 4.3 - 6 km WNW of Hoehne, Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "8 km N of El Moro, Colorado",
+        "place": "Colorado",
         "time": 1687183986875,
         "updated": 1687222663955,
         "tz": null,
@@ -1317,7 +1437,7 @@
         "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 8 km N of El Moro, Colorado"
+        "title": "M 3.8 - Colorado"
       },
       "geometry": {
         "type": "Point",
