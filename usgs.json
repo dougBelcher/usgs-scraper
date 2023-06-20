@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687249088000,
+    "generated": 1687252388000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "159 km NW of Tuapejat, Indonesia",
+        "time": 1687250358170,
+        "updated": 1687251873844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9ti",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9ti.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 5.063,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000k9ti",
+        "ids": ",us7000k9ti,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 118,
+        "dmin": 2.493,
+        "rms": 0.77,
+        "gap": 52,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 159 km NW of Tuapejat, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.6091,
+          -0.9802,
+          22.438
+        ]
+      },
+      "id": "us7000k9ti"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -30,7 +70,7 @@
         "code": "2023171001",
         "ids": ",pr2023171001,",
         "sources": ",pr,",
-        "types": ",origin,",
+        "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": 1.1711,
         "rms": 0.48,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr2023171001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.84,
+        "place": "Puerto Rico region",
+        "time": 1687247438420,
+        "updated": 1687249226581,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023171002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023171002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 227,
+        "net": "pr",
+        "code": "2023171002",
+        "ids": ",pr2023171002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 1.5111,
+        "rms": 0.19,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6571,
+          19.7715,
+          48
+        ]
+      },
+      "id": "pr2023171002"
     },
     {
       "type": "Feature",
@@ -1488,46 +1568,6 @@
         ]
       },
       "id": "us7000k9jk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "128 km E of La Playa, Mexico",
-        "time": 1687164911300,
-        "updated": 1687227824986,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9ja",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000k9ja.geojson",
-        "felt": 8,
-        "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 418,
-        "net": "us",
-        "code": "7000k9ja",
-        "ids": ",us7000k9ja,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 111,
-        "dmin": 1.513,
-        "rms": 0.66,
-        "gap": 145,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 128 km E of La Playa, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.4155,
-          23.1208,
-          10
-        ]
-      },
-      "id": "us7000k9ja"
     }
   ],
   "bbox": [
