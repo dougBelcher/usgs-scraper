@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687533448000,
+    "generated": 1687537322000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1687533188617,
+        "updated": 1687534194040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kamk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kamk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000kamk",
+        "ids": ",us7000kamk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 7.209,
+        "rms": 0.7,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.0164,
+          44.7303,
+          10
+        ]
+      },
+      "id": "us7000kamk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "73 km NNE of Aleneva, Alaska",
         "time": 1687532946472,
-        "updated": 1687533034463,
+        "updated": 1687534530276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023800htxz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023800htxz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +70,7 @@
         "code": "023800htxz",
         "ids": ",ak023800htxz,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.33,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak023800htxz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "46 km NE of Supai, Arizona",
+        "time": 1687532913211,
+        "updated": 1687533580040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kamh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kamh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000kamh",
+        "ids": ",us7000kamh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.099,
+        "rms": 0.41,
+        "gap": 101,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 46 km NE of Supai, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3122,
+          36.5259,
+          5
+        ]
+      },
+      "id": "us7000kamh"
     },
     {
       "type": "Feature",
@@ -372,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "time": 1687501787164,
+        "updated": 1687535038625,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237zv9b5q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237zv9b5q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "0237zv9b5q",
+        "ids": ",ak0237zv9b5q,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - Andreanof Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.745,
+          51.6126,
+          47.2
+        ]
+      },
+      "id": "ak0237zv9b5q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.61,
         "place": "41 km SE of Naalehu, Hawaii",
         "time": 1687495503360,
@@ -493,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Nevada",
+        "place": "64 km ESE of Lovelock, Nevada",
         "time": 1687490242005,
         "updated": 1687531741184,
         "tz": null,
@@ -517,7 +637,7 @@
         "gap": 151.37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Nevada"
+        "title": "M 2.5 - 64 km ESE of Lovelock, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "230 km ESE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1687486972275,
         "updated": 1687487720040,
         "tz": null,
@@ -557,7 +677,7 @@
         "gap": 265,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 230 km ESE of Chiniak, Alaska"
+        "title": "M 2.9 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "279 km SSW of Adak, Alaska",
+        "place": "south of the Aleutian Islands",
         "time": 1687474486454,
         "updated": 1687488371933,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 279 km SSW of Adak, Alaska"
+        "title": "M 3.0 - south of the Aleutian Islands"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +895,7 @@
         "mag": 3.7,
         "place": "22 km E of Susitna North, Alaska",
         "time": 1687463419302,
-        "updated": 1687532133725,
+        "updated": 1687535080040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0237yfl15l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0237yfl15l.geojson",
@@ -790,7 +910,7 @@
         "code": "0237yfl15l",
         "ids": ",ak0237yfl15l,us7000kaf8,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.79,
@@ -853,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "off the coast of Central America",
+        "place": "111 km SW of Jiquilillo, Nicaragua",
         "time": 1687462076693,
         "updated": 1687462801040,
         "tz": null,
@@ -877,7 +997,7 @@
         "gap": 172,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - off the coast of Central America"
+        "title": "M 4.9 - 111 km SW of Jiquilillo, Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.39,
-        "place": "Puerto Rico region",
+        "place": "56 km W of Pole Ojea, Puerto Rico",
         "time": 1687461863790,
         "updated": 1687463878310,
         "tz": null,
@@ -917,7 +1037,7 @@
         "gap": 220,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 56 km W of Pole Ojea, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -968,6 +1088,46 @@
         ]
       },
       "id": "nc73903996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "southwest of Sumatra, Indonesia",
+        "time": 1687460343119,
+        "updated": 1687536915040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaen",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaen.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kaen",
+        "ids": ",us7000kaen,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 2.283,
+        "rms": 0.88,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - southwest of Sumatra, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6933,
+          -4.0119,
+          10
+        ]
+      },
+      "id": "us7000kaen"
     },
     {
       "type": "Feature",
@@ -1052,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "111 km WNW of Chauk, Myanmar",
+        "time": 1687452162324,
+        "updated": 1687535991040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaec",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaec.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000kaec",
+        "ids": ",us7000kaec,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 2.626,
+        "rms": 1.08,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 111 km WNW of Chauk, Myanmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.8082,
+          21.2446,
+          41.552
+        ]
+      },
+      "id": "us7000kaec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "46 km ESE of Luganville, Vanuatu",
         "time": 1687451862474,
@@ -1093,7 +1293,7 @@
   "bbox": [
     -178.449,
     -28.7244,
-    5.2,
+    5,
     167.5798,
     62.1758,
     138.753
