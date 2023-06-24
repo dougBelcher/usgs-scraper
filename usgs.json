@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687616048000,
+    "generated": 1687619712000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Mid-Indian Ridge",
+        "time": 1687618540199,
+        "updated": 1687619522040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaup",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaup.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000kaup",
+        "ids": ",us7000kaup,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 7.547,
+        "rms": 0.56,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Mid-Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.0898,
+          -12.6347,
+          10
+        ]
+      },
+      "id": "us7000kaup"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "Kentucky-Tennessee border region",
+        "time": 1687616814900,
+        "updated": 1687618829673,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60530806",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60530806.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "se",
+        "code": "60530806",
+        "ids": ",se60530806,us7000kauj,",
+        "sources": ",se,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.1508,
+        "rms": 0.25,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - Kentucky-Tennessee border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6985,
+          36.1253333333333,
+          15.64
+        ]
+      },
+      "id": "se60530806"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.81,
         "place": "12km ENE of Ridgecrest, CA",
         "time": 1687615413470,
-        "updated": 1687615555323,
+        "updated": 1687616735309,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40494008",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40494008.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 122,
         "net": "ci",
         "code": "40494008",
         "ids": ",ci40494008,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.1088,
         "rms": 0.11,
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Tarapaca, Chile",
+        "place": "14 km SSE of Camiña, Chile",
         "time": 1687596606198,
         "updated": 1687598493040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 97,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.4 - Tarapaca, Chile"
+        "title": "M 4.4 - 14 km SSE of Camiña, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "65 km W of Tyonek, Alaska",
+        "place": "Southern Alaska",
         "time": 1687596187907,
         "updated": 1687596318611,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 65 km W of Tyonek, Alaska"
+        "title": "M 2.8 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "Southern Alaska",
+        "place": "65 km W of Tyonek, Alaska",
         "time": 1687591313239,
         "updated": 1687592469403,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - Southern Alaska"
+        "title": "M 2.9 - 65 km W of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -535,11 +615,11 @@
         "mag": 3.4,
         "place": "48 km W of Happy Valley, Alaska",
         "time": 1687585740222,
-        "updated": 1687586737040,
+        "updated": 1687616659968,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02381ibekf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02381ibekf.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "2 km SSE of Big Lake, Alaska",
+        "place": "Southern Alaska",
         "time": 1687578572090,
         "updated": 1687597344326,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 2 km SSE of Big Lake, Alaska"
+        "title": "M 2.8 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "38 km ENE of Chase, Alaska",
+        "place": "Central Alaska",
         "time": 1687553950303,
         "updated": 1687554874040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 38 km ENE of Chase, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "Tonga",
+        "place": "116 km NE of Hihifo, Tonga",
         "time": 1687547171825,
         "updated": 1687554574274,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 42,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - Tonga"
+        "title": "M 5.6 - 116 km NE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1528,166 +1608,6 @@
         ]
       },
       "id": "us7000kamr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1687533188617,
-        "updated": 1687534194040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kamk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kamk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000kamk",
-        "ids": ",us7000kamk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 7.209,
-        "rms": 0.7,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -28.0164,
-          44.7303,
-          10
-        ]
-      },
-      "id": "us7000kamk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "73 km NNE of Aleneva, Alaska",
-        "time": 1687532946472,
-        "updated": 1687538775040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023800htxz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023800htxz.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "023800htxz",
-        "ids": ",ak023800htxz,us7000kami,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.33,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 73 km NNE of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.4724,
-          58.6766,
-          14.7
-        ]
-      },
-      "id": "ak023800htxz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "46 km NE of Supai, Arizona",
-        "time": 1687532913211,
-        "updated": 1687533580040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kamh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kamh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000kamh",
-        "ids": ",us7000kamh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.099,
-        "rms": 0.41,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 46 km NE of Supai, Arizona"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.3122,
-          36.5259,
-          5
-        ]
-      },
-      "id": "us7000kamh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "6km ENE of Ensenada, B.C., MX",
-        "time": 1687531682220,
-        "updated": 1687547186525,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40492920",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40492920.geojson",
-        "felt": 6,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "ci",
-        "code": "40492920",
-        "ids": ",ci40492920,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.2045,
-        "rms": 0.24,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 6km ENE of Ensenada, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.557,
-          31.888,
-          14.55
-        ]
-      },
-      "id": "ci40492920"
     }
   ],
   "bbox": [
