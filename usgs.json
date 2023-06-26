@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687778000000,
+    "generated": 1687782796000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 35
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 5.2,
         "place": "58 km NW of Sibolga, Indonesia",
         "time": 1687774355818,
-        "updated": 1687776841040,
+        "updated": 1687782601755,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kb3y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kb3y.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "7000kb3y",
         "ids": ",us7000kb3y,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 107,
         "dmin": 1.247,
         "rms": 0.85,
@@ -535,17 +535,17 @@
         "mag": 3.4,
         "place": "Nevada",
         "time": 1687744247821,
-        "updated": 1687770477304,
+        "updated": 1687782112064,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00861727",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00861727.geojson",
-        "felt": 449,
+        "felt": 450,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 384,
+        "sig": 385,
         "net": "nn",
         "code": "00861727",
         "ids": ",nn00861727,us7000kb2d,",
@@ -1372,170 +1372,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "62 km S of Whites City, New Mexico",
-        "time": 1687697428968,
-        "updated": 1687698167040,
+        "mag": 2.6,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1687697429257,
+        "updated": 1687778189785,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kazi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kazi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023misl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023misl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "7000kazi",
-        "ids": ",us7000kazi,",
-        "sources": ",us,",
+        "sig": 104,
+        "net": "tx",
+        "code": "2023misl",
+        "ids": ",us7000kazi,tx2023misl,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.068,
-        "rms": 0.39,
-        "gap": 79,
+        "nst": 44,
+        "dmin": 0.02934402739,
+        "rms": 0.2,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 62 km S of Whites City, New Mexico"
+        "title": "M 2.6 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4513,
-          31.6148,
-          9.989
+          -104.4136184,
+          31.63145153,
+          7.828295898
         ]
       },
-      "id": "us7000kazi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of the Fiji Islands",
-        "time": 1687693044251,
-        "updated": 1687694011040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaz8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaz8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000kaz8",
-        "ids": ",us7000kaz8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 4.905,
-        "rms": 0.92,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.8987,
-          -23.4517,
-          505.948
-        ]
-      },
-      "id": "us7000kaz8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "45 km SSW of Ollagüe, Chile",
-        "time": 1687692897517,
-        "updated": 1687694309040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaz5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaz5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000kaz5",
-        "ids": ",us7000kaz5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.117,
-        "rms": 0.66,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 45 km SSW of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4415,
-          -21.5913,
-          132.022
-        ]
-      },
-      "id": "us7000kaz5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "south of Tonga",
-        "time": 1687692328580,
-        "updated": 1687694653040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kaz6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kaz6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000kaz6",
-        "ids": ",us7000kaz6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.189,
-        "rms": 0.46,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - south of Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.5458,
-          -24.3582,
-          25.128
-        ]
-      },
-      "id": "us7000kaz6"
+      "id": "tx2023misl"
     }
   ],
   "bbox": [
-    -179.8987,
+    -176.9157,
     -30.1195,
     0,
     168.1142,
     66.3141,
-    505.948
+    433.237
   ]
 }
