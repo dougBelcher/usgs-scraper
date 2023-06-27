@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687890029000,
+    "generated": 1687893149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 29
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 2.52,
         "place": "12km S of Tres Pinos, CA",
         "time": 1687876593010,
-        "updated": 1687885094062,
+        "updated": 1687890604121,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73905996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73905996.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -150,7 +150,7 @@
         "code": "73905996",
         "ids": ",nc73905996,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 37,
         "dmin": 0.02569,
         "rms": 0.16,
@@ -1168,46 +1168,6 @@
         ]
       },
       "id": "us6000knb1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "1 km NE of Bajandas, Puerto Rico",
-        "time": 1687803772430,
-        "updated": 1687805971272,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71414753",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71414753.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71414753",
-        "ids": ",pr71414753,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05248,
-        "rms": 0.19,
-        "gap": 124,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 1 km NE of Bajandas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7711666666667,
-          18.1688333333333,
-          12.06
-        ]
-      },
-      "id": "pr71414753"
     }
   ],
   "bbox": [
