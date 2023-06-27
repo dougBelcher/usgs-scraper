@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687886089000,
+    "generated": 1687890029000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1687887817749,
+        "updated": 1687889489040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kngq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kngq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000kngq",
+        "ids": ",us6000kngq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 3.963,
+        "rms": 0.86,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.4007,
+          -21.8304,
+          574.286
+        ]
+      },
+      "id": "us6000kngq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 5.1,
         "place": "near the coast of Ecuador",
         "time": 1687874848437,
-        "updated": 1687878012175,
+        "updated": 1687887409661,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knee",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knee.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 3,
+        "cdi": 5.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 402,
         "net": "us",
         "code": "6000knee",
         "ids": ",us6000knee,",
@@ -413,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Near the coast of Coquimbo, Chile",
+        "place": "19 km S of Coquimbo, Chile",
         "time": 1687860141666,
         "updated": 1687867489505,
         "tz": null,
@@ -437,7 +477,7 @@
         "gap": 121,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.6 - Near the coast of Coquimbo, Chile"
+        "title": "M 4.6 - 19 km S of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1168,54 +1208,14 @@
         ]
       },
       "id": "pr71414753"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "103 km NW of Hihifo, Tonga",
-        "time": 1687802069773,
-        "updated": 1687803173040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kn9k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kn9k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000kn9k",
-        "ids": ",us6000kn9k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 3.76,
-        "rms": 1.32,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 103 km NW of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -174.3406,
-          -15.1837,
-          157.556
-        ]
-      },
-      "id": "us6000kn9k"
     }
   ],
   "bbox": [
-    -175.211,
+    -179.4007,
     -30.1304,
     3.6,
     179.6986,
     62.1874,
-    508.539
+    574.286
   ]
 }
