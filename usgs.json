@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1687907749000,
+    "generated": 1687916632000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "Southern Alaska",
+        "time": 1687915937956,
+        "updated": 1687916043572,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023881zgal",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023881zgal.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023881zgal",
+        "ids": ",ak023881zgal,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Southern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.7266,
+          59.7533,
+          89.6
+        ]
+      },
+      "id": "ak023881zgal"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "14 km N of Snyder, Texas",
+        "time": 1687909617395,
+        "updated": 1687915504848,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023mnfc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023mnfc.geojson",
+        "felt": 14,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "tx",
+        "code": "2023mnfc",
+        "ids": ",us6000knj3,tx2023mnfc,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.03702861484,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 14 km N of Snyder, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.9466702,
+          32.8427124,
+          4.279581706
+        ]
+      },
+      "id": "tx2023mnfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "Primor'ye, Russia",
+        "time": 1687909101454,
+        "updated": 1687916440994,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knj0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knj0.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 2.493,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 518,
+        "net": "us",
+        "code": "6000knj0",
+        "ids": ",us6000knj0,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 118,
+        "dmin": 2.597,
+        "rms": 1.03,
+        "gap": 19,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - Primor'ye, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.0548,
+          42.0873,
+          442.589
+        ]
+      },
+      "id": "us6000knj0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,22 +335,22 @@
         "mag": 4.9,
         "place": "31 km S of Angoram, Papua New Guinea",
         "time": 1687879094962,
-        "updated": 1687880039040,
+        "updated": 1687909796409,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kneq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kneq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "6000kneq",
         "ids": ",us6000kneq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": 3.796,
         "rms": 0.82,
@@ -248,46 +368,6 @@
         ]
       },
       "id": "us6000kneq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "12km S of Tres Pinos, CA",
-        "time": 1687876593010,
-        "updated": 1687893757802,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73905996",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73905996.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "nc",
-        "code": "73905996",
-        "ids": ",nc73905996,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.02569,
-        "rms": 0.16,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 12km S of Tres Pinos, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.3268356,
-          36.6871681,
-          3.6
-        ]
-      },
-      "id": "nc73905996"
     },
     {
       "type": "Feature",
@@ -895,7 +975,7 @@
         "mag": 3.8,
         "place": "Central Alaska",
         "time": 1687847316367,
-        "updated": 1687901931237,
+        "updated": 1687908300271,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02386hegbs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02386hegbs.geojson",
@@ -1008,172 +1088,12 @@
         ]
       },
       "id": "us6000knc5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "5 km ESE of Spanish Springs, Nevada",
-        "time": 1687827931408,
-        "updated": 1687896418040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00861791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00861791.geojson",
-        "felt": 85,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "nn",
-        "code": "00861791",
-        "ids": ",nn00861791,us6000knbt,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.117,
-        "rms": 0.1758,
-        "gap": 76.09,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 5 km ESE of Spanish Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.6433,
-          39.6342,
-          9.5
-        ]
-      },
-      "id": "nn00861791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "34 km S of Parapat, Indonesia",
-        "time": 1687823910349,
-        "updated": 1687826493040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knbp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knbp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000knbp",
-        "ids": ",us6000knbp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 3.5,
-        "rms": 0.56,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 34 km S of Parapat, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.9818,
-          2.3583,
-          183.394
-        ]
-      },
-      "id": "us6000knbp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "south of Tonga",
-        "time": 1687823068991,
-        "updated": 1687825937040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knbk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knbk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000knbk",
-        "ids": ",us6000knbk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 2.862,
-        "rms": 0.47,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - south of Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.211,
-          -24.045,
-          10
-        ]
-      },
-      "id": "us6000knbk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "4 km E of Spanish Springs, Nevada",
-        "time": 1687822672887,
-        "updated": 1687833509746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00861783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00861783.geojson",
-        "felt": 74,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "nn",
-        "code": "00861783",
-        "ids": ",nn00861783,us6000knbg,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.129,
-        "rms": 0.1522,
-        "gap": 72.83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km E of Spanish Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.653,
-          39.6438,
-          9.3
-        ]
-      },
-      "id": "nn00861783"
     }
   ],
   "bbox": [
     -179.4007,
     -30.1304,
-    3.6,
+    4.279581706,
     179.6986,
     62.1874,
     574.286
