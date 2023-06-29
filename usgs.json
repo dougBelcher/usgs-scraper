@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688055656000,
+    "generated": 1688058836000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1688055318904,
+        "updated": 1688057007040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knwm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000knwm",
+        "ids": ",us6000knwm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.053,
+        "rms": 1.08,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.8331,
+          -23.8378,
+          104.271
+        ]
+      },
+      "id": "us6000knwm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "western Texas",
+        "place": "36 km SSW of Los Ybanez, Texas",
         "time": 1688052504207,
-        "updated": 1688055451464,
+        "updated": 1688057602967,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023mqfs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023mqfs.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -37,7 +77,7 @@
         "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - western Texas"
+        "title": "M 2.5 - 36 km SSW of Los Ybanez, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -52,8 +92,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.12,
+        "place": "41 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1688052291340,
+        "updated": 1688055756280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71415118",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71415118.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "71415118",
+        "ids": ",pr71415118,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3533,
+        "rms": 0.22,
+        "gap": 247,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 41 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0243333333333,
+          18.7016666666667,
+          70.57
+        ]
+      },
+      "id": "pr71415118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "56 km WNW of Yonakuni, Japan",
+        "place": "Taiwan region",
         "time": 1688049644825,
         "updated": 1688052167040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 56 km WNW of Yonakuni, Japan"
+        "title": "M 4.4 - Taiwan region"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "Bougainville region, Papua New Guinea",
+        "place": "69 km WNW of Panguna, Papua New Guinea",
         "time": 1688021814959,
         "updated": 1688023030040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Bougainville region, Papua New Guinea"
+        "title": "M 4.6 - 69 km WNW of Panguna, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "offshore Maule, Chile",
+        "place": "Off the coast of Maule, Chile",
         "time": 1688021553088,
         "updated": 1688024032040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 185,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - offshore Maule, Chile"
+        "title": "M 4.3 - Off the coast of Maule, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Central Turkey",
+        "place": "18 km WSW of Göksun, Turkey",
         "time": 1688016488762,
         "updated": 1688017640040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 53,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Central Turkey"
+        "title": "M 4.3 - 18 km WSW of Göksun, Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "35 km SE of Khorugh, Tajikistan",
+        "place": "Afghanistan-Tajikistan border region",
         "time": 1688014679357,
         "updated": 1688030393679,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 35 km SE of Khorugh, Tajikistan"
+        "title": "M 5.0 - Afghanistan-Tajikistan border region"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "northern Alaska",
+        "place": "74 km SW of Kaktovik, Alaska",
         "time": 1688011691184,
         "updated": 1688011882864,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - northern Alaska"
+        "title": "M 3.0 - 74 km SW of Kaktovik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "Mona Passage",
+        "place": "3 km NE of San Germán, Puerto Rico",
         "time": 1687984422950,
         "updated": 1687984979880,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 83,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Mona Passage"
+        "title": "M 2.6 - 3 km NE of San Germán, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Central Alaska",
+        "place": "6 km NE of Skwentna, Alaska",
         "time": 1687984091854,
         "updated": 1687985092040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Central Alaska"
+        "title": "M 2.7 - 6 km NE of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "2 km SE of Cheadle, United Kingdom",
+        "place": "England, United Kingdom",
         "time": 1687983672113,
         "updated": 1688054388376,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 132,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km SE of Cheadle, United Kingdom"
+        "title": "M 2.7 - England, United Kingdom"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "14 km SE of Dehlorān, Iran",
+        "place": "Iran-Iraq border region",
         "time": 1687979318799,
         "updated": 1688031597980,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 171,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 14 km SE of Dehlorān, Iran"
+        "title": "M 4.6 - Iran-Iraq border region"
       },
       "geometry": {
         "type": "Point",
@@ -1248,132 +1328,12 @@
         ]
       },
       "id": "us6000knq8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "102 km ESE of Chiniak, Alaska",
-        "time": 1687972324626,
-        "updated": 1687972531276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02388be2mm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02388be2mm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "02388be2mm",
-        "ids": ",ak02388be2mm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 102 km ESE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7578,
-          57.2065,
-          2.7
-        ]
-      },
-      "id": "ak02388be2mm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "off the east coast of Honshu, Japan",
-        "time": 1687972090853,
-        "updated": 1687974454040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knpb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knpb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000knpb",
-        "ids": ",us6000knpb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.008,
-        "rms": 0.91,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - off the east coast of Honshu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.5975,
-          40.0332,
-          10
-        ]
-      },
-      "id": "us6000knpb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "western Xizang",
-        "time": 1687970613858,
-        "updated": 1687994068040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000knp8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000knp8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000knp8",
-        "ids": ",us6000knp8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 7.254,
-        "rms": 0.88,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - western Xizang"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          88.9262,
-          34.3665,
-          10
-        ]
-      },
-      "id": "us6000knp8"
     }
   ],
   "bbox": [
     -178.7821,
     -58.9763,
-    2.7,
+    2.9,
     154.8982,
     69.5891,
     558.96
