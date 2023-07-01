@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688242517000,
+    "generated": 1688245978000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 2.57,
         "place": "8km NNW of Rancho Cucamonga, CA",
         "time": 1688235228840,
-        "updated": 1688236959213,
+        "updated": 1688243161040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40501680",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40501680.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -108,8 +108,8 @@
         "sig": 103,
         "net": "ci",
         "code": "40501680",
-        "ids": ",ci40501680,",
-        "sources": ",ci,",
+        "ids": ",ci40501680,us6000kphg,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 94,
         "dmin": 0.06605,
@@ -135,7 +135,7 @@
         "mag": 2.6,
         "place": "66 km NNE of Chalkyitsik, Alaska",
         "time": 1688233699208,
-        "updated": 1688233847038,
+        "updated": 1688242974040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238da7v0d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238da7v0d.geojson",
@@ -148,8 +148,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0238da7v0d",
-        "ids": ",ak0238da7v0d,",
-        "sources": ",ak,",
+        "ids": ",us6000kpha,ak0238da7v0d,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "ak0238da7v0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1688230849832,
+        "updated": 1688242700040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpht",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpht.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000kpht",
+        "ids": ",ak0238d9xl66,us6000kpht,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.26,
+        "rms": 0.27,
+        "gap": 263,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.9456,
+          51.2468,
+          40.724
+        ]
+      },
+      "id": "us6000kpht"
     },
     {
       "type": "Feature",
@@ -1255,11 +1295,11 @@
         "mag": 5.3,
         "place": "San Juan, Argentina",
         "time": 1688182165534,
-        "updated": 1688196548304,
+        "updated": 1688244521324,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpcb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpcb.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1568,93 +1608,13 @@
         ]
       },
       "id": "pr2023181007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "7 km NNW of Brenas, Puerto Rico",
-        "time": 1688159050980,
-        "updated": 1688165673475,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71415328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71415328.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 171,
-        "net": "pr",
-        "code": "71415328",
-        "ids": ",pr71415328,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1721,
-        "rms": 0.14,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 7 km NNW of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3568333333333,
-          18.53,
-          77.76
-        ]
-      },
-      "id": "pr71415328"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.22,
-        "place": "2km NNE of Prattville, CA",
-        "time": 1688158781310,
-        "updated": 1688168654182,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73907241",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73907241.geojson",
-        "felt": 8,
-        "cdi": 3.4,
-        "mmi": 3.034,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 162,
-        "net": "nc",
-        "code": "73907241",
-        "ids": ",nc73907241,nn00861999,us6000kpam,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 44,
-        "dmin": 0.02487,
-        "rms": 0.18,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 2km NNE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1495,
-          40.223,
-          5.48
-        ]
-      },
-      "id": "nc73907241"
     }
   ],
   "bbox": [
     -178.4415,
     -31.7703,
     0,
-    155.0031,
+    178.9456,
     67.1773,
     606.07
   ]
