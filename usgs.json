@@ -1,43 +1,43 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688285974000,
+    "generated": 1688289217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Southeastern Alaska",
+        "place": "50 km E of Juneau, Alaska",
         "time": 1688285338974,
-        "updated": 1688285497189,
+        "updated": 1688287900040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238es5thl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238es5thl.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ak",
         "code": "0238es5thl",
-        "ids": ",ak0238es5thl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0238es5thl,us6000kpkn,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.72,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Southeastern Alaska"
+        "title": "M 3.0 - 50 km E of Juneau, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -55,21 +55,21 @@
         "mag": 2.8,
         "place": "6km ENE of Ensenada, B.C., MX",
         "time": 1688284988200,
-        "updated": 1688285696556,
+        "updated": 1688288632040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40501920",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40501920.geojson",
-        "felt": 3,
-        "cdi": 3.1,
+        "felt": 8,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 124,
         "net": "ci",
         "code": "40501920",
-        "ids": ",ci40501920,",
-        "sources": ",ci,",
+        "ids": ",ci40501920,us6000kpkk,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
         "dmin": 0.2066,
@@ -172,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "6 km NNE of Los Arcos, Philippines",
+        "time": 1688276408599,
+        "updated": 1688287075040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpkh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpkh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000kpkh",
+        "ids": ",us6000kpkh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 1.665,
+        "rms": 0.57,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 6 km NNE of Los Arcos, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0014,
+          8.6922,
+          56.34
+        ]
+      },
+      "id": "us6000kpkh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.73,
         "place": "11 km W of Deer Island, Oregon",
         "time": 1688275489180,
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Southern Alaska",
+        "place": "27 km SSW of Nanwalek, Alaska",
         "time": 1688271373556,
         "updated": 1688271730040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Southern Alaska"
+        "title": "M 3.0 - 27 km SSW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
