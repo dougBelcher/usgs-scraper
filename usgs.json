@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688365296000,
+    "generated": 1688368478000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -52,10 +52,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "63 km SW of Buckland, Alaska",
+        "time": 1688362424990,
+        "updated": 1688365410040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpse",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpse.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000kpse",
+        "ids": ",us6000kpse,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.561,
+        "rms": 0.3,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 63 km SW of Buckland, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.994,
+          65.5365,
+          6.178
+        ]
+      },
+      "id": "us6000kpse"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.95,
         "place": "Mona Passage",
         "time": 1688360907680,
-        "updated": 1688363161200,
+        "updated": 1688367479040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023184001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023184001.geojson",
@@ -68,8 +108,8 @@
         "sig": 240,
         "net": "pr",
         "code": "2023184001",
-        "ids": ",pr2023184001,",
-        "sources": ",pr,",
+        "ids": ",us6000kpsc,pr2023184001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.2472,
@@ -1815,11 +1855,11 @@
         "mag": 3.78,
         "place": "19km SSW of Malibu, CA",
         "time": 1688290188860,
-        "updated": 1688365050111,
+        "updated": 1688368444435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40501968",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40501968.geojson",
-        "felt": 3685,
+        "felt": 3697,
         "cdi": 4.3,
         "mmi": 3.546,
         "alert": null,
@@ -2048,46 +2088,6 @@
         ]
       },
       "id": "ci40501920"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.85,
-        "place": "129 km N of Suárez, Puerto Rico",
-        "time": 1688279699550,
-        "updated": 1688281150821,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023183003",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023183003.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 228,
-        "net": "pr",
-        "code": "2023183003",
-        "ids": ",pr2023183003,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.3396,
-        "rms": 0.44,
-        "gap": 280,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 129 km N of Suárez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6948,
-          19.591,
-          82
-        ]
-      },
-      "id": "pr2023183003"
     }
   ],
   "bbox": [
