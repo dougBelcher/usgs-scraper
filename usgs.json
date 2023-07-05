@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1688538184000,
+    "generated": 1688541347000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.53,
+        "place": "4 km SSW of Indios, Puerto Rico",
+        "time": 1688539251800,
+        "updated": 1688540055370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71416318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71416318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71416318",
+        "ids": ",pr71416318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.04085,
+        "rms": 0.07,
+        "gap": 203,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8383333333333,
+          17.9626666666667,
+          16.95
+        ]
+      },
+      "id": "pr71416318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.66,
-        "place": "2 km W of La Parguera, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1688532388840,
         "updated": 1688533136860,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": 194,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km W of La Parguera, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -55,12 +95,12 @@
         "mag": 3.4,
         "place": "17 km NNW of Mina, Nevada",
         "time": 1688523415574,
-        "updated": 1688525473458,
+        "updated": 1688538731347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00862138",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00862138.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +108,9 @@
         "sig": 178,
         "net": "nn",
         "code": "00862138",
-        "ids": ",us6000kq56,nn00862138,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00862138,us6000kq56,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 11,
         "dmin": 0.367,
         "rms": 0.1733,
@@ -172,6 +212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "Southern Alaska",
+        "time": 1688516377018,
+        "updated": 1688538497987,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238jm2qxr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238jm2qxr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0238jm2qxr",
+        "ids": ",ak0238jm2qxr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - Southern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.3105,
+          61.3381,
+          52.1
+        ]
+      },
+      "id": "ak0238jm2qxr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "15 km W of Point MacKenzie, Alaska",
         "time": 1688516376835,
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "245 km E of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1688493548829,
         "updated": 1688500893040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 245 km E of Levuka, Fiji"
+        "title": "M 4.5 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "42 km SSE of Cantwell, Alaska",
+        "place": "Central Alaska",
         "time": 1688477937719,
         "updated": 1688491782040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 42 km SSE of Cantwell, Alaska"
+        "title": "M 2.5 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "219 km SE of Chiniak, Alaska",
+        "place": "Gulf of Alaska",
         "time": 1688463922420,
         "updated": 1688474703855,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 219 km SE of Chiniak, Alaska"
+        "title": "M 2.9 - Gulf of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "102 km SSE of Sand Point, Alaska",
+        "place": "south of Alaska",
         "time": 1688459728026,
         "updated": 1688477810958,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 102 km SSE of Sand Point, Alaska"
+        "title": "M 3.7 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "Missouri-Arkansas border region",
+        "place": "15 km NE of Huntsville, Arkansas",
         "time": 1688457837470,
         "updated": 1688510183961,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 112,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Missouri-Arkansas border region"
+        "title": "M 2.5 - 15 km NE of Huntsville, Arkansas"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Myanmar",
+        "place": "55 km NW of Sarupathar, India",
         "time": 1688455532918,
         "updated": 1688482725685,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 65,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Myanmar"
+        "title": "M 4.9 - 55 km NW of Sarupathar, India"
       },
       "geometry": {
         "type": "Point",
@@ -968,46 +1048,6 @@
         ]
       },
       "id": "us6000kpzu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "18 km SSW of Fukaura, Japan",
-        "time": 1688451888408,
-        "updated": 1688454619040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kpzq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kpzq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000kpzq",
-        "ids": ",us6000kpzq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.989,
-        "rms": 0.29,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 18 km SSW of Fukaura, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.8207,
-          40.5013,
-          186.35
-        ]
-      },
-      "id": "us6000kpzq"
     }
   ],
   "bbox": [
