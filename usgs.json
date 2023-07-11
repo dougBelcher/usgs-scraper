@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689099603000,
+    "generated": 1689102750000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "54 km SW of Cañete, Chile",
+        "time": 1689100544364,
+        "updated": 1689102660040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kexx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kexx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kexx",
+        "ids": ",us7000kexx,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.502,
+        "rms": 0.79,
+        "gap": 137,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.5 - 54 km SW of Cañete, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7953,
+          -38.1732,
+          24.804
+        ]
+      },
+      "id": "us7000kexx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "southern East Pacific Rise",
+        "time": 1689096388348,
+        "updated": 1689100670040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kexf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kexf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000kexf",
+        "ids": ",us7000kexf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 140,
+        "dmin": 28.706,
+        "rms": 0.65,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - southern East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3982,
+          -34.7883,
+          10
+        ]
+      },
+      "id": "us7000kexf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "2 km NNE of Almanor, CA",
+        "time": 1689095884050,
+        "updated": 1689102610691,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73911481",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73911481.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "73911481",
+        "ids": ",nc73911481,nn00862437,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.0253,
+        "rms": 0.17,
+        "gap": 33,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NNE of Almanor, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1688333,
+          40.2298333,
+          5.71
+        ]
+      },
+      "id": "nc73911481"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +495,12 @@
         "mag": 3.42,
         "place": "75 km NE of Cruz Bay, U.S. Virgin Islands",
         "time": 1689065489210,
-        "updated": 1689066219930,
+        "updated": 1689100675340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71417373",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71417373.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +510,7 @@
         "code": "71417373",
         "ids": ",pr71417373,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 6,
         "dmin": 0.781,
         "rms": 0.26,
