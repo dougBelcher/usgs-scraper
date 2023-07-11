@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689043844000,
+    "generated": 1689045629000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.06,
+        "place": "45 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "time": 1689044803430,
+        "updated": 1689045417790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71417318",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71417318.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 144,
+        "net": "pr",
+        "code": "71417318",
+        "ids": ",pr71417318,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3869,
+        "rms": 0.27,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 45 km N of Tierras Nuevas Poniente, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.568,
+          18.8643333333333,
+          39.54
+        ]
+      },
+      "id": "pr71417318"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000kesa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.63,
+        "place": "81 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1689040801530,
+        "updated": 1689044035711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023192000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023192000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 203,
+        "net": "pr",
+        "code": "2023192000",
+        "ids": ",pr2023192000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.7554,
+        "rms": 0.7,
+        "gap": 291,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 81 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.712,
+          19.0671,
+          49
+        ]
+      },
+      "id": "pr2023192000"
     },
     {
       "type": "Feature",
@@ -295,12 +375,12 @@
         "mag": 4.6,
         "place": "0 km SE of Marcavelica, Peru",
         "time": 1689032795730,
-        "updated": 1689041978040,
+        "updated": 1689044549730,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kerd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kerd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +390,7 @@
         "code": "7000kerd",
         "ids": ",us7000kerd,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 124,
         "dmin": 1.469,
         "rms": 0.62,
@@ -535,11 +615,11 @@
         "mag": 6.6,
         "place": "277 km NNE of Codrington, Antigua and Barbuda",
         "time": 1689020905740,
-        "updated": 1689043531152,
+        "updated": 1689045574508,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000keq3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000keq3.geojson",
-        "felt": 262,
+        "felt": 263,
         "cdi": 4.8,
         "mmi": 3.806,
         "alert": "green",
@@ -1568,46 +1648,6 @@
         ]
       },
       "id": "pr71417083"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "1 km WSW of Fuig, Puerto Rico",
-        "time": 1688958657560,
-        "updated": 1688960489550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71417073",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71417073.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71417073",
-        "ids": ",pr71417073,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.02571,
-        "rms": 0.11,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9335,
-          17.9823333333333,
-          7.4
-        ]
-      },
-      "id": "pr71417073"
     }
   ],
   "bbox": [
