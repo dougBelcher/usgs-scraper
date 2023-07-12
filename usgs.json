@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689160380000,
+    "generated": 1689165335000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "98 km ENE of Kimbe, Papua New Guinea",
+        "time": 1689163557400,
+        "updated": 1689164613040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kf2k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kf2k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000kf2k",
+        "ids": ",us7000kf2k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 5.678,
+        "rms": 0.53,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 98 km ENE of Kimbe, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8895,
+          -5.0705,
+          220.633
+        ]
+      },
+      "id": "us7000kf2k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,13 +95,13 @@
         "mag": 3,
         "place": "9 km SSE of Funny River, Alaska",
         "time": 1689156459994,
-        "updated": 1689160244040,
+        "updated": 1689163863164,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238vcpwgf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238vcpwgf.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.241,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -70,7 +110,7 @@
         "code": "0238vcpwgf",
         "ids": ",us7000kf22,ak0238vcpwgf,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.05,
@@ -215,7 +255,7 @@
         "mag": 3.4,
         "place": "15 km ESE of Eagle River, Alaska",
         "time": 1689140139193,
-        "updated": 1689154833585,
+        "updated": 1689161789734,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0238v9wqev",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0238v9wqev.geojson",
@@ -568,46 +608,6 @@
         ]
       },
       "id": "us7000kf05"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "Oklahoma",
-        "time": 1689119199885,
-        "updated": 1689131067040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023nmud",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023nmud.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ok",
-        "code": "2023nmud",
-        "ids": ",us7000kezw,ok2023nmud,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.0954477489,
-        "rms": 0.7290183028,
-        "gap": 32.14279914,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.05506134,
-          35.87566376,
-          0.9042702913
-        ]
-      },
-      "id": "ok2023nmud"
     },
     {
       "type": "Feature",
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "pr71417393"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "9 km NW of Hualien City, Taiwan",
-        "time": 1689075727159,
-        "updated": 1689082643484,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000keun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000keun.geojson",
-        "felt": 1,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000keun",
-        "ids": ",us7000keun,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.139,
-        "rms": 0.45,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 9 km NW of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5466,
-          24.0417,
-          22.435
-        ]
-      },
-      "id": "us7000keun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "19 km NW of Francisco I. Madero, Mexico",
-        "time": 1689074096421,
-        "updated": 1689075297040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000keuc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000keuc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000keuc",
-        "ids": ",us7000keuc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.809,
-        "rms": 1.05,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 19 km NW of Francisco I. Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.9075,
-          16.91,
-          150.022
-        ]
-      },
-      "id": "us7000keuc"
     }
   ],
   "bbox": [
