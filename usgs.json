@@ -1,19 +1,139 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689488406000,
+    "generated": 1689491646000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 7.4,
+        "place": "106 km S of Sand Point, Alaska",
+        "time": 1689490100043,
+        "updated": 1689491567040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kg30",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kg30.geojson",
+        "felt": 34,
+        "cdi": 6.2,
+        "mmi": 6.362,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 864,
+        "net": "us",
+        "code": "7000kg30",
+        "ids": ",at00rxvmwl,us7000kg30,pt23197000,ak02391wqb5h,",
+        "sources": ",at,us,pt,ak,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 34,
+        "dmin": 0.976,
+        "rms": 0.9,
+        "gap": 174,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.4 - 106 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.6989,
+          54.3844,
+          9.326
+        ]
+      },
+      "id": "us7000kg30"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "48 km ESE of Perryville, Alaska",
+        "time": 1689489349628,
+        "updated": 1689490964361,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02391wnksy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02391wnksy.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ak",
+        "code": "02391wnksy",
+        "ids": ",ak02391wnksy,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 48 km ESE of Perryville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.4637,
+          55.7086,
+          86
+        ]
+      },
+      "id": "ak02391wnksy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Alaska Peninsula",
+        "time": 1689488901268,
+        "updated": 1689490053040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02391wm0lq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02391wm0lq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02391wm0lq",
+        "ids": ",us7000kg2x,ak02391wm0lq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.33,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.9341,
+          57.8003,
+          5.4
+        ]
+      },
+      "id": "ak02391wm0lq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
-        "place": "39 km SE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1689483640445,
         "updated": 1689487108040,
         "tz": null,
@@ -37,7 +157,7 @@
         "gap": 164,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 39 km SE of Kuril’sk, Russia"
+        "title": "M 4.0 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -53,16 +173,16 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "California-Nevada border region",
+        "place": "Nevada",
         "time": 1689482169978,
-        "updated": 1689484378796,
+        "updated": 1689489611978,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00862704",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00862704.geojson",
         "felt": 4,
         "cdi": 3.1,
         "mmi": 3.854,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 247,
@@ -70,14 +190,14 @@
         "code": "00862704",
         "ids": ",us7000kg2h,nn00862704,",
         "sources": ",us,nn,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 20,
         "dmin": 0.37,
         "rms": 0.1877,
         "gap": 38.96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - California-Nevada border region"
+        "title": "M 4.0 - Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "225 km SSW of Emiliano Zapata, Mexico",
+        "place": "off the coast of Jalisco, Mexico",
         "time": 1689473283837,
         "updated": 1689476116040,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 201,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 225 km SSW of Emiliano Zapata, Mexico"
+        "title": "M 4.4 - off the coast of Jalisco, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Kepulauan Sula, Indonesia",
+        "place": "96 km NE of Sanana, Indonesia",
         "time": 1689471155819,
         "updated": 1689478005040,
         "tz": null,
@@ -357,7 +477,7 @@
         "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Kepulauan Sula, Indonesia"
+        "title": "M 4.3 - 96 km NE of Sanana, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "287 km SSW of Severo-Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1689455496541,
         "updated": 1689469771040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 287 km SSW of Severo-Kuril’sk, Russia"
+        "title": "M 5.1 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "61 km S of Bingtuan Sanshiliu Tuan, China",
+        "place": "southern Xinjiang, China",
         "time": 1689450174165,
         "updated": 1689458158040,
         "tz": null,
@@ -677,7 +797,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 61 km S of Bingtuan Sanshiliu Tuan, China"
+        "title": "M 4.5 - southern Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.99,
-        "place": "Virgin Islands region",
+        "place": "Virgin Islands",
         "time": 1689445817610,
         "updated": 1689448194990,
         "tz": null,
@@ -757,7 +877,7 @@
         "gap": 276,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Virgin Islands region"
+        "title": "M 3.0 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.23,
-        "place": "59 km N of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1689442060620,
         "updated": 1689442778520,
         "tz": null,
@@ -837,7 +957,7 @@
         "gap": 328,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 59 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.2 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "western Texas",
+        "place": "54 km S of Whites City, New Mexico",
         "time": 1689420660005,
         "updated": 1689422287040,
         "tz": null,
@@ -1037,7 +1157,7 @@
         "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.7 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "25 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1689408874970,
         "updated": 1689421737526,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 217,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 25 km N of Tierras Nuevas Poniente, Puerto Rico"
+        "title": "M 3.3 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.53,
-        "place": "100 km N of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands",
         "time": 1689405601340,
         "updated": 1689431178782,
         "tz": null,
@@ -1237,7 +1357,7 @@
         "gap": 297,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.5 - 100 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.5 - Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1248,94 +1368,14 @@
         ]
       },
       "id": "pr2023196001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "1 km N of Indios, Puerto Rico",
-        "time": 1689404169540,
-        "updated": 1689404839940,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71417953",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71417953.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71417953",
-        "ids": ",pr71417953,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.06555,
-        "rms": 0.1,
-        "gap": 161,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km N of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8195,
-          18.0078333333333,
-          15.11
-        ]
-      },
-      "id": "pr71417953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "9 km SSE of Golfo de Santa Clara, Mexico",
-        "time": 1689403970914,
-        "updated": 1689404558040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kfxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kfxl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000kfxl",
-        "ids": ",us7000kfxl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.653,
-        "rms": 0.76,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SSE of Golfo de Santa Clara, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.4651,
-          31.6031,
-          13.528
-        ]
-      },
-      "id": "us7000kfxl"
     }
   ],
   "bbox": [
-    -159.6883,
+    -160.6989,
     -40.5671,
     3.45793457,
     176.9079,
-    56.6536,
+    57.8003,
     145.936
   ]
 }
