@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689585377000,
+    "generated": 1689589090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 57
+    "count": 58
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Central Alaska",
+        "time": 1689586521095,
+        "updated": 1689586659865,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02393lz5wt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02393lz5wt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "02393lz5wt",
+        "ids": ",ak02393lz5wt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Central Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.474,
+          63.28,
+          6.1
+        ]
+      },
+      "id": "ak02393lz5wt"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak02393lsx4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "near the east coast of the Kamchatka Peninsula, Russia",
+        "time": 1689584332179,
+        "updated": 1689588888040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgbe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000kgbe",
+        "ids": ",us7000kgbe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 4.627,
+        "rms": 0.65,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - near the east coast of the Kamchatka Peninsula, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.2307,
+          56.8148,
+          10
+        ]
+      },
+      "id": "us7000kgbe"
     },
     {
       "type": "Feature",
@@ -375,17 +455,17 @@
         "mag": 6.6,
         "place": "25 km ESE of Loncopué, Argentina",
         "time": 1689563110917,
-        "updated": 1689583336544,
+        "updated": 1689588296853,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kg9g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kg9g.geojson",
-        "felt": 313,
+        "felt": 316,
         "cdi": 6.6,
         "mmi": 4.701,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 877,
+        "sig": 879,
         "net": "us",
         "code": "7000kg9g",
         "ids": ",us7000kg9g,",
@@ -2248,46 +2328,6 @@
         ]
       },
       "id": "ci39614090"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "93 km SE of Sand Point, Alaska",
-        "time": 1689502563504,
-        "updated": 1689530260266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kg40",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kg40.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.242,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "7000kg40",
-        "ids": ",ak02391yx545,us7000kg40,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 0.841,
-        "rms": 0.59,
-        "gap": 169,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.8 - 93 km SE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.6762,
-          54.6475,
-          35
-        ]
-      },
-      "id": "us7000kg40"
     }
   ],
   "bbox": [
