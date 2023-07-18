@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689678743000,
+    "generated": 1689683543000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "Alaska Peninsula",
+        "time": 1689678392887,
+        "updated": 1689683404040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgjj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgjj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.533,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000kgjj",
+        "ids": ",us7000kgjj,ak02395aj6ps,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 79,
+        "dmin": 0.742,
+        "rms": 1.06,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.7377,
+          54.6246,
+          35
+        ]
+      },
+      "id": "us7000kgjj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
         "place": "177 km SSW of Emiliano Zapata, Mexico",
         "time": 1689675229067,
-        "updated": 1689677407794,
+        "updated": 1689682631777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgje",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgje.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 3.352,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "us",
         "code": "7000kgje",
         "ids": ",us7000kgje,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 108,
         "dmin": 4.611,
         "rms": 0.86,
@@ -768,46 +808,6 @@
         ]
       },
       "id": "us7000kgc4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "11 km S of Géfyra, Greece",
-        "time": 1689595466739,
-        "updated": 1689596680040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgby",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgby.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000kgby",
-        "ids": ",us7000kgby,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.075,
-        "rms": 0.49,
-        "gap": 194,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 11 km S of Géfyra, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.0401,
-          36.5808,
-          70.563
-        ]
-      },
-      "id": "us7000kgby"
     }
   ],
   "bbox": [
