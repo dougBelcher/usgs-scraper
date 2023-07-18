@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689657241000,
+    "generated": 1689661156000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "Southeastern Alaska",
+        "time": 1689657660682,
+        "updated": 1689658189040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000kgik",
+        "ids": ",us7000kgik,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.515,
+        "rms": 0.62,
+        "gap": 92,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - Southeastern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.5484,
+          58.3349,
+          3.76
+        ]
+      },
+      "id": "us7000kgik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 3.1,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1689629127535,
-        "updated": 1689630559561,
+        "updated": 1689659413696,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023nxon",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023nxon.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -148,9 +188,9 @@
         "sig": 148,
         "net": "tx",
         "code": "2023nxon",
-        "ids": ",us7000kggm,tx2023nxon,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2023nxon,us7000kggm,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.02615741459,
         "rms": 0.2,
@@ -1048,46 +1088,6 @@
         ]
       },
       "id": "us7000kgax"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "4 km ESE of Pinnacles, CA",
-        "time": 1689571428040,
-        "updated": 1689604461536,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73913861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73913861.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "73913861",
-        "ids": ",nc73913861,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": null,
-        "rms": 0.14,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1028366,
-          36.5208321,
-          6.44
-        ]
-      },
-      "id": "nc73913861"
     }
   ],
   "bbox": [
