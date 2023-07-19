@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689801148000,
+    "generated": 1689804808000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
     {
@@ -855,12 +855,12 @@
         "mag": 4,
         "place": "60 km SSW of Jucuarán, El Salvador",
         "time": 1689758029007,
-        "updated": 1689760560040,
+        "updated": 1689803864681,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgt3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgt3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -870,7 +870,7 @@
         "code": "7000kgt3",
         "ids": ",us7000kgt3,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.738,
         "rms": 0.72,
@@ -1135,17 +1135,17 @@
         "mag": 2.6,
         "place": "19 km E of Pleasanton, Texas",
         "time": 1689749046349,
-        "updated": 1689793631351,
+        "updated": 1689802431548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023oacl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023oacl.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 5.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "tx",
         "code": "2023oacl",
         "ids": ",tx2023oacl,",
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "us7000kgpb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "47 km WNW of Petrolia, CA",
-        "time": 1689717342990,
-        "updated": 1689735371944,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73914381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73914381.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "73914381",
-        "ids": ",nc73914381,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.3601,
-        "rms": 0.11,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 47 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.8095,
-          40.4726667,
-          21.38
-        ]
-      },
-      "id": "nc73914381"
     }
   ],
   "bbox": [
