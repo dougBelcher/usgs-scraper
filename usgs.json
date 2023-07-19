@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689761717000,
+    "generated": 1689765077000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5,
+        "place": "Northern Peru",
+        "time": 1689761548587,
+        "updated": 1689762437040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgth",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgth.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000kgth",
+        "ids": ",us7000kgth,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 4.71,
+        "rms": 0.48,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Northern Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3087,
+          -7.9671,
+          137.583
+        ]
+      },
+      "id": "us7000kgth"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "42 km SSW of Intipucá, El Salvador",
+        "time": 1689761497005,
+        "updated": 1689763294863,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgtg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgtg.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000kgtg",
+        "ids": ",us7000kgtg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 122,
+        "dmin": 0.645,
+        "rms": 0.74,
+        "gap": 167,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 42 km SSW of Intipucá, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1827,
+          12.8349,
+          79.6
+        ]
+      },
+      "id": "us7000kgtg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
-        "place": "off the coast of Central America",
+        "place": "63 km SSW of Chirilagua, El Salvador",
         "time": 1689758806471,
         "updated": 1689760041040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 177,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - off the coast of Central America"
+        "title": "M 4.4 - 63 km SSW of Chirilagua, El Salvador"
       },
       "geometry": {
         "type": "Point",
@@ -55,17 +135,17 @@
         "mag": 3.11,
         "place": "19 km N of Hawaiian Ocean View, Hawaii",
         "time": 1689758658710,
-        "updated": 1689759321362,
+        "updated": 1689762021873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73488412",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73488412.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 149,
+        "sig": 150,
         "net": "hv",
         "code": "73488412",
         "ids": ",hv73488412,us7000kgt4,",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "92 km SSW of Sand Point, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1689755529634,
         "updated": 1689759034339,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 182,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 92 km SSW of Sand Point, Alaska"
+        "title": "M 3.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "8 km SSW of Indios, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1689752359240,
         "updated": 1689753310990,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 8 km SSW of Indios, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "place": "253 km WSW of Adak, Alaska",
         "time": 1689748628943,
         "updated": 1689757592681,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 3.5 - 253 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -375,11 +455,11 @@
         "mag": 3.2,
         "place": "19 km E of Pleasanton, Texas",
         "time": 1689745666280,
-        "updated": 1689754771818,
+        "updated": 1689764793018,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023oaap",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023oaap.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 5.3,
         "mmi": null,
         "alert": null,
@@ -495,11 +575,11 @@
         "mag": 3.9,
         "place": "19 km E of Pleasanton, Texas",
         "time": 1689740529636,
-        "updated": 1689755902699,
+        "updated": 1689762982985,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023nzxt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023nzxt.geojson",
-        "felt": 30,
+        "felt": 31,
         "cdi": 4.6,
         "mmi": 4.552,
         "alert": null,
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "62 km SSW of Huarmey, Peru",
+        "place": "near the coast of central Peru",
         "time": 1689737075845,
         "updated": 1689738107040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 192,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 62 km SSW of Huarmey, Peru"
+        "title": "M 4.6 - near the coast of central Peru"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "8 km WSW of Cohoe, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1689730810263,
         "updated": 1689731206598,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 8 km WSW of Cohoe, Alaska"
+        "title": "M 3.1 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "Puerto Rico",
+        "place": "3 km ESE of Maria Antonia, Puerto Rico",
         "time": 1689729171320,
         "updated": 1689731118200,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 199,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico"
+        "title": "M 2.7 - 3 km ESE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Potosi, Bolivia",
+        "place": "10 km ESE of Colchani, Bolivia",
         "time": 1689728198226,
         "updated": 1689732839040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 81,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - Potosi, Bolivia"
+        "title": "M 4.7 - 10 km ESE of Colchani, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "100 km SSE of Amahai, Indonesia",
+        "place": "Banda Sea",
         "time": 1689727950342,
         "updated": 1689729676040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 57,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 100 km SSE of Amahai, Indonesia"
+        "title": "M 4.6 - Banda Sea"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "197 km SE of Perryville, Alaska",
+        "place": "south of Alaska",
         "time": 1689714704959,
         "updated": 1689720300040,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 158,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 197 km SE of Perryville, Alaska"
+        "title": "M 4.0 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.55,
-        "place": "Puerto Rico region",
+        "place": "4 km SE of La Parguera, Puerto Rico",
         "time": 1689714418640,
         "updated": 1689714970810,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 230,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 4 km SE of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Romania",
+        "place": "3 km SSW of Peştişani, Romania",
         "time": 1689712255209,
         "updated": 1689742036666,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 36,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - Romania"
+        "title": "M 4.0 - 3 km SSW of Peştişani, Romania"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Kuril Islands",
+        "place": "236 km SSW of Severo-Kuril’sk, Russia",
         "time": 1689703530188,
         "updated": 1689709153040,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Kuril Islands"
+        "title": "M 4.3 - 236 km SSW of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "hv73486712"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Alaska Peninsula",
-        "time": 1689678392887,
-        "updated": 1689709422892,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgjj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgjj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.359,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kgjj",
-        "ids": ",ak02395aj6ps,us7000kgjj,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 79,
-        "dmin": 0.742,
-        "rms": 1.06,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Alaska Peninsula"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.7377,
-          54.6246,
-          35
-        ]
-      },
-      "id": "us7000kgjj"
     }
   ],
   "bbox": [
