@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689966683000,
+    "generated": 1689970469000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "144 km S of ‘Ohonua, Tonga",
+        "time": 1689966103671,
+        "updated": 1689967543147,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khgr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khgr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.065,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000khgr",
+        "ids": ",us7000khgr,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 109,
+        "dmin": 1.473,
+        "rms": 0.99,
+        "gap": 52,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 144 km S of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.0431,
+          -22.6423,
+          11.311
+        ]
+      },
+      "id": "us7000khgr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.73,
         "place": "42 km WNW of Petrolia, CA",
         "time": 1689965943130,
-        "updated": 1689966250550,
+        "updated": 1689967995741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73915306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73915306.geojson",
@@ -55,12 +95,12 @@
         "mag": 2.93,
         "place": "47 km NW of Aguadilla, Puerto Rico",
         "time": 1689964037280,
-        "updated": 1689966384660,
+        "updated": 1689967400084,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71418738",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71418738.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +110,7 @@
         "code": "71418738",
         "ids": ",pr71418738,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0.314,
         "rms": 0.14,
@@ -1055,11 +1095,11 @@
         "mag": 4.3,
         "place": "11 km ESE of Jaipur, India",
         "time": 1689892785189,
-        "updated": 1689965056824,
+        "updated": 1689966978807,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kh99",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kh99.geojson",
-        "felt": 53,
+        "felt": 54,
         "cdi": 5.7,
         "mmi": null,
         "alert": null,
@@ -1251,7 +1291,7 @@
     }
   ],
   "bbox": [
-    -155.2217,
+    -175.0431,
     -32.4435,
     0,
     170.1104,
