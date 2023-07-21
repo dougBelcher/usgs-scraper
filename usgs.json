@@ -1,39 +1,79 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689973889000,
+    "generated": 1689977549000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "8 km SE of Gardendale, Texas",
+        "time": 1689974966727,
+        "updated": 1689975957107,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023oewq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023oewq.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2023oewq",
+        "ids": ",tx2023oewq,",
+        "sources": ",tx,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.03386225674,
+        "rms": 0.1,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km SE of Gardendale, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3111185,
+          31.96838379,
+          8.559163411
+        ]
+      },
+      "id": "tx2023oewq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.5,
         "place": "34 km WSW of Salamatof, Alaska",
-        "time": 1689973744932,
-        "updated": 1689973834745,
+        "time": 1689973745950,
+        "updated": 1689977199241,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239af45c3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239af45c3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.735,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 188,
         "net": "ak",
         "code": "0239af45c3",
         "ids": ",ak0239af45c3,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.27,
+        "rms": 0.54,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.9033,
-          60.5032,
-          80.4
+          -151.8948,
+          60.4979,
+          75.5
         ]
       },
       "id": "ak0239af45c3"
@@ -52,42 +92,122 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.42,
-        "place": "5 km SW of Boyd, Montana",
-        "time": 1689969442370,
-        "updated": 1689973603854,
+        "mag": 4,
+        "place": "75 km SE of Phek, India",
+        "time": 1689969946295,
+        "updated": 1689977186040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90022113",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90022113.geojson",
-        "felt": 3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khhf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khhf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000khhf",
+        "ids": ",us7000khhf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 4.748,
+        "rms": 0.5,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 75 km SE of Phek, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.971,
+          25.1395,
+          87.809
+        ]
+      },
+      "id": "us7000khhf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "5 km NNW of Edgar, Montana",
+        "time": 1689969439334,
+        "updated": 1689977474243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khhb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khhb.geojson",
+        "felt": 9,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 181,
-        "net": "mb",
-        "code": "90022113",
-        "ids": ",mb90022113,",
-        "sources": ",mb,",
+        "sig": 161,
+        "net": "us",
+        "code": "7000khhb",
+        "ids": ",mb90022113,us7000khhb,",
+        "sources": ",mb,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5318,
-        "rms": 0.27,
-        "gap": 266,
+        "nst": 69,
+        "dmin": 0.621,
+        "rms": 0.64,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 5 km SW of Boyd, Montana"
+        "title": "M 3.2 - 5 km NNW of Edgar, Montana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.107333333333,
-          45.4185,
-          7.82
+          -108.879,
+          45.5087,
+          5.008
         ]
       },
-      "id": "mb90022113"
+      "id": "us7000khhb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Mindanao, Philippines",
+        "time": 1689967488365,
+        "updated": 1689976449040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khh5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khh5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000khh5",
+        "ids": ",us7000khh5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.985,
+        "rms": 0.74,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Mindanao, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5145,
+          6.7398,
+          73.795
+        ]
+      },
+      "id": "us7000khh5"
     },
     {
       "type": "Feature",
@@ -135,7 +255,7 @@
         "mag": 2.73,
         "place": "42 km WNW of Petrolia, CA",
         "time": 1689965943130,
-        "updated": 1689973568040,
+        "updated": 1689976334587,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73915306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73915306.geojson",
@@ -1248,46 +1368,6 @@
         ]
       },
       "id": "us7000kh92"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Kuril Islands",
-        "time": 1689889269143,
-        "updated": 1689891086040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kh8f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kh8f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000kh8f",
-        "ids": ",us7000kh8f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 6.868,
-        "rms": 0.49,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.9214,
-          46.9723,
-          35
-        ]
-      },
-      "id": "us7000kh8f"
     }
   ],
   "bbox": [
