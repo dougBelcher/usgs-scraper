@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1689902429000,
+    "generated": 1689906809000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "Kodiak Island region, Alaska",
+        "time": 1689905008761,
+        "updated": 1689905694040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239a3robw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239a3robw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0239a3robw",
+        "ids": ",us7000khb8,ak0239a3robw,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Kodiak Island region, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.1883,
+          56.9433,
+          0
+        ]
+      },
+      "id": "ak0239a3robw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.3,
         "place": "11 km ESE of Jaipur, India",
         "time": 1689892785189,
-        "updated": 1689902416705,
+        "updated": 1689906498471,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kh99",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kh99.geojson",
-        "felt": 15,
+        "felt": 23,
         "cdi": 6.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 294,
+        "sig": 300,
         "net": "us",
         "code": "7000kh99",
         "ids": ",us7000kh99,",
@@ -1168,92 +1208,12 @@
         ]
       },
       "id": "us7000kh0n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "47 km WSW of Stella, Puerto Rico",
-        "time": 1689818082100,
-        "updated": 1689849684257,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71418513",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71418513.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "71418513",
-        "ids": ",pr71418513,us7000kh0h,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.2654,
-        "rms": 0.45,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 47 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6808333333333,
-          18.195,
-          2.65
-        ]
-      },
-      "id": "pr71418513"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "48 km WSW of Stella, Puerto Rico",
-        "time": 1689816762890,
-        "updated": 1689849410950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71418498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71418498.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71418498",
-        "ids": ",pr71418498,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2602,
-        "rms": 0.35,
-        "gap": 132,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 48 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6916666666667,
-          18.2035,
-          5.09
-        ]
-      },
-      "id": "pr71418498"
     }
   ],
   "bbox": [
     -175.53,
     -28.5602,
-    2.65,
+    0,
     152.9214,
     81.5423,
     168.924
