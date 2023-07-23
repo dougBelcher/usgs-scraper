@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690118132000,
+    "generated": 1690121492000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "northern Alaska",
+        "time": 1690120192279,
+        "updated": 1690120336623,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239dlo1oz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239dlo1oz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0239dlo1oz",
+        "ids": ",ak0239dlo1oz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.71,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - northern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.3399,
+          69.1203,
+          5.9
+        ]
+      },
+      "id": "ak0239dlo1oz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "94 km S of Jatiroto, Indonesia",
         "time": 1690115608990,
-        "updated": 1690117921793,
+        "updated": 1690118531621,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khss.geojson",
-        "felt": 7,
+        "felt": 10,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 403,
+        "sig": 404,
         "net": "us",
         "code": "7000khss",
         "ids": ",us7000khss,",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us7000khmu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.86,
-        "place": "152 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1690034443110,
-        "updated": 1690041365040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023203001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023203001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 229,
-        "net": "pr",
-        "code": "2023203001",
-        "ids": ",us7000khms,pr2023203001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.4258,
-        "rms": 0.32,
-        "gap": 318,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 152 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3275,
-          19.632,
-          37
-        ]
-      },
-      "id": "pr2023203001"
     }
   ],
   "bbox": [
