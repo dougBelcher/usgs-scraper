@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690265917000,
+    "generated": 1690269217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "El Salvador",
+        "time": 1690264171355,
+        "updated": 1690266155040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ki5v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ki5v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000ki5v",
+        "ids": ",us7000ki5v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.683,
+        "rms": 0.99,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1916,
+          13.0153,
+          64.517
+        ]
+      },
+      "id": "us7000ki5v"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.5,
         "place": "Central Turkey",
         "time": 1690263890996,
-        "updated": 1690265855555,
+        "updated": 1690269045957,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ki5u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ki5u.geojson",
-        "felt": 7,
-        "cdi": 4.6,
+        "felt": 22,
+        "cdi": 6.4,
         "mmi": 6.402,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 469,
+        "sig": 479,
         "net": "us",
         "code": "7000ki5u",
         "ids": ",us7000ki5u,",
@@ -1008,86 +1048,6 @@
         ]
       },
       "id": "ci39620202"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "56 km S of Intipucá, El Salvador",
-        "time": 1690181617256,
-        "updated": 1690238200040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khxg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000khxg",
-        "ids": ",us7000khxg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.785,
-        "rms": 0.79,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 56 km S of Intipucá, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.1528,
-          12.6972,
-          60.722
-        ]
-      },
-      "id": "us7000khxg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "19 km SE of Onagawa Chō, Japan",
-        "time": 1690180620015,
-        "updated": 1690200206040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khxb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khxb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000khxb",
-        "ids": ",us7000khxb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.498,
-        "rms": 0.68,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 19 km SE of Onagawa Chō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.6123,
-          38.3246,
-          70.571
-        ]
-      },
-      "id": "us7000khxb"
     }
   ],
   "bbox": [
