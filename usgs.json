@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690374571000,
+    "generated": 1690377451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.4,
+        "place": "95 km ENE of Port-Olry, Vanuatu",
+        "time": 1690375475545,
+        "updated": 1690377079885,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvmq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvmq.geojson",
+        "felt": 2,
+        "cdi": 4.7,
+        "mmi": 6.15,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 631,
+        "net": "us",
+        "code": "6000kvmq",
+        "ids": ",pt23207000,us6000kvmq,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 90,
+        "dmin": 6.718,
+        "rms": 0.73,
+        "gap": 45,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.4 - 95 km ENE of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.9113,
+          -14.7574,
+          10
+        ]
+      },
+      "id": "us6000kvmq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "off the coast of Oregon",
+        "time": 1690374023415,
+        "updated": 1690375197040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvmm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvmm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "6000kvmm",
+        "ids": ",us6000kvmm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 3.264,
+        "rms": 0.86,
+        "gap": 195,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.5478,
+          44.0218,
+          10
+        ]
+      },
+      "id": "us6000kvmm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,7 +535,7 @@
         "mag": 3.1,
         "place": "19 km SW of Eunice, New Mexico",
         "time": 1690326932087,
-        "updated": 1690340415080,
+        "updated": 1690376113268,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvju",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvju.geojson",
@@ -848,53 +928,13 @@
         ]
       },
       "id": "us7000ki7j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "87km ESE of Maneadero, B.C., MX",
-        "time": 1690290375520,
-        "updated": 1690306790816,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39621490",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39621490.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "ci",
-        "code": "39621490",
-        "ids": ",ci39621490,us7000ki7e,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.1792,
-        "rms": 0.14,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 87km ESE of Maneadero, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.675,
-          31.545,
-          6.45
-        ]
-      },
-      "id": "ci39621490"
     }
   ],
   "bbox": [
     -161.1932,
     -57.9809,
     1.19,
-    163.0509,
+    167.9113,
     57.2367,
     553.106
   ]
