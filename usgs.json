@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690665034000,
+    "generated": 1690668715000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,21 +15,21 @@
         "mag": 2.92,
         "place": "5 km E of Paukaa, Hawaii",
         "time": 1690664598080,
-        "updated": 1690664966303,
+        "updated": 1690667534328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73502727",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73502727.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 132,
         "net": "hv",
         "code": "73502727",
-        "ids": ",hv73502727,",
-        "sources": ",hv,",
+        "ids": ",hv73502727,us6000kwk8,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": null,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "hv73502727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "48 km NE of Valmy, Nevada",
+        "time": 1690663339745,
+        "updated": 1690666432808,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00863707",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00863707.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "nn",
+        "code": "00863707",
+        "ids": ",nn00863707,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.397,
+        "rms": 0.3501,
+        "gap": 137.06,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 48 km NE of Valmy, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7878,
+          41.1416,
+          13.1
+        ]
+      },
+      "id": "nn00863707"
     },
     {
       "type": "Feature",
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000kwei"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.86,
-        "place": "136 km NNW of The Valley, Anguilla",
-        "time": 1690581774390,
-        "updated": 1690583743040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023209000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023209000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 229,
-        "net": "pr",
-        "code": "2023209000",
-        "ids": ",us6000kwec,pr2023209000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.6866,
-        "rms": 0.14,
-        "gap": 327,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.9 - 136 km NNW of The Valley, Anguilla"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.5918,
-          19.3436,
-          40
-        ]
-      },
-      "id": "pr2023209000"
     }
   ],
   "bbox": [
