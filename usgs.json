@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1690982272000,
+    "generated": 1690985572000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 48
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.15,
+        "place": "68 km N of Tierras Nuevas Poniente, Puerto Rico",
+        "time": 1690984093110,
+        "updated": 1690985104580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420168.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 153,
+        "net": "pr",
+        "code": "71420168",
+        "ids": ",pr71420168,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.6014,
+        "rms": 0.26,
+        "gap": 274,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 68 km N of Tierras Nuevas Poniente, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4953333333333,
+          19.0808333333333,
+          11.67
+        ]
+      },
+      "id": "pr71420168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "99 km WNW of Panguna, Papua New Guinea",
+        "time": 1690982087737,
+        "updated": 1690983563040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kxbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kxbe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000kxbe",
+        "ids": ",us6000kxbe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 3.035,
+        "rms": 0.52,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 99 km WNW of Panguna, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.6986,
+          -5.8859,
+          198.623
+        ]
+      },
+      "id": "us6000kxbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "222 km W of Langlois, Oregon",
+        "place": "off the coast of Oregon",
         "time": 1690976954498,
         "updated": 1690978079040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 263,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 222 km W of Langlois, Oregon"
+        "title": "M 2.5 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Myanmar-China border region",
+        "place": "63 km S of Kēng Tung, Myanmar",
         "time": 1690973819591,
         "updated": 1690975504040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Myanmar-China border region"
+        "title": "M 4.4 - 63 km S of Kēng Tung, Myanmar"
       },
       "geometry": {
         "type": "Point",
@@ -375,17 +455,17 @@
         "mag": 4.2,
         "place": "8 km SW of Niland, CA",
         "time": 1690954688800,
-        "updated": 1690981282004,
+        "updated": 1690983426385,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39627442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39627442.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 6.6,
         "mmi": 4.408,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 295,
+        "sig": 296,
         "net": "ci",
         "code": "39627442",
         "ids": ",ew1690954690,ci39627442,us6000kx91,",
@@ -495,12 +575,12 @@
         "mag": 4.7,
         "place": "33 km ENE of Dek’emhāre, Eritrea",
         "time": 1690953210776,
-        "updated": 1690954509040,
+        "updated": 1690982460986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kx90",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kx90.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +590,7 @@
         "code": "6000kx90",
         "ids": ",us6000kx90,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 55,
         "dmin": 5.011,
         "rms": 0.8,
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Oruro, Bolivia",
+        "place": "Oruro-Potosi border region, Bolivia",
         "time": 1690946554444,
         "updated": 1690947495040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Oruro, Bolivia"
+        "title": "M 4.4 - Oruro-Potosi border region, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "139 km SE of Akutan, Alaska",
+        "place": "Unimak Island region, Alaska",
         "time": 1690918823717,
         "updated": 1690948819448,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 139 km SE of Akutan, Alaska"
+        "title": "M 4.7 - Unimak Island region, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.72,
-        "place": "Puerto Rico",
+        "place": "0 km SSW of Indios, Puerto Rico",
         "time": 1690917041990,
         "updated": 1690918126220,
         "tz": null,
@@ -1597,7 +1677,7 @@
         "gap": 177,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico"
+        "title": "M 2.7 - 0 km SSW of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "42 km S of Massawa, Eritrea",
+        "place": "Eritrea",
         "time": 1690910125707,
         "updated": 1690981449291,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 42 km S of Massawa, Eritrea"
+        "title": "M 5.6 - Eritrea"
       },
       "geometry": {
         "type": "Point",
