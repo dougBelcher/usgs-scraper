@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691255424000,
+    "generated": 1691259317000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "Southern Yukon Territory, Canada",
+        "time": 1691259032440,
+        "updated": 1691259148263,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239z6ebpo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239z6ebpo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0239z6ebpo",
+        "ids": ",ak0239z6ebpo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Southern Yukon Territory, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.9988,
+          60.0923,
+          3.8
+        ]
+      },
+      "id": "ak0239z6ebpo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "45 km SE of Camiña, Chile",
+        "time": 1691257119401,
+        "updated": 1691258310040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky52",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky52.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000ky52",
+        "ids": ",us6000ky52,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 151,
+        "dmin": 0.065,
+        "rms": 0.99,
+        "gap": 82,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 45 km SE of Camiña, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1441,
+          -19.6232,
+          97.864
+        ]
+      },
+      "id": "us6000ky52"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "1 km W of Indios, Puerto Rico",
+        "time": 1691255184320,
+        "updated": 1691256120270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420598",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420598.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71420598",
+        "ids": ",pr71420598,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.04978,
+        "rms": 0.19,
+        "gap": 169,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8318333333333,
+          17.9961666666667,
+          15.77
+        ]
+      },
+      "id": "pr71420598"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.8,
         "place": "47 km SSW of Jurm, Afghanistan",
         "time": 1691251309586,
-        "updated": 1691252689352,
+        "updated": 1691258725836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky4d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky4d.geojson",
@@ -94,8 +214,8 @@
       "properties": {
         "mag": 2.76,
         "place": "25 km SE of Burney, CA",
-        "time": 1691248657180,
-        "updated": 1691254933946,
+        "time": 1691248657190,
+        "updated": 1691258952311,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73920686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73920686.geojson",
@@ -103,16 +223,16 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 117,
         "net": "nc",
         "code": "73920686",
-        "ids": ",nc73920686,",
-        "sources": ",nc,",
+        "ids": ",nc73920686,us6000ky47,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.1066,
+        "nst": 33,
+        "dmin": 0.109,
         "rms": 0.15,
         "gap": 54,
         "magType": "md",
@@ -122,12 +242,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4718323,
-          40.7096672,
-          10.74
+          -121.473,
+          40.7073333,
+          11.58
         ]
       },
       "id": "nc73920686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "22 km SW of Ashkāsham, Afghanistan",
+        "time": 1691246837035,
+        "updated": 1691255568040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky44",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky44.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000ky44",
+        "ids": ",us6000ky44,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 2.747,
+        "rms": 0.57,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 22 km SW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.3473,
+          36.5494,
+          119.955
+        ]
+      },
+      "id": "us6000ky44"
     },
     {
       "type": "Feature",
@@ -1448,86 +1608,6 @@
         ]
       },
       "id": "us6000kxxq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "32 km S of Khanabad, Afghanistan",
-        "time": 1691171448009,
-        "updated": 1691176231040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kxxb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kxxb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000kxxb",
-        "ids": ",us6000kxxb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.846,
-        "rms": 0.85,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 32 km S of Khanabad, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          69.1128,
-          36.3904,
-          37.924
-        ]
-      },
-      "id": "us6000kxxb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1691171359444,
-        "updated": 1691247169835,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023peel",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023peel.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 4.179,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "tx",
-        "code": "2023peel",
-        "ids": ",us6000kxx6,tx2023peel,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 22,
-        "dmin": 0.04207819746,
-        "rms": 0.2,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.391997,
-          31.68076923,
-          6.131567383
-        ]
-      },
-      "id": "tx2023peel"
     }
   ],
   "bbox": [
