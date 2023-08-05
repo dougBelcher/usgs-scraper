@@ -1,19 +1,59 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691259317000,
+    "generated": 1691262617000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.5,
+        "place": "28 km S of Dezhou, China",
+        "time": 1691260437207,
+        "updated": 1691261955118,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky5l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 7.696,
+        "alert": "pending",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000ky5l",
+        "ids": ",us6000ky5l,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 123,
+        "dmin": 8.165,
+        "rms": 0.85,
+        "gap": 21,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 28 km S of Dezhou, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.381,
+          37.1933,
+          3.392
+        ]
+      },
+      "id": "us6000ky5l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
-        "place": "Southern Yukon Territory, Canada",
+        "place": "62 km NNW of Yakutat, Alaska",
         "time": 1691259032440,
         "updated": 1691259148263,
         "tz": null,
@@ -37,7 +77,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Southern Yukon Territory, Canada"
+        "title": "M 2.7 - 62 km NNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak0239z6ebpo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "74 km ENE of Antofagasta, Chile",
+        "time": 1691258954630,
+        "updated": 1691260695040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky58",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky58.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ky58",
+        "ids": ",us6000ky58,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 91,
+        "dmin": 1.352,
+        "rms": 0.99,
+        "gap": 110,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.8 - 74 km ENE of Antofagasta, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.7046,
+          -23.4297,
+          68.304
+        ]
+      },
+      "id": "us6000ky58"
     },
     {
       "type": "Feature",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "pr71420598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Chile-Argentina border region",
+        "time": 1691254118229,
+        "updated": 1691260956040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky4p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky4p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ky4p",
+        "ids": ",us6000ky4p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 1.63,
+        "rms": 1.15,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Chile-Argentina border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1604,
+          -24.2943,
+          174.299
+        ]
+      },
+      "id": "us6000ky4p"
     },
     {
       "type": "Feature",
@@ -215,7 +335,7 @@
         "mag": 2.76,
         "place": "25 km SE of Burney, CA",
         "time": 1691248657190,
-        "updated": 1691258952311,
+        "updated": 1691259850388,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73920686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73920686.geojson",
@@ -372,42 +492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "68 km E of McCarthy, Alaska",
-        "time": 1691237230372,
-        "updated": 1691239376040,
+        "mag": 2.7,
+        "place": "Southern Alaska",
+        "time": 1691237229825,
+        "updated": 1691261460173,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239z2t18d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239z2t18d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky3k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky3k.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0239z2t18d",
-        "ids": ",us6000ky3k,ak0239z2t18d,",
-        "sources": ",us,ak,",
+        "sig": 112,
+        "net": "us",
+        "code": "6000ky3k",
+        "ids": ",ak0239z2t18d,us6000ky3k,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.76,
-        "gap": null,
+        "nst": 31,
+        "dmin": 0.449,
+        "rms": 0.61,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 68 km E of McCarthy, Alaska"
+        "title": "M 2.7 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.6473,
-          61.4771,
-          0
+          -141.5814,
+          61.5045,
+          1.334
         ]
       },
-      "id": "ak0239z2t18d"
+      "id": "us6000ky3k"
     },
     {
       "type": "Feature",
@@ -528,6 +648,46 @@
         ]
       },
       "id": "ci40530200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "south of Alaska",
+        "time": 1691228235309,
+        "updated": 1691261351957,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0239z177ln",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0239z177ln.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "0239z177ln",
+        "ids": ",ak0239z177ln,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.09,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - south of Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.772,
+          55.0434,
+          20.4
+        ]
+      },
+      "id": "ak0239z177ln"
     },
     {
       "type": "Feature",
@@ -653,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.58,
-        "place": "4 km NNE of Wai‘ōhinu, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1691217041490,
         "updated": 1691218297770,
         "tz": null,
@@ -677,7 +837,7 @@
         "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 4 km NNE of Wai‘ōhinu, Hawaii"
+        "title": "M 3.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "24 km ENE of Kuril’sk, Russia",
+        "place": "Kuril Islands",
         "time": 1691211753844,
         "updated": 1691214490040,
         "tz": null,
@@ -717,7 +877,7 @@
         "gap": 172,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 24 km ENE of Kuril’sk, Russia"
+        "title": "M 4.3 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "25 km WNW of Nanwalek, Alaska",
+        "place": "Southern Alaska",
         "time": 1691200253273,
         "updated": 1691202251040,
         "tz": null,
@@ -997,7 +1157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 25 km WNW of Nanwalek, Alaska"
+        "title": "M 2.5 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "115 km NE of Neiafu, Tonga",
+        "place": "Tonga",
         "time": 1691192323031,
         "updated": 1691194372040,
         "tz": null,
@@ -1117,7 +1277,7 @@
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 115 km NE of Neiafu, Tonga"
+        "title": "M 4.9 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Albania",
+        "place": "16 km ENE of Himarë, Albania",
         "time": 1691180388702,
         "updated": 1691186070040,
         "tz": null,
@@ -1437,7 +1597,7 @@
         "gap": 88,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Albania"
+        "title": "M 4.1 - 16 km ENE of Himarë, Albania"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Peru-Ecuador border region",
+        "place": "23 km NNE of Máncora, Peru",
         "time": 1691180253906,
         "updated": 1691247150040,
         "tz": null,
@@ -1477,7 +1637,7 @@
         "gap": 110,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - Peru-Ecuador border region"
+        "title": "M 4.8 - 23 km NNE of Máncora, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -1568,54 +1728,14 @@
         ]
       },
       "id": "us6000kxxy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "40 km NW of Labuan Lombok, Indonesia",
-        "time": 1691173908654,
-        "updated": 1691177022040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kxxq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kxxq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000kxxq",
-        "ids": ",us6000kxxq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.451,
-        "rms": 0.92,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 40 km NW of Labuan Lombok, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.4542,
-          -8.1959,
-          7.802
-        ]
-      },
-      "id": "us6000kxxq"
     }
   ],
   "bbox": [
     -178.6083,
     -46.3098,
-    0,
+    0.0244547526,
     166.3521,
-    61.4771,
+    61.5045,
     597.681
   ]
 }
