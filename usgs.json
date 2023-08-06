@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691356209000,
+    "generated": 1691359869000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "Puerto Rico",
+        "time": 1691357018590,
+        "updated": 1691357835810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420693",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420693.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "pr",
+        "code": "71420693",
+        "ids": ",pr71420693,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01277,
+        "rms": 0.12,
+        "gap": 127,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2406666666667,
+          18.3283333333333,
+          19.55
+        ]
+      },
+      "id": "pr71420693"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
         "place": "159 km E of McCarthy, Alaska",
         "time": 1691353325897,
-        "updated": 1691355935463,
+        "updated": 1691358371809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kybs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kybs.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": 6.127,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 356,
         "net": "us",
         "code": "6000kybs",
-        "ids": ",us6000kybs,ak023a0v71tt,",
-        "sources": ",us,ak,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "ids": ",us6000kybs,ak023a0v7bec,ak023a0v71tt,",
+        "sources": ",us,ak,ak,",
+        "types": ",associate,dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 127,
         "dmin": 0.708,
         "rms": 1.04,
@@ -48,46 +88,6 @@
         ]
       },
       "id": "us6000kybs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Southern Yukon Territory, Canada",
-        "time": 1691353324812,
-        "updated": 1691355813715,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0v7bec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0v7bec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 5.53,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "ak",
-        "code": "023a0v7bec",
-        "ids": ",ak023a0v7bec,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.24,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.7 - Southern Yukon Territory, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.9292,
-          61.367,
-          7.4
-        ]
-      },
-      "id": "ak023a0v7bec"
     },
     {
       "type": "Feature",
@@ -893,17 +893,17 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Alaska Peninsula",
-        "time": 1691314389517,
-        "updated": 1691314810040,
+        "place": "78 km WSW of Akhiok, Alaska",
+        "time": 1691314389060,
+        "updated": 1691357404398,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0opngn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0opngn.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.715,
+        "mmi": 2.43,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "ak",
@@ -913,18 +913,18 @@
         "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.75,
+        "rms": 0.56,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Alaska Peninsula"
+        "title": "M 3.7 - 78 km WSW of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.4799,
-          56.6558,
-          48.3
+          -155.2974,
+          56.5988,
+          25.8
         ]
       },
       "id": "ak023a0opngn"
@@ -1375,17 +1375,17 @@
         "mag": 3.9,
         "place": "southern Idaho",
         "time": 1691294620638,
-        "updated": 1691332015369,
+        "updated": 1691359443787,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky7k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky7k.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.4,
         "mmi": 3.673,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 239,
+        "sig": 240,
         "net": "us",
         "code": "6000ky7k",
         "ids": ",us6000ky7k,",
@@ -1728,46 +1728,6 @@
         ]
       },
       "id": "ak0239z9nrbi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "69 km E of Katanning, Australia",
-        "time": 1691271283409,
-        "updated": 1691352618620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky6d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky6d.geojson",
-        "felt": 248,
-        "cdi": 4.4,
-        "mmi": 6.547,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 525,
-        "net": "us",
-        "code": "6000ky6d",
-        "ids": ",us6000ky6d,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 39,
-        "dmin": 8.789,
-        "rms": 0.42,
-        "gap": 59,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 69 km E of Katanning, Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.3,
-          -33.7872,
-          10
-        ]
-      },
-      "id": "us6000ky6d"
     }
   ],
   "bbox": [
