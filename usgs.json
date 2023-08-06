@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691348985000,
+    "generated": 1691352789000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "146 km SSW of Muncar, Indonesia",
+        "time": 1691350817357,
+        "updated": 1691352511040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kybj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kybj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000kybj",
+        "ids": ",us6000kybj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 1.254,
+        "rms": 0.71,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 146 km SSW of Muncar, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0302,
+          -9.7268,
+          40.448
+        ]
+      },
+      "id": "us6000kybj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.67,
         "place": "10 km NE of Coso Junction, CA",
         "time": 1691348221920,
-        "updated": 1691348882950,
+        "updated": 1691351038040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40530928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40530928.geojson",
@@ -28,8 +68,8 @@
         "sig": 110,
         "net": "ci",
         "code": "40530928",
-        "ids": ",ci40530928,",
-        "sources": ",ci,",
+        "ids": ",ci40530928,us6000kybc,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.02012,
@@ -1535,11 +1575,11 @@
         "mag": 4.4,
         "place": "46 km ESE of Pedro Bay, Alaska",
         "time": 1691281071297,
-        "updated": 1691305730429,
+        "updated": 1691352649784,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a0j9eo0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a0j9eo0.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 3.1,
         "mmi": 3.232,
         "alert": null,
@@ -1615,11 +1655,11 @@
         "mag": 5.2,
         "place": "69 km E of Katanning, Australia",
         "time": 1691271283409,
-        "updated": 1691346543319,
+        "updated": 1691352618620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky6d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky6d.geojson",
-        "felt": 247,
+        "felt": 248,
         "cdi": 4.4,
         "mmi": 6.547,
         "alert": "green",
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us6000ky6d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "western Xizang-India border region",
-        "time": 1691265852201,
-        "updated": 1691272045040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky67",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky67.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ky67",
-        "ids": ",us6000ky67,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 4.646,
-        "rms": 0.65,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - western Xizang-India border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.7523,
-          30.2326,
-          10
-        ]
-      },
-      "id": "us6000ky67"
     }
   ],
   "bbox": [
