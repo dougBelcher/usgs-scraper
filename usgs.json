@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691428283000,
+    "generated": 1691432206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "Alaska Peninsula",
+        "time": 1691428455847,
+        "updated": 1691430017040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kygr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kygr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000kygr",
+        "ids": ",us6000kygr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.737,
+        "rms": 0.75,
+        "gap": 191,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.6 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.777,
+          54.5698,
+          35
+        ]
+      },
+      "id": "us6000kygr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "1 km NE of Indios, Puerto Rico",
+        "time": 1691423600720,
+        "updated": 1691428533530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420733",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420733.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "pr",
+        "code": "71420733",
+        "ids": ",pr71420733,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1956,
+        "rms": 0.07,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km NE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8081666666667,
+          18.006,
+          11.78
+        ]
+      },
+      "id": "pr71420733"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "western Texas",
+        "place": "55 km S of Whites City, New Mexico",
         "time": 1691422148426,
         "updated": 1691426530661,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - western Texas"
+        "title": "M 3.3 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -215,12 +295,12 @@
         "mag": 4.7,
         "place": "95 km SSW of La Libertad, El Salvador",
         "time": 1691413968868,
-        "updated": 1691416311040,
+        "updated": 1691430742414,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyey",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyey.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +310,7 @@
         "code": "6000kyey",
         "ids": ",us6000kyey,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 82,
         "dmin": 0.99,
         "rms": 0.94,
@@ -1172,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.67,
+        "mag": 2.68,
         "place": "10 km NE of Coso Junction, CA",
-        "time": 1691348221920,
-        "updated": 1691351038040,
+        "time": 1691348221940,
+        "updated": 1691430548790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40530928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40530928.geojson",
@@ -1183,7 +1263,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 110,
         "net": "ci",
@@ -1191,10 +1271,10 @@
         "ids": ",ci40530928,us6000kybc,",
         "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.02012,
-        "rms": 0.14,
-        "gap": 129,
+        "nst": 35,
+        "dmin": 0.02061,
+        "rms": 0.15,
+        "gap": 83,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 10 km NE of Coso Junction, CA"
@@ -1202,9 +1282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8796667,
-          36.1163333,
-          2.2
+          -117.8801667,
+          36.1153333,
+          2.44
         ]
       },
       "id": "ci40530928"
@@ -1248,86 +1328,6 @@
         ]
       },
       "id": "us6000kyb8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "6 km NE of Labuan Lombok, Indonesia",
-        "time": 1691345662551,
-        "updated": 1691347302040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyb6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyb6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000kyb6",
-        "ids": ",us6000kyb6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.125,
-        "rms": 0.45,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 6 km NE of Labuan Lombok, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.7018,
-          -8.4569,
-          10
-        ]
-      },
-      "id": "us6000kyb6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Kyushu, Japan",
-        "time": 1691345561634,
-        "updated": 1691353039620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyb4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyb4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.842,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000kyb4",
-        "ids": ",us6000kyb4,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 100,
-        "dmin": 1.095,
-        "rms": 0.75,
-        "gap": 60,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Kyushu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.3898,
-          30.7637,
-          13.247
-        ]
-      },
-      "id": "us6000kyb4"
     }
   ],
   "bbox": [
