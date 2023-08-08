@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691511552000,
+    "generated": 1691514794000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.46,
-        "place": "8 km ENE of Delta, B.C., MX",
-        "time": 1691510315200,
-        "updated": 1691511401990,
+        "mag": 3.58,
+        "place": "7 km ENE of Delta, B.C., MX",
+        "time": 1691510315000,
+        "updated": 1691514127940,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40531840",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40531840.geojson",
         "felt": 1,
         "cdi": 3.4,
-        "mmi": 3.678,
+        "mmi": 3.567,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 185,
+        "sig": 198,
         "net": "ci",
         "code": "40531840",
-        "ids": ",ci40531840,",
-        "sources": ",ci,",
+        "ids": ",ci40531840,us6000kynq,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 31,
-        "dmin": 0.06182,
-        "rms": 0.37,
+        "dmin": 0.06771,
+        "rms": 0.32,
         "gap": 70,
-        "magType": "mlr",
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 8 km ENE of Delta, B.C., MX"
+        "title": "M 3.6 - 7 km ENE of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.123497,
-          32.3873329,
-          11.4
+          -115.1225,
+          32.3811667,
+          15.6
         ]
       },
       "id": "ci40531840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "western Texas",
+        "time": 1691510119495,
+        "updated": 1691512008040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kynp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kynp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000kynp",
+        "ids": ",us6000kynp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.103,
+        "rms": 0.43,
+        "gap": 118,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3804,
+          31.6602,
+          5
+        ]
+      },
+      "id": "us6000kynp"
     },
     {
       "type": "Feature",
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "35 km SSE of Ikungi, Tanzania",
-        "time": 1691508679130,
-        "updated": 1691510075675,
+        "mag": 5.5,
+        "place": "32 km SSE of Ikungi, Tanzania",
+        "time": 1691508679135,
+        "updated": 1691514288040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kynh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kynh.geojson",
@@ -145,25 +185,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 465,
         "net": "us",
         "code": "6000kynh",
         "ids": ",us6000kynh,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 81,
-        "dmin": 4.349,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 103,
+        "dmin": 4.333,
         "rms": 0.69,
-        "gap": 42,
+        "gap": 41,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 35 km SSE of Ikungi, Tanzania"
+        "title": "M 5.5 - 32 km SSE of Ikungi, Tanzania"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9183,
-          -5.4123,
+          34.9184,
+          -5.3881,
           10
         ]
       },
@@ -375,17 +415,17 @@
         "mag": 2.82,
         "place": "8 km ENE of Fall City, Washington",
         "time": 1691495472750,
-        "updated": 1691510794061,
+        "updated": 1691514116587,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939497.geojson",
-        "felt": 55,
+        "felt": 64,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 141,
+        "sig": 144,
         "net": "uw",
         "code": "61939497",
         "ids": ",uw61939497,us6000kylq,",
@@ -415,11 +455,11 @@
         "mag": 3.7800000000000002,
         "place": "8 km ENE of Fall City, Washington",
         "time": 1691489843670,
-        "updated": 1691511382887,
+        "updated": 1691514620272,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939452",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939452.geojson",
-        "felt": 1043,
+        "felt": 1139,
         "cdi": 4.6,
         "mmi": 3.5,
         "alert": null,
@@ -452,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "26 km SSE of Mina, Nevada",
-        "time": 1691487857946,
-        "updated": 1691503475040,
+        "mag": 2.7,
+        "place": "Nevada",
+        "time": 1691487858392,
+        "updated": 1691512293337,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00864131",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00864131.geojson",
@@ -463,28 +503,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "nn",
         "code": "00864131",
         "ids": ",us6000kylb,nn00864131,",
         "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.024,
-        "rms": 0.3375,
-        "gap": 119.57,
+        "nst": 13,
+        "dmin": 0.03,
+        "rms": 0.1597,
+        "gap": 68.66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 26 km SSE of Mina, Nevada"
+        "title": "M 2.7 - Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9686,
-          38.1789,
-          9
+          -117.9992,
+          38.1714,
+          7.2
         ]
       },
       "id": "nn00864131"
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "3 km N of Guayanilla, Puerto Rico",
         "time": 1691472092970,
         "updated": 1691472742840,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 102,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 3 km N of Guayanilla, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.31,
-        "place": "Puerto Rico region",
+        "place": "109 km N of San Antonio, Puerto Rico",
         "time": 1691460078570,
         "updated": 1691462725262,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.3 - Puerto Rico region"
+        "title": "M 4.3 - 109 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "8 km SW of Schurz, Nevada",
+        "place": "California-Nevada border region",
         "time": 1691456891836,
         "updated": 1691510603238,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 59.28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 8 km SW of Schurz, Nevada"
+        "title": "M 3.0 - California-Nevada border region"
       },
       "geometry": {
         "type": "Point",
@@ -1175,7 +1215,7 @@
         "mag": 5.7,
         "place": "South Sandwich Islands region",
         "time": 1691452141774,
-        "updated": 1691459696372,
+        "updated": 1691511991040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyj5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyj5.geojson",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "near the coast of Oaxaca, Mexico",
+        "place": "70 km SW of Cabeza de Toro, Mexico",
         "time": 1691446783735,
         "updated": 1691447651040,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 185,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - near the coast of Oaxaca, Mexico"
+        "title": "M 4.1 - 70 km SW of Cabeza de Toro, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1328,6 +1368,86 @@
         ]
       },
       "id": "us6000kyiu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Myanmar",
+        "time": 1691441865580,
+        "updated": 1691513430040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kyik",
+        "ids": ",us6000kyik,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.633,
+        "rms": 0.65,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Myanmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.7938,
+          23.7655,
+          120.855
+        ]
+      },
+      "id": "us6000kyik"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "eastern New Guinea region, Papua New Guinea",
+        "time": 1691440558207,
+        "updated": 1691514227040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyib",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyib.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000kyib",
+        "ids": ",us6000kyib,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 3.71,
+        "rms": 0.74,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - eastern New Guinea region, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1792,
+          -5.6708,
+          161.17
+        ]
+      },
+      "id": "us6000kyib"
     },
     {
       "type": "Feature",
@@ -1373,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.16,
-        "place": "25 km NW of Rincón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1691431290170,
         "updated": 1691433488040,
         "tz": null,
@@ -1397,7 +1517,7 @@
         "gap": 183,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 25 km NW of Rincón, Puerto Rico"
+        "title": "M 3.2 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1454,7 +1574,7 @@
     -179.9453,
     -55.7628,
     5,
-    143.1077,
+    147.1792,
     56.5965,
     550.886
   ]
