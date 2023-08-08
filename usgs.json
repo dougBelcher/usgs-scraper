@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691500654000,
+    "generated": 1691503992000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "16 km NW of Aguadilla, Puerto Rico",
+        "time": 1691502170040,
+        "updated": 1691502613990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420838",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420838.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71420838",
+        "ids": ",pr71420838,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1259,
+        "rms": 0.1,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 16 km NW of Aguadilla, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2641666666667,
+          18.5375,
+          28.2
+        ]
+      },
+      "id": "pr71420838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1691501964461,
+        "updated": 1691503217040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kym2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kym2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000kym2",
+        "ids": ",us6000kym2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.065,
+        "rms": 0.38,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4247,
+          31.6751,
+          8.411
+        ]
+      },
+      "id": "us6000kym2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,21 +135,21 @@
         "mag": 2.82,
         "place": "8 km ENE of Fall City, Washington",
         "time": 1691495472750,
-        "updated": 1691500398735,
+        "updated": 1691503703296,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939497.geojson",
-        "felt": 21,
-        "cdi": 3.5,
+        "felt": 36,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 134,
         "net": "uw",
         "code": "61939497",
-        "ids": ",uw61939497,",
-        "sources": ",uw,",
+        "ids": ",uw61939497,us6000kylq,",
+        "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 40,
         "dmin": 0.1123,
@@ -95,17 +175,17 @@
         "mag": 3.7800000000000002,
         "place": "8 km ENE of Fall City, Washington",
         "time": 1691489843670,
-        "updated": 1691500454267,
+        "updated": 1691503878212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939452",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939452.geojson",
-        "felt": 615,
+        "felt": 707,
         "cdi": 4.6,
         "mmi": 3.5,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 503,
+        "sig": 545,
         "net": "uw",
         "code": "61939452",
         "ids": ",uw61939452,us6000kylh,",
@@ -135,7 +215,7 @@
         "mag": 2.6,
         "place": "26 km SSE of Mina, Nevada",
         "time": 1691487857946,
-        "updated": 1691488128565,
+        "updated": 1691503475040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00864131",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00864131.geojson",
@@ -148,8 +228,8 @@
         "sig": 104,
         "net": "nn",
         "code": "00864131",
-        "ids": ",nn00864131,",
-        "sources": ",nn,",
+        "ids": ",us6000kylb,nn00864131,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 23,
         "dmin": 0.024,
@@ -212,10 +292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.39,
-        "place": "7 km E of Delta, B.C., MX",
-        "time": 1691484458040,
-        "updated": 1691490241168,
+        "mag": 3.35,
+        "place": "7 km ENE of Delta, B.C., MX",
+        "time": 1691484458180,
+        "updated": 1691503541420,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40531712",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40531712.geojson",
@@ -223,28 +303,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 177,
+        "sig": 173,
         "net": "ci",
         "code": "40531712",
         "ids": ",ci40531712,ew1691484470,us6000kyl6,",
         "sources": ",ci,ew,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 29,
-        "dmin": 0.08544,
-        "rms": 0.29,
-        "gap": 106,
+        "nst": 35,
+        "dmin": 0.07017,
+        "rms": 0.36,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 7 km E of Delta, B.C., MX"
+        "title": "M 3.4 - 7 km ENE of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.1168365,
-          32.3626671,
-          16.68
+          -115.1236667,
+          32.3788333,
+          14.3
         ]
       },
       "id": "ci40531712"
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "Puerto Rico region",
+        "place": "3 km N of Guayanilla, Puerto Rico",
         "time": 1691472092970,
         "updated": 1691472742840,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 102,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 3 km N of Guayanilla, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -613,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.31,
-        "place": "Puerto Rico region",
+        "place": "109 km N of San Antonio, Puerto Rico",
         "time": 1691460078570,
         "updated": 1691462725262,
         "tz": null,
@@ -637,7 +717,7 @@
         "gap": 212,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.3 - Puerto Rico region"
+        "title": "M 4.3 - 109 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "near the coast of Oaxaca, Mexico",
+        "place": "70 km SW of Cabeza de Toro, Mexico",
         "time": 1691446783735,
         "updated": 1691447651040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 185,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - near the coast of Oaxaca, Mexico"
+        "title": "M 4.1 - 70 km SW of Cabeza de Toro, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "Mona Passage",
+        "place": "3 km WNW of Palmarejo, Puerto Rico",
         "time": 1691438332510,
         "updated": 1691439209350,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 127,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Mona Passage"
+        "title": "M 2.5 - 3 km WNW of Palmarejo, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.16,
-        "place": "25 km NW of Rincón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1691431290170,
         "updated": 1691433488040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 183,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 25 km NW of Rincón, Puerto Rico"
+        "title": "M 3.2 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "pr2023219000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "128 km WSW of Adak, Alaska",
-        "time": 1691416877912,
-        "updated": 1691422581040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyg3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyg3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.162,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "us",
-        "code": "6000kyg3",
-        "ids": ",ak023a2f1bt9,us6000kyg3,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 0.485,
-        "rms": 0.46,
-        "gap": 218,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.7 - 128 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1992,
-          51.2584,
-          32.865
-        ]
-      },
-      "id": "us6000kyg3"
     }
   ],
   "bbox": [
