@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691590445000,
+    "generated": 1691594165000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 5.8,
         "place": "19 km SSW of Agrónomos Mexicanos, Mexico",
         "time": 1691573606567,
-        "updated": 1691589768859,
+        "updated": 1691593770535,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyty",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyty.geojson",
-        "felt": 15,
-        "cdi": 6.4,
+        "felt": 18,
+        "cdi": 5.2,
         "mmi": 4.318,
         "alert": "green",
         "status": "reviewed",
@@ -215,7 +215,7 @@
         "mag": 5.6,
         "place": "59 km W of Agat Village, Guam",
         "time": 1691572829562,
-        "updated": 1691587831085,
+        "updated": 1691592263211,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kytu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kytu.geojson",
@@ -252,42 +252,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "western Texas",
-        "time": 1691572142889,
-        "updated": 1691572875648,
+        "mag": 2.6,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1691572143150,
+        "updated": 1691590926158,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kytt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kytt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023pmqu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023pmqu.geojson",
         "felt": 1,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000kytt",
-        "ids": ",us6000kytt,",
-        "sources": ",us,",
+        "sig": 104,
+        "net": "tx",
+        "code": "2023pmqu",
+        "ids": ",us6000kytt,tx2023pmqu,",
+        "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.053,
-        "rms": 0.43,
-        "gap": 127,
+        "nst": 38,
+        "dmin": 0.01355995494,
+        "rms": 0.3,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - western Texas"
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4391,
-          31.6702,
-          9.123
+          -104.4107968,
+          31.67605077,
+          6.080151367
         ]
       },
-      "id": "us6000kytt"
+      "id": "tx2023pmqu"
     },
     {
       "type": "Feature",
@@ -335,17 +335,17 @@
         "mag": 3.9,
         "place": "25 km S of Quilpué, Chile",
         "time": 1691555972074,
-        "updated": 1691589383075,
+        "updated": 1691593038211,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kysv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kysv.geojson",
-        "felt": 1,
-        "cdi": 2.7,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
+        "sig": 235,
         "net": "us",
         "code": "6000kysv",
         "ids": ",us6000kysv,",
@@ -648,6 +648,46 @@
         ]
       },
       "id": "us6000kyrv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "19 km NW of Challis, Idaho",
+        "time": 1691537312690,
+        "updated": 1691590836970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90023988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90023988.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "mb",
+        "code": "90023988",
+        "ids": ",mb90023988,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.3597,
+        "rms": 0.17,
+        "gap": 95,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 19 km NW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.377833333333,
+          44.6486666666667,
+          9.18
+        ]
+      },
+      "id": "mb90023988"
     },
     {
       "type": "Feature",
