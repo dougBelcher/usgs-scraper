@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691565208000,
+    "generated": 1691569155000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "36 km WNW of Villazón, Bolivia",
+        "time": 1691567606975,
+        "updated": 1691568639040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kytm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kytm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000kytm",
+        "ids": ",us6000kytm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 84,
+        "dmin": 2.301,
+        "rms": 1.45,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 36 km WNW of Villazón, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9284,
+          -21.9666,
+          261.219
+        ]
+      },
+      "id": "us6000kytm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,11 +415,11 @@
         "mag": 2.5,
         "place": "6 km S of Livermore, Maine",
         "time": 1691532261777,
-        "updated": 1691560190414,
+        "updated": 1691568627300,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyr7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyr7.geojson",
-        "felt": 147,
+        "felt": 148,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1495,11 +1535,11 @@
         "mag": 3.85,
         "place": "11 km NE of Snoqualmie, Washington",
         "time": 1691489843550,
-        "updated": 1691564244245,
+        "updated": 1691569112936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939452",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939452.geojson",
-        "felt": 1528,
+        "felt": 1533,
         "cdi": 4.3,
         "mmi": 3.5,
         "alert": null,
@@ -1695,7 +1735,7 @@
         "mag": 2.63,
         "place": "18 km S of Trona, CA",
         "time": 1691483028190,
-        "updated": 1691510340490,
+        "updated": 1691568703040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40531704",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40531704.geojson",
@@ -1708,8 +1748,8 @@
         "sig": 106,
         "net": "ci",
         "code": "40531704",
-        "ids": ",ci40531704,",
-        "sources": ",ci,",
+        "ids": ",ci40531704,us6000kyl2,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 33,
         "dmin": 0.06293,
@@ -1728,126 +1768,6 @@
         ]
       },
       "id": "ci40531704"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.0700000000000003,
-        "place": "Oregon",
-        "time": 1691482409680,
-        "updated": 1691536465766,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939442",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939442.geojson",
-        "felt": 2,
-        "cdi": 2.6,
-        "mmi": 2.117,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "uw",
-        "code": "61939442",
-        "ids": ",uw61939442,",
-        "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 28,
-        "dmin": 0.1363,
-        "rms": 0.14,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.0655,
-          42.35433333333334,
-          35.93
-        ]
-      },
-      "id": "uw61939442"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "33 km NNW of Guanaja, Honduras",
-        "time": 1691482334685,
-        "updated": 1691505987672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kyl1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kyl1.geojson",
-        "felt": 5,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 356,
-        "net": "us",
-        "code": "6000kyl1",
-        "ids": ",us6000kyl1,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 2.885,
-        "rms": 0.93,
-        "gap": 35,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 33 km NNW of Guanaja, Honduras"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0519,
-          16.7055,
-          10
-        ]
-      },
-      "id": "us6000kyl1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "77 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1691480173280,
-        "updated": 1691481109510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71420823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71420823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71420823",
-        "ids": ",pr71420823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6839,
-        "rms": 0.1,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 77 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.506,
-          19.1643333333333,
-          19.98
-        ]
-      },
-      "id": "pr71420823"
     }
   ],
   "bbox": [
