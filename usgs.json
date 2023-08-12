@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691856980000,
+    "generated": 1691860226000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -135,12 +135,12 @@
         "mag": 2.45,
         "place": "6 km ENE of Delta, B.C., MX",
         "time": 1691837792450,
-        "updated": 1691839116040,
+        "updated": 1691858528223,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40535104",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40535104.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -812,10 +812,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "43 km SW of Daniel Flores, Costa Rica",
+        "time": 1691785576879,
+        "updated": 1691860220040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzgg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzgg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000kzgg",
+        "ids": ",us6000kzgg,",
+        "sources": ",us,",
+        "types": ",origin,",
+        "nst": 19,
+        "dmin": 0.92,
+        "rms": 1.18,
+        "gap": 167,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.4 - 43 km SW of Daniel Flores, Costa Rica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9685,
+          9.074,
+          34.143
+        ]
+      },
+      "id": "us6000kzgg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "48 km ESE of Naalehu, Hawaii",
         "time": 1691784943050,
-        "updated": 1691795844673,
+        "updated": 1691858201040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73520172",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73520172.geojson",
@@ -828,8 +868,8 @@
         "sig": 179,
         "net": "hv",
         "code": "73520172",
-        "ids": ",hv73520172,",
-        "sources": ",hv,",
+        "ids": ",hv73520172,us6000kzga,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 59,
         "dmin": null,
@@ -855,7 +895,7 @@
         "mag": 2.5,
         "place": "28 km WNW of Nikiski, Alaska",
         "time": 1691783300924,
-        "updated": 1691783383944,
+        "updated": 1691857679040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023a94fylo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023a94fylo.geojson",
@@ -868,8 +908,8 @@
         "sig": 96,
         "net": "ak",
         "code": "023a94fylo",
-        "ids": ",ak023a94fylo,",
-        "sources": ",ak,",
+        "ids": ",us6000kzg4,ak023a94fylo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1008,46 +1048,6 @@
         ]
       },
       "id": "us6000kzfp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "central Turkey",
-        "time": 1691771047928,
-        "updated": 1691819478738,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzia",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzia.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "us",
-        "code": "6000kzia",
-        "ids": ",us6000kzia,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.219,
-        "rms": 0.51,
-        "gap": 114,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - central Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          37.1711,
-          37.3895,
-          10
-        ]
-      },
-      "id": "us6000kzia"
     }
   ],
   "bbox": [
