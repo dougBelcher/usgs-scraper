@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691943387000,
+    "generated": 1691946659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "5 km WSW of La Parguera, Puerto Rico",
+        "time": 1691945911790,
+        "updated": 1691946619440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71421428",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71421428.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71421428",
+        "ids": ",pr71421428,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04872,
+        "rms": 0.17,
+        "gap": 239,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km WSW of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0901666666667,
+          17.9478333333333,
+          12.3
+        ]
+      },
+      "id": "pr71421428"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.8,
         "place": "14 km W of McKinleyville, CA",
         "time": 1691940538900,
-        "updated": 1691943191452,
+        "updated": 1691946548718,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73923661",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73923661.geojson",
-        "felt": 330,
+        "felt": 507,
         "cdi": 4.7,
-        "mmi": 3.347,
+        "mmi": 3.229,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 377,
+        "sig": 460,
         "net": "nc",
         "code": "73923661",
-        "ids": ",nc73923661,",
-        "sources": ",nc,",
+        "ids": ",nc73923661,us6000kzq7,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 63,
         "dmin": 0.2832,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73923661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Banda Sea",
+        "time": 1691940201443,
+        "updated": 1691945170040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzq6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzq6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000kzq6",
+        "ids": ",us6000kzq6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 2.312,
+        "rms": 0.81,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.5161,
+          -6.8173,
+          169.336
+        ]
+      },
+      "id": "us6000kzq6"
     },
     {
       "type": "Feature",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "us6000kzpw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "147 km WNW of Fangale’ounga, Tonga",
+        "time": 1691932494149,
+        "updated": 1691945859040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzpt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzpt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000kzpt",
+        "ids": ",us6000kzpt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.341,
+        "rms": 1.03,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 147 km WNW of Fangale’ounga, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5002,
+          -19.0326,
+          247.135
+        ]
+      },
+      "id": "us6000kzpt"
     },
     {
       "type": "Feature",
@@ -253,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "46 km SE of Farkhār, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1691918508471,
         "updated": 1691919786040,
         "tz": null,
@@ -277,7 +397,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 46 km SE of Farkhār, Afghanistan"
+        "title": "M 4.2 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "59 km ENE of Tarata, Peru",
+        "place": "Peru-Bolivia border region",
         "time": 1691908370157,
         "updated": 1691911811040,
         "tz": null,
@@ -397,7 +517,7 @@
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 59 km ENE of Tarata, Peru"
+        "title": "M 4.2 - Peru-Bolivia border region"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "5 km NW of Asunción Mita, Guatemala",
+        "place": "Guatemala",
         "time": 1691907724073,
         "updated": 1691908844040,
         "tz": null,
@@ -437,7 +557,7 @@
         "gap": 126,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 5 km NW of Asunción Mita, Guatemala"
+        "title": "M 4.8 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "12 km ENE of Nikiski, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1691904507397,
         "updated": 1691910113040,
         "tz": null,
@@ -597,7 +717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 12 km ENE of Nikiski, Alaska"
+        "title": "M 3.1 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.49,
-        "place": "6 km WSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1691887231070,
         "updated": 1691887743410,
         "tz": null,
@@ -957,7 +1077,7 @@
         "gap": 221,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km WSW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "118 km SE of Kieta, Papua New Guinea",
+        "place": "Solomon Islands",
         "time": 1691886382100,
         "updated": 1691903874040,
         "tz": null,
@@ -997,7 +1117,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 118 km SE of Kieta, Papua New Guinea"
+        "title": "M 4.3 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Admiralty Islands region, Papua New Guinea",
+        "place": "220 km WNW of Lorengau, Papua New Guinea",
         "time": 1691880086635,
         "updated": 1691881445040,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 121,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Admiralty Islands region, Papua New Guinea"
+        "title": "M 4.8 - 220 km WNW of Lorengau, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.98,
-        "place": "Puerto Rico region",
+        "place": "24 km SSW of Central Aguirre, Puerto Rico",
         "time": 1691876418730,
         "updated": 1691884689416,
         "tz": null,
@@ -1237,7 +1357,7 @@
         "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 24 km SSW of Central Aguirre, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "Southern Qinghai, China",
+        "place": "206 km N of Nagqu, China",
         "time": 1691873181308,
         "updated": 1691877225040,
         "tz": null,
@@ -1277,7 +1397,7 @@
         "gap": 122,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - Southern Qinghai, China"
+        "title": "M 4.2 - 206 km N of Nagqu, China"
       },
       "geometry": {
         "type": "Point",
