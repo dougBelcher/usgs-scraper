@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1691917886000,
+    "generated": 1691921576000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Hindu Kush region, Afghanistan",
+        "time": 1691918508471,
+        "updated": 1691919786040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzny",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzny.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000kzny",
+        "ids": ",us6000kzny,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.938,
+        "rms": 0.6,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Hindu Kush region, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.1799,
+          36.2452,
+          145.243
+        ]
+      },
+      "id": "us6000kzny"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "147 km SSW of Lanai City, Hawaii",
+        "time": 1691917821780,
+        "updated": 1691920621040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kznw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kznw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000kznw",
+        "ids": ",us6000kznw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.621,
+        "rms": 0.24,
+        "gap": 236,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 147 km SSW of Lanai City, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.5707,
+          19.6481,
+          10
+        ]
+      },
+      "id": "us6000kznw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.1,
         "place": "17 km ENE of Palaióchora, Greece",
         "time": 1691912971688,
-        "updated": 1691917588554,
+        "updated": 1691921512458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kznp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kznp.geojson",
-        "felt": 41,
+        "felt": 55,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 418,
+        "sig": 424,
         "net": "us",
         "code": "6000kznp",
         "ids": ",us6000kznp,",
@@ -535,11 +615,11 @@
         "mag": 5.4,
         "place": "Batan Islands region, Philippines",
         "time": 1691890990609,
-        "updated": 1691898473139,
+        "updated": 1691918245963,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzml",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzml.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": 4.004,
         "alert": "green",
@@ -1448,52 +1528,12 @@
         ]
       },
       "id": "us6000kzji"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "16 km SE of Saimbeyli, Turkey",
-        "time": 1691833369686,
-        "updated": 1691844373970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kzja",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kzja.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000kzja",
-        "ids": ",us6000kzja,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.324,
-        "rms": 0.44,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 16 km SE of Saimbeyli, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.2363,
-          37.8927,
-          4.159
-        ]
-      },
-      "id": "us6000kzja"
     }
   ],
   "bbox": [
     -178.0131,
     -56.5176,
-    4.159,
+    5,
     177.6147,
     62.3685,
     552.823
