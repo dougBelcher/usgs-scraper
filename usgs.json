@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692188767000,
+    "generated": 1692191767000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "8 km NE of Gilroy, CA",
+        "time": 1692191059230,
+        "updated": 1692191475992,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73924731",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73924731.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nc",
+        "code": "73924731",
+        "ids": ",nc73924731,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 57,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km NE of Gilroy, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5031662,
+          37.0531654,
+          6.91
+        ]
+      },
+      "id": "nc73924731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "5 km SW of Funny River, Alaska",
+        "time": 1692190302946,
+        "updated": 1692191406279,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ah9zcn5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ah9zcn5.geojson",
+        "felt": 35,
+        "cdi": 3.8,
+        "mmi": 2.805,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 224,
+        "net": "ak",
+        "code": "023ah9zcn5",
+        "ids": ",ak023ah9zcn5,us7000knq1,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.72,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 5 km SW of Funny River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8419,
+          60.4693,
+          55
+        ]
+      },
+      "id": "ak023ah9zcn5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "42 km W of Sola, Vanuatu",
+        "time": 1692190060512,
+        "updated": 1692191540880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000knq0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000knq0.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": 4.366,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 650,
+        "net": "us",
+        "code": "7000knq0",
+        "ids": ",us7000knq0,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 114,
+        "dmin": 7.177,
+        "rms": 0.68,
+        "gap": 25,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - 42 km W of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.1582,
+          -13.8814,
+          192.955
+        ]
+      },
+      "id": "us7000knq0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +255,12 @@
         "mag": 5.2,
         "place": "152 km NNW of Sola, Vanuatu",
         "time": 1692158945462,
-        "updated": 1692160104040,
+        "updated": 1692190751424,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000knlh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000knlh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +270,7 @@
         "code": "7000knlh",
         "ids": ",us7000knlh,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 68,
         "dmin": 7.64,
         "rms": 0.5,
@@ -1088,46 +1208,6 @@
         ]
       },
       "id": "us6000l04a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "south of Alaska",
-        "time": 1692104048219,
-        "updated": 1692186141040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000l02v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000l02v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000l02v",
-        "ids": ",ak023afmgl3r,us6000l02v,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 3.705,
-        "rms": 0.52,
-        "gap": 246,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - south of Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4108,
-          54.1161,
-          10
-        ]
-      },
-      "id": "us6000l02v"
     }
   ],
   "bbox": [
@@ -1135,7 +1215,7 @@
     -41.193,
     1.3500000238419,
     179.2512,
-    54.7407,
+    60.4693,
     584.648
   ]
 }
