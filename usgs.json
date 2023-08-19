@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1692461765000,
+    "generated": 1692465072000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.7,
         "place": "30 km ENE of Rahā, India",
         "time": 1692458435074,
-        "updated": 1692460563824,
+        "updated": 1692463972454,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpgy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpgy.geojson",
-        "felt": 4,
+        "felt": 8,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 343,
         "net": "us",
         "code": "7000kpgy",
         "ids": ",us7000kpgy,",
@@ -415,12 +415,12 @@
         "mag": 2.7,
         "place": "63 km ESE of Pedro Bay, Alaska",
         "time": 1692432826774,
-        "updated": 1692433358040,
+        "updated": 1692463733163,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023am5zisp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023am5zisp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -428,9 +428,9 @@
         "sig": 112,
         "net": "ak",
         "code": "023am5zisp",
-        "ids": ",us7000kpfk,ak023am5zisp,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023am5zisp,us7000kpfk,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.25,
@@ -1208,86 +1208,6 @@
         ]
       },
       "id": "us7000kpam"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "81 km WNW of Manado, Indonesia",
-        "time": 1692378062209,
-        "updated": 1692383419040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kpai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kpai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kpai",
-        "ids": ",us7000kpai,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 3.348,
-        "rms": 0.81,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 81 km WNW of Manado, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.1528,
-          1.7183,
-          293.162
-        ]
-      },
-      "id": "us7000kpai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "8 km NE of Delta, B.C., MX",
-        "time": 1692377599190,
-        "updated": 1692400947790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39643994",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39643994.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "ci",
-        "code": "39643994",
-        "ids": ",ci39643994,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.04887,
-        "rms": 0.26,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 8 km NE of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1275,
-          32.4016667,
-          8.26
-        ]
-      },
-      "id": "ci39643994"
     }
   ],
   "bbox": [
@@ -1296,6 +1216,6 @@
     3.95,
     175.4567,
     64.7437,
-    293.162
+    209.946
   ]
 }
