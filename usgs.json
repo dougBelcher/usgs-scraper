@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693080768000,
+    "generated": 1693084248000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 3.74,
         "place": "78 km N of San Antonio, Puerto Rico",
         "time": 1693062889450,
-        "updated": 1693065527815,
+        "updated": 1693082551723,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023238000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023238000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -108,9 +108,9 @@
         "sig": 215,
         "net": "pr",
         "code": "2023238000",
-        "ids": ",us7000kr72,pr2023238000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2023238000,us7000kr72,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 21,
         "dmin": 0.7299,
         "rms": 0.38,
@@ -295,12 +295,12 @@
         "mag": 4.8,
         "place": "8 km SW of Hikari, Japan",
         "time": 1693056573086,
-        "updated": 1693058086222,
+        "updated": 1693083028377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kr6n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kr6n.geojson",
-        "felt": 2,
-        "cdi": 2.7,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -572,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
+        "mag": 5.1,
         "place": "west of Macquarie Island",
-        "time": 1693042848251,
-        "updated": 1693043742040,
+        "time": 1693042848233,
+        "updated": 1693083012040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kr5r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kr5r.geojson",
@@ -585,25 +585,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
         "code": "7000kr5r",
         "ids": ",us7000kr5r,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 15.705,
-        "rms": 0.58,
-        "gap": 110,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 43,
+        "dmin": 15.72,
+        "rms": 0.57,
+        "gap": 83,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - west of Macquarie Island"
+        "title": "M 5.1 - west of Macquarie Island"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.7719,
-          -58.5682,
+          148.8112,
+          -58.582,
           10
         ]
       },
@@ -1008,51 +1008,11 @@
         ]
       },
       "id": "us7000kr3x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "southern Mid-Atlantic Ridge",
-        "time": 1692996444275,
-        "updated": 1693077998709,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kr1s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kr1s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000kr1s",
-        "ids": ",us7000kr1s,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 214,
-        "dmin": 20.188,
-        "rms": 0.65,
-        "gap": 27,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - southern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.0364,
-          -39.5599,
-          10
-        ]
-      },
-      "id": "us7000kr1s"
     }
   ],
   "bbox": [
     -178.2191,
-    -58.5682,
+    -58.582,
     -1.2,
     152.0492,
     67.3647,
