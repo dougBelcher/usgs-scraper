@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693160107000,
+    "generated": 1693163407000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "5 km W of Big Lake, Alaska",
+        "time": 1693161556399,
+        "updated": 1693163011979,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023azke53r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023azke53r.geojson",
+        "felt": 4,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "ak",
+        "code": "023azke53r",
+        "ids": ",ak023azke53r,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.22,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 5 km W of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0613,
+          61.5127,
+          39.1
+        ]
+      },
+      "id": "ak023azke53r"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,86 @@
         ]
       },
       "id": "us7000krd6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "167 km ESE of Iwaki, Japan",
+        "time": 1693154510714,
+        "updated": 1693162323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000krd4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000krd4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000krd4",
+        "ids": ",us7000krd4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 3.57,
+        "rms": 0.65,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 167 km ESE of Iwaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6425,
+          36.5322,
+          10
+        ]
+      },
+      "id": "us7000krd4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "off the coast of Oregon",
+        "time": 1693154395486,
+        "updated": 1693162009040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000krd2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000krd2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000krd2",
+        "ids": ",us7000krd2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 2.123,
+        "rms": 0.54,
+        "gap": 284,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.9086,
+          43.2165,
+          10
+        ]
+      },
+      "id": "us7000krd2"
     },
     {
       "type": "Feature",
@@ -1215,7 +1335,7 @@
     -58.6897,
     8.045613607,
     155.9565,
-    61.4432,
+    61.5127,
     578.049
   ]
 }
