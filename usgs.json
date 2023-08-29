@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693333009000,
+    "generated": 1693336217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.94,
         "place": "17 km WNW of Biggs, CA",
         "time": 1693328407170,
-        "updated": 1693332619107,
+        "updated": 1693336058860,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73930581",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73930581.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73930581",
         "ids": ",nc73930581,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 5,
         "dmin": 0.2613,
         "rms": 0.07,
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Southern Alaska",
+        "place": "31 km NW of Valdez, Alaska",
         "time": 1693318374392,
         "updated": 1693321469040,
         "tz": null,
@@ -197,7 +197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Southern Alaska"
+        "title": "M 2.6 - 31 km NW of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Vanuatu",
+        "place": "25 km ENE of Port-Olry, Vanuatu",
         "time": 1693313014141,
         "updated": 1693314323040,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": 146,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Vanuatu"
+        "title": "M 4.5 - 25 km ENE of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
@@ -368,6 +368,46 @@
         ]
       },
       "id": "us7000kruz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1693312782869,
+        "updated": 1693333579015,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023b2rwbcx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023b2rwbcx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "023b2rwbcx",
+        "ids": ",ak023b2rwbcx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.45,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.4065,
+          50.9749,
+          72.1
+        ]
+      },
+      "id": "ak023b2rwbcx"
     },
     {
       "type": "Feature",
@@ -615,11 +655,11 @@
         "mag": 3.6,
         "place": "45 km ENE of San Clemente Is. (SE tip), CA",
         "time": 1693296333310,
-        "updated": 1693332851797,
+        "updated": 1693336208853,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39653906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39653906.geojson",
-        "felt": 1935,
+        "felt": 1943,
         "cdi": 4.1,
         "mmi": 3.408,
         "alert": null,
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "29 km SSE of Volcano, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1693289015000,
         "updated": 1693330207530,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 29 km SSE of Volcano, Hawaii"
+        "title": "M 2.7 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Oaxaca, Mexico",
+        "place": "9 km ESE of San Pedro Totolápam, Mexico",
         "time": 1693261934227,
         "updated": 1693276166577,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Oaxaca, Mexico"
+        "title": "M 4.9 - 9 km ESE of San Pedro Totolápam, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Bali Sea",
+        "place": "180 km NNE of Gili Air, Indonesia",
         "time": 1693253213252,
         "updated": 1693267672096,
         "tz": null,
@@ -1437,7 +1477,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.4 - Bali Sea"
+        "title": "M 5.4 - 180 km NNE of Gili Air, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1494,7 +1534,7 @@
     -161.2199,
     -43.8043,
     5.98,
-    167.3034,
+    178.4065,
     63.5364,
     517.374
   ]
