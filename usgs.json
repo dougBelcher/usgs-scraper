@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693451641000,
+    "generated": 1693455421000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "12 km ESE of Pāhala, Hawaii",
+        "time": 1693454312750,
+        "updated": 1693454681040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73554282",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73554282.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "73554282",
+        "ids": ",us7000ks9i,hv73554282,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 182,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 12 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.376327514648,
+          19.140832901001,
+          29.6000003814697
+        ]
+      },
+      "id": "hv73554282"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 4.4,
         "place": "33 km SE of Jurm, Afghanistan",
         "time": 1693446378774,
-        "updated": 1693447475040,
+        "updated": 1693453300278,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks95",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks95.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000ks95",
         "ids": ",us7000ks95,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 2.596,
         "rms": 0.43,
@@ -132,39 +172,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.55,
-        "place": "15 km SW of Westley, CA",
-        "time": 1693443576240,
-        "updated": 1693450838678,
+        "mag": 3.35,
+        "place": "16 km WSW of Patterson, CA",
+        "time": 1693443576700,
+        "updated": 1693454920881,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73931156",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73931156.geojson",
-        "felt": 35,
-        "cdi": 3.4,
-        "mmi": 3.965,
+        "felt": 41,
+        "cdi": 3.3,
+        "mmi": 3.992,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 206,
+        "sig": 186,
         "net": "nc",
         "code": "73931156",
         "ids": ",nc73931156,us7000ks8y,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 81,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": 166,
+        "nst": 97,
+        "dmin": 0.04148,
+        "rms": 0.13,
+        "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 15 km SW of Westley, CA"
+        "title": "M 3.4 - 16 km WSW of Patterson, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.2998352,
-          37.4361649,
-          -0.09
+          -121.3033333,
+          37.4236667,
+          1.44
         ]
       },
       "id": "nc73931156"
@@ -255,17 +295,17 @@
         "mag": 3.66,
         "place": "15 km ENE of Wolf Creek, Utah",
         "time": 1693440678900,
-        "updated": 1693451554492,
+        "updated": 1693455340454,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60548782",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60548782.geojson",
-        "felt": 350,
+        "felt": 441,
         "cdi": 3.8,
         "mmi": 3.402,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 339,
+        "sig": 374,
         "net": "uu",
         "code": "60548782",
         "ids": ",uu60548782,us7000ks8l,",
@@ -1453,7 +1493,7 @@
   "bbox": [
     -169.714,
     -36.324,
-    -0.09,
+    0,
     170.0327,
     69.2225,
     282.502
