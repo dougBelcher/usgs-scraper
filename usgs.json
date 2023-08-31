@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693484882000,
+    "generated": 1693487810000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "55 km E of Maneadero, B.C., MX",
+        "time": 1693486466160,
+        "updated": 1693486679926,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39655810",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39655810.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "ci",
+        "code": "39655810",
+        "ids": ",ci39655810,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.296,
+        "rms": 0.13,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 55 km E of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.9936667,
+          31.6278333,
+          9.39
+        ]
+      },
+      "id": "ci39655810"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "Timor region, Indonesia",
         "time": 1693477769449,
-        "updated": 1693479985722,
+        "updated": 1693485151921,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ksbc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ksbc.geojson",
@@ -735,17 +775,17 @@
         "mag": 3.66,
         "place": "15 km ENE of Wolf Creek, Utah",
         "time": 1693440678900,
-        "updated": 1693484776965,
+        "updated": 1693487632780,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60548782",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60548782.geojson",
-        "felt": 539,
+        "felt": 560,
         "cdi": 3.8,
         "mmi": 3.402,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 411,
+        "sig": 419,
         "net": "uu",
         "code": "60548782",
         "ids": ",uu60548782,us7000ks8l,",
@@ -1528,131 +1568,11 @@
         ]
       },
       "id": "pr71422658"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "4 km S of Quirihue, Chile",
-        "time": 1693401301807,
-        "updated": 1693411490114,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ks2y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ks2y.geojson",
-        "felt": 3,
-        "cdi": 5.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "7000ks2y",
-        "ids": ",us7000ks2y,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 80,
-        "dmin": 0.675,
-        "rms": 0.89,
-        "gap": 93,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 4 km S of Quirihue, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.5373,
-          -36.324,
-          53.02
-        ]
-      },
-      "id": "us7000ks2y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "1 km WSW of Guánica, Puerto Rico",
-        "time": 1693400386150,
-        "updated": 1693401637110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71422633",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71422633.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71422633",
-        "ids": ",pr71422633,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01716,
-        "rms": 0.2,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km WSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9258333333333,
-          17.967,
-          15.77
-        ]
-      },
-      "id": "pr71422633"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "17 km ENE of Falls City, Texas",
-        "time": 1693398503712,
-        "updated": 1693428642184,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023qzgx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023qzgx.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "tx",
-        "code": "2023qzgx",
-        "ids": ",tx2023qzgx,us7000ks1s,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.08272386078,
-        "rms": 0.3,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 17 km ENE of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.85328585,
-          29.05609131,
-          10.7845459
-        ]
-      },
-      "id": "tx2023qzgx"
     }
   ],
   "bbox": [
     -179.5608,
-    -36.324,
+    -29.4465,
     0,
     170.0327,
     69.2225,
