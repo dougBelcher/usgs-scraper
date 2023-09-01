@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693545205000,
+    "generated": 1693549105000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "13 km NNE of Shingletown, CA",
         "time": 1693542842890,
-        "updated": 1693544113217,
+        "updated": 1693546971200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73931571",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73931571.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73931571",
         "ids": ",nc73931571,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 24,
         "dmin": 0.1756,
         "rms": 0.14,
@@ -215,11 +215,11 @@
         "mag": 2.64,
         "place": "6 km NNE of Alum Rock, CA",
         "time": 1693532148710,
-        "updated": 1693544343020,
+        "updated": 1693548342955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73931501",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73931501.geojson",
-        "felt": 39,
+        "felt": 40,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -413,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.51,
-        "place": "7 km SW of Volcano, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1693511811090,
         "updated": 1693513078180,
         "tz": null,
@@ -437,7 +437,7 @@
         "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.5 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us7000ksa6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "36 km NNW of Toyah, Texas",
-        "time": 1693462300072,
-        "updated": 1693481945623,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023rapz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023rapz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2023rapz",
-        "ids": ",tx2023rapz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.009623512967,
-        "rms": 0.1,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 36 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.9763076,
-          31.60349918,
-          8.522412109
-        ]
-      },
-      "id": "tx2023rapz"
     }
   ],
   "bbox": [
