@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693764987000,
+    "generated": 1693768178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 2.82,
         "place": "Oklahoma",
         "time": 1693763585364,
-        "updated": 1693764584977,
+        "updated": 1693767949072,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023rgzq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023rgzq.geojson",
-        "felt": 4,
+        "felt": 6,
         "cdi": 5.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 126,
         "net": "ok",
         "code": "2023rgzq",
         "ids": ",ok2023rgzq,us7000kt1u,",
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ok2023rgzq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Norwegian Sea",
+        "time": 1693763069826,
+        "updated": 1693767384040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt1t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt1t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000kt1t",
+        "ids": ",us7000kt1t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 5.927,
+        "rms": 1.46,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Norwegian Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1899,
+          72.9629,
+          10
+        ]
+      },
+      "id": "us7000kt1t"
     },
     {
       "type": "Feature",
@@ -292,48 +332,48 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "143 km WSW of Nikolski, Alaska",
-        "time": 1693749606656,
-        "updated": 1693759591540,
+        "mag": 3.6,
+        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "time": 1693749607907,
+        "updated": 1693766120040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bb2jhlv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bb2jhlv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt1l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt1l.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "023bb2jhlv",
-        "ids": ",ak023bb2jhlv,",
-        "sources": ",ak,",
+        "sig": 199,
+        "net": "us",
+        "code": "7000kt1l",
+        "ids": ",ak023bb2jhlv,us7000kt1l,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.44,
-        "gap": null,
+        "nst": 18,
+        "dmin": 0.625,
+        "rms": 0.91,
+        "gap": 194,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 143 km WSW of Nikolski, Alaska"
+        "title": "M 3.6 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.8219,
-          52.4551,
-          2.8
+          -170.8186,
+          52.4844,
+          10
         ]
       },
-      "id": "ak023bb2jhlv"
+      "id": "us7000kt1l"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.36,
-        "place": "Virgin Islands region",
+        "place": "96 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1693746616450,
         "updated": 1693749166898,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 305,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands region"
+        "title": "M 3.4 - 96 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -415,12 +455,12 @@
         "mag": 3.57,
         "place": "84 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1693743532320,
-        "updated": 1693747510381,
+        "updated": 1693767710167,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023246002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023246002.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +470,7 @@
         "code": "2023246002",
         "ids": ",us7000kt0q,pr2023246002,",
         "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 0.8189,
         "rms": 0.4,
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.89,
-        "place": "Virgin Islands",
+        "place": "80 km ENE of Christiansted, U.S. Virgin Islands",
         "time": 1693743216720,
         "updated": 1693757274926,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.9 - Virgin Islands"
+        "title": "M 3.9 - 80 km ENE of Christiansted, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "194 km ESE of Kokopo, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1693736936913,
         "updated": 1693753186007,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 61,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 194 km ESE of Kokopo, Papua New Guinea"
+        "title": "M 5.1 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "Southern Alaska",
+        "place": "2 km NW of Anchorage, Alaska",
         "time": 1693734221520,
         "updated": 1693757860412,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Southern Alaska"
+        "title": "M 2.6 - 2 km NW of Anchorage, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Puerto Rico region",
+        "place": "16 km SE of El Negro, Puerto Rico",
         "time": 1693734088980,
         "updated": 1693739515718,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 228,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 16 km SE of El Negro, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Puerto Rico region",
+        "place": "2 km SW of Guánica, Puerto Rico",
         "time": 1693731066670,
         "updated": 1693732638480,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 201,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 2 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "32 km NNW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1693727325636,
         "updated": 1693729875040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 65,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.7 - 32 km NNW of Toyah, Texas"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "43 km N of Petersville, Alaska",
+        "place": "Central Alaska",
         "time": 1693725882893,
         "updated": 1693735496470,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 43 km N of Petersville, Alaska"
+        "title": "M 3.0 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.73,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1693687955250,
         "updated": 1693690532610,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - Puerto Rico region"
+        "title": "M 2.7 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Papua, Indonesia",
+        "place": "266 km N of Agats, Indonesia",
         "time": 1693684988675,
         "updated": 1693689105040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Papua, Indonesia"
+        "title": "M 4.3 - 266 km N of Agats, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1615,7 +1655,7 @@
     -59.2024,
     0.7944366932,
     162.5673,
-    64.639,
+    72.9629,
     529.72
   ]
 }
