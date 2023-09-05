@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1693933906000,
+    "generated": 1693937866000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -415,11 +415,11 @@
         "mag": 2.76,
         "place": "9 km WNW of Garnet, CA",
         "time": 1693912527740,
-        "updated": 1693929242672,
+        "updated": 1693937530167,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39658594",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39658594.geojson",
-        "felt": 53,
+        "felt": 55,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -455,11 +455,11 @@
         "mag": 3.7,
         "place": "6 km E of Salamatof, Alaska",
         "time": 1693910315853,
-        "updated": 1693927637300,
+        "updated": 1693935963497,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bebgmhd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bebgmhd.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": 2.678,
         "alert": null,
@@ -975,17 +975,17 @@
         "mag": 4.9,
         "place": "3 km SSE of Inba, Japan",
         "time": 1693888035970,
-        "updated": 1693931036062,
+        "updated": 1693935120476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ktbl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ktbl.geojson",
-        "felt": 41,
+        "felt": 43,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 386,
         "net": "us",
         "code": "7000ktbl",
         "ids": ",us7000ktbl,",
@@ -1735,7 +1735,7 @@
         "mag": 2.6,
         "place": "90 km SE of Ugashik, Alaska",
         "time": 1693859003802,
-        "updated": 1693859094122,
+        "updated": 1693935993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bctsddo",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bctsddo.geojson",
@@ -1748,8 +1748,8 @@
         "sig": 104,
         "net": "ak",
         "code": "023bctsddo",
-        "ids": ",ak023bctsddo,",
-        "sources": ",ak,",
+        "ids": ",us7000kt8h,ak023bctsddo,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1768,6 +1768,86 @@
         ]
       },
       "id": "ak023bctsddo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "142 km SSE of Nikolski, Alaska",
+        "time": 1693857695097,
+        "updated": 1693935586040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt8f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt8f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000kt8f",
+        "ids": ",us7000kt8f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 1.314,
+        "rms": 0.98,
+        "gap": 177,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 142 km SSE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.9039,
+          51.7962,
+          4.488
+        ]
+      },
+      "id": "us7000kt8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1693857599486,
+        "updated": 1693933909040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt8c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt8c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000kt8c",
+        "ids": ",us7000kt8c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.069,
+        "rms": 0.49,
+        "gap": 87,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4332,
+          31.6315,
+          5
+        ]
+      },
+      "id": "us7000kt8c"
     },
     {
       "type": "Feature",
@@ -1808,126 +1888,6 @@
         ]
       },
       "id": "us7000kt8d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.24,
-        "place": "19 km SW of Lamont, CA",
-        "time": 1693850205300,
-        "updated": 1693926536980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39658306",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39658306.geojson",
-        "felt": 6,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 163,
-        "net": "ci",
-        "code": "39658306",
-        "ids": ",ci39658306,us7000kt7u,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 108,
-        "dmin": 0.07142,
-        "rms": 0.29,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 19 km SW of Lamont, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0354996,
-          35.1181679,
-          12.02
-        ]
-      },
-      "id": "ci39658306"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "Puerto Rico region",
-        "time": 1693849769540,
-        "updated": 1693853817595,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023247006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023247006.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "pr",
-        "code": "2023247006",
-        "ids": ",pr2023247006,us7000kt80,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.1387,
-        "rms": 0.48,
-        "gap": 275,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6751,
-          19.2675,
-          44
-        ]
-      },
-      "id": "pr2023247006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "89 km WNW of Copiapó, Chile",
-        "time": 1693849582603,
-        "updated": 1693852726040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kt7q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kt7q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000kt7q",
-        "ids": ",us7000kt7q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.784,
-        "rms": 0.4,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 89 km WNW of Copiapó, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2113,
-          -27.1757,
-          29.638
-        ]
-      },
-      "id": "us7000kt7q"
     }
   ],
   "bbox": [
