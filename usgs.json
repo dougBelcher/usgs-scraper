@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694013332000,
+    "generated": 1694017112000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "14 km NW of Whitestone, Alaska",
+        "time": 1694015359691,
+        "updated": 1694016388357,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bg21gik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bg21gik.geojson",
+        "felt": 6,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 191,
+        "net": "ak",
+        "code": "023bg21gik",
+        "ids": ",ak023bg21gik,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.74,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 14 km NW of Whitestone, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.0722,
+          64.2601,
+          15.4
+        ]
+      },
+      "id": "ak023bg21gik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1088,46 +1128,6 @@
         ]
       },
       "id": "us7000ktfs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "39 km SSE of Ikungi, Tanzania",
-        "time": 1693928540867,
-        "updated": 1694002688112,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ktfe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ktfe.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000ktfe",
-        "ids": ",us7000ktfe,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 54,
-        "dmin": 4.355,
-        "rms": 0.56,
-        "gap": 56,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 39 km SSE of Ikungi, Tanzania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9428,
-          -5.4455,
-          10
-        ]
-      },
-      "id": "us7000ktfe"
     }
   ],
   "bbox": [
@@ -1135,7 +1135,7 @@
     -16.9363,
     1.28,
     127.0524,
-    62.5427,
+    64.2601,
     81
   ]
 }
