@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694200222000,
+    "generated": 1694204066000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "10 km E of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1694199449570,
         "updated": 1694199780830,
         "tz": null,
@@ -37,7 +37,7 @@
         "gap": 160,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 10 km E of Pāhala, Hawaii"
+        "title": "M 2.6 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -55,12 +55,12 @@
         "mag": 2.46,
         "place": "10 km NE of Burney, CA",
         "time": 1694199058240,
-        "updated": 1694199431241,
+        "updated": 1694201112855,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934736.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +70,7 @@
         "code": "73934736",
         "ids": ",nc73934736,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 24,
         "dmin": 0.112,
         "rms": 0.11,
@@ -92,25 +92,65 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.48,
-        "place": "12 km WSW of Fall River Mills, CA",
-        "time": 1694196608420,
-        "updated": 1694197512039,
+        "mag": 4.4,
+        "place": "Ryukyu Islands, Japan",
+        "time": 1694197392106,
+        "updated": 1694200858040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934716",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934716.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kud8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kud8.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000kud8",
+        "ids": ",us7000kud8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 2.491,
+        "rms": 0.85,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Ryukyu Islands, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4442,
+          29.1684,
+          11.202
+        ]
+      },
+      "id": "us7000kud8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "12 km WSW of Fall River Mills, CA",
+        "time": 1694196608420,
+        "updated": 1694203331642,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934716",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934716.geojson",
+        "felt": 6,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 95,
+        "sig": 96,
         "net": "nc",
         "code": "73934716",
         "ids": ",nc73934716,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.09972,
         "rms": 0.09,
@@ -175,7 +215,7 @@
         "mag": 2.46,
         "place": "10 km WSW of Fall River Mills, CA",
         "time": 1694195138110,
-        "updated": 1694199997468,
+        "updated": 1694203693677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934686.geojson",
@@ -252,20 +292,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.97,
+        "mag": 4.99,
         "place": "12 km NE of Burney, CA",
         "time": 1694193878390,
-        "updated": 1694200181703,
+        "updated": 1694203818344,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934641",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934641.geojson",
-        "felt": 632,
+        "felt": 683,
         "cdi": 6.3,
-        "mmi": 5.584,
+        "mmi": 5.471,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 778,
+        "sig": 813,
         "net": "nc",
         "code": "73934641",
         "ids": ",nc73934641,us7000kubw,ew1694193880,",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "Ryukyu Islands, Japan",
+        "place": "90 km N of Tatsugō, Japan",
         "time": 1694193261638,
         "updated": 1694196484040,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Ryukyu Islands, Japan"
+        "title": "M 4.1 - 90 km N of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +415,7 @@
         "mag": 5.8,
         "place": "4 km NE of Emiliano Zapata, Mexico",
         "time": 1694191036993,
-        "updated": 1694199536711,
+        "updated": 1694202820636,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kubt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kubt.geojson",
@@ -455,17 +495,17 @@
         "mag": 4.3,
         "place": "70 km NNE of Petersville, Alaska",
         "time": 1694190441425,
-        "updated": 1694198924182,
+        "updated": 1694200655954,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023bjdkvln",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023bjdkvln.geojson",
-        "felt": 34,
+        "felt": 36,
         "cdi": 3.8,
         "mmi": 3.671,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 297,
+        "sig": 298,
         "net": "ak",
         "code": "023bjdkvln",
         "ids": ",ak023bjdkvln,us7000kub8,",
@@ -495,11 +535,11 @@
         "mag": 5.6,
         "place": "9 km NW of Emiliano Zapata, Mexico",
         "time": 1694188402449,
-        "updated": 1694199923631,
+        "updated": 1694201640359,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kub5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kub5.geojson",
-        "felt": 34,
+        "felt": 35,
         "cdi": 4.2,
         "mmi": 4.887,
         "alert": "green",
@@ -612,6 +652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "44 km N of Pucallpa, Peru",
+        "time": 1694185983516,
+        "updated": 1694201686040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku9w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku9w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ku9w",
+        "ids": ",us7000ku9w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 4.593,
+        "rms": 0.73,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 44 km N of Pucallpa, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5282,
+          -7.975,
+          149.992
+        ]
+      },
+      "id": "us7000ku9w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
         "time": 1694183171136,
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "165 km NNW of Caluula, Somalia",
+        "place": "Gulf of Aden",
         "time": 1694176872595,
         "updated": 1694178237040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 165 km NNW of Caluula, Somalia"
+        "title": "M 4.4 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -855,11 +935,11 @@
         "mag": 6.6,
         "place": "south of the Kermadec Islands",
         "time": 1694164198499,
-        "updated": 1694199364880,
+        "updated": 1694200271725,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku47",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku47.geojson",
-        "felt": 19,
+        "felt": 20,
         "cdi": 3.4,
         "mmi": 6.124,
         "alert": "green",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "84 km NE of Colchane, Chile",
+        "place": "Oruro, Bolivia",
         "time": 1694150505436,
         "updated": 1694155101040,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 84 km NE of Colchane, Chile"
+        "title": "M 4.4 - Oruro, Bolivia"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "100 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "place": "Virgin Islands region",
         "time": 1694144957210,
         "updated": 1694146390280,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 305,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - 100 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.4 - Virgin Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -1132,39 +1212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
+        "mag": 3.2,
         "place": "7 km SSE of Midland, Texas",
-        "time": 1694136932932,
-        "updated": 1694184544467,
+        "time": 1694136932940,
+        "updated": 1694201620954,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023rowx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023rowx.geojson",
-        "felt": 51,
+        "felt": 59,
         "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 164,
+        "sig": 187,
         "net": "tx",
         "code": "2023rowx",
         "ids": ",us7000ku2t,tx2023rowx,",
         "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.09298613693,
+        "nst": 25,
+        "dmin": 0.09115416927,
         "rms": 0.1,
         "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 7 km SSE of Midland, Texas"
+        "title": "M 3.2 - 7 km SSE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -102.0399438,
-          31.93817139,
-          9.023803711
+          31.94000244,
+          7.996704102
         ]
       },
       "id": "tx2023rowx"
@@ -1253,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "off the coast of Oregon",
+        "place": "143 km WNW of Port Orford, Oregon",
         "time": 1694133395754,
         "updated": 1694188803923,
         "tz": null,
@@ -1277,7 +1357,7 @@
         "gap": 242,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - off the coast of Oregon"
+        "title": "M 3.3 - 143 km WNW of Port Orford, Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.31,
-        "place": "Puerto Rico region",
+        "place": "2 km SSE of Miranda, Puerto Rico",
         "time": 1694129753360,
         "updated": 1694145431559,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - Puerto Rico region"
+        "title": "M 3.3 - 2 km SSE of Miranda, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1568,126 +1648,6 @@
         ]
       },
       "id": "ak023bhtpenv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "5 km SSE of Indios, Puerto Rico",
-        "time": 1694116164830,
-        "updated": 1694117434810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424083",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424083.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71424083",
-        "ids": ",pr71424083,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07718,
-        "rms": 0.06,
-        "gap": 214,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.804,
-          17.9461666666667,
-          13.74
-        ]
-      },
-      "id": "pr71424083"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "northern Xinjiang, China",
-        "time": 1694114787520,
-        "updated": 1694116163040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku0m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku0m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000ku0m",
-        "ids": ",us7000ku0m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 3.928,
-        "rms": 0.75,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - northern Xinjiang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.8743,
-          43.3177,
-          42.011
-        ]
-      },
-      "id": "us7000ku0m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Pulau-Pulau Talaud, Indonesia",
-        "time": 1694114413343,
-        "updated": 1694115471040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku0l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku0l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000ku0l",
-        "ids": ",us7000ku0l,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 86,
-        "dmin": 3.443,
-        "rms": 0.83,
-        "gap": 50,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Pulau-Pulau Talaud, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.7555,
-          4.3756,
-          128.631
-        ]
-      },
-      "id": "us7000ku0l"
     }
   ],
   "bbox": [
