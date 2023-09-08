@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694153858000,
+    "generated": 1694157158000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "Fiji region",
+        "time": 1694153693312,
+        "updated": 1694154950040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku3s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku3s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000ku3s",
+        "ids": ",us7000ku3s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.274,
+        "rms": 0.55,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7044,
+          -20.9966,
+          563.056
+        ]
+      },
+      "id": "us7000ku3s"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.13,
         "place": "2 km WSW of Lake Henshaw, CA",
         "time": 1694152763430,
-        "updated": 1694153578329,
+        "updated": 1694157031490,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39661050",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39661050.geojson",
-        "felt": 71,
+        "felt": 111,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 180,
+        "sig": 196,
         "net": "ci",
         "code": "39661050",
-        "ids": ",ci39661050,",
-        "sources": ",ci,",
+        "ids": ",ci39661050,us7000ku3n,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 97,
         "dmin": 0.01604,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ci39661050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "84 km NE of Colchane, Chile",
+        "time": 1694150505436,
+        "updated": 1694155101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku3i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku3i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000ku3i",
+        "ids": ",us7000ku3i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 1.412,
+        "rms": 0.52,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 84 km NE of Colchane, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.987,
+          -18.8323,
+          190.528
+        ]
+      },
+      "id": "us7000ku3i"
     },
     {
       "type": "Feature",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.43,
-        "place": "Virgin Islands region",
+        "place": "100 km NNE of Cruz Bay, U.S. Virgin Islands",
         "time": 1694144957210,
         "updated": 1694146390280,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 305,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Virgin Islands region"
+        "title": "M 3.4 - 100 km NNE of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "143 km WNW of Port Orford, Oregon",
+        "place": "off the coast of Oregon",
         "time": 1694133395754,
         "updated": 1694137083453,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 242,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 143 km WNW of Port Orford, Oregon"
+        "title": "M 3.3 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.31,
-        "place": "2 km SSE of Miranda, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1694129753360,
         "updated": 1694145431559,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 224,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 2 km SSE of Miranda, Puerto Rico"
+        "title": "M 3.3 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47,
-        "place": "Puerto Rico region",
+        "place": "5 km SSE of Indios, Puerto Rico",
         "time": 1694116164830,
         "updated": 1694117434810,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 214,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 5 km SSE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "112 km S of Dushanzi, China",
+        "place": "northern Xinjiang, China",
         "time": 1694114787520,
         "updated": 1694116163040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 112 km S of Dushanzi, China"
+        "title": "M 4.5 - northern Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "39 km SSW of Coquimbo, Chile",
+        "place": "Near the coast of Coquimbo, Chile",
         "time": 1694083514533,
         "updated": 1694094874040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 135,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.3 - 39 km SSW of Coquimbo, Chile"
+        "title": "M 4.3 - Near the coast of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "106 km ESE of Antofagasta, Chile",
+        "place": "Antofagasta, Chile",
         "time": 1694073149314,
         "updated": 1694089530040,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 106 km ESE of Antofagasta, Chile"
+        "title": "M 4.3 - Antofagasta, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1211,11 +1291,11 @@
     }
   ],
   "bbox": [
-    -177.6233,
+    -178.7044,
     -31.304,
     -0.46,
     176.3233,
     63.9493,
-    421.773
+    563.056
   ]
 }
