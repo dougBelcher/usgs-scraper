@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694293854000,
+    "generated": 1694297492000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "42 km ENE of Ensenada, B.C., MX",
+        "time": 1694295357290,
+        "updated": 1694297092040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39662050",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39662050.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "ci",
+        "code": "39662050",
+        "ids": ",ci39662050,us7000kunq,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.2322,
+        "rms": 0.22,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 42 km ENE of Ensenada, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2180023,
+          32.0415001,
+          14.71
+        ]
+      },
+      "id": "ci39662050"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71424313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "29 km SSW of Melipilla, Chile",
+        "time": 1694289794066,
+        "updated": 1694295727558,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kunh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kunh.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000kunh",
+        "ids": ",us7000kunh,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.094,
+        "rms": 0.34,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 29 km SSW of Melipilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3086,
+          -33.9453,
+          48.728
+        ]
+      },
+      "id": "us7000kunh"
     },
     {
       "type": "Feature",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Oaxaca, Mexico",
+        "place": "4 km ESE of San Francisco Loxicha, Mexico",
         "time": 1694267876534,
         "updated": 1694285164639,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Oaxaca, Mexico"
+        "title": "M 4.5 - 4 km ESE of San Francisco Loxicha, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1055,22 +1135,22 @@
         "mag": 4.3,
         "place": "76 km NE of Los Andes, Chile",
         "time": 1694247246417,
-        "updated": 1694249182040,
+        "updated": 1694293979564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kujm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kujm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "7000kujm",
         "ids": ",us7000kujm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 0.897,
         "rms": 0.56,
@@ -1412,38 +1492,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
+        "mag": 5.8,
         "place": "central East Pacific Rise",
-        "time": 1694228989627,
-        "updated": 1694230209040,
+        "time": 1694228989320,
+        "updated": 1694296557168,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kuik",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kuik.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 518,
         "net": "us",
         "code": "7000kuik",
         "ids": ",us7000kuik,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 15.751,
-        "rms": 1.26,
-        "gap": 113,
-        "magType": "mb",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 84,
+        "dmin": 15.75,
+        "rms": 0.8,
+        "gap": 59,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - central East Pacific Rise"
+        "title": "M 5.8 - central East Pacific Rise"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.5237,
-          -4.7683,
+          -105.53,
+          -4.737,
           10
         ]
       },
@@ -2048,91 +2128,11 @@
         ]
       },
       "id": "ak023bjh2vhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.8,
-        "place": "51 km WSW of Oukaïmedene, Morocco",
-        "time": 1694211062401,
-        "updated": 1694293629208,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kufc.geojson",
-        "felt": 1169,
-        "cdi": 7.1,
-        "mmi": 8.401,
-        "alert": "red",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 2710,
-        "net": "us",
-        "code": "7000kufc",
-        "ids": ",us7000kufc,",
-        "sources": ",us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 426,
-        "dmin": 2.368,
-        "rms": 0.71,
-        "gap": 12,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.8 - 51 km WSW of Oukaïmedene, Morocco"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.3815,
-          31.07,
-          26.321
-        ]
-      },
-      "id": "us7000kufc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "northeast of Taiwan",
-        "time": 1694210989136,
-        "updated": 1694217051040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kufb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000kufb",
-        "ids": ",us7000kufb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.879,
-        "rms": 0.65,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - northeast of Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8015,
-          25.094,
-          74.338
-        ]
-      },
-      "id": "us7000kufb"
     }
   ],
   "bbox": [
     -178.6705,
-    -32.6749,
+    -33.9453,
     -1.0900000333786,
     177.8036,
     69.049,
