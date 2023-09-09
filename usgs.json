@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694232953000,
+    "generated": 1694236346000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Banda Sea",
+        "time": 1694231362513,
+        "updated": 1694235505040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kuip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kuip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kuip",
+        "ids": ",us7000kuip,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 3.786,
+        "rms": 0.77,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.1943,
+          -6.1241,
+          117.151
+        ]
+      },
+      "id": "us7000kuip"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57999992,
-        "place": "11 km SSE of Fern Forest, Hawaii",
+        "place": "Hawaii region, Hawaii",
         "time": 1694228736990,
         "updated": 1694228929390,
         "tz": null,
@@ -77,7 +117,7 @@
         "gap": 329,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 11 km SSE of Fern Forest, Hawaii"
+        "title": "M 2.6 - Hawaii region, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -375,11 +415,11 @@
         "mag": 3.06,
         "place": "8 km E of Yucaipa, CA",
         "time": 1694216428210,
-        "updated": 1694228872387,
+        "updated": 1694235149040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39661746",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39661746.geojson",
-        "felt": 55,
+        "felt": 56,
         "cdi": 4.1,
         "mmi": 2.971,
         "alert": null,
@@ -388,8 +428,8 @@
         "sig": 167,
         "net": "ci",
         "code": "39661746",
-        "ids": ",ci39661746,",
-        "sources": ",ci,",
+        "ids": ",ci39661746,us7000kuft,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 138,
         "dmin": 0.06244,
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Ryukyu Islands, Japan",
+        "place": "109 km NNW of Tatsugō, Japan",
         "time": 1694213223060,
         "updated": 1694222980040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Ryukyu Islands, Japan"
+        "title": "M 4.9 - 109 km NNW of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -535,17 +575,17 @@
         "mag": 4.9,
         "place": "61 km NE of Taroudant, Morocco",
         "time": 1694212242996,
-        "updated": 1694229372277,
+        "updated": 1694234936043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kufg.geojson",
-        "felt": 40,
-        "cdi": 6,
+        "felt": 42,
+        "cdi": 6.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 393,
+        "sig": 395,
         "net": "us",
         "code": "7000kufg",
         "ids": ",us7000kufg,",
@@ -653,19 +693,19 @@
       "type": "Feature",
       "properties": {
         "mag": 6.8,
-        "place": "56 km W of Oukaïmedene, Morocco",
+        "place": "Morocco",
         "time": 1694211061412,
-        "updated": 1694232731890,
+        "updated": 1694236154686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kufc.geojson",
-        "felt": 938,
+        "felt": 956,
         "cdi": 7.6,
         "mmi": 8.339,
         "alert": "red",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 2713,
+        "sig": 2727,
         "net": "us",
         "code": "7000kufc",
         "ids": ",us7000kufc,",
@@ -677,7 +717,7 @@
         "gap": 18,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.8 - 56 km W of Oukaïmedene, Morocco"
+        "title": "M 6.8 - Morocco"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "northeast of Taiwan",
+        "place": "48 km NNE of Tarama, Japan",
         "time": 1694210989136,
         "updated": 1694217051040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 87,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - northeast of Taiwan"
+        "title": "M 4.8 - 48 km NNE of Tarama, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "29 km S of Acapulco de Juárez, Mexico",
+        "place": "near the coast of Guerrero, Mexico",
         "time": 1694201271081,
         "updated": 1694223309880,
         "tz": null,
@@ -837,7 +877,7 @@
         "gap": 169,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 29 km S of Acapulco de Juárez, Mexico"
+        "title": "M 4.5 - near the coast of Guerrero, Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.57,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km E of Pāhala, Hawaii",
         "time": 1694199449570,
         "updated": 1694205438040,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 160,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - Island of Hawaii, Hawaii"
+        "title": "M 2.6 - 10 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Ryukyu Islands, Japan",
+        "place": "81 km N of Tatsugō, Japan",
         "time": 1694197392106,
         "updated": 1694200858040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Ryukyu Islands, Japan"
+        "title": "M 4.4 - 81 km N of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1135,17 +1175,17 @@
         "mag": 4.99,
         "place": "12 km NE of Burney, CA",
         "time": 1694193878390,
-        "updated": 1694230863716,
+        "updated": 1694236230079,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73934641",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73934641.geojson",
-        "felt": 742,
+        "felt": 748,
         "cdi": 6.3,
         "mmi": 5.442,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 851,
+        "sig": 854,
         "net": "nc",
         "code": "73934641",
         "ids": ",nc73934641,us7000kubw,ew1694193880,",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "90 km N of Tatsugō, Japan",
+        "place": "Ryukyu Islands, Japan",
         "time": 1694193261638,
         "updated": 1694196484040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": 110,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 90 km N of Tatsugō, Japan"
+        "title": "M 4.1 - Ryukyu Islands, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1532,6 +1572,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4,
+        "place": "24 km NE of Marotta, Italy",
+        "time": 1694183782584,
+        "updated": 1694236292040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku9l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku9l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000ku9l",
+        "ids": ",us7000ku9l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.896,
+        "rms": 0.72,
+        "gap": 32,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 24 km NE of Marotta, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3924,
+          43.9002,
+          10
+        ]
+      },
+      "id": "us7000ku9l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.9,
         "place": "south of the Fiji Islands",
         "time": 1694183171136,
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Gulf of Aden",
+        "place": "165 km NNW of Caluula, Somalia",
         "time": 1694176872595,
         "updated": 1694178237040,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Gulf of Aden"
+        "title": "M 4.4 - 165 km NNW of Caluula, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1655,7 +1735,7 @@
         "mag": 5.2,
         "place": "Maug Islands region, Northern Mariana Islands",
         "time": 1694170489111,
-        "updated": 1694214306575,
+        "updated": 1694235903212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ku6k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ku6k.geojson",
@@ -1893,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Oruro, Bolivia",
+        "place": "84 km NE of Colchane, Chile",
         "time": 1694150505436,
         "updated": 1694155101040,
         "tz": null,
@@ -1917,7 +1997,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Oruro, Bolivia"
+        "title": "M 4.4 - 84 km NE of Colchane, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "us7000ku3i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "2 km E of Yauco, Puerto Rico",
-        "time": 1694147204560,
-        "updated": 1694148561190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424123",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424123.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71424123",
-        "ids": ",pr71424123,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.03002,
-        "rms": 0.23,
-        "gap": 130,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km E of Yauco, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8298333333333,
-          18.0373333333333,
-          11.14
-        ]
-      },
-      "id": "pr71424123"
     }
   ],
   "bbox": [
