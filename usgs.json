@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694438279000,
+    "generated": 1694441578000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 50
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "35 km WSW of Salcha, Alaska",
+        "time": 1694440361853,
+        "updated": 1694440909015,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023boak0rd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023boak0rd.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "023boak0rd",
+        "ids": ",ak023boak0rd,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 35 km WSW of Salcha, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.5256,
+          64.36,
+          8.1
+        ]
+      },
+      "id": "ak023boak0rd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "93 km WNW of Copiapó, Chile",
+        "time": 1694439427096,
+        "updated": 1694441087344,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kv1x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kv1x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.351,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000kv1x",
+        "ids": ",us7000kv1x,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 87,
+        "dmin": 0.82,
+        "rms": 0.82,
+        "gap": 137,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 93 km WNW of Copiapó, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2479,
+          -27.1542,
+          10
+        ]
+      },
+      "id": "us7000kv1x"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6,
         "place": "38 km NNE of Ternate, Indonesia",
         "time": 1694436694334,
-        "updated": 1694438152643,
+        "updated": 1694439347779,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kv0k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kv0k.geojson",
-        "felt": 1,
+        "felt": 4,
         "cdi": 4.1,
         "mmi": 4.139,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 554,
+        "sig": 555,
         "net": "us",
         "code": "7000kv0k",
         "ids": ",us7000kv0k,",
@@ -368,6 +448,46 @@
         ]
       },
       "id": "pr71424543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "96 km NNE of Mount Hagen, Papua New Guinea",
+        "time": 1694420620450,
+        "updated": 1694439614040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kuz8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kuz8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kuz8",
+        "ids": ",us7000kuz8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 4.702,
+        "rms": 0.51,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 96 km NNE of Mount Hagen, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6532,
+          -5.0958,
+          79.804
+        ]
+      },
+      "id": "us7000kuz8"
     },
     {
       "type": "Feature",
@@ -1968,46 +2088,6 @@
         ]
       },
       "id": "ci39662258"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "4 km S of Salinas, Puerto Rico",
-        "time": 1694353810450,
-        "updated": 1694355624700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71424483",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71424483.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "pr",
-        "code": "71424483",
-        "ids": ",pr71424483,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1832,
-        "rms": 0.14,
-        "gap": 211,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2966666666667,
-          17.935,
-          11.67
-        ]
-      },
-      "id": "pr71424483"
     }
   ],
   "bbox": [
@@ -2015,7 +2095,7 @@
     -55.7972,
     -1.17,
     158.4362,
-    52.2181,
+    64.36,
     516.765
   ]
 }
