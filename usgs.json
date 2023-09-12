@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694538724000,
+    "generated": 1694542624000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.73,
+        "place": "4 km NW of Fairchild Air Force Base, Washington",
+        "time": 1694539520030,
+        "updated": 1694542602537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61950352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61950352.geojson",
+        "felt": 34,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "uw",
+        "code": "61950352",
+        "ids": ",uw61950352,us7000kvbs,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1168,
+        "rms": 0.09,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km NW of Fairchild Air Force Base, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69016666666667,
+          47.64566666666666,
+          7.01
+        ]
+      },
+      "id": "uw61950352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1694539155387,
+        "updated": 1694540913040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvbq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvbq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000kvbq",
+        "ids": ",us7000kvbq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.036,
+        "rms": 0.44,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4584,
+          31.6693,
+          10.578
+        ]
+      },
+      "id": "us7000kvbq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "Flores Sea",
+        "place": "90 km N of Ruteng, Indonesia",
         "time": 1694530874923,
         "updated": 1694533960040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 64,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - Flores Sea"
+        "title": "M 4.6 - 90 km N of Ruteng, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.66,
-        "place": "2 km SW of Pāhala, Hawaii",
+        "place": "Island of Hawaii, Hawaii",
         "time": 1694516538460,
         "updated": 1694517358948,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km SW of Pāhala, Hawaii"
+        "title": "M 2.7 - Island of Hawaii, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "61 km E of Chignik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1694512165368,
         "updated": 1694513830040,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 184,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 61 km E of Chignik, Alaska"
+        "title": "M 2.7 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Ryukyu Islands, Japan",
+        "place": "78 km ESE of Tatsugō, Japan",
         "time": 1694509047193,
         "updated": 1694510269040,
         "tz": null,
@@ -317,7 +397,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Ryukyu Islands, Japan"
+        "title": "M 4.9 - 78 km ESE of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -335,17 +415,17 @@
         "mag": 3.28,
         "place": "10 km NE of Morgan Hill, CA",
         "time": 1694507541450,
-        "updated": 1694538034826,
+        "updated": 1694539645268,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73935981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73935981.geojson",
-        "felt": 250,
+        "felt": 252,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 268,
+        "sig": 269,
         "net": "nc",
         "code": "73935981",
         "ids": ",nc73935981,",
@@ -415,17 +495,17 @@
         "mag": 5.4,
         "place": "69 km NNW of Ollagüe, Chile",
         "time": 1694494718107,
-        "updated": 1694528355040,
+        "updated": 1694541699772,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kv7t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kv7t.geojson",
-        "felt": 14,
-        "cdi": 4.1,
+        "felt": 16,
+        "cdi": 4.8,
         "mmi": 3.772,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 454,
+        "sig": 456,
         "net": "us",
         "code": "7000kv7t",
         "ids": ",us7000kv7t,",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "near the coast of Chiapas, Mexico",
+        "place": "42 km SW of La Esperanza (El Zapotal), Mexico",
         "time": 1694486451034,
         "updated": 1694492867391,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 141,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - near the coast of Chiapas, Mexico"
+        "title": "M 5.1 - 42 km SW of La Esperanza (El Zapotal), Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Solomon Islands",
+        "place": "65 km WNW of Kirakira, Solomon Islands",
         "time": 1694481534506,
         "updated": 1694489128968,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Solomon Islands"
+        "title": "M 5.1 - 65 km WNW of Kirakira, Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "Komandorskiye Ostrova, Russia region",
+        "place": "263 km ESE of Ust’-Kamchatsk Staryy, Russia",
         "time": 1694472666329,
         "updated": 1694473903082,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 79,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - Komandorskiye Ostrova, Russia region"
+        "title": "M 5.3 - 263 km ESE of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "southeast of the Ryukyu Islands, Japan",
+        "place": "179 km S of Itoman, Japan",
         "time": 1694457008327,
         "updated": 1694459485040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 98,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - southeast of the Ryukyu Islands, Japan"
+        "title": "M 4.5 - 179 km S of Itoman, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1088,46 +1168,6 @@
         ]
       },
       "id": "us7000kv4b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Myanmar-India border region",
-        "time": 1694453521694,
-        "updated": 1694489277338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kv42",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kv42.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 372,
-        "net": "us",
-        "code": "7000kv42",
-        "ids": ",us7000kv42,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 124,
-        "dmin": 5.294,
-        "rms": 0.8,
-        "gap": 47,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Myanmar-India border region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.9066,
-          24.3609,
-          117.827
-        ]
-      },
-      "id": "us7000kv42"
     }
   ],
   "bbox": [
