@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1694682850000,
+    "generated": 1694686507000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 15
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "41 km E of Johannesburg, CA",
+        "time": 1694684804040,
+        "updated": 1694686201040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39664754",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39664754.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "ci",
+        "code": "39664754",
+        "ids": ",ci39664754,us7000kvp0,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.1827,
+        "rms": 0.14,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 41 km E of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1881667,
+          35.4121667,
+          1.36
+        ]
+      },
+      "id": "ci39664754"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.6,
         "place": "Morocco",
         "time": 1694670796324,
-        "updated": 1694682294091,
+        "updated": 1694685773509,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvnm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvnm.geojson",
-        "felt": 26,
+        "felt": 30,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 335,
+        "sig": 337,
         "net": "us",
         "code": "7000kvnm",
         "ids": ",us7000kvnm,",
@@ -568,54 +608,14 @@
         ]
       },
       "id": "us7000kvhq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "198 km S of Severo-Kuril’sk, Russia",
-        "time": 1694596568282,
-        "updated": 1694597558040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kvhe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kvhe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000kvhe",
-        "ids": ",us7000kvhe,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 91,
-        "dmin": 4.336,
-        "rms": 0.62,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 198 km S of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          156.1232,
-          48.8938,
-          29.328
-        ]
-      },
-      "id": "us7000kvhe"
     }
   ],
   "bbox": [
     -178.4599,
     -36.3184,
-    7.88,
+    1.36,
     170.0714,
-    48.8938,
+    36.5726662,
     502.512
   ]
 }
