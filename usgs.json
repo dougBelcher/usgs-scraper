@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695190694000,
+    "generated": 1695193963000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "55 km WNW of Anchor Point, Alaska",
+        "time": 1695190549656,
+        "updated": 1695190701105,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023c3206y0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023c3206y0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "023c3206y0",
+        "ids": ",ak023c3206y0,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 55 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.7558,
+          59.9505,
+          82.6
+        ]
+      },
+      "id": "ak023c3206y0"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1488,46 +1528,6 @@
         ]
       },
       "id": "us7000kwmd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1695104556972,
-        "updated": 1695112083065,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwm6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwm6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.956,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "7000kwm6",
-        "ids": ",us7000kwm6,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 97,
-        "dmin": 2.812,
-        "rms": 0.68,
-        "gap": 98,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.9754,
-          30.9788,
-          10
-        ]
-      },
-      "id": "us7000kwm6"
     }
   ],
   "bbox": [
