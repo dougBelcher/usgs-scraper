@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695197923000,
+    "generated": 1695201223000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Fiji region",
+        "time": 1695199826292,
+        "updated": 1695200909040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwux.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000kwux",
+        "ids": ",us7000kwux,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 3.162,
+        "rms": 0.83,
+        "gap": 46,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.6302,
+          -17.8609,
+          559.401
+        ]
+      },
+      "id": "us7000kwux"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.4,
         "place": "4 km NNW of Villa Bisonó, Dominican Republic",
         "time": 1695193242181,
-        "updated": 1695196848130,
+        "updated": 1695199855873,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwum",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwum.geojson",
-        "felt": 11,
+        "felt": 13,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1531,11 +1571,11 @@
     }
   ],
   "bbox": [
-    -178.34,
+    -178.6302,
     -43.7064,
     0,
     171.118,
     69.1873,
-    548.944
+    559.401
   ]
 }
