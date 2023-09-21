@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695251602000,
+    "generated": 1695258225000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "0 km SSE of Valley Ranch, California",
-        "time": 1695250046566,
-        "updated": 1695250971127,
+        "mag": 3.3,
+        "place": "56 km N of Petersville, Alaska",
+        "time": 1695251747109,
+        "updated": 1695251868282,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00866155",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00866155.geojson",
-        "felt": 2,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023c3c4k4z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023c3c4k4z.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 168,
+        "net": "ak",
+        "code": "023c3c4k4z",
+        "ids": ",ak023c3c4k4z,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 56 km N of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9146,
+          63,
+          123.9
+        ]
+      },
+      "id": "ak023c3c4k4z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "0 km N of Valley Ranch, California",
+        "time": 1695250047562,
+        "updated": 1695251957375,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00866155",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00866155.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
         "net": "nn",
         "code": "00866155",
         "ids": ",nn00866155,",
         "sources": ",nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.207,
-        "rms": 0.1473,
-        "gap": 152.53,
+        "nst": 24,
+        "dmin": 0.104,
+        "rms": 0.151,
+        "gap": 156.43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 0 km SSE of Valley Ranch, California"
+        "title": "M 2.8 - 0 km N of Valley Ranch, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.5634,
-          39.7312,
-          0
+          -120.5668,
+          39.7427,
+          9.1
         ]
       },
       "id": "nn00866155"
@@ -248,6 +288,46 @@
         ]
       },
       "id": "us7000kwy8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "central East Pacific Rise",
+        "time": 1695223705393,
+        "updated": 1695256912040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwy1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwy1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000kwy1",
+        "ids": ",us7000kwy1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 22.541,
+        "rms": 0.67,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - central East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1744,
+          -4.7106,
+          10
+        ]
+      },
+      "id": "us7000kwy1"
     },
     {
       "type": "Feature",
@@ -1168,126 +1248,6 @@
         ]
       },
       "id": "tx2023skuu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "off the east coast of Honshu, Japan",
-        "time": 1695170952996,
-        "updated": 1695176248040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kwt1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kwt1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000kwt1",
-        "ids": ",us7000kwt1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 2.191,
-        "rms": 0.55,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - off the east coast of Honshu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9889,
-          40.3133,
-          10
-        ]
-      },
-      "id": "us7000kwt1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "22 km SW of Susitna North, Alaska",
-        "time": 1695169933713,
-        "updated": 1695176862040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023c2yj5ut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023c2yj5ut.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023c2yj5ut",
-        "ids": ",us7000kwt0,ak023c2yj5ut,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.29,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 22 km SW of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1355,
-          62.0081,
-          46.7
-        ]
-      },
-      "id": "ak023c2yj5ut"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "2 km S of Arcata, CA",
-        "time": 1695168219060,
-        "updated": 1695251275272,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73939161",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73939161.geojson",
-        "felt": 75,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "nc",
-        "code": "73939161",
-        "ids": ",nc73939161,us7000kwsu,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.05162,
-        "rms": 0.06,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km S of Arcata, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.081665,
-          40.850666,
-          15.64
-        ]
-      },
-      "id": "nc73939161"
     }
   ],
   "bbox": [
