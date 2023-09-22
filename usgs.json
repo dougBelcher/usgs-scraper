@@ -1,31 +1,151 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695381056000,
+    "generated": 1695385649000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.5,
+        "place": "21 km NNW of Jal, New Mexico",
+        "time": 1695385111415,
+        "updated": 1695385594040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "7000kxci",
+        "ids": ",us7000kxci,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.104,
+        "rms": 0.39,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 21 km NNW of Jal, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3111,
+          32.2816,
+          7.935
+        ]
+      },
+      "id": "us7000kxci"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "41 km S of Sand Point, Alaska",
+        "time": 1695383948923,
+        "updated": 1695384734040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxch",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxch.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000kxch",
+        "ids": ",us7000kxch,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.382,
+        "rms": 0.66,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 41 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.3829,
+          54.9717,
+          46.316
+        ]
+      },
+      "id": "us7000kxch"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.28,
+        "place": "Puerto Rico region",
+        "time": 1695382695180,
+        "updated": 1695384194280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425538.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 166,
+        "net": "pr",
+        "code": "71425538",
+        "ids": ",us7000kxcc,pr71425538,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.05913,
+        "rms": 0.2,
+        "gap": 165,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - Puerto Rico region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0703333333333,
+          18.3671666666667,
+          108.62
+        ]
+      },
+      "id": "pr71425538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.31,
-        "place": "9 km NW of Prague, Oklahoma",
+        "place": "Oklahoma",
         "time": 1695379599376,
-        "updated": 1695381047545,
+        "updated": 1695384017984,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023sped",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023sped.geojson",
-        "felt": 6,
-        "cdi": 6.2,
+        "felt": 12,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 174,
         "net": "ok",
         "code": "2023sped",
         "ids": ",ok2023sped,us7000kxc8,",
@@ -37,7 +157,7 @@
         "gap": 30.33672333,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 9 km NW of Prague, Oklahoma"
+        "title": "M 3.3 - Oklahoma"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Alaska Peninsula",
+        "place": "87 km NNW of Karluk, Alaska",
         "time": 1695373091776,
         "updated": 1695373193995,
         "tz": null,
@@ -157,7 +277,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Alaska Peninsula"
+        "title": "M 2.7 - 87 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -292,8 +412,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "236 km W of Bandon, Oregon",
+        "time": 1695365197322,
+        "updated": 1695385583040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxaw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxaw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000kxaw",
+        "ids": ",us7000kxaw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 2.353,
+        "rms": 0.67,
+        "gap": 274,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 236 km W of Bandon, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.2753,
+          43.5237,
+          10
+        ]
+      },
+      "id": "us7000kxaw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
-        "place": "192 km SE of Chignik, Alaska",
+        "place": "south of Alaska",
         "time": 1695364461624,
         "updated": 1695371477183,
         "tz": null,
@@ -317,7 +477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 192 km SE of Chignik, Alaska"
+        "title": "M 3.6 - south of Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -335,7 +495,7 @@
         "mag": 2.5,
         "place": "26 km SW of Tatitlek, Alaska",
         "time": 1695360022367,
-        "updated": 1695360116274,
+        "updated": 1695385235040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023c6cigxe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023c6cigxe.geojson",
@@ -348,8 +508,8 @@
         "sig": 96,
         "net": "ak",
         "code": "023c6cigxe",
-        "ids": ",ak023c6cigxe,",
-        "sources": ",ak,",
+        "ids": ",us7000kxap,ak023c6cigxe,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -373,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "63 km S of Corinto, Nicaragua",
+        "place": "near the coast of Nicaragua",
         "time": 1695359235960,
         "updated": 1695361193040,
         "tz": null,
@@ -397,7 +557,7 @@
         "gap": 140,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 63 km S of Corinto, Nicaragua"
+        "title": "M 4.9 - near the coast of Nicaragua"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "35 km SW of Sangay, Philippines",
+        "place": "Moro Gulf, Mindanao, Philippines",
         "time": 1695352692479,
         "updated": 1695353599040,
         "tz": null,
@@ -437,7 +597,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 35 km SW of Sangay, Philippines"
+        "title": "M 4.4 - Moro Gulf, Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Central Peru",
+        "place": "35 km E of Honoria, Peru",
         "time": 1695348715494,
         "updated": 1695350021040,
         "tz": null,
@@ -557,7 +717,7 @@
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Central Peru"
+        "title": "M 4.9 - 35 km E of Honoria, Peru"
       },
       "geometry": {
         "type": "Point",
@@ -773,19 +933,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "8 km S of Buff Bay, Jamaica",
+        "place": "Jamaica region",
         "time": 1695342672047,
-        "updated": 1695380491027,
+        "updated": 1695384750320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kx9c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kx9c.geojson",
-        "felt": 52,
-        "cdi": 4.8,
+        "felt": 55,
+        "cdi": 4.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 309,
+        "sig": 311,
         "net": "us",
         "code": "7000kx9c",
         "ids": ",us7000kx9c,",
@@ -797,7 +957,7 @@
         "gap": 41,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 8 km S of Buff Bay, Jamaica"
+        "title": "M 4.3 - Jamaica region"
       },
       "geometry": {
         "type": "Point",
@@ -1288,46 +1448,6 @@
         ]
       },
       "id": "pr71425458"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "46 km NNW of San Antonio, Puerto Rico",
-        "time": 1695295140630,
-        "updated": 1695297212860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425448",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425448.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "pr",
-        "code": "71425448",
-        "ids": ",pr71425448,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.4332,
-        "rms": 0.21,
-        "gap": 283,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 46 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3286666666667,
-          18.8505,
-          13.28
-        ]
-      },
-      "id": "pr71425448"
     }
   ],
   "bbox": [
