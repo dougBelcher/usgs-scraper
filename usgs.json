@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695654935000,
+    "generated": 1695658784000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.77,
+        "place": "14 km S of Fern Forest, Hawaii",
+        "time": 1695657612160,
+        "updated": 1695657944460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73585172",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73585172.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "hv",
+        "code": "73585172",
+        "ids": ",hv73585172,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": null,
+        "rms": 0.180000007,
+        "gap": 163,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 14 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.139663696289,
+          19.3325004577637,
+          -0.660000026226044
+        ]
+      },
+      "id": "hv73585172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "2 km SE of Palomas, Puerto Rico",
+        "time": 1695655269820,
+        "updated": 1695656488260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425848.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "pr",
+        "code": "71425848",
+        "ids": ",pr71425848,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.03421,
+        "rms": 0.1,
+        "gap": 145,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SE of Palomas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8578333333333,
+          18.0026666666667,
+          9.29
+        ]
+      },
+      "id": "pr71425848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.1,
-        "place": "off the coast of Washington",
+        "place": "245 km SW of Tofino, Canada",
         "time": 1695648711937,
-        "updated": 1695652202040,
+        "updated": 1695658516452,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxzd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxzd.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,14 +110,14 @@
         "code": "7000kxzd",
         "ids": ",us7000kxzd,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 57,
         "dmin": 2.316,
         "rms": 0.85,
         "gap": 182,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - off the coast of Washington"
+        "title": "M 4.1 - 245 km SW of Tofino, Canada"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.46,
-        "place": "12 km SSW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695639741280,
         "updated": 1695641922660,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 253,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 12 km SSW of Guánica, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "Southern Texas",
+        "place": "7 km WNW of Karnes City, Texas",
         "time": 1695632540473,
         "updated": 1695637169835,
         "tz": null,
@@ -197,7 +277,7 @@
         "gap": 58,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.3 - Southern Texas"
+        "title": "M 3.3 - 7 km WNW of Karnes City, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "6 km SE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695627545540,
         "updated": 1695628634040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SE of Maria Antonia, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "Puerto Rico region",
+        "place": "10 km SSE of Maria Antonia, Puerto Rico",
         "time": 1695619738770,
         "updated": 1695620779490,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 238,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 10 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "Near the north coast of Chukotskiy Avtonomnyy Okrug, Russia",
+        "place": "179 km SW of Point Hope, Alaska",
         "time": 1695619636500,
         "updated": 1695635461999,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - Near the north coast of Chukotskiy Avtonomnyy Okrug, Russia"
+        "title": "M 3.9 - 179 km SW of Point Hope, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Kepulauan Babar, Indonesia",
+        "place": "277 km ENE of Lospalos, Timor Leste",
         "time": 1695618680690,
         "updated": 1695620728040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Kepulauan Babar, Indonesia"
+        "title": "M 4.8 - 277 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "58 km SSE of Shima, Japan",
+        "place": "near the south coast of western Honshu, Japan",
         "time": 1695613079872,
         "updated": 1695613826040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 56,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 58 km SSE of Shima, Japan"
+        "title": "M 4.3 - near the south coast of western Honshu, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "31 km WSW of Ackerly, Texas",
+        "place": "western Texas",
         "time": 1695611890059,
         "updated": 1695648267099,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 53,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.3 - 31 km WSW of Ackerly, Texas"
+        "title": "M 3.3 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "4 km SW of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695604980710,
         "updated": 1695606361500,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 4 km SW of Guánica, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1015,17 +1095,17 @@
         "mag": 3.68,
         "place": "9 km WNW of Velma, Oklahoma",
         "time": 1695602431129,
-        "updated": 1695654614958,
+        "updated": 1695655043137,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023stwr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023stwr.geojson",
-        "felt": 83,
+        "felt": 84,
         "cdi": 4.1,
         "mmi": 4.101,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 242,
+        "sig": 243,
         "net": "ok",
         "code": "2023stwr",
         "ids": ",ok2023stwr,us7000kxwc,",
@@ -1048,6 +1128,46 @@
         ]
       },
       "id": "ok2023stwr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "1 km N of Charlemagne, Canada",
+        "time": 1695599969388,
+        "updated": 1695656706755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxw7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxw7.geojson",
+        "felt": 4,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "us",
+        "code": "7000kxw7",
+        "ids": ",us7000kxw7,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.249,
+        "rms": 0.58,
+        "gap": 82,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km N of Charlemagne, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4849,
+          45.7301,
+          5.178
+        ]
+      },
+      "id": "us7000kxw7"
     },
     {
       "type": "Feature",
@@ -1133,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.69,
-        "place": "36 km SSE of Boca de Yuma, Dominican Republic",
+        "place": "Mona Passage, Dominican Republic",
         "time": 1695590397880,
         "updated": 1695592788743,
         "tz": null,
@@ -1157,7 +1277,7 @@
         "gap": 234,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - 36 km SSE of Boca de Yuma, Dominican Republic"
+        "title": "M 3.7 - Mona Passage, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -1168,6 +1288,46 @@
         ]
       },
       "id": "pr2023267001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "146 km NW of Sabang, Indonesia",
+        "time": 1695589303966,
+        "updated": 1695655635040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxvg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxvg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000kxvg",
+        "ids": ",us7000kxvg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 6.017,
+        "rms": 0.63,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 146 km NW of Sabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.5565,
+          6.9695,
+          10
+        ]
+      },
+      "id": "us7000kxvg"
     },
     {
       "type": "Feature",
@@ -1253,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "77 km SW of Ashkāsham, Afghanistan",
         "time": 1695577142986,
         "updated": 1695579622040,
         "tz": null,
@@ -1277,7 +1437,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Hindu Kush region, Afghanistan"
+        "title": "M 4.3 - 77 km SW of Ashkāsham, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1573,7 @@
   "bbox": [
     -178.5016,
     -55.9027,
-    3.81,
+    -0.66000002622604,
     179.3543,
     67.4426,
     611.429
