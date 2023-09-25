@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695672885000,
+    "generated": 1695676277000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -132,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.77,
+        "mag": 3.02,
         "place": "14 km S of Fern Forest, Hawaii",
-        "time": 1695657612160,
-        "updated": 1695661149040,
+        "time": 1695657612820,
+        "updated": 1695673686810,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73585172",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73585172.geojson",
@@ -143,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 140,
         "net": "hv",
         "code": "73585172",
         "ids": ",us7000ky08,hv73585172,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 47,
+        "nst": 48,
         "dmin": null,
-        "rms": 0.180000007,
-        "gap": 163,
+        "rms": 0.17,
+        "gap": 91,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 14 km S of Fern Forest, Hawaii"
+        "title": "M 3.0 - 14 km S of Fern Forest, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.139663696289,
-          19.3325004577637,
-          -0.660000026226044
+          -155.1435,
+          19.3331666666667,
+          1.25
         ]
       },
       "id": "hv73585172"
@@ -1375,17 +1375,17 @@
         "mag": 2.7,
         "place": "1 km N of Charlemagne, Canada",
         "time": 1695599969388,
-        "updated": 1695672796402,
+        "updated": 1695674514430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxw7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxw7.geojson",
-        "felt": 6,
+        "felt": 8,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 115,
         "net": "us",
         "code": "7000kxw7",
         "ids": ",us7000kxw7,",
@@ -1528,52 +1528,12 @@
         ]
       },
       "id": "pr2023267001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "146 km NW of Sabang, Indonesia",
-        "time": 1695589303966,
-        "updated": 1695655635040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxvg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxvg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000kxvg",
-        "ids": ",us7000kxvg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 6.017,
-        "rms": 0.63,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 146 km NW of Sabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.5565,
-          6.9695,
-          10
-        ]
-      },
-      "id": "us7000kxvg"
     }
   ],
   "bbox": [
     -178.5016,
     -55.9027,
-    -0.66000002622604,
+    1.25,
     173.6373,
     67.4426,
     611.429
