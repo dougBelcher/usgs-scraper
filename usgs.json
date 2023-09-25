@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695633275000,
+    "generated": 1695636942000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.61,
         "place": "12 km SSW of Tres Pinos, CA",
         "time": 1695633006640,
-        "updated": 1695633202879,
+        "updated": 1695635159391,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73941686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73941686.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "73941686",
         "ids": ",nc73941686,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 47,
         "dmin": 0.02458,
         "rms": 0.19,
@@ -52,48 +52,48 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "2 km ENE of Falls City, Texas",
-        "time": 1695632539957,
-        "updated": 1695633059114,
+        "mag": 3.3,
+        "place": "Southern Texas",
+        "time": 1695632540473,
+        "updated": 1695635142288,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxyg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxyg.geojson",
-        "felt": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023sunf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023sunf.geojson",
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000kxyg",
-        "ids": ",us7000kxyg,",
-        "sources": ",us,",
+        "sig": 169,
+        "net": "tx",
+        "code": "2023sunf",
+        "ids": ",us7000kxyg,tx2023sunf,",
+        "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.211,
-        "rms": 0.43,
-        "gap": 66,
-        "magType": "mb_lg",
+        "nst": 20,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 58,
+        "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.2 - 2 km ENE of Falls City, Texas"
+        "title": "M 3.3 - Southern Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.9972,
-          28.9872,
-          5
+          -97.969,
+          28.921,
+          4.9643
         ]
       },
-      "id": "us7000kxyg"
+      "id": "tx2023sunf"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.45,
-        "place": "Puerto Rico region",
+        "place": "6 km SE of Maria Antonia, Puerto Rico",
         "time": 1695627545540,
         "updated": 1695628634040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Puerto Rico region"
+        "title": "M 2.5 - 6 km SE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -175,17 +175,17 @@
         "mag": 3.2,
         "place": "19 km WSW of Taft, CA",
         "time": 1695624153760,
-        "updated": 1695632785124,
+        "updated": 1695633323485,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40572024",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40572024.geojson",
-        "felt": 4,
-        "cdi": 2.1,
+        "felt": 5,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 159,
         "net": "ci",
         "code": "40572024",
         "ids": ",ci40572024,",
@@ -213,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.59,
-        "place": "10 km SSE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695619738770,
         "updated": 1695620779490,
         "tz": null,
@@ -237,7 +237,7 @@
         "gap": 238,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 10 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -248,6 +248,46 @@
         ]
       },
       "id": "pr71425798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "Near the north coast of Chukotskiy Avtonomnyy Okrug, Russia",
+        "time": 1695619636500,
+        "updated": 1695635461999,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023cbb5zvi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023cbb5zvi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.777,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "023cbb5zvi",
+        "ids": ",ak023cbb5zvi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - Near the north coast of Chukotskiy Avtonomnyy Okrug, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.2676,
+          67.4426,
+          21.8
+        ]
+      },
+      "id": "ak023cbb5zvi"
     },
     {
       "type": "Feature",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "277 km ENE of Lospalos, Timor Leste",
+        "place": "Kepulauan Babar, Indonesia",
         "time": 1695618680690,
         "updated": 1695620728040,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 277 km ENE of Lospalos, Timor Leste"
+        "title": "M 4.8 - Kepulauan Babar, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "near the south coast of western Honshu, Japan",
+        "place": "58 km SSE of Shima, Japan",
         "time": 1695613079872,
         "updated": 1695613826040,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 56,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - near the south coast of western Honshu, Japan"
+        "title": "M 4.3 - 58 km SSE of Shima, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.97,
-        "place": "Puerto Rico region",
+        "place": "4 km SW of Guánica, Puerto Rico",
         "time": 1695604980710,
         "updated": 1695606361500,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 215,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km SW of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.69,
-        "place": "Mona Passage, Dominican Republic",
+        "place": "36 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1695590397880,
         "updated": 1695592788743,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 234,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.7 - Mona Passage, Dominican Republic"
+        "title": "M 3.7 - 36 km SSE of Boca de Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "77 km SW of Ashkāsham, Afghanistan",
+        "place": "Hindu Kush region, Afghanistan",
         "time": 1695577142986,
         "updated": 1695579622040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 77 km SW of Ashkāsham, Afghanistan"
+        "title": "M 4.3 - Hindu Kush region, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "167 km ENE of Atka, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1695567697370,
         "updated": 1695633107219,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 167 km ENE of Atka, Alaska"
+        "title": "M 5.0 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.68,
-        "place": "8 km SE of Maria Antonia, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1695557934860,
         "updated": 1695563797680,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 225,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 8 km SE of Maria Antonia, Puerto Rico"
+        "title": "M 2.7 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us7000kxtc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "New Ireland region, Papua New Guinea",
-        "time": 1695548168061,
-        "updated": 1695549143040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxt2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxt2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000kxt2",
-        "ids": ",us7000kxt2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 12.178,
-        "rms": 0.45,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - New Ireland region, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.4785,
-          -4.4186,
-          114.435
-        ]
-      },
-      "id": "us7000kxt2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "offshore Guatemala",
-        "time": 1695547301111,
-        "updated": 1695548068040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kxt1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kxt1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000kxt1",
-        "ids": ",us7000kxt1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.881,
-        "rms": 0.53,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - offshore Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.6787,
-          13.7868,
-          89.327
-        ]
-      },
-      "id": "us7000kxt1"
     }
   ],
   "bbox": [
@@ -1455,7 +1415,7 @@
     -55.9027,
     3.81,
     179.3543,
-    53.5397,
+    67.4426,
     614.919
   ]
 }
