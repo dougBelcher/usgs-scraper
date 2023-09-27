@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695788174000,
+    "generated": 1695791602000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 31
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 5.1,
         "place": "Alaska Peninsula",
         "time": 1695780867605,
-        "updated": 1695785733710,
+        "updated": 1695789109598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lb0w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lb0w.geojson",
-        "felt": 2,
-        "cdi": 4.1,
+        "felt": 4,
+        "cdi": 4.2,
         "mmi": 3.725,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 402,
         "net": "us",
         "code": "6000lb0w",
         "ids": ",us6000lb0w,ak023cekdmrf,",
@@ -372,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "near the east coast of Honshu, Japan",
-        "time": 1695766899978,
-        "updated": 1695767936040,
+        "mag": 4.5,
+        "place": "45 km E of Namie, Japan",
+        "time": 1695766901292,
+        "updated": 1695789283040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lazm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lazm.geojson",
@@ -385,26 +385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 312,
         "net": "us",
         "code": "6000lazm",
         "ids": ",us6000lazm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 2.868,
-        "rms": 0.85,
-        "gap": 127,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 166,
+        "dmin": 2.821,
+        "rms": 0.63,
+        "gap": 115,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - near the east coast of Honshu, Japan"
+        "title": "M 4.5 - 45 km E of Namie, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.571,
-          37.5395,
-          54.697
+          141.5057,
+          37.5438,
+          64.645
         ]
       },
       "id": "us6000lazm"
@@ -1248,90 +1248,10 @@
         ]
       },
       "id": "us7000ky4p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "3 km SSE of Salinas, Puerto Rico",
-        "time": 1695705156100,
-        "updated": 1695705962400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71425983",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71425983.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "pr",
-        "code": "71425983",
-        "ids": ",pr71425983,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1131,
-        "rms": 0.3,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SSE of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2883333333333,
-          17.951,
-          12.08
-        ]
-      },
-      "id": "pr71425983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "south of the Fiji Islands",
-        "time": 1695704612804,
-        "updated": 1695711111040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ky4d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ky4d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000ky4d",
-        "ids": ",us7000ky4d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 5.256,
-        "rms": 1.36,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.8203,
-          -24.2606,
-          496.187
-        ]
-      },
-      "id": "us7000ky4d"
     }
   ],
   "bbox": [
-    -179.8203,
+    -179.8114,
     -28.7581,
     2.29,
     161.4958,
