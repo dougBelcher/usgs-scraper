@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695776662000,
+    "generated": 1695781222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "21 km ESE of Little Lake, CA",
+        "time": 1695778147950,
+        "updated": 1695778787820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40573224",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40573224.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "ci",
+        "code": "40573224",
+        "ids": ",ci40573224,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.09771,
+        "rms": 0.17,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 21 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6853333,
+          35.882,
+          2.29
+        ]
+      },
+      "id": "ci40573224"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,12 +455,12 @@
         "mag": 4.8,
         "place": "14 km SE of Vicente Guerrero, Mexico",
         "time": 1695750052282,
-        "updated": 1695758073838,
+        "updated": 1695780022783,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000laxz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000laxz.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1135,7 +1175,7 @@
         "mag": 3.59,
         "place": "5 km WSW of Central Aguirre, Puerto Rico",
         "time": 1695700209200,
-        "updated": 1695766529600,
+        "updated": 1695779117040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023269001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023269001.geojson",
@@ -1148,8 +1188,8 @@
         "sig": 201,
         "net": "pr",
         "code": "2023269001",
-        "ids": ",pr2023269001,",
-        "sources": ",pr,",
+        "ids": ",pr2023269001,us7000ky45,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.1675,
@@ -1248,92 +1288,12 @@
         ]
       },
       "id": "us7000ky3w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "Pulau-Pulau Talaud, Indonesia",
-        "time": 1695692383530,
-        "updated": 1695773246993,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ky3a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ky3a.geojson",
-        "felt": 6,
-        "cdi": 4.1,
-        "mmi": 4.328,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 538,
-        "net": "us",
-        "code": "7000ky3a",
-        "ids": ",us7000ky3a,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 128,
-        "dmin": 2.996,
-        "rms": 0.75,
-        "gap": 44,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - Pulau-Pulau Talaud, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.4879,
-          4.7369,
-          94
-        ]
-      },
-      "id": "us7000ky3a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Hindu Kush region, Afghanistan",
-        "time": 1695692225150,
-        "updated": 1695769380040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ky39",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ky39.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000ky39",
-        "ids": ",us7000ky39,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.96,
-        "rms": 0.49,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Hindu Kush region, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.4479,
-          36.1332,
-          138.859
-        ]
-      },
-      "id": "us7000ky39"
     }
   ],
   "bbox": [
     -179.8203,
     -35.2766,
-    5,
+    2.29,
     161.4958,
     62.1683,
     533.782
