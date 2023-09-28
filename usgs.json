@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695904104000,
+    "generated": 1695907035000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 49
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Dominican Republic",
+        "time": 1695902700343,
+        "updated": 1695906701261,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbd0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbd0.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 272,
+        "net": "us",
+        "code": "6000lbd0",
+        "ids": ",us6000lbd0,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.332,
+        "rms": 0.65,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.756,
+          18.7596,
+          103.215
+        ]
+      },
+      "id": "us6000lbd0"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "18 km SW of Falls City, Texas",
         "time": 1695902223693,
-        "updated": 1695903791428,
+        "updated": 1695906961040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tafm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tafm.geojson",
@@ -28,8 +68,8 @@
         "sig": 129,
         "net": "tx",
         "code": "2023tafm",
-        "ids": ",tx2023tafm,",
-        "sources": ",tx,",
+        "ids": ",us6000lbcy,tx2023tafm,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 12,
         "dmin": 0.1,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000lbcu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "23 km E of Tanque Verde, Arizona",
+        "time": 1695898220266,
+        "updated": 1695905411040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbcm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbcm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000lbcm",
+        "ids": ",us6000lbcm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.261,
+        "rms": 0.99,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 23 km E of Tanque Verde, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4897,
+          32.2341,
+          5
+        ]
+      },
+      "id": "us6000lbcm"
     },
     {
       "type": "Feature",
