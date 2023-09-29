@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1695982470000,
+    "generated": 1695985906000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "70 km E of Chiniak, Alaska",
+        "time": 1695984585475,
+        "updated": 1695984826152,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ci0fbyr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ci0fbyr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "023ci0fbyr",
+        "ids": ",ak023ci0fbyr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 70 km E of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1059,
+          57.6383,
+          27.5
+        ]
+      },
+      "id": "ak023ci0fbyr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "Southeastern Alaska",
         "time": 1695981063317,
-        "updated": 1695981222923,
+        "updated": 1695985558040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023chzu8jf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023chzu8jf.geojson",
@@ -28,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "023chzu8jf",
-        "ids": ",ak023chzu8jf,",
-        "sources": ",ak,",
+        "ids": ",us6000lbn3,ak023chzu8jf,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,12 +135,12 @@
         "mag": 4.5,
         "place": "9 km N of Daigo, Japan",
         "time": 1695974271936,
-        "updated": 1695975468040,
+        "updated": 1695985402180,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbmk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbmk.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "6000lbmk",
         "ids": ",us6000lbmk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 83,
         "dmin": 1.737,
         "rms": 0.93,
@@ -768,46 +808,6 @@
         ]
       },
       "id": "ak023cgketja"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1695938953995,
-        "updated": 1695939850040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbjc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbjc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000lbjc",
-        "ids": ",us6000lbjc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.047,
-        "rms": 0.32,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 59 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4566,
-          31.64,
-          9.217
-        ]
-      },
-      "id": "us6000lbjc"
     },
     {
       "type": "Feature",
@@ -1608,206 +1608,6 @@
         ]
       },
       "id": "tx2023taec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "23 km E of Tanque Verde, Arizona",
-        "time": 1695898220266,
-        "updated": 1695965350347,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbcm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbcm.geojson",
-        "felt": 19,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 154,
-        "net": "us",
-        "code": "6000lbcm",
-        "ids": ",us6000lbcm,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.261,
-        "rms": 0.99,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 23 km E of Tanque Verde, Arizona"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.4897,
-          32.2341,
-          5
-        ]
-      },
-      "id": "us6000lbcm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "18 km N of Alder Springs, CA",
-        "time": 1695897981230,
-        "updated": 1695944051116,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73942986",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73942986.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "nc",
-        "code": "73942986",
-        "ids": ",nc73942986,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 68,
-        "dmin": 0.1319,
-        "rms": 0.24,
-        "gap": 34,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km N of Alder Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7648333,
-          39.8063333,
-          5.52
-        ]
-      },
-      "id": "nc73942986"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "Puerto Rico region",
-        "time": 1695897380110,
-        "updated": 1695899315750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71426338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71426338.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71426338",
-        "ids": ",pr71426338,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1759,
-        "rms": 0.2,
-        "gap": 195,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.289,
-          17.9355,
-          7.34
-        ]
-      },
-      "id": "pr71426338"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "3 km S of Salinas, Puerto Rico",
-        "time": 1695897282310,
-        "updated": 1695898503350,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71426333",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71426333.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "pr",
-        "code": "71426333",
-        "ids": ",pr71426333,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1096,
-        "rms": 0.26,
-        "gap": 187,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km S of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2923333333333,
-          17.9501666666667,
-          11.94
-        ]
-      },
-      "id": "pr71426333"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "5 km SSE of Salinas, Puerto Rico",
-        "time": 1695896758940,
-        "updated": 1695968602040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71426323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71426323.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "pr",
-        "code": "71426323",
-        "ids": ",us6000lbcd,pr71426323,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1587,
-        "rms": 0.36,
-        "gap": 197,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 5 km SSE of Salinas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2746666666667,
-          17.9291666666667,
-          9.23
-        ]
-      },
-      "id": "pr71426323"
     }
   ],
   "bbox": [
