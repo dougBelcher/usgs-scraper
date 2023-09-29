@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696021884000,
+    "generated": 1696025552000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 43
   },
   "features": [
     {
@@ -52,6 +52,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "Davis Strait",
+        "time": 1696018652996,
+        "updated": 1696025219040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbsu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbsu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000lbsu",
+        "ids": ",us6000lbsu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 3.886,
+        "rms": 1.6,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Davis Strait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.763,
+          60.5835,
+          10
+        ]
+      },
+      "id": "us6000lbsu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1696018480882,
+        "updated": 1696022890742,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tcrj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tcrj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023tcrj",
+        "ids": ",tx2023tcrj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 63,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.007,
+          31.519,
+          6.9028
+        ]
+      },
+      "id": "tx2023tcrj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "44 km NW of San Antonio, Puerto Rico",
         "time": 1696016335850,
@@ -92,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.09,
-        "place": "2 km WNW of Heber, CA",
-        "time": 1696014806140,
-        "updated": 1696016650383,
+        "mag": 2.89,
+        "place": "2 km W of Heber, CA",
+        "time": 1696014806050,
+        "updated": 1696022951310,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40574560",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40574560.geojson",
@@ -103,28 +183,28 @@
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 134,
         "net": "ci",
         "code": "40574560",
-        "ids": ",ci40574560,",
-        "sources": ",ci,",
+        "ids": ",ci40574560,us6000lbs7,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 53,
-        "dmin": 0.03745,
-        "rms": 0.29,
-        "gap": 41,
+        "dmin": 0.03972,
+        "rms": 0.24,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 2 km WNW of Heber, CA"
+        "title": "M 2.9 - 2 km W of Heber, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.5534973,
-          32.7386665,
-          13.05
+          -115.5546667,
+          32.7313333,
+          12.58
         ]
       },
       "id": "ci40574560"
@@ -255,7 +335,7 @@
         "mag": 2.9,
         "place": "67 km NW of San Felipe, Mexico",
         "time": 1696006826308,
-        "updated": 1696012040040,
+        "updated": 1696023897807,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbr5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbr5.geojson",
@@ -268,9 +348,9 @@
         "sig": 129,
         "net": "us",
         "code": "6000lbr5",
-        "ids": ",us6000lbr5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",ci40574504,us6000lbr5,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 34,
         "dmin": 0.354,
         "rms": 0.76,
@@ -1528,6 +1608,46 @@
         ]
       },
       "id": "ak023cgko530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "40 km ENE of Maneadero, B.C., MX",
+        "time": 1695944693320,
+        "updated": 1696024456044,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40574184",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40574184.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "40574184",
+        "ids": ",ci40574184,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.2548,
+        "rms": 0.38,
+        "gap": 76,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 40 km ENE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1605,
+          31.8246667,
+          5.37
+        ]
+      },
+      "id": "ci40574184"
     },
     {
       "type": "Feature",
