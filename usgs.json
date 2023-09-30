@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696040244000,
+    "generated": 1696043604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.17,
+        "place": "12 km ESE of Pāhala, Hawaii",
+        "time": 1696041759220,
+        "updated": 1696043415981,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73588382",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73588382.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "hv",
+        "code": "73588382",
+        "ids": ",hv73588382,us6000lbuf,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 62,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 182,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 12 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.372333333333,
+          19.147,
+          29.77
+        ]
+      },
+      "id": "hv73588382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "9 km NE of Hermleigh, Texas",
         "time": 1696036291014,
-        "updated": 1696039990705,
+        "updated": 1696042094475,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tdbf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tdbf.geojson",
-        "felt": 1,
-        "cdi": 4.1,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -95,7 +135,7 @@
         "mag": 5.8,
         "place": "west of Macquarie Island",
         "time": 1696033919458,
-        "updated": 1696035773574,
+        "updated": 1696041300159,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lbtu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lbtu.geojson",
@@ -613,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.56,
-        "place": "Puerto Rico region",
+        "place": "4 km SSE of Salinas, Puerto Rico",
         "time": 1696004694010,
         "updated": 1696005767130,
         "tz": null,
@@ -637,7 +677,7 @@
         "gap": 191,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 4 km SSE of Salinas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "off the east coast of Honshu, Japan",
+        "place": "194 km ENE of Miyako, Japan",
         "time": 1696002297268,
         "updated": 1696006470040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 129,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - off the east coast of Honshu, Japan"
+        "title": "M 4.6 - 194 km ENE of Miyako, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1408,52 +1448,12 @@
         ]
       },
       "id": "pr71426443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "66 km E of Juneau, Alaska",
-        "time": 1695954949972,
-        "updated": 1695955629040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023chvkvg5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023chvkvg5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "023chvkvg5",
-        "ids": ",us6000lbl4,ak023chvkvg5,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 66 km E of Juneau, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -133.287,
-          58.3468,
-          0
-        ]
-      },
-      "id": "ak023chvkvg5"
     }
   ],
   "bbox": [
     -177.9601,
     -57.9647,
-    0,
+    0.1,
     152.7704,
     69.5196,
     371.59
