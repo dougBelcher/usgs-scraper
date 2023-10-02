@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696252665000,
+    "generated": 1696256012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "59 km ESE of Denali Park, Alaska",
+        "time": 1696255180526,
+        "updated": 1696255274013,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023cn0vt1d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023cn0vt1d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "023cn0vt1d",
+        "ids": ",ak023cn0vt1d,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 59 km ESE of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7729,
+          63.5778,
+          3.6
+        ]
+      },
+      "id": "ak023cn0vt1d"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "24 km S of Goālpāra, India",
         "time": 1696250716096,
-        "updated": 1696252394000,
+        "updated": 1696255518243,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lc8t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lc8t.geojson",
-        "felt": 17,
-        "cdi": 4.3,
+        "felt": 36,
+        "cdi": 8.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 456,
+        "sig": 478,
         "net": "us",
         "code": "6000lc8t",
         "ids": ",us6000lc8t,",
@@ -1412,6 +1452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "10 km WSW of Garden, Utah",
+        "time": 1696182732820,
+        "updated": 1696254130370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60551252",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60551252.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "uu",
+        "code": "60551252",
+        "ids": ",uu60551252,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.1993,
+        "rms": 0.18,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 10 km WSW of Garden, Utah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.506,
+          41.8476667,
+          6.37
+        ]
+      },
+      "id": "uu60551252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "125 km E of Chignik, Alaska",
         "time": 1696182020535,
@@ -1655,7 +1735,7 @@
     -57.0907,
     0.55,
     142.5556,
-    63.1231,
+    63.5778,
     593.558
   ]
 }
