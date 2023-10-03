@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696309955000,
+    "generated": 1696313915000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "17 km WSW of Rotan, Texas",
+        "time": 1696313181461,
+        "updated": 1696313890328,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tixl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tixl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "tx",
+        "code": "2023tixl",
+        "ids": ",us6000lcet,tx2023tixl,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 89,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 3.3 - 17 km WSW of Rotan, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.627,
+          32.768,
+          0.4157
+        ]
+      },
+      "id": "tx2023tixl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000lceh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "122 km S of Teluk Dalam, Indonesia",
+        "time": 1696306463519,
+        "updated": 1696310672040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lcel",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lcel.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000lcel",
+        "ids": ",us6000lcel,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.851,
+        "rms": 0.55,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 122 km S of Teluk Dalam, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.8626,
+          -0.5375,
+          10
+        ]
+      },
+      "id": "us6000lcel"
     },
     {
       "type": "Feature",
@@ -615,17 +695,17 @@
         "mag": 2.97,
         "place": "9 km WSW of Grapevine, CA",
         "time": 1696266188350,
-        "updated": 1696291649141,
+        "updated": 1696313311377,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40575560",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40575560.geojson",
-        "felt": 15,
+        "felt": 16,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 141,
         "net": "ci",
         "code": "40575560",
         "ids": ",ci40575560,",
@@ -1528,54 +1608,14 @@
         ]
       },
       "id": "us6000lc7c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Fiji region",
-        "time": 1696224858944,
-        "updated": 1696226808040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lc75",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lc75.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000lc75",
-        "ids": ",us6000lc75,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 97,
-        "dmin": 3.347,
-        "rms": 0.6,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.7686,
-          -20.8347,
-          593.558
-        ]
-      },
-      "id": "us6000lc75"
     }
   ],
   "bbox": [
-    -178.7686,
+    -166.7295,
     -41.2891,
-    1.05,
+    0.4157,
     179.8645,
     63.5778,
-    593.558
+    216.262
   ]
 }
