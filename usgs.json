@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696511888000,
+    "generated": 1696515193000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 49
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 2.7,
         "place": "Southern Alaska",
         "time": 1696500102282,
-        "updated": 1696500176062,
+        "updated": 1696512626170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023crxd4am",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023crxd4am.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +190,7 @@
         "code": "023crxd4am",
         "ids": ",ak023crxd4am,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
@@ -1452,6 +1452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3,
+        "place": "2 km W of Murcki, Poland",
+        "time": 1696458294105,
+        "updated": 1696515122357,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld46",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld46.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "6000ld46",
+        "ids": ",us6000ld46,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.726,
+        "rms": 0.84,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 2 km W of Murcki, Poland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0026,
+          50.2026,
+          5
+        ]
+      },
+      "id": "us6000ld46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
         "place": "255 km E of Levuka, Fiji",
         "time": 1696458122442,
@@ -1648,6 +1688,46 @@
         ]
       },
       "id": "hv73591912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "4 km S of Soweto, South Africa",
+        "time": 1696447440623,
+        "updated": 1696513397306,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld3x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld3x.geojson",
+        "felt": 4,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 212,
+        "net": "us",
+        "code": "6000ld3x",
+        "ids": ",us6000ld3x,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 8,
+        "dmin": 2.414,
+        "rms": 0.69,
+        "gap": 134,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 4 km S of Soweto, South Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8584,
+          -26.3093,
+          5
+        ]
+      },
+      "id": "us6000ld3x"
     },
     {
       "type": "Feature",
@@ -1892,7 +1972,7 @@
   ],
   "bbox": [
     -178.4983,
-    -22.7079,
+    -26.3093,
     -0.73,
     169.3834,
     64.5002,
