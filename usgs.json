@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696609127000,
+    "generated": 1696612368000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1696609280977,
+        "updated": 1696610769497,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ctolb37",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ctolb37.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.588,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "023ctolb37",
+        "ids": ",ak023ctolb37,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.7291,
+          51.3656,
+          41.5
+        ]
+      },
+      "id": "ak023ctolb37"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1696609167010,
+        "updated": 1696609498040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73596832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73596832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "73596832",
+        "ids": ",hv73596832,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": null,
+        "rms": 0.230000004,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.276840209961,
+          19.388500213623,
+          1.38999998569489
+        ]
+      },
+      "id": "hv73596832"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.55,
         "place": "28 km SW of Mineral, CA",
         "time": 1696606046990,
-        "updated": 1696607351645,
+        "updated": 1696611682955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73946306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73946306.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +150,7 @@
         "code": "73946306",
         "ids": ",nc73946306,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
         "dmin": 0.1517,
         "rms": 0.25,
@@ -92,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.62,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1696603498770,
-        "updated": 1696603828660,
+        "mag": 2.66,
+        "place": "8 km SW of Volcano, Hawaii",
+        "time": 1696603498740,
+        "updated": 1696611469650,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73596577",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73596577.geojson",
@@ -103,28 +183,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 109,
         "net": "hv",
         "code": "73596577",
         "ids": ",hv73596577,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 36,
+        "nst": 21,
         "dmin": null,
-        "rms": 0.129999995,
-        "gap": 70,
+        "rms": 0.1,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.7 - 8 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.277496337891,
-          19.3848323822021,
-          1.28999996185303
+          -155.281,
+          19.3826666666667,
+          1.47
         ]
       },
       "id": "hv73596577"
@@ -132,60 +212,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "8 km SW of Volcano, Hawaii",
-        "time": 1696603466180,
-        "updated": 1696603797840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73596572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73596572.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "hv",
-        "code": "73596572",
-        "ids": ",hv73596572,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.27766418457,
-          19.3834991455078,
-          1.69000005722046
-        ]
-      },
-      "id": "hv73596572"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.2,
         "place": "4 km NNW of Anchorage, Alaska",
         "time": 1696600878912,
-        "updated": 1696608935306,
+        "updated": 1696612187519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ctna5d5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ctna5d5.geojson",
-        "felt": 670,
+        "felt": 702,
         "cdi": 4.8,
         "mmi": 3.742,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 593,
+        "sig": 608,
         "net": "ak",
         "code": "023ctna5d5",
         "ids": ",ak023ctna5d5,us6000ldg3,",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "Southeastern Alaska",
+        "place": "62 km E of Juneau, Alaska",
         "time": 1696597950314,
         "updated": 1696598143291,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - Southeastern Alaska"
+        "title": "M 2.8 - 62 km E of Juneau, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "63 km SE of Port Graham, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1696595414781,
         "updated": 1696596156040,
         "tz": null,
@@ -397,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 63 km SE of Port Graham, Alaska"
+        "title": "M 2.7 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "63 km SSW of Nikolski, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1696592044088,
         "updated": 1696605911579,
         "tz": null,
@@ -517,7 +557,7 @@
         "gap": 175,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 63 km SSW of Nikolski, Alaska"
+        "title": "M 4.4 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "42 km ESE of Pedro Bay, Alaska",
         "time": 1696585606067,
         "updated": 1696606172040,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 42 km ESE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.74,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "14 km ESE of Naalehu, Hawaii",
         "time": 1696576671810,
         "updated": 1696577000490,
         "tz": null,
@@ -797,7 +837,7 @@
         "gap": 252,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Island of Hawaii, Hawaii"
+        "title": "M 2.7 - 14 km ESE of Naalehu, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "Southern Alaska",
+        "place": "52 km NE of Pedro Bay, Alaska",
         "time": 1696575527450,
         "updated": 1696601828864,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - Southern Alaska"
+        "title": "M 3.7 - 52 km NE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.93,
-        "place": "26 km NW of Rincón, Puerto Rico",
+        "place": "Mona Passage",
         "time": 1696573254210,
         "updated": 1696573766860,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 259,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 26 km NW of Rincón, Puerto Rico"
+        "title": "M 2.9 - Mona Passage"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "58 km E of Juneau, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1696564363597,
         "updated": 1696565676040,
         "tz": null,
@@ -1197,7 +1237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 58 km E of Juneau, Alaska"
+        "title": "M 2.9 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1928,53 +1968,13 @@
         ]
       },
       "id": "pr2023278001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "10 km SSW of Volcano, Hawaii",
-        "time": 1696525315090,
-        "updated": 1696527055330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73593702",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73593702.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "hv",
-        "code": "73593702",
-        "ids": ",hv73593702,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.287166666667,
-          19.3663333333333,
-          2.23
-        ]
-      },
-      "id": "hv73593702"
     }
   ],
   "bbox": [
     -179.6077,
     -27.8647,
     0,
-    154.0649,
+    178.7291,
     62.8954,
     478.71
   ]
