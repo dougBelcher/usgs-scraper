@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696573159000,
+    "generated": 1696576339000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "54 km NE of Pedro Bay, Alaska",
+        "time": 1696575526824,
+        "updated": 1696576064040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ctiuyia",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ctiuyia.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "023ctiuyia",
+        "ids": ",ak023ctiuyia,us6000lde8,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 54 km NE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.3073,
+          60.0702,
+          140.8
+        ]
+      },
+      "id": "ak023ctiuyia"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "26 km NW of Rincón, Puerto Rico",
+        "time": 1696573254210,
+        "updated": 1696573766860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71427613",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71427613.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "71427613",
+        "ids": ",pr71427613,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1035,
+        "rms": 0.13,
+        "gap": 259,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 26 km NW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4485,
+          18.4843333333333,
+          18.55
+        ]
+      },
+      "id": "pr71427613"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
         "place": "Izu Islands, Japan region",
         "time": 1696571362252,
-        "updated": 1696572722528,
+        "updated": 1696575833130,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lddt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lddt.geojson",
@@ -1728,174 +1808,14 @@
         ]
       },
       "id": "nc73945676"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "232 km E of Levuka, Fiji",
-        "time": 1696489235893,
-        "updated": 1696490923040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld19",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld19.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000ld19",
-        "ids": ",us6000ld19,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 4.344,
-        "rms": 0.89,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 232 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4983,
-          -17.8712,
-          563.757
-        ]
-      },
-      "id": "us6000ld19"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Izu Islands, Japan region",
-        "time": 1696488503673,
-        "updated": 1696490019040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld0z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld0z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000ld0z",
-        "ids": ",us6000ld0z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 3.026,
-        "rms": 0.84,
-        "gap": 50,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.032,
-          30.0861,
-          10
-        ]
-      },
-      "id": "us6000ld0z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "2 km NNE of Prattville, CA",
-        "time": 1696488321530,
-        "updated": 1696520582359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73945666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73945666.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "73945666",
-        "ids": ",nc73945666,nn00866799,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.2325,
-        "rms": 0.26,
-        "gap": 55,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km NNE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1461639,
-          40.2290001,
-          -0.57
-        ]
-      },
-      "id": "nc73945666"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "Izu Islands, Japan region",
-        "time": 1696486932859,
-        "updated": 1696494486171,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ld0f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ld0f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.796,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000ld0f",
-        "ids": ",us6000ld0f,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 107,
-        "dmin": 3.028,
-        "rms": 1.19,
-        "gap": 55,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.9795,
-          30.0809,
-          10
-        ]
-      },
-      "id": "us6000ld0f"
     }
   ],
   "bbox": [
     -179.6077,
     -27.8647,
-    -0.57,
+    -0.43,
     154.0649,
     62.8954,
-    563.757
+    478.71
   ]
 }
