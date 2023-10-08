@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696727318000,
+    "generated": 1696731771000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 63
+    "count": 64
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "44 km W of Santa Cruz, Chile",
+        "time": 1696728349899,
+        "updated": 1696729240040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldxh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldxh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ldxh",
+        "ids": ",us6000ldxh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.703,
+        "rms": 0.77,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 44 km W of Santa Cruz, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8422,
+          -34.7149,
+          43.592
+        ]
+      },
+      "id": "us6000ldxh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "6 km SW of Guánica, Puerto Rico",
+        "time": 1696726018530,
+        "updated": 1696731037330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023281000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023281000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "pr",
+        "code": "2023281000",
+        "ids": ",pr2023281000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.0797,
+        "rms": 0.1,
+        "gap": 206,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 6 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9453,
+          17.9306,
+          5
+        ]
+      },
+      "id": "pr2023281000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.46,
         "place": "12 km SE of Middletown, CA",
         "time": 1696725896420,
-        "updated": 1696727171210,
+        "updated": 1696727424470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73946881",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73946881.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +150,7 @@
         "code": "73946881",
         "ids": ",nc73946881,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 67,
         "dmin": 0.08872,
         "rms": 0.13,
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Kenai Peninsula, Alaska",
+        "place": "20 km SW of Point Possession, Alaska",
         "time": 1696719797883,
         "updated": 1696727207491,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Kenai Peninsula, Alaska"
+        "title": "M 3.0 - 20 km SW of Point Possession, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -613,19 +693,19 @@
       "type": "Feature",
       "properties": {
         "mag": 4.01,
-        "place": "6 km S of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1696708367410,
-        "updated": 1696724112408,
+        "updated": 1696731103316,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023280001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023280001.geojson",
-        "felt": 8,
-        "cdi": 4.6,
+        "felt": 11,
+        "cdi": 5.7,
         "mmi": 2.788,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 251,
+        "sig": 254,
         "net": "pr",
         "code": "2023280001",
         "ids": ",pr2023280001,us6000ldw0,",
@@ -637,7 +717,7 @@
         "gap": 219,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.0 - 6 km S of Guánica, Puerto Rico"
+        "title": "M 4.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1495,7 +1575,7 @@
         "mag": 6.7,
         "place": "56 km SE of Madang, Papua New Guinea",
         "time": 1696667666734,
-        "updated": 1696709857557,
+        "updated": 1696727450037,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldqd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldqd.geojson",
@@ -2488,51 +2568,11 @@
         ]
       },
       "id": "us6000ldni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Kuril Islands",
-        "time": 1696641222357,
-        "updated": 1696642981040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldn7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldn7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000ldn7",
-        "ids": ",us6000ldn7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 6.469,
-        "rms": 0.51,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.8105,
-          47.1473,
-          10
-        ]
-      },
-      "id": "us6000ldn7"
     }
   ],
   "bbox": [
     -168.6174,
-    -25.3962,
+    -34.7149,
     0,
     165.6541,
     62.3508,
