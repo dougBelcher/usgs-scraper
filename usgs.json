@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696785052000,
+    "generated": 1696789050000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 52
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.96,
         "place": "7 km NW of The Geysers, CA",
         "time": 1696779551810,
-        "updated": 1696782599002,
+        "updated": 1696786554040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73947211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73947211.geojson",
@@ -68,8 +68,8 @@
         "sig": 136,
         "net": "nc",
         "code": "73947211",
-        "ids": ",nc73947211,",
-        "sources": ",nc,",
+        "ids": ",nc73947211,us6000le1q,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 77,
         "dmin": 0.002019,
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "43 km ESE of Atka, Alaska",
         "time": 1696776476380,
         "updated": 1696784292702,
         "tz": null,
@@ -157,7 +157,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - 43 km ESE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -855,12 +855,12 @@
         "mag": 4.4,
         "place": "Dominican Republic region",
         "time": 1696749753895,
-        "updated": 1696754686040,
+        "updated": 1696788110893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldz3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldz3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -870,7 +870,7 @@
         "code": "6000ldz3",
         "ids": ",us6000ldz3,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 78,
         "dmin": 0.625,
         "rms": 0.92,
@@ -2088,86 +2088,6 @@
         ]
       },
       "id": "us6000ldvm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "56 km SW of Ollagüe, Chile",
-        "time": 1696701439503,
-        "updated": 1696704201040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldvg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldvg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ldvg",
-        "ids": ",us6000ldvg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.629,
-        "rms": 0.56,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 56 km SW of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5933,
-          -21.6187,
-          139.956
-        ]
-      },
-      "id": "us6000ldvg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1696699792790,
-        "updated": 1696701728040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldvd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldvd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000ldvd",
-        "ids": ",us6000ldvd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 126,
-        "dmin": 2.601,
-        "rms": 0.56,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.8923,
-          31.1971,
-          10
-        ]
-      },
-      "id": "us6000ldvd"
     }
   ],
   "bbox": [
