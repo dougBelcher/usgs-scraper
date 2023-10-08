@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1696792192000,
+    "generated": 1696796010000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 52
+    "count": 51
   },
   "features": [
     {
@@ -15,13 +15,13 @@
         "mag": 5.9,
         "place": "178 km SE of Lorengau, Papua New Guinea",
         "time": 1696788460960,
-        "updated": 1696789593875,
+        "updated": 1696795844260,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000le27",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000le27.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.928,
+        "mmi": 3.929,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -30,7 +30,7 @@
         "code": "6000le27",
         "ids": ",us6000le27,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 62,
         "dmin": 7.717,
         "rms": 0.73,
@@ -95,7 +95,7 @@
         "mag": 2.96,
         "place": "7 km NW of The Geysers, CA",
         "time": 1696779551810,
-        "updated": 1696786554040,
+        "updated": 1696792813313,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73947211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73947211.geojson",
@@ -172,42 +172,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "43 km ESE of Atka, Alaska",
-        "time": 1696776476380,
-        "updated": 1696784292702,
+        "mag": 4.1,
+        "place": "western Afghanistan",
+        "time": 1696777125985,
+        "updated": 1696792618040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023cwymvu7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023cwymvu7.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000le1k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000le1k.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "023cwymvu7",
-        "ids": ",ak023cwymvu7,",
-        "sources": ",ak,",
+        "sig": 259,
+        "net": "us",
+        "code": "6000le1k",
+        "ids": ",us6000le1k,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.34,
-        "gap": null,
-        "magType": "ml",
+        "nst": 34,
+        "dmin": 5.87,
+        "rms": 0.73,
+        "gap": 130,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.0 - 43 km ESE of Atka, Alaska"
+        "title": "M 4.1 - western Afghanistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.5866,
-          52.0923,
-          86.2
+          61.9287,
+          34.6028,
+          10.604
         ]
       },
-      "id": "ak023cwymvu7"
+      "id": "us6000le1k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "43 km ESE of Atka, Alaska",
+        "time": 1696776477127,
+        "updated": 1696793895040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000le23",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000le23.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000le23",
+        "ids": ",ak023cwymvu7,us6000le23,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.363,
+        "rms": 0.6,
+        "gap": 190,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 43 km ESE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.5835,
+          52.0991,
+          88.226
+        ]
+      },
+      "id": "us6000le23"
     },
     {
       "type": "Feature",
@@ -855,17 +895,17 @@
         "mag": 5,
         "place": "96 km S of La Tirana, Chile",
         "time": 1696750133500,
-        "updated": 1696783436693,
+        "updated": 1696794286663,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldz5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ldz5.geojson",
-        "felt": 5,
-        "cdi": 3.6,
+        "felt": 6,
+        "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 387,
         "net": "us",
         "code": "6000ldz5",
         "ids": ",us6000ldz5,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "38 km NW of Hughes, Alaska",
+        "place": "northern Alaska",
         "time": 1696749136633,
         "updated": 1696783372232,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 38 km NW of Hughes, Alaska"
+        "title": "M 3.3 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2008,86 +2048,6 @@
         ]
       },
       "id": "pr71427813"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "9 km SSW of Guánica, Puerto Rico",
-        "time": 1696708870140,
-        "updated": 1696715735040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71427808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71427808.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71427808",
-        "ids": ",us6000ldwc,pr71427808,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.08711,
-        "rms": 0.08,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 9 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9275,
-          17.8865,
-          13.66
-        ]
-      },
-      "id": "pr71427808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.01,
-        "place": "6 km S of Guánica, Puerto Rico",
-        "time": 1696708367410,
-        "updated": 1696734304621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023280001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023280001.geojson",
-        "felt": 13,
-        "cdi": 5.7,
-        "mmi": 2.788,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 255,
-        "net": "pr",
-        "code": "2023280001",
-        "ids": ",pr2023280001,us6000ldw0,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 14,
-        "dmin": 0.1429,
-        "rms": 0.09,
-        "gap": 219,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.0 - 6 km S of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9118,
-          17.9158,
-          8
-        ]
-      },
-      "id": "pr2023280001"
     }
   ],
   "bbox": [
