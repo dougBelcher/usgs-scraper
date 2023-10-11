@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697041138000,
+    "generated": 1697044378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 2.86,
         "place": "2 km SSE of San Gabriel, CA",
         "time": 1697038545860,
-        "updated": 1697040972664,
+        "updated": 1697044035176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40581104",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40581104.geojson",
-        "felt": 178,
+        "felt": 192,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 205,
         "net": "ci",
         "code": "40581104",
         "ids": ",ci40581104,",
@@ -175,11 +175,11 @@
         "mag": 2.86,
         "place": "Tennessee",
         "time": 1697026234500,
-        "updated": 1697037335673,
+        "updated": 1697042014304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60555026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60555026.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -892,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "31 km SE of Mina, Nevada",
+        "time": 1696994013498,
+        "updated": 1697042301782,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00867125",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00867125.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nn",
+        "code": "00867125",
+        "ids": ",nn00867125,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.078,
+        "rms": 0.1533,
+        "gap": 86.86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 31 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8949,
+          38.1663,
+          11.9
+        ]
+      },
+      "id": "nn00867125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "24 km N of Fox River, Alaska",
         "time": 1696993435272,
@@ -1288,86 +1328,6 @@
         ]
       },
       "id": "us6000lekm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "14 km S of Stony Gorge Reservoir, CA",
-        "time": 1696957331920,
-        "updated": 1697034570700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73948606",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73948606.geojson",
-        "felt": 2,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "nc",
-        "code": "73948606",
-        "ids": ",nc73948606,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.3691,
-        "rms": 0.37,
-        "gap": 213,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 14 km S of Stony Gorge Reservoir, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.5148315,
-          39.4556656,
-          11.09
-        ]
-      },
-      "id": "nc73948606"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "43 km SSW of Gongdanglegi Kulon, Indonesia",
-        "time": 1696956148421,
-        "updated": 1697006128894,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lei9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lei9.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000lei9",
-        "ids": ",us6000lei9,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 81,
-        "dmin": 1.59,
-        "rms": 1,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 43 km SSW of Gongdanglegi Kulon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          112.5475,
-          -8.5598,
-          84.706
-        ]
-      },
-      "id": "us6000lei9"
     }
   ],
   "bbox": [
