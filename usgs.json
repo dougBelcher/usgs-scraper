@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697113732000,
+    "generated": 1697116679000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 4.5,
         "place": "18 km SSE of Erciş, Turkey",
         "time": 1697108645956,
-        "updated": 1697110182040,
+        "updated": 1697113887435,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf1y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf1y.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "6000lf1y",
         "ids": ",us6000lf1y,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 41,
         "dmin": 0.636,
         "rms": 1.23,
@@ -495,17 +495,17 @@
         "mag": 4.7,
         "place": "Araucania-Los Lagos border region, Chile",
         "time": 1697090691576,
-        "updated": 1697106495265,
+        "updated": 1697114537862,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf0i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf0i.geojson",
-        "felt": 3,
-        "cdi": 2.2,
+        "felt": 4,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 341,
+        "sig": 342,
         "net": "us",
         "code": "6000lf0i",
         "ids": ",us6000lf0i,",
@@ -528,6 +528,46 @@
         ]
       },
       "id": "us6000lf0i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "42 km NW of Toyah, Texas",
+        "time": 1697088782136,
+        "updated": 1697114927682,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023tzhx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023tzhx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2023tzhx",
+        "ids": ",tx2023tzhx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.5 - 42 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.145,
+          31.548,
+          6.0802
+        ]
+      },
+      "id": "tx2023tzhx"
     },
     {
       "type": "Feature",
@@ -895,7 +935,7 @@
         "mag": 2.7,
         "place": "12 km SE of Middletown, CA",
         "time": 1697074442260,
-        "updated": 1697113092922,
+        "updated": 1697115322999,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73946265",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73946265.geojson",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "ak023d1won2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.72,
-        "place": "13 km SW of Volcano, Hawaii",
-        "time": 1697029819730,
-        "updated": 1697063622330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73604977",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73604977.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "hv",
-        "code": "73604977",
-        "ids": ",hv73604977,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3065,
-          19.34,
-          3.66
-        ]
-      },
-      "id": "hv73604977"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "19 km ENE of Willow, Alaska",
-        "time": 1697029402980,
-        "updated": 1697029471778,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d1wdw16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d1wdw16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "023d1wdw16",
-        "ids": ",ak023d1wdw16,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.26,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 19 km ENE of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7005,
-          61.8159,
-          35.1
-        ]
-      },
-      "id": "ak023d1wdw16"
     }
   ],
   "bbox": [
