@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697192117000,
+    "generated": 1697195537000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "94 km ENE of Kobuk, Alaska",
+        "time": 1697193179821,
+        "updated": 1697193365166,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d55ukta",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d55ukta.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023d55ukta",
+        "ids": ",ak023d55ukta,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 94 km ENE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.814,
+          67.1781,
+          1.1
+        ]
+      },
+      "id": "ak023d55ukta"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "29 km WSW of Imabetsu, Japan",
+        "time": 1697191191988,
+        "updated": 1697193173136,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lfbl.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000lfbl",
+        "ids": ",us6000lfbl,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 90,
+        "dmin": 0.745,
+        "rms": 0.97,
+        "gap": 28,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 29 km WSW of Imabetsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1595,
+          41.0801,
+          172.478
+        ]
+      },
+      "id": "us6000lfbl"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "Yellowstone National Park, Wyoming",
+        "place": "42 km ENE of Warm River, Idaho",
         "time": 1697184265900,
         "updated": 1697186763085,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Yellowstone National Park, Wyoming"
+        "title": "M 2.5 - 42 km ENE of Warm River, Idaho"
       },
       "geometry": {
         "type": "Point",
@@ -253,12 +333,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "7 km SW of Westbrook, Texas",
-        "time": 1697167671825,
-        "updated": 1697168107040,
+        "place": "western Texas",
+        "time": 1697167670614,
+        "updated": 1697194267183,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf9q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023uazh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023uazh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,28 +346,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
-        "net": "us",
-        "code": "6000lf9q",
-        "ids": ",us6000lf9q,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2023uazh",
+        "ids": ",us6000lf9q,tx2023uazh,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.389,
-        "rms": 0.8,
-        "gap": 48,
-        "magType": "mb_lg",
+        "nst": 43,
+        "dmin": 0.2,
+        "rms": 0.2,
+        "gap": 44,
+        "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.8 - 7 km SW of Westbrook, Texas"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.0594,
-          32.3004,
-          5
+          -101.088,
+          32.325,
+          11.9584
         ]
       },
-      "id": "us6000lf9q"
+      "id": "tx2023uazh"
     },
     {
       "type": "Feature",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "8 km S of Baghlān, Afghanistan",
         "time": 1697155394885,
         "updated": 1697156318040,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 53,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Hindu Kush region, Afghanistan"
+        "title": "M 4.9 - 8 km S of Baghlān, Afghanistan"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.1,
-        "place": "44 km WNW of Turt, Mongolia",
+        "place": "Russia-Mongolia border region",
         "time": 1697144664805,
         "updated": 1697145988040,
         "tz": null,
@@ -797,7 +877,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 44 km WNW of Turt, Mongolia"
+        "title": "M 4.1 - Russia-Mongolia border region"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "northern Alaska",
+        "place": "43 km WSW of Deering, Alaska",
         "time": 1697118002892,
         "updated": 1697125044040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 154,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - northern Alaska"
+        "title": "M 2.6 - 43 km WSW of Deering, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "46 km SW of Cantwell, Alaska",
+        "place": "Central Alaska",
         "time": 1697111598402,
         "updated": 1697119817526,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 46 km SW of Cantwell, Alaska"
+        "title": "M 3.2 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1128,134 +1208,14 @@
         ]
       },
       "id": "ak023d3j12pq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "Puerto Rico region",
-        "time": 1697108806620,
-        "updated": 1697133532584,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71428293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71428293.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71428293",
-        "ids": ",pr71428293,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.2515,
-        "rms": 0.19,
-        "gap": 227,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - Puerto Rico region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7503333333333,
-          18.617,
-          11.15
-        ]
-      },
-      "id": "pr71428293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "18 km SSE of Erciş, Turkey",
-        "time": 1697108645956,
-        "updated": 1697116825672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf1y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf1y.geojson",
-        "felt": 2,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "us",
-        "code": "6000lf1y",
-        "ids": ",us6000lf1y,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.636,
-        "rms": 1.23,
-        "gap": 36,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 18 km SSE of Erciş, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          43.4399,
-          38.8742,
-          10
-        ]
-      },
-      "id": "us6000lf1y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Bougainville region, Papua New Guinea",
-        "time": 1697106897612,
-        "updated": 1697109081495,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lf1v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lf1v.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000lf1v",
-        "ids": ",us6000lf1v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 3.986,
-        "rms": 1.14,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Bougainville region, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.2296,
-          -6.7721,
-          48.957
-        ]
-      },
-      "id": "us6000lf1v"
     }
   ],
   "bbox": [
     -163.5774,
     -56.3306,
-    4.864,
+    1.1,
     179.9884,
-    65.9101,
+    67.1781,
     554.733
   ]
 }
