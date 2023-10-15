@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697332132000,
+    "generated": 1697336556000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "18 km N of Fishhook, Alaska",
+        "time": 1697335873312,
+        "updated": 1697335967488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023d8c17c3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023d8c17c3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "023d8c17c3",
+        "ids": ",ak023d8c17c3,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18 km N of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2727,
+          61.9134,
+          40.1
+        ]
+      },
+      "id": "ak023d8c17c3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "10 km E of Lower Lake, CA",
+        "time": 1697335447170,
+        "updated": 1697336538522,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73947345",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73947345.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "nc",
+        "code": "73947345",
+        "ids": ",nc73947345,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.05381,
+        "rms": 0.15,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 10 km E of Lower Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4981689,
+          38.9108315,
+          8.45
+        ]
+      },
+      "id": "nc73947345"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,94 +1528,14 @@
         ]
       },
       "id": "us6000lfgw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "9 km W of El Pitahayo, Mexico",
-        "time": 1697249161575,
-        "updated": 1697250659180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lfgt.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000lfgt",
-        "ids": ",us6000lfgt,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 1.034,
-        "rms": 1.08,
-        "gap": 171,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 9 km W of El Pitahayo, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.6146,
-          16.5239,
-          38.94
-        ]
-      },
-      "id": "us6000lfgt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Fiji region",
-        "time": 1697249004905,
-        "updated": 1697252867040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfgv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lfgv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000lfgv",
-        "ids": ",us6000lfgv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 5.484,
-        "rms": 0.83,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.1936,
-          -21.15,
-          604.338
-        ]
-      },
-      "id": "us6000lfgv"
     }
   ],
   "bbox": [
-    -179.1936,
+    -152.9328,
     -60.4998,
     5.1,
     179.7323,
     63.7253,
-    604.338
+    427.025
   ]
 }
