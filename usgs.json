@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697447720000,
+    "generated": 1697451380000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 5.2,
         "place": "Fiji region",
         "time": 1697445970513,
-        "updated": 1697447207040,
+        "updated": 1697451060333,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfv4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lfv4.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 417,
         "net": "us",
         "code": "6000lfv4",
         "ids": ",us6000lfv4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 2.954,
         "rms": 0.9,
@@ -1408,52 +1408,12 @@
         ]
       },
       "id": "us6000lfq9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "34 km NW of Silver Peak, Nevada",
-        "time": 1697364054115,
-        "updated": 1697387778801,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00867338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00867338.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "nn",
-        "code": "00867338",
-        "ids": ",nn00867338,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.197,
-        "rms": 0.1331,
-        "gap": 63.86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 34 km NW of Silver Peak, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9161,
-          37.9678,
-          0
-        ]
-      },
-      "id": "nn00867338"
     }
   ],
   "bbox": [
     -179.6318,
     -31.5926,
-    0,
+    0.5577502251,
     160.2603,
     63.5269,
     474.943
