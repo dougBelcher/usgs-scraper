@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1697642116000,
+    "generated": 1697645945000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -92,20 +92,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "14 km SSW of Susitna, Alaska",
-        "time": 1697633832993,
-        "updated": 1697637149486,
+        "mag": 2.9,
+        "place": "Southern Alaska",
+        "time": 1697633833943,
+        "updated": 1697645267906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ddgvfs3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ddgvfs3.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 130,
         "net": "ak",
         "code": "023ddgvfs3",
         "ids": ",ak023ddgvfs3,",
@@ -113,18 +113,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.48,
+        "rms": 0.97,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 14 km SSW of Susitna, Alaska"
+        "title": "M 2.9 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.6382,
-          61.4311,
-          59.4
+          -150.6661,
+          61.4269,
+          55.3
         ]
       },
       "id": "ak023ddgvfs3"
@@ -135,12 +135,12 @@
         "mag": 4.2,
         "place": "1 km SE of Bayındır, Turkey",
         "time": 1697633725181,
-        "updated": 1697639376633,
+        "updated": 1697642192698,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lgcm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lgcm.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -412,46 +412,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "46 km NW of Skwentna, Alaska",
-        "time": 1697616030408,
-        "updated": 1697617241609,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dde5l0z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dde5l0z.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "023dde5l0z",
-        "ids": ",ak023dde5l0z,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.78,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 46 km NW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.0597,
-          62.2706,
-          249.9
-        ]
-      },
-      "id": "ak023dde5l0z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.9,
         "place": "128 km E of Kokopo, Papua New Guinea",
         "time": 1697615363604,
@@ -608,6 +568,46 @@
         ]
       },
       "id": "tx2023ukhe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "time": 1697601740874,
+        "updated": 1697644492005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ddbs75v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ddbs75v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.374,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "023ddbs75v",
+        "ids": ",ak023ddbs75v,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.05,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Fox Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.458,
+          52.2908,
+          33
+        ]
+      },
+      "id": "ak023ddbs75v"
     },
     {
       "type": "Feature",
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000lg6k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "1 km SW of Indios, Puerto Rico",
-        "time": 1697558374300,
-        "updated": 1697560326860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71428993",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71428993.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "pr",
-        "code": "71428993",
-        "ids": ",us6000lg6f,pr71428993,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.04514,
-        "rms": 0.18,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8303333333333,
-          17.9855,
-          12.62
-        ]
-      },
-      "id": "pr71428993"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "6 km SSW of Falls City, Texas",
-        "time": 1697558046539,
-        "updated": 1697573820869,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023ujfw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023ujfw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2023ujfw",
-        "ids": ",tx2023ujfw,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 72,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km SSW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.046,
-          28.933,
-          12.8877
-        ]
-      },
-      "id": "tx2023ujfw"
     }
   ],
   "bbox": [
@@ -1576,6 +1496,6 @@
     1.4,
     158.7696,
     63.0583,
-    249.9
+    209.509
   ]
 }
