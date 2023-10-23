@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698030893000,
+    "generated": 1698034652000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "3 km S of Monte Grande, Puerto Rico",
+        "time": 1698032788040,
+        "updated": 1698033688530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "pr",
+        "code": "71429463",
+        "ids": ",pr71429463,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.04309,
+        "rms": 0.23,
+        "gap": 62,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km S of Monte Grande, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1023333333333,
+          18.06,
+          20.24
+        ]
+      },
+      "id": "pr71429463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.0500000000000003,
+        "place": "Puget Sound region, Washington",
+        "time": 1698028905820,
+        "updated": 1698034350219,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61958757",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61958757.geojson",
+        "felt": 102,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "uw",
+        "code": "61958757",
+        "ids": ",uw61958757,",
+        "sources": ",uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 122,
+        "dmin": 0.04511,
+        "rms": 0.26,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - Puget Sound region, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69716666666666,
+          47.4075,
+          29.4
+        ]
+      },
+      "id": "uw61958757"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "57 km ESE of Yakutat, Alaska",
         "time": 1698027327876,
-        "updated": 1698027488532,
+        "updated": 1698034223040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dlkcv8c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dlkcv8c.geojson",
@@ -28,8 +108,8 @@
         "sig": 96,
         "net": "ak",
         "code": "023dlkcv8c",
-        "ids": ",ak023dlkcv8c,",
-        "sources": ",ak,",
+        "ids": ",us6000lhe5,ak023dlkcv8c,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "133 km ESE of Chalkyitsik, Alaska",
-        "time": 1698025741113,
-        "updated": 1698026132040,
+        "mag": 3.6,
+        "place": "130 km ESE of Chalkyitsik, Alaska",
+        "time": 1698025740826,
+        "updated": 1698033401040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhe2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhe2.geojson",
@@ -65,29 +145,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 199,
         "net": "us",
         "code": "6000lhe2",
         "ids": ",us6000lhe2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.361,
-        "rms": 0.8,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.734,
+        "rms": 0.56,
         "gap": 75,
-        "magType": "ml",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 3.8 - 133 km ESE of Chalkyitsik, Alaska"
+        "title": "M 3.6 - 130 km ESE of Chalkyitsik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.8667,
-          66.2841,
+          -140.9406,
+          66.2807,
           10
         ]
       },
       "id": "us6000lhe2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "Mona Passage",
+        "time": 1698024025526,
+        "updated": 1698031990040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhe1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhe1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000lhe1",
+        "ids": ",us6000lhe1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 1.5,
+        "rms": 0.41,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - Mona Passage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3585,
+          19.9565,
+          10
+        ]
+      },
+      "id": "us6000lhe1"
     },
     {
       "type": "Feature",
@@ -1088,94 +1208,14 @@
         ]
       },
       "id": "us6000lh96"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "51 km WNW of Ninilchik, Alaska",
-        "time": 1697947603351,
-        "updated": 1697949851349,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023djxyhod",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023djxyhod.geojson",
-        "felt": 6,
-        "cdi": 2.2,
-        "mmi": 2.961,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 212,
-        "net": "ak",
-        "code": "023djxyhod",
-        "ids": ",ak023djxyhod,us6000lh8x,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 51 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.4708,
-          60.2738,
-          100
-        ]
-      },
-      "id": "ak023djxyhod"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1697947137239,
-        "updated": 1697950471040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lh8y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lh8y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.539,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000lh8y",
-        "ids": ",ak023djxo8kv,us6000lh8y,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 21,
-        "dmin": 0.991,
-        "rms": 0.4,
-        "gap": 234,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.1 - Fox Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.4849,
-          51.8083,
-          10
-        ]
-      },
-      "id": "us6000lh8y"
     }
   ],
   "bbox": [
-    -169.4849,
+    -155.7479,
     -41.2673,
     5.3,
     179.3946,
-    66.2841,
+    66.2807,
     542.401
   ]
 }
