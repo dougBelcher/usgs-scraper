@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698128350000,
+    "generated": 1698131574000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.5,
         "place": "217 km W of Port McNeill, Canada",
         "time": 1698127100696,
-        "updated": 1698128326040,
+        "updated": 1698128717663,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l5x9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l5x9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000l5x9",
         "ids": ",us7000l5x9,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 48,
         "dmin": 1.291,
         "rms": 0.64,
@@ -1528,46 +1528,6 @@
         ]
       },
       "id": "us6000lhfy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "48 km E of Port Alsworth, Alaska",
-        "time": 1698043832964,
-        "updated": 1698077146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lhfh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lhfh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000lhfh",
-        "ids": ",us6000lhfh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.234,
-        "rms": 0.34,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 48 km E of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4452,
-          60.1609,
-          144.949
-        ]
-      },
-      "id": "us6000lhfh"
     }
   ],
   "bbox": [
@@ -1575,7 +1535,7 @@
     -41.1673,
     0.01,
     179.6322,
-    60.1609,
+    50.5879,
     549.219
   ]
 }
