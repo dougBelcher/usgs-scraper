@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698290060000,
+    "generated": 1698293780000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "Illinois",
+        "time": 1698291377937,
+        "updated": 1698292357040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6ex",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6ex.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000l6ex",
+        "ids": ",us7000l6ex,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.268,
+        "rms": 1.03,
+        "gap": 65,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.5 - Illinois"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9772,
+          39.1699,
+          20.185
+        ]
+      },
+      "id": "us7000l6ex"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1698289140910,
+        "updated": 1698292974877,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6et",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6et.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.5,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000l6et",
+        "ids": ",us7000l6et,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 68,
+        "dmin": 0.754,
+        "rms": 1.07,
+        "gap": 106,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - Kermadec Islands, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.4931,
+          -29.9202,
+          38.66
+        ]
+      },
+      "id": "us7000l6et"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.45,
         "place": "3 km E of Devore, CA",
         "time": 1698285073900,
-        "updated": 1698288767459,
+        "updated": 1698292479687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40587776",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40587776.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.24,
-        "place": "4 km SSE of Salinas, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1698285039660,
         "updated": 1698286783191,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 193,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 4 km SSE of Salinas, Puerto Rico"
+        "title": "M 3.2 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "16 km E of Tadjourah, Djibouti",
+        "place": "Djibouti region",
         "time": 1698274264457,
         "updated": 1698289669482,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 138,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 16 km E of Tadjourah, Djibouti"
+        "title": "M 4.4 - Djibouti region"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.57,
-        "place": "44 km S of Boca de Yuma, Dominican Republic",
+        "place": "Dominican Republic region",
         "time": 1698271496830,
         "updated": 1698273694796,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 245,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.6 - 44 km S of Boca de Yuma, Dominican Republic"
+        "title": "M 3.6 - Dominican Republic region"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "74 km NW of Malango, Solomon Islands",
+        "place": "Solomon Islands",
         "time": 1698244637118,
         "updated": 1698248378249,
         "tz": null,
@@ -357,7 +437,7 @@
         "gap": 59,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 74 km NW of Malango, Solomon Islands"
+        "title": "M 5.1 - Solomon Islands"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.67,
-        "place": "91 km W of Dutch Harbor, Alaska",
+        "place": "Fox Islands, Aleutian Islands, Alaska",
         "time": 1698241657650,
         "updated": 1698268687840,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 141,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 91 km W of Dutch Harbor, Alaska"
+        "title": "M 2.7 - Fox Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "Minahasa, Sulawesi, Indonesia",
+        "place": "31 km SSW of Tondano, Indonesia",
         "time": 1698240299598,
         "updated": 1698241366040,
         "tz": null,
@@ -517,7 +597,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Minahasa, Sulawesi, Indonesia"
+        "title": "M 5.2 - 31 km SSW of Tondano, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +855,7 @@
         "mag": 2.71,
         "place": "13 km SW of Toms Place, CA",
         "time": 1698222536270,
-        "updated": 1698280571305,
+        "updated": 1698293170401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73951105",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73951105.geojson",
@@ -792,8 +872,8 @@
         "sources": ",nc,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 31,
-        "dmin": 0.08525,
-        "rms": 0.05,
+        "dmin": 0.08554,
+        "rms": 0.04,
         "gap": 84,
         "magType": "md",
         "type": "earthquake",
@@ -803,8 +883,8 @@
         "type": "Point",
         "coordinates": [
           -118.8046667,
-          37.4948333,
-          6.6
+          37.4945,
+          6.53
         ]
       },
       "id": "nc73951105"
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "Southern Alaska",
+        "place": "56 km WNW of Ninilchik, Alaska",
         "time": 1698222033542,
         "updated": 1698222134927,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - Southern Alaska"
+        "title": "M 2.5 - 56 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -933,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.65,
-        "place": "7 km WNW of Rincón, Puerto Rico",
+        "place": "Mona Passage, Puerto Rico",
         "time": 1698218899720,
         "updated": 1698219662890,
         "tz": null,
@@ -957,7 +1037,7 @@
         "gap": 178,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 7 km WNW of Rincón, Puerto Rico"
+        "title": "M 2.7 - Mona Passage, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1128,126 +1208,6 @@
         ]
       },
       "id": "ak023dowvfrp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "93 km N of Ambon, Indonesia",
-        "time": 1698206266749,
-        "updated": 1698207397040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l65f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l65f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000l65f",
-        "ids": ",us7000l65f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.442,
-        "rms": 0.27,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 93 km N of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.1118,
-          -2.849,
-          23.875
-        ]
-      },
-      "id": "us7000l65f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "54 km WNW of Lae, Papua New Guinea",
-        "time": 1698205763206,
-        "updated": 1698206818040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l65d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l65d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000l65d",
-        "ids": ",us7000l65d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 6,
-        "rms": 0.88,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 54 km WNW of Lae, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.5797,
-          -6.4611,
-          69.599
-        ]
-      },
-      "id": "us7000l65d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "Mona Passage",
-        "time": 1698203939760,
-        "updated": 1698204785060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71429778",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71429778.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71429778",
-        "ids": ",pr71429778,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1976,
-        "rms": 0.34,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - Mona Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3626666666667,
-          18.1706666666667,
-          17.79
-        ]
-      },
-      "id": "pr71429778"
     }
   ],
   "bbox": [
