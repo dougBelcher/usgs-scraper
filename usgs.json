@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698441079000,
+    "generated": 1698444799000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "178 km ESE of Modisi, Indonesia",
+        "time": 1698443429286,
+        "updated": 1698444441040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l70d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l70d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000l70d",
+        "ids": ",us7000l70d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 1.749,
+        "rms": 0.99,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 178 km ESE of Modisi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9046,
+          -0.1936,
+          76.208
+        ]
+      },
+      "id": "us7000l70d"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "7 km WNW of The Geysers, CA",
         "time": 1698438816550,
-        "updated": 1698439484286,
+        "updated": 1698443427578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952320.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 137,
+        "sig": 138,
         "net": "nc",
         "code": "73952320",
         "ids": ",nc73952320,",
@@ -52,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.59,
+        "mag": 2.57,
         "place": "12 km WSW of Ludlow, CA",
-        "time": 1698435938180,
-        "updated": 1698436589550,
+        "time": 1698435938110,
+        "updated": 1698442180910,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40589672",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40589672.geojson",
@@ -63,17 +103,17 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 102,
         "net": "ci",
         "code": "40589672",
         "ids": ",ci40589672,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.1084,
-        "rms": 0.15,
+        "nst": 29,
+        "dmin": 0.1092,
+        "rms": 0.14,
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
@@ -82,9 +122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2828333,
-          34.6861667,
-          2.8
+          -116.2838333,
+          34.6871667,
+          2.26
         ]
       },
       "id": "ci40589672"
@@ -93,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.17,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1698435673330,
         "updated": 1698436913010,
         "tz": null,
@@ -117,7 +157,7 @@
         "gap": 107,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -128,6 +168,46 @@
         ]
       },
       "id": "pr71430083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "29 km S of Jurm, Afghanistan",
+        "time": 1698434014916,
+        "updated": 1698443083040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6ym",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6ym.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000l6ym",
+        "ids": ",us7000l6ym,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 2.539,
+        "rms": 0.75,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 29 km S of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8919,
+          36.6024,
+          212.273
+        ]
+      },
+      "id": "us7000l6ym"
     },
     {
       "type": "Feature",
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Lake Baykal region, Russia",
+        "place": "37 km WSW of Turka, Russia",
         "time": 1698428105927,
         "updated": 1698432952040,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Lake Baykal region, Russia"
+        "title": "M 4.4 - 37 km WSW of Turka, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -412,42 +492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "24 km WNW of Creston, Canada",
-        "time": 1698419267090,
-        "updated": 1698422384250,
+        "mag": 2.62,
+        "place": "28 km WNW of Creston, Canada",
+        "time": 1698419267660,
+        "updated": 1698441951380,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90031018",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90031018.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61959667",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61959667.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "mb",
-        "code": "90031018",
-        "ids": ",mb90031018,",
-        "sources": ",mb,",
+        "sig": 106,
+        "net": "uw",
+        "code": "61959667",
+        "ids": ",mb90031018,uw61959667,",
+        "sources": ",mb,uw,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.9474,
-        "rms": 0.05,
-        "gap": 243,
-        "magType": "ml",
+        "nst": 6,
+        "dmin": 0.9404,
+        "rms": 0.3,
+        "gap": 238,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 24 km WNW of Creston, Canada"
+        "title": "M 2.6 - 28 km WNW of Creston, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.809166666667,
-          49.1878333333333,
-          1.01
+          -116.85483333333333,
+          49.211666666666666,
+          15.56
         ]
       },
-      "id": "mb90031018"
+      "id": "uw61959667"
     },
     {
       "type": "Feature",
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "6 km SSE of Jobos, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1698414678060,
         "updated": 1698415904030,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 261,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SSE of Jobos, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47000003,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "8 km SW of Volcano, Hawaii",
         "time": 1698391339460,
         "updated": 1698391522520,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 8 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "western Texas",
+        "place": "36 km NNW of Toyah, Texas",
         "time": 1698387054790,
         "updated": 1698413029355,
         "tz": null,
@@ -997,7 +1077,7 @@
         "gap": 45,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.3 - western Texas"
+        "title": "M 3.3 - 36 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "southern Xinjiang, China",
+        "place": "165 km E of Aqqan, China",
         "time": 1698381486104,
         "updated": 1698382921040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - southern Xinjiang, China"
+        "title": "M 4.5 - 165 km E of Aqqan, China"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "167 km WNW of Constitución, Chile",
+        "place": "Off the coast of Libertador O'Higgins, Chile",
         "time": 1698376966819,
         "updated": 1698380451040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 167 km WNW of Constitución, Chile"
+        "title": "M 4.6 - Off the coast of Libertador O'Higgins, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "120 km N of Neiafu, Tonga",
+        "place": "Tonga",
         "time": 1698375744270,
         "updated": 1698383148978,
         "tz": null,
@@ -1117,7 +1197,7 @@
         "gap": 43,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.6 - 120 km N of Neiafu, Tonga"
+        "title": "M 5.6 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "55 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1698363135269,
         "updated": 1698402329066,
         "tz": null,
@@ -1197,7 +1277,7 @@
         "gap": 57,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.9 - 55 km S of Whites City, New Mexico"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "21 km SW of Sant'Angelo, Italy",
+        "place": "Tyrrhenian Sea",
         "time": 1698358970672,
         "updated": 1698361113040,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 21 km SW of Sant'Angelo, Italy"
+        "title": "M 4.2 - Tyrrhenian Sea"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us7000l6p1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "Atacama, Chile",
-        "time": 1698356974459,
-        "updated": 1698364384876,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6nl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6nl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.08,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000l6nl",
-        "ids": ",us7000l6nl,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 134,
-        "dmin": 0.496,
-        "rms": 0.75,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.2711,
-          -28.6869,
-          100.977
-        ]
-      },
-      "id": "us7000l6nl"
     }
   ],
   "bbox": [
