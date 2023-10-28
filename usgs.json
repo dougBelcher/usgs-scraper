@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698459500000,
+    "generated": 1698462806000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 41
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.89,
+        "mag": 5,
+        "place": "49 km SSW of Covenant Life, Alaska",
+        "time": 1698462109299,
+        "updated": 1698462627859,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dtuk2yv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dtuk2yv.geojson",
+        "felt": 6,
+        "cdi": 3.8,
+        "mmi": 6.06,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 1,
+        "sig": 387,
+        "net": "ak",
+        "code": "023dtuk2yv",
+        "ids": ",ak023dtuk2yv,at00s37xr1,",
+        "sources": ",ak,at,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 5.0 - 49 km SSW of Covenant Life, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.3958,
+          59.0116,
+          3.9
+        ]
+      },
+      "id": "ak023dtuk2yv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
         "place": "2 km NNE of Millbrae, CA",
         "time": 1698457111730,
-        "updated": 1698459382739,
+        "updated": 1698462483721,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952475",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952475.geojson",
-        "felt": 6504,
-        "cdi": 4.3,
-        "mmi": 4.421,
+        "felt": 10871,
+        "cdi": 4.1,
+        "mmi": 4.499,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 663,
+        "sig": 617,
         "net": "nc",
         "code": "73952475",
         "ids": ",ew1698457110,nc73952475,us7000l71v,",
@@ -37,7 +77,7 @@
         "gap": 30,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.9 - 2 km NNE of Millbrae, CA"
+        "title": "M 3.7 - 2 km NNE of Millbrae, CA"
       },
       "geometry": {
         "type": "Point",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "nc73952475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.12,
+        "place": "1 km ENE of Gorst, Washington",
+        "time": 1698456599400,
+        "updated": 1698462761206,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61959867",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61959867.geojson",
+        "felt": 64,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "uw",
+        "code": "61959867",
+        "ids": ",us7000l71s,uw61959867,",
+        "sources": ",us,uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 77,
+        "dmin": 0.03929,
+        "rms": 0.2,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 1 km ENE of Gorst, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.681,
+          47.530166666666666,
+          20.16
+        ]
+      },
+      "id": "uw61959867"
     },
     {
       "type": "Feature",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "21 km SSW of Covenant Life, Alaska",
+        "place": "Southeastern Alaska",
         "time": 1698450797933,
         "updated": 1698452600040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 21 km SSW of Covenant Life, Alaska"
+        "title": "M 2.5 - Southeastern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -175,17 +255,17 @@
         "mag": 2.6,
         "place": "7 km N of Naches, Washington",
         "time": 1698449987863,
-        "updated": 1698457192324,
+        "updated": 1698462227707,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l712",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l712.geojson",
-        "felt": 8,
+        "felt": 20,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 110,
         "net": "us",
         "code": "7000l712",
         "ids": ",us7000l712,",
@@ -455,11 +535,11 @@
         "mag": 2.98,
         "place": "7 km WNW of The Geysers, CA",
         "time": 1698438816550,
-        "updated": 1698459241324,
+        "updated": 1698460848651,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73952320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73952320.geojson",
-        "felt": 27,
+        "felt": 28,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -533,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.17,
-        "place": "Puerto Rico region",
+        "place": "Puerto Rico",
         "time": 1698435673330,
         "updated": 1698436913010,
         "tz": null,
@@ -557,7 +637,7 @@
         "gap": 107,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - Puerto Rico region"
+        "title": "M 3.2 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Lake Baykal region, Russia",
+        "place": "37 km WSW of Turka, Russia",
         "time": 1698428105927,
         "updated": 1698432952040,
         "tz": null,
@@ -717,7 +797,7 @@
         "gap": 69,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Lake Baykal region, Russia"
+        "title": "M 4.4 - 37 km WSW of Turka, Russia"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "6 km SSE of Jobos, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1698414678060,
         "updated": 1698415904030,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 261,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km SSE of Jobos, Puerto Rico"
+        "title": "M 2.5 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.47000003,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "8 km SW of Volcano, Hawaii",
         "time": 1698391339460,
         "updated": 1698391522520,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": 166,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - Island of Hawaii, Hawaii"
+        "title": "M 2.5 - 8 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "western Texas",
+        "place": "36 km NNW of Toyah, Texas",
         "time": 1698387054790,
         "updated": 1698413029355,
         "tz": null,
@@ -1477,7 +1557,7 @@
         "gap": 45,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.3 - western Texas"
+        "title": "M 3.3 - 36 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "southern Xinjiang, China",
+        "place": "165 km E of Aqqan, China",
         "time": 1698381486104,
         "updated": 1698382921040,
         "tz": null,
@@ -1517,7 +1597,7 @@
         "gap": 82,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - southern Xinjiang, China"
+        "title": "M 4.5 - 165 km E of Aqqan, China"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "167 km WNW of Constitución, Chile",
+        "place": "Off the coast of Libertador O'Higgins, Chile",
         "time": 1698376966819,
         "updated": 1698380451040,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": 157,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 167 km WNW of Constitución, Chile"
+        "title": "M 4.6 - Off the coast of Libertador O'Higgins, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1568,50 +1648,10 @@
         ]
       },
       "id": "us7000l6qn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "120 km N of Neiafu, Tonga",
-        "time": 1698375744270,
-        "updated": 1698383148978,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l6qk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l6qk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.316,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000l6qk",
-        "ids": ",us7000l6qk,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 70,
-        "dmin": 3.94,
-        "rms": 0.9,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.6 - 120 km N of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.7695,
-          -17.5847,
-          35
-        ]
-      },
-      "id": "us7000l6qk"
     }
   ],
   "bbox": [
-    -173.7695,
+    -157.6327,
     -43.6643,
     0,
     157.3167,
