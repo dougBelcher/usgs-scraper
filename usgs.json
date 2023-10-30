@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698657264000,
+    "generated": 1698660945000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.4,
         "place": "35 km E of Los Andes, Chile",
         "time": 1698655786927,
-        "updated": 1698657216040,
+        "updated": 1698658162031,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l7ig",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l7ig.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000l7ig",
         "ids": ",us7000l7ig,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 72,
         "dmin": 0.501,
         "rms": 0.82,
@@ -335,12 +335,12 @@
         "mag": 2.5,
         "place": "Southern Alaska",
         "time": 1698635660271,
-        "updated": 1698635741864,
+        "updated": 1698657793109,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dx5pi17",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dx5pi17.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -350,7 +350,7 @@
         "code": "023dx5pi17",
         "ids": ",ak023dx5pi17,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.58,
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us7000l7d9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Norwegian Sea",
-        "time": 1698573418389,
-        "updated": 1698574445040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l7d2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l7d2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000l7d2",
-        "ids": ",us7000l7d2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 5.942,
-        "rms": 0.56,
-        "gap": 159,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Norwegian Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3739,
-          72.9242,
-          10
-        ]
-      },
-      "id": "us7000l7d2"
     }
   ],
   "bbox": [
@@ -1735,7 +1695,7 @@
     -58.8242,
     2.72,
     174.4272,
-    72.9242,
+    69.7115,
     234.251
   ]
 }
