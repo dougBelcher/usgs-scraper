@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698729169000,
+    "generated": 1698733129000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1698731205626,
+        "updated": 1698732173040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l7pw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l7pw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000l7pw",
+        "ids": ",us7000l7pw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 3.213,
+        "rms": 0.85,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4263,
+          -20.0633,
+          580.129
+        ]
+      },
+      "id": "us7000l7pw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "9 km NW of Seldovia Village, Alaska",
         "time": 1698728331045,
-        "updated": 1698729015416,
+        "updated": 1698729179040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023dyu3s0g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023dyu3s0g.geojson",
@@ -28,8 +68,8 @@
         "sig": 122,
         "net": "ak",
         "code": "023dyu3s0g",
-        "ids": ",ak023dyu3s0g,",
-        "sources": ",ak,",
+        "ids": ",ak023dyu3s0g,usd0010189,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,12 +135,12 @@
         "mag": 2.5,
         "place": "California-Nevada border region",
         "time": 1698718860511,
-        "updated": 1698722145631,
+        "updated": 1698729935831,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868176",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868176.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "00868176",
         "ids": ",nn00868176,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 9,
         "dmin": 0.163,
         "rms": 0.1578,
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.56,
-        "place": "2 km S of Indios, Puerto Rico",
+        "place": "Puerto Rico",
         "time": 1698696219750,
         "updated": 1698697301330,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km S of Indios, Puerto Rico"
+        "title": "M 2.6 - Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -853,31 +893,31 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "4 km WNW of Hope Bay, Jamaica",
+        "place": "Jamaica region",
         "time": 1698681440229,
-        "updated": 1698724296588,
+        "updated": 1698730679572,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l7jv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l7jv.geojson",
         "felt": 121,
         "cdi": 7.6,
-        "mmi": 7.147,
-        "alert": "green",
+        "mmi": 7.433,
+        "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 541,
+        "sig": 742,
         "net": "us",
         "code": "7000l7jv",
         "ids": ",us7000l7jv,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 127,
         "dmin": 0.884,
         "rms": 0.98,
         "gap": 27,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 4 km WNW of Hope Bay, Jamaica"
+        "title": "M 5.4 - Jamaica region"
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +1015,11 @@
         "mag": 3.41,
         "place": "22 km SSW of La Quinta, CA",
         "time": 1698669098000,
-        "updated": 1698720516283,
+        "updated": 1698729697476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40591304",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40591304.geojson",
-        "felt": 121,
+        "felt": 122,
         "cdi": 3.4,
         "mmi": 3.67,
         "alert": null,
@@ -1416,6 +1456,6 @@
     3.12,
     177.8369,
     76.2416,
-    386.604
+    580.129
   ]
 }
