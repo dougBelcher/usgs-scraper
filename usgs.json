@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698776269000,
+    "generated": 1698779494000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "15 km ENE of Coleville, California",
+        "time": 1698779058253,
+        "updated": 1698779226667,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868214",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868214.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00868214",
+        "ids": ",nn00868214,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.14,
+        "rms": 0.2576,
+        "gap": 67.02,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km ENE of Coleville, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3443,
+          38.6149,
+          9.2
+        ]
+      },
+      "id": "nn00868214"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.66,
         "place": "92 km NNW of San Antonio, Puerto Rico",
         "time": 1698774456400,
-        "updated": 1698775754593,
+        "updated": 1698777944040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023304000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023304000.geojson",
@@ -28,8 +68,8 @@
         "sig": 206,
         "net": "pr",
         "code": "2023304000",
-        "ids": ",pr2023304000,",
-        "sources": ",pr,",
+        "ids": ",us7000l7w7,pr2023304000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 11,
         "dmin": 0.82,
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000l7w4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.601383328437805,
+        "place": "Washington-Oregon border region",
+        "time": 1698770099470,
+        "updated": 1698778244410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61960642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61960642.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "uw",
+        "code": "61960642",
+        "ids": ",uw61960642,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.04841,
+        "rms": 0.129999995,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - Washington-Oregon border region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.65966796875,
+          45.3120002746582,
+          4.46000003814697
+        ]
+      },
+      "id": "uw61960642"
     },
     {
       "type": "Feature",
