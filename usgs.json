@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1698956078000,
+    "generated": 1698959498000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 41
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 3.3,
         "place": "18 km SE of Ackerly, Texas",
         "time": 1698953950865,
-        "updated": 1698955254862,
+        "updated": 1698958498273,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vmtn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vmtn.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -132,8 +132,48 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "188 km ENE of Levuka, Fiji",
+        "time": 1698948709492,
+        "updated": 1698956103040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l8ej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l8ej.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000l8ej",
+        "ids": ",us7000l8ej,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 5.046,
+        "rms": 0.97,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 188 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.9797,
+          -17.5794,
+          540.822
+        ]
+      },
+      "id": "us7000l8ej"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
-        "place": "22 km ESE of Pleasanton, Texas",
+        "place": "southern Texas",
         "time": 1698947021182,
         "updated": 1698949204544,
         "tz": null,
@@ -157,7 +197,7 @@
         "gap": 77,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.6 - 22 km ESE of Pleasanton, Texas"
+        "title": "M 2.6 - southern Texas"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Mindanao, Philippines",
+        "place": "8 km ESE of Santa Monica, Philippines",
         "time": 1698945155734,
         "updated": 1698953180040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 99,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Mindanao, Philippines"
+        "title": "M 4.5 - 8 km ESE of Santa Monica, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -332,42 +372,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.04,
+        "mag": 2.8,
         "place": "Oregon-Idaho border region",
-        "time": 1698938000190,
-        "updated": 1698954726161,
+        "time": 1698938000036,
+        "updated": 1698957609084,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90031638",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90031638.geojson",
-        "felt": 15,
-        "cdi": 3.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l8br",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l8br.geojson",
+        "felt": 16,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "mb",
-        "code": "90031638",
-        "ids": ",mb90031638,",
-        "sources": ",mb,",
+        "sig": 126,
+        "net": "us",
+        "code": "7000l8br",
+        "ids": ",mb90031638,us7000l8br,",
+        "sources": ",mb,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.2573,
-        "rms": 0.29,
-        "gap": 74,
+        "nst": 36,
+        "dmin": 0.259,
+        "rms": 0.7,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Oregon-Idaho border region"
+        "title": "M 2.8 - Oregon-Idaho border region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.040166666667,
-          44.8318333333333,
-          0.3
+          -116.0933,
+          44.8369,
+          9.611
         ]
       },
-      "id": "mb90031638"
+      "id": "us7000l8br"
     },
     {
       "type": "Feature",
@@ -453,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "Off the coast of Aisen, Chile",
+        "place": "262 km W of Puerto Chacabuco, Chile",
         "time": 1698934927208,
         "updated": 1698939296040,
         "tz": null,
@@ -477,7 +517,7 @@
         "gap": 188,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.7 - Off the coast of Aisen, Chile"
+        "title": "M 4.7 - 262 km W of Puerto Chacabuco, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.62,
-        "place": "Puerto Rico region",
+        "place": "11 km SSE of Indios, Puerto Rico",
         "time": 1698929504140,
         "updated": 1698930809530,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 237,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 11 km SSE of Indios, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -655,17 +695,17 @@
         "mag": 3.17,
         "place": "4 km NNE of Richfield, Utah",
         "time": 1698921921290,
-        "updated": 1698955659812,
+        "updated": 1698959287793,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60553437",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu60553437.geojson",
-        "felt": 136,
+        "felt": 139,
         "cdi": 4.1,
         "mmi": 3.415,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 210,
+        "sig": 212,
         "net": "uu",
         "code": "60553437",
         "ids": ",uu60553437,us7000l8a5,",
@@ -933,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "108 km NNW of Ambon, Indonesia",
+        "place": "Ceram Sea, Indonesia",
         "time": 1698906433171,
         "updated": 1698909963040,
         "tz": null,
@@ -957,7 +997,7 @@
         "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 108 km NNW of Ambon, Indonesia"
+        "title": "M 4.6 - Ceram Sea, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1013,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Off the coast of Antofagasta, Chile",
+        "place": "71 km NW of Taltal, Chile",
         "time": 1698902836034,
         "updated": 1698906780040,
         "tz": null,
@@ -997,7 +1037,7 @@
         "gap": 144,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Off the coast of Antofagasta, Chile"
+        "title": "M 4.4 - 71 km NW of Taltal, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "120 km ESE of Chignik, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1698899593496,
         "updated": 1698927952446,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 120 km ESE of Chignik, Alaska"
+        "title": "M 2.8 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "Salta, Argentina",
+        "place": "46 km WNW of San Antonio de los Cobres, Argentina",
         "time": 1698896156755,
         "updated": 1698898037040,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - Salta, Argentina"
+        "title": "M 4.3 - 46 km WNW of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "54 km NW of Toyah, Texas",
+        "place": "western Texas",
         "time": 1698892373926,
         "updated": 1698926370742,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 58,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.5 - 54 km NW of Toyah, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "south of Alaska",
+        "place": "117 km SSE of Sand Point, Alaska",
         "time": 1698888239987,
         "updated": 1698898845040,
         "tz": null,
@@ -1357,7 +1397,7 @@
         "gap": 255,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - south of Alaska"
+        "title": "M 2.7 - 117 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "94 km NW of Vallenar, Chile",
+        "place": "Near the coast of Atacama, Chile",
         "time": 1698886511506,
         "updated": 1698893209040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 166,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - 94 km NW of Vallenar, Chile"
+        "title": "M 4.0 - Near the coast of Atacama, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -1493,7 +1533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Hindu Kush region, Afghanistan",
+        "place": "Tajikistan-Afghanistan-Xinjiang border region",
         "time": 1698878636944,
         "updated": 1698879496040,
         "tz": null,
@@ -1517,7 +1557,7 @@
         "gap": 71,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Hindu Kush region, Afghanistan"
+        "title": "M 4.4 - Tajikistan-Afghanistan-Xinjiang border region"
       },
       "geometry": {
         "type": "Point",
@@ -1608,134 +1648,14 @@
         ]
       },
       "id": "us7000l875"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "22 km NE of Kupang, Indonesia",
-        "time": 1698872686899,
-        "updated": 1698939479163,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l85t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l85t.geojson",
-        "felt": 7,
-        "cdi": 8.2,
-        "mmi": 5.582,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 578,
-        "net": "us",
-        "code": "7000l85t",
-        "ids": ",us7000l85t,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 110,
-        "dmin": 5.989,
-        "rms": 1.13,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 22 km NE of Kupang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.7284,
-          -10.0123,
-          36.093
-        ]
-      },
-      "id": "us7000l85t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Fiji region",
-        "time": 1698872152518,
-        "updated": 1698874336040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l85q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l85q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000l85q",
-        "ids": ",us7000l85q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 3.706,
-        "rms": 0.71,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Fiji region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.1433,
-          -21.682,
-          583.685
-        ]
-      },
-      "id": "us7000l85q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
-        "time": 1698870441427,
-        "updated": 1698876218188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023e0qz7j9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023e0qz7j9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.846,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "ak",
-        "code": "023e0qz7j9",
-        "ids": ",ak023e0qz7j9,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.71,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - Fox Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -168.1666,
-          52.7806,
-          22.8
-        ]
-      },
-      "id": "ak023e0qz7j9"
     }
   ],
   "bbox": [
     -179.525,
     -57.2285,
-    0.3,
+    2.453,
     130.7216,
     62.9757,
-    583.685
+    540.822
   ]
 }
