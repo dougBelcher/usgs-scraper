@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699441907000,
+    "generated": 1699446464000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "near the north coast of Papua, Indonesia",
+        "time": 1699445075306,
+        "updated": 1699446043040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9kg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9kg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000l9kg",
+        "ids": ",us7000l9kg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 1.639,
+        "rms": 0.72,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - near the north coast of Papua, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1564,
+          -1.9657,
+          25.583
+        ]
+      },
+      "id": "us7000l9kg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,60 +92,60 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "38 km NNW of Toyah, Texas",
-        "time": 1699441070725,
-        "updated": 1699441689123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9jl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9jl.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "us",
-        "code": "7000l9jl",
-        "ids": ",us7000l9jl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.065,
-        "rms": 0.4,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 38 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.0027,
-          31.6144,
-          5
-        ]
-      },
-      "id": "us7000l9jl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.8,
-        "place": "32 km WSW of Mentone, Texas",
-        "time": 1699440335515,
-        "updated": 1699441624650,
+        "place": "39 km WSW of Mentone, Texas",
+        "time": 1699441071541,
+        "updated": 1699446456802,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxaw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxaw.geojson",
-        "felt": 5,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxbi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxbi.geojson",
+        "felt": 8,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 123,
+        "sig": 124,
+        "net": "tx",
+        "code": "2023vxbi",
+        "ids": ",us7000l9jl,tx2023vxbi,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 41,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.8 - 39 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.01,
+          31.632,
+          4.7093
+        ]
+      },
+      "id": "tx2023vxbi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "32 km WSW of Mentone, Texas",
+        "time": 1699440334956,
+        "updated": 1699445086155,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxaw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxaw.geojson",
+        "felt": 8,
+        "cdi": 4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
         "net": "tx",
         "code": "2023vxaw",
         "ids": ",tx2023vxaw,",
@@ -113,18 +153,18 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0,
-        "rms": 0.6,
-        "gap": 88,
-        "magType": "ml(texnet)",
+        "rms": 0.4,
+        "gap": 90,
+        "magType": "mlv",
         "type": "earthquake",
-        "title": "M 2.8 - 32 km WSW of Mentone, Texas"
+        "title": "M 2.7 - 32 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.932,
-          31.619,
-          9.6059
+          -103.929,
+          31.627,
+          16.4919
         ]
       },
       "id": "tx2023vxaw"
@@ -172,39 +212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
+        "mag": 2.9,
         "place": "37 km WSW of Mentone, Texas",
-        "time": 1699439955898,
-        "updated": 1699441844097,
+        "time": 1699439955980,
+        "updated": 1699445065775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxar",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxar.geojson",
-        "felt": 7,
+        "felt": 9,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 151,
+        "sig": 133,
         "net": "tx",
         "code": "2023vxar",
-        "ids": ",tx2023vxar,",
-        "sources": ",tx,",
+        "ids": ",tx2023vxar,us7000l9jw,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
+        "nst": 13,
         "dmin": 0,
         "rms": 0.1,
-        "gap": 46,
-        "magType": "mlv",
+        "gap": 47,
+        "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 3.1 - 37 km WSW of Mentone, Texas"
+        "title": "M 2.9 - 37 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.99,
-          31.634,
-          6.1316
+          -103.989,
+          31.635,
+          5.5531
         ]
       },
       "id": "tx2023vxar"
@@ -212,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "western Texas",
-        "time": 1699439715005,
-        "updated": 1699441730244,
+        "mag": 2.6,
+        "place": "37 km NNW of Toyah, Texas",
+        "time": 1699439715082,
+        "updated": 1699442700998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxan",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxan.geojson",
@@ -225,26 +265,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 104,
         "net": "tx",
         "code": "2023vxan",
-        "ids": ",tx2023vxan,",
-        "sources": ",tx,",
+        "ids": ",us7000l9jv,tx2023vxan,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": 15,
         "dmin": 0,
         "rms": 0.1,
-        "gap": 62,
+        "gap": 57,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.8 - western Texas"
+        "title": "M 2.6 - 37 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.98,
-          31.614,
-          7.1856
+          -103.977,
+          31.611,
+          6.8514
         ]
       },
       "id": "tx2023vxan"
@@ -255,17 +295,17 @@
         "mag": 3.4,
         "place": "36 km WSW of Mentone, Texas",
         "time": 1699439464244,
-        "updated": 1699441530044,
+        "updated": 1699442515481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxak",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxak.geojson",
-        "felt": 5,
-        "cdi": 4.8,
+        "felt": 7,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 180,
+        "sig": 181,
         "net": "tx",
         "code": "2023vxak",
         "ids": ",tx2023vxak,",
@@ -333,19 +373,19 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "37 km WSW of Mentone, Texas",
+        "place": "western Texas",
         "time": 1699439269041,
-        "updated": 1699441355868,
+        "updated": 1699446297321,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxae.geojson",
-        "felt": 178,
-        "cdi": 5.8,
-        "mmi": 6.716,
+        "felt": 347,
+        "cdi": 6.1,
+        "mmi": 6.976,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 535,
+        "sig": 644,
         "net": "tx",
         "code": "2023vxae",
         "ids": ",us7000l9j8,tx2023vxae,",
@@ -357,7 +397,7 @@
         "gap": 51,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 5.3 - 37 km WSW of Mentone, Texas"
+        "title": "M 5.3 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -375,17 +415,17 @@
         "mag": 3.5,
         "place": "57 km S of Whites City, New Mexico",
         "time": 1699439243614,
-        "updated": 1699441220799,
+        "updated": 1699443900185,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxad",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxad.geojson",
-        "felt": 79,
-        "cdi": 5,
+        "felt": 103,
+        "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 228,
+        "sig": 237,
         "net": "tx",
         "code": "2023vxad",
         "ids": ",tx2023vxad,",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Azerbaijan",
+        "place": "17 km SSW of Bīleh Savār, Iran",
         "time": 1699427343982,
         "updated": 1699432703040,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 53,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Azerbaijan"
+        "title": "M 4.4 - 17 km SSW of Bīleh Savār, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Azerbaijan-Iran border region",
+        "place": "13 km W of Bīleh Savār, Iran",
         "time": 1699420728736,
         "updated": 1699429121366,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Azerbaijan-Iran border region"
+        "title": "M 4.8 - 13 km W of Bīleh Savār, Iran"
       },
       "geometry": {
         "type": "Point",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "136 km WNW of Tumxuk, China",
+        "place": "Southern Xinjiang, China",
         "time": 1699383121410,
         "updated": 1699388868040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 136 km WNW of Tumxuk, China"
+        "title": "M 4.8 - Southern Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.01,
-        "place": "Puerto Rico region",
+        "place": "40 km N of San Antonio, Puerto Rico",
         "time": 1699382010800,
         "updated": 1699383406650,
         "tz": null,
@@ -1317,7 +1357,7 @@
         "gap": 264,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 40 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1455,7 +1495,7 @@
         "mag": 5.6,
         "place": "Pagan region, Northern Mariana Islands",
         "time": 1699380934330,
-        "updated": 1699424741007,
+        "updated": 1699446340650,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9eg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9eg.geojson",
@@ -1533,7 +1573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Southern Xinjiang, China",
+        "place": "southern Xinjiang, China",
         "time": 1699380588983,
         "updated": 1699388115772,
         "tz": null,
@@ -1557,7 +1597,7 @@
         "gap": 23,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Southern Xinjiang, China"
+        "title": "M 5.4 - southern Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "California-Nevada border region",
+        "place": "20 km ESE of Schurz, Nevada",
         "time": 1699379839906,
         "updated": 1699409697178,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 65.21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - California-Nevada border region"
+        "title": "M 3.0 - 20 km ESE of Schurz, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1655,17 +1695,17 @@
         "mag": 2.6,
         "place": "60 km S of Whites City, New Mexico",
         "time": 1699371511570,
-        "updated": 1699440726118,
+        "updated": 1699442171358,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vvox",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vvox.geojson",
-        "felt": 1,
-        "cdi": 3.8,
+        "felt": 3,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "tx",
         "code": "2023vvox",
         "ids": ",tx2023vvox,us7000l9ck,",
@@ -1693,7 +1733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Kepulauan Barat Daya, Indonesia",
+        "place": "97 km NNE of Lospalos, Timor Leste",
         "time": 1699364013208,
         "updated": 1699419775340,
         "tz": null,
@@ -1717,7 +1757,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Kepulauan Barat Daya, Indonesia"
+        "title": "M 4.5 - 97 km NNE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
@@ -1768,53 +1808,13 @@
         ]
       },
       "id": "us7000l9cd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "281 km SSE of Attu Station, Alaska",
-        "time": 1699359046387,
-        "updated": 1699365421440,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9c1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9c1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000l9c1",
-        "ids": ",ak023eajcixp,us7000l9c1,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 95,
-        "dmin": 2.167,
-        "rms": 0.52,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 281 km SSE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.4341,
-          50.7309,
-          15.057
-        ]
-      },
-      "id": "us7000l9c1"
     }
   ],
   "bbox": [
     -179.571,
     -23.3322,
     0,
-    175.4341,
+    149.7553,
     66.6379,
     623.202
   ]
