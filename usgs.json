@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699460329000,
+    "generated": 1699463569000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 58
+    "count": 57
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Banda Sea",
+        "time": 1699462075203,
+        "updated": 1699463203040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9ng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9ng.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000l9ng",
+        "ids": ",us7000l9ng,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.541,
+        "rms": 0.88,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0007,
+          -6.0703,
+          10
+        ]
+      },
+      "id": "us7000l9ng"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "62 km S of Whites City, New Mexico",
+        "place": "western Texas",
         "time": 1699458463103,
-        "updated": 1699459376040,
+        "updated": 1699461995544,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxlb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxlb.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -37,7 +77,7 @@
         "gap": 72,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.9 - 62 km S of Whites City, New Mexico"
+        "title": "M 2.9 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -88,46 +128,6 @@
         ]
       },
       "id": "us7000l9lz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "118 km SE of Cordova, Alaska",
-        "time": 1699456636088,
-        "updated": 1699456882235,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ec8pgk8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ec8pgk8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023ec8pgk8",
-        "ids": ",ak023ec8pgk8,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.34,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 118 km SE of Cordova, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.3864,
-          59.7246,
-          16.9
-        ]
-      },
-      "id": "ak023ec8pgk8"
     },
     {
       "type": "Feature",
@@ -375,7 +375,7 @@
         "mag": 2.45,
         "place": "6 km ENE of Coalinga, CA",
         "time": 1699450340000,
-        "updated": 1699452253199,
+        "updated": 1699462330906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73957785",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73957785.geojson",
@@ -415,7 +415,7 @@
         "mag": 2.79,
         "place": "3 km NE of Coalinga, CA",
         "time": 1699450318040,
-        "updated": 1699454800014,
+        "updated": 1699461430809,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73957780",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73957780.geojson",
@@ -452,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "33 km SE of Mina, Nevada",
-        "time": 1699449380893,
-        "updated": 1699449562041,
+        "mag": 2.6,
+        "place": "31 km SE of Mina, Nevada",
+        "time": 1699449381114,
+        "updated": 1699462535158,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00868602",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00868602.geojson",
@@ -463,28 +463,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 104,
         "net": "nn",
         "code": "00868602",
         "ids": ",nn00868602,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.113,
-        "rms": 0.3359,
-        "gap": 106.77,
+        "nst": 15,
+        "dmin": 0.1,
+        "rms": 0.143,
+        "gap": 77.57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 33 km SE of Mina, Nevada"
+        "title": "M 2.6 - 31 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8465,
-          38.1671,
-          10.5
+          -117.8587,
+          38.1913,
+          10.8
         ]
       },
       "id": "nn00868602"
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "5 km SE of Korkuteli, Turkey",
+        "place": "Western Turkey",
         "time": 1699447181924,
         "updated": 1699448759040,
         "tz": null,
@@ -597,7 +597,7 @@
         "gap": 48,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 5 km SE of Korkuteli, Turkey"
+        "title": "M 4.4 - Western Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "near the north coast of Papua, Indonesia",
+        "place": "178 km WNW of Abepura, Indonesia",
         "time": 1699445075306,
         "updated": 1699446043040,
         "tz": null,
@@ -717,7 +717,7 @@
         "gap": 61,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - near the north coast of Papua, Indonesia"
+        "title": "M 4.9 - 178 km WNW of Abepura, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "39 km W of Mentone, Texas",
+        "place": "western Texas",
         "time": 1699441071610,
         "updated": 1699459279725,
         "tz": null,
@@ -797,7 +797,7 @@
         "gap": 46,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.8 - 39 km W of Mentone, Texas"
+        "title": "M 2.8 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -892,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "37 km WSW of Mentone, Texas",
-        "time": 1699439955980,
-        "updated": 1699450958998,
+        "mag": 2.8,
+        "place": "38 km WSW of Mentone, Texas",
+        "time": 1699439955908,
+        "updated": 1699463260043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxar",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxar.geojson",
@@ -905,26 +905,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 133,
+        "sig": 124,
         "net": "tx",
         "code": "2023vxar",
         "ids": ",tx2023vxar,us7000l9jw,",
         "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.1,
-        "gap": 47,
+        "rms": 0.2,
+        "gap": 41,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.9 - 37 km WSW of Mentone, Texas"
+        "title": "M 2.8 - 38 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.989,
-          31.635,
-          5.5531
+          -103.992,
+          31.636,
+          6.093
         ]
       },
       "id": "tx2023vxar"
@@ -975,7 +975,7 @@
         "mag": 3.4,
         "place": "36 km WSW of Mentone, Texas",
         "time": 1699439464244,
-        "updated": 1699456702426,
+        "updated": 1699462531561,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxak",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxak.geojson",
@@ -990,7 +990,7 @@
         "code": "2023vxak",
         "ids": ",tx2023vxak,",
         "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,origin,",
         "nst": 9,
         "dmin": 0,
         "rms": 0.8,
@@ -1014,8 +1014,8 @@
       "properties": {
         "mag": 3.2,
         "place": "38 km NNW of Toyah, Texas",
-        "time": 1699439406867,
-        "updated": 1699457715144,
+        "time": 1699439406871,
+        "updated": 1699461493430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxai",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxai.geojson",
@@ -1031,7 +1031,7 @@
         "ids": ",tx2023vxai,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": 15,
         "dmin": 0,
         "rms": 0.1,
         "gap": 58,
@@ -1042,9 +1042,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.995,
+          -103.994,
           31.613,
-          7.6098
+          7.5841
         ]
       },
       "id": "tx2023vxai"
@@ -1055,11 +1055,11 @@
         "mag": 5.2,
         "place": "western Texas",
         "time": 1699439269034,
-        "updated": 1699460183861,
+        "updated": 1699463292024,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxae.geojson",
-        "felt": 1007,
+        "felt": 1024,
         "cdi": 6.1,
         "mmi": 6.977,
         "alert": "green",
@@ -1092,42 +1092,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1699439243614,
-        "updated": 1699457081894,
+        "mag": 3.6,
+        "place": "77 km ESE of Atka, Alaska",
+        "time": 1699432830594,
+        "updated": 1699462973785,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023vxad",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023vxad.geojson",
-        "felt": 117,
-        "cdi": 4.7,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023ec4oekp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023ec4oekp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.958,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 243,
-        "net": "tx",
-        "code": "2023vxad",
-        "ids": ",tx2023vxad,",
-        "sources": ",tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 183,
-        "magType": "ml(texnet)",
+        "sig": 199,
+        "net": "ak",
+        "code": "023ec4oekp",
+        "ids": ",ak023ec4oekp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 57 km S of Whites City, New Mexico"
+        "title": "M 3.6 - 77 km ESE of Atka, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.47,
-          31.662,
-          13.9268
+          -173.2041,
+          51.8676,
+          51.5
         ]
       },
-      "id": "tx2023vxad"
+      "id": "ak023ec4oekp"
     },
     {
       "type": "Feature",
@@ -1212,46 +1212,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.52,
-        "place": "11 km NE of Coso Junction, CA",
-        "time": 1699430574280,
-        "updated": 1699431229430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39710266",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39710266.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ci",
-        "code": "39710266",
-        "ids": ",ci39710266,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.0111,
-        "rms": 0.16,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km NE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8560028,
-          36.1064987,
-          3.3
-        ]
-      },
-      "id": "ci39710266"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.7,
         "place": "84 km ESE of Masohi, Indonesia",
         "time": 1699428222579,
@@ -1293,7 +1253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "17 km SSW of Bīleh Savār, Iran",
+        "place": "Azerbaijan",
         "time": 1699427343982,
         "updated": 1699432703040,
         "tz": null,
@@ -1317,7 +1277,7 @@
         "gap": 53,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 17 km SSW of Bīleh Savār, Iran"
+        "title": "M 4.4 - Azerbaijan"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "13 km W of Bīleh Savār, Iran",
+        "place": "Azerbaijan-Iran border region",
         "time": 1699420728736,
         "updated": 1699429121366,
         "tz": null,
@@ -1477,7 +1437,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 13 km W of Bīleh Savār, Iran"
+        "title": "M 4.8 - Azerbaijan-Iran border region"
       },
       "geometry": {
         "type": "Point",
@@ -1973,7 +1933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Southern Xinjiang, China",
+        "place": "136 km WNW of Tumxuk, China",
         "time": 1699383121410,
         "updated": 1699388868040,
         "tz": null,
@@ -1997,7 +1957,7 @@
         "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Southern Xinjiang, China"
+        "title": "M 4.8 - 136 km WNW of Tumxuk, China"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.01,
-        "place": "40 km N of San Antonio, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1699382010800,
         "updated": 1699383406650,
         "tz": null,
@@ -2037,7 +1997,7 @@
         "gap": 264,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - 40 km N of San Antonio, Puerto Rico"
+        "title": "M 3.0 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -2252,39 +2212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "southern Xinjiang, China",
-        "time": 1699380588983,
-        "updated": 1699388115772,
+        "mag": 5.3,
+        "place": "Southern Xinjiang, China",
+        "time": 1699380588979,
+        "updated": 1699463179920,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000l9ef",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000l9ef.geojson",
         "felt": 1,
         "cdi": 2.5,
-        "mmi": 6.916,
+        "mmi": 6.662,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 432,
         "net": "us",
         "code": "7000l9ef",
         "ids": ",us7000l9ef,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 168,
-        "dmin": 1.214,
-        "rms": 0.7,
-        "gap": 23,
+        "nst": 260,
+        "dmin": 1.226,
+        "rms": 0.61,
+        "gap": 24,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - southern Xinjiang, China"
+        "title": "M 5.3 - Southern Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.7055,
-          40.5164,
-          8.555
+          77.6989,
+          40.5043,
+          9.444
         ]
       },
       "id": "us7000l9ef"
@@ -2293,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "20 km ESE of Schurz, Nevada",
+        "place": "California-Nevada border region",
         "time": 1699379839906,
         "updated": 1699409697178,
         "tz": null,
@@ -2317,7 +2277,7 @@
         "gap": 65.21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 20 km ESE of Schurz, Nevada"
+        "title": "M 3.0 - California-Nevada border region"
       },
       "geometry": {
         "type": "Point",
