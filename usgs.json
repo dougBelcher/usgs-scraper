@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699671057000,
+    "generated": 1699672550000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 66
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "167 km WSW of Ferndale, California",
+        "time": 1699672507868,
+        "updated": 1699672542510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1699672530",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1699672530.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "ew",
+        "code": "1699672530",
+        "ids": ",ew1699672530,",
+        "sources": ",ew,",
+        "types": ",origin,",
+        "nst": 23,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 5.0 - 167 km WSW of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.1733,
+          40.1821,
+          8
+        ]
+      },
+      "id": "ew1699672530"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 4,
         "place": "2 km NW of Bennington, Kansas",
         "time": 1699661922258,
-        "updated": 1699670766943,
+        "updated": 1699672351403,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000la9a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000la9a.geojson",
-        "felt": 153,
+        "felt": 165,
         "cdi": 6.4,
-        "mmi": 5.521,
+        "mmi": 5.574,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 344,
+        "sig": 352,
         "net": "us",
         "code": "7000la9a",
         "ids": ",us7000la9a,",
@@ -2608,46 +2648,6 @@
         ]
       },
       "id": "us7000l9za"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "40 km W of Mentone, Texas",
-        "time": 1699585027137,
-        "updated": 1699640077855,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023waci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023waci.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2023waci",
-        "ids": ",us7000l9z8,tx2023waci,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 33,
-        "magType": "ml(texnet)",
-        "type": "earthquake",
-        "title": "M 2.8 - 40 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.024,
-          31.648,
-          6.1187
-        ]
-      },
-      "id": "tx2023waci"
     }
   ],
   "bbox": [
