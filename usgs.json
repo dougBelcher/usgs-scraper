@@ -1,19 +1,99 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1699773171000,
+    "generated": 1699776960000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "16 km WSW of Denali Park, Alaska",
+        "time": 1699775089103,
+        "updated": 1699775194268,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eiq98k4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eiq98k4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023eiq98k4",
+        "ids": ",ak023eiq98k4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.49,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 16 km WSW of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2243,
+          63.6687,
+          109.9
+        ]
+      },
+      "id": "ak023eiq98k4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "36 km WSW of Mentone, Texas",
+        "time": 1699773514272,
+        "updated": 1699776603210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023weby",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023weby.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2023weby",
+        "ids": ",tx2023weby,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 57,
+        "magType": "ml(texnet)",
+        "type": "earthquake",
+        "title": "M 2.7 - 36 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.976,
+          31.626,
+          4.9954
+        ]
+      },
+      "id": "tx2023weby"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "Tonga region",
+        "place": "121 km ENE of Neiafu, Tonga",
         "time": 1699769587053,
         "updated": 1699770754040,
         "tz": null,
@@ -37,7 +117,7 @@
         "gap": 103,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - Tonga region"
+        "title": "M 4.8 - 121 km ENE of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "124 km WNW of Rabaul, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1699768479207,
         "updated": 1699769574040,
         "tz": null,
@@ -117,7 +197,7 @@
         "gap": 55,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 124 km WNW of Rabaul, Papua New Guinea"
+        "title": "M 5.2 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Fox Islands, Aleutian Islands, Alaska",
+        "place": "65 km SSE of Akutan, Alaska",
         "time": 1699768235687,
         "updated": 1699771156040,
         "tz": null,
@@ -157,7 +237,7 @@
         "gap": 156,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Fox Islands, Aleutian Islands, Alaska"
+        "title": "M 4.5 - 65 km SSE of Akutan, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -213,14 +293,14 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "44 km SE of Perryville, Alaska",
+        "place": "Alaska Peninsula",
         "time": 1699766069084,
-        "updated": 1699771954040,
+        "updated": 1699773257621,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eiovwcc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eiovwcc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -228,16 +308,16 @@
         "sig": 158,
         "net": "ak",
         "code": "023eiovwcc",
-        "ids": ",us7000lafh,ak023eiovwcc,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak023eiovwcc,us7000lafh,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.16,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 44 km SE of Perryville, Alaska"
+        "title": "M 3.2 - Alaska Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.9,
-        "place": "112 km NW of Rabaul, Papua New Guinea",
+        "place": "New Ireland region, Papua New Guinea",
         "time": 1699764701879,
         "updated": 1699772129872,
         "tz": null,
@@ -277,7 +357,7 @@
         "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - 112 km NW of Rabaul, Papua New Guinea"
+        "title": "M 5.9 - New Ireland region, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -373,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "88 km W of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1699757912475,
         "updated": 1699761709040,
         "tz": null,
@@ -397,7 +477,7 @@
         "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 88 km W of Adak, Alaska"
+        "title": "M 3.5 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "31 km NNE of Kupang, Indonesia",
+        "place": "Timor region, Indonesia",
         "time": 1699754774797,
         "updated": 1699756121040,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 25,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 31 km NNE of Kupang, Indonesia"
+        "title": "M 5.2 - Timor region, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "36 km NNE of El Estor, Guatemala",
+        "place": "Guatemala",
         "time": 1699736835536,
         "updated": 1699737924686,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 36 km NNE of El Estor, Guatemala"
+        "title": "M 4.2 - Guatemala"
       },
       "geometry": {
         "type": "Point",
@@ -813,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "265 km E of Levuka, Fiji",
+        "place": "Fiji region",
         "time": 1699708697243,
         "updated": 1699710034040,
         "tz": null,
@@ -837,7 +917,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 265 km E of Levuka, Fiji"
+        "title": "M 4.5 - Fiji region"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "20 km N of Stanton, Texas",
+        "place": "western Texas",
         "time": 1699706807244,
         "updated": 1699752197962,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 43,
         "magType": "ml(texnet)",
         "type": "earthquake",
-        "title": "M 2.7 - 20 km N of Stanton, Texas"
+        "title": "M 2.7 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.02,
-        "place": "Puerto Rico region",
+        "place": "4 km WSW of La Parguera, Puerto Rico",
         "time": 1699699067490,
         "updated": 1699700604400,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 231,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.0 - Puerto Rico region"
+        "title": "M 3.0 - 4 km WSW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "48 km NNE of Suncho Corral, Argentina",
+        "place": "Santiago Del Estero, Argentina",
         "time": 1699694753628,
         "updated": 1699698758040,
         "tz": null,
@@ -1077,7 +1157,7 @@
         "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 48 km NNE of Suncho Corral, Argentina"
+        "title": "M 4.0 - Santiago Del Estero, Argentina"
       },
       "geometry": {
         "type": "Point",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "us7000labn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "81 km SW of Atocha, Bolivia",
-        "time": 1699690349984,
-        "updated": 1699692192040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000labm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000labm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000labm",
-        "ids": ",us7000labm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.975,
-        "rms": 0.36,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 81 km SW of Atocha, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7296,
-          -21.4968,
-          233.466
-        ]
-      },
-      "id": "us7000labm"
     }
   ],
   "bbox": [
@@ -1255,7 +1295,7 @@
     -27.5104,
     0.37999999523163,
     168.1051,
-    55.644,
+    63.6687,
     591.825
   ]
 }
