@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700015163000,
+    "generated": 1700018104000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.78,
+        "place": "Oklahoma",
+        "time": 1700016121054,
+        "updated": 1700017808694,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023wjfi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023wjfi.geojson",
+        "felt": 17,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 127,
+        "net": "ok",
+        "code": "2023wjfi",
+        "ids": ",ok2023wjfi,us6000lngy,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 75,
+        "dmin": 0.1584713012,
+        "rms": 0.7788422503,
+        "gap": 18.92830706,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32476807,
+          35.92888641,
+          1.13537395
+        ]
+      },
+      "id": "ok2023wjfi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Banda Sea",
+        "time": 1700016109134,
+        "updated": 1700017311040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lngz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lngz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000lngz",
+        "ids": ",us6000lngz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 3.803,
+        "rms": 0.82,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.981,
+          -5.9971,
+          10
+        ]
+      },
+      "id": "us6000lngz"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.77,
         "place": "12 km SE of Pinnacles, CA",
         "time": 1700014943880,
-        "updated": 1700015132158,
+        "updated": 1700015351354,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73963016",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73963016.geojson",
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc73963016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "1 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1700013449240,
+        "updated": 1700015550900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73648357",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73648357.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "hv",
+        "code": "73648357",
+        "ids": ",hv73648357,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": null,
+        "rms": 0.27,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.864166666667,
+          19.4455,
+          -2.47
+        ]
+      },
+      "id": "hv73648357"
     },
     {
       "type": "Feature",
@@ -375,7 +495,7 @@
         "mag": 2.58,
         "place": "7 km NW of Marland, Oklahoma",
         "time": 1699997116254,
-        "updated": 1700014882338,
+        "updated": 1700017123291,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2023wiuw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2023wiuw.geojson",
@@ -1773,7 +1893,7 @@
   "bbox": [
     -179.415,
     -58.5708,
-    0,
+    -2.47,
     178.3105,
     65.9913,
     434.906
