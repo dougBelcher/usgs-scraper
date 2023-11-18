@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700338447000,
+    "generated": 1700341889000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "170 km SW of Point Hope, Alaska",
+        "time": 1700329897022,
+        "updated": 1700339815040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpcb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpcb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000lpcb",
+        "ids": ",us6000lpcb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 2.112,
+        "rms": 0.8,
+        "gap": 224,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.9 - 170 km SW of Point Hope, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.0797,
+          67.4788,
+          11.028
+        ]
+      },
+      "id": "us6000lpcb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "70 km SE of Shikotan, Russia",
+        "time": 1700329296425,
+        "updated": 1700339118040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpca",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpca.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000lpca",
+        "ids": ",us6000lpca,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 3.462,
+        "rms": 0.54,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 70 km SE of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4384,
+          43.4429,
+          61.904
+        ]
+      },
+      "id": "us6000lpca"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -888,46 +968,6 @@
         ]
       },
       "id": "us6000lp8v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "66 km SSW of Sola, Vanuatu",
-        "time": 1700255145498,
-        "updated": 1700257090040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lp7t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lp7t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000lp7t",
-        "ids": ",us6000lp7t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 6.745,
-        "rms": 0.56,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 66 km SSW of Sola, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.3741,
-          -14.4486,
-          192.563
-        ]
-      },
-      "id": "us6000lp7t"
     }
   ],
   "bbox": [
@@ -935,7 +975,7 @@
     -16.3028,
     0,
     179.1554,
-    67.3226,
+    67.4788,
     616.2
   ]
 }
