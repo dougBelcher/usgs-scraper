@@ -1,27 +1,147 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700424849000,
+    "generated": 1700428273000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "35 km ESE of Denali National Park, Alaska",
+        "time": 1700427232636,
+        "updated": 1700427367489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023euit8kl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023euit8kl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "023euit8kl",
+        "ids": ",ak023euit8kl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.97,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 35 km ESE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1003,
+          63.3954,
+          6.5
+        ]
+      },
+      "id": "ak023euit8kl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "12 km E of Susitna North, Alaska",
+        "time": 1700425633046,
+        "updated": 1700425746015,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023euinkwv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023euinkwv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "023euinkwv",
+        "ids": ",ak023euinkwv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 12 km E of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.618,
+          62.1503,
+          34.9
+        ]
+      },
+      "id": "ak023euinkwv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "76 km SE of Katsuren-haebaru, Japan",
+        "time": 1700425482928,
+        "updated": 1700426752040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lphk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lphk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000lphk",
+        "ids": ",us6000lphk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.971,
+        "rms": 1.18,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 76 km SE of Katsuren-haebaru, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.45,
+          25.8744,
+          10
+        ]
+      },
+      "id": "us6000lphk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.6,
         "place": "57 km SSW of Whites City, New Mexico",
         "time": 1700422305260,
-        "updated": 1700424442112,
+        "updated": 1700427182998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023wruq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023wruq.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.875,
+        "mmi": 4.029,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -215,12 +335,12 @@
         "mag": 4.5,
         "place": "281 km W of Tual, Indonesia",
         "time": 1700409226673,
-        "updated": 1700415380040,
+        "updated": 1700425797430,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpgn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpgn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +350,7 @@
         "code": "6000lpgn",
         "ids": ",us6000lpgn,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 15,
         "dmin": 1.085,
         "rms": 0.82,
@@ -375,17 +495,17 @@
         "mag": 2.61,
         "place": "6 km WSW of Kenwood, CA",
         "time": 1700397826230,
-        "updated": 1700421152154,
+        "updated": 1700426677578,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73964541",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73964541.geojson",
-        "felt": 32,
+        "felt": 33,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 119,
         "net": "nc",
         "code": "73964541",
         "ids": ",nc73964541,",
@@ -1088,46 +1208,6 @@
         ]
       },
       "id": "us6000lpd7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "11 km SSW of Los Ángeles, Mexico",
-        "time": 1700341603462,
-        "updated": 1700347827900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpd5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpd5.geojson",
-        "felt": 3,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "6000lpd5",
-        "ids": ",us6000lpd5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 77,
-        "dmin": 3.108,
-        "rms": 0.65,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 11 km SSW of Los Ángeles, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.2064,
-          17.2946,
-          114.859
-        ]
-      },
-      "id": "us6000lpd5"
     }
   ],
   "bbox": [
@@ -1135,7 +1215,7 @@
     -21.0593,
     -0.31,
     166.5061,
-    62.1649,
+    63.3954,
     598.331
   ]
 }
