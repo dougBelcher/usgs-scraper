@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700457229000,
+    "generated": 1700461209000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -55,22 +55,22 @@
         "mag": 5.2,
         "place": "7 km NNW of Mabini, Philippines",
         "time": 1700456263833,
-        "updated": 1700456919040,
+        "updated": 1700459159501,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpjm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpjm.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 6,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 418,
         "net": "us",
         "code": "6000lpjm",
         "ids": ",us6000lpjm,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 62,
         "dmin": 4.399,
         "rms": 0.83,
@@ -95,7 +95,7 @@
         "mag": 4.4,
         "place": "243 km W of Ferndale, California",
         "time": 1700449021385,
-        "updated": 1700454813177,
+        "updated": 1700459654894,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpjc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpjc.geojson",
@@ -328,6 +328,46 @@
         ]
       },
       "id": "us6000lpim"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "45 km SW of Deering, Alaska",
+        "time": 1700436169798,
+        "updated": 1700460729040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpjb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpjb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000lpjb",
+        "ids": ",us6000lpjb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.557,
+        "rms": 0.56,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 45 km SW of Deering, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.3026,
+          65.7395,
+          5.108
+        ]
+      },
+      "id": "us6000lpjb"
     },
     {
       "type": "Feature",
@@ -815,11 +855,11 @@
         "mag": 2.6,
         "place": "9 km SSE of Okanagan Falls, Canada",
         "time": 1700409605700,
-        "updated": 1700448170536,
+        "updated": 1700457456353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61973071",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61973071.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us6000lper"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "10 km E of Susitna North, Alaska",
-        "time": 1700373298808,
-        "updated": 1700375674040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023eu9vypi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023eu9vypi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "023eu9vypi",
-        "ids": ",us6000lpep,ak023eu9vypi,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 10 km E of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6584,
-          62.1649,
-          35.1
-        ]
-      },
-      "id": "ak023eu9vypi"
     }
   ],
   "bbox": [
@@ -1375,7 +1375,7 @@
     -48.1065,
     -0.31,
     166.5061,
-    63.3954,
+    65.7395,
     244.007
   ]
 }
