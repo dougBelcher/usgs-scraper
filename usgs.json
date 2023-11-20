@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700461209000,
+    "generated": 1700464449000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "101 km SSW of Anacapri, Italy",
+        "time": 1700462788580,
+        "updated": 1700463640040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpk2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpk2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000lpk2",
+        "ids": ",us6000lpk2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 95,
+        "dmin": 1.457,
+        "rms": 0.67,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 101 km SSW of Anacapri, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7268,
+          39.7218,
+          410.818
+        ]
+      },
+      "id": "us6000lpk2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us6000lpet"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Izu Islands, Japan region",
-        "time": 1700375737188,
-        "updated": 1700377853040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lper",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lper.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000lper",
-        "ids": ",us6000lper,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 3.043,
-        "rms": 0.6,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.1095,
-          30.7728,
-          10
-        ]
-      },
-      "id": "us6000lper"
     }
   ],
   "bbox": [
@@ -1376,6 +1376,6 @@
     -0.31,
     166.5061,
     65.7395,
-    244.007
+    410.818
   ]
 }
