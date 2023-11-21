@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700558102000,
+    "generated": 1700562122000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "13 km NNW of San Simeon, CA",
+        "time": 1700561757420,
+        "updated": 1700561946725,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73965251",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73965251.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nc",
+        "code": "73965251",
+        "ids": ",nc73965251,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.1066,
+        "rms": 0.1,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km NNW of San Simeon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2503357,
+          35.7543335,
+          6.52
+        ]
+      },
+      "id": "nc73965251"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "57 km NNW of Te Anau, New Zealand",
+        "time": 1700556989255,
+        "updated": 1700560505604,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpsg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpsg.geojson",
+        "felt": 7,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 300,
+        "net": "us",
+        "code": "6000lpsg",
+        "ids": ",us6000lpsg,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.592,
+        "rms": 0.57,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 57 km NNW of Te Anau, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.5016,
+          -44.9266,
+          117.249
+        ]
+      },
+      "id": "us6000lpsg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.56,
         "place": "1 km WSW of Pāhala, Hawaii",
         "time": 1700556894390,
-        "updated": 1700557225540,
+        "updated": 1700558928040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73655247",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73655247.geojson",
@@ -68,8 +148,8 @@
         "sig": 101,
         "net": "hv",
         "code": "73655247",
-        "ids": ",hv73655247,",
-        "sources": ",hv,",
+        "ids": ",us6000lpsh,hv73655247,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 51,
         "dmin": null,
@@ -1132,9 +1212,9 @@
   ],
   "bbox": [
     -174.7168,
-    -32.2303,
+    -44.9266,
     0.1,
-    149.8679,
+    167.5016,
     62.125,
     221.831
   ]
