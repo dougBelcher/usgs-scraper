@@ -1,61 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1700634005000,
+    "generated": 1700637204000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 37
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "Island of Hawaii, Hawaii",
-        "time": 1700629542370,
-        "updated": 1700629875490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73656982",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73656982.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "hv",
-        "code": "73656982",
-        "ids": ",hv73656982,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 186,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - Island of Hawaii, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.351165771484,
-          19.1721668243408,
-          29
-        ]
-      },
-      "id": "hv73656982"
-    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.7,
         "place": "98 km E of Port-Olry, Vanuatu",
         "time": 1700628453610,
-        "updated": 1700632794346,
+        "updated": 1700636132049,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lq00",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lq00.geojson",
@@ -1372,6 +1332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "Alaska Peninsula",
+        "time": 1700557652052,
+        "updated": 1700636544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpsk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpsk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000lpsk",
+        "ids": ",av92125791,ak023exn29f1,us6000lpsk,",
+        "sources": ",av,ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.084,
+        "rms": 0.55,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - Alaska Peninsula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.905,
+          58.301,
+          3.68
+        ]
+      },
+      "id": "us6000lpsk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "57 km NNW of Te Anau, New Zealand",
         "time": 1700556989255,
@@ -1488,126 +1488,6 @@
         ]
       },
       "id": "ci39715962"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "69 km NNW of Insrom, Indonesia",
-        "time": 1700550735258,
-        "updated": 1700551863040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lprg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lprg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000lprg",
-        "ids": ",us6000lprg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 4.288,
-        "rms": 1.25,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 69 km NNW of Insrom, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.8335,
-          -0.5469,
-          17.067
-        ]
-      },
-      "id": "us6000lprg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "100 km SSE of Popondetta, Papua New Guinea",
-        "time": 1700550615479,
-        "updated": 1700584044351,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lprf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lprf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 6.828,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000lprf",
-        "ids": ",us6000lprf,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 100,
-        "dmin": 6.364,
-        "rms": 0.96,
-        "gap": 21,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 100 km SSE of Popondetta, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.6736,
-          -9.5645,
-          10
-        ]
-      },
-      "id": "us6000lprf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "28 km WSW of Holy Cross, Alaska",
-        "time": 1700548446930,
-        "updated": 1700549193040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lpre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lpre.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000lpre",
-        "ids": ",us6000lpre,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.379,
-        "rms": 0.58,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 28 km WSW of Holy Cross, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.3017,
-          62.125,
-          9.504
-        ]
-      },
-      "id": "us6000lpre"
     }
   ],
   "bbox": [
@@ -1615,7 +1495,7 @@
     -44.9266,
     0,
     179.7885,
-    62.125,
+    61.2436,
     246.344
   ]
 }
