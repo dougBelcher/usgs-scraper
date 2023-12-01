@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701411595000,
+    "generated": 1701414825000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.96,
+        "place": "Virgin Islands",
+        "time": 1701411099730,
+        "updated": 1701413233308,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023335003",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023335003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 241,
+        "net": "pr",
+        "code": "2023335003",
+        "ids": ",us7000lf1p,pr2023335003,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.3427,
+        "rms": 0.36,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.0 - Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5451,
+          19.7558,
+          41
+        ]
+      },
+      "id": "pr2023335003"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 5,
         "place": "53 km NNE of Petersville, Alaska",
         "time": 1701409826290,
-        "updated": 1701411328696,
+        "updated": 1701414654826,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023fe4b796",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023fe4b796.geojson",
-        "felt": 186,
-        "cdi": 3.4,
+        "felt": 548,
+        "cdi": 5.4,
         "mmi": 3.517,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 448,
+        "sig": 681,
         "net": "ak",
         "code": "023fe4b796",
         "ids": ",ak023fe4b796,at00s4z483,us7000lf0r,",
@@ -95,22 +135,22 @@
         "mag": 2.53,
         "place": "2 km ENE of Lemoore, CA",
         "time": 1701409274280,
-        "updated": 1701410291113,
+        "updated": 1701412174121,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73970266",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73970266.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 99,
         "net": "nc",
         "code": "73970266",
         "ids": ",nc73970266,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 12,
         "dmin": 0.2863,
         "rms": 0.19,
@@ -173,7 +213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Panama",
+        "place": "6 km WNW of Tonosí, Panama",
         "time": 1701402869938,
         "updated": 1701405192040,
         "tz": null,
@@ -197,7 +237,7 @@
         "gap": 132,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Panama"
+        "title": "M 4.4 - 6 km WNW of Tonosí, Panama"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "near the east coast of Honshu, Japan",
+        "place": "60 km SSE of Onagawa Chō, Japan",
         "time": 1701402733704,
         "updated": 1701404829040,
         "tz": null,
@@ -237,7 +277,7 @@
         "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - near the east coast of Honshu, Japan"
+        "title": "M 4.7 - 60 km SSE of Onagawa Chō, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -253,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "42 km N of Wales, Alaska",
+        "place": "Bering Strait",
         "time": 1701401713926,
         "updated": 1701405595040,
         "tz": null,
@@ -277,7 +317,7 @@
         "gap": 232,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.9 - 42 km N of Wales, Alaska"
+        "title": "M 2.9 - Bering Strait"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.63,
-        "place": "Puerto Rico region",
+        "place": "5 km SSE of Salinas, Puerto Rico",
         "time": 1701400905610,
         "updated": 1701401915900,
         "tz": null,
@@ -317,7 +357,7 @@
         "gap": 197,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - Puerto Rico region"
+        "title": "M 2.6 - 5 km SSE of Salinas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +373,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.42,
-        "place": "Puerto Rico region",
+        "place": "104 km NNE of San Juan, Puerto Rico",
         "time": 1701397897390,
         "updated": 1701399338060,
         "tz": null,
@@ -357,7 +397,7 @@
         "gap": 322,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.4 - Puerto Rico region"
+        "title": "M 3.4 - 104 km NNE of San Juan, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -533,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "20 km N of Stanton, Texas",
+        "place": "western Texas",
         "time": 1701393340874,
         "updated": 1701400097040,
         "tz": null,
@@ -557,7 +597,7 @@
         "gap": 36,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 20 km N of Stanton, Texas"
+        "title": "M 2.5 - western Texas"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.11,
-        "place": "Virgin Islands",
+        "place": "north of the Virgin Islands",
         "time": 1701392544220,
         "updated": 1701394900515,
         "tz": null,
@@ -597,7 +637,7 @@
         "gap": 293,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 4.1 - Virgin Islands"
+        "title": "M 4.1 - north of the Virgin Islands"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "23 km SSE of Darende, Turkey",
+        "place": "central Turkey",
         "time": 1701389930229,
         "updated": 1701391803040,
         "tz": null,
@@ -717,7 +757,7 @@
         "gap": 62,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.5 - 23 km SSE of Darende, Turkey"
+        "title": "M 4.5 - central Turkey"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "60 km SSW of Shungnak, Alaska",
+        "place": "northern Alaska",
         "time": 1701388328016,
         "updated": 1701410849247,
         "tz": null,
@@ -757,7 +797,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 60 km SSW of Shungnak, Alaska"
+        "title": "M 3.1 - northern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "4 km ENE of Xunchang, China",
+        "place": "eastern Sichuan, China",
         "time": 1701376590746,
         "updated": 1701379011040,
         "tz": null,
@@ -917,7 +957,7 @@
         "gap": 133,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 4 km ENE of Xunchang, China"
+        "title": "M 4.3 - eastern Sichuan, China"
       },
       "geometry": {
         "type": "Point",
@@ -1053,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "near the north coast of New Guinea, Papua New Guinea",
+        "place": "197 km N of Madang, Papua New Guinea",
         "time": 1701365946413,
         "updated": 1701374916040,
         "tz": null,
@@ -1077,7 +1117,7 @@
         "gap": 73,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - near the north coast of New Guinea, Papua New Guinea"
+        "title": "M 4.6 - 197 km N of Madang, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1175,11 +1215,11 @@
         "mag": 2.57,
         "place": "0 km NNW of View Park-Windsor Hills, CA",
         "time": 1701356815900,
-        "updated": 1701411471838,
+        "updated": 1701413050556,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39720234",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39720234.geojson",
-        "felt": 111,
+        "felt": 112,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "143 km W of Port Orford, Oregon",
+        "place": "off the coast of Oregon",
         "time": 1701349021610,
         "updated": 1701350088040,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 282,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 143 km W of Port Orford, Oregon"
+        "title": "M 2.7 - off the coast of Oregon"
       },
       "geometry": {
         "type": "Point",
@@ -1535,12 +1575,12 @@
         "mag": 3.22,
         "place": "167 km WSW of Adak, Alaska",
         "time": 1701344186090,
-        "updated": 1701385848680,
+        "updated": 1701412586797,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av92139011",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av92139011.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1550,7 +1590,7 @@
         "code": "92139011",
         "ids": ",av92139011,",
         "sources": ",av,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": null,
         "rms": 0.22,
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "103 km NW of Wuhai, China",
+        "place": "western Nei Mongol, China",
         "time": 1701343540081,
         "updated": 1701345468040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": 61,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 103 km NW of Wuhai, China"
+        "title": "M 4.7 - western Nei Mongol, China"
       },
       "geometry": {
         "type": "Point",
@@ -1768,132 +1808,12 @@
         ]
       },
       "id": "us7000leqc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "Hawaii region, Hawaii",
-        "time": 1701328022640,
-        "updated": 1701385722900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73667427",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73667427.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "73667427",
-        "ids": ",hv73667427,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.239666666667,
-          19.3821666666667,
-          1.77
-        ]
-      },
-      "id": "hv73667427"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.57,
-        "place": "Mona Passage, Dominican Republic",
-        "time": 1701326793620,
-        "updated": 1701328508331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023334001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023334001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 196,
-        "net": "pr",
-        "code": "2023334001",
-        "ids": ",pr2023334001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.3559,
-        "rms": 0.48,
-        "gap": 290,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - Mona Passage, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5566,
-          18.2041,
-          96
-        ]
-      },
-      "id": "pr2023334001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "Kenai Peninsula, Alaska",
-        "time": 1701325209876,
-        "updated": 1701326298040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000leq3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000leq3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000leq3",
-        "ids": ",us7000leq3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.569,
-        "rms": 0.7,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - Kenai Peninsula, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.5869,
-          60.2236,
-          73.763
-        ]
-      },
-      "id": "us7000leq3"
     }
   ],
   "bbox": [
     -178.952,
     -56.295,
-    1.77,
+    2.61,
     173.1015,
     66.3655,
     606.338
