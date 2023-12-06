@@ -1,27 +1,107 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701832496000,
+    "generated": 1701836288000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 63
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.48,
+        "place": "11 km E of Ocotillo, CA",
+        "time": 1701835911420,
+        "updated": 1701836053030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40616744",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40616744.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 186,
+        "net": "ci",
+        "code": "40616744",
+        "ids": ",ci40616744,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 98,
+        "dmin": 0.09782,
+        "rms": 0.27,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 11 km E of Ocotillo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.8769989,
+          32.7378349,
+          6.93
+        ]
+      },
+      "id": "ci40616744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "Southern Alaska",
+        "time": 1701832786250,
+        "updated": 1701832933755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023fmcmguu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023fmcmguu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "023fmcmguu",
+        "ids": ",ak023fmcmguu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - Southern Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9902,
+          60.2742,
+          124.2
+        ]
+      },
+      "id": "ak023fmcmguu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "101 km S of Kokhanok, Alaska",
         "time": 1701832076427,
-        "updated": 1701832162345,
+        "updated": 1701832545497,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023fmcjwt3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023fmcjwt3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 4.613,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -30,7 +110,7 @@
         "code": "023fmcjwt3",
         "ids": ",ak023fmcjwt3,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.54,
@@ -53,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "off the coast of Aisen, Chile",
+        "place": "Off the coast of Aisen, Chile",
         "time": 1701827924948,
         "updated": 1701829068040,
         "tz": null,
@@ -77,7 +157,7 @@
         "gap": 151,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - off the coast of Aisen, Chile"
+        "title": "M 5.0 - Off the coast of Aisen, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -95,12 +175,12 @@
         "mag": 5.3,
         "place": "31 km ESE of Marihatag, Philippines",
         "time": 1701827758429,
-        "updated": 1701828928040,
+        "updated": 1701834134848,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgkp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgkp.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +190,7 @@
         "code": "7000lgkp",
         "ids": ",us7000lgkp,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 82,
         "dmin": 1.853,
         "rms": 1.03,
@@ -213,7 +293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "66 km W of Tyonek, Alaska",
+        "place": "Southern Alaska",
         "time": 1701826334798,
         "updated": 1701826483890,
         "tz": null,
@@ -237,7 +317,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 66 km W of Tyonek, Alaska"
+        "title": "M 2.6 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -413,7 +493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "33 km NE of Hinatuan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1701819265774,
         "updated": 1701820630040,
         "tz": null,
@@ -437,7 +517,7 @@
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 33 km NE of Hinatuan, Philippines"
+        "title": "M 4.7 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "90 km ENE of Barcelona, Philippines",
+        "place": "Philippine Islands region",
         "time": 1701818954409,
         "updated": 1701830059217,
         "tz": null,
@@ -477,7 +557,7 @@
         "gap": 129,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 90 km ENE of Barcelona, Philippines"
+        "title": "M 4.6 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Mindanao, Philippines",
+        "place": "40 km ENE of La Paz, Philippines",
         "time": 1701815008586,
         "updated": 1701818332040,
         "tz": null,
@@ -597,7 +677,7 @@
         "gap": 149,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Mindanao, Philippines"
+        "title": "M 4.4 - 40 km ENE of La Paz, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "129 km NW of Las Khorey, Somalia",
+        "place": "Gulf of Aden",
         "time": 1701814242027,
         "updated": 1701815366040,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 129 km NW of Las Khorey, Somalia"
+        "title": "M 4.5 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +813,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
-        "place": "southwestern Ryukyu Islands, Japan",
+        "place": "51 km S of Miyakojima, Japan",
         "time": 1701810175606,
         "updated": 1701821567040,
         "tz": null,
@@ -757,7 +837,7 @@
         "gap": 203,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - southwestern Ryukyu Islands, Japan"
+        "title": "M 4.3 - 51 km S of Miyakojima, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +933,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "105 km NE of Hihifo, Tonga",
+        "place": "Tonga",
         "time": 1701802417615,
         "updated": 1701816851040,
         "tz": null,
@@ -877,7 +957,7 @@
         "gap": 68,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 105 km NE of Hihifo, Tonga"
+        "title": "M 4.7 - Tonga"
       },
       "geometry": {
         "type": "Point",
@@ -893,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "133 km NW of Las Khorey, Somalia",
+        "place": "Gulf of Aden",
         "time": 1701799832918,
         "updated": 1701813156040,
         "tz": null,
@@ -917,7 +997,7 @@
         "gap": 50,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 133 km NW of Las Khorey, Somalia"
+        "title": "M 4.5 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "140 km NW of Las Khorey, Somalia",
+        "place": "Gulf of Aden",
         "time": 1701796684107,
         "updated": 1701798705040,
         "tz": null,
@@ -1037,7 +1117,7 @@
         "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 140 km NW of Las Khorey, Somalia"
+        "title": "M 4.4 - Gulf of Aden"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.8,
-        "place": "66 km ENE of Aras-asan, Philippines",
+        "place": "Mindanao, Philippines",
         "time": 1701783399656,
         "updated": 1701818829073,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 91,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 66 km ENE of Aras-asan, Philippines"
+        "title": "M 5.8 - Mindanao, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "Halmahera, Indonesia",
+        "place": "95 km NNE of Tobelo, Indonesia",
         "time": 1701779798780,
         "updated": 1701780796040,
         "tz": null,
@@ -1237,7 +1317,7 @@
         "gap": 34,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - Halmahera, Indonesia"
+        "title": "M 5.1 - 95 km NNE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
@@ -1333,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.6,
-        "place": "66 km WNW of Skwentna, Alaska",
+        "place": "Central Alaska",
         "time": 1701778154932,
         "updated": 1701798053574,
         "tz": null,
@@ -1357,7 +1437,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 66 km WNW of Skwentna, Alaska"
+        "title": "M 3.6 - Central Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1373,7 +1453,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.1,
-        "place": "54 km NW of Beluga, Alaska",
+        "place": "Southern Alaska",
         "time": 1701778152485,
         "updated": 1701778271358,
         "tz": null,
@@ -1397,7 +1477,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 54 km NW of Beluga, Alaska"
+        "title": "M 3.1 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1413,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Gulf of Aden",
+        "place": "138 km NNW of Las Khorey, Somalia",
         "time": 1701776661715,
         "updated": 1701778592040,
         "tz": null,
@@ -1437,7 +1517,7 @@
         "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Gulf of Aden"
+        "title": "M 4.9 - 138 km NNW of Las Khorey, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "58 km W of Anchor Point, Alaska",
+        "place": "Southern Alaska",
         "time": 1701770171923,
         "updated": 1701770310267,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 58 km W of Anchor Point, Alaska"
+        "title": "M 2.6 - Southern Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1773,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "Mindanao, Philippines",
+        "place": "50 km ENE of Bacolod, Philippines",
         "time": 1701769374918,
         "updated": 1701812965040,
         "tz": null,
@@ -1717,7 +1797,7 @@
         "gap": 88,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - Mindanao, Philippines"
+        "title": "M 5.4 - 50 km ENE of Bacolod, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2093,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "Off the coast of Atacama, Chile",
+        "place": "235 km WNW of Coquimbo, Chile",
         "time": 1701757990829,
         "updated": 1701759057040,
         "tz": null,
@@ -2037,7 +2117,7 @@
         "gap": 145,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - Off the coast of Atacama, Chile"
+        "title": "M 4.4 - 235 km WNW of Coquimbo, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -2053,7 +2133,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Gulf of Aden",
+        "place": "162 km NW of Las Khorey, Somalia",
         "time": 1701756145052,
         "updated": 1701758021040,
         "tz": null,
@@ -2077,7 +2157,7 @@
         "gap": 156,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Gulf of Aden"
+        "title": "M 4.5 - 162 km NW of Las Khorey, Somalia"
       },
       "geometry": {
         "type": "Point",
@@ -2173,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "77 km ENE of Barcelona, Philippines",
+        "place": "Philippine Islands region",
         "time": 1701754034047,
         "updated": 1701755061040,
         "tz": null,
@@ -2197,7 +2277,7 @@
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - 77 km ENE of Barcelona, Philippines"
+        "title": "M 5.1 - Philippine Islands region"
       },
       "geometry": {
         "type": "Point",
@@ -2213,7 +2293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "Philippine Islands region",
+        "place": "73 km ENE of Kinablangan, Philippines",
         "time": 1701752332938,
         "updated": 1701753132040,
         "tz": null,
@@ -2237,7 +2317,7 @@
         "gap": 148,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Philippine Islands region"
+        "title": "M 4.5 - 73 km ENE of Kinablangan, Philippines"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "western Texas",
+        "place": "63 km SSW of Whites City, New Mexico",
         "time": 1701750901649,
         "updated": 1701790208017,
         "tz": null,
@@ -2277,7 +2357,7 @@
         "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - western Texas"
+        "title": "M 3.0 - 63 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -2292,10 +2372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "55 km ESE of Marihatag, Philippines",
-        "time": 1701750455324,
-        "updated": 1701751214040,
+        "mag": 4.8,
+        "place": "Mindanao, Philippines",
+        "time": 1701750456039,
+        "updated": 1701834789040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgbk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgbk.geojson",
@@ -2305,216 +2385,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 354,
         "net": "us",
         "code": "7000lgbk",
         "ids": ",us7000lgbk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.025,
-        "rms": 0.49,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 55 km ESE of Marihatag, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7956,
-          8.7074,
-          66.451
-        ]
-      },
-      "id": "us7000lgbk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.33,
-        "place": "2 km E of Fullerton, CA",
-        "time": 1701749398340,
-        "updated": 1701831423240,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40616032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40616032.geojson",
-        "felt": 3232,
-        "cdi": 3.6,
-        "mmi": 3.957,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 531,
-        "net": "ci",
-        "code": "40616032",
-        "ids": ",ci40616032,us7000lgbg,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 120,
-        "dmin": 0.01377,
-        "rms": 0.24,
-        "gap": 21,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 2 km E of Fullerton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.908,
-          33.8783333,
-          9.84
-        ]
-      },
-      "id": "ci40616032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1701749179346,
-        "updated": 1701784785578,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023xtwe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023xtwe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2023xtwe",
-        "ids": ",us7000lgbe,tx2023xtwe,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.2,
+        "nst": 60,
+        "dmin": 1.932,
+        "rms": 0.51,
         "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.332,
-          31.662,
-          6.2601
-        ]
-      },
-      "id": "tx2023xtwe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "Hawaii region, Hawaii",
-        "time": 1701748699280,
-        "updated": 1701829908040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73673307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73673307.geojson",
-        "felt": 31,
-        "cdi": 5.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "hv",
-        "code": "73673307",
-        "ids": ",hv73673307,us7000lgb6,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 38,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 113,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - Hawaii region, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.193333333333,
-          19.3276666666667,
-          1.85
-        ]
-      },
-      "id": "hv73673307"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.06,
-        "place": "13 km SSE of Volcano, Hawaii",
-        "time": 1701748426010,
-        "updated": 1701829426082,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73673302",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73673302.geojson",
-        "felt": 1160,
-        "cdi": 5.6,
-        "mmi": 5.673,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 954,
-        "net": "hv",
-        "code": "73673302",
-        "ids": ",pt23339050,hv73673302,us7000lgb4,",
-        "sources": ",pt,hv,us,",
-        "types": ",dyfi,ground-failure,losspager,oaf,origin,phase-data,shakemap,",
-        "nst": 34,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 5.1 - 13 km SSE of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2055,
-          19.3251666666667,
-          2.08
-        ]
-      },
-      "id": "hv73673302"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Mindanao, Philippines",
-        "time": 1701747599067,
-        "updated": 1701749333040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgb1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgb1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000lgb1",
-        "ids": ",us7000lgb1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.945,
-        "rms": 0.79,
-        "gap": 125,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.8 - Mindanao, Philippines"
@@ -2522,12 +2402,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.709,
-          8.6702,
-          67.209
+          126.6729,
+          8.6801,
+          74.415
         ]
       },
-      "id": "us7000lgb1"
+      "id": "us7000lgbk"
     }
   ],
   "bbox": [
@@ -2536,6 +2416,6 @@
     0,
     128.2563,
     62.1494,
-    108.34
+    124.2
   ]
 }
