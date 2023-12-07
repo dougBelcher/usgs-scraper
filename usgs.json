@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1701980156000,
+    "generated": 1701983576000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 47
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
-        "place": "1 km S of Banning, CA",
-        "time": 1701979913110,
-        "updated": 1701980048002,
+        "mag": 2.65,
+        "place": "1 km SSW of Banning, CA",
+        "time": 1701979913060,
+        "updated": 1701980593330,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40617352",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40617352.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 109,
         "net": "ci",
         "code": "40617352",
         "ids": ",ci40617352,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 122,
-        "dmin": 0.07781,
-        "rms": 0.19,
-        "gap": 21,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 113,
+        "dmin": 0.07871,
+        "rms": 0.18,
+        "gap": 31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 1 km S of Banning, CA"
+        "title": "M 2.7 - 1 km SSW of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8775024,
-          33.918335,
-          9.53
+          -116.8785,
+          33.9193333,
+          9.85
         ]
       },
       "id": "ci40617352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.8,
+        "place": "10 km NNE of Chiautla de Tapia, Mexico",
+        "time": 1701979418206,
+        "updated": 1701983471014,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lh50",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lh50.geojson",
+        "felt": 120,
+        "cdi": 6,
+        "mmi": 5.272,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 590,
+        "net": "us",
+        "code": "7000lh50",
+        "ids": ",us7000lh50,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 175,
+        "dmin": 0.82,
+        "rms": 0.64,
+        "gap": 99,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.8 - 10 km NNE of Chiautla de Tapia, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5503,
+          18.3866,
+          44.388
+        ]
+      },
+      "id": "us7000lh50"
     },
     {
       "type": "Feature",
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.37,
-        "place": "76 km SSW of Mākena, Hawaii",
-        "time": 1701975255930,
-        "updated": 1701975590690,
+        "mag": 3.43,
+        "place": "78 km SSW of Mākena, Hawaii",
+        "time": 1701975255910,
+        "updated": 1701981400040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73676237",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73676237.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 175,
+        "sig": 181,
         "net": "hv",
         "code": "73676237",
         "ids": ",hv73676237,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 46,
+        "nst": 53,
         "dmin": null,
-        "rms": 0.239999995,
-        "gap": 184,
+        "rms": 0.18,
+        "gap": 304,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 76 km SSW of Mākena, Hawaii"
+        "title": "M 3.4 - 78 km SSW of Mākena, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.692672729492,
-          20.0020008087158,
-          4.51000022888184
+          -156.760333333333,
+          20.0155,
+          38.06
         ]
       },
       "id": "hv73676237"
@@ -175,11 +215,11 @@
         "mag": 3.63,
         "place": "Island of Hawaii, Hawaii",
         "time": 1701969216550,
-        "updated": 1701976531814,
+        "updated": 1701980474580,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73675997",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73675997.geojson",
-        "felt": 63,
+        "felt": 64,
         "cdi": 3.4,
         "mmi": 4.101,
         "alert": null,
@@ -335,12 +375,12 @@
         "mag": 4.6,
         "place": "68 km NW of Lecherías, Venezuela",
         "time": 1701962615923,
-        "updated": 1701971259040,
+        "updated": 1701983268401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgxw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgxw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "7000lgxw",
         "ids": ",us7000lgxw,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 46,
         "dmin": 5.591,
         "rms": 0.73,
@@ -935,11 +975,11 @@
         "mag": 5.4,
         "place": "43 km NNE of Şuraabad, Azerbaijan",
         "time": 1701922540014,
-        "updated": 1701974254719,
+        "updated": 1701980551658,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgud",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgud.geojson",
-        "felt": 62,
+        "felt": 63,
         "cdi": 4.4,
         "mmi": 4.427,
         "alert": "green",
@@ -1728,171 +1768,11 @@
         ]
       },
       "id": "ak023fmnerno"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Vanuatu",
-        "time": 1701896867730,
-        "updated": 1701954505307,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgrl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgrl.geojson",
-        "felt": 1,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000lgrl",
-        "ids": ",us7000lgrl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 48,
-        "dmin": 6.78,
-        "rms": 0.62,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.9738,
-          -14.7212,
-          10
-        ]
-      },
-      "id": "us7000lgrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "7 km ESE of Naranjito, Puerto Rico",
-        "time": 1701894947300,
-        "updated": 1701895780690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71433333",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71433333.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71433333",
-        "ids": ",pr71433333,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0966,
-        "rms": 0.12,
-        "gap": 146,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 7 km ESE of Naranjito, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1795,
-          18.2766666666667,
-          58.89
-        ]
-      },
-      "id": "pr71433333"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "South Shetland Islands",
-        "time": 1701894643467,
-        "updated": 1701896256040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgrb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgrb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000lgrb",
-        "ids": ",us7000lgrb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 2.62,
-        "rms": 1.17,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - South Shetland Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.8094,
-          -61.0183,
-          10
-        ]
-      },
-      "id": "us7000lgrb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "62 km E of Port Alsworth, Alaska",
-        "time": 1701893903192,
-        "updated": 1701894049228,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023fmmqkof",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023fmmqkof.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "023fmmqkof",
-        "ids": ",ak023fmmqkof,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.51,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 62 km E of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.1937,
-          60.2916,
-          132.3
-        ]
-      },
-      "id": "ak023fmmqkof"
     }
   ],
   "bbox": [
     -178.1087,
-    -61.0183,
+    -34.9486,
     0,
     169.2064,
     63.3238,
