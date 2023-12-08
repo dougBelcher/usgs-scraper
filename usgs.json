@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702026877000,
+    "generated": 1702030512000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "33 km SE of Mina, Nevada",
+        "time": 1702027106344,
+        "updated": 1702027653040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lha4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lha4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000lha4",
+        "ids": ",us7000lha4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.141,
+        "rms": 0.45,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 33 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8151,
+          38.19,
+          12.833
+        ]
+      },
+      "id": "us7000lha4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "pr71433518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "104 km ESE of Aras-asan, Philippines",
+        "time": 1702025970465,
+        "updated": 1702027119040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lha1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lha1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000lha1",
+        "ids": ",us7000lha1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 2.299,
+        "rms": 0.68,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 104 km ESE of Aras-asan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2375,
+          8.6881,
+          60.562
+        ]
+      },
+      "id": "us7000lha1"
     },
     {
       "type": "Feature",
@@ -215,22 +295,22 @@
         "mag": 2.9,
         "place": "19 km WNW of Stanley, Idaho",
         "time": 1702021907493,
-        "updated": 1702022969040,
+        "updated": 1702026949085,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lh9l",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lh9l.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 130,
         "net": "us",
         "code": "7000lh9l",
         "ids": ",us7000lh9l,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 0.278,
         "rms": 0.85,
@@ -295,7 +375,7 @@
         "mag": 5.6,
         "place": "96 km SSE of Isangel, Vanuatu",
         "time": 1702019996304,
-        "updated": 1702024260501,
+        "updated": 1702027410764,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lh9a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lh9a.geojson",
@@ -1133,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.63,
-        "place": "Island of Hawaii, Hawaii",
+        "place": "10 km ENE of Pāhala, Hawaii",
         "time": 1701969216550,
         "updated": 1702010616466,
         "tz": null,
@@ -1157,7 +1237,7 @@
         "gap": 163,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - Island of Hawaii, Hawaii"
+        "title": "M 3.6 - 10 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
@@ -1533,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.9,
-        "place": "48 km SE of Port Graham, Alaska",
+        "place": "Kenai Peninsula, Alaska",
         "time": 1701954652211,
         "updated": 1701961706040,
         "tz": null,
@@ -1557,7 +1637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 48 km SE of Port Graham, Alaska"
+        "title": "M 2.9 - Kenai Peninsula, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "us7000lgwp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "New Ireland region, Papua New Guinea",
-        "time": 1701943863697,
-        "updated": 1701946378040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgvu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lgvu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000lgvu",
-        "ids": ",us7000lgvu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.346,
-        "rms": 0.87,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - New Ireland region, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.2016,
-          -5.0584,
-          60.021
-        ]
-      },
-      "id": "us7000lgvu"
     }
   ],
   "bbox": [
