@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1702523725000,
+    "generated": 1702527516000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "86 km ENE of Barcelona, Philippines",
+        "time": 1702524998048,
+        "updated": 1702526069040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000liuc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000liuc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000liuc",
+        "ids": ",us7000liuc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.092,
+        "rms": 0.59,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 86 km ENE of Barcelona, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.152,
+          8.4738,
+          65.664
+        ]
+      },
+      "id": "us7000liuc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "6 km SSE of Qingsheng, China",
         "time": 1702521543660,
-        "updated": 1702522941040,
+        "updated": 1702525053027,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000liua",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000liua.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "7000liua",
         "ids": ",us7000liua,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": 6.85,
         "rms": 0.7,
@@ -1168,46 +1208,6 @@
         ]
       },
       "id": "us7000likz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "southern East Pacific Rise",
-        "time": 1702439750436,
-        "updated": 1702447151268,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lik3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lik3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000lik3",
-        "ids": ",us7000lik3,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 51,
-        "dmin": 39.039,
-        "rms": 0.59,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - southern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0832,
-          -25.5803,
-          10
-        ]
-      },
-      "id": "us7000lik3"
     }
   ],
   "bbox": [
