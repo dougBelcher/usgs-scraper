@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703269037000,
+    "generated": 1703272277000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "51 km NE of Miches, Dominican Republic",
+        "time": 1703269810682,
+        "updated": 1703272156817,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lkxz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lkxz.geojson",
+        "felt": 100,
+        "cdi": 7,
+        "mmi": 4.229,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 519,
+        "net": "us",
+        "code": "7000lkxz",
+        "ids": ",pt23356001,us7000lkxz,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 219,
+        "dmin": 0.859,
+        "rms": 0.93,
+        "gap": 21,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 51 km NE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7132,
+          19.3181,
+          6.834
+        ]
+      },
+      "id": "us7000lkxz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -54,8 +94,8 @@
       "properties": {
         "mag": 6.1,
         "place": "south of Africa",
-        "time": 1703266591990,
-        "updated": 1703268032720,
+        "time": 1703266591993,
+        "updated": 1703269992095,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lkxb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lkxb.geojson",
@@ -71,19 +111,19 @@
         "ids": ",us7000lkxb,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 131,
-        "dmin": 16.547,
-        "rms": 0.64,
-        "gap": 28,
-        "magType": "mwb",
+        "nst": 165,
+        "dmin": 16.562,
+        "rms": 0.75,
+        "gap": 20,
+        "magType": "mww",
         "type": "earthquake",
         "title": "M 6.1 - south of Africa"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.9699,
-          -52.0483,
+          27.9478,
+          -52.0566,
           10
         ]
       },
@@ -1608,51 +1648,11 @@
         ]
       },
       "id": "us7000lkq6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "26 km SW of Ovalle, Chile",
-        "time": 1703185745052,
-        "updated": 1703195916040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lkq0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lkq0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000lkq0",
-        "ids": ",us7000lkq0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.628,
-        "rms": 0.74,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 26 km SW of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.4115,
-          -30.7516,
-          48.244
-        ]
-      },
-      "id": "us7000lkq0"
     }
   ],
   "bbox": [
     -178.5756,
-    -52.0483,
+    -52.0566,
     -0.17,
     169.3785,
     60.419,
