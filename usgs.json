@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703607447000,
+    "generated": 1703610716000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -255,22 +255,22 @@
         "mag": 3,
         "place": "20 km E of Little Lake, CA",
         "time": 1703588845710,
-        "updated": 1703589495510,
+        "updated": 1703609862025,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40451167",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40451167.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 139,
         "net": "ci",
         "code": "40451167",
         "ids": ",ci40451167,us7000llha,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.1119,
         "rms": 0.19,
@@ -1448,46 +1448,6 @@
         ]
       },
       "id": "pr2023359003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "118 km SSE of Chenega, Alaska",
-        "time": 1703524018894,
-        "updated": 1703525255592,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gi03dd8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gi03dd8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.912,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "023gi03dd8",
-        "ids": ",us7000lldp,ak023gi03dd8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.05,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 118 km SSE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.9623,
-          59.1448,
-          19.2
-        ]
-      },
-      "id": "ak023gi03dd8"
     }
   ],
   "bbox": [
