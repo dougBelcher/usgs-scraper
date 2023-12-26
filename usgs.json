@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703628747000,
+    "generated": 1703632587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "40 km SSW of Shizunai-furukawachō, Japan",
+        "time": 1703631237545,
+        "updated": 1703632260040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lzxt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lzxt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000lzxt",
+        "ids": ",us6000lzxt,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 72,
+        "dmin": 0.665,
+        "rms": 0.95,
+        "gap": 88,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.7 - 40 km SSW of Shizunai-furukawachō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2666,
+          41.976,
+          62.387
+        ]
+      },
+      "id": "us6000lzxt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "11 km NW of Point MacKenzie, Alaska",
         "time": 1703628117087,
-        "updated": 1703628469520,
+        "updated": 1703630085538,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gjqkteu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gjqkteu.geojson",
-        "felt": 1,
+        "felt": 3,
         "cdi": 2,
-        "mmi": null,
+        "mmi": 2.692,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 130,
         "net": "ak",
         "code": "023gjqkteu",
-        "ids": ",ak023gjqkteu,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",ak023gjqkteu,us6000lzxj,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 1.05,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak023gjqkteu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "24 km SSE of Golfo de Santa Clara, Mexico",
+        "time": 1703626063558,
+        "updated": 1703629407040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lzxg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lzxg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000lzxg",
+        "ids": ",us6000lzxg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.08,
+        "rms": 0.74,
+        "gap": 230,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 24 km SSE of Golfo de Santa Clara, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3545,
+          31.5005,
+          13.731
+        ]
+      },
+      "id": "us6000lzxg"
     },
     {
       "type": "Feature",
@@ -128,6 +208,46 @@
         ]
       },
       "id": "tx2023zhkm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "61 km S of Whites City, New Mexico",
+        "time": 1703618122960,
+        "updated": 1703630127040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lzwy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lzwy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000lzwy",
+        "ids": ",us6000lzwy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.11,
+        "rms": 0.61,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 61 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3846,
+          31.6215,
+          10
+        ]
+      },
+      "id": "us6000lzwy"
     },
     {
       "type": "Feature",
@@ -1408,86 +1528,6 @@
         ]
       },
       "id": "us7000llf5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "25 km S of Thang, India",
-        "time": 1703545433692,
-        "updated": 1703548773040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000llf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000llf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000llf2",
-        "ids": ",us7000llf2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 3.067,
-        "rms": 0.47,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 25 km S of Thang, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.746,
-          34.7015,
-          13.961
-        ]
-      },
-      "id": "us7000llf2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "17 km SSE of Pāhala, Hawaii",
-        "time": 1703542592180,
-        "updated": 1703542923900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73696712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73696712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "hv",
-        "code": "73696712",
-        "ids": ",hv73696712,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 269,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 17 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.406173706055,
-          19.0575008392334,
-          34.0200004577637
-        ]
-      },
-      "id": "hv73696712"
     }
   ],
   "bbox": [
