@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703589110000,
+    "generated": 1703593587000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "20 km E of Little Lake, CA",
+        "time": 1703591280960,
+        "updated": 1703591969320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40451183",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40451183.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "ci",
+        "code": "40451183",
+        "ids": ",ci40451183,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.1124,
+        "rms": 0.18,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 20 km E of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6819992,
+          35.9266663,
+          1.71
+        ]
+      },
+      "id": "ci40451183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
+        "place": "32 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1703589809190,
+        "updated": 1703592887010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71435373",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71435373.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 167,
+        "net": "pr",
+        "code": "71435373",
+        "ids": ",pr71435373,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.2782,
+        "rms": 0.24,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 32 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8193333333333,
+          18.6255,
+          10.07
+        ]
+      },
+      "id": "pr71435373"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "20 km E of Little Lake, CA",
         "time": 1703588845710,
-        "updated": 1703588996007,
+        "updated": 1703589495510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40451167",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40451167.geojson",
@@ -28,9 +108,9 @@
         "sig": 138,
         "net": "ci",
         "code": "40451167",
-        "ids": ",ci40451167,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40451167,us7000llha,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.1119,
         "rms": 0.19,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "ci40451167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.18,
+        "place": "80 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1703587931970,
+        "updated": 1703589110350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71435358",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71435358.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 156,
+        "net": "pr",
+        "code": "71435358",
+        "ids": ",pr71435358,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.6083,
+        "rms": 0.07,
+        "gap": 309,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 80 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.577,
+          19.0303333333333,
+          12.33
+        ]
+      },
+      "id": "pr71435358"
     },
     {
       "type": "Feature",
@@ -255,17 +375,17 @@
         "mag": 5.3,
         "place": "72 km NE of Samaná, Dominican Republic",
         "time": 1703575465190,
-        "updated": 1703588690887,
+        "updated": 1703592719897,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023360000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023360000.geojson",
-        "felt": 26,
+        "felt": 31,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 442,
+        "sig": 444,
         "net": "pr",
         "code": "2023360000",
         "ids": ",pt23360050,us7000llgi,pr2023360000,",
