@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703751487000,
+    "generated": 1703754861000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 38
   },
   "features": [
     {
@@ -92,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.82,
-        "place": "61 km W of Petrolia, CA",
-        "time": 1703746843420,
-        "updated": 1703748960524,
+        "mag": 3.75,
+        "place": "82 km W of Petrolia, CA",
+        "time": 1703746841890,
+        "updated": 1703754732961,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73981981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73981981.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 6,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 225,
+        "sig": 218,
         "net": "nc",
         "code": "73981981",
-        "ids": ",nc73981981,ew1703746860,us6000m04x,",
-        "sources": ",nc,ew,us,",
+        "ids": ",ew1703746860,nc73981981,us6000m04x,",
+        "sources": ",ew,nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 77,
-        "dmin": 0.5185,
-        "rms": 0.36,
-        "gap": 265,
+        "nst": 179,
+        "dmin": 0.6969,
+        "rms": 0.27,
+        "gap": 236,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 61 km W of Petrolia, CA"
+        "title": "M 3.8 - 82 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125,
-          40.3914986,
-          2.22
+          -125.2471667,
+          40.415,
+          10
         ]
       },
       "id": "nc73981981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "25 km ESE of Dabajuro, Venezuela",
+        "time": 1703746319008,
+        "updated": 1703752649040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m04v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m04v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000m04v",
+        "ids": ",us6000m04v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.68,
+        "rms": 0.6,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 25 km ESE of Dabajuro, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4706,
+          10.9262,
+          18.009
+        ]
+      },
+      "id": "us6000m04v"
     },
     {
       "type": "Feature",
@@ -495,17 +535,17 @@
         "mag": 3.07,
         "place": "8 km NW of Avila Beach, CA",
         "time": 1703707540510,
-        "updated": 1703747270939,
+        "updated": 1703754236307,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73981856",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73981856.geojson",
-        "felt": 131,
+        "felt": 132,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 201,
+        "sig": 202,
         "net": "nc",
         "code": "73981856",
         "ids": ",nc73981856,us6000m01x,",
@@ -1488,126 +1528,6 @@
         ]
       },
       "id": "us6000lzzs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "64 km NNW of Murghob, Tajikistan",
-        "time": 1703667605570,
-        "updated": 1703677797040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lzzm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000lzzm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000lzzm",
-        "ids": ",us6000lzzm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.632,
-        "rms": 0.31,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 64 km NNW of Murghob, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.6314,
-          38.6829,
-          102.29
-        ]
-      },
-      "id": "us6000lzzm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "59 km SSW of Pole Ojea, Puerto Rico",
-        "time": 1703666495630,
-        "updated": 1703669579590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71435448",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71435448.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "pr",
-        "code": "71435448",
-        "ids": ",pr71435448,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.6004,
-        "rms": 0.24,
-        "gap": 313,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 59 km SSW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.477,
-          17.516,
-          15.35
-        ]
-      },
-      "id": "pr71435448"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "10 km W of Point MacKenzie, Alaska",
-        "time": 1703666452534,
-        "updated": 1703708581378,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gl60ft1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gl60ft1.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023gl60ft1",
-        "ids": ",ak023gl60ft1,us6000lzzi,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 10 km W of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1736,
-          61.3717,
-          34.5
-        ]
-      },
-      "id": "ak023gl60ft1"
     }
   ],
   "bbox": [
