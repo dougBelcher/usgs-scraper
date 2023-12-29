@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1703859172000,
+    "generated": 1703862832000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "12 km NNW of San Simeon, CA",
+        "time": 1703860253620,
+        "updated": 1703860690868,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73982676",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73982676.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "73982676",
+        "ids": ",nc73982676,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.09552,
+        "rms": 0.11,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km NNW of San Simeon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2401657,
+          35.7470016,
+          4.92
+        ]
+      },
+      "id": "nc73982676"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,22 +135,22 @@
         "mag": 2.45,
         "place": "17 km S of Progreso, B.C., MX",
         "time": 1703848189630,
-        "updated": 1703848606003,
+        "updated": 1703860779017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40452415",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40452415.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "ci",
         "code": "40452415",
         "ids": ",ci40452415,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 40,
         "dmin": 0.1135,
         "rms": 0.28,
@@ -1448,206 +1488,6 @@
         ]
       },
       "id": "tx2023zktw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "125 km SE of Kuril’sk, Russia",
-        "time": 1703775863580,
-        "updated": 1703778440040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m080",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m080.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000m080",
-        "ids": ",us6000m080,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 4.665,
-        "rms": 0.64,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 125 km SE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.0721,
-          44.4858,
-          55.554
-        ]
-      },
-      "id": "us6000m080"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "61 km NW of Stevens Village, Alaska",
-        "time": 1703775600428,
-        "updated": 1703777146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak023gmxh4ve",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak023gmxh4ve.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "023gmxh4ve",
-        "ids": ",us6000m07y,ak023gmxh4ve,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.96,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 61 km NW of Stevens Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1392,
-          66.3617,
-          17.8
-        ]
-      },
-      "id": "ak023gmxh4ve"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "12 km E of Amagi, Japan",
-        "time": 1703774963634,
-        "updated": 1703780475322,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m07x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m07x.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000m07x",
-        "ids": ",us6000m07x,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 1.19,
-        "rms": 1.12,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 12 km E of Amagi, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0247,
-          27.8244,
-          55.429
-        ]
-      },
-      "id": "us6000m07x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "25 km S of Westbrook, Texas",
-        "time": 1703774242727,
-        "updated": 1703814610732,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2023zkro",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2023zkro.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "tx",
-        "code": "2023zkro",
-        "ids": ",tx2023zkro,us6000m07r,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 25 km S of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.054,
-          32.125,
-          8.1923
-        ]
-      },
-      "id": "tx2023zkro"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.84,
-        "place": "22 km S of Boca de Yuma, Dominican Republic",
-        "time": 1703773042660,
-        "updated": 1703777597807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2023362002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2023362002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 227,
-        "net": "pr",
-        "code": "2023362002",
-        "ids": ",pr2023362002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4007,
-        "rms": 0.39,
-        "gap": 236,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.8 - 22 km S of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.597,
-          18.1761,
-          138
-        ]
-      },
-      "id": "pr2023362002"
     }
   ],
   "bbox": [
