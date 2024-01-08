@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704726923000,
+    "generated": 1704730796000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 29
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.98,
         "place": "18 km E of Ridgecrest, CA",
         "time": 1704726742530,
-        "updated": 1704726870084,
+        "updated": 1704727393750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40456839",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40456839.geojson",
@@ -30,7 +30,7 @@
         "code": "40456839",
         "ids": ",ci40456839,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 48,
         "dmin": 0.02229,
         "rms": 0.17,
@@ -48,6 +48,126 @@
         ]
       },
       "id": "ci40456839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "58 km W of Abra Pampa, Argentina",
+        "time": 1704721872109,
+        "updated": 1704730125040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2gg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2gg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m2gg",
+        "ids": ",us6000m2gg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.779,
+        "rms": 0.92,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 58 km W of Abra Pampa, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2602,
+          -22.772,
+          263.18
+        ]
+      },
+      "id": "us6000m2gg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "26 km NNE of Sincik, Turkey",
+        "time": 1704719953921,
+        "updated": 1704729240040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2gb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2gb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000m2gb",
+        "ids": ",us6000m2gb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.818,
+        "rms": 0.64,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 26 km NNE of Sincik, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7337,
+          38.2573,
+          10.604
+        ]
+      },
+      "id": "us6000m2gb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "105 km WSW of Salinas, Ecuador",
+        "time": 1704719216659,
+        "updated": 1704729324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2g9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2g9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000m2g9",
+        "ids": ",us6000m2g9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 2.061,
+        "rms": 0.94,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 105 km WSW of Salinas, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8534,
+          -2.5088,
+          10
+        ]
+      },
+      "id": "us6000m2g9"
     },
     {
       "type": "Feature",
@@ -335,12 +455,12 @@
         "mag": 4.6,
         "place": "14 km NE of Bamboo Flat, India",
         "time": 1704690332644,
-        "updated": 1704694974040,
+        "updated": 1704727835215,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2f9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2f9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +470,7 @@
         "code": "6000m2f9",
         "ids": ",us6000m2f9,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": 6.676,
         "rms": 0.7,
@@ -1048,46 +1168,6 @@
         ]
       },
       "id": "tx2024amfs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "13 km SE of Lamboglia, Puerto Rico",
-        "time": 1704642366020,
-        "updated": 1704685941781,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436508",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436508.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 163,
-        "net": "pr",
-        "code": "71436508",
-        "ids": ",pr71436508,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.2,
-        "rms": 0.55,
-        "gap": 179,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 13 km SE of Lamboglia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9148333333333,
-          17.8838333333333,
-          14.85
-        ]
-      },
-      "id": "pr71436508"
     }
   ],
   "bbox": [
@@ -1096,6 +1176,6 @@
     0.47,
     165.4639,
     60.1214,
-    230.023
+    263.18
   ]
 }
