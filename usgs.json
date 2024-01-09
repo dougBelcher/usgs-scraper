@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704809667000,
+    "generated": 1704813357000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "5 km W of Petersville, Alaska",
+        "time": 1704812715672,
+        "updated": 1704812842659,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f4sqa5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f4sqa5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "024f4sqa5",
+        "ids": ",ak024f4sqa5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 5 km W of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8735,
+          62.5041,
+          75.9
+        ]
+      },
+      "id": "ak024f4sqa5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "169 km SE of San Jose Village, Northern Mariana Islands",
+        "time": 1704810691355,
+        "updated": 1704812444260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2pq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2pq.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "6000m2pq",
+        "ids": ",us6000m2pq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.622,
+        "rms": 1.07,
+        "gap": 203,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 169 km SE of San Jose Village, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5317,
+          13.7175,
+          35
+        ]
+      },
+      "id": "us6000m2pq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "us6000m2ha"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.05,
-        "place": "18 km E of Ridgecrest, CA",
-        "time": 1704726742500,
-        "updated": 1704743567773,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40456839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40456839.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "ci",
-        "code": "40456839",
-        "ids": ",ci40456839,us6000m2gn,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.02339,
-        "rms": 0.14,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 18 km E of Ridgecrest, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4821667,
-          35.6033333,
-          9.68
-        ]
-      },
-      "id": "ci40456839"
     }
   ],
   "bbox": [
