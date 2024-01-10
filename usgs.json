@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1704848938000,
+    "generated": 1704853648000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "4 km E of Salamatof, Alaska",
+        "time": 1704848572394,
+        "updated": 1704850375040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2ut",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2ut.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000m2ut",
+        "ids": ",us6000m2ut,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.159,
+        "rms": 0.71,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 4 km E of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.234,
+          60.6148,
+          58.694
+        ]
+      },
+      "id": "us6000m2ut"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,46 +168,6 @@
         ]
       },
       "id": "us6000m2ui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "8 km W of Happy Valley, Alaska",
-        "time": 1704836188546,
-        "updated": 1704836929291,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f8k0nn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f8k0nn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "024f8k0nn",
-        "ids": ",ak024f8k0nn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.8881,
-          59.9596,
-          62.8
-        ]
-      },
-      "id": "ak024f8k0nn"
     },
     {
       "type": "Feature",
@@ -295,12 +295,12 @@
         "mag": 2.5,
         "place": "14 km NNW of Sutcliffe, Nevada",
         "time": 1704825475311,
-        "updated": 1704827306788,
+        "updated": 1704853045829,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00871497",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00871497.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +310,7 @@
         "code": "00871497",
         "ids": ",nn00871497,",
         "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.113,
         "rms": 0.1507,
@@ -1288,86 +1288,6 @@
         ]
       },
       "id": "us6000m2mr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "207 km W of Port McNeill, Canada",
-        "time": 1704764489696,
-        "updated": 1704796163030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2ml",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2ml.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000m2ml",
-        "ids": ",us6000m2ml,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.201,
-        "rms": 0.65,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 207 km W of Port McNeill, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.9927,
-          50.856,
-          10
-        ]
-      },
-      "id": "us6000m2ml"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "35 km S of Jurm, Afghanistan",
-        "time": 1704763650005,
-        "updated": 1704764659040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m2mk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m2mk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000m2mk",
-        "ids": ",us6000m2mk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.022,
-        "rms": 0.7,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 35 km S of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.8608,
-          36.5429,
-          195.419
-        ]
-      },
-      "id": "us6000m2mk"
     }
   ],
   "bbox": [
