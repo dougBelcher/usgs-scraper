@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705295675000,
+    "generated": 1705299634000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "1 km SSE of Roosevelt, Washington",
+        "time": 1705297696630,
+        "updated": 1705299320744,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61979961",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61979961.geojson",
+        "felt": 13,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "uw",
+        "code": "61979961",
+        "ids": ",uw61979961,us6000m3pr,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.03658,
+        "rms": 0.19,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 1 km SSE of Roosevelt, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00733333333334,
+          47.88183333333333,
+          27.94
+        ]
+      },
+      "id": "uw61979961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "24 km SW of Trapper Creek, Alaska",
+        "time": 1705297040950,
+        "updated": 1705297181621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ow9cjj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ow9cjj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "024ow9cjj",
+        "ids": ",ak024ow9cjj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.8,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 24 km SW of Trapper Creek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6099,
+          62.1884,
+          1
+        ]
+      },
+      "id": "ak024ow9cjj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "5 km ENE of San Pedro de Atacama, Chile",
+        "time": 1705295858140,
+        "updated": 1705297906035,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3pm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3pm.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000m3pm",
+        "ids": ",us6000m3pm,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.062,
+        "rms": 0.98,
+        "gap": 97,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 5 km ENE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1462,
+          -22.8972,
+          105.785
+        ]
+      },
+      "id": "us6000m3pm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1088,51 +1208,11 @@
         ]
       },
       "id": "ak024n9r2oy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49000001,
-        "place": "6 km WSW of Volcano, Hawaii",
-        "time": 1705209946690,
-        "updated": 1705210128430,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73716452",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73716452.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "73716452",
-        "ids": ",hv73716452,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": null,
-        "rms": 0.280000001,
-        "gap": 42,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km WSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.283172607422,
-          19.4120006561279,
-          2.28999996185303
-        ]
-      },
-      "id": "hv73716452"
     }
   ],
   "bbox": [
     -178.3182,
-    -22.8582,
+    -22.8972,
     0.03999999910593,
     142.7169,
     63.103,
