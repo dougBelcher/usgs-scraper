@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705414416000,
+    "generated": 1705418136000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "34 km W of Karluk, Alaska",
+        "time": 1705418027664,
+        "updated": 1705418123946,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024qplxym",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024qplxym.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "024qplxym",
+        "ids": ",ak024qplxym,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km W of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.0333,
+          57.5904,
+          59.6
+        ]
+      },
+      "id": "ak024qplxym"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 4.4,
         "place": "47 km SE of Pedasí, Panama",
         "time": 1705401322293,
-        "updated": 1705404945017,
+        "updated": 1705416893755,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3yi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3yi.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 299,
         "net": "us",
         "code": "6000m3yi",
         "ids": ",us6000m3yi,",
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "pr2024015000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "70 km SW of La Gomera, Guatemala",
-        "time": 1705329225679,
-        "updated": 1705333476206,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3sj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3sj.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000m3sj",
-        "ids": ",us6000m3sj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 1.323,
-        "rms": 0.6,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 70 km SW of La Gomera, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.4408,
-          13.5713,
-          31.584
-        ]
-      },
-      "id": "us6000m3sj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99,
-        "place": "51 km N of Brenas, Puerto Rico",
-        "time": 1705328792960,
-        "updated": 1705330600110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71436938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71436938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "pr",
-        "code": "71436938",
-        "ids": ",pr71436938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.692,
-        "rms": 0.16,
-        "gap": 263,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 51 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4213333333333,
-          18.9258333333333,
-          20.27
-        ]
-      },
-      "id": "pr71436938"
     }
   ],
   "bbox": [
