@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705432296000,
+    "generated": 1705436196000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 3.41,
         "place": "5 km ESE of Interlaken, CA",
         "time": 1705430317800,
-        "updated": 1705432195060,
+        "updated": 1705435950079,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73990216",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73990216.geojson",
-        "felt": 182,
-        "cdi": 3.8,
+        "felt": 221,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 252,
         "net": "nc",
         "code": "73990216",
         "ids": ",nc73990216,us6000m42k,",
@@ -335,7 +335,7 @@
         "mag": 5,
         "place": "16 km WSW of Anamizu, Japan",
         "time": 1705398136207,
-        "updated": 1705398863040,
+        "updated": 1705435396040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3wx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3wx.geojson",
@@ -350,7 +350,7 @@
         "code": "6000m3wx",
         "ids": ",us6000m3wx,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 44,
         "dmin": 1.352,
         "rms": 1.02,
@@ -415,7 +415,7 @@
         "mag": 3.7,
         "place": "60 km NE of Teller, Alaska",
         "time": 1705393700038,
-        "updated": 1705423713833,
+        "updated": 1705434729040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024qlj9j8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024qlj9j8.geojson",
@@ -430,7 +430,7 @@
         "code": "024qlj9j8",
         "ids": ",ak024qlj9j8,us6000m3wk,",
         "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.87,
@@ -655,7 +655,7 @@
         "mag": 5,
         "place": "11 km NNE of Leonídio, Greece",
         "time": 1705382453595,
-        "updated": 1705430740702,
+        "updated": 1705435245040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m3vk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m3vk.geojson",
@@ -670,7 +670,7 @@
         "code": "6000m3vk",
         "ids": ",us6000m3vk,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 70,
         "dmin": 0.782,
         "rms": 0.98,
@@ -1008,46 +1008,6 @@
         ]
       },
       "id": "us6000m3u4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "32 km SSW of Mina, Nevada",
-        "time": 1705349498124,
-        "updated": 1705431400731,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00871734",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00871734.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00871734",
-        "ids": ",nn00871734,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.226,
-        "rms": 0.1547,
-        "gap": 44.42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 32 km SSW of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2543,
-          38.1206,
-          8.1
-        ]
-      },
-      "id": "nn00871734"
     }
   ],
   "bbox": [
