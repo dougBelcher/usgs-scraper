@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705522537000,
+    "generated": 1705525957000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "11 km SE of La Parguera, Puerto Rico",
+        "time": 1705524189370,
+        "updated": 1705524918070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71437133",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71437133.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71437133",
+        "ids": ",pr71437133,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.09785,
+        "rms": 0.09,
+        "gap": 246,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km SE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9795,
+          17.893,
+          12.79
+        ]
+      },
+      "id": "pr71437133"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -372,10 +412,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.63000011,
+        "mag": 2.46,
         "place": "2 km S of Pāhala, Hawaii",
-        "time": 1705486661840,
-        "updated": 1705487156040,
+        "time": 1705486661790,
+        "updated": 1705525354660,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73720002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73720002.geojson",
@@ -383,28 +423,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 93,
         "net": "hv",
         "code": "73720002",
         "ids": ",us6000m45r,hv73720002,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 43,
+        "nst": 47,
         "dmin": null,
-        "rms": 0.100000001,
-        "gap": 74,
-        "magType": "md",
+        "rms": 0.11,
+        "gap": 146,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 2 km S of Pāhala, Hawaii"
+        "title": "M 2.5 - 2 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.481002807617,
-          19.181999206543,
-          33.7299995422363
+          -155.481166666667,
+          19.1765,
+          33.92
         ]
       },
       "id": "hv73720002"
@@ -1288,54 +1328,14 @@
         ]
       },
       "id": "uw61980156"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "61 km ENE of Teller, Alaska",
-        "time": 1705438907217,
-        "updated": 1705446988040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m43f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000m43f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000m43f",
-        "ids": ",us6000m43f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.002,
-        "rms": 0.77,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 61 km ENE of Teller, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.2543,
-          65.5608,
-          16.271
-        ]
-      },
-      "id": "us6000m43f"
     }
   ],
   "bbox": [
-    -165.2543,
+    -155.49583333333,
     -8.6065,
     -0.21,
     179.6016,
-    65.5608,
+    63.532,
     186.796
   ]
 }
