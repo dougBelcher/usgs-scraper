@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705544932000,
+    "generated": 1705547737000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "10 km NE of Ocotillo Wells, CA",
+        "time": 1705545793060,
+        "updated": 1705546682040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40461943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40461943.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "ci",
+        "code": "40461943",
+        "ids": ",ci40461943,us6000m4bx,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 90,
+        "dmin": 0.06913,
+        "rms": 0.17,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 10 km NE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0506667,
+          33.2058333,
+          9.65
+        ]
+      },
+      "id": "ci40461943"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -935,7 +975,7 @@
         "mag": 2.62,
         "place": "32 km WSW of Hayfork, CA",
         "time": 1705482983180,
-        "updated": 1705536851465,
+        "updated": 1705546272340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73990541",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73990541.geojson",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "pr71437018"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "9 km SW of Guánica, Puerto Rico",
-        "time": 1705460862000,
-        "updated": 1705538145276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024017000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024017000.geojson",
-        "felt": 139,
-        "cdi": 4.7,
-        "mmi": 4.759,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 363,
-        "net": "pr",
-        "code": "2024017000",
-        "ids": ",pt24017050,us6000m44d,pr2024017000,",
-        "sources": ",pt,us,pr,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 20,
-        "dmin": 0.0962,
-        "rms": 0.12,
-        "gap": 213,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.4 - 9 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9686,
-          17.91,
-          10
-        ]
-      },
-      "id": "pr2024017000"
     }
   ],
   "bbox": [
