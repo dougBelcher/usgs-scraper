@@ -1,26 +1,146 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1705835521000,
+    "generated": 1705840009000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "23 km ESE of Alamo, Nevada",
+        "time": 1705838819167,
+        "updated": 1705839084474,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00872033",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00872033.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nn",
+        "code": "00872033",
+        "ids": ",nn00872033,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.779,
+        "rms": 0.3838,
+        "gap": 162.89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 23 km ESE of Alamo, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9269,
+          37.2621,
+          16
+        ]
+      },
+      "id": "nn00872033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "54 km SSE of Cantwell, Alaska",
+        "time": 1705836174404,
+        "updated": 1705836704040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ywyvyh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ywyvyh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "024ywyvyh",
+        "ids": ",us6000m58h,ak024ywyvyh,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 54 km SSE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.5472,
+          62.9343,
+          60.8
+        ]
+      },
+      "id": "ak024ywyvyh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.68,
+        "place": "84 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1705834752310,
+        "updated": 1705838568757,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024021001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024021001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 208,
+        "net": "pr",
+        "code": "2024021001",
+        "ids": ",pr2024021001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.7483,
+        "rms": 0.41,
+        "gap": 284,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 84 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0065,
+          19.1003,
+          38
+        ]
+      },
+      "id": "pr2024021001"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.33,
         "place": "6 km SSW of Tallaboa, Puerto Rico",
         "time": 1705831719710,
-        "updated": 1705834862570,
+        "updated": 1705836212752,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71437398",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71437398.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +150,7 @@
         "code": "71437398",
         "ids": ",pr71437398,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.134,
         "rms": 0.15,
