@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1706170759000,
+    "generated": 1706174120000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 53
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.50999999,
+        "place": "7 km S of Leilani Estates, Hawaii",
+        "time": 1706173806860,
+        "updated": 1706173997030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv73726622",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv73726622.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "hv",
+        "code": "73726622",
+        "ids": ",hv73726622,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": null,
+        "rms": 0.25999999,
+        "gap": 201,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km S of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.914505004883,
+          19.3990001678467,
+          6.59999990463257
+        ]
+      },
+      "id": "hv73726622"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 4.6,
         "place": "northern East Pacific Rise",
         "time": 1706165216329,
-        "updated": 1706168415040,
+        "updated": 1706171911062,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltne",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltne.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "7000ltne",
         "ids": ",us7000ltne,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 14.206,
         "rms": 0.69,
@@ -215,11 +255,11 @@
         "mag": 4.24,
         "place": "3 km SW of San Bernardino, CA",
         "time": 1706154199980,
-        "updated": 1706170609268,
+        "updated": 1706173807078,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39756418",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39756418.geojson",
-        "felt": 15282,
+        "felt": 15335,
         "cdi": 4.2,
         "mmi": 4.443,
         "alert": "green",
@@ -1572,6 +1612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "17 km SE of Dannevirke, New Zealand",
+        "time": 1706106611596,
+        "updated": 1706173524444,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltgw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltgw.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ltgw",
+        "ids": ",us7000ltgw,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.38,
+        "rms": 0.82,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 17 km SE of Dannevirke, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.269,
+          -40.2998,
+          10
+        ]
+      },
+      "id": "us7000ltgw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "26 km ESE of Dannevirke, New Zealand",
         "time": 1706105917227,
@@ -2088,46 +2168,6 @@
         ]
       },
       "id": "us7000ltfs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "78 km ENE of Loreto, Mexico",
-        "time": 1706086921395,
-        "updated": 1706090603040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ltfm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ltfm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000ltfm",
-        "ids": ",us7000ltfm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.876,
-        "rms": 0.68,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 78 km ENE of Loreto, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.5862,
-          26.1618,
-          10
-        ]
-      },
-      "id": "us7000ltfm"
     }
   ],
   "bbox": [
