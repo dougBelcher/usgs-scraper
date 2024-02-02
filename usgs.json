@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1706890566000,
+    "generated": 1706894050000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 114
+    "count": 107
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "3 km E of Aras-asan, Philippines",
+        "time": 1706891927275,
+        "updated": 1706892869040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lwgc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lwgc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000lwgc",
+        "ids": ",us7000lwgc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.963,
+        "rms": 0.79,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 3 km E of Aras-asan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.3424,
+          8.8935,
+          81.694
+        ]
+      },
+      "id": "us7000lwgc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "11 km ENE of Pāhala, Hawaii",
+        "time": 1706891147770,
+        "updated": 1706891431530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74089066",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74089066.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "74089066",
+        "ids": ",hv74089066,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.09095,
+        "rms": 0.230000004,
+        "gap": 150,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.376998901367,
+          19.2329998016357,
+          -0.0799999982118607
+        ]
+      },
+      "id": "hv74089066"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "66 km WSW of Elfin Cove, Alaska",
         "time": 1706889832566,
-        "updated": 1706889970251,
+        "updated": 1706891908040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241iua56g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241iua56g.geojson",
@@ -28,8 +108,8 @@
         "sig": 129,
         "net": "ak",
         "code": "0241iua56g",
-        "ids": ",ak0241iua56g,",
-        "sources": ",ak,",
+        "ids": ",us7000lwg4,ak0241iua56g,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,12 +135,12 @@
         "mag": 2.5,
         "place": "8 km NNW of Barstow, Texas",
         "time": 1706889561201,
-        "updated": 1706890262312,
+        "updated": 1706893246537,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024chrt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024chrt.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +150,7 @@
         "code": "2024chrt",
         "ids": ",tx2024chrt,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.1,
         "rms": 0.2,
@@ -95,7 +175,7 @@
         "mag": 2.49,
         "place": "14 km E of Pāhala, Hawaii",
         "time": 1706889390400,
-        "updated": 1706889703371,
+        "updated": 1706891713040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74088956",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74088956.geojson",
@@ -108,8 +188,8 @@
         "sig": 96,
         "net": "hv",
         "code": "74088956",
-        "ids": ",hv74088956,",
-        "sources": ",hv,",
+        "ids": ",hv74088956,us7000lwfc,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": 0.1145,
@@ -172,39 +252,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "94 km W of Petrolia, CA",
-        "time": 1706886539870,
-        "updated": 1706890469811,
+        "mag": 4.92,
+        "place": "98 km W of Petrolia, CA",
+        "time": 1706886540160,
+        "updated": 1706893871611,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73997816",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73997816.geojson",
-        "felt": 158,
-        "cdi": 3.8,
-        "mmi": 3.439,
+        "felt": 202,
+        "cdi": 3.4,
+        "mmi": 3.446,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 429,
+        "sig": 441,
         "net": "nc",
         "code": "73997816",
         "ids": ",ew1706886550,nc73997816,at00s88i2z,us7000lwdr,",
         "sources": ",ew,nc,at,us,",
-        "types": ",dyfi,impact-link,losspager,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 200,
-        "dmin": 0.8028,
-        "rms": 0.45,
-        "gap": 246,
+        "types": ",dyfi,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 145,
+        "dmin": 0.8485,
+        "rms": 0.29,
+        "gap": 243,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.9 - 94 km W of Petrolia, CA"
+        "title": "M 4.9 - 98 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.3860016,
-          40.411499,
-          2.33
+          -125.4448333,
+          40.3893333,
+          10
         ]
       },
       "id": "nc73997816"
@@ -415,12 +495,12 @@
         "mag": 2.69,
         "place": "31 km W of Petrolia, CA",
         "time": 1706879471790,
-        "updated": 1706886912927,
+        "updated": 1706892210320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73997781",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73997781.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -430,7 +510,7 @@
         "code": "73997781",
         "ids": ",nc73997781,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
         "dmin": 0.2293,
         "rms": 0.04,
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "hv74087006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "37 km NNW of Toyah, Texas",
-        "time": 1706852693264,
-        "updated": 1706854046678,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024cgxm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024cgxm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024cgxm",
-        "ids": ",tx2024cgxm,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 37 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.995,
-          31.61,
-          8.4967
-        ]
-      },
-      "id": "tx2024cgxm"
     },
     {
       "type": "Feature",
@@ -4248,326 +4288,6 @@
         ]
       },
       "id": "hv74085011"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "12 km SW of Volcano, Hawaii",
-        "time": 1706807049440,
-        "updated": 1706807327400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084956",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084956.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "hv",
-        "code": "74084956",
-        "ids": ",hv74084956,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.03672,
-        "rms": 0.319999993,
-        "gap": 95,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 12 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.310333251953,
-          19.3565006256104,
-          -1.03999996185303
-        ]
-      },
-      "id": "hv74084956"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "14 km SW of Volcano, Hawaii",
-        "time": 1706806904431,
-        "updated": 1706883590040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lvyr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lvyr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000lvyr",
-        "ids": ",us7000lvyr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.018,
-        "rms": 0.2,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.3201,
-          19.3387,
-          6.999
-        ]
-      },
-      "id": "us7000lvyr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "3 km SE of Pájaros, Puerto Rico",
-        "time": 1706804962090,
-        "updated": 1706833939363,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71438768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71438768.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "71438768",
-        "ids": ",pr71438768,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1084,
-        "rms": 0.42,
-        "gap": 186,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km SE of Pájaros, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1916666666667,
-          18.3441666666667,
-          19.07
-        ]
-      },
-      "id": "pr71438768"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "14 km SW of Volcano, Hawaii",
-        "time": 1706804942220,
-        "updated": 1706805221470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "74084871",
-        "ids": ",hv74084871,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.02254,
-        "rms": 0.340000004,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.324340820312,
-          19.3408336639404,
-          2.80999994277954
-        ]
-      },
-      "id": "hv74084871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "15 km SW of Volcano, Hawaii",
-        "time": 1706804555660,
-        "updated": 1706804835000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084851",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084851.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "hv",
-        "code": "74084851",
-        "ids": ",hv74084851,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.02535,
-        "rms": 0.219999999,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 15 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.327667236328,
-          19.3393325805664,
-          2.13000011444092
-        ]
-      },
-      "id": "hv74084851"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "14 km SW of Volcano, Hawaii",
-        "time": 1706804399240,
-        "updated": 1706805651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084846.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "hv",
-        "code": "74084846",
-        "ids": ",us7000lvya,hv74084846,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.02236,
-        "rms": 0.239999995,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 14 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.324340820312,
-          19.3400001525879,
-          2.89000010490417
-        ]
-      },
-      "id": "hv74084846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "9 km SSW of Volcano, Hawaii",
-        "time": 1706804247610,
-        "updated": 1706804527150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084836",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084836.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "hv",
-        "code": "74084836",
-        "ids": ",hv74084836,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.0162,
-        "rms": 0.310000002,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 9 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.280502319336,
-          19.3696670532227,
-          -0.430000007152557
-        ]
-      },
-      "id": "hv74084836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8599999,
-        "place": "14 km SW of Volcano, Hawaii",
-        "time": 1706804199120,
-        "updated": 1706804299470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74084831",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74084831.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "hv",
-        "code": "74084831",
-        "ids": ",hv74084831,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.02096,
-        "rms": 0.319999993,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 14 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.322326660156,
-          19.341833114624,
-          1.12999999523163
-        ]
-      },
-      "id": "hv74084831"
     }
   ],
   "bbox": [
