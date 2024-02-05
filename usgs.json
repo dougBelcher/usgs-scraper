@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707138934000,
+    "generated": 1707142364000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Reykjanes Ridge",
+        "time": 1707141194718,
+        "updated": 1707142258040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lx2q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lx2q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000lx2q",
+        "ids": ",us7000lx2q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 100,
+        "dmin": 7.823,
+        "rms": 0.56,
+        "gap": 51,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1639,
+          55.5022,
+          10
+        ]
+      },
+      "id": "us7000lx2q"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,12 +295,12 @@
         "mag": 3.71,
         "place": "24 km SSW of Puebla, B.C., MX",
         "time": 1707123379500,
-        "updated": 1707127101715,
+        "updated": 1707139111701,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663112",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663112.geojson",
-        "felt": 28,
-        "cdi": 3,
+        "felt": 29,
+        "cdi": 2.9,
         "mmi": 3.819,
         "alert": null,
         "status": "reviewed",
@@ -1208,86 +1248,6 @@
         ]
       },
       "id": "hv74094636"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71000004,
-        "place": "7 km SW of Pāhala, Hawaii",
-        "time": 1707055550030,
-        "updated": 1707055647730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74094621",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74094621.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "hv",
-        "code": "74094621",
-        "ids": ",hv74094621,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.0644,
-        "rms": 0.0799999982,
-        "gap": 178,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.529998779297,
-          19.1608333587646,
-          29.3199996948242
-        ]
-      },
-      "id": "hv74094621"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.92,
-        "place": "31 km NNW of Volcano, Hawaii",
-        "time": 1707053679390,
-        "updated": 1707061265040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74094571",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74094571.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "hv",
-        "code": "74094571",
-        "ids": ",us7000lwxg,hv74094571,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.1078,
-        "rms": 0.25,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 31 km NNW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.400665283203,
-          19.6809997558594,
-          9.47999954223633
-        ]
-      },
-      "id": "hv74094571"
     }
   ],
   "bbox": [
