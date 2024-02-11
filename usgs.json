@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707649846000,
+    "generated": 1707654228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "19 km WSW of Volcano, Hawaii",
+        "time": 1707650263930,
+        "updated": 1707650543840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74106631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74106631.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74106631",
+        "ids": ",hv74106631,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.04864,
+        "rms": 0.230000004,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 19 km WSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.418670654297,
+          19.4044990539551,
+          2.48000001907349
+        ]
+      },
+      "id": "hv74106631"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +375,12 @@
         "mag": 2.8,
         "place": "26 km NNE of Chickaloon, Alaska",
         "time": 1707626346762,
-        "updated": 1707631663040,
+        "updated": 1707652254501,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0241xj6om8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241xj6om8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -348,9 +388,9 @@
         "sig": 121,
         "net": "ak",
         "code": "0241xj6om8",
-        "ids": ",us7000lyee,ak0241xj6om8,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0241xj6om8,us7000lyee,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.85,
@@ -1495,13 +1535,13 @@
         "mag": 4.4,
         "place": "99 km W of Nikolski, Alaska",
         "time": 1707575722029,
-        "updated": 1707596133088,
+        "updated": 1707596320458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lyax",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lyax.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.667,
+        "mmi": 2.77,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "nc74000551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "57 km E of Loreto, Mexico",
-        "time": 1707567471407,
-        "updated": 1707568708040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lya8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lya8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000lya8",
-        "ids": ",us7000lya8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.866,
-        "rms": 0.79,
-        "gap": 238,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 57 km E of Loreto, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.7779,
-          25.9849,
-          10
-        ]
-      },
-      "id": "us7000lya8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "12 km ESE of Pāhala, Hawaii",
-        "time": 1707565431130,
-        "updated": 1707567139040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74104846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74104846.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "74104846",
-        "ids": ",us7000lya3,hv74104846,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.0964,
-        "rms": 0.129999995,
-        "gap": 175,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 12 km ESE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.361663818359,
-          19.1721668243408,
-          28.8400001525879
-        ]
-      },
-      "id": "hv74104846"
     }
   ],
   "bbox": [
