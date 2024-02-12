@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707699887000,
+    "generated": 1707704447000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.56,
+        "place": "18 km ESE of Naalehu, Hawaii",
+        "time": 1707702194610,
+        "updated": 1707702475880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74107531",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74107531.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "hv",
+        "code": "74107531",
+        "ids": ",hv74107531,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.1339,
+        "rms": 0.170000002,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 18 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.407669067383,
+          19.0311660766602,
+          32.7999992370605
+        ]
+      },
+      "id": "hv74107531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
-        "place": "150 km SW of Nikolski, Alaska",
-        "time": 1707698417673,
-        "updated": 1707699345040,
+        "place": "152 km SW of Nikolski, Alaska",
+        "time": 1707698417540,
+        "updated": 1707700090040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lyip",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lyip.geojson",
@@ -30,21 +70,21 @@
         "code": "7000lyip",
         "ids": ",us7000lyip,ak0241z4cj1a,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 82,
-        "dmin": 0.851,
-        "rms": 0.92,
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 92,
+        "dmin": 0.863,
+        "rms": 0.9,
         "gap": 137,
-        "magType": "mb",
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.8 - 150 km SW of Nikolski, Alaska"
+        "title": "M 4.8 - 152 km SW of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.7228,
-          52.1959,
-          54.064
+          -170.7262,
+          52.1801,
+          60.528
         ]
       },
       "id": "us7000lyip"
@@ -1368,246 +1408,6 @@
         ]
       },
       "id": "us7000lydz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "10 km SSE of Bombay Beach, CA",
-        "time": 1707616158460,
-        "updated": 1707671004101,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665512.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "ci",
-        "code": "40665512",
-        "ids": ",ci40665512,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.1011,
-        "rms": 0.15,
-        "gap": 227,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km SSE of Bombay Beach, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6916667,
-          33.2661667,
-          8.1
-        ]
-      },
-      "id": "ci40665512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "11 km WNW of Calipatria, CA",
-        "time": 1707616141080,
-        "updated": 1707674173873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci37623324",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37623324.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "ci",
-        "code": "37623324",
-        "ids": ",ci37623324,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.004502,
-        "rms": 0.17,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km WNW of Calipatria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6195,
-          33.1743333,
-          4.21
-        ]
-      },
-      "id": "ci37623324"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Alamagan region, Northern Mariana Islands",
-        "time": 1707614368279,
-        "updated": 1707620830040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lydr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lydr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000lydr",
-        "ids": ",us7000lydr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.759,
-        "rms": 0.44,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Alamagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3609,
-          17.9844,
-          295.561
-        ]
-      },
-      "id": "us7000lydr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "13 km S of Arroyo, Puerto Rico",
-        "time": 1707614262980,
-        "updated": 1707616236710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71439518",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71439518.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71439518",
-        "ids": ",pr71439518,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1214,
-        "rms": 0.08,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km S of Arroyo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.0755,
-          17.8471666666667,
-          13.53
-        ]
-      },
-      "id": "pr71439518"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "4 km NE of Westmorland, CA",
-        "time": 1707613864580,
-        "updated": 1707670786280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665480",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665480.geojson",
-        "felt": 4,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 131,
-        "net": "ci",
-        "code": "40665480",
-        "ids": ",ci40665480,us7000lyde,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.02337,
-        "rms": 0.25,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km NE of Westmorland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5833333,
-          33.0616667,
-          10.23
-        ]
-      },
-      "id": "ci40665480"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "4 km NE of Westmorland, CA",
-        "time": 1707613820470,
-        "updated": 1707670786688,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665472.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 125,
-        "net": "ci",
-        "code": "40665472",
-        "ids": ",ci40665472,us7000lydd,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 52,
-        "dmin": 0.02168,
-        "rms": 0.25,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km NE of Westmorland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5815,
-          33.06,
-          11.11
-        ]
-      },
-      "id": "ci40665472"
     }
   ],
   "bbox": [
