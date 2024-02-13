@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707786263000,
+    "generated": 1707790736000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 72
+    "count": 68
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "27 km NE of Martapura, Indonesia",
+        "time": 1707787340067,
+        "updated": 1707789706732,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lyu5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lyu5.geojson",
+        "felt": 1,
+        "cdi": 2.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "7000lyu5",
+        "ids": ",us7000lyu5,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.817,
+        "rms": 0.93,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 27 km NE of Martapura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051,
+          -3.2437,
+          10
+        ]
+      },
+      "id": "us7000lyu5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,32 +132,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.71,
+        "mag": 3.52,
         "place": "4 km E of Round Valley, CA",
         "time": 1707782083500,
-        "updated": 1707786196618,
+        "updated": 1707790278631,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74001951",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74001951.geojson",
-        "felt": 76,
+        "felt": 78,
         "cdi": 3.2,
-        "mmi": 4.037,
+        "mmi": 3.881,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 236,
+        "sig": 216,
         "net": "nc",
         "code": "74001951",
-        "ids": ",nc74001951,us7000lytr,nn00873332,",
-        "sources": ",nc,us,nn,",
+        "ids": ",nc74001951,nn00873332,us7000lytr,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 34,
         "dmin": 0.05526,
         "rms": 0.06,
         "gap": 52,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.7 - 4 km E of Round Valley, CA"
+        "title": "M 3.5 - 4 km E of Round Valley, CA"
       },
       "geometry": {
         "type": "Point",
@@ -128,46 +168,6 @@
         ]
       },
       "id": "nc74001951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8900001,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1707780632970,
-        "updated": 1707780737690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74109151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74109151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "74109151",
-        "ids": ",hv74109151,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.02386,
-        "rms": 0.150000006,
-        "gap": 175,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 5 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.487167358398,
-          19.158332824707,
-          33.3800010681152
-        ]
-      },
-      "id": "hv74109151"
     },
     {
       "type": "Feature",
@@ -621,7 +621,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0241zd2i03.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.722,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -630,7 +630,7 @@
         "code": "0241zd2i03",
         "ids": ",us7000lypd,ak0241zd2i03,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.57,
@@ -741,7 +741,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74108621.geojson",
         "felt": 19,
         "cdi": 2.7,
-        "mmi": 4.68,
+        "mmi": 4,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -750,7 +750,7 @@
         "code": "74108621",
         "ids": ",us7000lypa,hv74108621,",
         "sources": ",us,hv,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,",
         "nst": 43,
         "dmin": 0.03123,
         "rms": 0.11,
@@ -932,60 +932,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57,
-        "place": "14 km SE of Eden Roc, Hawaii",
-        "time": 1707747654500,
-        "updated": 1707747934810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74108586",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74108586.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "74108586",
-        "ids": ",hv74108586,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.05177,
-        "rms": 0.360000014,
-        "gap": 140,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km SE of Eden Roc, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.024002075195,
-          19.3834991455078,
-          1.28999996185303
-        ]
-      },
-      "id": "hv74108586"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.48,
         "place": "1 km SE of El Centro, CA",
         "time": 1707747321720,
-        "updated": 1707781919850,
+        "updated": 1707789831462,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667752",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40667752.geojson",
-        "felt": 19,
+        "felt": 21,
         "cdi": 5.7,
         "mmi": 3.578,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 197,
+        "sig": 198,
         "net": "ci",
         "code": "40667752",
         "ids": ",ci40667752,us7000lyng,",
@@ -1132,42 +1092,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "11 km ENE of Pāhala, Hawaii",
-        "time": 1707743106580,
-        "updated": 1707751410040,
+        "mag": 2.65,
+        "place": "12 km ENE of Pāhala, Hawaii",
+        "time": 1707743105740,
+        "updated": 1707786311920,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lymy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lymy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74108501",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74108501.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000lymy",
-        "ids": ",us7000lymy,",
-        "sources": ",us,",
+        "sig": 108,
+        "net": "hv",
+        "code": "74108501",
+        "ids": ",us7000lymy,hv74108501,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.082,
-        "rms": 0.34,
-        "gap": 144,
-        "magType": "ml",
+        "nst": 50,
+        "dmin": 0.02455,
+        "rms": 0.2,
+        "gap": 149,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 11 km ENE of Pāhala, Hawaii"
+        "title": "M 2.7 - 12 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.3773,
-          19.2478,
-          10.091
+          -155.371833333333,
+          19.2413333333333,
+          -0.49
         ]
       },
-      "id": "us7000lymy"
+      "id": "hv74108501"
     },
     {
       "type": "Feature",
@@ -1615,11 +1575,11 @@
         "mag": 3.9,
         "place": "1 km NNW of El Centro, CA",
         "time": 1707728391690,
-        "updated": 1707766720435,
+        "updated": 1707772433092,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666488",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666488.geojson",
-        "felt": 152,
+        "felt": 153,
         "cdi": 5.9,
         "mmi": 4.047,
         "alert": null,
@@ -1812,46 +1772,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.56,
-        "place": "2 km NNW of El Centro, CA",
-        "time": 1707727368620,
-        "updated": 1707782724558,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666368",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666368.geojson",
-        "felt": 403,
-        "cdi": 6,
-        "mmi": 4.561,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 562,
-        "net": "ci",
-        "code": "40666368",
-        "ids": ",ci40666368,us7000lykq,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 69,
-        "dmin": 0.0541,
-        "rms": 0.3,
-        "gap": 39,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 4.6 - 2 km NNW of El Centro, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5655,
-          32.7998333,
-          15.76
-        ]
-      },
-      "id": "ci40666368"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.93,
         "place": "3 km SSW of Imperial, CA",
         "time": 1707727294470,
@@ -2015,17 +1935,17 @@
         "mag": 4.05,
         "place": "4 km SSW of Imperial, CA",
         "time": 1707727114290,
-        "updated": 1707758826354,
+        "updated": 1707789605876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666320",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666320.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 5.3,
         "mmi": 4.352,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 253,
+        "sig": 254,
         "net": "ci",
         "code": "40666320",
         "ids": ",ci40666320,us7000lyki,",
@@ -2175,11 +2095,11 @@
         "mag": 4.81,
         "place": "3 km NNW of El Centro, CA",
         "time": 1707726985460,
-        "updated": 1707786000155,
+        "updated": 1707788359488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666288",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40666288.geojson",
-        "felt": 1989,
+        "felt": 1995,
         "cdi": 5.7,
         "mmi": 5.08,
         "alert": "green",
@@ -2412,10 +2332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.88,
+        "mag": 2.48,
         "place": "15 km ENE of Pāhala, Hawaii",
-        "time": 1707716462030,
-        "updated": 1707759187040,
+        "time": 1707716461840,
+        "updated": 1707788068600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74107906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74107906.geojson",
@@ -2423,28 +2343,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 128,
+        "sig": 95,
         "net": "hv",
         "code": "74107906",
         "ids": ",us7000lyjs,hv74107906,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.05463,
-        "rms": 0.239999995,
-        "gap": 149,
-        "magType": "ml",
+        "nst": 51,
+        "dmin": 0.05431,
+        "rms": 0.17,
+        "gap": 155,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 15 km ENE of Pāhala, Hawaii"
+        "title": "M 2.5 - 15 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.343338012695,
-          19.2531661987305,
-          -0.280000001192093
+          -155.340666666667,
+          19.2516666666667,
+          -0.48
         ]
       },
       "id": "hv74107906"
@@ -2612,10 +2532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.19,
-        "place": "27 km W of Kailua-Kona, Hawaii",
-        "time": 1707710224620,
-        "updated": 1707711533074,
+        "mag": 3.11,
+        "place": "25 km W of Kailua-Kona, Hawaii",
+        "time": 1707710224460,
+        "updated": 1707790230156,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74107706",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74107706.geojson",
@@ -2623,28 +2543,28 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 157,
+        "sig": 149,
         "net": "hv",
         "code": "74107706",
         "ids": ",hv74107706,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.231,
-        "rms": 0.330000013,
-        "gap": 194,
+        "nst": 54,
+        "dmin": 0.2133,
+        "rms": 0.14,
+        "gap": 220,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 27 km W of Kailua-Kona, Hawaii"
+        "title": "M 3.1 - 25 km W of Kailua-Kona, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.261672973633,
-          19.6398334503174,
-          10.2299995422363
+          -156.243,
+          19.6416666666667,
+          46.08
         ]
       },
       "id": "hv74107706"
@@ -2808,92 +2728,12 @@
         ]
       },
       "id": "pr71439608"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "66 km E of Union, Philippines",
-        "time": 1707703387237,
-        "updated": 1707746334040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lyiz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lyiz.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": 3.967,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000lyiz",
-        "ids": ",us7000lyiz,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 61,
-        "dmin": 2.902,
-        "rms": 0.89,
-        "gap": 103,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 66 km E of Union, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.712,
-          9.7634,
-          35
-        ]
-      },
-      "id": "us7000lyiz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "18 km ESE of Naalehu, Hawaii",
-        "time": 1707702194610,
-        "updated": 1707702475880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74107531",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74107531.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "hv",
-        "code": "74107531",
-        "ids": ",hv74107531,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.1339,
-        "rms": 0.170000002,
-        "gap": 209,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.407669067383,
-          19.0311660766602,
-          32.7999992370605
-        ]
-      },
-      "id": "hv74107531"
     }
   ],
   "bbox": [
     -178.77366666667,
     -38.9138,
-    -0.28000000119209,
+    -0.49,
     173.7522,
     75.1575,
     249.85
