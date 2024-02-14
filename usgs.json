@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1707923644000,
+    "generated": 1707927480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.34,
+        "place": "78 km N of Suárez, Puerto Rico",
+        "time": 1707923237780,
+        "updated": 1707925012830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71439883",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71439883.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71439883",
+        "ids": ",pr71439883,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.8852,
+        "rms": 0.15,
+        "gap": 278,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 78 km N of Suárez, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.723,
+          19.13,
+          37.54
+        ]
+      },
+      "id": "pr71439883"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -292,68 +332,28 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "9 km W of Calipatria, CA",
-        "time": 1707897323990,
-        "updated": 1707898223495,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669632.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ci",
-        "code": "40669632",
-        "ids": ",ci40669632,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.03078,
-        "rms": 0.21,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km W of Calipatria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6135,
-          33.134,
-          8.27
-        ]
-      },
-      "id": "ci40669632"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.05,
         "place": "10 km N of Westmorland, CA",
-        "time": 1707897193530,
-        "updated": 1707923261750,
+        "time": 1707897193600,
+        "updated": 1707926386009,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669624",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669624.geojson",
-        "felt": 48,
+        "felt": 50,
         "cdi": 4.4,
         "mmi": 4.336,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 273,
+        "sig": 274,
         "net": "ci",
         "code": "40669624",
         "ids": ",ew1707897190,ci40669624,at00s8u5wo,us7000lz47,",
         "sources": ",ew,ci,at,us,",
         "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 106,
-        "dmin": 0.03604,
-        "rms": 0.27,
+        "nst": 74,
+        "dmin": 0.03654,
+        "rms": 0.26,
         "gap": 41,
         "magType": "mw",
         "type": "earthquake",
@@ -362,9 +362,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6228333,
-          33.1251678,
-          10.92
+          -115.623,
+          33.1276667,
+          9.84
         ]
       },
       "id": "ci40669624"
@@ -452,20 +452,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.69,
+        "place": "8 km NNW of Challis, Idaho",
+        "time": 1707894598190,
+        "updated": 1707924388273,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90040708",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90040708.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "mb",
+        "code": "90040708",
+        "ids": ",mb90040708,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.6206,
+        "rms": 0.28,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km NNW of Challis, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.275666666667,
+          44.5725,
+          7.23
+        ]
+      },
+      "id": "mb90040708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "11 km NNW of Virginia City, Nevada",
         "time": 1707894390000,
-        "updated": 1707923531472,
+        "updated": 1707927120410,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00873424",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00873424.geojson",
-        "felt": 365,
+        "felt": 373,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 288,
+        "sig": 291,
         "net": "nn",
         "code": "00873424",
         "ids": ",nn00873424,",
@@ -1568,46 +1608,6 @@
         ]
       },
       "id": "pr71439793"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "11 km NNW of Virginia City, Nevada",
-        "time": 1707838018780,
-        "updated": 1707903516708,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00873356",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00873356.geojson",
-        "felt": 86,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00873356",
-        "ids": ",nn00873356,us7000lyx5,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.038,
-        "rms": 0.1302,
-        "gap": 39.83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km NNW of Virginia City, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7161,
-          39.396,
-          6.7
-        ]
-      },
-      "id": "nn00873356"
     }
   ],
   "bbox": [
