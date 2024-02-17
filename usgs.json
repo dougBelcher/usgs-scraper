@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708168234000,
+    "generated": 1708172675000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "48 km ENE of Noda, Japan",
+        "time": 1708170449387,
+        "updated": 1708172132040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzuz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzuz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000lzuz",
+        "ids": ",us7000lzuz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 94,
+        "dmin": 1.151,
+        "rms": 0.48,
+        "gap": 143,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 48 km ENE of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3681,
+          40.2091,
+          42.672
+        ]
+      },
+      "id": "us7000lzuz"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 3.7,
         "place": "39 km W of Mentone, Texas",
         "time": 1708161124127,
-        "updated": 1708163736872,
+        "updated": 1708168757017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024diox",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024diox.geojson",
@@ -615,12 +655,12 @@
         "mag": 3.65,
         "place": "17 km NW of Rincón, Puerto Rico",
         "time": 1708139720020,
-        "updated": 1708147094574,
+        "updated": 1708170611097,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024048000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024048000.geojson",
-        "felt": 10,
-        "cdi": 3.9,
+        "felt": 12,
+        "cdi": 3.2,
         "mmi": 2.36,
         "alert": null,
         "status": "reviewed",
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "us7000lzlb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "3 km SE of Jauca, Puerto Rico",
-        "time": 1708085544600,
-        "updated": 1708086646340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71440188",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71440188.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "pr",
-        "code": "71440188",
-        "ids": ",pr71440188,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1252,
-        "rms": 0.21,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km SE of Jauca, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3366666666667,
-          17.9495,
-          14.91
-        ]
-      },
-      "id": "pr71440188"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "2 km SE of Jauca, Puerto Rico",
-        "time": 1708081991880,
-        "updated": 1708113039338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71440178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71440178.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71440178",
-        "ids": ",pr71440178,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1284,
-        "rms": 0.18,
-        "gap": 164,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 2 km SE of Jauca, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.3466666666667,
-          17.95,
-          12.55
-        ]
-      },
-      "id": "pr71440178"
     }
   ],
   "bbox": [
