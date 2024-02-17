@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708136311000,
+    "generated": 1708139708000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Vanuatu region",
+        "time": 1708137759277,
+        "updated": 1708138856040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzt2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzt2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000lzt2",
+        "ids": ",us7000lzt2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 4.827,
+        "rms": 0.91,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Vanuatu region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3931,
+          -19.7039,
+          10
+        ]
+      },
+      "id": "us7000lzt2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "5 km NNW of Skidmore, Texas",
+        "time": 1708134822771,
+        "updated": 1708138032040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzsl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzsl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000lzsl",
+        "ids": ",us7000lzsl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.56,
+        "rms": 0.65,
+        "gap": 250,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km NNW of Skidmore, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7135,
+          28.2999,
+          5
+        ]
+      },
+      "id": "us7000lzsl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.7,
         "place": "46 km SE of Pope-Vannoy Landing, Alaska",
         "time": 1708133518035,
-        "updated": 1708135398639,
+        "updated": 1708138960470,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02427ekuvu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02427ekuvu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 2.697,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +108,9 @@
         "sig": 211,
         "net": "ak",
         "code": "02427ekuvu",
-        "ids": ",us7000lzsi,ak02427ekuvu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",ak02427ekuvu,us7000lzsi,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.71,
@@ -55,7 +135,7 @@
         "mag": 2.53,
         "place": "8 km NW of The Geysers, CA",
         "time": 1708133376030,
-        "updated": 1708134850311,
+        "updated": 1708136832492,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74003811",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74003811.geojson",
@@ -535,11 +615,11 @@
         "mag": 3.54,
         "place": "17 km WSW of Brinnon, Washington",
         "time": 1708101018830,
-        "updated": 1708136021589,
+        "updated": 1708137281643,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61983351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61983351.geojson",
-        "felt": 103,
+        "felt": 104,
         "cdi": 3.6,
         "mmi": 2.341,
         "alert": null,
@@ -1455,11 +1535,11 @@
         "mag": 3.63,
         "place": "3 km ESE of Ontario, CA",
         "time": 1708069120520,
-        "updated": 1708135010411,
+        "updated": 1708139682146,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40671296.geojson",
-        "felt": 2978,
+        "felt": 2983,
         "cdi": 3.8,
         "mmi": 3.693,
         "alert": null,
@@ -1808,53 +1888,13 @@
         ]
       },
       "id": "pr2024047000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "east of the Kuril Islands",
-        "time": 1708049949505,
-        "updated": 1708051460040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lzj2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000lzj2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000lzj2",
-        "ids": ",us7000lzj2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 7.61,
-        "rms": 0.84,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - east of the Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.3923,
-          45.1674,
-          10
-        ]
-      },
-      "id": "us7000lzj2"
     }
   ],
   "bbox": [
     -176.9802,
     -32.7419,
     1.8,
-    168.5447,
+    173.3931,
     63.0617,
     325.526
   ]
