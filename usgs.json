@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1708877832000,
+    "generated": 1708881132000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "42 km NE of Calama, Chile",
+        "time": 1708879820023,
+        "updated": 1708880847040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1ir",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1ir.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000m1ir",
+        "ids": ",us7000m1ir,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.703,
+        "rms": 0.97,
+        "gap": 43,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 42 km NE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6173,
+          -22.1966,
+          112.883
+        ]
+      },
+      "id": "us7000m1ir"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of Panama",
+        "time": 1708876443075,
+        "updated": 1708878177040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1im",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1im.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000m1im",
+        "ids": ",us7000m1im,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 4.609,
+        "rms": 1.08,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.76,
+          4.1551,
+          10
+        ]
+      },
+      "id": "us7000m1im"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.11,
         "place": "14 km NW of Alder Springs, CA",
         "time": 1708876185260,
-        "updated": 1708877772855,
+        "updated": 1708877965040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74007671",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74007671.geojson",
@@ -28,8 +108,8 @@
         "sig": 149,
         "net": "nc",
         "code": "74007671",
-        "ids": ",nc74007671,",
-        "sources": ",nc,",
+        "ids": ",nc74007671,us7000m1il,",
+        "sources": ",nc,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 50,
         "dmin": 0.2255,
@@ -935,11 +1015,11 @@
         "mag": 5.4,
         "place": "135 km SSE of Kyzyl-Suu, Kyrgyzstan",
         "time": 1708834500424,
-        "updated": 1708869883446,
+        "updated": 1708880315350,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m1fq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m1fq.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.4,
         "mmi": 6.652,
         "alert": "green",
