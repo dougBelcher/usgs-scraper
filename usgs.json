@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709097255000,
+    "generated": 1709101116000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.4,
+        "place": "Macquarie Island region",
+        "time": 1709099773324,
+        "updated": 1709101098819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mfkb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mfkb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000mfkb",
+        "ids": ",us6000mfkb,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 40,
+        "dmin": 4.626,
+        "rms": 0.94,
+        "gap": 102,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - Macquarie Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.7448,
+          -59.1109,
+          10
+        ]
+      },
+      "id": "us6000mfkb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "60 km NE of María Elena, Chile",
         "time": 1709095601260,
-        "updated": 1709096452040,
+        "updated": 1709099130336,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mfjw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mfjw.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000mfjw",
         "ids": ",us6000mfjw,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.179,
         "rms": 0.88,
@@ -1255,11 +1295,11 @@
         "mag": 2.66,
         "place": "5 km NNE of Corralitos, CA",
         "time": 1709023000420,
-        "updated": 1709092534954,
+        "updated": 1709098232691,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74008701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74008701.geojson",
-        "felt": 49,
+        "felt": 50,
         "cdi": 3.3,
         "mmi": null,
         "alert": null,
@@ -1408,51 +1448,11 @@
         ]
       },
       "id": "us7000m1t7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1709012585695,
-        "updated": 1709038237918,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024eaoz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024eaoz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024eaoz",
-        "ids": ",us7000m1sx,tx2024eaoz,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.361,
-          31.675,
-          6.0999
-        ]
-      },
-      "id": "tx2024eaoz"
     }
   ],
   "bbox": [
     -166.4249,
-    -28.0359,
+    -59.1109,
     1.1,
     161.8226,
     62.3779,
