@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709382225000,
+    "generated": 1709385252000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1709383114131,
+        "updated": 1709384247040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgb3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgb3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000mgb3",
+        "ids": ",us6000mgb3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 6.388,
+        "rms": 0.68,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.6794,
+          -55.7473,
+          38.404
+        ]
+      },
+      "id": "us6000mgb3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,7 +255,7 @@
         "mag": 2.6,
         "place": "66 km SE of Old Harbor, Alaska",
         "time": 1709374561297,
-        "updated": 1709374974572,
+        "updated": 1709385040040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242upd6vg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242upd6vg.geojson",
@@ -228,8 +268,8 @@
         "sig": 104,
         "net": "ak",
         "code": "0242upd6vg",
-        "ids": ",ak0242upd6vg,",
-        "sources": ",ak,",
+        "ids": ",us6000mgai,ak0242upd6vg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -975,13 +1015,13 @@
         "mag": 2.6,
         "place": "14 km N of Meadow Lakes, Alaska",
         "time": 1709324695429,
-        "updated": 1709337810104,
+        "updated": 1709384970933,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242t7u3o3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242t7u3o3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.167,
+        "mmi": 2.178,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -1568,51 +1608,11 @@
         ]
       },
       "id": "us6000mg2a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.21,
-        "place": "4 km WSW of Fuig, Puerto Rico",
-        "time": 1709298242580,
-        "updated": 1709308084040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024061001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024061001.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 159,
-        "net": "pr",
-        "code": "2024061001",
-        "ids": ",pr2024061001,us6000mg2d,",
-        "sources": ",pr,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.0741,
-        "rms": 0.17,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 4 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9533,
-          17.9775,
-          12
-        ]
-      },
-      "id": "pr2024061001"
     }
   ],
   "bbox": [
     -178.3998,
-    -37.8319,
+    -55.7473,
     -0.86,
     178.2753,
     62.8072,
