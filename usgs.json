@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709399469000,
+    "generated": 1709403489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "15 km S of Fern Forest, Hawaii",
+        "time": 1709395888311,
+        "updated": 1709403439092,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgca",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgca.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000mgca",
+        "ids": ",us6000mgca,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.061,
+        "rms": 0.58,
+        "gap": 185,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 15 km S of Fern Forest, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.1192,
+          19.3235,
+          5
+        ]
+      },
+      "id": "us6000mgca"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.52,
         "place": "14 km S of Fern Forest, Hawaii",
         "time": 1709395880830,
-        "updated": 1709396775096,
+        "updated": 1709403456375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74126481",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74126481.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,8 +68,8 @@
         "sig": 98,
         "net": "hv",
         "code": "74126481",
-        "ids": ",hv74126481,",
-        "sources": ",hv,",
+        "ids": ",hv74126481,us6000mgby,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": 0.04734,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "hv74126481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "44 km N of San Pedro de Atacama, Chile",
+        "time": 1709395554598,
+        "updated": 1709401799040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgbw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgbw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000mgbw",
+        "ids": ",us6000mgbw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.441,
+        "rms": 0.92,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 44 km N of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2188,
+          -22.5102,
+          166.512
+        ]
+      },
+      "id": "us6000mgbw"
     },
     {
       "type": "Feature",
@@ -1488,126 +1568,6 @@
         ]
       },
       "id": "us6000mg5t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "5 km WSW of Colonia Dora, Argentina",
-        "time": 1709316372732,
-        "updated": 1709318853040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mg5h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mg5h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000mg5h",
-        "ids": ",us6000mg5h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 5.532,
-        "rms": 0.73,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 5 km WSW of Colonia Dora, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.0012,
-          -28.6271,
-          614.791
-        ]
-      },
-      "id": "us6000mg5h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "Owen Fracture Zone region",
-        "time": 1709314185334,
-        "updated": 1709321581873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mg58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mg58.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "6000mg58",
-        "ids": ",us6000mg58,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 230,
-        "dmin": 13.422,
-        "rms": 1.13,
-        "gap": 18,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - Owen Fracture Zone region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          57.6536,
-          11.5218,
-          10.241
-        ]
-      },
-      "id": "us6000mg58"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "33 km W of Bandar Abbas, Iran",
-        "time": 1709313938191,
-        "updated": 1709352308645,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mg56",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mg56.geojson",
-        "felt": 4,
-        "cdi": 4.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "6000mg56",
-        "ids": ",us6000mg56,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 154,
-        "dmin": 2.191,
-        "rms": 0.61,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 33 km W of Bandar Abbas, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.952,
-          27.1335,
-          16.07
-        ]
-      },
-      "id": "us6000mg56"
     }
   ],
   "bbox": [
@@ -1616,6 +1576,6 @@
     -0.86,
     178.2753,
     61.7501,
-    614.791
+    536.919
   ]
 }
