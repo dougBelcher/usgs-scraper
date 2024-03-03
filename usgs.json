@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709475131000,
+    "generated": 1709478792000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "8 km WNW of Beluga, Alaska",
+        "time": 1709478390153,
+        "updated": 1709478493122,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242wftpta",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242wftpta.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0242wftpta",
+        "ids": ",ak0242wftpta,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km WNW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2254,
+          61.1797,
+          65.1
+        ]
+      },
+      "id": "ak0242wftpta"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,13 +415,13 @@
         "mag": 3.9,
         "place": "37 km NNW of Toyah, Texas",
         "time": 1709457323955,
-        "updated": 1709464978530,
+        "updated": 1709478523897,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ejzm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ejzm.geojson",
         "felt": 4,
         "cdi": 5.7,
-        "mmi": 4.45,
+        "mmi": 4.63,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -390,7 +430,7 @@
         "code": "2024ejzm",
         "ids": ",us6000mgfu,tx2024ejzm,",
         "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 28,
         "dmin": 0,
         "rms": 0.1,
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us6000mgbp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "46 km ENE of Fort Bidwell, California",
-        "time": 1709389805631,
-        "updated": 1709392679040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgbh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgbh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000mgbh",
-        "ids": ",us6000mgbh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.298,
-        "rms": 0.37,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 46 km ENE of Fort Bidwell, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.6054,
-          41.968,
-          18.481
-        ]
-      },
-      "id": "us6000mgbh"
     }
   ],
   "bbox": [
