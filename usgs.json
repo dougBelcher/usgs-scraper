@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709435663000,
+    "generated": 1709439489000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "6 km W of Borrego Springs, CA",
+        "time": 1709439110590,
+        "updated": 1709439432056,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40680280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40680280.geojson",
+        "felt": 4,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "ci",
+        "code": "40680280",
+        "ids": ",ci40680280,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 97,
+        "dmin": 0.01505,
+        "rms": 0.2,
+        "gap": 16,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km W of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4346695,
+          33.2648315,
+          5.47
+        ]
+      },
+      "id": "ci40680280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "4 km ENE of Guaymango, El Salvador",
+        "time": 1709436029429,
+        "updated": 1709437684040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mge6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mge6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000mge6",
+        "ids": ",us6000mge6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.136,
+        "rms": 1.04,
+        "gap": 203,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 4 km ENE of Guaymango, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8088,
+          13.7683,
+          95.256
+        ]
+      },
+      "id": "us6000mge6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,6 +248,46 @@
         ]
       },
       "id": "us6000mgdl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "28 km SSE of Midland, Texas",
+        "time": 1709424447997,
+        "updated": 1709438940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgdi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgdi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000mgdi",
+        "ids": ",us6000mgdi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.184,
+        "rms": 0.59,
+        "gap": 44,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 28 km SSE of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9114,
+          31.7803,
+          5
+        ]
+      },
+      "id": "us6000mgdi"
     },
     {
       "type": "Feature",
@@ -1295,12 +1415,12 @@
         "mag": 2.56,
         "place": "66 km ENE of Ensenada, B.C., MX",
         "time": 1709369853220,
-        "updated": 1709370262015,
+        "updated": 1709438768200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40680032",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40680032.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1310,7 +1430,7 @@
         "code": "40680032",
         "ids": ",ci40680032,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 8,
         "dmin": 0.04912,
         "rms": 0.35,
@@ -1688,46 +1808,6 @@
         ]
       },
       "id": "us6000mg97"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "79 km ENE of Port Alsworth, Alaska",
-        "time": 1709350775557,
-        "updated": 1709351640040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0242ulc926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0242ulc926.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0242ulc926",
-        "ids": ",us6000mg90,ak0242ulc926,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 79 km ENE of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.9302,
-          60.4018,
-          119.6
-        ]
-      },
-      "id": "ak0242ulc926"
     }
   ],
   "bbox": [
@@ -1735,7 +1815,7 @@
     -55.7473,
     -0.86,
     177.8542,
-    60.4018,
+    57.429,
     376.035
   ]
 }
