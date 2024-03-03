@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709432483000,
+    "generated": 1709435663000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 45
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
+        "mag": 4.9,
         "place": "south of the Kermadec Islands",
-        "time": 1709431257577,
-        "updated": 1709432435040,
+        "time": 1709431264274,
+        "updated": 1709434176040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgdt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgdt.geojson",
@@ -25,25 +25,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 369,
         "net": "us",
         "code": "6000mgdt",
         "ids": ",us6000mgdt,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.607,
-        "rms": 0.64,
-        "gap": 195,
+        "nst": 24,
+        "dmin": 3.186,
+        "rms": 1.32,
+        "gap": 180,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - south of the Kermadec Islands"
+        "title": "M 4.9 - south of the Kermadec Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.6917,
-          -32.7224,
+          -177.76,
+          -32.4555,
           10
         ]
       },
@@ -695,12 +695,12 @@
         "mag": 2.57,
         "place": "9 km SSE of Tatums, Oklahoma",
         "time": 1709394939535,
-        "updated": 1709398387040,
+        "updated": 1709434748291,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024eirf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024eirf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -708,9 +708,9 @@
         "sig": 102,
         "net": "ok",
         "code": "2024eirf",
-        "ids": ",us6000mgbv,ok2024eirf,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2024eirf,us6000mgbv,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.06500867754,
         "rms": 0.7161335431,
@@ -1728,90 +1728,10 @@
         ]
       },
       "id": "ak0242ulc926"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1709348800610,
-        "updated": 1709349305970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71441698",
-        "ids": ",pr71441698,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.06138,
-        "rms": 0.19,
-        "gap": 227,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8546666666667,
-          17.918,
-          12.93
-        ]
-      },
-      "id": "pr71441698"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "1 km NNE of Indios, Puerto Rico",
-        "time": 1709346725750,
-        "updated": 1709349495280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71441688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71441688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71441688",
-        "ids": ",pr71441688,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.0281,
-        "rms": 0.16,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 1 km NNE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8163333333333,
-          18.0046666666667,
-          16.92
-        ]
-      },
-      "id": "pr71441688"
     }
   ],
   "bbox": [
-    -177.6678,
+    -177.76,
     -55.7473,
     -0.86,
     177.8542,
