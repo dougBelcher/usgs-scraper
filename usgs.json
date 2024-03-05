@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709626671000,
+    "generated": 1709630031000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,28 +12,68 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.34,
+        "place": "48 km NW of San Antonio, Puerto Rico",
+        "time": 1709626451500,
+        "updated": 1709628286740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71442113",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71442113.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71442113",
+        "ids": ",pr71442113,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.4027,
+        "rms": 0.16,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 48 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4343333333333,
+          18.7883333333333,
+          5.9
+        ]
+      },
+      "id": "pr71442113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.8,
         "place": "37 km SSW of Los Ybanez, Texas",
-        "time": 1709624276693,
-        "updated": 1709626282292,
+        "time": 1709624276984,
+        "updated": 1709629218958,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024enni",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024enni.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 3.4,
         "mmi": 4.254,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 223,
         "net": "tx",
         "code": "2024enni",
-        "ids": ",us6000mgtx,tx2024enni,",
-        "sources": ",us,tx,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 32,
+        "ids": ",tx2024enni,us6000mgtx,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 56,
         "dmin": 0.1,
-        "rms": 0.1,
+        "rms": 0.2,
         "gap": 86,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.121,
+          -102.113,
           32.427,
-          9.1553
+          6.3232
         ]
       },
       "id": "tx2024enni"
@@ -1488,51 +1528,11 @@
         ]
       },
       "id": "us6000mgmp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "43 km W of Coquimbo, Chile",
-        "time": 1709543586692,
-        "updated": 1709552854040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mgmd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mgmd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000mgmd",
-        "ids": ",us6000mgmd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.481,
-        "rms": 1.25,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 43 km W of Coquimbo, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.7852,
-          -29.9997,
-          28.458
-        ]
-      },
-      "id": "us6000mgmd"
     }
   ],
   "bbox": [
     -178.1719,
-    -29.9997,
+    -21.092,
     3.4338,
     142.2066,
     61.5832,
