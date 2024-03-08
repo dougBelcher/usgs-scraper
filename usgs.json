@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1709932376000,
+    "generated": 1709936097000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 37
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.34,
         "place": "18 km WSW of La Jolla, CA",
         "time": 1709932181350,
-        "updated": 1709932315724,
+        "updated": 1709935860935,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40683864",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40683864.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 92,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 207,
         "net": "ci",
         "code": "40683864",
-        "ids": ",ci40683864,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "ids": ",ci40683864,us7000m4a5,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 94,
         "dmin": 0.1828,
         "rms": 0.23,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci40683864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.82,
+        "place": "32 km ENE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1709930897350,
+        "updated": 1709932854438,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024068002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024068002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 224,
+        "net": "pr",
+        "code": "2024068002",
+        "ids": ",pr2024068002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.4582,
+        "rms": 0.47,
+        "gap": 341,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 32 km ENE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5036,
+          18.422,
+          100
+        ]
+      },
+      "id": "pr2024068002"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr71442428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "8 km SSE of Guánica, Puerto Rico",
+        "time": 1709928693180,
+        "updated": 1709932973170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71442438",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71442438.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71442438",
+        "ids": ",pr71442438,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.07614,
+        "rms": 0.18,
+        "gap": 237,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8796666666667,
+          17.8985,
+          6.54
+        ]
+      },
+      "id": "pr71442438"
     },
     {
       "type": "Feature",
@@ -168,6 +248,46 @@
         ]
       },
       "id": "pr2024068001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "15 km WNW of Rancagua, Chile",
+        "time": 1709921568665,
+        "updated": 1709935795040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m48k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m48k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000m48k",
+        "ids": ",us7000m48k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.297,
+        "rms": 0.28,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 15 km WNW of Rancagua, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9055,
+          -34.1335,
+          82.458
+        ]
+      },
+      "id": "us7000m48k"
     },
     {
       "type": "Feature",
@@ -335,17 +455,17 @@
         "mag": 2.9,
         "place": "10 km ESE of Chickasha, Oklahoma",
         "time": 1709893245850,
-        "updated": 1709927409895,
+        "updated": 1709935580602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024etfe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024etfe.geojson",
-        "felt": 15,
-        "cdi": 4.7,
+        "felt": 16,
+        "cdi": 4.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 136,
+        "sig": 137,
         "net": "ok",
         "code": "2024etfe",
         "ids": ",ok2024etfe,us7000m449,",
@@ -375,17 +495,17 @@
         "mag": 3.5,
         "place": "11 km S of Bullaburra, Australia",
         "time": 1709891593045,
-        "updated": 1709932190896,
+        "updated": 1709935908043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m44b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m44b.geojson",
-        "felt": 216,
+        "felt": 228,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 286,
+        "sig": 291,
         "net": "us",
         "code": "7000m44b",
         "ids": ",us7000m44b,",
@@ -892,6 +1012,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.66,
+        "place": "107 km W of Petrolia, CA",
+        "time": 1709869844400,
+        "updated": 1709934700845,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74013506",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74013506.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "nc",
+        "code": "74013506",
+        "ids": ",nc74013506,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.9183,
+        "rms": 0.39,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 107 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.5388333,
+          40.423,
+          10
+        ]
+      },
+      "id": "nc74013506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.62,
         "place": "11 km SSE of Maria Antonia, Puerto Rico",
         "time": 1709869163400,
@@ -1328,94 +1488,14 @@
         ]
       },
       "id": "us7000m40r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "54 km NNE of Kobuk, Alaska",
-        "time": 1709847441237,
-        "updated": 1709849336040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024335qbqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024335qbqm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "024335qbqm",
-        "ids": ",us7000m40i,ak024335qbqm,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.52,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 54 km NNE of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.2374,
-          67.3244,
-          21.4
-        ]
-      },
-      "id": "ak024335qbqm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "19 km NNE of Stanley, Idaho",
-        "time": 1709847365772,
-        "updated": 1709912359420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m40h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m40h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000m40h",
-        "ids": ",mb90042758,us7000m40h,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.273,
-        "rms": 0.94,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 19 km NNE of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.8439,
-          44.3796,
-          13.035
-        ]
-      },
-      "id": "us7000m40h"
     }
   ],
   "bbox": [
     -179.6697,
-    -33.8349,
+    -34.1335,
     0,
     152.6553,
-    67.3244,
+    62.6139,
     598.213
   ]
 }
