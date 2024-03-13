@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710335745000,
+    "generated": 1710339170000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 21
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 5.3,
         "place": "79 km N of Camiña, Chile",
         "time": 1710322205494,
-        "updated": 1710328486441,
+        "updated": 1710338691089,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mijr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mijr.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 3,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -652,10 +652,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "49 km NNW of Sandy Ground Village, Anguilla",
+        "time": 1710273612411,
+        "updated": 1710339134812,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000migx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000migx.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "6000migx",
+        "ids": ",us6000migx,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.586,
+        "rms": 0.43,
+        "gap": 148,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.3 - 49 km NNW of Sandy Ground Village, Anguilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3238,
+          18.5887,
+          43.893
+        ]
+      },
+      "id": "us6000migx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "39 km NNE of Makubetsu, Japan",
+        "time": 1710267749996,
+        "updated": 1710338555040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mifu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mifu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000mifu",
+        "ids": ",us6000mifu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 93,
+        "dmin": 1.368,
+        "rms": 0.61,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 39 km NNE of Makubetsu, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.08,
+          45.6751,
+          312.22
+        ]
+      },
+      "id": "us6000mifu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.14,
         "place": "12 km ESE of Pāhala, Hawaii",
         "time": 1710264810500,
-        "updated": 1710281809915,
+        "updated": 1710338198040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74134911",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74134911.geojson",
@@ -668,8 +748,8 @@
         "sig": 152,
         "net": "hv",
         "code": "74134911",
-        "ids": ",hv74134911,",
-        "sources": ",hv,",
+        "ids": ",hv74134911,us6000mifq,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.08577,
@@ -768,54 +848,14 @@
         ]
       },
       "id": "ak0243bb5vjz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "28 km SSW of Petersville, Alaska",
-        "time": 1710249460854,
-        "updated": 1710249606288,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243bajcqt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243bajcqt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0243bajcqt",
-        "ids": ",ak0243bajcqt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km SSW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.8811,
-          62.2489,
-          67.8
-        ]
-      },
-      "id": "ak0243bajcqt"
     }
   ],
   "bbox": [
     -175.0937,
     -18.5989,
     1.6000000238419,
-    141.2158,
+    142.08,
     62.5038,
-    114.549
+    312.22
   ]
 }
