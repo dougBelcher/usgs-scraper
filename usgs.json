@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710393173000,
+    "generated": 1710397070000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,20 +12,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "39 km NNE of Petersville, Alaska",
+        "time": 1710395549927,
+        "updated": 1710396821185,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243eh222y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243eh222y.geojson",
+        "felt": 16,
+        "cdi": 3.4,
+        "mmi": 2.625,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 228,
+        "net": "ak",
+        "code": "0243eh222y",
+        "ids": ",ak0243eh222y,us6000mis4,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.44,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 39 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4967,
+          62.8259,
+          104.2
+        ]
+      },
+      "id": "ak0243eh222y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "1 km N of Southshore, New Zealand",
         "time": 1710388956723,
-        "updated": 1710392741402,
+        "updated": 1710394721249,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mirw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mirw.geojson",
-        "felt": 11,
+        "felt": 13,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 134,
+        "sig": 135,
         "net": "us",
         "code": "6000mirw",
         "ids": ",us6000mirw,",
@@ -95,17 +135,17 @@
         "mag": 5.4,
         "place": "21 km SW of Plužine, Montenegro",
         "time": 1710385606795,
-        "updated": 1710393010184,
+        "updated": 1710397034370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mirj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mirj.geojson",
-        "felt": 187,
+        "felt": 199,
         "cdi": 8.2,
         "mmi": 7.108,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 602,
+        "sig": 612,
         "net": "us",
         "code": "6000mirj",
         "ids": ",us6000mirj,",
@@ -1088,46 +1128,6 @@
         ]
       },
       "id": "us6000mij5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "62 km S of Whites City, New Mexico",
-        "time": 1710310259738,
-        "updated": 1710322508543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024fcal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024fcal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2024fcal",
-        "ids": ",us6000miiz,tx2024fcal,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 62 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5,
-          31.623,
-          7.2534
-        ]
-      },
-      "id": "tx2024fcal"
     }
   ],
   "bbox": [
@@ -1135,7 +1135,7 @@
     -49.6552,
     3.2,
     172.7508,
-    62.5038,
+    62.8259,
     169.621
   ]
 }
