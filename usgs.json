@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710389810000,
+    "generated": 1710393173000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "1 km N of Southshore, New Zealand",
+        "time": 1710388956723,
+        "updated": 1710392741402,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mirw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mirw.geojson",
+        "felt": 11,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 134,
+        "net": "us",
+        "code": "6000mirw",
+        "ids": ",us6000mirw,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.185,
+        "rms": 0.43,
+        "gap": 158,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 1 km N of Southshore, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7508,
+          -43.5348,
+          16.115
+        ]
+      },
+      "id": "us6000mirw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 5.4,
         "place": "21 km SW of Plužine, Montenegro",
         "time": 1710385606795,
-        "updated": 1710389538919,
+        "updated": 1710393010184,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mirj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mirj.geojson",
-        "felt": 178,
+        "felt": 187,
         "cdi": 8.2,
-        "mmi": 6.655,
+        "mmi": 7.108,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 595,
+        "sig": 602,
         "net": "us",
         "code": "6000mirj",
         "ids": ",us6000mirj,",
@@ -775,11 +815,11 @@
         "mag": 3.7,
         "place": "48 km SSE of Yilan, Taiwan",
         "time": 1710337958354,
-        "updated": 1710344797357,
+        "updated": 1710391987065,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mil3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mil3.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1088,53 +1128,13 @@
         ]
       },
       "id": "tx2024fcal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "181 km NNW of Puerto Ayora, Ecuador",
-        "time": 1710303612289,
-        "updated": 1710380749040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000miin",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000miin.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000miin",
-        "ids": ",us6000miin,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 11.313,
-        "rms": 0.82,
-        "gap": 199,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 181 km NNW of Puerto Ayora, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.856,
-          0.804,
-          10
-        ]
-      },
-      "id": "us6000miin"
     }
   ],
   "bbox": [
     -157.183,
     -49.6552,
     3.2,
-    150.6344,
+    172.7508,
     62.5038,
     169.621
   ]
