@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710944001000,
+    "generated": 1710947721000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.41,
+        "place": "14 km ESE of Wofford Heights, CA",
+        "time": 1710947389690,
+        "updated": 1710947545456,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40691096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40691096.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "ci",
+        "code": "40691096",
+        "ids": ",ci40691096,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 76,
+        "dmin": 0.05668,
+        "rms": 0.18,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 14 km ESE of Wofford Heights, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3183365,
+          35.6453323,
+          6.84
+        ]
+      },
+      "id": "ci40691096"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 3.3,
         "place": "24 km NW of Stanley, Idaho",
         "time": 1710891613551,
-        "updated": 1710893000330,
+        "updated": 1710946595697,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mjvh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mjvh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -628,9 +668,9 @@
         "sig": 168,
         "net": "us",
         "code": "6000mjvh",
-        "ids": ",mb90043593,us6000mjvh,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
+        "ids": ",us6000mjvh,mb90043593,",
+        "sources": ",us,mb,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": 0.346,
         "rms": 0.67,
@@ -888,46 +928,6 @@
         ]
       },
       "id": "mb90043408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "20 km SE of Alamo, Nevada",
-        "time": 1710858538074,
-        "updated": 1710868914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00875010",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00875010.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "nn",
-        "code": "00875010",
-        "ids": ",us6000mjru,nn00875010,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.176,
-        "rms": 0.1394,
-        "gap": 109.12,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 20 km SE of Alamo, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.9989,
-          37.236,
-          13.6
-        ]
-      },
-      "id": "nn00875010"
     }
   ],
   "bbox": [
