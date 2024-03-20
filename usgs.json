@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1710958638000,
+    "generated": 1710961882000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1710959382940,
+        "updated": 1710960040972,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74020791",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74020791.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "74020791",
+        "ids": ",nc74020791,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.007573,
+        "rms": 0.06,
+        "gap": 36,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8148346,
+          38.8300018,
+          2.27
+        ]
+      },
+      "id": "nc74020791"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.6,
         "place": "13 km W of Point MacKenzie, Alaska",
         "time": 1710951198954,
-        "updated": 1710956441887,
+        "updated": 1710959428987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243okliyf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243okliyf.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -408,6 +448,46 @@
         ]
       },
       "id": "us6000mjyq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "246 km W of Adak, Alaska",
+        "time": 1710930876334,
+        "updated": 1710960862765,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0243oh5gp8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0243oh5gp8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.468,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "0243oh5gp8",
+        "ids": ",ak0243oh5gp8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 246 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.8017,
+          51.725,
+          12.2
+        ]
+      },
+      "id": "ak0243oh5gp8"
     },
     {
       "type": "Feature",
@@ -893,8 +973,8 @@
   "bbox": [
     -179.5702,
     -56.2612,
-    2.8199999332428,
-    150.4711,
+    2.27,
+    179.8017,
     63.0922,
     461.466
   ]
