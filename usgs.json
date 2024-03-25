@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711328774000,
+    "generated": 1711333334000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 22
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45000005,
+        "place": "2 km S of Pāhala, Hawaii",
+        "time": 1711330083800,
+        "updated": 1711330172010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74148932",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74148932.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "74148932",
+        "ids": ",hv74148932,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.02697,
+        "rms": 0.119999997,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.478164672852,
+          19.1778335571289,
+          33.4099998474121
+        ]
+      },
+      "id": "hv74148932"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,12 +295,12 @@
         "mag": 4.6,
         "place": "28 km WSW of Sidareja, Indonesia",
         "time": 1711294445797,
-        "updated": 1711296687040,
+        "updated": 1711331190699,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkz6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkz6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "6000mkz6",
         "ids": ",us6000mkz6,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 35,
         "dmin": 0.923,
         "rms": 0.73,
@@ -848,94 +888,14 @@
         ]
       },
       "id": "us6000mkvx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "38 km WNW of Ollagüe, Chile",
-        "time": 1711246094645,
-        "updated": 1711254183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkvs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkvs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000mkvs",
-        "ids": ",us6000mkvs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.822,
-        "rms": 0.76,
-        "gap": 103,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 38 km WNW of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6129,
-          -21.1459,
-          141.9
-        ]
-      },
-      "id": "us6000mkvs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "147 km S of Puerto El Triunfo, El Salvador",
-        "time": 1711243727460,
-        "updated": 1711253641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mkvm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mkvm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000mkvm",
-        "ids": ",us6000mkvm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.555,
-        "rms": 0.83,
-        "gap": 165,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 147 km S of Puerto El Triunfo, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7642,
-          11.9654,
-          10
-        ]
-      },
-      "id": "us6000mkvm"
     }
   ],
   "bbox": [
     -156.3616,
-    -21.1459,
+    -19.4562,
     -0.80000001192093,
     177.946,
     67.3266,
-    141.9
+    115.309
   ]
 }
