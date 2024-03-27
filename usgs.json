@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711556316000,
+    "generated": 1711559544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "40 km NNW of Port Alexander, Alaska",
+        "time": 1711558842698,
+        "updated": 1711559020624,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024405vnjh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024405vnjh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "024405vnjh",
+        "ids": ",ak024405vnjh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.99,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 40 km NNW of Port Alexander, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.9691,
+          56.5631,
+          1.4
+        ]
+      },
+      "id": "ak024405vnjh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1408,52 +1448,12 @@
         ]
       },
       "id": "us7000m845"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5100000000000002,
-        "place": "27 km S of Morton, Washington",
-        "time": 1711472990200,
-        "updated": 1711551099802,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61992471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61992471.geojson",
-        "felt": 2,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "uw",
-        "code": "61992471",
-        "ids": ",uw61992471,",
-        "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.03051,
-        "rms": 0.13,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 27 km S of Morton, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.22466666666666,
-          46.31583333333333,
-          4.63
-        ]
-      },
-      "id": "uw61992471"
     }
   ],
   "bbox": [
     -151.6725,
     -31.6929,
-    4.63,
+    1.4,
     173.8249,
     65.5893,
     173.838
