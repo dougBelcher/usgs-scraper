@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711545336000,
+    "generated": 1711548816000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "Vanuatu region",
+        "time": 1711547358102,
+        "updated": 1711548638950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m8an",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m8an.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.87,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000m8an",
+        "ids": ",us7000m8an,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 78,
+        "dmin": 4.983,
+        "rms": 0.72,
+        "gap": 74,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - Vanuatu region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.8249,
+          -20.7415,
+          8.144
+        ]
+      },
+      "id": "us7000m8an"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1368,53 +1408,13 @@
         ]
       },
       "id": "uw61992471"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "80 km WSW of Modisi, Indonesia",
-        "time": 1711459916791,
-        "updated": 1711475348040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m82y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m82y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000m82y",
-        "ids": ",us7000m82y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 112,
-        "dmin": 1.573,
-        "rms": 0.68,
-        "gap": 46,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.5 - 80 km WSW of Modisi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.7608,
-          0.1895,
-          130.716
-        ]
-      },
-      "id": "us7000m82y"
     }
   ],
   "bbox": [
     -151.6725,
     -31.6929,
     4.63,
-    173.7692,
+    173.8249,
     65.5893,
     173.838
   ]
