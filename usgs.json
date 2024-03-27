@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711559544000,
+    "generated": 1711563524000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.12,
+        "place": "42 km W of Petrolia, CA",
+        "time": 1711560864490,
+        "updated": 1711560985818,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74025051",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74025051.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 150,
+        "net": "nc",
+        "code": "74025051",
+        "ids": ",nc74025051,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.3364,
+        "rms": 0.26,
+        "gap": 278,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 42 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7821655,
+          40.2783318,
+          4.84
+        ]
+      },
+      "id": "nc74025051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "40 km NNW of Port Alexander, Alaska",
         "time": 1711558842698,
-        "updated": 1711559020624,
+        "updated": 1711562383244,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024405vnjh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024405vnjh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 148,
         "net": "ak",
         "code": "024405vnjh",
-        "ids": ",ak024405vnjh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak024405vnjh,us7000m8cn,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.99,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000m84a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "13 km SE of Madang, Papua New Guinea",
-        "time": 1711475375400,
-        "updated": 1711514272969,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m845",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m845.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "7000m845",
-        "ids": ",us7000m845,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 122,
-        "dmin": 5.851,
-        "rms": 0.69,
-        "gap": 48,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 13 km SE of Madang, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8601,
-          -5.3196,
-          68.156
-        ]
-      },
-      "id": "us7000m845"
     }
   ],
   "bbox": [
