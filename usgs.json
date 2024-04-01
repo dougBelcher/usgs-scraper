@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1711962950000,
+    "generated": 1711966553000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 38
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nn00875640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "228 km ENE of Levuka, Fiji",
+        "time": 1711960384634,
+        "updated": 1711965068040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m968.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000m968",
+        "ids": ",us7000m968,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 4.757,
+        "rms": 0.54,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 228 km ENE of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5831,
+          -17.6208,
+          566.117
+        ]
+      },
+      "id": "us7000m968"
     },
     {
       "type": "Feature",
@@ -135,17 +175,17 @@
         "mag": 3.8,
         "place": "66 km SW of Nanwalek, Alaska",
         "time": 1711955900152,
-        "updated": 1711958818237,
+        "updated": 1711965519277,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024489pv3m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024489pv3m.geojson",
-        "felt": 19,
+        "felt": 21,
         "cdi": 3.8,
         "mmi": 3.123,
         "alert": null,
         "status": "automatic",
         "tsunami": 1,
-        "sig": 229,
+        "sig": 230,
         "net": "ak",
         "code": "024489pv3m",
         "ids": ",ak024489pv3m,at00sb95mk,us7000m95w,",
@@ -335,11 +375,11 @@
         "mag": 2.81,
         "place": "4 km NW of Indianola, Washington",
         "time": 1711948138180,
-        "updated": 1711961206982,
+        "updated": 1711966006998,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61985547",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61985547.geojson",
-        "felt": 50,
+        "felt": 51,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "us7000m921"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "112 km SSE of Ugashik, Alaska",
-        "time": 1711880045938,
-        "updated": 1711912929752,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02446nxxgx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02446nxxgx.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "02446nxxgx",
-        "ids": ",ak02446nxxgx,us7000m91w,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.46,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 112 km SSE of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.437,
-          56.649,
-          68.2
-        ]
-      },
-      "id": "ak02446nxxgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "10 km NE of Lima, Montana",
-        "time": 1711876974610,
-        "updated": 1711892115060,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90044523",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90044523.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "mb",
-        "code": "90044523",
-        "ids": ",mb90044523,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1325,
-        "rms": 0.17,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km NE of Lima, Montana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.514666666667,
-          44.7123333333333,
-          7.75
-        ]
-      },
-      "id": "mb90044523"
     }
   ],
   "bbox": [
