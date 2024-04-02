@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712031414000,
+    "generated": 1712034774000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.67,
+        "mag": 3.6,
+        "place": "65 km NNE of Van Horn, Texas",
+        "time": 1712034042737,
+        "updated": 1712034755040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9au",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9au.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000m9au",
+        "ids": ",us7000m9au,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.101,
+        "rms": 0.33,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 65 km NNE of Van Horn, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5468,
+          31.5755,
+          3.867
+        ]
+      },
+      "id": "us7000m9au"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
         "place": "9 km NE of Pāhala, Hawaii",
-        "time": 1712030812600,
-        "updated": 1712030968880,
+        "time": 1712030812640,
+        "updated": 1712034613040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74158447",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74158447.geojson",
@@ -23,18 +63,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 108,
         "net": "hv",
         "code": "74158447",
-        "ids": ",hv74158447,",
-        "sources": ",hv,",
+        "ids": ",us7000m9aj,hv74158447,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.07119,
-        "rms": 0.140000001,
-        "gap": 119,
+        "nst": 40,
+        "dmin": 0.02343,
+        "rms": 0.12,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 9 km NE of Pāhala, Hawaii"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.411499023438,
-          19.2661666870117,
-          32.3199996948242
+          -155.410333333333,
+          19.2576666666667,
+          32
         ]
       },
       "id": "hv74158447"
@@ -55,11 +95,11 @@
         "mag": 2.8,
         "place": "6 km SSE of Ferry, Alaska",
         "time": 1712030081886,
-        "updated": 1712031370956,
+        "updated": 1712034103340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02449v38mu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02449v38mu.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
@@ -68,8 +108,8 @@
         "sig": 124,
         "net": "ak",
         "code": "02449v38mu",
-        "ids": ",ak02449v38mu,",
-        "sources": ",ak,",
+        "ids": ",ak02449v38mu,us7000m9ai,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -454,8 +494,8 @@
       "properties": {
         "mag": 4.7,
         "place": "Fiji region",
-        "time": 1712005876982,
-        "updated": 1712007514040,
+        "time": 1712005877054,
+        "updated": 1712034297040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m996.geojson",
@@ -471,9 +511,9 @@
         "ids": ",us7000m996,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 91,
-        "dmin": 3.101,
-        "rms": 0.71,
+        "nst": 96,
+        "dmin": 3.098,
+        "rms": 0.8,
         "gap": 45,
         "magType": "mb",
         "type": "earthquake",
@@ -482,9 +522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.5208,
-          -21.0208,
-          541.294
+          -178.5182,
+          -21.0241,
+          540.952
         ]
       },
       "id": "us7000m996"
@@ -1368,126 +1408,6 @@
         ]
       },
       "id": "us7000m95j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "4 km NW of Indianola, Washington",
-        "time": 1711948138180,
-        "updated": 1712029136557,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61985547",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61985547.geojson",
-        "felt": 128,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "uw",
-        "code": "61985547",
-        "ids": ",uw61985547,us7000m95i,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.04423,
-        "rms": 0.23,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km NW of Indianola, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.5705,
-          47.7795,
-          24.16
-        ]
-      },
-      "id": "uw61985547"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "4 km NNE of Santa Lucia, Philippines",
-        "time": 1711946697479,
-        "updated": 1712019286040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m95f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m95f.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000m95f",
-        "ids": ",us7000m95f,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 73,
-        "dmin": 7.389,
-        "rms": 0.52,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 4 km NNE of Santa Lucia, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.497,
-          15.4095,
-          134.902
-        ]
-      },
-      "id": "us7000m95f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "3 km WSW of Santiago Matatlán, Mexico",
-        "time": 1711946053273,
-        "updated": 1712027505578,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m95c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m95c.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "7000m95c",
-        "ids": ",us7000m95c,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 2.179,
-        "rms": 0.84,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 3 km WSW of Santiago Matatlán, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.409,
-          16.8545,
-          10
-        ]
-      },
-      "id": "us7000m95c"
     }
   ],
   "bbox": [
