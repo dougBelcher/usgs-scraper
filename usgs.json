@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712204348000,
+    "generated": 1712207768000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 54
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51999998,
+        "place": "13 km ESE of Pāhala, Hawaii",
+        "time": 1712206337100,
+        "updated": 1712206448900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74160312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74160312.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "74160312",
+        "ids": ",hv74160312,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.0991,
+        "rms": 0.140000001,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.357330322266,
+          19.1586666107178,
+          27.1200008392334
+        ]
+      },
+      "id": "hv74160312"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 6.1,
         "place": "83 km E of Minami-Sōma, Japan",
         "time": 1712200591452,
-        "updated": 1712204302922,
+        "updated": 1712206513751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9sq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9sq.geojson",
-        "felt": 20,
-        "cdi": 4.1,
+        "felt": 25,
+        "cdi": 4.3,
         "mmi": 4.008,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 581,
+        "sig": 583,
         "net": "us",
         "code": "7000m9sq",
         "ids": ",us7000m9sq,",
@@ -2088,86 +2128,6 @@
         ]
       },
       "id": "us7000m9j6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "43 km ENE of Hinatuan, Philippines",
-        "time": 1712119882042,
-        "updated": 1712121099040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9j3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9j3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000m9j3",
-        "ids": ",us7000m9j3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.815,
-        "rms": 0.74,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 43 km ENE of Hinatuan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.707,
-          8.509,
-          54.502
-        ]
-      },
-      "id": "us7000m9j3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "9 km ENE of Hualien City, Taiwan",
-        "time": 1712118884033,
-        "updated": 1712120452040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9iz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000m9iz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000m9iz",
-        "ids": ",us7000m9iz,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.705,
-        "rms": 0.92,
-        "gap": 52,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.8 - 9 km ENE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6846,
-          24.0117,
-          35
-        ]
-      },
-      "id": "us7000m9iz"
     }
   ],
   "bbox": [
