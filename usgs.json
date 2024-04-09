@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1712661112000,
+    "generated": 1712665672000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "12 km ESE of Pāhala, Hawaii",
+        "time": 1712664645990,
+        "updated": 1712664804370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74165922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74165922.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "hv",
+        "code": "74165922",
+        "ids": ",hv74165922,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.08426,
+        "rms": 0.150000006,
+        "gap": 182,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.374160766602,
+          19.1416664123535,
+          28.8999996185303
+        ]
+      },
+      "id": "hv74165922"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 6.6,
         "place": "149 km NW of Tobelo, Indonesia",
         "time": 1712656081680,
-        "updated": 1712658264771,
+        "updated": 1712663736397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000maxr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000maxr.geojson",
@@ -150,7 +190,7 @@
         "code": "7000maxr",
         "ids": ",at00sbo5w4,us7000maxr,pt24100001,",
         "sources": ",at,us,pt,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 139,
         "dmin": 1.948,
         "rms": 0.71,
@@ -968,86 +1008,6 @@
         ]
       },
       "id": "us7000marx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "279 km NW of Houma, Tonga",
-        "time": 1712577014977,
-        "updated": 1712577914040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000marj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000marj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000marj",
-        "ids": ",us7000marj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.589,
-        "rms": 0.86,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 279 km NW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4006,
-          -19.5951,
-          557.904
-        ]
-      },
-      "id": "us7000marj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "61 km W of Karluk, Alaska",
-        "time": 1712575868634,
-        "updated": 1712577155040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0244jwxsen",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0244jwxsen.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0244jwxsen",
-        "ids": ",us7000mari,ak0244jwxsen,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 61 km W of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4683,
-          57.5083,
-          58.6
-        ]
-      },
-      "id": "ak0244jwxsen"
     }
   ],
   "bbox": [
@@ -1055,7 +1015,7 @@
     -23.3957,
     2.59,
     179.5116,
-    57.5083,
+    56.7904,
     572.458
   ]
 }
