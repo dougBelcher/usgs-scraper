@@ -1,53 +1,293 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713280480000,
+    "generated": 1713284320000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "112 km ESE of Inarajan Village, Guam",
-        "time": 1713279535000,
-        "updated": 1713280288770,
+        "mag": 2.49000001,
+        "place": "5 km SW of Volcano, Hawaii",
+        "time": 1713283743630,
+        "updated": 1713283830020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt24107050",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt24107050.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74173557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74173557.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 482,
-        "net": "pt",
-        "code": "24107050",
-        "ids": ",pt24107050,",
-        "sources": ",pt,",
-        "types": ",origin,",
-        "nst": 10,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Mi",
+        "sig": 95,
+        "net": "hv",
+        "code": "74173557",
+        "ids": ",hv74173557,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01821,
+        "rms": 0.129999995,
+        "gap": 46,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 5.6 - 112 km ESE of Inarajan Village, Guam"
+        "title": "M 2.5 - 5 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.616,
-          12.718,
+          -155.271667480469,
+          19.4073333740234,
+          5.92000007629395
+        ]
+      },
+      "id": "hv74173557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.36,
+        "place": "10 km NNE of Coso Junction, CA",
+        "time": 1713281139680,
+        "updated": 1713282030480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40714072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40714072.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "ci",
+        "code": "40714072",
+        "ids": ",ci40714072,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.03448,
+        "rms": 0.19,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 10 km NNE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8960037,
+          36.1264992,
+          1.19
+        ]
+      },
+      "id": "ci40714072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.77,
+        "place": "10 km NE of Coso Junction, CA",
+        "time": 1713281055570,
+        "updated": 1713283820040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40714064",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40714064.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 118,
+        "net": "ci",
+        "code": "40714064",
+        "ids": ",ci40714064,us7000mcet,",
+        "sources": ",ci,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.02063,
+        "rms": 0.14,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 10 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8803333,
+          36.1175,
+          8.03
+        ]
+      },
+      "id": "ci40714064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.91,
+        "place": "9 km NNE of Coso Junction, CA",
+        "time": 1713281006400,
+        "updated": 1713284188648,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40714056",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40714056.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": 3.802,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 237,
+        "net": "ci",
+        "code": "40714056",
+        "ids": ",ci40714056,us7000mces,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 42,
+        "dmin": 0.03237,
+        "rms": 0.19,
+        "gap": 41,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.9 - 9 km NNE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8948333,
+          36.117,
+          5.08
+        ]
+      },
+      "id": "ci40714056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.39,
+        "place": "10 km NNE of Coso Junction, CA",
+        "time": 1713280983900,
+        "updated": 1713283742460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40714048",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40714048.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": 4.134,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 177,
+        "net": "ci",
+        "code": "40714048",
+        "ids": ",ci40714048,us7000mcer,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 51,
+        "dmin": 0.02909,
+        "rms": 0.18,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 10 km NNE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8906631,
+          36.1199989,
+          4.54
+        ]
+      },
+      "id": "ci40714048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "1 km W of View Park-Windsor Hills, CA",
+        "time": 1713280750730,
+        "updated": 1713284022295,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40714024",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40714024.geojson",
+        "felt": 187,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 197,
+        "net": "ci",
+        "code": "40714024",
+        "ids": ",ci40714024,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 116,
+        "dmin": 0.007138,
+        "rms": 0.24,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 1 km W of View Park-Windsor Hills, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3551667,
+          33.9951667,
+          11.35
+        ]
+      },
+      "id": "ci40714024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "78 km ESE of Inarajan Village, Guam",
+        "time": 1713279535737,
+        "updated": 1713283145286,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcej.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 3.58,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "7000mcej",
+        "ids": ",pt24107050,us7000mcej,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,losspager,oaf,origin,phase-data,shakemap,",
+        "nst": 164,
+        "dmin": 0.82,
+        "rms": 0.64,
+        "gap": 45,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - 78 km ESE of Inarajan Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3842,
+          12.9367,
           10
         ]
       },
-      "id": "pt24107050"
+      "id": "us7000mcej"
     },
     {
       "type": "Feature",
@@ -535,22 +775,22 @@
         "mag": 4.8,
         "place": "73 km WSW of Pelabuhanratu, Indonesia",
         "time": 1713237501832,
-        "updated": 1713244512040,
+        "updated": 1713281878609,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcbu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcbu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 355,
         "net": "us",
         "code": "7000mcbu",
         "ids": ",us7000mcbu,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 68,
         "dmin": 1.703,
         "rms": 0.6,
@@ -1168,86 +1408,6 @@
         ]
       },
       "id": "hv74172367"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "89 km SSE of Kimbe, Papua New Guinea",
-        "time": 1713195746761,
-        "updated": 1713197890040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mc6w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mc6w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000mc6w",
-        "ids": ",us7000mc6w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 4.488,
-        "rms": 0.62,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 89 km SSE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.4474,
-          -6.2966,
-          10
-        ]
-      },
-      "id": "us7000mc6w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "19 km SW of Susitna, Alaska",
-        "time": 1713194750953,
-        "updated": 1713196092040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0244vk1r8a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0244vk1r8a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0244vk1r8a",
-        "ids": ",us7000mc6t,ak0244vk1r8a,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 19 km SW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7657,
-          61.4123,
-          56.5
-        ]
-      },
-      "id": "ak0244vk1r8a"
     }
   ],
   "bbox": [
