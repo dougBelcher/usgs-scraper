@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713474741000,
+    "generated": 1713478362000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "12 km ESE of Pāhala, Hawaii",
-        "time": 1713473848360,
-        "updated": 1713474005900,
+        "mag": 2.63000011,
+        "place": "10 km NE of Pāhala, Hawaii",
+        "time": 1713478147560,
+        "updated": 1713478252400,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74176887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74176887.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74177017",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74177017.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 106,
         "net": "hv",
-        "code": "74176887",
-        "ids": ",hv74176887,",
+        "code": "74177017",
+        "ids": ",hv74177017,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.09066,
+        "nst": 45,
+        "dmin": 0.07327,
         "rms": 0.129999995,
-        "gap": 177,
-        "magType": "ml",
+        "gap": 126,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 12 km ESE of Pāhala, Hawaii"
+        "title": "M 2.6 - 10 km NE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.366668701172,
-          19.1643333435059,
-          26.2099990844727
+          -155.400833129883,
+          19.2611675262451,
+          30.6499996185303
         ]
       },
-      "id": "hv74176887"
+      "id": "hv74177017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "21 km S of Petersville, Alaska",
+        "time": 1713475179252,
+        "updated": 1713475857040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02450m734y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02450m734y.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "02450m734y",
+        "ids": ",us7000md0k,ak02450m734y,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 21 km S of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.7909,
+          62.3076,
+          64.3
+        ]
+      },
+      "id": "ak02450m734y"
     },
     {
       "type": "Feature",
@@ -55,12 +95,12 @@
         "mag": 2.48,
         "place": "10 km NW of Pinnacles, CA",
         "time": 1713473802010,
-        "updated": 1713473985964,
+        "updated": 1713478186689,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc74036801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc74036801.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "74036801",
         "ids": ",nc74036801,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 46,
         "dmin": 0.073,
         "rms": 0.28,
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "84 km N of Tocopilla, Chile",
+        "time": 1713473337867,
+        "updated": 1713475604117,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000md0f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000md0f.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000md0f",
+        "ids": ",us7000md0f,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.39,
+        "rms": 1.28,
+        "gap": 164,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 84 km N of Tocopilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3137,
+          -21.3329,
+          38.503
+        ]
+      },
+      "id": "us7000md0f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
-        "place": "10 km NE of Susitna North, Alaska",
-        "time": 1713472308242,
-        "updated": 1713473032040,
+        "place": "12 km NE of Susitna North, Alaska",
+        "time": 1713472308729,
+        "updated": 1713477782028,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02450lo8sv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02450lo8sv.geojson",
@@ -103,7 +183,7 @@
         "cdi": 3.4,
         "mmi": 2.512,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 200,
         "net": "ak",
@@ -113,18 +193,18 @@
         "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.59,
+        "rms": 0.72,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 10 km NE of Susitna North, Alaska"
+        "title": "M 3.6 - 12 km NE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.7052,
-          62.2293,
-          43.2
+          -149.6797,
+          62.2335,
+          45.1
         ]
       },
       "id": "ak02450lo8sv"
@@ -135,17 +215,17 @@
         "mag": 4.32,
         "place": "11 km S of Bodfish, CA",
         "time": 1713467958140,
-        "updated": 1713474662358,
+        "updated": 1713478247846,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40549375",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40549375.geojson",
-        "felt": 693,
-        "cdi": 4.6,
+        "felt": 722,
+        "cdi": 4.5,
         "mmi": 4.717,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 606,
+        "sig": 612,
         "net": "ci",
         "code": "40549375",
         "ids": ",ew1713467960,ci40549375,us7000mczm,",
@@ -1208,206 +1288,6 @@
         ]
       },
       "id": "us7000mcsk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "10 km W of Sulusaray, Turkey",
-        "time": 1713391620814,
-        "updated": 1713392777040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcs6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcs6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000mcs6",
-        "ids": ",us7000mcs6,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 85,
-        "dmin": 0.515,
-        "rms": 1.03,
-        "gap": 34,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 10 km W of Sulusaray, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.9561,
-          39.9991,
-          8.47
-        ]
-      },
-      "id": "us7000mcs6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "58 km E of Loreto, Mexico",
-        "time": 1713391259313,
-        "updated": 1713393645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcs4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcs4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000mcs4",
-        "ids": ",us7000mcs4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.794,
-        "rms": 1.04,
-        "gap": 200,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 58 km E of Loreto, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.768,
-          26.0966,
-          10
-        ]
-      },
-      "id": "us7000mcs4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "203 km WSW of Port McNeill, Canada",
-        "time": 1713390375380,
-        "updated": 1713409729629,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcrx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcrx.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 371,
-        "net": "us",
-        "code": "7000mcrx",
-        "ids": ",us7000mcrx,at00sc3wh5,",
-        "sources": ",us,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,",
-        "nst": 88,
-        "dmin": 1.2,
-        "rms": 0.66,
-        "gap": 164,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 203 km WSW of Port McNeill, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.9025,
-          50.2405,
-          10
-        ]
-      },
-      "id": "us7000mcrx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "272 km W of Houma, Tonga",
-        "time": 1713389508217,
-        "updated": 1713396896075,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcru",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcru.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000mcru",
-        "ids": ",us7000mcru,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 95,
-        "dmin": 5.167,
-        "rms": 0.84,
-        "gap": 48,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 272 km W of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9253,
-          -21.2718,
-          389.909
-        ]
-      },
-      "id": "us7000mcru"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "21 km ESE of Cárdenas, Nicaragua",
-        "time": 1713388914778,
-        "updated": 1713459801767,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcrs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mcrs.geojson",
-        "felt": 77,
-        "cdi": 4.2,
-        "mmi": 3.813,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 498,
-        "net": "us",
-        "code": "7000mcrs",
-        "ids": ",us7000mcrs,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 109,
-        "dmin": 0.827,
-        "rms": 1.16,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 21 km ESE of Cárdenas, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.3138,
-          11.1472,
-          154
-        ]
-      },
-      "id": "us7000mcrs"
     }
   ],
   "bbox": [
@@ -1415,7 +1295,7 @@
     -43.7557,
     -1.02,
     146.8672,
-    62.2293,
-    389.909
+    62.3076,
+    98.099
   ]
 }
