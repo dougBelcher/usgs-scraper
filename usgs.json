@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713582982000,
+    "generated": 1713586744000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "207 km NNW of Saipan, Northern Mariana Islands",
+        "time": 1713584544328,
+        "updated": 1713585754376,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mde4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mde4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000mde4",
+        "ids": ",us7000mde4,",
+        "sources": ",us,",
+        "types": ",oaf,origin,phase-data,",
+        "nst": 108,
+        "dmin": 1.84,
+        "rms": 0.79,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 207 km NNW of Saipan, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3714,
+          17.0473,
+          489.214
+        ]
+      },
+      "id": "us7000mde4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -373,9 +413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "20 km S of Nixon, Texas",
-        "time": 1713561865401,
-        "updated": 1713564905040,
+        "place": "19 km NNE of Karnes City, Texas",
+        "time": 1713561865592,
+        "updated": 1713584634945,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hsuf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hsuf.geojson",
@@ -383,7 +423,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "tx",
@@ -391,20 +431,20 @@
         "ids": ",us7000mdb9,tx2024hsuf,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 25,
+        "nst": 24,
         "dmin": 0,
-        "rms": 0.8,
-        "gap": 76,
+        "rms": 0.2,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 20 km S of Nixon, Texas"
+        "title": "M 2.5 - 19 km NNE of Karnes City, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.794,
-          29.08,
-          3.3075
+          -97.808,
+          29.043,
+          4.6143
         ]
       },
       "id": "tx2024hsuf"
@@ -1648,46 +1688,6 @@
         ]
       },
       "id": "us7000md2s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "51 km S of Whites City, New Mexico",
-        "time": 1713498180012,
-        "updated": 1713516235567,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024hrlf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024hrlf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024hrlf",
-        "ids": ",us7000md2b,tx2024hrlf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 51 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.287,
-          31.717,
-          6.1511
-        ]
-      },
-      "id": "tx2024hrlf"
     }
   ],
   "bbox": [
@@ -1696,6 +1696,6 @@
     3.234,
     170.841,
     82.9608,
-    210.351
+    489.214
   ]
 }
