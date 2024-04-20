@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1713611509000,
+    "generated": 1713615949000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "37 km NNW of Toyah, Texas",
+        "time": 1713613649858,
+        "updated": 1713615865534,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024htwr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024htwr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024htwr",
+        "ids": ",tx2024htwr,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 37 km NNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.994,
+          31.607,
+          6.2182
+        ]
+      },
+      "id": "tx2024htwr"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "155 km SSW of Corinto, Nicaragua",
+        "time": 1713605934357,
+        "updated": 1713615191040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mdg0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mdg0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000mdg0",
+        "ids": ",us7000mdg0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 1.654,
+        "rms": 1.11,
+        "gap": 197,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 155 km SSW of Corinto, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8281,
+          11.2338,
+          10
+        ]
+      },
+      "id": "us7000mdg0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "27 km SE of Skwentna, Alaska",
         "time": 1713604044816,
-        "updated": 1713604709854,
+        "updated": 1713615231040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02453q1z64",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02453q1z64.geojson",
@@ -188,8 +268,8 @@
         "sig": 139,
         "net": "ak",
         "code": "02453q1z64",
-        "ids": ",ak02453q1z64,",
-        "sources": ",ak,",
+        "ids": ",ak02453q1z64,us7000mdfv,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -375,11 +455,11 @@
         "mag": 2.83,
         "place": "4 km S of Richland, Washington",
         "time": 1713586737970,
-        "updated": 1713610293863,
+        "updated": 1713615153588,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61998221",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61998221.geojson",
-        "felt": 330,
+        "felt": 332,
         "cdi": 3.1,
         "mmi": 3.24,
         "alert": null,
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "ak024524i9ge"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "28 km SSE of Mina, Nevada",
-        "time": 1713528345727,
-        "updated": 1713541507656,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00876461",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00876461.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00876461",
-        "ids": ",nn00876461,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.044,
-        "rms": 0.1854,
-        "gap": 69.07000000000001,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 28 km SSE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9677,
-          38.1575,
-          12.7
-        ]
-      },
-      "id": "nn00876461"
     }
   ],
   "bbox": [
