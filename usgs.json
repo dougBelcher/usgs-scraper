@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714054268000,
+    "generated": 1714058153000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "30 km NNW of Valdez, Alaska",
+        "time": 1714057994491,
+        "updated": 1714058089694,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245c3cks9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245c3cks9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0245c3cks9",
+        "ids": ",ak0245c3cks9,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 30 km NNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.6043,
+          61.3724,
+          25.1
+        ]
+      },
+      "id": "ak0245c3cks9"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 3.1,
         "place": "7 km NNW of Smiths Ferry, Idaho",
         "time": 1714050276432,
-        "updated": 1714053324130,
+        "updated": 1714057529948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mtp2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mtp2.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "us6000mth4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "20 km S of Loncoche, Chile",
-        "time": 1713971434005,
-        "updated": 1713999151158,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mth0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mth0.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000mth0",
-        "ids": ",us6000mth0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.218,
-        "rms": 0.72,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 20 km S of Loncoche, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.6067,
-          -39.5493,
-          76.988
-        ]
-      },
-      "id": "us6000mth0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "35 km ENE of Schurz, Nevada",
-        "time": 1713969882427,
-        "updated": 1713973418877,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00876791",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00876791.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00876791",
-        "ids": ",nn00876791,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.293,
-        "rms": 0.1736,
-        "gap": 66.04000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 35 km ENE of Schurz, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.4652,
-          39.125,
-          11.8
-        ]
-      },
-      "id": "nn00876791"
     }
   ],
   "bbox": [
@@ -1735,7 +1695,7 @@
     -58.6554,
     1.69,
     179.9637,
-    59.4738,
+    61.3724,
     521.046
   ]
 }
