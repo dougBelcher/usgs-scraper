@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714011889000,
+    "generated": 1714014932000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -415,12 +415,12 @@
         "mag": 5.1,
         "place": "72 km E of Hualien City, Taiwan",
         "time": 1713982315764,
-        "updated": 1714010561604,
+        "updated": 1714012844755,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mthz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mthz.geojson",
-        "felt": 6,
-        "cdi": 3,
+        "felt": 7,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -815,7 +815,7 @@
         "mag": 3.34,
         "place": "50 km SW of Rosarito, B.C., MX",
         "time": 1713963548020,
-        "updated": 1713969831911,
+        "updated": 1714014240040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40556879",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40556879.geojson",
@@ -828,8 +828,8 @@
         "sig": 172,
         "net": "ci",
         "code": "40556879",
-        "ids": ",ci40556879,",
-        "sources": ",ci,",
+        "ids": ",ci40556879,us6000mtgh,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 23,
         "dmin": 0.3866,
@@ -855,7 +855,7 @@
         "mag": 2.82,
         "place": "49 km WSW of Rosarito, B.C., MX",
         "time": 1713963303390,
-        "updated": 1713969674889,
+        "updated": 1714013948040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40556871",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40556871.geojson",
@@ -868,8 +868,8 @@
         "sig": 122,
         "net": "ci",
         "code": "40556871",
-        "ids": ",ci40556871,",
-        "sources": ",ci,",
+        "ids": ",ci40556871,us6000mtgg,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
         "dmin": 0.3752,
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "us6000mtg4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "78 km E of Ollagüe, Chile",
+        "time": 1713957591470,
+        "updated": 1714014769040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mtfv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mtfv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000mtfv",
+        "ids": ",us6000mtfv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.799,
+        "rms": 0.8,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 78 km E of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4962,
+          -21.2602,
+          188.81
+        ]
+      },
+      "id": "us6000mtfv"
     },
     {
       "type": "Feature",
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "mb90047883"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands region",
-        "time": 1713927356172,
-        "updated": 1713930190040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mtd5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mtd5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000mtd5",
-        "ids": ",us6000mtd5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.673,
-        "rms": 0.97,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.3046,
-          -30.1732,
-          10
-        ]
-      },
-      "id": "us6000mtd5"
     }
   ],
   "bbox": [
