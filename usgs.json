@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714307276000,
+    "generated": 1714310141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 48
+    "count": 50
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "89 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1714307009000,
-        "updated": 1714307229267,
+        "mag": 5.2,
+        "place": "153 km WSW of Houma, Tonga",
+        "time": 1714308952303,
+        "updated": 1714310064040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt24119001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt24119001.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mumi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mumi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
-        "net": "pt",
-        "code": "24119001",
-        "ids": ",pt24119001,",
-        "sources": ",pt,",
-        "types": ",origin,",
-        "nst": 23,
-        "dmin": null,
-        "rms": null,
-        "gap": null,
-        "magType": "Ml",
+        "sig": 416,
+        "net": "us",
+        "code": "6000mumi",
+        "ids": ",us6000mumi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 1.464,
+        "rms": 0.93,
+        "gap": 61,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.8 - 89 km N of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 5.2 - 153 km WSW of Houma, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.7,
-          19.134,
-          21
+          -176.5972,
+          -21.8501,
+          168.178
         ]
       },
-      "id": "pt24119001"
+      "id": "us6000mumi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "82 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1714307011190,
+        "updated": 1714309859990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024119002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024119002.geojson",
+        "felt": 15,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 376,
+        "net": "pr",
+        "code": "2024119002",
+        "ids": ",pt24119001,us6000mum7,pr2024119002,",
+        "sources": ",pt,us,pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.7134,
+        "rms": 0.35,
+        "gap": 224,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.9 - 82 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8566,
+          19.0875,
+          10
+        ]
+      },
+      "id": "pr2024119002"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "hv74192037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "106 km WNW of Aykol, China",
+        "time": 1714303869094,
+        "updated": 1714309409040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mulz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mulz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000mulz",
+        "ids": ",us6000mulz,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.251,
+        "rms": 0.89,
+        "gap": 71,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.3 - 106 km WNW of Aykol, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0056,
+          41.3949,
+          6.325
+        ]
+      },
+      "id": "us6000mulz"
     },
     {
       "type": "Feature",
@@ -895,12 +975,12 @@
         "mag": 3.74,
         "place": "121 km NW of Sandy Ground Village, Anguilla",
         "time": 1714264323390,
-        "updated": 1714271458040,
+        "updated": 1714307738941,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024119000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024119000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -908,9 +988,9 @@
         "sig": 215,
         "net": "pr",
         "code": "2024119000",
-        "ids": ",us6000muib,pr2024119000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2024119000,us6000muib,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 1.0844,
         "rms": 0.17,
@@ -1895,11 +1975,11 @@
         "mag": 2.9,
         "place": "7 km WSW of Gladstone, New Jersey",
         "time": 1714225778138,
-        "updated": 1714307180286,
+        "updated": 1714309881887,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mub7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mub7.geojson",
-        "felt": 1004,
+        "felt": 1007,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
@@ -1931,7 +2011,7 @@
     }
   ],
   "bbox": [
-    -175.8112,
+    -176.5972,
     -24.3505,
     -1.0599999427795,
     145.5567,
