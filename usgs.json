@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714403757000,
+    "generated": 1714407477000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "51 km NNE of Kobuk, Alaska",
+        "time": 1714406678264,
+        "updated": 1714407206872,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245iq1ir6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245iq1ir6.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0245iq1ir6",
+        "ids": ",ak0245iq1ir6,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 51 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3292,
+          67.3135,
+          2.1
+        ]
+      },
+      "id": "ak0245iq1ir6"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,10 +212,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "58 km WNW of Kirakira, Solomon Islands",
+        "time": 1714401506835,
+        "updated": 1714406785040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000muwk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000muwk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000muwk",
+        "ids": ",us6000muwk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 1.664,
+        "rms": 0.79,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 58 km WNW of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.4332,
+          -10.2338,
+          86.942
+        ]
+      },
+      "id": "us6000muwk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "77 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1714401003710,
+        "updated": 1714404880180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71447203",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71447203.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "pr",
+        "code": "71447203",
+        "ids": ",pr71447203,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6223,
+        "rms": 0.19,
+        "gap": 280,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 77 km N of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7691666666667,
+          19.0295,
+          33.94
+        ]
+      },
+      "id": "pr71447203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "13 km W of Anza, CA",
         "time": 1714398039550,
-        "updated": 1714402461126,
+        "updated": 1714407197040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40561271",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40561271.geojson",
@@ -188,8 +308,8 @@
         "sig": 113,
         "net": "ci",
         "code": "40561271",
-        "ids": ",ci40561271,",
-        "sources": ",ci,",
+        "ids": ",ci40561271,us6000muw1,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 116,
         "dmin": 0.04611,
@@ -455,17 +575,17 @@
         "mag": 3.33,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1714382040500,
-        "updated": 1714400967459,
+        "updated": 1714405402255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74195372",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74195372.geojson",
-        "felt": 23,
+        "felt": 24,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 179,
         "net": "hv",
         "code": "74195372",
         "ids": ",hv74195372,us6000muuk,",
@@ -492,42 +612,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "82 km ESE of Red Dog Mine, Alaska",
-        "time": 1714381258864,
-        "updated": 1714382400040,
+        "mag": 3.4,
+        "place": "88 km ESE of Red Dog Mine, Alaska",
+        "time": 1714381257858,
+        "updated": 1714405121642,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000muud",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000muud.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245iluo5p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245iluo5p.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000muud",
-        "ids": ",us6000muud,",
-        "sources": ",us,",
+        "sig": 178,
+        "net": "ak",
+        "code": "0245iluo5p",
+        "ids": ",us6000muud,ak0245iluo5p,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.751,
-        "rms": 0.55,
-        "gap": 98,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.59,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 82 km ESE of Red Dog Mine, Alaska"
+        "title": "M 3.4 - 88 km ESE of Red Dog Mine, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.9672,
-          67.8865,
-          14.59
+          -160.8587,
+          67.8185,
+          1
         ]
       },
-      "id": "us6000muud"
+      "id": "ak0245iluo5p"
     },
     {
       "type": "Feature",
@@ -1648,86 +1768,6 @@
         ]
       },
       "id": "pr71447078"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "30 km E of Tomioka, Japan",
-        "time": 1714320965491,
-        "updated": 1714322809040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000munv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000munv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000munv",
-        "ids": ",us6000munv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.651,
-        "rms": 0.61,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 30 km E of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.3647,
-          37.3398,
-          23.493
-        ]
-      },
-      "id": "us6000munv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "11 km S of Tallaboa, Puerto Rico",
-        "time": 1714318641480,
-        "updated": 1714323447300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71447073",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71447073.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71447073",
-        "ids": ",pr71447073,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1437,
-        "rms": 0.19,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 11 km S of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.729,
-          17.8885,
-          5.91
-        ]
-      },
-      "id": "pr71447073"
     }
   ],
   "bbox": [
@@ -1735,7 +1775,7 @@
     -24.3411,
     0.40999999642372,
     170.6327,
-    67.8865,
+    67.8667,
     198.659
   ]
 }
