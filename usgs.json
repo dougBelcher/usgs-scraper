@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714580309000,
+    "generated": 1714583609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
     {
@@ -93,38 +93,38 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "1 km WNW of Gladstone, New Jersey",
-        "time": 1714561287481,
-        "updated": 1714580006797,
+        "place": "1 km SW of Peapack, New Jersey",
+        "time": 1714561287381,
+        "updated": 1714583538839,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mvg6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mvg6.geojson",
-        "felt": 583,
+        "felt": 598,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 372,
+        "sig": 379,
         "net": "us",
         "code": "6000mvg6",
         "ids": ",us6000mvg6,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.064,
-        "rms": 0.53,
-        "gap": 104,
+        "nst": 34,
+        "dmin": 0.054,
+        "rms": 0.37,
+        "gap": 113,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.6 - 1 km WNW of Gladstone, New Jersey"
+        "title": "M 2.6 - 1 km SW of Peapack, New Jersey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.6785,
-          40.7276,
-          5
+          -74.6709,
+          40.7029,
+          10.347
         ]
       },
       "id": "us6000mvg6"
@@ -494,8 +494,8 @@
       "properties": {
         "mag": 2.5,
         "place": "16 km NNW of Sutcliffe, Nevada",
-        "time": 1714536661571,
-        "updated": 1714580164614,
+        "time": 1714536661641,
+        "updated": 1714580349592,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00877049",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00877049.geojson",
@@ -511,10 +511,10 @@
         "ids": ",nn00877049,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.097,
-        "rms": 0.1555,
-        "gap": 135.36,
+        "nst": 24,
+        "dmin": 0.089,
+        "rms": 0.1464,
+        "gap": 126.38999999999999,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 16 km NNW of Sutcliffe, Nevada"
@@ -522,9 +522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.664,
+          -119.6852,
           40.0887,
-          14.9
+          15.1
         ]
       },
       "id": "nn00877049"
@@ -892,6 +892,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.64,
+        "place": "5 km ESE of Bonanza, Oregon",
+        "time": 1714524323660,
+        "updated": 1714583277450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62001056",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62001056.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 204,
+        "net": "uw",
+        "code": "62001056",
+        "ids": ",uw62001056,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1494,
+        "rms": 0.38,
+        "gap": 201,
+        "magType": "md",
+        "type": "explosion",
+        "title": "M 3.6 Explosion - 5 km ESE of Bonanza, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34116666666667,
+          42.17616666666667,
+          -1.83
+        ]
+      },
+      "id": "uw62001056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.6,
         "place": "189 km E of Atka, Alaska",
         "time": 1714515812571,
@@ -1133,7 +1173,7 @@
   "bbox": [
     -171.4774,
     -62.2199,
-    1.53,
+    -1.83,
     148.8845,
     59.9303,
     394.91
