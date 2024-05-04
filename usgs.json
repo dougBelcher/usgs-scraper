@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1714853734000,
+    "generated": 1714857203000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Kermadec Islands region",
+        "time": 1714853685772,
+        "updated": 1714854773040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwd2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mwd2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000mwd2",
+        "ids": ",us6000mwd2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.97,
+        "rms": 0.61,
+        "gap": 181,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.0765,
+          -31.2338,
+          31.695
+        ]
+      },
+      "id": "us6000mwd2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "49 km W of Rincón, Puerto Rico",
+        "time": 1714853468050,
+        "updated": 1714856221890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024125000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024125000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "pr",
+        "code": "2024125000",
+        "ids": ",pr2024125000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6216,
+        "rms": 0.38,
+        "gap": 169,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 49 km W of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7145,
+          18.318,
+          140
+        ]
+      },
+      "id": "pr2024125000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,22 +135,22 @@
         "mag": 4.3,
         "place": "off the coast of Oregon",
         "time": 1714850198044,
-        "updated": 1714852143040,
+        "updated": 1714854244949,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwcq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mwcq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000mwcq",
         "ids": ",us6000mwcq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 3.765,
         "rms": 0.67,
@@ -88,6 +168,46 @@
         ]
       },
       "id": "us6000mwcq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "37 km S of Finschhafen, Papua New Guinea",
+        "time": 1714848163490,
+        "updated": 1714856684040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwcn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mwcn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000mwcn",
+        "ids": ",us6000mwcn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.572,
+        "rms": 0.35,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 37 km S of Finschhafen, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7928,
+          -6.8935,
+          55.754
+        ]
+      },
+      "id": "us6000mwcn"
     },
     {
       "type": "Feature",
@@ -1452,7 +1572,7 @@
   ],
   "bbox": [
     -179.9934,
-    -24.9544,
+    -31.2338,
     0.68000000715256,
     167.1628,
     67.128,
