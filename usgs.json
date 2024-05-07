@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715098657000,
+    "generated": 1715102006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 33
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "6 km W of Point MacKenzie, Alaska",
-        "time": 1715097066271,
-        "updated": 1715098295802,
+        "mag": 2.5,
+        "place": "13 km NNE of Stanley, Idaho",
+        "time": 1715101232193,
+        "updated": 1715101991040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mx0p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mx0p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000mx0p",
+        "ids": ",us6000mx0p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.224,
+        "rms": 1.01,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km NNE of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.8684,
+          44.3293,
+          1.772
+        ]
+      },
+      "id": "us6000mx0p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "7 km WNW of Point MacKenzie, Alaska",
+        "time": 1715097067520,
+        "updated": 1715101400694,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245vy0vc4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245vy0vc4.geojson",
-        "felt": 4,
+        "felt": 8,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 114,
         "net": "ak",
         "code": "0245vy0vc4",
         "ids": ",ak0245vy0vc4,",
@@ -33,21 +73,61 @@
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.93,
+        "rms": 0.68,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 6 km W of Point MacKenzie, Alaska"
+        "title": "M 2.7 - 7 km WNW of Point MacKenzie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0945,
-          61.3685,
-          18.7
+          -150.0953,
+          61.3893,
+          19.2
         ]
       },
       "id": "ak0245vy0vc4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "254 km W of Adak, Alaska",
+        "time": 1715094109876,
+        "updated": 1715101861040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwyw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mwyw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.125,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000mwyw",
+        "ids": ",us6000mwyw,ak0245vxq8xo,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 57,
+        "dmin": 0.37,
+        "rms": 0.47,
+        "gap": 189,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 254 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.6968,
+          51.6399,
+          106.498
+        ]
+      },
+      "id": "us6000mwyw"
     },
     {
       "type": "Feature",
@@ -295,22 +375,22 @@
         "mag": 3.5,
         "place": "56 km S of Whites City, New Mexico",
         "time": 1715072005393,
-        "updated": 1715079633128,
+        "updated": 1715101530918,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024iysn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024iysn.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 4.049,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 189,
         "net": "tx",
         "code": "2024iysn",
-        "ids": ",us6000mwx4,tx2024iysn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",tx2024iysn,us6000mwx4,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 36,
         "dmin": 0,
         "rms": 0.1,
@@ -1254,8 +1334,8 @@
     -176.9019,
     -59.6019,
     0.97000002861023,
-    169.7008,
-    61.3685,
+    179.6968,
+    61.3893,
     367.963
   ]
 }
