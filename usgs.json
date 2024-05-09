@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715238940000,
+    "generated": 1715242720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "13 km S of Knik River, Alaska",
+        "time": 1715241768960,
+        "updated": 1715242048672,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0245z4n48w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0245z4n48w.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0245z4n48w",
+        "ids": ",ak0245z4n48w,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km S of Knik River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9399,
+          61.3422,
+          22
+        ]
+      },
+      "id": "ak0245z4n48w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1715240896500,
+        "updated": 1715241053210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74223342",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74223342.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "74223342",
+        "ids": ",hv74223342,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.01011,
+        "rms": 0.239999995,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 6 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.235504150391,
+          19.3824996948242,
+          1.02999997138977
+        ]
+      },
+      "id": "hv74223342"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -815,11 +895,11 @@
         "mag": 2.54,
         "place": "16 km SW of Thatcher, Utah",
         "time": 1715171105710,
-        "updated": 1715203128011,
+        "updated": 1715240682340,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80069091",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80069091.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us6000mx5p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "99 km ENE of Luganville, Vanuatu",
-        "time": 1715156235442,
-        "updated": 1715163884987,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mx5c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mx5c.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 6.381,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 573,
-        "net": "us",
-        "code": "6000mx5c",
-        "ids": ",us6000mx5c,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 76,
-        "dmin": 6.438,
-        "rms": 1.3,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 99 km ENE of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.9978,
-          -15.1394,
-          12.45
-        ]
-      },
-      "id": "us6000mx5c"
     }
   ],
   "bbox": [
