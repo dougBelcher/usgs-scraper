@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715242720000,
+    "generated": 1715246185000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "82 km ESE of Red Dog Mine, Alaska",
+        "time": 1715242942049,
+        "updated": 1715245024040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mxdv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mxdv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000mxdv",
+        "ids": ",us6000mxdv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.758,
+        "rms": 0.55,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 82 km ESE of Red Dog Mine, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.9559,
+          67.8753,
+          10
+        ]
+      },
+      "id": "us6000mxdv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "pr71448063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "111 km E of Port-Olry, Vanuatu",
-        "time": 1715159015691,
-        "updated": 1715160252040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mx5u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mx5u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000mx5u",
-        "ids": ",us6000mx5u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 6.567,
-        "rms": 0.48,
-        "gap": 168,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 111 km E of Port-Olry, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.1129,
-          -15.0568,
-          10
-        ]
-      },
-      "id": "us6000mx5u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "36 km SSE of Hualien City, Taiwan",
-        "time": 1715157643559,
-        "updated": 1715159328040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mx5p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mx5p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000mx5p",
-        "ids": ",us6000mx5p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.439,
-        "rms": 1.08,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 36 km SSE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6839,
-          23.6522,
-          13.048
-        ]
-      },
-      "id": "us6000mx5p"
     }
   ],
   "bbox": [
@@ -1415,7 +1375,7 @@
     -21.3978,
     -2.0999999046326,
     168.1303,
-    67.8663,
+    67.8753,
     103.725
   ]
 }
