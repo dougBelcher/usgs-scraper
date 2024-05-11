@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715397400000,
+    "generated": 1715401060000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 25
+    "count": 26
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
+        "place": "50 km SE of Vilyuchinsk, Russia",
+        "time": 1715398654087,
+        "updated": 1715399988040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mxwx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mxwx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000mxwx",
+        "ids": ",us6000mxwx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.449,
+        "rms": 0.92,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 50 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.9261,
+          52.6077,
+          78.701
+        ]
+      },
+      "id": "us6000mxwx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "70 km WNW of Ternate, Indonesia",
+        "time": 1715396536647,
+        "updated": 1715397667040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mxwu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mxwu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000mxwu",
+        "ids": ",us6000mxwu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 4.585,
+        "rms": 0.98,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 70 km WNW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8315,
+          1.1039,
+          81.734
+        ]
+      },
+      "id": "us6000mxwu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
         "place": "57 km W of Anchor Point, Alaska",
         "time": 1715392385860,
-        "updated": 1715396803681,
+        "updated": 1715401008886,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02462bum3w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02462bum3w.geojson",
-        "felt": 97,
+        "felt": 113,
         "cdi": 3.8,
         "mmi": 3.509,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 348,
+        "sig": 354,
         "net": "ak",
         "code": "02462bum3w",
         "ids": ",ak02462bum3w,us6000mxwn,",
@@ -968,46 +1048,6 @@
         ]
       },
       "id": "us6000mxnx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "89 km ESE of Red Dog Mine, Alaska",
-        "time": 1715313667149,
-        "updated": 1715313846022,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02460psfdm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02460psfdm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02460psfdm",
-        "ids": ",ak02460psfdm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.85,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 89 km ESE of Red Dog Mine, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.8065,
-          67.8656,
-          8.7
-        ]
-      },
-      "id": "ak02460psfdm"
     }
   ],
   "bbox": [
@@ -1015,7 +1055,7 @@
     -23.0492,
     1,
     178.0839,
-    67.8656,
+    62.4398,
     231.184
   ]
 }
