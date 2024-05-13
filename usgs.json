@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715631291000,
+    "generated": 1715634964000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -572,28 +572,28 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.77,
+        "mag": 2.76,
         "place": "10 km NNW of Delta, B.C., MX",
-        "time": 1715591512010,
-        "updated": 1715592144460,
+        "time": 1715591511870,
+        "updated": 1715633084090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40747792",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40747792.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 117,
         "net": "ci",
         "code": "40747792",
         "ids": ",ci40747792,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.05801,
-        "rms": 0.31,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.05764,
+        "rms": 0.32,
         "gap": 43,
         "magType": "ml",
         "type": "earthquake",
@@ -602,9 +602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2388333,
-          32.4348333,
-          7.52
+          -115.2393333,
+          32.435,
+          7.57
         ]
       },
       "id": "ci40747792"
@@ -655,22 +655,22 @@
         "mag": 2.5,
         "place": "8 km NNE of Houston, Alaska",
         "time": 1715586724580,
-        "updated": 1715610752040,
+        "updated": 1715633345032,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02465qhp01",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02465qhp01.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 97,
         "net": "ak",
         "code": "02465qhp01",
-        "ids": ",us6000my88,ak02465qhp01,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02465qhp01,us6000my88,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.49,
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000my64"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "8 km WNW of Delta, B.C., MX",
-        "time": 1715546785140,
-        "updated": 1715547207698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40747224",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40747224.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "ci",
-        "code": "40747224",
-        "ids": ",ci40747224,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.04734,
-        "rms": 0.32,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km WNW of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.261,
-          32.3901667,
-          5.97
-        ]
-      },
-      "id": "ci40747224"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.73,
-        "place": "12 km NW of Pinnacles, CA",
-        "time": 1715544927760,
-        "updated": 1715545468040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75005661",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75005661.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "nc",
-        "code": "75005661",
-        "ids": ",nc75005661,us6000my5l,",
-        "sources": ",nc,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.05573,
-        "rms": 0.24,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.245666503906,
-          36.6059989929199,
-          6.67000007629395
-        ]
-      },
-      "id": "nc75005661"
     }
   ],
   "bbox": [
