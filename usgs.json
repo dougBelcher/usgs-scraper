@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715854523000,
+    "generated": 1715857983000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "174 km SSE of Alo, Wallis and Futuna",
+        "time": 1715855318869,
+        "updated": 1715857357040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000myxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000myxm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000myxm",
+        "ids": ",us6000myxm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 1.578,
+        "rms": 1.03,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 174 km SSE of Alo, Wallis and Futuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.4786,
+          -15.7673,
+          420.758
+        ]
+      },
+      "id": "us6000myxm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "204 km SW of Longyearbyen, Svalbard and Jan Mayen",
+        "time": 1715854253273,
+        "updated": 1715855851040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000myxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000myxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000myxl",
+        "ids": ",us6000myxl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 1.886,
+        "rms": 1.22,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 204 km SW of Longyearbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6159,
+          77.1714,
+          10
+        ]
+      },
+      "id": "us6000myxl"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.8,
         "place": "6 km S of Ridgely, Tennessee",
         "time": 1715847574350,
-        "updated": 1715854369860,
+        "updated": 1715857191520,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60582051",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60582051.geojson",
-        "felt": 150,
+        "felt": 168,
         "cdi": 5.2,
         "mmi": 4.698,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 300,
+        "sig": 310,
         "net": "nm",
         "code": "60582051",
         "ids": ",nm60582051,us6000myxc,",
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "ak024693qgtm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "3 km SW of Indios, Puerto Rico",
-        "time": 1715768635520,
-        "updated": 1715769835400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71448878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71448878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71448878",
-        "ids": ",pr71448878,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.03671,
-        "rms": 0.13,
-        "gap": 165,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8408333333333,
-          17.9718333333333,
-          16.93
-        ]
-      },
-      "id": "pr71448878"
     }
   ],
   "bbox": [
@@ -1655,7 +1695,7 @@
     -36.7957,
     -0.079999998211861,
     151.5088,
-    68.1276,
+    77.1714,
     579.119
   ]
 }
