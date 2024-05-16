@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715886697000,
+    "generated": 1715890503000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 41
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "179 km WNW of Bandon, Oregon",
+        "time": 1715888563615,
+        "updated": 1715889774040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mz1t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mz1t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000mz1t",
+        "ids": ",us6000mz1t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 1.831,
+        "rms": 0.87,
+        "gap": 275,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 179 km WNW of Bandon, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.5496,
+          43.5134,
+          10
+        ]
+      },
+      "id": "us6000mz1t"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.6,
         "place": "24 km WSW of Mosquito Lake, Alaska",
         "time": 1715885018398,
-        "updated": 1715885182137,
+        "updated": 1715888552870,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246avlnan",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246avlnan.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "0246avlnan",
         "ids": ",ak0246avlnan,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.81,
@@ -295,11 +335,11 @@
         "mag": 3.84,
         "place": "5 km SSW of Pāhala, Hawaii",
         "time": 1715865942320,
-        "updated": 1715883823700,
+        "updated": 1715888321740,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74232822",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74232822.geojson",
-        "felt": 30,
+        "felt": 32,
         "cdi": 3.3,
         "mmi": 3.916,
         "alert": null,
@@ -455,17 +495,17 @@
         "mag": 3.8,
         "place": "6 km S of Ridgely, Tennessee",
         "time": 1715847574350,
-        "updated": 1715885729216,
+        "updated": 1715890310292,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60582051",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60582051.geojson",
-        "felt": 249,
+        "felt": 258,
         "cdi": 5.8,
         "mmi": 4.698,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 367,
+        "sig": 372,
         "net": "nm",
         "code": "60582051",
         "ids": ",nm60582051,us6000myxc,",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us6000myuq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "western Xizang",
-        "time": 1715801414393,
-        "updated": 1715803590040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mytd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mytd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000mytd",
-        "ids": ",us6000mytd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 6.448,
-        "rms": 0.63,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - western Xizang"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.8374,
-          33.5462,
-          10
-        ]
-      },
-      "id": "us6000mytd"
     }
   ],
   "bbox": [
