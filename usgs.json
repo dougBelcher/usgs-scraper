@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715944417000,
+    "generated": 1715948917000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 21
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.76,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1715948409890,
+        "updated": 1715948566950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74234172",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74234172.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 117,
+        "net": "hv",
+        "code": "74234172",
+        "ids": ",hv74234172,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.004835,
+        "rms": 0.170000002,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 7 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.277496337891,
+          19.3921661376953,
+          1.47000002861023
+        ]
+      },
+      "id": "hv74234172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "3 km SSE of Hartley, Texas",
+        "time": 1715936723911,
+        "updated": 1715947726040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024jqzy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024jqzy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024jqzy",
+        "ids": ",us6000mz5b,tx2024jqzy,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.6,
+        "rms": 0.3,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km SSE of Hartley, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.384,
+          35.858,
+          4.1504
+        ]
+      },
+      "id": "tx2024jqzy"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,12 +535,12 @@
         "mag": 2.7,
         "place": "179 km WNW of Bandon, Oregon",
         "time": 1715888563615,
-        "updated": 1715889774040,
+        "updated": 1715944681122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mz1t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mz1t.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +550,7 @@
         "code": "6000mz1t",
         "ids": ",us6000mz1t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 1.831,
         "rms": 0.87,
