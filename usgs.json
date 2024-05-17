@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1715970047000,
+    "generated": 1715973097000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 19
+    "count": 18
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "266 km W of Adak, Alaska",
+        "time": 1715972075085,
+        "updated": 1715973087859,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246cj7cgc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246cj7cgc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.29,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "ak",
+        "code": "0246cj7cgc",
+        "ids": ",ak0246cj7cgc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 266 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.528,
+          51.652,
+          74.6
+        ]
+      },
+      "id": "ak0246cj7cgc"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -688,93 +728,13 @@
         ]
       },
       "id": "us6000mz1t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "13 km SSW of Volcano, Hawaii",
-        "time": 1715886524460,
-        "updated": 1715886686230,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74233177",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74233177.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "hv",
-        "code": "74233177",
-        "ids": ",hv74233177,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.004748,
-        "rms": 0.209999993,
-        "gap": 210,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 13 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.297500610352,
-          19.332332611084,
-          9.64000034332275
-        ]
-      },
-      "id": "hv74233177"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "31 km WSW of Mosquito Lake, Alaska",
-        "time": 1715885017853,
-        "updated": 1715892764149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mz1d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mz1d.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000mz1d",
-        "ids": ",ak0246avlnan,us6000mz1d,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.128,
-        "rms": 0.52,
-        "gap": 107,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km WSW of Mosquito Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.6156,
-          59.447,
-          12.038
-        ]
-      },
-      "id": "us6000mz1d"
     }
   ],
   "bbox": [
     -163.9504,
     -36.2957,
     0.89999997615814,
-    140.5331,
+    179.528,
     60.9649,
     177.444
   ]
