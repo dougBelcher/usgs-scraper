@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716196730000,
+    "generated": 1716200210000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "111 km ENE of Chignik, Alaska",
+        "time": 1716199061446,
+        "updated": 1716199927845,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246hch51e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246hch51e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.214,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "0246hch51e",
+        "ids": ",ak0246hch51e,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 111 km ENE of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.6765,
+          56.5819,
+          50.9
+        ]
+      },
+      "id": "ak0246hch51e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1448,126 +1488,6 @@
         ]
       },
       "id": "hv74240247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "145 km SW of La Placita de Morelos, Mexico",
-        "time": 1716111582278,
-        "updated": 1716112697040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzmh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzmh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000mzmh",
-        "ids": ",us6000mzmh,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 59,
-        "dmin": 3.742,
-        "rms": 0.97,
-        "gap": 91,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 145 km SW of La Placita de Morelos, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5165,
-          17.5684,
-          10
-        ]
-      },
-      "id": "us6000mzmh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "161 km WSW of Nikolski, Alaska",
-        "time": 1716111324992,
-        "updated": 1716176739201,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzme",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzme.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 4.724,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 554,
-        "net": "us",
-        "code": "6000mzme",
-        "ids": ",us6000mzme,at00sdq7z1,ak0246fot1c4,",
-        "sources": ",us,at,ak,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": 209,
-        "dmin": 0.857,
-        "rms": 1.24,
-        "gap": 59,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 161 km WSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -170.8669,
-          52.1586,
-          28
-        ]
-      },
-      "id": "us6000mzme"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "21 km NW of New Meadows, Idaho",
-        "time": 1716110471040,
-        "updated": 1716127936460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90051553",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90051553.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "mb",
-        "code": "90051553",
-        "ids": ",mb90051553,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.3282,
-        "rms": 0.27,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 21 km NW of New Meadows, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.462,
-          45.1156666666667,
-          4.03
-        ]
-      },
-      "id": "mb90051553"
     }
   ],
   "bbox": [
