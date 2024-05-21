@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716283017000,
+    "generated": 1716286557000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "201 km N of Sola, Vanuatu",
+        "time": 1716285044212,
+        "updated": 1716285780040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n00g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n00g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000n00g",
+        "ids": ",us6000n00g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 7.628,
+        "rms": 0.78,
+        "gap": 30,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 201 km N of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.2386,
+          -12.0765,
+          261.886
+        ]
+      },
+      "id": "us6000n00g"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1768,93 +1808,13 @@
         ]
       },
       "id": "hv74241762"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "114 km ENE of Chignik, Alaska",
-        "time": 1716199061187,
-        "updated": 1716214076100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0246hch51e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0246hch51e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.748,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0246hch51e",
-        "ids": ",us6000mzsh,ak0246hch51e,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 114 km ENE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.6042,
-          56.5325,
-          21.4
-        ]
-      },
-      "id": "ak0246hch51e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "31 km NE of Hualien City, Taiwan",
-        "time": 1716196814718,
-        "updated": 1716208691040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mzsf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000mzsf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000mzsf",
-        "ids": ",us6000mzsf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.678,
-        "rms": 0.65,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 31 km NE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8505,
-          24.1457,
-          23.494
-        ]
-      },
-      "id": "us6000mzsf"
     }
   ],
   "bbox": [
     -179.2851,
     -32.6023,
     3.3,
-    148.2966,
+    167.2386,
     73.9587,
     613.106
   ]
