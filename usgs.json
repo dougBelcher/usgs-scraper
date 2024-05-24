@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1716585308000,
+    "generated": 1716588852000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
@@ -615,17 +615,17 @@
         "mag": 2.9,
         "place": "6 km WSW of Gladstone, New Jersey",
         "time": 1716537012695,
-        "updated": 1716584844765,
+        "updated": 1716588268818,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n0ne",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n0ne.geojson",
-        "felt": 922,
+        "felt": 928,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 526,
+        "sig": 528,
         "net": "us",
         "code": "6000n0ne",
         "ids": ",us6000n0ne,",
@@ -655,21 +655,21 @@
         "mag": 4.5,
         "place": "136 km S of False Pass, Alaska",
         "time": 1716535003890,
-        "updated": 1716540228040,
+        "updated": 1716588691186,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n0nc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n0nc.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.569,
+        "mmi": 1.599,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 312,
         "net": "us",
         "code": "6000n0nc",
-        "ids": ",us6000n0nc,ak0246nx6vv8,",
-        "sources": ",us,ak,",
+        "ids": ",ak0246nx6vv8,us6000n0nc,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 71,
         "dmin": 1.229,
@@ -975,7 +975,7 @@
         "mag": 3.81,
         "place": "39 km E of Miches, Dominican Republic",
         "time": 1716523248870,
-        "updated": 1716525630596,
+        "updated": 1716585891040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024145001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024145001.geojson",
@@ -988,8 +988,8 @@
         "sig": 223,
         "net": "pr",
         "code": "2024145001",
-        "ids": ",pr2024145001,",
-        "sources": ",pr,",
+        "ids": ",us6000n0mq,pr2024145001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 10,
         "dmin": 1.8156,
@@ -1092,6 +1092,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "southeast Indian Ridge",
+        "time": 1716513084060,
+        "updated": 1716585485040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n0nh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n0nh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000n0nh",
+        "ids": ",us6000n0nh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 19.165,
+        "rms": 0.85,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - southeast Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0365,
+          -48.1357,
+          10
+        ]
+      },
+      "id": "us6000n0nh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.83,
         "place": "2 km SE of Yauco, Puerto Rico",
         "time": 1716507047770,
@@ -1168,94 +1208,14 @@
         ]
       },
       "id": "us6000n0li"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "10 km SE of Pinnacles, CA",
-        "time": 1716501980660,
-        "updated": 1716502171610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75011276",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75011276.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "nc",
-        "code": "75011276",
-        "ids": ",nc75011276,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.1097,
-        "rms": 0.15,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 10 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.06583404541,
-          36.4706649780273,
-          5.46999979019165
-        ]
-      },
-      "id": "nc75011276"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "Kuril Islands",
-        "time": 1716500621860,
-        "updated": 1716503099040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n0kv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n0kv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000n0kv",
-        "ids": ",us6000n0kv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 6.514,
-        "rms": 0.68,
-        "gap": 171,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.831,
-          47.132,
-          175.83
-        ]
-      },
-      "id": "us6000n0kv"
     }
   ],
   "bbox": [
     -176.7334,
-    -24.398,
-    5.4699997901917,
+    -48.1357,
+    5.86,
     173.8794,
     56.6576,
-    175.83
+    161
   ]
 }
