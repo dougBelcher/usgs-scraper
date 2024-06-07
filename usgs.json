@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717758829000,
+    "generated": 1717763505000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "45 km SSW of Port-Vila, Vanuatu",
+        "time": 1717759709770,
+        "updated": 1717762925040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mqxf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mqxf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000mqxf",
+        "ids": ",us7000mqxf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 4.324,
+        "rms": 0.88,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km SSW of Port-Vila, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.125,
+          -18.1055,
+          34.986
+        ]
+      },
+      "id": "us7000mqxf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,11 +495,11 @@
         "mag": 3.36,
         "place": "3 km ENE of Newport Beach, CA",
         "time": 1717718689720,
-        "updated": 1717756298763,
+        "updated": 1717762139076,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40616311",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40616311.geojson",
-        "felt": 983,
+        "felt": 984,
         "cdi": 4.1,
         "mmi": 3.716,
         "alert": null,
@@ -495,11 +535,11 @@
         "mag": 3.58,
         "place": "2 km NE of Newport Beach, CA",
         "time": 1717717944590,
-        "updated": 1717758588330,
+        "updated": 1717761572299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40616303",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40616303.geojson",
-        "felt": 3728,
+        "felt": 3729,
         "cdi": 4.2,
         "mmi": 3.878,
         "alert": null,
@@ -1048,93 +1088,13 @@
         ]
       },
       "id": "us7000mqpy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "25 km S of Cooper Landing, Alaska",
-        "time": 1717672991489,
-        "updated": 1717676385040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02479hlk18",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02479hlk18.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "02479hlk18",
-        "ids": ",us7000mqpg,ak02479hlk18,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 25 km S of Cooper Landing, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.8968,
-          60.2661,
-          28.9
-        ]
-      },
-      "id": "ak02479hlk18"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.99000001,
-        "place": "9 km SSE of Hala‘ula, Hawaii",
-        "time": 1717672566970,
-        "updated": 1717714286952,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74263956",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74263956.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "hv",
-        "code": "74263956",
-        "ids": ",hv74263956,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.314,
-        "rms": 0.300000012,
-        "gap": 307,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 9 km SSE of Hala‘ula, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.729995727539,
-          20.1650009155273,
-          99.5299987792969
-        ]
-      },
-      "id": "hv74263956"
     }
   ],
   "bbox": [
-    -155.72999572754,
+    -155.21933333333,
     -55.3027,
     1.3899999856949,
-    149.7145,
+    168.125,
     61.2519,
     534.867
   ]
