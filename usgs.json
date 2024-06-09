@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717900470000,
+    "generated": 1717903073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "90 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1717902023651,
+        "updated": 1717902932040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mr9p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mr9p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000mr9p",
+        "ids": ",us7000mr9p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.912,
+        "rms": 0.34,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 90 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0355,
+          17.7731,
+          35
+        ]
+      },
+      "id": "us7000mr9p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "6 km NNW of Enoch, Utah",
         "time": 1717899734460,
-        "updated": 1717900399390,
+        "updated": 1717901434040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80072066",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80072066.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "uu",
         "code": "80072066",
-        "ids": ",uu80072066,",
-        "sources": ",uu,",
+        "ids": ",us7000mr9i,uu80072066,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
         "nst": 19,
         "dmin": 0.2835,
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "us7000mr4q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "5 km NNE of Windsor, CA",
-        "time": 1717814212420,
-        "updated": 1717893317618,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75017572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75017572.geojson",
-        "felt": 14,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "nc",
-        "code": "75017572",
-        "ids": ",nc75017572,us7000mr4d,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.07305,
-        "rms": 0.1,
-        "gap": 44,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km NNE of Windsor, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.793830871582,
-          38.5926666259766,
-          7.23999977111816
-        ]
-      },
-      "id": "nc75017572"
     }
   ],
   "bbox": [
