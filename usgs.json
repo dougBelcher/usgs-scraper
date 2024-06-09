@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1717917293000,
+    "generated": 1717921073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.58999991,
+        "place": "14 km E of Kalaoa, Hawaii",
+        "time": 1717920728650,
+        "updated": 1717920860110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74269471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74269471.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "74269471",
+        "ids": ",hv74269471,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.05533,
+        "rms": 0.140000001,
+        "gap": 142,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km E of Kalaoa, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.845504760742,
+          19.7395000457764,
+          25.8799991607666
+        ]
+      },
+      "id": "hv74269471"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +168,46 @@
         ]
       },
       "id": "us7000mraf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "83 km W of San Antonio de los Cobres, Argentina",
+        "time": 1717910065560,
+        "updated": 1717919086040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mrad",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mrad.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000mrad",
+        "ids": ",us7000mrad,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.411,
+        "rms": 0.84,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 83 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1439,
+          -24.2312,
+          163.508
+        ]
+      },
+      "id": "us7000mrad"
     },
     {
       "type": "Feature",
@@ -815,17 +895,17 @@
         "mag": 4.48,
         "place": "7 km NW of The Geysers, CA",
         "time": 1717875269120,
-        "updated": 1717912331534,
+        "updated": 1717920443553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75017972",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75017972.geojson",
-        "felt": 244,
+        "felt": 245,
         "cdi": 3.8,
         "mmi": 4.786,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 401,
+        "sig": 402,
         "net": "nc",
         "code": "75017972",
         "ids": ",ew1717875270,nc75017972,us7000mr89,",
@@ -1612,7 +1692,7 @@
   ],
   "bbox": [
     -178.1737,
-    -20.5368,
+    -24.2312,
     0.1,
     166.7279,
     76.6614,
