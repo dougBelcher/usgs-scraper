@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718241118000,
+    "generated": 1718245918000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
     {
@@ -55,17 +55,17 @@
         "mag": 2.77,
         "place": "8 km SSW of Lares, Puerto Rico",
         "time": 1718237354650,
-        "updated": 1718239545726,
+        "updated": 1718243748737,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71452458",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71452458.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 119,
         "net": "pr",
         "code": "71452458",
         "ids": ",pr71452458,",
@@ -528,6 +528,46 @@
         ]
       },
       "id": "pr2024164000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "57 km SW of Panguna, Papua New Guinea",
+        "time": 1718206403986,
+        "updated": 1718245077040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mrxy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mrxy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mrxy",
+        "ids": ",us7000mrxy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 86,
+        "dmin": 5.511,
+        "rms": 0.61,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 57 km SW of Panguna, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.1177,
+          -6.6816,
+          366.688
+        ]
+      },
+      "id": "us7000mrxy"
     },
     {
       "type": "Feature",
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "ak0247j9kfpk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "northern East Pacific Rise",
-        "time": 1718159156818,
-        "updated": 1718166582083,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mrv4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mrv4.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000mrv4",
-        "ids": ",us7000mrv4,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 59,
-        "dmin": 13.953,
-        "rms": 0.96,
-        "gap": 185,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - northern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.3157,
-          8.4109,
-          10
-        ]
-      },
-      "id": "us7000mrv4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.16,
-        "place": "71 km N of Isabela, Puerto Rico",
-        "time": 1718157943430,
-        "updated": 1718159429870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71452328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71452328.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 154,
-        "net": "pr",
-        "code": "71452328",
-        "ids": ",pr71452328,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.6845,
-        "rms": 0.14,
-        "gap": 304,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 71 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0275,
-          19.151,
-          39.17
-        ]
-      },
-      "id": "pr71452328"
     }
   ],
   "bbox": [
