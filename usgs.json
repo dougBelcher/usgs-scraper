@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1718532966000,
+    "generated": 1718536378000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,25 +12,65 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "2 km SW of Inba, Japan",
+        "time": 1718532995989,
+        "updated": 1718536032641,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mssq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mssq.geojson",
+        "felt": 8,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 314,
+        "net": "us",
+        "code": "7000mssq",
+        "ids": ",us7000mssq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.78,
+        "rms": 0.64,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 2 km SW of Inba, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1841,
+          35.7574,
+          64.223
+        ]
+      },
+      "id": "us7000mssq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.08,
         "place": "11 km NE of Pāhala, Hawaii",
         "time": 1718532509730,
-        "updated": 1718532848658,
+        "updated": 1718533260486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74279461",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74279461.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": 3.811,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 146,
         "net": "hv",
         "code": "74279461",
-        "ids": ",hv74279461,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",hv74279461,us7000mssp,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 62,
         "dmin": 0.06498,
         "rms": 0.180000007,
@@ -215,17 +255,17 @@
         "mag": 2.67,
         "place": "0 km ENE of Redmond, Washington",
         "time": 1718521383020,
-        "updated": 1718532534798,
+        "updated": 1718535677099,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62007742",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62007742.geojson",
-        "felt": 273,
+        "felt": 276,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 227,
+        "sig": 228,
         "net": "uw",
         "code": "62007742",
         "ids": ",uw62007742,us7000mss4,",
@@ -1328,46 +1368,6 @@
         ]
       },
       "id": "us7000msmy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "9 km SSE of Cantwell, Alaska",
-        "time": 1718447043298,
-        "updated": 1718469468523,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0247ocufye",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0247ocufye.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.733,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "0247ocufye",
-        "ids": ",us7000msmp,ak0247ocufye,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 9 km SSE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.8737,
-          63.3144,
-          82.4
-        ]
-      },
-      "id": "ak0247ocufye"
     }
   ],
   "bbox": [
@@ -1375,7 +1375,7 @@
     -60.9993,
     0,
     174.7574,
-    63.3144,
+    61.6078,
     495.291
   ]
 }
