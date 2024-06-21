@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719001037000,
+    "generated": 1719004577000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "central Mid-Atlantic Ridge",
+        "time": 1719003190033,
+        "updated": 1719004452416,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mtur",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mtur.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000mtur",
+        "ids": ",us7000mtur,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 70,
+        "dmin": 11.717,
+        "rms": 0.72,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - central Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.21,
+          0.8245,
+          10
+        ]
+      },
+      "id": "us7000mtur"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,11 +215,11 @@
         "mag": 3.78,
         "place": "9 km SW of Stella, Puerto Rico",
         "time": 1718991794460,
-        "updated": 1718994374932,
+        "updated": 1719001275122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024173000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024173000.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": 3.519,
         "alert": "green",
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "pr71453563"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Kuril Islands",
-        "time": 1718917094378,
-        "updated": 1718977584040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mtnn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mtnn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000mtnn",
-        "ids": ",us7000mtnn,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 6.84,
-        "rms": 0.44,
-        "gap": 195,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.6895,
-          46.506,
-          32.004
-        ]
-      },
-      "id": "us7000mtnn"
     }
   ],
   "bbox": [
