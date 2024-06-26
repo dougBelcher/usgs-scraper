@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719393503000,
+    "generated": 1719396987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.69,
+        "place": "8 km NNW of Puerto Real, Puerto Rico",
+        "time": 1719394693610,
+        "updated": 1719396460844,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71454058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71454058.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "pr",
+        "code": "71454058",
+        "ids": ",pr71454058,",
+        "sources": ",pr,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.1278,
+        "rms": 0.08,
+        "gap": 292,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km NNW of Puerto Real, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2161666666667,
+          18.1443333333333,
+          23.23
+        ]
+      },
+      "id": "pr71454058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1719394691409,
+        "updated": 1719396751040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n88m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n88m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000n88m",
+        "ids": ",us6000n88m,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3.37,
+        "rms": 1.02,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0804,
+          -25.9472,
+          89.064
+        ]
+      },
+      "id": "us6000n88m"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +128,46 @@
         ]
       },
       "id": "us6000n88h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "17 km SW of Xinyingpan, China",
+        "time": 1719390975272,
+        "updated": 1719393565040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n88e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n88e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000n88e",
+        "ids": ",us6000n88e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 8.128,
+        "rms": 1.26,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 17 km SW of Xinyingpan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8064,
+          27.0471,
+          10
+        ]
+      },
+      "id": "us6000n88e"
     },
     {
       "type": "Feature",
@@ -255,12 +375,12 @@
         "mag": 3.21,
         "place": "8 km SW of Kahaluu-Keauhou, Hawaii",
         "time": 1719369442030,
-        "updated": 1719377694040,
+        "updated": 1719393581505,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74292931",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74292931.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -268,9 +388,9 @@
         "sig": 159,
         "net": "hv",
         "code": "74292931",
-        "ids": ",us6000n87b,hv74292931,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
+        "ids": ",hv74292931,us6000n87b,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 64,
         "dmin": 0.111,
         "rms": 0.12,
@@ -1092,7 +1212,7 @@
   ],
   "bbox": [
     -178.9091,
-    -22.8693,
+    -25.9472,
     0.58,
     179.7473,
     70.7809,
