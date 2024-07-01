@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719861230000,
+    "generated": 1719865008000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -172,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.44000006,
-        "place": "6 km SSW of Volcano, Hawaii",
-        "time": 1719848341400,
-        "updated": 1719857559818,
+        "mag": 2.94,
+        "place": "5 km SSW of Volcano, Hawaii",
+        "time": 1719848341420,
+        "updated": 1719864729455,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74309441",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74309441.geojson",
@@ -183,28 +183,28 @@
         "cdi": 3.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 185,
+        "sig": 136,
         "net": "hv",
         "code": "74309441",
         "ids": ",hv74309441,us6000n9lf,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.001004,
-        "rms": 0.280000001,
-        "gap": 69,
-        "magType": "md",
+        "nst": 51,
+        "dmin": 0.006224,
+        "rms": 0.1,
+        "gap": 53,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 6 km SSW of Volcano, Hawaii"
+        "title": "M 2.9 - 5 km SSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.250503540039,
-          19.3861675262451,
-          0.889999985694885
+          -155.247333333333,
+          19.3905,
+          1.53
         ]
       },
       "id": "hv74309441"
@@ -1328,50 +1328,10 @@
         ]
       },
       "id": "us6000n9hb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "232 km SE of Attu Station, Alaska",
-        "time": 1719778585227,
-        "updated": 1719781413040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n9ha",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000n9ha.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.008,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000n9ha",
-        "ids": ",ak0248dbtddf,us6000n9ha,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 1.629,
-        "rms": 0.85,
-        "gap": 234,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 232 km SE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.6618,
-          51.4187,
-          10
-        ]
-      },
-      "id": "us6000n9ha"
     }
   ],
   "bbox": [
-    -155.25050354004,
+    -155.24733333333,
     -62.6803,
     0.04,
     179.5577,
