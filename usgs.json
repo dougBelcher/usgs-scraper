@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1719994809000,
+    "generated": 1719998218000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.61,
+        "place": "12 km ENE of Pāhala, Hawaii",
+        "time": 1719996179640,
+        "updated": 1719996337610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74312951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74312951.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "hv",
+        "code": "74312951",
+        "ids": ",hv74312951,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.07485,
+        "rms": 0.119999997,
+        "gap": 141,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 12 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.371826171875,
+          19.2523326873779,
+          33.5499992370605
+        ]
+      },
+      "id": "hv74312951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.48,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1719993082310,
-        "updated": 1719993808403,
+        "updated": 1719995736040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74312886",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74312886.geojson",
@@ -28,8 +68,8 @@
         "sig": 95,
         "net": "hv",
         "code": "74312886",
-        "ids": ",hv74312886,",
-        "sources": ",hv,",
+        "ids": ",hv74312886,us6000n9zr,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 49,
         "dmin": 0.00989,
@@ -175,7 +215,7 @@
         "mag": 3.22,
         "place": "3 km SW of Fuig, Puerto Rico",
         "time": 1719987618930,
-        "updated": 1719988962622,
+        "updated": 1719996237040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024185000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024185000.geojson",
@@ -188,8 +228,8 @@
         "sig": 160,
         "net": "pr",
         "code": "2024185000",
-        "ids": ",pr2024185000,",
-        "sources": ",pr,",
+        "ids": ",us6000n9zk,pr2024185000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.1731,
@@ -1728,46 +1768,6 @@
         ]
       },
       "id": "us6000n9ss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.01,
-        "place": "15 km S of Camarillo, CA",
-        "time": 1719909117930,
-        "updated": 1719979725228,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40816784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40816784.geojson",
-        "felt": 110,
-        "cdi": 4.3,
-        "mmi": 3.07,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "ci",
-        "code": "40816784",
-        "ids": ",ci40816784,us6000n9sm,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 91,
-        "dmin": 0.03972,
-        "rms": 0.27,
-        "gap": 121,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 15 km S of Camarillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.013,
-          34.0865,
-          16.77
-        ]
-      },
-      "id": "ci40816784"
     }
   ],
   "bbox": [
