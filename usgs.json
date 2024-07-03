@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720037797000,
+    "generated": 1720041364000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 40
+    "count": 42
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "196 km WSW of Tofino, Canada",
-        "time": 1720036763000,
-        "updated": 1720037123426,
+        "place": "218 km WSW of Tofino, Canada",
+        "time": 1720038102742,
+        "updated": 1720041261040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/at00sg2cuz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/at00sg2cuz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000na5b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000na5b.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "REVIEWED",
-        "tsunami": 1,
+        "status": "reviewed",
+        "tsunami": 0,
         "sig": 312,
-        "net": "at",
-        "code": "00sg2cuz",
-        "ids": ",at00sg2cuz,",
-        "sources": ",at,",
-        "types": ",impact-link,origin,",
-        "nst": 55,
-        "dmin": 3.293224,
-        "rms": 1.41,
-        "gap": 158.399987328001,
-        "magType": "Mb",
+        "net": "us",
+        "code": "6000na5b",
+        "ids": ",us6000na5b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.075,
+        "rms": 1.04,
+        "gap": 145,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 196 km WSW of Tofino, Canada"
+        "title": "M 4.5 - 218 km WSW of Tofino, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -128.446,
-          48.583,
-          62
+          -128.7655,
+          48.6079,
+          10
         ]
       },
-      "id": "at00sg2cuz"
+      "id": "us6000na5b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Vancouver Island, Canada region",
+        "time": 1720036756539,
+        "updated": 1720039956909,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000na4b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000na4b.geojson",
+        "felt": 3,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 298,
+        "net": "us",
+        "code": "6000na4b",
+        "ids": ",us6000na4b,at00sg2cuz,",
+        "sources": ",us,at,",
+        "types": ",dyfi,impact-link,origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.131,
+        "rms": 1.13,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Vancouver Island, Canada region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.6736,
+          48.5409,
+          10
+        ]
+      },
+      "id": "us6000na4b"
     },
     {
       "type": "Feature",
@@ -128,6 +168,46 @@
         ]
       },
       "id": "usd0011dnn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01,
+        "place": "93 km ESE of Maneadero, B.C., MX",
+        "time": 1720023797900,
+        "updated": 1720038016086,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40647423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40647423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ci",
+        "code": "40647423",
+        "ids": ",ci40647423,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 5,
+        "dmin": 0.1574,
+        "rms": 0.15,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 93 km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6285,
+          31.476,
+          4.86
+        ]
+      },
+      "id": "ci40647423"
     },
     {
       "type": "Feature",
