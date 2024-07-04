@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720113279000,
+    "generated": 1720117279000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "239 km WSW of Tofino, Canada",
+        "time": 1720114997778,
+        "updated": 1720116028040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mx40",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mx40.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 284,
+        "net": "us",
+        "code": "7000mx40",
+        "ids": ",at00sg418b,us7000mx40,",
+        "sources": ",at,us,",
+        "types": ",impact-link,origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.801,
+        "rms": 0.8,
+        "gap": 152,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 239 km WSW of Tofino, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.1074,
+          48.7243,
+          10
+        ]
+      },
+      "id": "us7000mx40"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 5.7,
         "place": "232 km WSW of Tofino, Canada",
         "time": 1720109708277,
-        "updated": 1720112591313,
+        "updated": 1720116010103,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mx3m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mx3m.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 3.1,
         "mmi": 3.403,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 501,
+        "sig": 502,
         "net": "us",
         "code": "7000mx3m",
         "ids": ",us7000mx3m,at00sg3x5h,",
@@ -295,7 +335,7 @@
         "mag": 3.77,
         "place": "137 km NNE of Vieques, Puerto Rico",
         "time": 1720107225300,
-        "updated": 1720109469606,
+        "updated": 1720115035040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024186001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024186001.geojson",
@@ -308,8 +348,8 @@
         "sig": 219,
         "net": "pr",
         "code": "2024186001",
-        "ids": ",pr2024186001,",
-        "sources": ",pr,",
+        "ids": ",us7000mx3j,pr2024186001,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 12,
         "dmin": 1.2654,
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.4,
-        "place": "214 km WSW of Tofino, Canada",
+        "place": "Vancouver Island, Canada region",
         "time": 1720036756539,
         "updated": 1720039956909,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 154,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 214 km WSW of Tofino, Canada"
+        "title": "M 4.4 - Vancouver Island, Canada region"
       },
       "geometry": {
         "type": "Point",
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "ak0248i9cetd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "39 km W of San Pedro de Atacama, Chile",
-        "time": 1720030834677,
-        "updated": 1720067460377,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0011dnn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/usd0011dnn.geojson",
-        "felt": 4,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 434,
-        "net": "us",
-        "code": "d0011dnn",
-        "ids": ",usd0011dnn,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 103,
-        "dmin": 0.371,
-        "rms": 1.01,
-        "gap": 56,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 39 km W of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5811,
-          -22.9565,
-          93.864
-        ]
-      },
-      "id": "usd0011dnn"
     }
   ],
   "bbox": [
