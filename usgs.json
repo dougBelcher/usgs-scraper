@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720696450000,
+    "generated": 1720701109000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "52 km S of Chignik, Alaska",
+        "time": 1720698171752,
+        "updated": 1720698306994,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0248vdiv13",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0248vdiv13.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0248vdiv13",
+        "ids": ",ak0248vdiv13,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 52 km S of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.2514,
+          55.8333,
+          42.1
+        ]
+      },
+      "id": "ak0248vdiv13"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "120 km SSW of Merizo Village, Guam",
         "time": 1720690054542,
-        "updated": 1720695808519,
+        "updated": 1720698703380,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000myiz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000myiz.geojson",
-        "felt": 16,
+        "felt": 18,
         "cdi": 3.4,
         "mmi": 3.529,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 454,
+        "sig": 455,
         "net": "us",
         "code": "7000myiz",
         "ids": ",us7000myiz,",
@@ -1328,126 +1368,6 @@
         ]
       },
       "id": "us7000mya1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "36 km S of Sacsamarca, Peru",
-        "time": 1720614142775,
-        "updated": 1720670870040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000my9d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000my9d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000my9d",
-        "ids": ",us7000my9d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.325,
-        "rms": 0.63,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 36 km S of Sacsamarca, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3448,
-          -14.2673,
-          87.663
-        ]
-      },
-      "id": "us7000my9d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "14 km W of Cantua Creek, CA",
-        "time": 1720613077970,
-        "updated": 1720678816644,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75033147",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75033147.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75033147",
-        "ids": ",nc75033147,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1678,
-        "rms": 0.25,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km W of Cantua Creek, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.470832824707,
-          36.4806671142578,
-          12.4099998474121
-        ]
-      },
-      "id": "nc75033147"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "24 km W of Pasuquin, Philippines",
-        "time": 1720612815747,
-        "updated": 1720616935093,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000my99",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000my99.geojson",
-        "felt": 1,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000my99",
-        "ids": ",us7000my99,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 79,
-        "dmin": 4.531,
-        "rms": 0.83,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 24 km W of Pasuquin, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.3868,
-          18.3101,
-          30.548
-        ]
-      },
-      "id": "us7000my99"
     }
   ],
   "bbox": [
