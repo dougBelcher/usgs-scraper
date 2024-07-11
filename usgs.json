@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720707262000,
+    "generated": 1720710988000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "219 km WSW of Tofino, Canada",
+        "time": 1720710524584,
+        "updated": 1720710874774,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1720710590",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1720710590.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 650,
+        "net": "ew",
+        "code": "1720710590",
+        "ids": ",ew1720710590,",
+        "sources": ",ew,",
+        "types": ",dyfi,origin,",
+        "nst": 13,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 6.5 - 219 km WSW of Tofino, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.838,
+          48.757,
+          8
+        ]
+      },
+      "id": "ew1720710590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.6,
+        "place": "215 km WSW of Port McNeill, Canada",
+        "time": 1720710512000,
+        "updated": 1720710981305,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt24193001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt24193001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 1,
+        "sig": 670,
+        "net": "pt",
+        "code": "24193001",
+        "ids": ",at00sggsq8,pt24193001,",
+        "sources": ",at,pt,",
+        "types": ",impact-link,origin,",
+        "nst": 18,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "Mi",
+        "type": "earthquake",
+        "title": "M 6.6 - 215 km WSW of Port McNeill, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.881,
+          49.855,
+          11
+        ]
+      },
+      "id": "pt24193001"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.31,
         "place": "7 km SW of Volcano, Hawaii",
         "time": 1720705159330,
-        "updated": 1720705332670,
+        "updated": 1720710601040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74327801",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74327801.geojson",
@@ -28,8 +108,8 @@
         "sig": 169,
         "net": "hv",
         "code": "74327801",
-        "ids": ",hv74327801,",
-        "sources": ",hv,",
+        "ids": ",us7000mykb,hv74327801,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 55,
         "dmin": 0.005609,
