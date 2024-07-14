@@ -1,53 +1,213 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1720955675000,
+    "generated": 1720960916000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 37
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.68,
-        "place": "13 km SSE of Waynoka, Oklahoma",
-        "time": 1720955306526,
-        "updated": 1720955740995,
+        "mag": 2.5,
+        "place": "128 km WNW of Yakutat, Alaska",
+        "time": 1720959833958,
+        "updated": 1720959978713,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024ntdd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024ntdd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02490cm9oj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02490cm9oj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 208,
-        "net": "ok",
-        "code": "2024ntdd",
-        "ids": ",ok2024ntdd,",
-        "sources": ",ok,",
+        "sig": 96,
+        "net": "ak",
+        "code": "02490cm9oj",
+        "ids": ",ak02490cm9oj,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 0.02746373229,
-        "rms": 0.4170970362,
-        "gap": 73.56992722,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 13 km SSE of Waynoka, Oklahoma"
+        "title": "M 2.5 - 128 km WNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.80859375,
-          36.4765892,
-          5
+          -141.7783,
+          60.0579,
+          5.1
+        ]
+      },
+      "id": "ak02490cm9oj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71000004,
+        "place": "2 km SSE of Pāhala, Hawaii",
+        "time": 1720959825270,
+        "updated": 1720960001430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74333956",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74333956.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "hv",
+        "code": "74333956",
+        "ids": ",hv74333956,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.03083,
+        "rms": 0.150000006,
+        "gap": 97,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 2 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.468338012695,
+          19.1858329772949,
+          30.5300006866455
+        ]
+      },
+      "id": "hv74333956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "109 km SE of Pondaguitan, Philippines",
+        "time": 1720958613521,
+        "updated": 1720959527040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz6x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz6x.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mz6x",
+        "ids": ",us7000mz6x,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.908,
+        "rms": 0.44,
+        "gap": 158,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 109 km SE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8641,
+          5.6424,
+          104.732
+        ]
+      },
+      "id": "us7000mz6x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.67,
+        "place": "14 km SSE of Waynoka, Oklahoma",
+        "time": 1720955306815,
+        "updated": 1720959045051,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024ntdd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024ntdd.geojson",
+        "felt": 4,
+        "cdi": 4.1,
+        "mmi": 4.072,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "ok",
+        "code": "2024ntdd",
+        "ids": ",ok2024ntdd,us7000mz6l,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 107,
+        "dmin": 0.02712917887,
+        "rms": 0.7087074704,
+        "gap": 40.29860306,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 14 km SSE of Waynoka, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.79433441,
+          36.47645187,
+          1.877563596
         ]
       },
       "id": "ok2024ntdd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "98 km WSW of Masachapa, Nicaragua",
+        "time": 1720953434244,
+        "updated": 1720957884040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mz6h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mz6h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000mz6h",
+        "ids": ",us7000mz6h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 103,
+        "dmin": 1.187,
+        "rms": 0.68,
+        "gap": 175,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 98 km WSW of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3845,
+          11.5577,
+          36.588
+        ]
+      },
+      "id": "us7000mz6h"
     },
     {
       "type": "Feature",
@@ -1448,52 +1608,12 @@
         ]
       },
       "id": "us7000mz27"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "1 km E of Pāhala, Hawaii",
-        "time": 1720870449790,
-        "updated": 1720870961040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74331991",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74331991.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "hv",
-        "code": "74331991",
-        "ids": ",us7000mz1w,hv74331991,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.04887,
-        "rms": 0.119999997,
-        "gap": 102,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.464340209961,
-          19.2045001983643,
-          31.2099990844727
-        ]
-      },
-      "id": "hv74331991"
     }
   ],
   "bbox": [
     -176.2119,
     -37.4814,
-    4.2,
+    1.877563596,
     160.8462,
     61.3549,
     459.776
