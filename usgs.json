@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721142871000,
+    "generated": 1721146727000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.71,
         "place": "14 km SW of Borrego Springs, CA",
         "time": 1721142340580,
-        "updated": 1721142760993,
+        "updated": 1721142982750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661111",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661111.geojson",
@@ -30,7 +30,7 @@
         "code": "40661111",
         "ids": ",ci40661111,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 97,
         "dmin": 0.08543,
         "rms": 0.19,
@@ -48,6 +48,86 @@
         ]
       },
       "id": "ci40661111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "10 km NNE of Tataltepec de Valdés, Mexico",
+        "time": 1721140155066,
+        "updated": 1721146158653,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzjz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzjz.geojson",
+        "felt": 5,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 356,
+        "net": "us",
+        "code": "7000mzjz",
+        "ids": ",us7000mzjz,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 179,
+        "dmin": 1.537,
+        "rms": 0.63,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 10 km NNE of Tataltepec de Valdés, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5118,
+          16.3967,
+          12.633
+        ]
+      },
+      "id": "us7000mzjz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1721139718620,
+        "updated": 1721143999030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337507",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337507.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74337507",
+        "ids": ",hv74337507,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.008637,
+        "rms": 0.1,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2425,
+          19.3831666666667,
+          0.75
+        ]
+      },
+      "id": "hv74337507"
     },
     {
       "type": "Feature",
@@ -132,39 +212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.17,
-        "place": "6 km SSW of Volcano, Hawaii",
-        "time": 1721136804550,
-        "updated": 1721139300306,
+        "mag": 2.83,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1721136804570,
+        "updated": 1721143587016,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337362",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337362.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 155,
+        "sig": 124,
         "net": "hv",
         "code": "74337362",
         "ids": ",hv74337362,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.005628,
-        "rms": 0.219999999,
+        "nst": 51,
+        "dmin": 0.008184,
+        "rms": 0.1,
         "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 6 km SSW of Volcano, Hawaii"
+        "title": "M 2.8 - 6 km S of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.245666503906,
-          19.3873329162598,
-          1.21000003814697
+          -155.243166666667,
+          19.3883333333333,
+          1.69
         ]
       },
       "id": "hv74337362"
@@ -415,11 +495,11 @@
         "mag": 3.42,
         "place": "10 km ESE of Gilroy, CA",
         "time": 1721119322630,
-        "updated": 1721142715635,
+        "updated": 1721146507057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75035487",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75035487.geojson",
-        "felt": 100,
+        "felt": 101,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
@@ -1168,52 +1248,12 @@
         ]
       },
       "id": "us7000mzeg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "12 km NE of Pāhala, Hawaii",
-        "time": 1721059363100,
-        "updated": 1721065875755,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74335432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74335432.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "hv",
-        "code": "74335432",
-        "ids": ",hv74335432,us7000mzdj,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.03155,
-        "rms": 0.12,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 12 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.386666666667,
-          19.2675,
-          34.6
-        ]
-      },
-      "id": "hv74335432"
     }
   ],
   "bbox": [
     -178.3336,
     -52.8123,
-    0.85,
+    0.75,
     178.8615,
     51.5799,
     594.556
