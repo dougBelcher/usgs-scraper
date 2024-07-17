@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721236432000,
+    "generated": 1721240512000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "114 km WSW of Covenant Life, Alaska",
+        "time": 1721238917391,
+        "updated": 1721239494540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02495ee9a3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02495ee9a3.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.923,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "02495ee9a3",
+        "ids": ",ak02495ee9a3,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.93,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 114 km WSW of Covenant Life, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.9156,
+          59.0708,
+          1.9
+        ]
+      },
+      "id": "ak02495ee9a3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +95,11 @@
         "mag": 3.34,
         "place": "10 km ESE of Gilroy, CA",
         "time": 1721230048770,
-        "updated": 1721235876159,
+        "updated": 1721239837731,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75036152",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75036152.geojson",
-        "felt": 63,
+        "felt": 66,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -92,39 +132,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
-        "place": "6 km ENE of San Jacinto, CA",
-        "time": 1721229140580,
-        "updated": 1721234809314,
+        "mag": 2.79,
+        "place": "5 km ENE of San Jacinto, CA",
+        "time": 1721229140510,
+        "updated": 1721240369372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662231.geojson",
-        "felt": 90,
+        "felt": 92,
         "cdi": 3.8,
         "mmi": 2.874,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 155,
         "net": "ci",
         "code": "40662231",
         "ids": ",ci40662231,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 99,
-        "dmin": 0.0507,
-        "rms": 0.21,
-        "gap": 21,
+        "nst": 154,
+        "dmin": 0.05084,
+        "rms": 0.19,
+        "gap": 17,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 6 km ENE of San Jacinto, CA"
+        "title": "M 2.8 - 5 km ENE of San Jacinto, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9069977,
-          33.8083344,
-          13.82
+          -116.9068333,
+          33.8071667,
+          14.17
         ]
       },
       "id": "ci40662231"
@@ -208,6 +248,46 @@
         ]
       },
       "id": "ci40662023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "5 km SSW of Volcano, Hawaii",
+        "time": 1721211387730,
+        "updated": 1721239187540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74340311",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74340311.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74340311",
+        "ids": ",hv74340311,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.008015,
+        "rms": 0.1,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.248666666667,
+          19.3931666666667,
+          1.53
+        ]
+      },
+      "id": "hv74340311"
     },
     {
       "type": "Feature",
@@ -968,91 +1048,11 @@
         ]
       },
       "id": "hv74338052"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "15 km NNW of Magadi, Kenya",
-        "time": 1721151175383,
-        "updated": 1721229573403,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzmk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzmk.geojson",
-        "felt": 169,
-        "cdi": 5.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 422,
-        "net": "us",
-        "code": "7000mzmk",
-        "ids": ",us7000mzmk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.224,
-        "rms": 0.68,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 15 km NNW of Magadi, Kenya"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.2153,
-          -1.7815,
-          10
-        ]
-      },
-      "id": "us7000mzmk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "5 km SSW of Volcano, Hawaii",
-        "time": 1721150370960,
-        "updated": 1721161776040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74337872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74337872.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "hv",
-        "code": "74337872",
-        "ids": ",us7000mzmc,hv74337872,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.007837,
-        "rms": 0.09,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.250333333333,
-          19.3933333333333,
-          1.76
-        ]
-      },
-      "id": "hv74337872"
     }
   ],
   "bbox": [
     -155.3994,
-    -1.7815,
+    1.246,
     -1.0700000524521,
     178.4642,
     60.7499,
