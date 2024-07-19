@@ -1,50 +1,410 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721340898000,
+    "generated": 1721356426000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 22
+    "count": 27
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
+        "mag": 5,
+        "place": "39 km SE of San Pedro de Atacama, Chile",
+        "time": 1721355351863,
+        "updated": 1721356134040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n05k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n05k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000n05k",
+        "ids": ",us7000n05k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.311,
+        "rms": 0.74,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 39 km SE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9407,
+          -23.1734,
+          138.235
+        ]
+      },
+      "id": "us7000n05k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7.4,
+        "place": "45 km ESE of San Pedro de Atacama, Chile",
+        "time": 1721353847675,
+        "updated": 1721356245067,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n05d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n05d.geojson",
+        "felt": 94,
+        "cdi": 6.3,
+        "mmi": 7.086,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 902,
+        "net": "us",
+        "code": "7000n05d",
+        "ids": ",at00sgul50,pt24201000,us7000n05d,",
+        "sources": ",at,pt,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 105,
+        "dmin": 0.378,
+        "rms": 1.12,
+        "gap": 29,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.4 - 45 km ESE of San Pedro de Atacama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7818,
+          -23.0467,
+          117.434
+        ]
+      },
+      "id": "us7000n05d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "77 km ENE of Ouzinkie, Alaska",
+        "time": 1721352331559,
+        "updated": 1721352981040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02498frm3z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02498frm3z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "02498frm3z",
+        "ids": ",us7000n05a,ak02498frm3z,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.42,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 77 km ENE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.355,
+          58.2627,
+          20.6
+        ]
+      },
+      "id": "ak02498frm3z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "25 km NE of Morgan Hill, CA",
+        "time": 1721350815600,
+        "updated": 1721354997841,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75036707",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75036707.geojson",
+        "felt": 17,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 187,
+        "net": "nc",
+        "code": "75036707",
+        "ids": ",nc75036707,us7000n058,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 79,
+        "dmin": null,
+        "rms": 0.14,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 25 km NE of Morgan Hill, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.489501953125,
+          37.3121681213379,
+          7.28999996185303
+        ]
+      },
+      "id": "nc75036707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "84 km E of Maneadero, B.C., MX",
+        "time": 1721350099570,
+        "updated": 1721353815284,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664127.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.338,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "ci",
+        "code": "40664127",
+        "ids": ",ci40664127,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 21,
+        "dmin": 0.1933,
+        "rms": 0.18,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 84 km E of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.696,
+          31.57,
+          7
+        ]
+      },
+      "id": "ci40664127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "22 km W of Rincón, Puerto Rico",
+        "time": 1721347815410,
+        "updated": 1721348940130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71455808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71455808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "pr",
+        "code": "71455808",
+        "ids": ",pr71455808,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.3108,
+        "rms": 0.09,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 22 km W of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4565,
+          18.3116666666667,
+          83.2
+        ]
+      },
+      "id": "pr71455808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "56 km NNW of Chalkyitsik, Alaska",
+        "time": 1721345891641,
+        "updated": 1721346051622,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024975ejsc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024975ejsc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "024975ejsc",
+        "ids": ",ak024975ejsc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 56 km NNW of Chalkyitsik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.2933,
+          67.1098,
+          1.3
+        ]
+      },
+      "id": "ak024975ejsc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "Bonin Islands, Japan region",
+        "time": 1721344877044,
+        "updated": 1721345814040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n04e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n04e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000n04e",
+        "ids": ",us7000n04e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.316,
+        "rms": 0.9,
+        "gap": 74,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8831,
+          28.6688,
+          495.821
+        ]
+      },
+      "id": "us7000n04e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "99 km SSE of Korsakov, Russia",
+        "time": 1721343278514,
+        "updated": 1721343959040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n04c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n04c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000n04c",
+        "ids": ",us7000n04c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 1.749,
+        "rms": 0.71,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 99 km SSE of Korsakov, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2652,
+          45.8018,
+          324.679
+        ]
+      },
+      "id": "us7000n04c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
         "place": "165 km W of Adak, Alaska",
-        "time": 1721339366188,
-        "updated": 1721340094040,
+        "time": 1721339366256,
+        "updated": 1721355012071,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n03w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n03w.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.172,
+        "mmi": 3.14,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 199,
         "net": "us",
         "code": "7000n03w",
-        "ids": ",us7000n03w,ak024974a2ly,",
-        "sources": ",us,ak,",
+        "ids": ",ak024974a2ly,us7000n03w,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 0.127,
-        "rms": 0.31,
-        "gap": 142,
+        "nst": 38,
+        "dmin": 0.133,
+        "rms": 0.5,
+        "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.5 - 165 km W of Adak, Alaska"
+        "title": "M 3.6 - 165 km W of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.997,
-          51.6083,
-          80.197
+          -178.9963,
+          51.623,
+          80.706
         ]
       },
       "id": "us7000n03w"
@@ -55,12 +415,12 @@
         "mag": 2.46,
         "place": "6 km NE of Shasta, CA",
         "time": 1721332276810,
-        "updated": 1721333238587,
+        "updated": 1721350780876,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75036647",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75036647.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +430,7 @@
         "code": "75036647",
         "ids": ",nc75036647,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 15,
         "dmin": 0.06108,
         "rms": 0.36,
@@ -175,11 +535,11 @@
         "mag": 4.9,
         "place": "47 km E of Farkhār, Afghanistan",
         "time": 1721326482750,
-        "updated": 1721334772126,
+        "updated": 1721342697827,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n02k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n02k.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -255,12 +615,12 @@
         "mag": 4.4,
         "place": "4 km NW of Ushiku, Japan",
         "time": 1721315855193,
-        "updated": 1721326127040,
+        "updated": 1721356005304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n00u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n00u.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +630,7 @@
         "code": "7000n00u",
         "ids": ",us7000n00u,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 20,
         "dmin": 1.618,
         "rms": 0.6,
@@ -455,11 +815,11 @@
         "mag": 5.6,
         "place": "163 km S of Tateyama, Japan",
         "time": 1721300856268,
-        "updated": 1721339030605,
+        "updated": 1721355917144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzzc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzzc.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 2.9,
         "mmi": 4.277,
         "alert": "green",
@@ -488,6 +848,46 @@
         ]
       },
       "id": "us7000mzzc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.98,
+        "place": "100 km SE of Estacion Coahuila, B.C., MX",
+        "time": 1721298967840,
+        "updated": 1721350473970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663263",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663263.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "ci",
+        "code": "40663263",
+        "ids": ",ci40663263,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.5785,
+        "rms": 0.16,
+        "gap": 141,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 100 km SE of Estacion Coahuila, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3416667,
+          31.4928333,
+          5.97
+        ]
+      },
+      "id": "ci40663263"
     },
     {
       "type": "Feature",
@@ -688,214 +1088,14 @@
         ]
       },
       "id": "us7000mzxx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "7 km SSW of Borrego Springs, CA",
-        "time": 1721265872880,
-        "updated": 1721329973770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662967.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "ci",
-        "code": "40662967",
-        "ids": ",ci40662967,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 102,
-        "dmin": 0.07304,
-        "rms": 0.2,
-        "gap": 15,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SSW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3951667,
-          33.1973333,
-          12.01
-        ]
-      },
-      "id": "ci40662967"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "8 km S of Piedecuesta, Colombia",
-        "time": 1721264957337,
-        "updated": 1721266540040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzxt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzxt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000mzxt",
-        "ids": ",us7000mzxt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 1.011,
-        "rms": 0.73,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 8 km S of Piedecuesta, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.0511,
-          6.9092,
-          141.472
-        ]
-      },
-      "id": "us7000mzxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "67 km SSE of Kuril’sk, Russia",
-        "time": 1721263728423,
-        "updated": 1721264849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mzxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mzxg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000mzxg",
-        "ids": ",us7000mzxg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.978,
-        "rms": 0.66,
-        "gap": 185,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 67 km SSE of Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.0945,
-          44.6374,
-          83.767
-        ]
-      },
-      "id": "us7000mzxg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77,
-        "place": "12 km NE of Trabuco Canyon, CA",
-        "time": 1721260569550,
-        "updated": 1721332322613,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662919",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662919.geojson",
-        "felt": 30,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "ci",
-        "code": "40662919",
-        "ids": ",ci40662919,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 128,
-        "dmin": 0.02952,
-        "rms": 0.19,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 12 km NE of Trabuco Canyon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4873333,
-          33.732,
-          10.61
-        ]
-      },
-      "id": "ci40662919"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "36 km ENE of Furnace Creek, California",
-        "time": 1721255207333,
-        "updated": 1721268297949,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00881044",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00881044.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "nn",
-        "code": "00881044",
-        "ids": ",nn00881044,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.128,
-        "rms": 0.1454,
-        "gap": 50.06,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 36 km ENE of Furnace Creek, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.488,
-          36.5997,
-          7.2
-        ]
-      },
-      "id": "nn00881044"
     }
   ],
   "bbox": [
-    -178.997,
-    -5.231,
+    -178.9963,
+    -23.1734,
     1,
-    148.0945,
-    63.4512,
-    222.562
+    143.2652,
+    67.1098,
+    495.821
   ]
 }
