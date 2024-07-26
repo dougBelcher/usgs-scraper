@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1721981990000,
+    "generated": 1721985449000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 74
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1721984000359,
+        "updated": 1721984708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ng2z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ng2z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000ng2z",
+        "ids": ",us6000ng2z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.033,
+        "rms": 0.68,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4659,
+          31.6824,
+          8.258
+        ]
+      },
+      "id": "us6000ng2z"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2095,7 +2135,7 @@
         "mag": 5.8,
         "place": "South Sandwich Islands region",
         "time": 1721919920776,
-        "updated": 1721927400072,
+        "updated": 1721985312040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nfpd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nfpd.geojson",
@@ -2110,7 +2150,7 @@
         "code": "6000nfpd",
         "ids": ",us6000nfpd,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 59,
         "dmin": 8.809,
         "rms": 0.66,
@@ -2928,46 +2968,6 @@
         ]
       },
       "id": "us6000nfld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.74,
-        "place": "7 km S of Volcano, Hawaii",
-        "time": 1721897787750,
-        "updated": 1721966811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74362371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74362371.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "74362371",
-        "ids": ",us6000nfku,hv74362371,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.00986,
-        "rms": 0.129999995,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.230163574219,
-          19.3735008239746,
-          2.44000005722046
-        ]
-      },
-      "id": "hv74362371"
     }
   ],
   "bbox": [
