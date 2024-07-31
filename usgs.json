@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722435237000,
+    "generated": 1722439037000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of the Kermadec Islands",
+        "time": 1722437649595,
+        "updated": 1722439020040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nh47",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nh47.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000nh47",
+        "ids": ",us6000nh47,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 4.376,
+        "rms": 1.47,
+        "gap": 106,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7605,
+          -33.8855,
+          10
+        ]
+      },
+      "id": "us6000nh47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "65 km E of Churubamba, Peru",
+        "time": 1722434704256,
+        "updated": 1722438113040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nh40",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nh40.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000nh40",
+        "ids": ",us6000nh40,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.428,
+        "rms": 0.55,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 65 km E of Churubamba, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5481,
+          -9.9054,
+          11.071
+        ]
+      },
+      "id": "us6000nh40"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,17 +295,17 @@
         "mag": 4.7,
         "place": "63 km SE of Yakutat, Alaska",
         "time": 1722414043815,
-        "updated": 1722434752824,
+        "updated": 1722438915985,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0249secrkx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0249secrkx.geojson",
-        "felt": 9,
-        "cdi": 2.7,
+        "felt": 10,
+        "cdi": 2.9,
         "mmi": 3.87,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 342,
+        "sig": 343,
         "net": "ak",
         "code": "0249secrkx",
         "ids": ",ak0249secrkx,at00shhb6j,us6000nh2i,",
@@ -1175,7 +1255,7 @@
         "mag": 3.8,
         "place": "15 km NE of Hermleigh, Texas",
         "time": 1722361388464,
-        "updated": 1722365148568,
+        "updated": 1722438888040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024owwf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024owwf.geojson",
@@ -1190,7 +1270,7 @@
         "code": "2024owwf",
         "ids": ",us6000ngxr,tx2024owwf,",
         "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
         "nst": 29,
         "dmin": 0.1,
         "rms": 0.2,
@@ -1291,7 +1371,7 @@
     }
   ],
   "bbox": [
-    -163.6133,
+    -178.7605,
     -56.3605,
     0.98000001907349,
     173.2577,
