@@ -1,35 +1,75 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722507510000,
+    "generated": 1722510930000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 29
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "23 km SSW of Susitna, Alaska",
+        "time": 1722509456690,
+        "updated": 1722510425449,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0249u39fwk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0249u39fwk.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0249u39fwk",
+        "ids": ",ak0249u39fwk,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23 km SSW of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6131,
+          61.3365,
+          58.8
+        ]
+      },
+      "id": "ak0249u39fwk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.98,
         "place": "7 km E of Bishop, CA",
         "time": 1722506728750,
-        "updated": 1722507306993,
+        "updated": 1722509394040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75042182",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75042182.geojson",
-        "felt": 7,
-        "cdi": 3.2,
+        "felt": 14,
+        "cdi": 5.3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 144,
         "net": "nc",
         "code": "75042182",
-        "ids": ",nc75042182,",
-        "sources": ",nc,",
+        "ids": ",nc75042182,nn00881764,us6000nhbf,",
+        "sources": ",nc,nn,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.1469,
@@ -52,42 +92,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "147 km SSE of Sand Point, Alaska",
-        "time": 1722506595931,
-        "updated": 1722507245309,
+        "mag": 5.6,
+        "place": "145 km SSE of Sand Point, Alaska",
+        "time": 1722506593542,
+        "updated": 1722510194805,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0249u2za8u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0249u2za8u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.422,
-        "alert": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nhbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nhbe.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 3.907,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 449,
-        "net": "ak",
-        "code": "0249u2za8u",
-        "ids": ",at00shjalf,ak0249u2za8u,",
-        "sources": ",at,ak,",
-        "types": ",impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
+        "sig": 483,
+        "net": "us",
+        "code": "6000nhbe",
+        "ids": ",us6000nhbe,at00shjalf,ak0249u2za8u,",
+        "sources": ",us,at,ak,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 127,
+        "dmin": 1.321,
+        "rms": 0.89,
+        "gap": 66,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 147 km SSE of Sand Point, Alaska"
+        "title": "M 5.6 - 145 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.6991,
-          54.0955,
-          14.8
+          -159.7025,
+          54.1094,
+          10
         ]
       },
-      "id": "ak0249u2za8u"
+      "id": "us6000nhbe"
     },
     {
       "type": "Feature",
@@ -95,11 +135,11 @@
         "mag": 3.3,
         "place": "16 km ENE of Yakutat, Alaska",
         "time": 1722505870652,
-        "updated": 1722506224808,
+        "updated": 1722508198284,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0249u2o4ga",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0249u2o4ga.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1088,86 +1128,6 @@
         ]
       },
       "id": "pr71456653"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "75 km SE of San Pedro de Atacama, Chile",
-        "time": 1722423714293,
-        "updated": 1722431035040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nh35",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nh35.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000nh35",
-        "ids": ",us6000nh35,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.637,
-        "rms": 0.98,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 75 km SE of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7588,
-          -23.4608,
-          166.006
-        ]
-      },
-      "id": "us6000nh35"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.27,
-        "place": "5 km S of Volcano, Hawaii",
-        "time": 1722422107590,
-        "updated": 1722463722990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74376191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74376191.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 165,
-        "net": "hv",
-        "code": "74376191",
-        "ids": ",us6000nh33,hv74376191,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.007689,
-        "rms": 0.1,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 5 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.244333333333,
-          19.3895,
-          1.74
-        ]
-      },
-      "id": "hv74376191"
     }
   ],
   "bbox": [
