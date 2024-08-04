@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722777473000,
+    "generated": 1722780927000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "21 km SSE of Malibu, CA",
+        "time": 1722780614040,
+        "updated": 1722780856751,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40861744",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40861744.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 1.5,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 136,
+        "net": "ci",
+        "code": "40861744",
+        "ids": ",ci40861744,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 116,
+        "dmin": 0.1908,
+        "rms": 0.3,
+        "gap": 140,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 21 km SSE of Malibu, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7574997,
+          33.8176651,
+          0.56
+        ]
+      },
+      "id": "ci40861744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "21 km ENE of Akkeshi, Japan",
+        "time": 1722777589496,
+        "updated": 1722779646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni1r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni1r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ni1r",
+        "ids": ",us6000ni1r,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.8,
+        "rms": 0.52,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 21 km ENE of Akkeshi, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0968,
+          43.1044,
+          80.183
+        ]
+      },
+      "id": "us6000ni1r"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,12 +375,12 @@
         "mag": 4.4,
         "place": "19 km ENE of Yantzaza, Ecuador",
         "time": 1722754624508,
-        "updated": 1722756463040,
+        "updated": 1722780437345,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni0m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni0m.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -310,7 +390,7 @@
         "code": "6000ni0m",
         "ids": ",us6000ni0m,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 33,
         "dmin": 1.865,
         "rms": 0.74,
@@ -328,6 +408,46 @@
         ]
       },
       "id": "us6000ni0m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "14 km E of South Lead Hill, Arkansas",
+        "time": 1722752714940,
+        "updated": 1722777489390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60502268",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60502268.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nm",
+        "code": "60502268",
+        "ids": ",nm60502268,",
+        "sources": ",nm,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1021,
+        "rms": 0.17,
+        "gap": 60,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km E of South Lead Hill, Arkansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7508333333333,
+          36.4161666666667,
+          2.64
+        ]
+      },
+      "id": "nm60502268"
     },
     {
       "type": "Feature",
@@ -1168,46 +1288,6 @@
         ]
       },
       "id": "us6000nhwm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "11 km SW of Salton City, CA",
-        "time": 1722694063260,
-        "updated": 1722699791040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40860776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40860776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "ci",
-        "code": "40860776",
-        "ids": ",ci40860776,us6000nhwj,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 84,
-        "dmin": 0.06713,
-        "rms": 0.22,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km SW of Salton City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0436667,
-          33.2335,
-          3.28
-        ]
-      },
-      "id": "ci40860776"
     }
   ],
   "bbox": [
