@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722947533000,
+    "generated": 1722950389000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1722947996724,
+        "updated": 1722949889928,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024pjgt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024pjgt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2024pjgt",
+        "ids": ",us6000nic9,tx2024pjgt,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.377,
+          31.631,
+          2.9948
+        ]
+      },
+      "id": "tx2024pjgt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.01,
         "place": "13 km NNE of Hawaiian Ocean View, Hawaii",
         "time": 1722945641150,
-        "updated": 1722947454101,
+        "updated": 1722948088159,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74387636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74387636.geojson",
-        "felt": 15,
-        "cdi": 4.5,
+        "felt": 16,
+        "cdi": 4.4,
         "mmi": 3.95,
         "alert": "green",
         "status": "reviewed",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "hv74387636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "15 km NW of Pujocucho, Peru",
+        "time": 1722944022260,
+        "updated": 1722947973040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nic5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nic5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000nic5",
+        "ids": ",us6000nic5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 1.076,
+        "rms": 1.46,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 15 km NW of Pujocucho, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.465,
+          -17.0639,
+          135.285
+        ]
+      },
+      "id": "us6000nic5"
     },
     {
       "type": "Feature",
@@ -255,12 +335,12 @@
         "mag": 4.7,
         "place": "17 km SE of Acajutla, El Salvador",
         "time": 1722928720825,
-        "updated": 1722946050975,
+        "updated": 1722949256789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nib4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nib4.geojson",
-        "felt": 3,
-        "cdi": 2.5,
+        "felt": 4,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "se60588556"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "234 km WSW of Bandar Lampung, Indonesia",
-        "time": 1722861841936,
-        "updated": 1722866123394,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni63",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni63.geojson",
-        "felt": 2,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 401,
-        "net": "us",
-        "code": "6000ni63",
-        "ids": ",us6000ni63,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 76,
-        "dmin": 2.226,
-        "rms": 1.27,
-        "gap": 83,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 234 km WSW of Bandar Lampung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.4596,
-          -6.5436,
-          21.891
-        ]
-      },
-      "id": "us6000ni63"
     }
   ],
   "bbox": [
