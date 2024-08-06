@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722918057000,
+    "generated": 1722921357000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "3 km NE of Almanor, CA",
+        "time": 1722919765920,
+        "updated": 1722920363191,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75044147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75044147.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "nc",
+        "code": "75044147",
+        "ids": ",nc75044147,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.2354,
+        "rms": 0.18,
+        "gap": 50,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 3 km NE of Almanor, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.15,
+          40.24,
+          -0.31
+        ]
+      },
+      "id": "nc75044147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "29 km NNE of Fox River, Alaska",
+        "time": 1722918961017,
+        "updated": 1722919063845,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a29agf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a29agf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "024a29agf9",
+        "ids": ",ak024a29agf9,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.69,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 29 km NNE of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.7791,
+          60.1031,
+          20
+        ]
+      },
+      "id": "ak024a29agf9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.9,
         "place": "16 km NNW of Hope, Alaska",
         "time": 1722909453565,
-        "updated": 1722916192040,
+        "updated": 1722919653553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a27mq3d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a27mq3d.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -652,6 +732,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "20 km S of Owhiro Bay, New Zealand",
+        "time": 1722857916188,
+        "updated": 1722921060040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ni5v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ni5v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ni5v",
+        "ids": ",us6000ni5v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.215,
+        "rms": 0.88,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 20 km S of Owhiro Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7262,
+          -41.5235,
+          10
+        ]
+      },
+      "id": "us6000ni5v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "85 km NNW of Ternate, Indonesia",
         "time": 1722849033756,
@@ -812,9 +932,9 @@
   ],
   "bbox": [
     -157.2637,
-    -31.9415,
-    5.5872,
-    145.5578,
+    -41.5235,
+    -0.31,
+    174.7262,
     62.938,
     236.619
   ]
