@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1722953697000,
+    "generated": 1722957530000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "36 km ENE of McCarthy, Alaska",
+        "time": 1722955078508,
+        "updated": 1722955190166,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024a2f94mi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024a2f94mi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "024a2f94mi",
+        "ids": ",ak024a2f94mi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.9,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 36 km ENE of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.331,
+          61.5948,
+          0
+        ]
+      },
+      "id": "ak024a2f94mi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "60 km WNW of Toyah, Texas",
-        "time": 1722949767400,
-        "updated": 1722950860040,
+        "mag": 4.8,
+        "place": "93 km SW of Huanchaquito Alto, Peru",
+        "time": 1722950117003,
+        "updated": 1722956398040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nicf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nicf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nici",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nici.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 354,
         "net": "us",
-        "code": "6000nicf",
-        "ids": ",us6000nicf,",
+        "code": "6000nici",
+        "ids": ",us6000nici,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.155,
-        "rms": 0.69,
-        "gap": 94,
-        "magType": "ml",
+        "nst": 108,
+        "dmin": 4.332,
+        "rms": 0.45,
+        "gap": 138,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.1 - 60 km WNW of Toyah, Texas"
+        "title": "M 4.8 - 93 km SW of Huanchaquito Alto, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.3304,
-          31.6137,
-          5
+          -79.707,
+          -8.6765,
+          36.617
         ]
       },
-      "id": "us6000nicf"
+      "id": "us6000nici"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1722949766746,
+        "updated": 1722953950782,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024pjip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024pjip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2024pjip",
+        "ids": ",us6000nicf,tx2024pjip,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.368,
+          31.667,
+          5.741
+        ]
+      },
+      "id": "tx2024pjip"
     },
     {
       "type": "Feature",
@@ -135,11 +215,11 @@
         "mag": 4.01,
         "place": "13 km NNE of Hawaiian Ocean View, Hawaii",
         "time": 1722945641150,
-        "updated": 1722953038043,
+        "updated": 1722955764555,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74387636",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74387636.geojson",
-        "felt": 17,
+        "felt": 18,
         "cdi": 4.4,
         "mmi": 4.198,
         "alert": "green",
@@ -208,6 +288,46 @@
         ]
       },
       "id": "us6000nic5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.05,
+        "place": "92 km SSW of Alberto Oviedo Mota, B.C., MX",
+        "time": 1722940383870,
+        "updated": 1722956725128,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40864000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40864000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "ci",
+        "code": "40864000",
+        "ids": ",ci40864000,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.172,
+        "rms": 0.27,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 92 km SSW of Alberto Oviedo Mota, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6248333,
+          31.497,
+          7.63
+        ]
+      },
+      "id": "ci40864000"
     },
     {
       "type": "Feature",
@@ -1088,46 +1208,6 @@
         ]
       },
       "id": "nn00881937"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "71 km N of Culebra, Puerto Rico",
-        "time": 1722869525180,
-        "updated": 1722874806610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71456993",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71456993.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71456993",
-        "ids": ",us6000ni6t,pr71456993,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.7093,
-        "rms": 0.34,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 71 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3656666666667,
-          18.9493333333333,
-          26.63
-        ]
-      },
-      "id": "pr71456993"
     }
   ],
   "bbox": [
