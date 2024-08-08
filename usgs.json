@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723112224000,
+    "generated": 1723115719000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "22 km SW of Lamont, CA",
+        "time": 1723114663050,
+        "updated": 1723115307660,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40869808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40869808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "ci",
+        "code": "40869808",
+        "ids": ",ci40869808,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.05443,
+        "rms": 0.24,
+        "gap": 32,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 22 km SW of Lamont, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0788333,
+          35.113,
+          2.59
+        ]
+      },
+      "id": "ci40869808"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,14 +295,14 @@
         "mag": 7.1,
         "place": "20 km NE of Nichinan, Japan",
         "time": 1723102975345,
-        "updated": 1723112005209,
+        "updated": 1723115518417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nith",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nith.geojson",
-        "felt": 20,
-        "cdi": 7.6,
-        "mmi": 7.695,
-        "alert": "pending",
+        "felt": 21,
+        "cdi": 7.5,
+        "mmi": 7.472,
+        "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 791,
@@ -2128,46 +2168,6 @@
         ]
       },
       "id": "nc75045032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.64,
-        "place": "25 km SW of Lamont, CA",
-        "time": 1723027159040,
-        "updated": 1723085163909,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40867136",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40867136.geojson",
-        "felt": 31,
-        "cdi": 3.9,
-        "mmi": 3.754,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 216,
-        "net": "ci",
-        "code": "40867136",
-        "ids": ",ci40867136,us6000nill,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 69,
-        "dmin": 0.06045,
-        "rms": 0.27,
-        "gap": 23,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.6 - 25 km SW of Lamont, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1221667,
-          35.1103333,
-          12.96
-        ]
-      },
-      "id": "ci40867136"
     }
   ],
   "bbox": [
