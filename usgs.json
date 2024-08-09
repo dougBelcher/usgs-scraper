@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723202046000,
+    "generated": 1723206739000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "Fiji region",
+        "time": 1723201845960,
+        "updated": 1723205936104,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nj27",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nj27.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": 1,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000nj27",
+        "ids": ",us6000nj27,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 95,
+        "dmin": 3.932,
+        "rms": 0.77,
+        "gap": 24,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.3918,
+          -21.6595,
+          593.463
+        ]
+      },
+      "id": "us6000nj27"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak024a7bx0y4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "2 km E of Isehara, Japan",
+        "time": 1723201058837,
+        "updated": 1723206710243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nj24",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nj24.geojson",
+        "felt": 39,
+        "cdi": 4.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 403,
+        "net": "us",
+        "code": "6000nj24",
+        "ids": ",us6000nj24,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 110,
+        "dmin": 1.472,
+        "rms": 0.95,
+        "gap": 74,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 2 km E of Isehara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3412,
+          35.3962,
+          24.876
+        ]
+      },
+      "id": "us6000nj24"
     },
     {
       "type": "Feature",
@@ -975,11 +1055,11 @@
         "mag": 2.93,
         "place": "24 km SW of Lamont, CA",
         "time": 1723138252640,
-        "updated": 1723193780143,
+        "updated": 1723206331261,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40694327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40694327.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1408,46 +1488,6 @@
         ]
       },
       "id": "us6000niur"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "6 km S of Volcano, Hawaii",
-        "time": 1723118654890,
-        "updated": 1723149663730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74391511",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74391511.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "hv",
-        "code": "74391511",
-        "ids": ",hv74391511,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.008342,
-        "rms": 0.08,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 6 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.2425,
-          19.3861666666667,
-          1.56
-        ]
-      },
-      "id": "hv74391511"
     }
   ],
   "bbox": [
