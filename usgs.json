@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723461308000,
+    "generated": 1723466108000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 23
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "South Pacific Ocean",
+        "time": 1723463253277,
+        "updated": 1723464647162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njky",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njky.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000njky",
+        "ids": ",us6000njky,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 24,
+        "dmin": 13.301,
+        "rms": 0.68,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.4 - South Pacific Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.855,
+          -31.5044,
+          9.43
+        ]
+      },
+      "id": "us6000njky"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "173 km WNW of Tobelo, Indonesia",
+        "time": 1723462575327,
+        "updated": 1723465497810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000njkw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000njkw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.541,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000njkw",
+        "ids": ",us6000njkw,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 114,
+        "dmin": 1.74,
+        "rms": 0.88,
+        "gap": 30,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 173 km WNW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5648,
+          2.3272,
+          70.764
+        ]
+      },
+      "id": "us6000njkw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.09,
+        "place": "6 km NNW of Yaurel, Puerto Rico",
+        "time": 1723462478030,
+        "updated": 1723465454030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71457303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71457303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 147,
+        "net": "pr",
+        "code": "71457303",
+        "ids": ",pr71457303,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.06993,
+        "rms": 0.23,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 6 km NNW of Yaurel, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.086,
+          18.0745,
+          7.88
+        ]
+      },
+      "id": "pr71457303"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.54,
         "place": "5 km NNW of Pinnacles, CA",
         "time": 1723457888730,
-        "updated": 1723458660517,
+        "updated": 1723463157974,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75047587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75047587.geojson",
@@ -135,17 +255,17 @@
         "mag": 2.83,
         "place": "5 km NW of Big Bear Lake, CA",
         "time": 1723442066440,
-        "updated": 1723454589667,
+        "updated": 1723465560192,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40698271",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40698271.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 132,
         "net": "ci",
         "code": "40698271",
         "ids": ",ci40698271,",
@@ -932,7 +1052,7 @@
   ],
   "bbox": [
     -178.4904,
-    -30.7431,
+    -31.5044,
     0,
     145.8294,
     74.6936,
