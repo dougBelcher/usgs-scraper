@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723731309000,
+    "generated": 1723735034000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 41
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.6,
         "place": "50 km SSE of Nelchina, Alaska",
         "time": 1723729000852,
-        "updated": 1723729875040,
+        "updated": 1723734798540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ahahkdx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ahahkdx.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": 2.999,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 199,
+        "sig": 200,
         "net": "ak",
         "code": "024ahahkdx",
-        "ids": ",us7000n75p,ak024ahahkdx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",ak024ahahkdx,us7000n75p,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.43,
@@ -55,7 +55,7 @@
         "mag": 2.75,
         "place": "6 km S of Volcano, Hawaii",
         "time": 1723728843950,
-        "updated": 1723729000760,
+        "updated": 1723734756040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74402371",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74402371.geojson",
@@ -68,8 +68,8 @@
         "sig": 116,
         "net": "hv",
         "code": "74402371",
-        "ids": ",hv74402371,",
-        "sources": ",hv,",
+        "ids": ",us7000n75m,hv74402371,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 57,
         "dmin": 0.01345,
@@ -133,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "17 km WSW of Rotan, Texas",
-        "time": 1723725073232,
-        "updated": 1723726183040,
+        "place": "16 km SW of Rotan, Texas",
+        "time": 1723725072928,
+        "updated": 1723733685479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024pzsb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024pzsb.geojson",
@@ -151,20 +151,20 @@
         "ids": ",us7000n759,tx2024pzsb,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
+        "nst": 25,
         "dmin": 0,
         "rms": 0.1,
-        "gap": 70,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 17 km WSW of Rotan, Texas"
+        "title": "M 2.8 - 16 km SW of Rotan, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.629,
-          32.773,
-          3.2471
+          -100.613,
+          32.767,
+          5.4199
         ]
       },
       "id": "tx2024pzsb"
@@ -455,17 +455,17 @@
         "mag": 5.4,
         "place": "44 km SSE of Yilan, Taiwan",
         "time": 1723712805959,
-        "updated": 1723728075019,
+        "updated": 1723733621786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n74c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n74c.geojson",
-        "felt": 46,
+        "felt": 49,
         "cdi": 5,
         "mmi": 5.001,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 472,
+        "sig": 473,
         "net": "us",
         "code": "7000n74c",
         "ids": ",us7000n74c,",
@@ -1648,46 +1648,6 @@
         ]
       },
       "id": "ok2024pycc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "5 km ESE of La Parguera, Puerto Rico",
-        "time": 1723648196210,
-        "updated": 1723649256280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71457453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71457453.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "pr",
-        "code": "71457453",
-        "ids": ",pr71457453,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04738,
-        "rms": 0.16,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 5 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0005,
-          17.9466666666667,
-          5.34
-        ]
-      },
-      "id": "pr71457453"
     }
   ],
   "bbox": [
