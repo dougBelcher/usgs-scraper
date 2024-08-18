@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1723962144000,
+    "generated": 1723965186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.73,
+        "place": "102 km NE of Miches, Dominican Republic",
+        "time": 1723960838130,
+        "updated": 1723963192537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024231000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024231000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 214,
+        "net": "pr",
+        "code": "2024231000",
+        "ids": ",pr2024231000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.9098,
+        "rms": 0.47,
+        "gap": 235,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 102 km NE of Miches, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3386,
+          19.6153,
+          62
+        ]
+      },
+      "id": "pr2024231000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,12 +415,12 @@
         "mag": 2.61,
         "place": "14 km NNE of Lyman, Washington",
         "time": 1723944853480,
-        "updated": 1723955698260,
+        "updated": 1723964959936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62037421",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62037421.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -390,7 +430,7 @@
         "code": "62037421",
         "ids": ",uw62037421,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.1013,
         "rms": 0.19,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "uw62036796"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "68 km SSE of Perryville, Alaska",
-        "time": 1723878591017,
-        "updated": 1723957064040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024akhtwac",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024akhtwac.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "024akhtwac",
-        "ids": ",us7000n7kz,ak024akhtwac,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.8,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 68 km SSE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.6684,
-          55.3616,
-          23.4
-        ]
-      },
-      "id": "ak024akhtwac"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Izu Islands, Japan region",
-        "time": 1723876329394,
-        "updated": 1723877258040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7kx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n7kx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000n7kx",
-        "ids": ",us7000n7kx,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 129,
-        "dmin": 2.27,
-        "rms": 0.66,
-        "gap": 100,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.3967,
-          32.4651,
-          10
-        ]
-      },
-      "id": "us7000n7kx"
     }
   ],
   "bbox": [
