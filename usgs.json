@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724508854000,
+    "generated": 1724512575000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 31
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.72,
+        "mag": 4.7,
+        "place": "138 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1724511194798,
+        "updated": 1724512043040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n97b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n97b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000n97b",
+        "ids": ",us7000n97b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.233,
+        "rms": 0.7,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 138 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.6823,
+          52.929,
+          35.065
+        ]
+      },
+      "id": "us7000n97b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
         "place": "25 km SW of Ocotillo Wells, CA",
-        "time": 1724508483980,
-        "updated": 1724508620056,
+        "time": 1724508483910,
+        "updated": 1724512208040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40713023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40713023.geojson",
@@ -25,16 +65,16 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 114,
+        "sig": 113,
         "net": "ci",
         "code": "40713023",
-        "ids": ",ci40713023,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 105,
-        "dmin": 0.07284,
+        "ids": ",ci40713023,us7000n977,",
+        "sources": ",ci,us,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 94,
+        "dmin": 0.07195,
         "rms": 0.22,
-        "gap": 25,
+        "gap": 35,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 25 km SW of Ocotillo Wells, CA"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3258362,
-          32.9868317,
-          5.46
+          -116.3275,
+          32.989,
+          4.41
         ]
       },
       "id": "ci40713023"
@@ -52,39 +92,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "17 km NNE of Hawthorne, Nevada",
-        "time": 1724508318061,
-        "updated": 1724508478426,
+        "mag": 3.4,
+        "place": "17 km ENE of Walker Lake, Nevada",
+        "time": 1724508318806,
+        "updated": 1724510502262,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882938",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882938.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.847,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 178,
         "net": "nn",
         "code": "00882938",
-        "ids": ",nn00882938,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.046,
-        "rms": 0.3646,
-        "gap": 48.47000000000003,
+        "ids": ",us7000n976,nn00882938,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 16,
+        "dmin": 0.062,
+        "rms": 0.1843,
+        "gap": 40.89000000000004,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 17 km NNE of Hawthorne, Nevada"
+        "title": "M 3.4 - 17 km ENE of Walker Lake, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.546,
-          38.6698,
-          8.9
+          -118.5554,
+          38.684,
+          5.7
         ]
       },
       "id": "nn00882938"
@@ -95,7 +135,7 @@
         "mag": 2.5,
         "place": "16 km ENE of Walker Lake, Nevada",
         "time": 1724508078405,
-        "updated": 1724508234431,
+        "updated": 1724512320040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882934",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882934.geojson",
@@ -108,8 +148,8 @@
         "sig": 96,
         "net": "nn",
         "code": "00882934",
-        "ids": ",nn00882934,",
-        "sources": ",nn,",
+        "ids": ",us7000n975,nn00882934,",
+        "sources": ",us,nn,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 0.07,
@@ -132,42 +172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "18 km ENE of Walker Lake, Nevada",
-        "time": 1724507824511,
-        "updated": 1724508775040,
+        "mag": 3.3,
+        "place": "17 km ENE of Walker Lake, Nevada",
+        "time": 1724507824613,
+        "updated": 1724510295657,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n974",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n974.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882931",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882931.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.948,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000n974",
-        "ids": ",us7000n974,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.318,
-        "rms": 0.61,
-        "gap": 70,
+        "sig": 168,
+        "net": "nn",
+        "code": "00882931",
+        "ids": ",us7000n974,nn00882931,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.059,
+        "rms": 0.1593,
+        "gap": 48.94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 18 km ENE of Walker Lake, Nevada"
+        "title": "M 3.3 - 17 km ENE of Walker Lake, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.548,
-          38.6833,
-          9.426
+          -118.5554,
+          38.6804,
+          5.3
         ]
       },
-      "id": "us7000n974"
+      "id": "nn00882931"
     },
     {
       "type": "Feature",
@@ -295,17 +335,17 @@
         "mag": 4.4,
         "place": "8 km N of Denman, Australia",
         "time": 1724481098233,
-        "updated": 1724505121326,
+        "updated": 1724512368918,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n95k",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n95k.geojson",
-        "felt": 67,
+        "felt": 70,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 330,
+        "sig": 331,
         "net": "us",
         "code": "7000n95k",
         "ids": ",us7000n95k,",
@@ -972,10 +1012,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "158 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1724440742603,
-        "updated": 1724445580157,
+        "mag": 4.8,
+        "place": "159 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1724440743063,
+        "updated": 1724510510684,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n92n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n92n.geojson",
@@ -985,26 +1025,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 355,
         "net": "us",
         "code": "7000n92n",
         "ids": ",us7000n92n,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 95,
-        "dmin": 1.415,
-        "rms": 0.57,
-        "gap": 118,
+        "nst": 151,
+        "dmin": 1.423,
+        "rms": 0.73,
+        "gap": 68,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 158 km E of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 4.8 - 159 km E of Petropavlovsk-Kamchatsky, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.9832,
-          52.9215,
-          20.92
+          160.9992,
+          52.9428,
+          21.599
         ]
       },
       "id": "us7000n92n"
@@ -1135,11 +1175,11 @@
         "mag": 4.3,
         "place": "16 km ENE of Walker Lake, Nevada",
         "time": 1724427118225,
-        "updated": 1724460044223,
+        "updated": 1724511585786,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882856",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882856.geojson",
-        "felt": 28,
+        "felt": 29,
         "cdi": 4.1,
         "mmi": 4.35,
         "alert": "green",
@@ -1168,86 +1208,6 @@
         ]
       },
       "id": "nn00882856"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "17 km E of Walker Lake, Nevada",
-        "time": 1724424682066,
-        "updated": 1724449935086,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00882850",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00882850.geojson",
-        "felt": 3,
-        "cdi": 3,
-        "mmi": 3.081,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "nn",
-        "code": "00882850",
-        "ids": ",nn00882850,us7000n8zu,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 16,
-        "dmin": 0.059,
-        "rms": 0.172,
-        "gap": 48.960000000000036,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 17 km E of Walker Lake, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.5615,
-          38.6786,
-          4.7
-        ]
-      },
-      "id": "nn00882850"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "215 km N of Lospalos, Timor Leste",
-        "time": 1724424341633,
-        "updated": 1724433090040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n8zs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n8zs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000n8zs",
-        "ids": ",us7000n8zs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.345,
-        "rms": 0.61,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 215 km N of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.2497,
-          -6.587,
-          416.23
-        ]
-      },
-      "id": "us7000n8zs"
     }
   ],
   "bbox": [
