@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724783013000,
+    "generated": 1724786004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
@@ -52,42 +52,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "73 km W of Pole Ojea, Puerto Rico",
-        "time": 1724776904457,
-        "updated": 1724780311040,
+        "mag": 3.49,
+        "place": "76 km W of Puerto Real, Puerto Rico",
+        "time": 1724776906590,
+        "updated": 1724785150930,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn2t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn2t.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024240000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024240000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "6000nn2t",
-        "ids": ",us6000nn2t,",
-        "sources": ",us,",
+        "sig": 187,
+        "net": "pr",
+        "code": "2024240000",
+        "ids": ",us6000nn2t,pr2024240000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 18,
-        "dmin": 0.705,
-        "rms": 0.43,
-        "gap": 188,
-        "magType": "ml",
+        "dmin": 0.6852,
+        "rms": 0.26,
+        "gap": 204,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.2 - 73 km W of Pole Ojea, Puerto Rico"
+        "title": "M 3.5 - 76 km W of Puerto Real, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.8817,
-          17.9901,
-          17.888
+          -67.9048,
+          18.0216,
+          57
         ]
       },
-      "id": "us6000nn2t"
+      "id": "pr2024240000"
     },
     {
       "type": "Feature",
@@ -255,12 +255,12 @@
         "mag": 4.7,
         "place": "92 km SSW of San Andrés Playa Encantada (El Podrido), Mexico",
         "time": 1724766352924,
-        "updated": 1724770224040,
+        "updated": 1724785638374,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nn27",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nn27.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +270,7 @@
         "code": "6000nn27",
         "ids": ",us6000nn27,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 102,
         "dmin": 2.094,
         "rms": 0.88,
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "us6000nn0l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "4 km E of Camarillo, CA",
+        "time": 1724732934030,
+        "updated": 1724785923690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40715543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40715543.geojson",
+        "felt": 39,
+        "cdi": 2.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "ci",
+        "code": "40715543",
+        "ids": ",ci40715543,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 77,
+        "dmin": 0.01297,
+        "rms": 0.21,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km E of Camarillo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9976667,
+          34.2113333,
+          15.11
+        ]
+      },
+      "id": "ci40715543"
     },
     {
       "type": "Feature",
