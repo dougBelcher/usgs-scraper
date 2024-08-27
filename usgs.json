@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724735777000,
+    "generated": 1724739857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -335,17 +335,17 @@
         "mag": 4.5,
         "place": "18 km E of Istiaía, Greece",
         "time": 1724702023661,
-        "updated": 1724733942229,
+        "updated": 1724739737279,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nmxi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nmxi.geojson",
-        "felt": 42,
+        "felt": 46,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 330,
+        "sig": 332,
         "net": "us",
         "code": "6000nmxi",
         "ids": ",us6000nmxi,",
@@ -775,11 +775,11 @@
         "mag": 5.6,
         "place": "85 km S of Bambanglipuro, Indonesia",
         "time": 1724677061631,
-        "updated": 1724718106558,
+        "updated": 1724739170713,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n9hl",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n9hl.geojson",
-        "felt": 18,
+        "felt": 19,
         "cdi": 5.6,
         "mmi": 4.217,
         "alert": "green",
@@ -1012,6 +1012,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "32 km SE of Acajutla, El Salvador",
+        "time": 1724654602775,
+        "updated": 1724739740040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n9g8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n9g8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000n9g8",
+        "ids": ",us7000n9g8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.317,
+        "rms": 0.68,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 32 km SE of Acajutla, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6205,
+          13.3834,
+          59.631
+        ]
+      },
+      "id": "us7000n9g8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
         "place": "134 km ESE of Ust’-Kamchatsk Staryy, Russia",
         "time": 1724653466035,
@@ -1048,86 +1088,6 @@
         ]
       },
       "id": "us7000n9g4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "37 km NW of La Ligua, Chile",
-        "time": 1724653269100,
-        "updated": 1724731540416,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n9fz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000n9fz.geojson",
-        "felt": 29,
-        "cdi": 4.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 338,
-        "net": "us",
-        "code": "7000n9fz",
-        "ids": ",us7000n9fz,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 106,
-        "dmin": 0.511,
-        "rms": 0.61,
-        "gap": 131,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.6 - 37 km NW of La Ligua, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5335,
-          -32.2335,
-          70.244
-        ]
-      },
-      "id": "us7000n9fz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "11 km N of Glacier View, Alaska",
-        "time": 1724651822576,
-        "updated": 1724679332040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024azcrc29",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024azcrc29.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024azcrc29",
-        "ids": ",us7000n9fu,ak024azcrc29,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.44,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km N of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.6756,
-          61.913,
-          38.6
-        ]
-      },
-      "id": "ak024azcrc29"
     }
   ],
   "bbox": [
