@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724958849000,
+    "generated": 1724962677000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 28
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 2.46,
         "place": "8 km E of Vallejo, CA",
         "time": 1724954751720,
-        "updated": 1724957359677,
+        "updated": 1724962022077,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75055001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75055001.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -212,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.84,
+        "mag": 2.82,
         "place": "24 km NW of Grapevine, CA",
-        "time": 1724951977680,
-        "updated": 1724955566536,
+        "time": 1724951977520,
+        "updated": 1724962102650,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40718967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40718967.geojson",
@@ -223,18 +223,18 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 125,
+        "sig": 123,
         "net": "ci",
         "code": "40718967",
         "ids": ",ci40718967,us6000nnin,",
         "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 58,
-        "dmin": 0.04479,
-        "rms": 0.24,
-        "gap": 32,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 64,
+        "dmin": 0.04815,
+        "rms": 0.2,
+        "gap": 30,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.8 - 24 km NW of Grapevine, CA"
@@ -242,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1323333,
-          35.0791667,
-          13.04
+          -119.1333333,
+          35.0845,
+          12.97
         ]
       },
       "id": "ci40718967"
@@ -415,12 +415,12 @@
         "mag": 4.4,
         "place": "176 km SE of Pondaguitan, Philippines",
         "time": 1724939221915,
-        "updated": 1724942973040,
+        "updated": 1724960452332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnhs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnhs.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +430,7 @@
         "code": "6000nnhs",
         "ids": ",us6000nnhs,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 30,
         "dmin": 2.501,
         "rms": 0.37,
@@ -1128,166 +1128,6 @@
         ]
       },
       "id": "us6000nncf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "16 km NNE of Hualien City, Taiwan",
-        "time": 1724876092227,
-        "updated": 1724891677932,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnbq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnbq.geojson",
-        "felt": 2,
-        "cdi": 4.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 299,
-        "net": "us",
-        "code": "6000nnbq",
-        "ids": ",us6000nnbq,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 87,
-        "dmin": 0.092,
-        "rms": 0.7,
-        "gap": 64,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 16 km NNE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6703,
-          24.1128,
-          30.438
-        ]
-      },
-      "id": "us6000nnbq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1724875135590,
-        "updated": 1724877004040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024qyai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024qyai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "tx",
-        "code": "2024qyai",
-        "ids": ",us6000nnbp,tx2024qyai,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.371,
-          31.676,
-          6.228
-        ]
-      },
-      "id": "tx2024qyai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1724875042208,
-        "updated": 1724882516431,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024qyag",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024qyag.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.133,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "tx",
-        "code": "2024qyag",
-        "ids": ",us6000nnb9,tx2024qyag,",
-        "sources": ",us,tx,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 32,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.363,
-          31.663,
-          6.7664
-        ]
-      },
-      "id": "tx2024qyag"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "127 km SSE of McCarthy, Alaska",
-        "time": 1724873572548,
-        "updated": 1724879086040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b2w0uh2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b2w0uh2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024b2w0uh2",
-        "ids": ",us6000nnb5,ak024b2w0uh2,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 127 km SSE of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.7819,
-          60.4275,
-          4.3
-        ]
-      },
-      "id": "ak024b2w0uh2"
     }
   ],
   "bbox": [
