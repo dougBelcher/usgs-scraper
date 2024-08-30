@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725052611000,
+    "generated": 1725056201000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 27
+    "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "296 km SW of Arenas, Panama",
+        "time": 1725053134407,
+        "updated": 1725054667040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnrw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnrw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000nnrw",
+        "ids": ",us6000nnrw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 108,
+        "dmin": 3.146,
+        "rms": 0.94,
+        "gap": 168,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 296 km SW of Arenas, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5983,
+          5.3278,
+          10
+        ]
+      },
+      "id": "us6000nnrw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.69,
+        "place": "26 km S of Boca de Yuma, Dominican Republic",
+        "time": 1725052076510,
+        "updated": 1725054992040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024243001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024243001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2024243001",
+        "ids": ",us6000nns4,pr2024243001,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.4258,
+        "rms": 0.49,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 26 km S of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5848,
+          18.1398,
+          110
+        ]
+      },
+      "id": "pr2024243001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 2.6,
         "place": "8 km ENE of Goldfield, Nevada",
         "time": 1725049941780,
-        "updated": 1725051647734,
+        "updated": 1725055236040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00883525",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00883525.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +148,9 @@
         "sig": 104,
         "net": "nn",
         "code": "00883525",
-        "ids": ",nn00883525,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "ids": ",nn00883525,us6000nnrg,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.192,
         "rms": 0.1748,
@@ -92,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Kuril Islands",
+        "time": 1725049801705,
+        "updated": 1725054787040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnrj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnrj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000nnrj",
+        "ids": ",us6000nnrj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 115,
+        "dmin": 5.798,
+        "rms": 0.57,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2423,
+          47.3614,
+          156.951
+        ]
+      },
+      "id": "us6000nnrj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.56,
         "place": "100 km NNW of San Antonio, Puerto Rico",
         "time": 1725046117630,
-        "updated": 1725048572400,
+        "updated": 1725053979040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024243000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024243000.geojson",
@@ -108,8 +228,8 @@
         "sig": 195,
         "net": "pr",
         "code": "2024243000",
-        "ids": ",pr2024243000,",
-        "sources": ",pr,",
+        "ids": ",us6000nnqq,pr2024243000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 12,
         "dmin": 0.935,
@@ -172,42 +292,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "31 km S of Nikolski, Alaska",
-        "time": 1725042117220,
-        "updated": 1725047563871,
+        "mag": 4.4,
+        "place": "36 km SSE of Nikolski, Alaska",
+        "time": 1725042117699,
+        "updated": 1725053434518,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b66fres",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b66fres.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnqj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnqj.geojson",
         "felt": 1,
         "cdi": 2,
         "mmi": 2.6,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "024b66fres",
-        "ids": ",ak024b66fres,",
-        "sources": ",ak,",
+        "sig": 298,
+        "net": "us",
+        "code": "6000nnqj",
+        "ids": ",ak024b66fres,us6000nnqj,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
+        "nst": 170,
+        "dmin": 0.362,
+        "rms": 0.7,
+        "gap": 62,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 31 km S of Nikolski, Alaska"
+        "title": "M 4.4 - 36 km SSE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.7804,
-          52.6577,
-          48.4
+          -168.7478,
+          52.6166,
+          41.343
         ]
       },
-      "id": "ak024b66fres"
+      "id": "us6000nnqj"
     },
     {
       "type": "Feature",
@@ -1008,86 +1128,6 @@
         ]
       },
       "id": "pr71458588"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.52,
-        "place": "4 km ESE of La Parguera, Puerto Rico",
-        "time": 1724969217720,
-        "updated": 1725046382682,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024242000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024242000.geojson",
-        "felt": 8,
-        "cdi": 4.1,
-        "mmi": 3.144,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 194,
-        "net": "pr",
-        "code": "2024242000",
-        "ids": ",us6000nnkb,pr2024242000,",
-        "sources": ",us,pr,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 20,
-        "dmin": 0.0388,
-        "rms": 0.18,
-        "gap": 176,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 4 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0055,
-          17.9666,
-          8
-        ]
-      },
-      "id": "pr2024242000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "66 km N of Khandūd, Afghanistan",
-        "time": 1724969103143,
-        "updated": 1724991539040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnkc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000nnkc",
-        "ids": ",us6000nnkc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.97,
-        "rms": 0.65,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 66 km N of Khandūd, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.3109,
-          37.5463,
-          192.656
-        ]
-      },
-      "id": "us6000nnkc"
     }
   ],
   "bbox": [
