@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1724991685000,
+    "generated": 1724994978000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "117 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1724991863183,
+        "updated": 1724993653344,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnlx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnlx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 5.193,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "6000nnlx",
+        "ids": ",us6000nnlx,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 113,
+        "dmin": 1.04,
+        "rms": 1.17,
+        "gap": 60,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 117 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.3687,
+          52.9702,
+          27.858
+        ]
+      },
+      "id": "us6000nnlx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.02,
         "place": "4 km ESE of La Parguera, Puerto Rico",
         "time": 1724971297330,
-        "updated": 1724972247440,
+        "updated": 1724992960040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71458603",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71458603.geojson",
@@ -148,8 +188,8 @@
         "sig": 140,
         "net": "pr",
         "code": "71458603",
-        "ids": ",pr71458603,",
-        "sources": ",pr,",
+        "ids": ",us6000nnkt,pr71458603,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 22,
         "dmin": 0.03526,
@@ -215,17 +255,17 @@
         "mag": 3.52,
         "place": "4 km ESE of La Parguera, Puerto Rico",
         "time": 1724969217720,
-        "updated": 1724978578587,
+        "updated": 1724993906851,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024242000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024242000.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 4.1,
-        "mmi": 3.053,
+        "mmi": 3.118,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 193,
+        "sig": 194,
         "net": "pr",
         "code": "2024242000",
         "ids": ",us6000nnkb,pr2024242000,",
@@ -375,12 +415,12 @@
         "mag": 2.8,
         "place": "21 km SSW of Ackerly, Texas",
         "time": 1724962269835,
-        "updated": 1724962895040,
+        "updated": 1724994020730,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024qzwf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024qzwf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -388,9 +428,9 @@
         "sig": 121,
         "net": "tx",
         "code": "2024qzwf",
-        "ids": ",us6000nnjm,tx2024qzwf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024qzwf,us6000nnjm,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": 0,
         "rms": 0.2,
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "us6000nnfb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "68 km NW of Arctic Village, Alaska",
-        "time": 1724906424122,
-        "updated": 1724907409040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b4aoccs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b4aoccs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "024b4aoccs",
-        "ids": ",us6000nnex,ak024b4aoccs,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.92,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 68 km NW of Arctic Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.5224,
-          68.6271,
-          0
-        ]
-      },
-      "id": "ak024b4aoccs"
     }
   ],
   "bbox": [
@@ -1255,7 +1255,7 @@
     -62.8155,
     -1.34,
     178.09866666667,
-    68.6271,
+    60.4299,
     494.286
   ]
 }
