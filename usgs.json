@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725067150000,
+    "generated": 1725071964000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.86,
+        "mag": 2.81,
         "place": "24 km SW of Ocotillo Wells, CA",
         "time": 1725066869270,
-        "updated": 1725066999792,
+        "updated": 1725067490770,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40720287",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40720287.geojson",
@@ -25,29 +25,69 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 121,
         "net": "ci",
         "code": "40720287",
         "ids": ",ci40720287,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 100,
-        "dmin": 0.02464,
-        "rms": 0.22,
-        "gap": 30,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 93,
+        "dmin": 0.02641,
+        "rms": 0.21,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 24 km SW of Ocotillo Wells, CA"
+        "title": "M 2.8 - 24 km SW of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2819977,
-          32.9715004,
-          9.54
+          -116.282,
+          32.974,
+          9.49
         ]
       },
       "id": "ci40720287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "57 km SE of Unalaska, Alaska",
+        "time": 1725064915207,
+        "updated": 1725069880492,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnt8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnt8.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 1.962,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000nnt8",
+        "ids": ",ak024b7jdl49,us6000nnt8,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 49,
+        "dmin": 0.482,
+        "rms": 0.75,
+        "gap": 195,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 57 km SE of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.9017,
+          53.523,
+          35
+        ]
+      },
+      "id": "us6000nnt8"
     },
     {
       "type": "Feature",
