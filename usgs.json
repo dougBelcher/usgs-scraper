@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725131537000,
+    "generated": 1725135504000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.55,
+        "mag": 2.59,
         "place": "22 km NW of Grapevine, CA",
-        "time": 1725131369740,
-        "updated": 1725131518725,
+        "time": 1725131369700,
+        "updated": 1725131889279,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40720895",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40720895.geojson",
@@ -25,16 +25,16 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 100,
+        "sig": 103,
         "net": "ci",
         "code": "40720895",
         "ids": ",ci40720895,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 68,
-        "dmin": 0.0318,
-        "rms": 0.29,
-        "gap": 26,
+        "nst": 60,
+        "dmin": 0.03014,
+        "rms": 0.28,
+        "gap": 27,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 22 km NW of Grapevine, CA"
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0891647,
-          35.090168,
-          11.72
+          -119.0938333,
+          35.0876667,
+          12.39
         ]
       },
       "id": "ci40720895"
@@ -255,17 +255,17 @@
         "mag": 5,
         "place": "49 km WNW of Coquimbo, Chile",
         "time": 1725109487130,
-        "updated": 1725124964163,
+        "updated": 1725133772075,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnvk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnvk.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 386,
         "net": "us",
         "code": "6000nnvk",
         "ids": ",us6000nnvk,",
@@ -655,11 +655,11 @@
         "mag": 3.7,
         "place": "9 km NNW of Fritz Creek, Alaska",
         "time": 1725090546456,
-        "updated": 1725131442569,
+        "updated": 1725135395896,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b7nl895",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b7nl895.geojson",
-        "felt": 90,
+        "felt": 92,
         "cdi": 3,
         "mmi": 3.312,
         "alert": null,
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000nnrj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "8 km ENE of Goldfield, Nevada",
-        "time": 1725048391030,
-        "updated": 1725057714167,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00883521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00883521.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00883521",
-        "ids": ",nn00883521,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.189,
-        "rms": 0.1819,
-        "gap": 93.67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km ENE of Goldfield, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.1495,
-          37.7369,
-          8.5
-        ]
-      },
-      "id": "nn00883521"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.56,
-        "place": "100 km NNW of San Antonio, Puerto Rico",
-        "time": 1725046117630,
-        "updated": 1725053979040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024243000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024243000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 195,
-        "net": "pr",
-        "code": "2024243000",
-        "ids": ",us6000nnqq,pr2024243000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.935,
-        "rms": 0.25,
-        "gap": 243,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.6 - 100 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4605,
-          19.3348,
-          26
-        ]
-      },
-      "id": "pr2024243000"
     }
   ],
   "bbox": [
