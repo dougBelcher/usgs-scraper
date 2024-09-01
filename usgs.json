@@ -1,27 +1,107 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725196785000,
+    "generated": 1725200004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 28
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "29 km SSW of Petersville, Alaska",
+        "time": 1725196822974,
+        "updated": 1725198662571,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b9eizyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b9eizyq.geojson",
+        "felt": 4,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "ak",
+        "code": "024b9eizyq",
+        "ids": ",ak024b9eizyq,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 29 km SSW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9177,
+          62.2432,
+          71.7
+        ]
+      },
+      "id": "ak024b9eizyq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "2 km NE of Homer, Alaska",
+        "time": 1725196821200,
+        "updated": 1725199954705,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024b9eizri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024b9eizri.geojson",
+        "felt": 169,
+        "cdi": 6.3,
+        "mmi": 3.508,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 432,
+        "net": "ak",
+        "code": "024b9eizri",
+        "ids": ",ak024b9eizri,at00sj4ydw,us6000np27,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,losspager,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.7,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 2 km NE of Homer, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5215,
+          59.6551,
+          48.2
+        ]
+      },
+      "id": "ak024b9eizri"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.67,
         "place": "7 km NNW of Dixon Lane-Meadow Creek, CA",
         "time": 1725188504780,
-        "updated": 1725193635097,
+        "updated": 1725199997213,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75056036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75056036.geojson",
-        "felt": 43,
+        "felt": 44,
         "cdi": 3.8,
-        "mmi": 3.945,
+        "mmi": 3.853,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -30,7 +110,7 @@
         "code": "75056036",
         "ids": ",nc75056036,nn00883621,",
         "sources": ",nc,nn,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 30,
         "dmin": 0.03227,
         "rms": 0.05,
@@ -95,17 +175,17 @@
         "mag": 3.8,
         "place": "5 km SE of Pierreville, Canada",
         "time": 1725183816699,
-        "updated": 1725196580916,
+        "updated": 1725199746814,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000np1d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000np1d.geojson",
-        "felt": 657,
+        "felt": 694,
         "cdi": 6.1,
         "mmi": 4.581,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 623,
+        "sig": 645,
         "net": "us",
         "code": "6000np1d",
         "ids": ",us6000np1d,",
@@ -1088,46 +1168,6 @@
         ]
       },
       "id": "us6000nnwh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Greenland Sea",
-        "time": 1725113016274,
-        "updated": 1725115330040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nnw2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nnw2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000nnw2",
-        "ids": ",us6000nnw2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 2.217,
-        "rms": 0.66,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Greenland Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2536,
-          79.9272,
-          10
-        ]
-      },
-      "id": "us6000nnw2"
     }
   ],
   "bbox": [
@@ -1135,7 +1175,7 @@
     -57.9775,
     1.108,
     149.5363,
-    79.9272,
+    63.5924,
     530.339
   ]
 }
