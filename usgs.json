@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725272304000,
+    "generated": 1725275664000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 42
+    "count": 40
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 4.1,
         "place": "25 km NW of Itháki, Greece",
         "time": 1725265369139,
-        "updated": 1725271129040,
+        "updated": 1725272325744,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000np7t",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000np7t.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "6000np7t",
         "ids": ",us6000np7t,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 34,
         "dmin": 1.54,
         "rms": 0.57,
@@ -1608,86 +1608,6 @@
         ]
       },
       "id": "us6000np1x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "7 km NNW of Dixon Lane-Meadow Creek, CA",
-        "time": 1725188504740,
-        "updated": 1725255315040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75056036",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75056036.geojson",
-        "felt": 69,
-        "cdi": 3.4,
-        "mmi": 3.689,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 201,
-        "net": "nc",
-        "code": "75056036",
-        "ids": ",nc75056036,nn00883621,us6000np1v,",
-        "sources": ",nc,nn,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 35,
-        "dmin": 0.02849,
-        "rms": 0.05,
-        "gap": 64,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.4 - 7 km NNW of Dixon Lane-Meadow Creek, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.464666666667,
-          37.4306666666667,
-          3.36
-        ]
-      },
-      "id": "nc75056036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "17 km NW of Midland, Texas",
-        "time": 1725187045609,
-        "updated": 1725228101241,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024repx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024repx.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "tx",
-        "code": "2024repx",
-        "ids": ",tx2024repx,us6000np1t,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 17 km NW of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.216,
-          32.108,
-          5.9326
-        ]
-      },
-      "id": "tx2024repx"
     }
   ],
   "bbox": [
