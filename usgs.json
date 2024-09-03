@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725380588000,
+    "generated": 1725383766000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "109 km WNW of Höfn, Iceland",
+        "time": 1725381073997,
+        "updated": 1725382254040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000npik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000npik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000npik",
+        "ids": ",us6000npik,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 169,
+        "dmin": 1.718,
+        "rms": 0.75,
+        "gap": 35,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 109 km WNW of Höfn, Iceland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.3482,
+          64.5904,
+          2.466
+        ]
+      },
+      "id": "us6000npik"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "us6000npha"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "75 km NNE of Luwuk, Indonesia",
+        "time": 1725369187631,
+        "updated": 1725381618040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nph8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nph8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000nph8",
+        "ids": ",us6000nph8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.706,
+        "rms": 0.65,
+        "gap": 58,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 75 km NNE of Luwuk, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.0743,
+          -0.3364,
+          80.696
+        ]
+      },
+      "id": "us6000nph8"
     },
     {
       "type": "Feature",
@@ -175,17 +255,17 @@
         "mag": 4.4,
         "place": "8 km S of San José del Cabo, Mexico",
         "time": 1725364727256,
-        "updated": 1725379997614,
+        "updated": 1725383734781,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nph0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nph0.geojson",
-        "felt": 56,
-        "cdi": 4.3,
+        "felt": 60,
+        "cdi": 4.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 322,
+        "sig": 323,
         "net": "us",
         "code": "6000nph0",
         "ids": ",us6000nph0,",
@@ -292,10 +372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
+        "mag": 2.7,
         "place": "50 km W of Mentone, Texas",
-        "time": 1725358731648,
-        "updated": 1725360837149,
+        "time": 1725358731614,
+        "updated": 1725381302034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024rigf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024rigf.geojson",
@@ -303,28 +383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 112,
         "net": "tx",
         "code": "2024rigf",
         "ids": ",us6000npgj,tx2024rigf,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 21,
+        "nst": 40,
         "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 77,
+        "rms": 0.1,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 50 km W of Mentone, Texas"
+        "title": "M 2.7 - 50 km W of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.129,
-          31.703,
-          4.3691
+          -104.133,
+          31.695,
+          5.7025
         ]
       },
       "id": "tx2024rigf"
@@ -1295,7 +1375,7 @@
     -45.6042,
     0,
     179.5312,
-    64.0038,
+    64.5904,
     549.724
   ]
 }
