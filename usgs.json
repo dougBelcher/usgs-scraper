@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725578298000,
+    "generated": 1725585606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "8 km SSE of Volcano, Hawaii",
+        "time": 1725579890900,
+        "updated": 1725581329354,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74443536",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74443536.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "hv",
+        "code": "74443536",
+        "ids": ",hv74443536,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.007842,
+        "rms": 0.11,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 8 km SSE of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2095,
+          19.3683333333333,
+          1.98
+        ]
+      },
+      "id": "hv74443536"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1215,11 +1255,11 @@
         "mag": 3.1,
         "place": "1 km SSE of Big Lake, Alaska",
         "time": 1725500796075,
-        "updated": 1725558886829,
+        "updated": 1725580909045,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024bftos9s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024bftos9s.geojson",
-        "felt": 46,
+        "felt": 47,
         "cdi": 3.1,
         "mmi": 2.531,
         "alert": null,
@@ -1248,52 +1288,12 @@
         ]
       },
       "id": "ak024bftos9s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "66 km NNE of Angoram, Papua New Guinea",
-        "time": 1725498196101,
-        "updated": 1725552434040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nps8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nps8.geojson",
-        "felt": 1,
-        "cdi": 8.3,
-        "mmi": 5.905,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 592,
-        "net": "us",
-        "code": "6000nps8",
-        "ids": ",us6000nps8,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 77,
-        "dmin": 3.426,
-        "rms": 1.06,
-        "gap": 77,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.2 - 66 km NNE of Angoram, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2508,
-          -3.487,
-          10
-        ]
-      },
-      "id": "us6000nps8"
     }
   ],
   "bbox": [
     -179.427,
     -33.819,
-    5,
+    1.98,
     154.4504,
     63.2208,
     604.422
