@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1725877191000,
+    "generated": 1725880456000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "12 km ENE of Goldfield, Nevada",
+        "time": 1725879645614,
+        "updated": 1725879877617,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00884400",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00884400.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00884400",
+        "ids": ",nn00884400,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.47,
+        "rms": 0.2105,
+        "gap": 155.89999999999998,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 12 km ENE of Goldfield, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0991,
+          37.7523,
+          4.1
+        ]
+      },
+      "id": "nn00884400"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,13 +95,13 @@
         "mag": 3.3,
         "place": "61 km SSW of Whites City, New Mexico",
         "time": 1725875437609,
-        "updated": 1725877013158,
+        "updated": 1725878588993,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024rteg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024rteg.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.642,
+        "mmi": 3.882,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "tx2024rteg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "237 km NNE of Hicks Bay, New Zealand",
+        "time": 1725871803767,
+        "updated": 1725877893040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqli",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqli.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000nqli",
+        "ids": ",us6000nqli,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.103,
+        "rms": 0.55,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 237 km NNE of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.7648,
+          -35.8127,
+          64.161
+        ]
+      },
+      "id": "us6000nqli"
     },
     {
       "type": "Feature",
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "pr71459508"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "61 km SSE of Pondaguitan, Philippines",
-        "time": 1725793400061,
-        "updated": 1725794641040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nqgd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nqgd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000nqgd",
-        "ids": ",us6000nqgd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 1.433,
-        "rms": 0.81,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 61 km SSE of Pondaguitan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.2904,
-          5.8152,
-          114.309
-        ]
-      },
-      "id": "us6000nqgd"
     }
   ],
   "bbox": [
