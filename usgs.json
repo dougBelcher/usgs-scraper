@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726085844000,
+    "generated": 1726089384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "151 km E of Luganville, Vanuatu",
+        "time": 1726087488461,
+        "updated": 1726089271040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd5w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd5w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000nd5w",
+        "ids": ",us7000nd5w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 6.642,
+        "rms": 0.8,
+        "gap": 216,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 151 km E of Luganville, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5491,
+          -15.2624,
+          10
+        ]
+      },
+      "id": "us7000nd5w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "113 km ENE of Luganville, Vanuatu",
+        "time": 1726086984595,
+        "updated": 1726088203040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd5u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd5u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000nd5u",
+        "ids": ",us7000nd5u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 6.431,
+        "rms": 0.75,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 113 km ENE of Luganville, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.186,
+          -15.2701,
+          10.264
+        ]
+      },
+      "id": "us7000nd5u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "117 km ENE of Luganville, Vanuatu",
+        "time": 1726084342835,
+        "updated": 1726087228040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd5k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd5k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000nd5k",
+        "ids": ",us7000nd5k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 6.474,
+        "rms": 0.95,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 117 km ENE of Luganville, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2149,
+          -15.2364,
+          10.208
+        ]
+      },
+      "id": "us7000nd5k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,13 +215,13 @@
         "mag": 5.8,
         "place": "107 km ENE of Luganville, Vanuatu",
         "time": 1726078678223,
-        "updated": 1726080622811,
+        "updated": 1726086194471,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd4s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd4s.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 6.343,
+        "mmi": 6.452,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -255,12 +375,12 @@
         "mag": 6.3,
         "place": "170 km SW of Lorengau, Papua New Guinea",
         "time": 1726073164677,
-        "updated": 1726080938666,
+        "updated": 1726088180534,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd4f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd4f.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 5.5,
         "mmi": 4.274,
         "alert": "green",
         "status": "reviewed",
@@ -270,7 +390,7 @@
         "code": "7000nd4f",
         "ids": ",us7000nd4f,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 79,
         "dmin": 1.582,
         "rms": 1.25,
@@ -328,6 +448,46 @@
         ]
       },
       "id": "us7000nd3i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "38 km SSW of Nemuro, Japan",
+        "time": 1726070645788,
+        "updated": 1726088282040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nd3f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nd3f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000nd3f",
+        "ids": ",us7000nd3f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 1.952,
+        "rms": 0.64,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 38 km SSW of Nemuro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4454,
+          42.9885,
+          47.805
+        ]
+      },
+      "id": "us7000nd3f"
     },
     {
       "type": "Feature",
@@ -1448,93 +1608,13 @@
         ]
       },
       "id": "us7000ncy0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "24 km W of Pole Ojea, Puerto Rico",
-        "time": 1726002979510,
-        "updated": 1726003944590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71459688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71459688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "pr",
-        "code": "71459688",
-        "ids": ",pr71459688,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2924,
-        "rms": 0.09,
-        "gap": 326,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 24 km W of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4136666666667,
-          17.9645,
-          24.74
-        ]
-      },
-      "id": "pr71459688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "55 km NE of Hihifo, Tonga",
-        "time": 1726002173565,
-        "updated": 1726003257040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ncxz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ncxz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ncxz",
-        "ids": ",us7000ncxz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.319,
-        "rms": 1.09,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 55 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.434,
-          -15.5999,
-          82.832
-        ]
-      },
-      "id": "us7000ncxz"
     }
   ],
   "bbox": [
     -179.7537,
     -55.8554,
     0.59,
-    168.1311,
+    168.5491,
     61.4151,
     419.573
   ]
