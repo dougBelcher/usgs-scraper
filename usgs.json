@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1726690742000,
+    "generated": 1726694163000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 20
+    "count": 19
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 4.1,
         "place": "7 km WNW of Hualien City, Taiwan",
         "time": 1726679414489,
-        "updated": 1726682875040,
+        "updated": 1726693193507,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nsww",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nsww.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "6000nsww",
         "ids": ",us6000nsww,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 65,
         "dmin": 0.646,
         "rms": 0.63,
@@ -452,46 +452,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.74,
-        "place": "10 km SSW of Fern Forest, Hawaii",
-        "time": 1726643949230,
-        "updated": 1726650829040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74468562",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74468562.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "hv",
-        "code": "74468562",
-        "ids": ",us6000nsup,hv74468562,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.01112,
-        "rms": 0.25999999,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km SSW of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.160507202148,
-          19.3719997406006,
-          2.57999992370605
-        ]
-      },
-      "id": "hv74468562"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.93,
         "place": "55 km S of Boca de Yuma, Dominican Republic",
         "time": 1726641412810,
@@ -813,7 +773,7 @@
   "bbox": [
     -176.7388,
     -27.4393,
-    2.579999923706,
+    5.6,
     147.15,
     60.3006,
     169
