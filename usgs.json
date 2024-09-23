@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727072842000,
+    "generated": 1727075844000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.97,
+        "place": "5 km NNW of Pinnacles, CA",
+        "time": 1727075579940,
+        "updated": 1727075841679,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75065656",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75065656.geojson",
+        "felt": 3,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 137,
+        "net": "nc",
+        "code": "75065656",
+        "ids": ",nc75065656,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.1057,
+        "rms": 0.19,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 5 km NNW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.170333862305,
+          36.5686683654785,
+          4.80999994277954
+        ]
+      },
+      "id": "nc75065656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.44,
+        "place": "98 km NNW of San Antonio, Puerto Rico",
+        "time": 1727074290600,
+        "updated": 1727075412630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71460868",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71460868.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 182,
+        "net": "pr",
+        "code": "71460868",
+        "ids": ",pr71460868,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.9023,
+        "rms": 0.29,
+        "gap": 266,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 98 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3778333333333,
+          19.3383333333333,
+          25.79
+        ]
+      },
+      "id": "pr71460868"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +175,17 @@
         "mag": 2.94,
         "place": "12 km SE of Desert Aire, Washington",
         "time": 1727061753260,
-        "updated": 1727072671346,
+        "updated": 1727075517347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62049146",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62049146.geojson",
-        "felt": 7,
+        "felt": 8,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 134,
+        "sig": 135,
         "net": "uw",
         "code": "62049146",
         "ids": ",uw62049146,us6000ntsr,",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "us6000ntmm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.37,
-        "place": "8 km SSE of Guánica, Puerto Rico",
-        "time": 1726987690060,
-        "updated": 1726992417930,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71460693",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71460693.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 175,
-        "net": "pr",
-        "code": "71460693",
-        "ids": ",us6000ntmj,pr71460693,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1231,
-        "rms": 0.16,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 8 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8806666666667,
-          17.901,
-          11.7
-        ]
-      },
-      "id": "pr71460693"
     }
   ],
   "bbox": [
