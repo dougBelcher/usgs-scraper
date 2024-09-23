@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727054664000,
+    "generated": 1727059748000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 44
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Fiji region",
+        "time": 1727057692087,
+        "updated": 1727058841040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntsh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntsh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ntsh",
+        "ids": ",us6000ntsh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 3.595,
+        "rms": 0.94,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.0409,
+          -21.5378,
+          584.27
+        ]
+      },
+      "id": "us6000ntsh"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "24 km WNW of Stanton, Texas",
         "time": 1727050641615,
-        "updated": 1727051270040,
+        "updated": 1727055262110,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntrv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntrv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "6000ntrv",
         "ids": ",us6000ntrv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.163,
         "rms": 0.54,
@@ -295,17 +335,17 @@
         "mag": 5,
         "place": "57 km NW of La Ligua, Chile",
         "time": 1727030797915,
-        "updated": 1727049382702,
+        "updated": 1727059465121,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntqb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntqb.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 4.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 396,
+        "sig": 397,
         "net": "us",
         "code": "6000ntqb",
         "ids": ",us6000ntqb,",
@@ -1568,214 +1608,14 @@
         ]
       },
       "id": "us6000ntln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.13,
-        "place": "9 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1726973182990,
-        "updated": 1726975773390,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71460663",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71460663.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 151,
-        "net": "pr",
-        "code": "71460663",
-        "ids": ",pr71460663,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1448,
-        "rms": 0.13,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 9 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.865,
-          17.8925,
-          11.03
-        ]
-      },
-      "id": "pr71460663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "34 km SSW of La Libertad, El Salvador",
-        "time": 1726971947465,
-        "updated": 1727034992773,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntl2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntl2.geojson",
-        "felt": 11,
-        "cdi": 4.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 405,
-        "net": "us",
-        "code": "6000ntl2",
-        "ids": ",us6000ntl2,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.47,
-        "rms": 1.24,
-        "gap": 110,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 34 km SSW of La Libertad, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.3949,
-          13.1845,
-          75.266
-        ]
-      },
-      "id": "us6000ntl2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "285 km WNW of Houma, Tonga",
-        "time": 1726971623334,
-        "updated": 1726975127040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntl3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntl3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000ntl3",
-        "ids": ",us6000ntl3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.945,
-        "rms": 0.65,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 285 km WNW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6899,
-          -19.9127,
-          550.979
-        ]
-      },
-      "id": "us6000ntl3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "83 km W of San Antonio de los Cobres, Argentina",
-        "time": 1726970039724,
-        "updated": 1726974599040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntkx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntkx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ntkx",
-        "ids": ",us6000ntkx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.456,
-        "rms": 0.4,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 83 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.134,
-          -24.1395,
-          186.193
-        ]
-      },
-      "id": "us6000ntkx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "91 km NNW of Villa General Roca, Argentina",
-        "time": 1726968743765,
-        "updated": 1726972058040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntkt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntkt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000ntkt",
-        "ids": ",us6000ntkt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.532,
-        "rms": 0.95,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 91 km NNW of Villa General Roca, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9509,
-          -31.9565,
-          147.972
-        ]
-      },
-      "id": "us6000ntkt"
     }
   ],
   "bbox": [
-    -178.165,
+    -179.0409,
     -41.2829,
     0.1,
     158.2869,
     67.6176,
-    550.979
+    584.27
   ]
 }
