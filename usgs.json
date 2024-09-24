@@ -1,21 +1,21 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727155044000,
+    "generated": 1727159202000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "4 km E of Big Lake, Alaska",
-        "time": 1727154520177,
-        "updated": 1727154828675,
+        "mag": 2.5,
+        "place": "2 km ESE of Big Lake, Alaska",
+        "time": 1727154521118,
+        "updated": 1727156576960,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cbb1z75",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cbb1z75.geojson",
@@ -23,31 +23,71 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 96,
         "net": "ak",
         "code": "024cbb1z75",
-        "ids": ",ak024cbb1z75,",
-        "sources": ",ak,",
+        "ids": ",ak024cbb1z75,us6000nu0n,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.24,
+        "rms": 0.67,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km E of Big Lake, Alaska"
+        "title": "M 2.5 - 2 km ESE of Big Lake, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.8775,
-          61.5218,
-          33.3
+          -149.9084,
+          61.5122,
+          35.5
         ]
       },
       "id": "ak024cbb1z75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
+        "place": "6 km ESE of Las Marías, Puerto Rico",
+        "time": 1727154409360,
+        "updated": 1727156287460,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71461028",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71461028.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "pr",
+        "code": "71461028",
+        "ids": ",pr71461028,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1553,
+        "rms": 0.14,
+        "gap": 116,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 6 km ESE of Las Marías, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.935,
+          18.2356666666667,
+          14.02
+        ]
+      },
+      "id": "pr71461028"
     },
     {
       "type": "Feature",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak024cb9w71j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1727143229253,
+        "updated": 1727156262709,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cb97xu6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cb97xu6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.613,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "024cb97xu6",
+        "ids": ",ak024cb97xu6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.9818,
+          51.1802,
+          16.7
+        ]
+      },
+      "id": "ak024cb97xu6"
     },
     {
       "type": "Feature",
