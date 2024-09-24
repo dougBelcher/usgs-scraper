@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727169608000,
+    "generated": 1727173224000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -92,10 +92,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "41 km NW of Toyah, Texas",
-        "time": 1727160348737,
-        "updated": 1727161925040,
+        "mag": 2.8,
+        "place": "40 km NW of Toyah, Texas",
+        "time": 1727160348654,
+        "updated": 1727169798465,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024suis",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024suis.geojson",
@@ -103,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 121,
         "net": "tx",
         "code": "2024suis",
         "ids": ",us6000nu11,tx2024suis,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 18,
+        "nst": 24,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 67,
+        "rms": 0.2,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 41 km NW of Toyah, Texas"
+        "title": "M 2.8 - 40 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.126,
-          31.552,
-          4.2004
+          -104.108,
+          31.563,
+          7.2278
         ]
       },
       "id": "tx2024suis"
@@ -1212,6 +1212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "Izu Islands, Japan region",
+        "time": 1727095805708,
+        "updated": 1727170424040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ntut",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ntut.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ntut",
+        "ids": ",us6000ntut,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.644,
+        "rms": 0.61,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0552,
+          29.7473,
+          10
+        ]
+      },
+      "id": "us6000ntut"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.02,
         "place": "16 km SE of Esperanza, Puerto Rico",
         "time": 1727092506390,
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us6000ntua"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "35 km WSW of Ackerly, Texas",
-        "time": 1727086455059,
-        "updated": 1727095397059,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ssub",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ssub.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2024ssub",
-        "ids": ",us6000ntu1,tx2024ssub,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 35 km WSW of Ackerly, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.068,
-          32.422,
-          8.4717
-        ]
-      },
-      "id": "tx2024ssub"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "85 km N of Brenas, Puerto Rico",
-        "time": 1727083240560,
-        "updated": 1727086671200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71460918",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71460918.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71460918",
-        "ids": ",pr71460918,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.9121,
-        "rms": 0.37,
-        "gap": 254,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 85 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4166666666667,
-          19.2343333333333,
-          26.76
-        ]
-      },
-      "id": "pr71460918"
     }
   ],
   "bbox": [
