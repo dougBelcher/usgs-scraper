@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727405402000,
+    "generated": 1727407400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "6 km SSW of San Pedro Sochiápam, Mexico",
+        "time": 1727405790290,
+        "updated": 1727406862040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngqq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngqq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000ngqq",
+        "ids": ",us7000ngqq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.81,
+        "rms": 1.23,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 6 km SSW of San Pedro Sochiápam, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6811,
+          17.7735,
+          92.216
+        ]
+      },
+      "id": "us7000ngqq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.9,
+        "place": "49 km S of San Lorenzo de Esmeraldas, Ecuador",
+        "time": 1727396972131,
+        "updated": 1727406593040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ngqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ngqa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000ngqa",
+        "ids": ",us7000ngqa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.454,
+        "rms": 0.55,
+        "gap": 181,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 49 km S of San Lorenzo de Esmeraldas, Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7806,
+          0.8407,
+          67.716
+        ]
+      },
+      "id": "us7000ngqa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "9 km S of Olancha, CA",
         "time": 1727396217220,
-        "updated": 1727396635372,
+        "updated": 1727405969040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40746727",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40746727.geojson",
@@ -188,8 +268,8 @@
         "sig": 112,
         "net": "ci",
         "code": "40746727",
-        "ids": ",ci40746727,",
-        "sources": ",ci,",
+        "ids": ",ci40746727,us7000ngq7,",
+        "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 32,
         "dmin": 0.1557,
@@ -735,11 +815,11 @@
         "mag": 3.96,
         "place": "12 km E of Saanichton, Canada",
         "time": 1727348720170,
-        "updated": 1727405386091,
+        "updated": 1727407059320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62050041",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62050041.geojson",
-        "felt": 2601,
+        "felt": 2605,
         "cdi": 3.8,
         "mmi": 3.645,
         "alert": "green",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "pr71461208"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "60 km N of Brenas, Puerto Rico",
-        "time": 1727320856840,
-        "updated": 1727323031370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71461203",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71461203.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "pr",
-        "code": "71461203",
-        "ids": ",pr71461203,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6784,
-        "rms": 0.14,
-        "gap": 247,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 60 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.284,
-          19.0138333333333,
-          13.06
-        ]
-      },
-      "id": "pr71461203"
     }
   ],
   "bbox": [
