@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1727936761000,
+    "generated": 1727939886000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "40 km W of Nanwalek, Alaska",
+        "time": 1727936946437,
+        "updated": 1727939569040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024cq7lynw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024cq7lynw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "024cq7lynw",
+        "ids": ",us6000nw7z,ak024cq7lynw,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.4,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 40 km W of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.6322,
+          59.3831,
+          73.8
+        ]
+      },
+      "id": "ak024cq7lynw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.67,
         "place": "25 km SE of Emajagua, Puerto Rico",
         "time": 1727933544290,
-        "updated": 1727936720517,
+        "updated": 1727939271040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024277000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024277000.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.9,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 208,
         "net": "pr",
         "code": "2024277000",
-        "ids": ",pr2024277000,",
-        "sources": ",pr,",
+        "ids": ",pr2024277000,us6000nw7v,",
+        "sources": ",pr,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": 0.2679,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000nhnl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "45 km ENE of Palca, Peru",
-        "time": 1727851751249,
-        "updated": 1727854623040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nhn6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nhn6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000nhn6",
-        "ids": ",us7000nhn6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.731,
-        "rms": 0.75,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 45 km ENE of Palca, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.5744,
-          -17.6026,
-          160.9
-        ]
-      },
-      "id": "us7000nhn6"
     }
   ],
   "bbox": [
