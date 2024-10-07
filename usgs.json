@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728304689000,
+    "generated": 1728307550000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.10.3",
+    "api": "1.14.1",
     "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "22 km N of Yaguaraparo, Venezuela",
+        "time": 1728303689995,
+        "updated": 1728306607075,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx1y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx1y.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000nx1y",
+        "ids": ",us6000nx1y,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.795,
+        "rms": 0.84,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 22 km N of Yaguaraparo, Venezuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.8594,
+          10.7725,
+          105.585
+        ]
+      },
+      "id": "us6000nx1y"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.1,
         "place": "12 km E of Dillon, Montana",
         "time": 1728284070633,
-        "updated": 1728304654700,
+        "updated": 1728307337208,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nx10",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nx10.geojson",
-        "felt": 117,
+        "felt": 125,
         "cdi": 4.6,
         "mmi": 4.114,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 316,
         "net": "us",
         "code": "6000nx10",
         "ids": ",us6000nx10,",
@@ -1495,11 +1535,11 @@
         "mag": 4.9,
         "place": "23 km NE of Āwash, Ethiopia",
         "time": 1728234603972,
-        "updated": 1728298981297,
+        "updated": 1728306545758,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nwx4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nwx4.geojson",
-        "felt": 149,
+        "felt": 150,
         "cdi": 4.4,
         "mmi": null,
         "alert": null,
@@ -1728,53 +1768,13 @@
         ]
       },
       "id": "us6000nwwl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "Vanuatu region",
-        "time": 1728219658349,
-        "updated": 1728220831040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nwwa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nwwa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000nwwa",
-        "ids": ",us6000nwwa,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 39,
-        "dmin": 6.14,
-        "rms": 0.54,
-        "gap": 75,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - Vanuatu region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6429,
-          -17.2115,
-          10
-        ]
-      },
-      "id": "us6000nwwa"
     }
   ],
   "bbox": [
     -178.474,
     -33.5384,
     0,
-    171.6429,
+    169.0501,
     69.3768,
     594.215
   ]
