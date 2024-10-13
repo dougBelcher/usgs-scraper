@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728854241000,
+    "generated": 1728857756000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "110 km SSW of Kaktovik, Alaska",
+        "time": 1728857461416,
+        "updated": 1728857708086,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024d70ehzk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024d70ehzk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "024d70ehzk",
+        "ids": ",ak024d70ehzk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.9,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 110 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.9725,
+          69.2581,
+          0
+        ]
+      },
+      "id": "ak024d70ehzk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,11 +215,11 @@
         "mag": 2.72,
         "place": "7 km WSW of Gilroy, CA",
         "time": 1728833498660,
-        "updated": 1728842871910,
+        "updated": 1728857095423,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75073891",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75073891.geojson",
-        "felt": 25,
+        "felt": 27,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1168,52 +1208,12 @@
         ]
       },
       "id": "ak024d5cxt78"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "14 km WSW of Papanoa, Mexico",
-        "time": 1728769981095,
-        "updated": 1728792457282,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nyc2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyc2.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "6000nyc2",
-        "ids": ",us6000nyc2,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 138,
-        "dmin": 2.364,
-        "rms": 1.4,
-        "gap": 164,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 14 km WSW of Papanoa, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.1611,
-          17.271,
-          10
-        ]
-      },
-      "id": "us6000nyc2"
     }
   ],
   "bbox": [
     -178.55,
     -57.8928,
-    2,
+    0,
     178.1216,
     80.287,
     144.204
