@@ -1,35 +1,115 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728846932000,
+    "generated": 1728850743000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "58 km ENE of Atka, Alaska",
+        "time": 1728849770499,
+        "updated": 1728850396594,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024d6z5x0d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024d6z5x0d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "024d6z5x0d",
+        "ids": ",ak024d6z5x0d,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 58 km ENE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.4351,
+          52.4294,
+          115.9
+        ]
+      },
+      "id": "ak024d6z5x0d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "32 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1728848995500,
+        "updated": 1728850612180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71462563",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71462563.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71462563",
+        "ids": ",pr71462563,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.2727,
+        "rms": 0.07,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 32 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0916666666667,
+          18.5943333333333,
+          14.9
+        ]
+      },
+      "id": "pr71462563"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1728839058476,
-        "updated": 1728839949040,
+        "updated": 1728850134217,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nygi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nygi.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.02,
+        "mmi": 2.703,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 326,
         "net": "us",
         "code": "6000nygi",
-        "ids": ",us6000nygi,ak024d6xdw59,",
-        "sources": ",us,ak,",
+        "ids": ",ak024d6xdw59,us6000nygi,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 55,
         "dmin": 0.285,
@@ -95,17 +175,17 @@
         "mag": 2.53,
         "place": "3 km NNW of Coronaca, South Carolina",
         "time": 1728828580350,
-        "updated": 1728844957422,
+        "updated": 1728850495262,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60502543",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60502543.geojson",
-        "felt": 25,
-        "cdi": 4.6,
+        "felt": 28,
+        "cdi": 4.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 110,
+        "sig": 112,
         "net": "se",
         "code": "60502543",
         "ids": ",us6000nyft,se60502543,",
@@ -215,17 +295,17 @@
         "mag": 2.76,
         "place": "4 km SE of Ontario, CA",
         "time": 1728817129470,
-        "updated": 1728846062053,
+        "updated": 1728850162819,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40953472",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40953472.geojson",
-        "felt": 232,
+        "felt": 234,
         "cdi": 3.8,
         "mmi": 3.06,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 205,
+        "sig": 206,
         "net": "ci",
         "code": "40953472",
         "ids": ",ci40953472,",
@@ -1088,126 +1168,6 @@
         ]
       },
       "id": "us6000nyc2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.05,
-        "place": "2 km NNE of San Rafael del Yuma, Dominican Republic",
-        "time": 1728763769350,
-        "updated": 1728769426040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024286001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024286001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 252,
-        "net": "pr",
-        "code": "2024286001",
-        "ids": ",us6000nybm,pr2024286001,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.9905,
-        "rms": 0.34,
-        "gap": 164,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 4.1 - 2 km NNE of San Rafael del Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.6593,
-          18.4523,
-          122
-        ]
-      },
-      "id": "pr2024286001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "2 km SW of Indios, Puerto Rico",
-        "time": 1728762360600,
-        "updated": 1728764025680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71462493",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71462493.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71462493",
-        "ids": ",pr71462493,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.2006,
-        "rms": 0.17,
-        "gap": 163,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8335,
-          17.9751666666667,
-          10.45
-        ]
-      },
-      "id": "pr71462493"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "northwest of the Kuril Islands",
-        "time": 1728762312425,
-        "updated": 1728773017040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nybk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nybk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000nybk",
-        "ids": ",us6000nybk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 5.673,
-        "rms": 0.5,
-        "gap": 169,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - northwest of the Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.4252,
-          49.3874,
-          375.079
-        ]
-      },
-      "id": "us6000nybk"
     }
   ],
   "bbox": [
@@ -1216,6 +1176,6 @@
     2,
     178.1216,
     80.287,
-    375.079
+    144.204
   ]
 }
