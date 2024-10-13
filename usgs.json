@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1728796673000,
+    "generated": 1728800709000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "93 km SSW of Kaktovik, Alaska",
+        "time": 1728796970247,
+        "updated": 1728797220051,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024d6qclds",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024d6qclds.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "024d6qclds",
+        "ids": ",ak024d6qclds,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.76,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 93 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.887,
+          69.4129,
+          2
+        ]
+      },
+      "id": "ak024d6qclds"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
         "place": "17 km S of Āwash, Ethiopia",
         "time": 1728794270770,
-        "updated": 1728796365824,
+        "updated": 1728797259902,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nyds",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyds.geojson",
-        "felt": 6,
-        "cdi": 2.2,
+        "felt": 8,
+        "cdi": 2.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000nyds"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.94,
+        "place": "34 km NNE of Luquillo, Puerto Rico",
+        "time": 1728792585940,
+        "updated": 1728800561430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71462543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71462543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "pr",
+        "code": "71462543",
+        "ids": ",pr71462543,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.4653,
+        "rms": 0.38,
+        "gap": 231,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 34 km NNE of Luquillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5981666666667,
+          18.6655,
+          25.14
+        ]
+      },
+      "id": "pr71462543"
     },
     {
       "type": "Feature",
@@ -1295,7 +1375,7 @@
         "mag": 3.4,
         "place": "100 km SSW of Kaktovik, Alaska",
         "time": 1728736589145,
-        "updated": 1728747686945,
+        "updated": 1728800388040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024d5728l0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024d5728l0.geojson",
@@ -1308,8 +1388,8 @@
         "sig": 178,
         "net": "ak",
         "code": "024d5728l0",
-        "ids": ",ak024d5728l0,",
-        "sources": ",ak,",
+        "ids": ",us6000nya2,ak024d5728l0,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1848,46 +1928,6 @@
         ]
       },
       "id": "us6000ny94"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.28,
-        "place": "66 km N of Dorado, Puerto Rico",
-        "time": 1728712883100,
-        "updated": 1728714031540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71462418",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71462418.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 166,
-        "net": "pr",
-        "code": "71462418",
-        "ids": ",pr71462418,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.7464,
-        "rms": 0.28,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 66 km N of Dorado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2178333333333,
-          19.0563333333333,
-          23.55
-        ]
-      },
-      "id": "pr71462418"
     }
   ],
   "bbox": [
