@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729059953000,
+    "generated": 1729063061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,15 +12,55 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "55 km NNW of Rabaul, Papua New Guinea",
+        "time": 1729058283754,
+        "updated": 1729062421040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nyz9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyz9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000nyz9",
+        "ids": ",us6000nyz9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.492,
+        "rms": 1.18,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 55 km NNW of Rabaul, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0467,
+          -3.7099,
+          11.744
+        ]
+      },
+      "id": "us6000nyz9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.56,
         "place": "0 km S of Rafael Hernandez, Puerto Rico",
         "time": 1729057696850,
-        "updated": 1729059605635,
+        "updated": 1729060275902,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024290000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024290000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "2024290000",
         "ids": ",pr2024290000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.031,
         "rms": 0.14,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000nysi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "34 km N of Chickaloon, Alaska",
-        "time": 1728975379066,
-        "updated": 1728983726040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024da27xvp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024da27xvp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "024da27xvp",
-        "ids": ",us6000nysb,ak024da27xvp,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.47,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 34 km N of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.5412,
-          62.108,
-          35.2
-        ]
-      },
-      "id": "ak024da27xvp"
     }
   ],
   "bbox": [
