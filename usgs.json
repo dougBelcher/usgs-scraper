@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729514229000,
+    "generated": 1729517213000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "2 km ENE of Prattville, CA",
+        "time": 1729516993650,
+        "updated": 1729517091543,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75076821",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75076821.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "nc",
+        "code": "75076821",
+        "ids": ",nc75076821,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.2001,
+        "rms": 0.12,
+        "gap": 171,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km ENE of Prattville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.136833190918,
+          40.2176666259766,
+          6.65000009536743
+        ]
+      },
+      "id": "nc75076821"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -735,17 +775,17 @@
         "mag": 3.07,
         "place": "41 km NE of San Clemente Is. (SE tip), CA",
         "time": 1729465918070,
-        "updated": 1729502735931,
+        "updated": 1729516895906,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40958104",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40958104.geojson",
-        "felt": 5,
-        "cdi": 2,
+        "felt": 6,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 147,
         "net": "ci",
         "code": "40958104",
         "ids": ",ci40958104,us6000nzxl,",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "ak024difz9rg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "57 km WNW of Ninilchik, Alaska",
-        "time": 1729429181157,
-        "updated": 1729498746040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024difhyvs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024difhyvs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024difhyvs",
-        "ids": ",us6000nzvv,ak024difhyvs,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.34,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 57 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.6143,
-          60.251,
-          112.6
-        ]
-      },
-      "id": "ak024difhyvs"
     }
   ],
   "bbox": [
