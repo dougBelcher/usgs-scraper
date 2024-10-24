@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729740216000,
+    "generated": 1729743773000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 43
   },
   "features": [
     {
@@ -128,6 +128,46 @@
         ]
       },
       "id": "hv74510257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "128 km SSE of Alo, Wallis and Futuna",
+        "time": 1729734774520,
+        "updated": 1729741015040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nmsd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nmsd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nmsd",
+        "ids": ",us7000nmsd,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 2.943,
+        "rms": 0.64,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 128 km SSE of Alo, Wallis and Futuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.7719,
+          -15.4212,
+          445.698
+        ]
+      },
+      "id": "us7000nmsd"
     },
     {
       "type": "Feature",
@@ -1691,11 +1731,11 @@
     }
   ],
   "bbox": [
-    -176.6164,
+    -177.7719,
     -40.9535,
     -0.93000000715256,
     155.6979,
     69.4226,
-    213.179
+    445.698
   ]
 }
