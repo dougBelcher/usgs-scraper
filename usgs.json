@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729887609000,
+    "generated": 1729891061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 32
   },
   "features": [
     {
@@ -52,10 +52,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.57999992,
-        "place": "0 km ESE of Pāhala, Hawaii",
-        "time": 1729880360400,
-        "updated": 1729880465080,
+        "mag": 2.48,
+        "place": "1 km ESE of Pāhala, Hawaii",
+        "time": 1729880360390,
+        "updated": 1729890406170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74512787",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74512787.geojson",
@@ -63,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 95,
         "net": "hv",
         "code": "74512787",
         "ids": ",hv74512787,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.04495,
-        "rms": 0.109999999,
-        "gap": 94,
+        "nst": 34,
+        "dmin": 0.04367,
+        "rms": 0.11,
+        "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 0 km ESE of Pāhala, Hawaii"
+        "title": "M 2.5 - 1 km ESE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.470840454102,
-          19.1998329162598,
-          30.3700008392334
+          -155.467666666667,
+          19.199,
+          30.91
         ]
       },
       "id": "hv74512787"
@@ -95,22 +95,22 @@
         "mag": 3.1,
         "place": "22 km ESE of Funny River, Alaska",
         "time": 1729879833820,
-        "updated": 1729879928393,
+        "updated": 1729890260170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dqsgsan",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dqsgsan.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 2.397,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 148,
         "net": "ak",
         "code": "024dqsgsan",
-        "ids": ",ak024dqsgsan,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",us7000nn7r,ak024dqsgsan,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.51,
@@ -215,11 +215,11 @@
         "mag": 4.54,
         "place": "10 km SE of Stovepipe Wells, CA",
         "time": 1729868663620,
-        "updated": 1729884412852,
+        "updated": 1729890471127,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40964384",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40964384.geojson",
-        "felt": 36,
+        "felt": 37,
         "cdi": 3.5,
         "mmi": 5.262,
         "alert": "green",
@@ -535,17 +535,17 @@
         "mag": 4.71,
         "place": "5 km E of Stovepipe Wells, CA",
         "time": 1729843508330,
-        "updated": 1729883729737,
+        "updated": 1729888314847,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40964128",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40964128.geojson",
-        "felt": 336,
+        "felt": 338,
         "cdi": 4.2,
         "mmi": 5.868,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 483,
         "net": "ci",
         "code": "40964128",
         "ids": ",ci40964128,us7000nn37,nn00886644,",
@@ -1092,46 +1092,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47,
-        "place": "11 km E of Kelly, Wyoming",
-        "time": 1729810843830,
-        "updated": 1729812110340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90064408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90064408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "mb",
-        "code": "90064408",
-        "ids": ",mb90064408,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.08558,
-        "rms": 0.21,
-        "gap": 121,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km E of Kelly, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.486166666667,
-          43.6075,
-          3.12
-        ]
-      },
-      "id": "mb90064408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 3.07,
         "place": "4 km E of Stovepipe Wells, CA",
         "time": 1729808648310,
@@ -1328,126 +1288,6 @@
         ]
       },
       "id": "pr2024298000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "31 km S of Grande Prairie, Canada",
-        "time": 1729804400646,
-        "updated": 1729872965536,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nn0c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn0c.geojson",
-        "felt": 34,
-        "cdi": 4.3,
-        "mmi": 4.894,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000nn0c",
-        "ids": ",us7000nn0c,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 80,
-        "dmin": 0.723,
-        "rms": 0.74,
-        "gap": 37,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 31 km S of Grande Prairie, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.737,
-          54.8821,
-          10
-        ]
-      },
-      "id": "us7000nn0c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "85 km NNW of Kimbe, Papua New Guinea",
-        "time": 1729803660670,
-        "updated": 1729815477040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nn08",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn08.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000nn08",
-        "ids": ",us7000nn08,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 2.405,
-        "rms": 0.61,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 85 km NNW of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.8377,
-          -4.8339,
-          614.141
-        ]
-      },
-      "id": "us7000nn08"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "124 km WNW of Pizarro, Colombia",
-        "time": 1729801919118,
-        "updated": 1729804226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nmzv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nmzv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000nmzv",
-        "ids": ",us7000nmzv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 2.948,
-        "rms": 0.59,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 124 km WNW of Pizarro, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.3878,
-          5.4101,
-          10
-        ]
-      },
-      "id": "us7000nmzv"
     }
   ],
   "bbox": [
@@ -1456,6 +1296,6 @@
     1.7999999523163,
     154.5809,
     63.3029,
-    614.141
+    405.976
   ]
 }
