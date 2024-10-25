@@ -1,50 +1,170 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1729891061000,
+    "generated": 1729894613000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "15 km NNE of Hope, Alaska",
-        "time": 1729882332701,
-        "updated": 1729883567750,
+        "mag": 3.22,
+        "place": "95 km N of Cruz Bay, U.S. Virgin Islands",
+        "time": 1729892708340,
+        "updated": 1729894078580,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dqspqra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dqspqra.geojson",
-        "felt": 6,
-        "cdi": 3.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463538.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
-        "net": "ak",
-        "code": "024dqspqra",
-        "ids": ",ak024dqspqra,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.42,
-        "gap": null,
-        "magType": "ml",
+        "sig": 160,
+        "net": "pr",
+        "code": "71463538",
+        "ids": ",pr71463538,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.7607,
+        "rms": 0.46,
+        "gap": 295,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 15 km NNE of Hope, Alaska"
+        "title": "M 3.2 - 95 km N of Cruz Bay, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.5726,
-          61.056,
-          28.9
+          -64.6363333333333,
+          19.1848333333333,
+          37.11
+        ]
+      },
+      "id": "pr71463538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "1 km N of Hamura, Japan",
+        "time": 1729891223221,
+        "updated": 1729893097836,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nn8r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn8r.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000nn8r",
+        "ids": ",us7000nn8r,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.176,
+        "rms": 0.42,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 1 km N of Hamura, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3177,
+          35.7799,
+          74.256
+        ]
+      },
+      "id": "us7000nn8r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Bonin Islands, Japan region",
+        "time": 1729890093930,
+        "updated": 1729891263040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nn8p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn8p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000nn8p",
+        "ids": ",us7000nn8p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 94,
+        "dmin": 1.694,
+        "rms": 0.77,
+        "gap": 84,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.296,
+          26.9204,
+          428.532
+        ]
+      },
+      "id": "us7000nn8p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "14 km N of Hope, Alaska",
+        "time": 1729882333803,
+        "updated": 1729892085040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dqspqra",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dqspqra.geojson",
+        "felt": 7,
+        "cdi": 2.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "ak",
+        "code": "024dqspqra",
+        "ids": ",ak024dqspqra,us7000nn7v,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 14 km N of Hope, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5933,
+          61.0467,
+          29.5
         ]
       },
       "id": "ak024dqspqra"
@@ -55,7 +175,7 @@
         "mag": 2.48,
         "place": "1 km ESE of Pāhala, Hawaii",
         "time": 1729880360390,
-        "updated": 1729890406170,
+        "updated": 1729891098040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74512787",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74512787.geojson",
@@ -68,8 +188,8 @@
         "sig": 95,
         "net": "hv",
         "code": "74512787",
-        "ids": ",hv74512787,",
-        "sources": ",hv,",
+        "ids": ",us7000nn7s,hv74512787,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 34,
         "dmin": 0.04367,
@@ -215,11 +335,11 @@
         "mag": 4.54,
         "place": "10 km SE of Stovepipe Wells, CA",
         "time": 1729868663620,
-        "updated": 1729890471127,
+        "updated": 1729892420953,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40964384",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40964384.geojson",
-        "felt": 37,
+        "felt": 38,
         "cdi": 3.5,
         "mmi": 5.262,
         "alert": "green",
@@ -492,6 +612,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.48,
+        "place": "93 km WNW of Bayview, CA",
+        "time": 1729854816080,
+        "updated": 1729892369716,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75078571",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75078571.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "75078571",
+        "ids": ",nc75078571,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.8323,
+        "rms": 0.16,
+        "gap": 304,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 93 km WNW of Bayview, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.258833333333,
+          40.9736666666667,
+          10
+        ]
+      },
+      "id": "nc75078571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "23 km SE of Tocopilla, Chile",
         "time": 1729849954438,
@@ -535,17 +695,17 @@
         "mag": 4.71,
         "place": "5 km E of Stovepipe Wells, CA",
         "time": 1729843508330,
-        "updated": 1729888314847,
+        "updated": 1729894525688,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40964128",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40964128.geojson",
-        "felt": 338,
+        "felt": 339,
         "cdi": 4.2,
         "mmi": 5.868,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 483,
+        "sig": 484,
         "net": "ci",
         "code": "40964128",
         "ids": ",ci40964128,us7000nn37,nn00886644,",
@@ -1092,6 +1252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.47,
+        "place": "11 km E of Kelly, Wyoming",
+        "time": 1729810843830,
+        "updated": 1729812110340,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90064408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90064408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "mb",
+        "code": "90064408",
+        "ids": ",mb90064408,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.08558,
+        "rms": 0.21,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km E of Kelly, Wyoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.486166666667,
+          43.6075,
+          3.12
+        ]
+      },
+      "id": "mb90064408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.07,
         "place": "4 km E of Stovepipe Wells, CA",
         "time": 1729808648310,
@@ -1168,126 +1368,6 @@
         ]
       },
       "id": "pr71463433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "40 km NNW of San Antonio, Puerto Rico",
-        "time": 1729806660140,
-        "updated": 1729809456420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "pr",
-        "code": "71463408",
-        "ids": ",pr71463408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3849,
-        "rms": 0.16,
-        "gap": 311,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 40 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2778333333333,
-          18.8203333333333,
-          6.23
-        ]
-      },
-      "id": "pr71463408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "8 km NNW of Ambunti, Papua New Guinea",
-        "time": 1729805759147,
-        "updated": 1729810405040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nn0r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn0r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000nn0r",
-        "ids": ",us7000nn0r,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 2.64,
-        "rms": 0.75,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 8 km NNW of Ambunti, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.7946,
-          -4.141,
-          99.605
-        ]
-      },
-      "id": "us7000nn0r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.49,
-        "place": "89 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1729804842780,
-        "updated": 1729808833310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024298000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024298000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "pr",
-        "code": "2024298000",
-        "ids": ",pr2024298000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.6889,
-        "rms": 0.29,
-        "gap": 297,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 89 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5135,
-          19.0958,
-          61
-        ]
-      },
-      "id": "pr2024298000"
     }
   ],
   "bbox": [
@@ -1296,6 +1376,6 @@
     1.7999999523163,
     154.5809,
     63.3029,
-    405.976
+    428.532
   ]
 }
