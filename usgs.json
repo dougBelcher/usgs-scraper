@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730010275000,
+    "generated": 1730013430000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "8 km SSW of Pizitou, Taiwan",
+        "time": 1730009952768,
+        "updated": 1730012856040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnfp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nnfp",
+        "ids": ",us7000nnfp,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.225,
+        "rms": 1.14,
+        "gap": 99,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.3 - 8 km SSW of Pizitou, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4172,
+          23.4128,
+          10
+        ]
+      },
+      "id": "us7000nnfp"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "70 km SSE of Kokhanok, Alaska",
         "time": 1730009681767,
-        "updated": 1730009788532,
+        "updated": 1730012380040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dtwf5j9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dtwf5j9.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "024dtwf5j9",
-        "ids": ",ak024dtwf5j9,",
-        "sources": ",ak,",
+        "ids": ",us7000nnfn,ak024dtwf5j9,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -455,12 +495,12 @@
         "mag": 4.4,
         "place": "65 km E of Hengchun, Taiwan",
         "time": 1729981013249,
-        "updated": 1729983199040,
+        "updated": 1730012614752,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nne2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nne2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +510,7 @@
         "code": "7000nne2",
         "ids": ",us7000nne2,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 43,
         "dmin": 0.923,
         "rms": 0.89,
@@ -575,12 +615,12 @@
         "mag": 3.47,
         "place": "10 km NNE of Susanville, CA",
         "time": 1729968497140,
-        "updated": 1729985661361,
+        "updated": 1730013149144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75079251",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75079251.geojson",
-        "felt": 29,
-        "cdi": 3.3,
+        "felt": 30,
+        "cdi": 3.1,
         "mmi": 3.543,
         "alert": null,
         "status": "reviewed",
@@ -1368,126 +1408,6 @@
         ]
       },
       "id": "us7000nnai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "52 km SSW of Acajutla, El Salvador",
-        "time": 1729925673148,
-        "updated": 1729928021040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnaf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnaf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000nnaf",
-        "ids": ",us7000nnaf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.707,
-        "rms": 0.5,
-        "gap": 195,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 52 km SSW of Acajutla, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.9468,
-          13.1363,
-          52.418
-        ]
-      },
-      "id": "us7000nnaf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "8 km NNW of El Moro, Colorado",
-        "time": 1729924155824,
-        "updated": 1729974699836,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnab",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnab.geojson",
-        "felt": 18,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 185,
-        "net": "us",
-        "code": "7000nnab",
-        "ids": ",us7000nnab,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.175,
-        "rms": 0.43,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 8 km NNW of El Moro, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.5084,
-          37.2961,
-          8.61
-        ]
-      },
-      "id": "us7000nnab"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "73 km N of Isabela, Puerto Rico",
-        "time": 1729924087350,
-        "updated": 1729925969870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463583",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463583.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71463583",
-        "ids": ",pr71463583,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.6772,
-        "rms": 0.28,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 73 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0088333333333,
-          19.1685,
-          15.69
-        ]
-      },
-      "id": "pr71463583"
     }
   ],
   "bbox": [
