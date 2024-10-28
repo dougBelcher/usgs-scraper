@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730153854000,
+    "generated": 1730157460000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Fiji Islands",
+        "time": 1730154835344,
+        "updated": 1730155748040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000nnpu",
+        "ids": ",us7000nnpu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 3.73,
+        "rms": 1.15,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.9629,
+          -26.0045,
+          489.115
+        ]
+      },
+      "id": "us7000nnpu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.63,
         "place": "11 km N of Susanville, CA",
         "time": 1730152369560,
-        "updated": 1730153591634,
+        "updated": 1730154136747,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75080211",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75080211.geojson",
@@ -30,7 +70,7 @@
         "code": "75080211",
         "ids": ",nc75080211,nn00886940,",
         "sources": ",nc,nn,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
         "dmin": 0.1256,
         "rms": 0.12,
@@ -1932,10 +1972,10 @@
   ],
   "bbox": [
     -160.6445,
-    -25.9186,
+    -26.0045,
     -0.09,
-    179.8509,
+    179.9629,
     64.7124,
-    481.253
+    489.115
   ]
 }
