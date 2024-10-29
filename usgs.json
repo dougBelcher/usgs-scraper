@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730219076000,
+    "generated": 1730222213000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 32
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 2.54,
-        "place": "19 km S of Fort Irwin, CA",
-        "time": 1730218150130,
-        "updated": 1730218600352,
+        "place": "2 km W of Pāhala, Hawaii",
+        "time": 1730221435350,
+        "updated": 1730221607930,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40966352",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966352.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74517012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74517012.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,15 +26,135 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 99,
+        "net": "hv",
+        "code": "74517012",
+        "ids": ",hv74517012,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.0478,
+        "rms": 0.289999992,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km W of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.49983215332,
+          19.2003326416016,
+          0.150000005960464
+        ]
+      },
+      "id": "hv74517012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "37 km NE of Chase, Alaska",
+        "time": 1730219703481,
+        "updated": 1730219804818,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dxdklm5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dxdklm5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "024dxdklm5",
+        "ids": ",ak024dxdklm5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 37 km NE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6656,
+          62.7231,
+          57.9
+        ]
+      },
+      "id": "ak024dxdklm5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "225 km NW of Houma, Tonga",
+        "time": 1730218592311,
+        "updated": 1730219627040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnv7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnv7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000nnv7",
+        "ids": ",us7000nnv7,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 93,
+        "dmin": 4.844,
+        "rms": 0.7,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 225 km NW of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.9349,
+          -19.8315,
+          331.669
+        ]
+      },
+      "id": "us7000nnv7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "19 km S of Fort Irwin, CA",
+        "time": 1730218150120,
+        "updated": 1730221414980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40966352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966352.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 99,
         "net": "ci",
         "code": "40966352",
         "ids": ",ci40966352,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.04442,
-        "rms": 0.16,
-        "gap": 51,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.04437,
+        "rms": 0.13,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 19 km S of Fort Irwin, CA"
@@ -42,12 +162,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6545,
-          35.0965,
-          7.96
+          -116.6538333,
+          35.097,
+          8.02
         ]
       },
       "id": "ci40966352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Macquarie Island region",
+        "time": 1730217632105,
+        "updated": 1730220392040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnv3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnv3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000nnv3",
+        "ids": ",us7000nnv3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.257,
+        "rms": 0.38,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Macquarie Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.0141,
+          -54.7514,
+          17.571
+        ]
+      },
+      "id": "us7000nnv3"
     },
     {
       "type": "Feature",
@@ -128,6 +288,46 @@
         ]
       },
       "id": "pr2024303004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Kermadec Islands region",
+        "time": 1730206902026,
+        "updated": 1730221517040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnsw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000nnsw",
+        "ids": ",us7000nnsw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 1.086,
+        "rms": 0.78,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.8544,
+          -28.7028,
+          42.581
+        ]
+      },
+      "id": "us7000nnsw"
     },
     {
       "type": "Feature",
@@ -1088,134 +1288,14 @@
         ]
       },
       "id": "ok2024vfhc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "24 km SW of Coyanosa, Texas",
-        "time": 1730134226982,
-        "updated": 1730184061867,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024vfft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024vfft.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2024vfft",
-        "ids": ",tx2024vfft,us7000nnnl,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 24 km SW of Coyanosa, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.274,
-          31.115,
-          4.7156
-        ]
-      },
-      "id": "tx2024vfft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "58 km SSW of Labuha, Indonesia",
-        "time": 1730134225707,
-        "updated": 1730142085040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnnp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnnp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000nnnp",
-        "ids": ",us7000nnnp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 1.895,
-        "rms": 1.25,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 58 km SSW of Labuha, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.3513,
-          -1.1361,
-          10
-        ]
-      },
-      "id": "us7000nnnp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "45 km NE of San Clemente Is. (SE tip), CA",
-        "time": 1730133825820,
-        "updated": 1730176465031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40966152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966152.geojson",
-        "felt": 7,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 136,
-        "net": "ci",
-        "code": "40966152",
-        "ids": ",ci40966152,us7000nnnj,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.4217,
-        "rms": 0.31,
-        "gap": 175,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 45 km NE of San Clemente Is. (SE tip), CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9541667,
-          33.0573333,
-          5.88
-        ]
-      },
-      "id": "ci40966152"
     }
   ],
   "bbox": [
     -178.157,
-    -26.0045,
-    2.8800001144409,
+    -54.7514,
+    0.15000000596046,
     179.9629,
-    56.8429,
+    62.7231,
     562.438
   ]
 }
