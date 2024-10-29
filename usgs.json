@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730186326000,
+    "generated": 1730190285000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.61,
+        "place": "98 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1730185429980,
+        "updated": 1730186880932,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024303001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024303001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 200,
+        "net": "pr",
+        "code": "2024303001",
+        "ids": ",pr2024303001,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.7793,
+        "rms": 0.49,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 98 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5756,
+          19.1931,
+          32
+        ]
+      },
+      "id": "pr2024303001"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us7000nnrv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "47 km SE of La Tirana, Chile",
+        "time": 1730180140062,
+        "updated": 1730188164040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnrs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnrs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000nnrs",
+        "ids": ",us7000nnrs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.46,
+        "rms": 1.01,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 47 km SE of La Tirana, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2861,
+          -20.5856,
+          92.915
+        ]
+      },
+      "id": "us7000nnrs"
     },
     {
       "type": "Feature",
@@ -1328,52 +1408,12 @@
         ]
       },
       "id": "pr71463953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.64,
-        "place": "8 km SW of Lompoc, CA",
-        "time": 1730101764330,
-        "updated": 1730161128213,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40966024",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966024.geojson",
-        "felt": 631,
-        "cdi": 4.8,
-        "mmi": 4.419,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 507,
-        "net": "ci",
-        "code": "40966024",
-        "ids": ",ci40966024,us7000nnle,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 32,
-        "dmin": 0.1241,
-        "rms": 0.26,
-        "gap": 182,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 8 km SW of Lompoc, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.519,
-          34.5815,
-          -0.08
-        ]
-      },
-      "id": "ci40966024"
     }
   ],
   "bbox": [
     -160.6445,
     -26.0045,
-    -0.08,
+    2.8800001144409,
     179.9629,
     62.4002,
     489.115
