@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730183183000,
+    "generated": 1730186326000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "100 km NNE of Isangel, Vanuatu",
+        "time": 1730182385339,
+        "updated": 1730183838040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nnrv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnrv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000nnrv",
+        "ids": ",us7000nnrv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 4.383,
+        "rms": 0.66,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 100 km NNE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.5019,
+          -18.6545,
+          283.213
+        ]
+      },
+      "id": "us7000nnrv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -615,12 +655,12 @@
         "mag": 2.5,
         "place": "24 km SW of Coyanosa, Texas",
         "time": 1730134226982,
-        "updated": 1730136693850,
+        "updated": 1730184061867,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024vfft",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024vfft.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -628,9 +668,9 @@
         "sig": 96,
         "net": "tx",
         "code": "2024vfft",
-        "ids": ",us7000nnnl,tx2024vfft,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2024vfft,us7000nnnl,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 25,
         "dmin": 0,
         "rms": 0.1,
@@ -1055,7 +1095,7 @@
         "mag": 3.28,
         "place": "102 km N of Charlotte Amalie, U.S. Virgin Islands",
         "time": 1730118302040,
-        "updated": 1730119920940,
+        "updated": 1730185393040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71464013",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71464013.geojson",
@@ -1068,8 +1108,8 @@
         "sig": 166,
         "net": "pr",
         "code": "71464013",
-        "ids": ",pr71464013,",
-        "sources": ",pr,",
+        "ids": ",us7000nnmh,pr71464013,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 7,
         "dmin": 0.9081,
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "ci40966024"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "4 km ESE of La Parguera, Puerto Rico",
-        "time": 1730099284790,
-        "updated": 1730099923630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71463938",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71463938.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "pr",
-        "code": "71463938",
-        "ids": ",pr71463938,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.03613,
-        "rms": 0.17,
-        "gap": 175,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km ESE of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0063333333333,
-          17.9671666666667,
-          7.65
-        ]
-      },
-      "id": "pr71463938"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.55,
-        "place": "27 km S of Fern Forest, Hawaii",
-        "time": 1730097839200,
-        "updated": 1730146737680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74515897",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74515897.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 100,
-        "net": "hv",
-        "code": "74515897",
-        "ids": ",us7000nnl9,hv74515897,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.07301,
-        "rms": 0.11,
-        "gap": 217,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 27 km S of Fern Forest, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.108333333333,
-          19.2151666666667,
-          42.32
-        ]
-      },
-      "id": "hv74515897"
     }
   ],
   "bbox": [
