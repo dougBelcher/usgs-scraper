@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730343131000,
+    "generated": 1730345186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1730343400767,
+        "updated": 1730344552040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000np4w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np4w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000np4w",
+        "ids": ",us7000np4w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 5.562,
+        "rms": 0.81,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.8161,
+          -22.962,
+          567.499
+        ]
+      },
+      "id": "us7000np4w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 3.6,
         "place": "69 km WSW of Elfin Cove, Alaska",
         "time": 1730337098609,
-        "updated": 1730338876354,
+        "updated": 1730344466028,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024e0fkqev",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024e0fkqev.geojson",
@@ -128,46 +168,6 @@
         ]
       },
       "id": "ak024e0fkqev"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49000001,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1730333866420,
-        "updated": 1730333996620,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74518122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74518122.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "74518122",
-        "ids": ",hv74518122,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.03391,
-        "rms": 0.119999997,
-        "gap": 164,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.371337890625,
-          19.2141666412354,
-          32.3199996948242
-        ]
-      },
-      "id": "hv74518122"
     },
     {
       "type": "Feature",
@@ -455,11 +455,11 @@
         "mag": 6,
         "place": "279 km W of Bandon, Oregon",
         "time": 1730319319955,
-        "updated": 1730342465606,
+        "updated": 1730344258961,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000np33",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np33.geojson",
-        "felt": 110,
+        "felt": 112,
         "cdi": 3.8,
         "mmi": 0,
         "alert": "green",
@@ -1208,50 +1208,10 @@
         ]
       },
       "id": "ak024dytxkp7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "140 km E of Atka, Alaska",
-        "time": 1730257250881,
-        "updated": 1730314730472,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024dyt5wy7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024dyt5wy7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.3,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "024dyt5wy7",
-        "ids": ",ak024dyt5wy7,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 140 km E of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.1448,
-          52.2877,
-          36.9
-        ]
-      },
-      "id": "ak024dyt5wy7"
     }
   ],
   "bbox": [
-    -178.7697,
+    -179.8161,
     -25.2279,
     1.41,
     166.0534,
