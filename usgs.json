@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730758591000,
+    "generated": 1730762330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "63 km N of Petersville, Alaska",
+        "time": 1730761186067,
+        "updated": 1730761295548,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024e7eiio8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024e7eiio8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "024e7eiio8",
+        "ids": ",ak024e7eiio8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 63 km N of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9301,
+          63.0645,
+          119
+        ]
+      },
+      "id": "ak024e7eiio8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -214,8 +254,8 @@
       "properties": {
         "mag": 2.76,
         "place": "10 km ENE of Borrego Springs, CA",
-        "time": 1730742737630,
-        "updated": 1730743447745,
+        "time": 1730742737590,
+        "updated": 1730761951090,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40787359",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40787359.geojson",
@@ -223,7 +263,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 117,
         "net": "ci",
@@ -232,7 +272,7 @@
         "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 99,
-        "dmin": 0.06667,
+        "dmin": 0.06712,
         "rms": 0.18,
         "gap": 17,
         "magType": "ml",
@@ -242,9 +282,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2848333,
+          -116.2831667,
           33.2988333,
-          11.33
+          11.48
         ]
       },
       "id": "ci40787359"
@@ -1008,54 +1048,14 @@
         ]
       },
       "id": "tx2024vqth"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "2 km N of Almanor, CA",
-        "time": 1730672772090,
-        "updated": 1730673410126,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75082591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75082591.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75082591",
-        "ids": ",nc75082591,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1865,
-        "rms": 0.25,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km N of Almanor, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.181503295898,
-          40.2379989624023,
-          -0.720000028610229
-        ]
-      },
-      "id": "nc75082591"
     }
   ],
   "bbox": [
     -178.1767,
     -41.3027,
-    -0.72000002861023,
+    4.97,
     174.276,
-    60.0816,
+    63.0645,
     602.645
   ]
 }
