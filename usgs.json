@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730902622000,
+    "generated": 1730906347000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 21
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "2 km WSW of Pāhala, Hawaii",
+        "time": 1730904173660,
+        "updated": 1730904345920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74523612",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74523612.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74523612",
+        "ids": ",hv74523612,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.04998,
+        "rms": 0.119999997,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km WSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.497161865234,
+          19.1981658935547,
+          34.9799995422363
+        ]
+      },
+      "id": "hv74523612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "124 km ESE of Kokopo, Papua New Guinea",
+        "time": 1730903783490,
+        "updated": 1730906307329,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nq9e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nq9e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.689,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000nq9e",
+        "ids": ",us7000nq9e,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 208,
+        "dmin": 1.281,
+        "rms": 0.57,
+        "gap": 20,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - 124 km ESE of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.302,
+          -4.7902,
+          52.155
+        ]
+      },
+      "id": "us7000nq9e"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -851,10 +931,10 @@
     }
   ],
   "bbox": [
-    -154.6924,
+    -155.49716186523,
     -31.7172,
     0,
-    139.8406,
+    153.302,
     63.2062,
     154.6
   ]
