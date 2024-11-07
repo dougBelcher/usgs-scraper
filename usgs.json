@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1730953266000,
+    "generated": 1730956628000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Mid-Indian Ridge",
+        "time": 1730953893801,
+        "updated": 1730955199918,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nqcc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nqcc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000nqcc",
+        "ids": ",us7000nqcc,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 4.893,
+        "rms": 0.62,
+        "gap": 42,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Mid-Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9233,
+          -42.2543,
+          10
+        ]
+      },
+      "id": "us7000nqcc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "1 km W of Indios, Puerto Rico",
+        "time": 1730953669570,
+        "updated": 1730954208980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71465028",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71465028.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71465028",
+        "ids": ",pr71465028,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.05017,
+        "rms": 0.18,
+        "gap": 175,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8296666666667,
+          17.9921666666667,
+          15.77
+        ]
+      },
+      "id": "pr71465028"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,11 +335,11 @@
         "mag": 2.85,
         "place": "4 km ENE of Stovepipe Wells, CA",
         "time": 1730934599330,
-        "updated": 1730949163542,
+        "updated": 1730956592905,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40788855",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40788855.geojson",
-        "felt": 2,
+        "felt": 4,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1132,7 +1212,7 @@
   ],
   "bbox": [
     -178.6518,
-    -33.821,
+    -42.2543,
     -0.21,
     166.0632,
     63.2062,
