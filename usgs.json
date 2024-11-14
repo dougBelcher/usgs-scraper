@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731572681000,
+    "generated": 1731575947000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04999995,
+        "place": "7 km S of Volcano, Hawaii",
+        "time": 1731575821460,
+        "updated": 1731575932630,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74530147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74530147.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "hv",
+        "code": "74530147",
+        "ids": ",hv74530147,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.007203,
+        "rms": 0.150000006,
+        "gap": 44,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 7 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.235992431641,
+          19.3793334960938,
+          28.0900001525879
+        ]
+      },
+      "id": "hv74530147"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000nrih"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "38 km WNW of Tatitlek, Alaska",
-        "time": 1731488823162,
-        "updated": 1731568879436,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024em2arnr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024em2arnr.geojson",
-        "felt": 391,
-        "cdi": 4.1,
-        "mmi": 3.669,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 472,
-        "net": "ak",
-        "code": "024em2arnr",
-        "ids": ",ak024em2arnr,at00smvtbq,us7000nrig,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,moment-tensor,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.56,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 38 km WNW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.3606,
-          60.9448,
-          16.2
-        ]
-      },
-      "id": "ak024em2arnr"
     }
   ],
   "bbox": [
