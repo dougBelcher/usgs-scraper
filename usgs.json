@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731615600000,
+    "generated": 1731619026000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "17 km E of Pleasanton, Texas",
+        "time": 1731617375210,
+        "updated": 1731618085040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrun",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrun.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000nrun",
+        "ids": ",us7000nrun,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.272,
+        "rms": 0.39,
+        "gap": 101,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 17 km E of Pleasanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3012,
+          28.9584,
+          5
+        ]
+      },
+      "id": "us7000nrun"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,17 +255,17 @@
         "mag": 3.7,
         "place": "18 km E of Pleasanton, Texas",
         "time": 1731607413593,
-        "updated": 1731615383971,
+        "updated": 1731617898463,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wkjs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wkjs.geojson",
-        "felt": 14,
+        "felt": 19,
         "cdi": 5.3,
         "mmi": 4.203,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 218,
+        "sig": 221,
         "net": "tx",
         "code": "2024wkjs",
         "ids": ",us7000nrtm,tx2024wkjs,",
@@ -452,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.14,
-        "place": "6 km SSW of Stratford, CA",
-        "time": 1731591282040,
-        "updated": 1731594584654,
+        "mag": 2.87,
+        "place": "6 km WSW of Stratford, CA",
+        "time": 1731591282160,
+        "updated": 1731618570523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75086336",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75086336.geojson",
@@ -463,28 +503,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 152,
+        "sig": 127,
         "net": "nc",
         "code": "75086336",
         "ids": ",nc75086336,us7000nrqr,",
         "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.1481,
-        "rms": 0.33,
-        "gap": 34,
+        "nst": 58,
+        "dmin": 0.1415,
+        "rms": 0.13,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 6 km SSW of Stratford, CA"
+        "title": "M 2.9 - 6 km WSW of Stratford, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.843002319336,
-          36.140998840332,
-          13.210000038147
+          -119.876666666667,
+          36.1525,
+          18.58
         ]
       },
       "id": "nc75086336"
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "pr71465623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.63,
-        "place": "9 km SSE of Guánica, Puerto Rico",
-        "time": 1731531309170,
-        "updated": 1731531946770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71465613",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71465613.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 106,
-        "net": "pr",
-        "code": "71465613",
-        "ids": ",pr71465613,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.08013,
-        "rms": 0.07,
-        "gap": 240,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SSE of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8738333333333,
-          17.892,
-          12.8
-        ]
-      },
-      "id": "pr71465613"
     }
   ],
   "bbox": [
