@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731619026000,
+    "generated": 1731622651000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 39
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.72,
+        "place": "41 km NE of San Clemente Is. (SE tip), CA",
+        "time": 1731622402050,
+        "updated": 1731622617514,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40793303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40793303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "ci",
+        "code": "40793303",
+        "ids": ",ci40793303,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.4129,
+        "rms": 0.26,
+        "gap": 208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 41 km NE of San Clemente Is. (SE tip), CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.993,
+          33.0356667,
+          3.07
+        ]
+      },
+      "id": "ci40793303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "138 km WSW of Adak, Alaska",
+        "time": 1731620953810,
+        "updated": 1731621659710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrv2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrv2.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 3.621,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000nrv2",
+        "ids": ",us7000nrv2,ak024enx8cfb,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 0.153,
+        "rms": 0.57,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 138 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5695,
+          51.562,
+          88.354
+        ]
+      },
+      "id": "us7000nrv2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "17 km E of Pleasanton, Texas",
-        "time": 1731617375210,
-        "updated": 1731618085040,
+        "time": 1731617375338,
+        "updated": 1731620098373,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrun.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wkpf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wkpf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,28 +106,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
-        "net": "us",
-        "code": "7000nrun",
-        "ids": ",us7000nrun,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2024wkpf",
+        "ids": ",us7000nrun,tx2024wkpf,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.272,
-        "rms": 0.39,
-        "gap": 101,
-        "magType": "mb_lg",
+        "nst": 28,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 67,
+        "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 17 km E of Pleasanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.3012,
-          28.9584,
-          5
+          -98.304,
+          28.952,
+          6.6162
         ]
       },
-      "id": "us7000nrun"
+      "id": "tx2024wkpf"
     },
     {
       "type": "Feature",
@@ -88,6 +168,86 @@
         ]
       },
       "id": "ak024enwg1bn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "207 km N of Hirara, Japan",
+        "time": 1731615032962,
+        "updated": 1731619360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nruf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nruf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nruf",
+        "ids": ",us7000nruf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 2.521,
+        "rms": 1,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 207 km N of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4584,
+          26.6758,
+          207.804
+        ]
+      },
+      "id": "us7000nruf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "17 km E of Pleasanton, Texas",
+        "time": 1731614103238,
+        "updated": 1731621561512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wknk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wknk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2024wknk",
+        "ids": ",tx2024wknk,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 17 km E of Pleasanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.306,
+          28.944,
+          5.8838
+        ]
+      },
+      "id": "tx2024wknk"
     },
     {
       "type": "Feature",
@@ -255,17 +415,17 @@
         "mag": 3.7,
         "place": "18 km E of Pleasanton, Texas",
         "time": 1731607413593,
-        "updated": 1731617898463,
+        "updated": 1731622519813,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wkjs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wkjs.geojson",
-        "felt": 19,
+        "felt": 22,
         "cdi": 5.3,
         "mmi": 4.203,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 221,
+        "sig": 222,
         "net": "tx",
         "code": "2024wkjs",
         "ids": ",us7000nrtm,tx2024wkjs,",
@@ -934,18 +1094,18 @@
       "properties": {
         "mag": 4.3,
         "place": "29 km SE of Mina, Nevada",
-        "time": 1731552035182,
-        "updated": 1731594282884,
+        "time": 1731552035178,
+        "updated": 1731622311349,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00887532",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00887532.geojson",
-        "felt": 11,
+        "felt": 10,
         "cdi": 3.9,
         "mmi": 4.043,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 289,
+        "sig": 288,
         "net": "nn",
         "code": "00887532",
         "ids": ",nn00887532,us7000nrn8,",
@@ -953,8 +1113,8 @@
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 12,
         "dmin": 0.06,
-        "rms": 0.1695,
-        "gap": 45.370000000000005,
+        "rms": 0.1676,
+        "gap": 45.359999999999985,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 4.3 - 29 km SE of Mina, Nevada"
@@ -962,9 +1122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9168,
-          38.1727,
-          14
+          -117.9166,
+          38.173,
+          14.2
         ]
       },
       "id": "nn00887532"
