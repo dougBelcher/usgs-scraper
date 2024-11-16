@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1731766516000,
+    "generated": 1731770311000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5.1,
         "place": "78 km ENE of Petropavlovsk-Kamchatsky, Russia",
         "time": 1731764856626,
-        "updated": 1731765827040,
+        "updated": 1731767630313,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ns62",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ns62.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "7000ns62",
         "ids": ",us7000ns62,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 88,
         "dmin": 0.706,
         "rms": 0.92,
@@ -135,13 +135,13 @@
         "mag": 3.5,
         "place": "18 km E of Pleasanton, Texas",
         "time": 1731762127873,
-        "updated": 1731766350894,
+        "updated": 1731769594585,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wnqu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wnqu.geojson",
         "felt": 7,
         "cdi": 3.8,
-        "mmi": 4.144,
+        "mmi": 3.953,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -150,7 +150,7 @@
         "code": "2024wnqu",
         "ids": ",us7000ns5r,tx2024wnqu,",
         "sources": ",us,tx,",
-        "types": ",dyfi,focal-mechanism,origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 32,
         "dmin": 0.1,
         "rms": 0.2,
@@ -174,26 +174,26 @@
       "properties": {
         "mag": 2.75,
         "place": "8 km W of Henning, Tennessee",
-        "time": 1731761383760,
-        "updated": 1731766084223,
+        "time": 1731761383740,
+        "updated": 1731770088418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60593916",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60593916.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 118,
         "net": "nm",
         "code": "60593916",
         "ids": ",nm60593916,",
         "sources": ",nm,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.08825,
-        "rms": 0.22,
+        "nst": 50,
+        "dmin": 0.08832,
+        "rms": 0.21,
         "gap": 106,
         "magType": "md",
         "type": "earthquake",
@@ -202,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.6676666666667,
+          -89.6661666666667,
           35.6676666666667,
-          11.16
+          10.98
         ]
       },
       "id": "nm60593916"
@@ -568,6 +568,46 @@
         ]
       },
       "id": "us7000ns4s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "89 km SW of Puerto Madero, Mexico",
+        "time": 1731740586784,
+        "updated": 1731767458040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ns4l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ns4l.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000ns4l",
+        "ids": ",us7000ns4l,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 98,
+        "dmin": 1.599,
+        "rms": 1.1,
+        "gap": 152,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 89 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0933,
+          14.2491,
+          10
+        ]
+      },
+      "id": "us7000ns4l"
     },
     {
       "type": "Feature",
@@ -1373,7 +1413,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "New Ireland region, Papua New Guinea",
+        "place": "129 km E of Kokopo, Papua New Guinea",
         "time": 1731693823767,
         "updated": 1731701905040,
         "tz": null,
@@ -1397,7 +1437,7 @@
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - New Ireland region, Papua New Guinea"
+        "title": "M 4.6 - 129 km E of Kokopo, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "us7000nrzu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "58 km S of Xichang, China",
-        "time": 1731682939749,
-        "updated": 1731689939040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nrzw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nrzw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000nrzw",
-        "ids": ",us7000nrzw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 7.019,
-        "rms": 0.74,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 58 km S of Xichang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.2018,
-          27.3755,
-          10
-        ]
-      },
-      "id": "us7000nrzw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "17 km E of Pleasanton, Texas",
-        "time": 1731680261446,
-        "updated": 1731681664040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024wlxu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024wlxu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2024wlxu",
-        "ids": ",us7000nrz3,tx2024wlxu,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 17 km E of Pleasanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.301,
-          28.949,
-          6.543
-        ]
-      },
-      "id": "tx2024wlxu"
     }
   ],
   "bbox": [
