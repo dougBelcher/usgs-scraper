@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732378919000,
+    "generated": 1732382131000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 25
+    "count": 28
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 2.92,
         "place": "3 km E of Avon, Utah",
         "time": 1732378425540,
-        "updated": 1732378686170,
+        "updated": 1732380386032,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80087026",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80087026.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 3,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 131,
+        "sig": 132,
         "net": "uu",
         "code": "80087026",
         "ids": ",uu80087026,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.1636,
         "rms": 0.379999995,
@@ -48,6 +48,86 @@
         ]
       },
       "id": "uu80087026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.17,
+        "place": "10 km NNW of Garrochales, Puerto Rico",
+        "time": 1732377710890,
+        "updated": 1732379280910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71466428",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71466428.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 155,
+        "net": "pr",
+        "code": "71466428",
+        "ids": ",pr71466428,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.0962,
+        "rms": 0.26,
+        "gap": 198,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 10 km NNW of Garrochales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6086666666667,
+          18.5375,
+          94.21
+        ]
+      },
+      "id": "pr71466428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "259 km W of Bandon, Oregon",
+        "time": 1732375789400,
+        "updated": 1732379072040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p79t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p79t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000p79t",
+        "ids": ",us6000p79t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 1.839,
+        "rms": 0.79,
+        "gap": 243,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 259 km W of Bandon, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.5598,
+          43.5261,
+          14.618
+        ]
+      },
+      "id": "us6000p79t"
     },
     {
       "type": "Feature",
@@ -528,6 +608,46 @@
         ]
       },
       "id": "us6000p77p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "89 km SSE of Adak, Alaska",
+        "time": 1732344266665,
+        "updated": 1732381741390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f2k3xen",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f2k3xen.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.587,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "024f2k3xen",
+        "ids": ",ak024f2k3xen,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 89 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.3072,
+          51.0995,
+          34.6
+        ]
+      },
+      "id": "ak024f2k3xen"
     },
     {
       "type": "Feature",
