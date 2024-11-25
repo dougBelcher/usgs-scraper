@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732573019000,
+    "generated": 1732576700000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "161 km W of Ferndale, California",
+        "time": 1732574315910,
+        "updated": 1732574939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu5p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu5p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000nu5p",
+        "ids": ",us7000nu5p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.567,
+        "rms": 0.66,
+        "gap": 272,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 161 km W of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.1719,
+          40.4926,
+          15.268
+        ]
+      },
+      "id": "us7000nu5p"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.78,
         "place": "10 km ESE of North Shore, CA",
         "time": 1732568974630,
-        "updated": 1732571484260,
+        "updated": 1732575704040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40800303",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40800303.geojson",
@@ -28,8 +68,8 @@
         "sig": 119,
         "net": "ci",
         "code": "40800303",
-        "ids": ",ci40800303,",
-        "sources": ",ci,",
+        "ids": ",ci40800303,us7000nu4c,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 73,
         "dmin": 0.03231,
@@ -1128,86 +1168,6 @@
         ]
       },
       "id": "us6000p7i6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "3 km SW of Suchilapan del Río, Mexico",
-        "time": 1732490180378,
-        "updated": 1732494055040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p7i5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p7i5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000p7i5",
-        "ids": ",us6000p7i5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.951,
-        "rms": 1.3,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 3 km SW of Suchilapan del Río, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0079,
-          17.358,
-          125.682
-        ]
-      },
-      "id": "us6000p7i5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "40 km S of La Romana, Dominican Republic",
-        "time": 1732490023989,
-        "updated": 1732490416040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000p7i0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000p7i0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "6000p7i0",
-        "ids": ",us6000p7i0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.702,
-        "rms": 0.81,
-        "gap": 200,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 40 km S of La Romana, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9271,
-          18.0598,
-          9.814
-        ]
-      },
-      "id": "us6000p7i0"
     }
   ],
   "bbox": [
