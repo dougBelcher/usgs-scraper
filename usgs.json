@@ -1,53 +1,213 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732695961000,
+    "generated": 1732699294000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 23
+    "count": 26
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.01999998,
-        "place": "6 km S of Volcano, Hawaii",
-        "time": 1732695793410,
-        "updated": 1732695914220,
+        "mag": 5,
+        "place": "42 km ENE of Bacolod, Philippines",
+        "time": 1732697950742,
+        "updated": 1732699161229,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74543047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74543047.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nug7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nug7.geojson",
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
-        "net": "hv",
-        "code": "74543047",
-        "ids": ",hv74543047,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.01125,
-        "rms": 0.340000004,
-        "gap": 56,
-        "magType": "md",
+        "sig": 385,
+        "net": "us",
+        "code": "7000nug7",
+        "ids": ",us7000nug7,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 62,
+        "dmin": 2.28,
+        "rms": 1.2,
+        "gap": 73,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.0 - 6 km S of Volcano, Hawaii"
+        "title": "M 5.0 - 42 km ENE of Bacolod, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.238327026367,
-          19.3846664428711,
-          1.21000003814697
+          126.6251,
+          9.1146,
+          59.188
         ]
       },
-      "id": "hv74543047"
+      "id": "us7000nug7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.71,
+        "place": "6 km W of Mammoth Lakes, CA",
+        "time": 1732697738420,
+        "updated": 1732699260134,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75091226",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75091226.geojson",
+        "felt": 51,
+        "cdi": 3.4,
+        "mmi": 4.482,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 229,
+        "net": "nc",
+        "code": "75091226",
+        "ids": ",ew1732697750,nc75091226,",
+        "sources": ",ew,nc,",
+        "types": ",associate,dyfi,focal-mechanism,nearby-cities,origin,phase-data,shake-alert,shakemap,",
+        "nst": 28,
+        "dmin": 0.02362,
+        "rms": 0.09,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 6 km W of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.049667358398,
+          37.6306648254395,
+          0.75
+        ]
+      },
+      "id": "nc75091226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "5 km WNW of Mammoth Lakes, CA",
+        "time": 1732697724650,
+        "updated": 1732699220559,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75091216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75091216.geojson",
+        "felt": 3,
+        "cdi": 3.9,
+        "mmi": 2.565,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "nc",
+        "code": "75091216",
+        "ids": ",nc75091216,",
+        "sources": ",nc,",
+        "types": ",disassociate,dyfi,nearby-cities,origin,phase-data,shakemap,",
+        "nst": 15,
+        "dmin": 0.01013,
+        "rms": 0.05,
+        "gap": 60,
+        "magType": "mh",
+        "type": "earthquake",
+        "title": "M 3.0 - 5 km WNW of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.040168762207,
+          37.6378326416016,
+          -0.779999971389771
+        ]
+      },
+      "id": "nc75091216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "6 km W of Mammoth Lakes, CA",
+        "time": 1732697346150,
+        "updated": 1732698699856,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75091151",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75091151.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "nc",
+        "code": "75091151",
+        "ids": ",nc75091151,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.01118,
+        "rms": 0.07,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 6 km W of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.04467010498,
+          37.6348342895508,
+          -2.75
+        ]
+      },
+      "id": "nc75091151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.57,
+        "place": "102 km NNE of Punta Cana, Dominican Republic",
+        "time": 1732694974360,
+        "updated": 1732696928992,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024332000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024332000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 196,
+        "net": "pr",
+        "code": "2024332000",
+        "ids": ",pr2024332000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.6135,
+        "rms": 0.47,
+        "gap": 337,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.6 - 102 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0701,
+          19.4543,
+          70
+        ]
+      },
+      "id": "pr2024332000"
     },
     {
       "type": "Feature",
@@ -55,7 +215,7 @@
         "mag": 2.7,
         "place": "21 km NE of Nipomo, CA",
         "time": 1732692439680,
-        "updated": 1732694971674,
+        "updated": 1732698666040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40988272",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40988272.geojson",
@@ -68,8 +228,8 @@
         "sig": 113,
         "net": "ci",
         "code": "40988272",
-        "ids": ",ci40988272,nc75091091,",
-        "sources": ",ci,nc,",
+        "ids": ",ci40988272,nc75091091,us7000nufl,",
+        "sources": ",ci,nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.1833,
@@ -888,52 +1048,12 @@
         ]
       },
       "id": "pr2024331002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "55 km WSW of Ollagüe, Chile",
-        "time": 1732612554159,
-        "updated": 1732621582040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu80",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu80.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000nu80",
-        "ids": ",us7000nu80,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.6,
-        "rms": 0.15,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 55 km WSW of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7622,
-          -21.3939,
-          125.605
-        ]
-      },
-      "id": "us7000nu80"
     }
   ],
   "bbox": [
-    -155.23832702637,
+    -122.71849822998,
     -39.1308,
-    -0.22,
+    -2.75,
     179.8455,
     50.0803,
     211.559
