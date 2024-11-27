@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1732692035000,
+    "generated": 1732695961000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 23
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.01999998,
+        "place": "6 km S of Volcano, Hawaii",
+        "time": 1732695793410,
+        "updated": 1732695914220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74543047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74543047.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 140,
+        "net": "hv",
+        "code": "74543047",
+        "ids": ",hv74543047,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.01125,
+        "rms": 0.340000004,
+        "gap": 56,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 6 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.238327026367,
+          19.3846664428711,
+          1.21000003814697
+        ]
+      },
+      "id": "hv74543047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "21 km NE of Nipomo, CA",
+        "time": 1732692439680,
+        "updated": 1732694971674,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40988272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40988272.geojson",
+        "felt": 3,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "ci",
+        "code": "40988272",
+        "ids": ",ci40988272,nc75091091,",
+        "sources": ",ci,nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.1833,
+        "rms": 0.25,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 21 km NE of Nipomo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.328,
+          35.1828333,
+          -0.22
+        ]
+      },
+      "id": "ci40988272"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -301,7 +381,7 @@
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nuc0.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3,
+        "mmi": 4.057,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -310,7 +390,7 @@
         "code": "7000nuc0",
         "ids": ",us7000nuc0,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,",
+        "types": ",losspager,origin,phase-data,shakemap,",
         "nst": 119,
         "dmin": 4.01,
         "rms": 0.85,
@@ -848,214 +928,14 @@
         ]
       },
       "id": "us7000nu80"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "127 km WNW of Bhamo, Myanmar",
-        "time": 1732608205941,
-        "updated": 1732610915040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu7y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu7y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000nu7y",
-        "ids": ",us7000nu7y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 3.765,
-        "rms": 0.74,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 127 km WNW of Bhamo, Myanmar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.1358,
-          24.8161,
-          10
-        ]
-      },
-      "id": "us7000nu7y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.51,
-        "place": "131 km NNE of Vieques, Puerto Rico",
-        "time": 1732607954530,
-        "updated": 1732609496921,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024331001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024331001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 190,
-        "net": "pr",
-        "code": "2024331001",
-        "ids": ",pr2024331001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 1.2311,
-        "rms": 0.19,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 131 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3885,
-          19.5341,
-          75
-        ]
-      },
-      "id": "pr2024331001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "59 km NE of Masohi, Indonesia",
-        "time": 1732607704656,
-        "updated": 1732608776040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu7t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu7t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000nu7t",
-        "ids": ",us7000nu7t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.675,
-        "rms": 0.9,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 59 km NE of Masohi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.3536,
-          -2.9292,
-          10
-        ]
-      },
-      "id": "us7000nu7t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "120 km S of Akhiok, Alaska",
-        "time": 1732607504622,
-        "updated": 1732609356040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024f7jcxni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024f7jcxni.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "024f7jcxni",
-        "ids": ",us7000nu7r,ak024f7jcxni,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 120 km S of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.8085,
-          55.8855,
-          21.6
-        ]
-      },
-      "id": "ak024f7jcxni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "112 km SSW of Chirilagua, El Salvador",
-        "time": 1732605659700,
-        "updated": 1732615811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu7i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nu7i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000nu7i",
-        "ids": ",us7000nu7i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.222,
-        "rms": 0.89,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 112 km SSW of Chirilagua, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.4324,
-          12.2437,
-          20.144
-        ]
-      },
-      "id": "us7000nu7i"
     }
   ],
   "bbox": [
-    -153.8085,
+    -155.23832702637,
     -39.1308,
-    1.4199999570847,
+    -0.22,
     179.8455,
-    55.8855,
+    50.0803,
     211.559
   ]
 }
