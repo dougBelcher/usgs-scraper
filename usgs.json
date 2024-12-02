@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733170831000,
+    "generated": 1733174311000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "28 km WNW of Akhiok, Alaska",
+        "time": 1733173917228,
+        "updated": 1733174029159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fhoojey",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fhoojey.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "024fhoojey",
+        "ids": ",ak024fhoojey,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 28 km WNW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.6328,
+          57.0042,
+          0
+        ]
+      },
+      "id": "ak024fhoojey"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "62 km N of Culebra, Puerto Rico",
+        "time": 1733172221337,
+        "updated": 1733173627040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvie",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvie.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000nvie",
+        "ids": ",us7000nvie,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.586,
+        "rms": 0.46,
+        "gap": 213,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 62 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2617,
+          18.8641,
+          49.974
+        ]
+      },
+      "id": "us7000nvie"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +168,46 @@
         ]
       },
       "id": "ak024fhn580s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "south of the Fiji Islands",
+        "time": 1733155576509,
+        "updated": 1733170993040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nvft",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nvft.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000nvft",
+        "ids": ",us7000nvft,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 5.809,
+        "rms": 0.65,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.6488,
+          -23.6207,
+          533.263
+        ]
+      },
+      "id": "us7000nvft"
     },
     {
       "type": "Feature",
@@ -408,46 +528,6 @@
         ]
       },
       "id": "us7000nvf3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "17 km SE of Lindsay, Texas",
-        "time": 1733138351221,
-        "updated": 1733138594040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024xqtl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024xqtl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2024xqtl",
-        "ids": ",tx2024xqtl,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 187,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 17 km SE of Lindsay, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.387,
-          31.275,
-          5.7525
-        ]
-      },
-      "id": "tx2024xqtl"
     },
     {
       "type": "Feature",
@@ -1251,11 +1331,11 @@
     }
   ],
   "bbox": [
-    -176.0604,
+    -179.6488,
     -48.7653,
     0,
     167.3521,
     68.7172,
-    163.298
+    533.263
   ]
 }
