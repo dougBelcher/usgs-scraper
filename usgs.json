@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733653156000,
+    "generated": 1733656481000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.68,
+        "place": "57 km WNW of Petrolia, CA",
+        "time": 1733653517160,
+        "updated": 1733655591192,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75099431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75099431.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "nc",
+        "code": "75099431",
+        "ids": ",nc75099431,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.4739,
+        "rms": 0.23,
+        "gap": 263,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 57 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.958831787109,
+          40.3385009765625,
+          3.79999995231628
+        ]
+      },
+      "id": "nc75099431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "Kuril Islands",
+        "time": 1733653501059,
+        "updated": 1733655537275,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nx17",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nx17.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": 3.356,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 573,
+        "net": "us",
+        "code": "7000nx17",
+        "ids": ",us7000nx17,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 121,
+        "dmin": 5.463,
+        "rms": 0.62,
+        "gap": 47,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.317,
+          48.8353,
+          220.486
+        ]
+      },
+      "id": "us7000nx17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.12,
         "place": "16 km W of Petrolia, CA",
         "time": 1733649765620,
-        "updated": 1733650735594,
+        "updated": 1733654839814,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75099406",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75099406.geojson",
@@ -1848,86 +1928,6 @@
         ]
       },
       "id": "nc75098681"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "42 km WNW of Petrolia, CA",
-        "time": 1733569732250,
-        "updated": 1733597537178,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75098671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75098671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "nc",
-        "code": "75098671",
-        "ids": ",nc75098671,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.3417,
-        "rms": 0.47,
-        "gap": 254,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 42 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.778663635254,
-          40.3633346557617,
-          7.90000009536743
-        ]
-      },
-      "id": "nc75098671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "143 km E of Atka, Alaska",
-        "time": 1733567637374,
-        "updated": 1733591138685,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nwv5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nwv5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.667,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000nwv5",
-        "ids": ",ak024fprybac,us7000nwv5,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 52,
-        "dmin": 1.291,
-        "rms": 1.07,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 143 km E of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.0999,
-          52.2207,
-          10.822
-        ]
-      },
-      "id": "us7000nwv5"
     }
   ],
   "bbox": [
