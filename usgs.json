@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733671172000,
+    "generated": 1733674917000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "176 km N of Dili, Timor Leste",
+        "time": 1733674055017,
+        "updated": 1733674780040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nx2p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nx2p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000nx2p",
+        "ids": ",us7000nx2p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 3.457,
+        "rms": 0.4,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 176 km N of Dili, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3069,
+          -6.981,
+          522.094
+        ]
+      },
+      "id": "us7000nx2p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.85,
+        "place": "49 km WNW of Petrolia, CA",
+        "time": 1733673504600,
+        "updated": 1733674038007,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75099541",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75099541.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 125,
+        "net": "nc",
+        "code": "75099541",
+        "ids": ",nc75099541,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.405,
+        "rms": 0.23,
+        "gap": 298,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 49 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.840835571289,
+          40.4480018615723,
+          8.59000015258789
+        ]
+      },
+      "id": "nc75099541"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.28,
         "place": "60 km WNW of Petrolia, CA",
         "time": 1733670943780,
-        "updated": 1733671066979,
+        "updated": 1733673266040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75099531",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75099531.geojson",
@@ -28,9 +108,9 @@
         "sig": 166,
         "net": "nc",
         "code": "75099531",
-        "ids": ",nc75099531,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75099531,us7000nx2h,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 84,
         "dmin": 0.4987,
         "rms": 0.27,
@@ -52,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "21 km NW of Stanton, Texas",
-        "time": 1733670040616,
-        "updated": 1733670487905,
+        "mag": 3,
+        "place": "19 km NW of Stanton, Texas",
+        "time": 1733670040712,
+        "updated": 1733673148592,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nx2f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nx2f.geojson",
-        "felt": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024ybzt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024ybzt.geojson",
+        "felt": 4,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "us",
-        "code": "7000nx2f",
-        "ids": ",us7000nx2f,",
-        "sources": ",us,",
+        "sig": 140,
+        "net": "tx",
+        "code": "2024ybzt",
+        "ids": ",us7000nx2f,tx2024ybzt,",
+        "sources": ",us,tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.237,
-        "rms": 0.31,
-        "gap": 65,
-        "magType": "mb_lg",
+        "nst": 44,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 31,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 21 km NW of Stanton, Texas"
+        "title": "M 3.0 - 19 km NW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.9436,
-          32.2722,
-          2.504
+          -101.946,
+          32.248,
+          7.5439
         ]
       },
-      "id": "us7000nx2f"
+      "id": "tx2024ybzt"
     },
     {
       "type": "Feature",
@@ -1532,10 +1612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
+        "mag": 3.08,
         "place": "7 km NW of Ocotillo Wells, CA",
         "time": 1733595501030,
-        "updated": 1733611384040,
+        "updated": 1733673141700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40997000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40997000.geojson",
@@ -1543,17 +1623,17 @@
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 146,
+        "sig": 148,
         "net": "ci",
         "code": "40997000",
         "ids": ",ci40997000,us7000nwx6,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 115,
-        "dmin": 0.03522,
-        "rms": 0.19,
+        "nst": 105,
+        "dmin": 0.03566,
+        "rms": 0.17,
         "gap": 24,
         "magType": "ml",
         "type": "earthquake",
@@ -1562,9 +1642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1806641,
-          33.1893349,
-          5.91
+          -116.1811667,
+          33.1896667,
+          6.62
         ]
       },
       "id": "ci40997000"
@@ -1728,46 +1808,6 @@
         ]
       },
       "id": "nc75098851"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "79 km SE of Chignik, Alaska",
-        "time": 1733585101350,
-        "updated": 1733600895040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fpuvjyv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fpuvjyv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024fpuvjyv",
-        "ids": ",us7000nww8,ak024fpuvjyv,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 79 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.5488,
-          55.7611,
-          147.3
-        ]
-      },
-      "id": "ak024fpuvjyv"
     }
   ],
   "bbox": [
@@ -1776,6 +1816,6 @@
     -0.23999999463558,
     169.6157,
     64.5938,
-    479.333
+    522.094
   ]
 }
