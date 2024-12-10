@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733862127000,
+    "generated": 1733865526000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 80
+    "count": 78
   },
   "features": [
     {
@@ -215,11 +215,11 @@
         "mag": 3.65,
         "place": "44 km SW of Captain Cook, Hawaii",
         "time": 1733849112140,
-        "updated": 1733861319164,
+        "updated": 1733864716365,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74561667",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74561667.geojson",
-        "felt": 54,
+        "felt": 56,
         "cdi": 2.7,
         "mmi": 2.903,
         "alert": null,
@@ -1095,12 +1095,12 @@
         "mag": 5.3,
         "place": "Southwest Indian Ridge",
         "time": 1733817056268,
-        "updated": 1733818096040,
+        "updated": 1733862723964,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxj8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxj8.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1110,7 +1110,7 @@
         "code": "7000nxj8",
         "ids": ",us7000nxj8,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 50,
         "dmin": 12.293,
         "rms": 0.51,
@@ -2652,6 +2652,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.7,
+        "place": "24 km NNE of Yerington, Nevada",
+        "time": 1733786292767,
+        "updated": 1733862439590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888575",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888575.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nn",
+        "code": "00888575",
+        "ids": ",nn00888575,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.251,
+        "rms": 0.1292,
+        "gap": 76.19000000000005,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 24 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0321,
+          39.1771,
+          5.4
+        ]
+      },
+      "id": "nn00888575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
         "place": "20 km NNE of Yerington, Nevada",
         "time": 1733786193864,
@@ -2735,11 +2775,11 @@
         "mag": 5.8,
         "place": "24 km NNE of Yerington, Nevada",
         "time": 1733785711541,
-        "updated": 1733862010372,
+        "updated": 1733865241982,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888580",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888580.geojson",
-        "felt": 11524,
+        "felt": 11614,
         "cdi": 6,
         "mmi": 7.799,
         "alert": "green",
@@ -3088,126 +3128,6 @@
         ]
       },
       "id": "nc75100296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "116 km SSW of Adak, Alaska",
-        "time": 1733778925511,
-        "updated": 1733800473040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.617,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000nxf2",
-        "ids": ",ak024ft9grm6,us7000nxf2,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 25,
-        "dmin": 0.841,
-        "rms": 0.54,
-        "gap": 227,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 116 km SSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3406,
-          50.9246,
-          10
-        ]
-      },
-      "id": "us7000nxf2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "22 km ESE of Ōhara, Japan",
-        "time": 1733776402001,
-        "updated": 1733803956835,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxdu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxdu.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "7000nxdu",
-        "ids": ",us7000nxdu,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 96,
-        "dmin": 2.136,
-        "rms": 0.81,
-        "gap": 93,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.8 - 22 km ESE of Ōhara, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.6054,
-          35.1525,
-          45.133
-        ]
-      },
-      "id": "us7000nxdu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.02,
-        "place": "28 km W of Petrolia, CA",
-        "time": 1733775930310,
-        "updated": 1733776053318,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100246.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "nc",
-        "code": "75100246",
-        "ids": ",nc75100246,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.204,
-        "rms": 0.28,
-        "gap": 280,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 28 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.608833312988,
-          40.2775001525879,
-          2.39000010490417
-        ]
-      },
-      "id": "nc75100246"
     }
   ],
   "bbox": [
