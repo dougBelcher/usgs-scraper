@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733855292000,
+    "generated": 1733858134000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 81
+    "count": 82
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.8,
         "place": "93 km SSW of Adak, Alaska",
         "time": 1733853875478,
-        "updated": 1733855262646,
+        "updated": 1733855606401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxnc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxnc.geojson",
@@ -95,7 +95,7 @@
         "mag": 2.85,
         "place": "31 km WNW of Bayview, CA",
         "time": 1733851684150,
-        "updated": 1733853885418,
+        "updated": 1733856077040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101136",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101136.geojson",
@@ -108,8 +108,8 @@
         "sig": 125,
         "net": "nc",
         "code": "75101136",
-        "ids": ",nc75101136,",
-        "sources": ",nc,",
+        "ids": ",nc75101136,us7000nxn2,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 28,
         "dmin": null,
@@ -215,7 +215,7 @@
         "mag": 2.9,
         "place": "69 km WNW of Beluga, Alaska",
         "time": 1733846664219,
-        "updated": 1733850933853,
+        "updated": 1733857148660,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024futykpz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024futykpz.geojson",
@@ -228,8 +228,8 @@
         "sig": 129,
         "net": "ak",
         "code": "024futykpz",
-        "ids": ",ak024futykpz,",
-        "sources": ",ak,",
+        "ids": ",av93402751,ak024futykpz,",
+        "sources": ",av,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -248,6 +248,46 @@
         ]
       },
       "id": "ak024futykpz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "76 km SE of Camiña, Chile",
+        "time": 1733844439016,
+        "updated": 1733856572040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxmf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxmf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000nxmf",
+        "ids": ",us7000nxmf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.268,
+        "rms": 0.83,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 76 km SE of Camiña, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0234,
+          -19.8845,
+          101.29
+        ]
+      },
+      "id": "us7000nxmf"
     },
     {
       "type": "Feature",
@@ -535,7 +575,7 @@
         "mag": 4.17,
         "place": "44 km WNW of Petrolia, CA",
         "time": 1733835666170,
-        "updated": 1733854709011,
+        "updated": 1733857409612,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101006",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101006.geojson",
@@ -1175,7 +1215,7 @@
         "mag": 3.93,
         "place": "6 km NNW of The Geysers, CA",
         "time": 1733810138920,
-        "updated": 1733854963738,
+        "updated": 1733857531238,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100701.geojson",
@@ -1452,42 +1492,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "22 km NNE of Yerington, Nevada",
-        "time": 1733799007000,
-        "updated": 1733848562131,
+        "mag": 2.5,
+        "place": "23 km NNE of Yerington, Nevada",
+        "time": 1733799056072,
+        "updated": 1733857625759,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888747.geojson",
-        "felt": 15,
-        "cdi": 3.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888749",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888749.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 117,
+        "sig": 96,
         "net": "nn",
-        "code": "00888747",
-        "ids": ",nn00888747,",
+        "code": "00888749",
+        "ids": ",nn00888749,",
         "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.519,
-        "rms": 0.3458,
-        "gap": 152.7,
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.24,
+        "rms": 0.176,
+        "gap": 87.14000000000004,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 22 km NNE of Yerington, Nevada"
+        "title": "M 2.5 - 23 km NNE of Yerington, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0351,
-          39.1623,
-          9.8
+          -119.05,
+          39.1739,
+          6.4
         ]
       },
-      "id": "nn00888747"
+      "id": "nn00888749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "22 km NNE of Yerington, Nevada",
+        "time": 1733799007415,
+        "updated": 1733856211633,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889047.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "nn",
+        "code": "00889047",
+        "ids": ",nn00889047,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.239,
+        "rms": 0.1796,
+        "gap": 84.97000000000003,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 22 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.046,
+          39.1702,
+          7.9
+        ]
+      },
+      "id": "nn00889047"
     },
     {
       "type": "Feature",
@@ -2575,11 +2655,11 @@
         "mag": 5.8,
         "place": "24 km NNE of Yerington, Nevada",
         "time": 1733785711541,
-        "updated": 1733855147022,
+        "updated": 1733858091729,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888580",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888580.geojson",
-        "felt": 11551,
+        "felt": 11406,
         "cdi": 6,
         "mmi": 7.799,
         "alert": "green",
@@ -3208,46 +3288,6 @@
         ]
       },
       "id": "nc75100226"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "136 km SSW of Adak, Alaska",
-        "time": 1733770016653,
-        "updated": 1733770635040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxdf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxdf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "7000nxdf",
-        "ids": ",us7000nxdf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.973,
-        "rms": 0.55,
-        "gap": 224,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 136 km SSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.7299,
-          50.8599,
-          10
-        ]
-      },
-      "id": "us7000nxdf"
     }
   ],
   "bbox": [
