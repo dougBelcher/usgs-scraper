@@ -1,27 +1,67 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733858134000,
+    "generated": 1733862127000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 82
+    "count": 80
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
+        "place": "67 km WNW of Petrolia, CA",
+        "time": 1733858059830,
+        "updated": 1733858837329,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101206",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101206.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 120,
+        "net": "nc",
+        "code": "75101206",
+        "ids": ",nc75101206,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.5635,
+        "rms": 0.31,
+        "gap": 288,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 67 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.075164794922,
+          40.3498344421387,
+          0.0900000035762787
+        ]
+      },
+      "id": "nc75101206"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.8,
         "place": "93 km SSW of Adak, Alaska",
         "time": 1733853875478,
-        "updated": 1733855606401,
+        "updated": 1733861346168,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxnc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxnc.geojson",
         "felt": 2,
         "cdi": 6.3,
-        "mmi": 4.132,
+        "mmi": 4.13,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -55,7 +95,7 @@
         "mag": 3.2,
         "place": "28 km W of Salamatof, Alaska",
         "time": 1733853222778,
-        "updated": 1733853976744,
+        "updated": 1733860380040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fuuujyb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fuuujyb.geojson",
@@ -68,8 +108,8 @@
         "sig": 158,
         "net": "ak",
         "code": "024fuuujyb",
-        "ids": ",ak024fuuujyb,",
-        "sources": ",ak,",
+        "ids": ",ak024fuuujyb,us7000nxn9,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -172,39 +212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.41,
-        "place": "42 km SW of Captain Cook, Hawaii",
-        "time": 1733849112280,
-        "updated": 1733854390042,
+        "mag": 3.65,
+        "place": "44 km SW of Captain Cook, Hawaii",
+        "time": 1733849112140,
+        "updated": 1733861319164,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74561667",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74561667.geojson",
-        "felt": 51,
+        "felt": 54,
         "cdi": 2.7,
-        "mmi": null,
+        "mmi": 2.903,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 193,
+        "sig": 220,
         "net": "hv",
         "code": "74561667",
-        "ids": ",hv74561667,",
-        "sources": ",hv,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.46,
-        "rms": 0.239999995,
-        "gap": 238,
+        "ids": ",hv74561667,us7000nxmt,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 67,
+        "dmin": 0.4662,
+        "rms": 0.19,
+        "gap": 224,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 42 km SW of Captain Cook, Hawaii"
+        "title": "M 3.7 - 44 km SW of Captain Cook, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.231002807617,
-          19.2439994812012,
-          11.5600004196167
+          -156.238,
+          19.2263333333333,
+          30.61
         ]
       },
       "id": "hv74561667"
@@ -215,7 +255,7 @@
         "mag": 2.9,
         "place": "69 km WNW of Beluga, Alaska",
         "time": 1733846664219,
-        "updated": 1733857148660,
+        "updated": 1733859394040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024futykpz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024futykpz.geojson",
@@ -228,8 +268,8 @@
         "sig": 129,
         "net": "ak",
         "code": "024futykpz",
-        "ids": ",av93402751,ak024futykpz,",
-        "sources": ",av,ak,",
+        "ids": ",av93402751,us7000nxmk,ak024futykpz,",
+        "sources": ",av,us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -255,12 +295,12 @@
         "mag": 4.1,
         "place": "76 km SE of Camiña, Chile",
         "time": 1733844439016,
-        "updated": 1733856572040,
+        "updated": 1733861640790,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxmf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxmf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -270,7 +310,7 @@
         "code": "7000nxmf",
         "ids": ",us7000nxmf,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 19,
         "dmin": 0.268,
         "rms": 0.83,
@@ -728,6 +768,46 @@
         ]
       },
       "id": "nn00888959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "22 km NNE of Yerington, Nevada",
+        "time": 1733831742129,
+        "updated": 1733860039065,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888938.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "nn",
+        "code": "00888938",
+        "ids": ",nn00888938,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.235,
+        "rms": 0.1678,
+        "gap": 84.80000000000001,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 22 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0541,
+          39.1698,
+          6.5
+        ]
+      },
+      "id": "nn00888938"
     },
     {
       "type": "Feature",
@@ -1494,8 +1574,8 @@
       "properties": {
         "mag": 2.5,
         "place": "23 km NNE of Yerington, Nevada",
-        "time": 1733799056072,
-        "updated": 1733857625759,
+        "time": 1733799056073,
+        "updated": 1733858365642,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888749",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888749.geojson",
@@ -1513,8 +1593,8 @@
         "types": ",origin,phase-data,",
         "nst": 24,
         "dmin": 0.24,
-        "rms": 0.176,
-        "gap": 87.14000000000004,
+        "rms": 0.1761,
+        "gap": 87.13999999999999,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.5 - 23 km NNE of Yerington, Nevada"
@@ -1522,9 +1602,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.05,
-          39.1739,
-          6.4
+          -119.0503,
+          39.1737,
+          6.5
         ]
       },
       "id": "nn00888749"
@@ -2212,10 +2292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "21 km NNE of Yerington, Nevada",
-        "time": 1733787667277,
-        "updated": 1733809275008,
+        "mag": 3.1,
+        "place": "22 km NNE of Yerington, Nevada",
+        "time": 1733787667681,
+        "updated": 1733860089183,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888610",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888610.geojson",
@@ -2223,28 +2303,28 @@
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 149,
         "net": "nn",
         "code": "00888610",
         "ids": ",nn00888610,",
         "sources": ",nn,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.229,
-        "rms": 0.2721,
-        "gap": 103.64999999999999,
+        "nst": 22,
+        "dmin": 0.239,
+        "rms": 0.1063,
+        "gap": 74.94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 21 km NNE of Yerington, Nevada"
+        "title": "M 3.1 - 22 km NNE of Yerington, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0384,
-          39.1517,
-          9.5
+          -119.0367,
+          39.1645,
+          12.6
         ]
       },
       "id": "nn00888610"
@@ -2655,11 +2735,11 @@
         "mag": 5.8,
         "place": "24 km NNE of Yerington, Nevada",
         "time": 1733785711541,
-        "updated": 1733858091729,
+        "updated": 1733862010372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888580",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888580.geojson",
-        "felt": 11406,
+        "felt": 11524,
         "cdi": 6,
         "mmi": 7.799,
         "alert": "green",
@@ -3128,166 +3208,6 @@
         ]
       },
       "id": "nc75100246"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "59 km WNW of Petrolia, CA",
-        "time": 1733775215930,
-        "updated": 1733803042752,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100241",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100241.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75100241",
-        "ids": ",nc75100241,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.493,
-        "rms": 0.32,
-        "gap": 264,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 59 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.979164123535,
-          40.3675003051758,
-          0.100000001490116
-        ]
-      },
-      "id": "nc75100241"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "84 km N of Arecibo, Puerto Rico",
-        "time": 1733773899950,
-        "updated": 1733776123520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71468178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71468178.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71468178",
-        "ids": ",pr71468178,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.7534,
-        "rms": 0.09,
-        "gap": 284,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 84 km N of Arecibo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.6285,
-          19.2286666666667,
-          23.99
-        ]
-      },
-      "id": "pr71468178"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "215 km SE of Masohi, Indonesia",
-        "time": 1733772323026,
-        "updated": 1733773616040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxdk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxdk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000nxdk",
-        "ids": ",us7000nxdk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.407,
-        "rms": 0.55,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 215 km SE of Masohi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.2116,
-          -4.7926,
-          21.807
-        ]
-      },
-      "id": "us7000nxdk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.16,
-        "place": "30 km WNW of Petrolia, CA",
-        "time": 1733772264560,
-        "updated": 1733772568040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100226",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100226.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 154,
-        "net": "nc",
-        "code": "75100226",
-        "ids": ",nc75100226,us7000nxdj,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.2378,
-        "rms": 0.35,
-        "gap": 272,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 30 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.638999938965,
-          40.3605003356934,
-          16.3899993896484
-        ]
-      },
-      "id": "nc75100226"
     }
   ],
   "bbox": [
