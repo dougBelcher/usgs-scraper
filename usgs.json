@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1733894348000,
+    "generated": 1733898546000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 50
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "18 km SE of Pāhala, Hawaii",
+        "time": 1733897966690,
+        "updated": 1733898138920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74562302",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74562302.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 131,
+        "net": "hv",
+        "code": "74562302",
+        "ids": ",hv74562302,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.1193,
+        "rms": 0.159999996,
+        "gap": 199,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.358337402344,
+          19.0871658325195,
+          33.1699981689453
+        ]
+      },
+      "id": "hv74562302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.62,
+        "place": "69 km WNW of Petrolia, CA",
+        "time": 1733896151500,
+        "updated": 1733898137913,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101566.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 202,
+        "net": "nc",
+        "code": "75101566",
+        "ids": ",nc75101566,us7000nxsb,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 72,
+        "dmin": 0.5744,
+        "rms": 0.31,
+        "gap": 262,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 69 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.089332580566,
+          40.445499420166,
+          1.05999994277954
+        ]
+      },
+      "id": "nc75101566"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.6,
         "place": "22 km NNE of Yerington, Nevada",
         "time": 1733892503532,
-        "updated": 1733893006638,
+        "updated": 1733897160040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889155",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889155.geojson",
@@ -28,8 +108,8 @@
         "sig": 104,
         "net": "nn",
         "code": "00889155",
-        "ids": ",nn00889155,",
-        "sources": ",nn,",
+        "ids": ",nn00889155,us7000nxrz,",
+        "sources": ",nn,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 18,
         "dmin": 0.233,
@@ -52,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "75 km S of Fry, Greece",
+        "time": 1733892259958,
+        "updated": 1733895035040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxry",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxry.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000nxry",
+        "ids": ",us7000nxry,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.747,
+        "rms": 0.83,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 75 km S of Fry, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9074,
+          34.7315,
+          50.373
+        ]
+      },
+      "id": "us7000nxry"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.46,
         "place": "71 km WNW of Petrolia, CA",
         "time": 1733892040460,
-        "updated": 1733893636380,
+        "updated": 1733897535845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75101526",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75101526.geojson",
@@ -135,7 +255,7 @@
         "mag": 2.7,
         "place": "67 km WSW of Nanwalek, Alaska",
         "time": 1733888749690,
-        "updated": 1733888847301,
+        "updated": 1733897502040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fwa04qh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fwa04qh.geojson",
@@ -148,8 +268,8 @@
         "sig": 112,
         "net": "ak",
         "code": "024fwa04qh",
-        "ids": ",ak024fwa04qh,",
-        "sources": ",ak,",
+        "ids": ",us7000nxrs,ak024fwa04qh,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1768,253 +1888,13 @@
         ]
       },
       "id": "nc75100871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "113 km SSW of Adak, Alaska",
-        "time": 1733812094018,
-        "updated": 1733819085608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fuo5daz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fuo5daz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.063,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "024fuo5daz",
-        "ids": ",ak024fuo5daz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 113 km SSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3901,
-          50.9687,
-          25.9
-        ]
-      },
-      "id": "ak024fuo5daz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.71,
-        "place": "131 km NNE of Vieques, Puerto Rico",
-        "time": 1733811799030,
-        "updated": 1733813289561,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024345001",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024345001.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 212,
-        "net": "pr",
-        "code": "2024345001",
-        "ids": ",pr2024345001,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.2009,
-        "rms": 0.53,
-        "gap": 277,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 131 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3105,
-          19.5081,
-          90
-        ]
-      },
-      "id": "pr2024345001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "232 km N of Tobelo, Indonesia",
-        "time": 1733811221846,
-        "updated": 1733812278040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nxim",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nxim.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000nxim",
-        "ids": ",us7000nxim,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 3.072,
-        "rms": 0.73,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 232 km N of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.8529,
-          3.8251,
-          156.706
-        ]
-      },
-      "id": "us7000nxim"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.93,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1733810138910,
-        "updated": 1733880198511,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100701",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100701.geojson",
-        "felt": 144,
-        "cdi": 4.3,
-        "mmi": 4.451,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 300,
-        "net": "nc",
-        "code": "75100701",
-        "ids": ",nc75100701,ew1733810140,",
-        "sources": ",nc,ew,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,shake-alert,shakemap,",
-        "nst": 113,
-        "dmin": 0.005867,
-        "rms": 0.06,
-        "gap": 18,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.9 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.802833333333,
-          38.8218333333333,
-          2.66
-        ]
-      },
-      "id": "nc75100701"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "28 km W of Petrolia, CA",
-        "time": 1733810000700,
-        "updated": 1733810102831,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75100691",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75100691.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nc",
-        "code": "75100691",
-        "ids": ",nc75100691,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 322,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 28 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.602668762207,
-          40.2651672363281,
-          21.7600002288818
-        ]
-      },
-      "id": "nc75100691"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "22 km NNE of Yerington, Nevada",
-        "time": 1733809628093,
-        "updated": 1733886704227,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00888826",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00888826.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00888826",
-        "ids": ",nn00888826,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.236,
-        "rms": 0.1455,
-        "gap": 84.55000000000001,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 22 km NNE of Yerington, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0348,
-          39.1589,
-          12
-        ]
-      },
-      "id": "nn00888826"
     }
   ],
   "bbox": [
     -179.7128,
     -35.9942,
     -0.10999999940395,
-    127.8529,
+    127.4169,
     61.3211,
     533.57
   ]
