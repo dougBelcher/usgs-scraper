@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734007260000,
+    "generated": 1734010159000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "5 km SSE of Pinnacles, CA",
+        "time": 1734008425650,
+        "updated": 1734008836552,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102306",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102306.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "nc",
+        "code": "75102306",
+        "ids": ",nc75102306,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.0638,
+        "rms": 0.33,
+        "gap": 47,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km SSE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.122329711914,
+          36.4925003051758,
+          -0.560000002384186
+        ]
+      },
+      "id": "nc75102306"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.43,
         "place": "54 km S of Boca de Yuma, Dominican Republic",
         "time": 1734005506270,
-        "updated": 1734007232760,
+        "updated": 1734009995040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71468403",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71468403.geojson",
@@ -28,8 +68,8 @@
         "sig": 181,
         "net": "pr",
         "code": "71468403",
-        "ids": ",pr71468403,",
-        "sources": ",pr,",
+        "ids": ",us7000ny4s,pr71468403,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 1.201,
@@ -1573,7 +1613,7 @@
   "bbox": [
     -179.5639,
     -30.5917,
-    0.56000000238419,
+    -0.56000000238419,
     167.0455,
     58.0818,
     591.297
