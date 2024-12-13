@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734096481000,
+    "generated": 1734099516000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 45
   },
   "features": [
     {
@@ -295,7 +295,7 @@
         "mag": 3,
         "place": "49 km SSE of Old Harbor, Alaska",
         "time": 1734080652022,
-        "updated": 1734080803749,
+        "updated": 1734096922040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fzoek36",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fzoek36.geojson",
@@ -308,8 +308,8 @@
         "sig": 138,
         "net": "ak",
         "code": "024fzoek36",
-        "ids": ",ak024fzoek36,",
-        "sources": ",ak,",
+        "ids": ",us7000nye0,ak024fzoek36,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -652,10 +652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.65,
+        "mag": 3.69,
         "place": "60 km W of Petrolia, CA",
         "time": 1734065844910,
-        "updated": 1734070636704,
+        "updated": 1734099203220,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102586",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102586.geojson",
@@ -665,17 +665,17 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 205,
+        "sig": 209,
         "net": "nc",
         "code": "75102586",
         "ids": ",nc75102586,ew1734065860,us7000nycl,",
         "sources": ",nc,ew,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shake-alert,",
+        "types": ",moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
         "nst": 57,
         "dmin": 0.4938,
         "rms": 0.48,
         "gap": 269,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
         "title": "M 3.7 - 60 km W of Petrolia, CA"
       },
@@ -1655,7 +1655,7 @@
         "mag": 3.83,
         "place": "60 km WNW of Petrolia, CA",
         "time": 1734015015830,
-        "updated": 1734095536619,
+        "updated": 1734099137126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102341",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102341.geojson",
@@ -1808,126 +1808,6 @@
         ]
       },
       "id": "us7000ny5a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.11,
-        "place": "62 km WNW of Petrolia, CA",
-        "time": 1734012136600,
-        "updated": 1734027989564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75102321",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75102321.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "nc",
-        "code": "75102321",
-        "ids": ",nc75102321,us7000ny57,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 64,
-        "dmin": 0.5151,
-        "rms": 0.46,
-        "gap": 274,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 62 km WNW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.013999938965,
-          40.3305015563965,
-          1.0900000333786
-        ]
-      },
-      "id": "nc75102321"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.54,
-        "place": "94 km SW of Pole Ojea, Puerto Rico",
-        "time": 1734011202240,
-        "updated": 1734012873435,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024347002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024347002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 193,
-        "net": "pr",
-        "code": "2024347002",
-        "ids": ",us7000ny54,pr2024347002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.9485,
-        "rms": 0.28,
-        "gap": 244,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 94 km SW of Pole Ojea, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8231,
-          17.3815,
-          27
-        ]
-      },
-      "id": "pr2024347002"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "31 km S of Larsen Bay, Alaska",
-        "time": 1734010577165,
-        "updated": 1734012205040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024fy3ftba",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024fy3ftba.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "024fy3ftba",
-        "ids": ",us7000ny50,ak024fy3ftba,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 31 km S of Larsen Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.0241,
-          57.254,
-          45
-        ]
-      },
-      "id": "ak024fy3ftba"
     }
   ],
   "bbox": [
