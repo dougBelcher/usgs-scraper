@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734362511000,
+    "generated": 1734366387000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "20 km NNE of Yerington, Nevada",
+        "time": 1734364638443,
+        "updated": 1734366256024,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00889754",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00889754.geojson",
+        "felt": 2,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00889754",
+        "ids": ",nn00889754,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.027,
+        "rms": 0.1096,
+        "gap": 53.81999999999999,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 20 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0629,
+          39.1492,
+          9.7
+        ]
+      },
+      "id": "nn00889754"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.87,
         "place": "46 km WNW of Petrolia, CA",
         "time": 1734361307340,
-        "updated": 1734361396092,
+        "updated": 1734366125040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75103981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75103981.geojson",
@@ -28,9 +68,9 @@
         "sig": 127,
         "net": "nc",
         "code": "75103981",
-        "ids": ",nc75103981,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75103981,us7000nz9z,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 21,
         "dmin": 0.3786,
         "rms": 0.38,
@@ -52,39 +92,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "69 km SE of Amahai, Indonesia",
-        "time": 1734344084676,
-        "updated": 1734351507200,
+        "mag": 4.3,
+        "place": "32 km E of Tura, India",
+        "time": 1734358233782,
+        "updated": 1734365112102,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz9t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz9t.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000nz9t",
+        "ids": ",us7000nz9t,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 33,
+        "dmin": 4.153,
+        "rms": 0.73,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 32 km E of Tura, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.5226,
+          25.5691,
+          10
+        ]
+      },
+      "id": "us7000nz9t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "61 km SE of Amahai, Indonesia",
+        "time": 1734344084537,
+        "updated": 1734365161166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz8f",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz8f.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.983,
+        "mmi": 4.153,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 465,
         "net": "us",
         "code": "7000nz8f",
         "ids": ",us7000nz8f,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 87,
-        "dmin": 0.906,
-        "rms": 1,
-        "gap": 41,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 0.978,
+        "rms": 1.04,
+        "gap": 42,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 69 km SE of Amahai, Indonesia"
+        "title": "M 5.5 - 61 km SE of Amahai, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.3136,
-          -3.8301,
-          27.633
+          129.2735,
+          -3.7686,
+          25.758
         ]
       },
       "id": "us7000nz8f"
@@ -452,10 +532,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "20 km SSE of Tocopilla, Chile",
+        "time": 1734329272235,
+        "updated": 1734364920040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz71",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz71.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000nz71",
+        "ids": ",us7000nz71,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.423,
+        "rms": 1.01,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 20 km SSE of Tocopilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1449,
+          -22.2669,
+          38.205
+        ]
+      },
+      "id": "us7000nz71"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "221 km ENE of Lospalos, Timor Leste",
+        "time": 1734329010215,
+        "updated": 1734363077040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz70",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz70.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000nz70",
+        "ids": ",us7000nz70,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 5.728,
+        "rms": 0.49,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 221 km ENE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.71,
+          -7.4649,
+          113.504
+        ]
+      },
+      "id": "us7000nz70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.94,
         "place": "63 km W of Ferndale, CA",
         "time": 1734328798930,
-        "updated": 1734336434745,
+        "updated": 1734364009040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75103831",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75103831.geojson",
@@ -468,8 +628,8 @@
         "sig": 133,
         "net": "nc",
         "code": "75103831",
-        "ids": ",nc75103831,",
-        "sources": ",nc,",
+        "ids": ",nc75103831,us7000nz6z,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 24,
         "dmin": 0.5339,
@@ -1412,130 +1572,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "18 km WSW of Dutch John, Utah",
-        "time": 1734280085749,
-        "updated": 1734281237040,
+        "mag": 2.75,
+        "place": "15 km SW of Dutch John, Utah",
+        "time": 1734280086280,
+        "updated": 1734366077890,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz3s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz3s.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80097636",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80097636.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "us",
-        "code": "7000nz3s",
-        "ids": ",us7000nz3s,",
-        "sources": ",us,",
+        "sig": 116,
+        "net": "uu",
+        "code": "80097636",
+        "ids": ",us7000nz3s,uu80097636,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.271,
-        "rms": 0.52,
-        "gap": 87,
+        "nst": 17,
+        "dmin": 0.264,
+        "rms": 0.12,
+        "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 18 km WSW of Dutch John, Utah"
+        "title": "M 2.8 - 15 km SW of Dutch John, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.5746,
-          40.8423,
-          10.463
+          -109.528333333333,
+          40.8331666666667,
+          11.63
         ]
       },
-      "id": "us7000nz3s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "172 km WSW of Riverton, New Zealand",
-        "time": 1734279822706,
-        "updated": 1734281546799,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz3r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz3r.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000nz3r",
-        "ids": ",us7000nz3r,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.024,
-        "rms": 1.14,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 172 km WSW of Riverton, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.0268,
-          -47.0857,
-          10
-        ]
-      },
-      "id": "us7000nz3r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "12 km ENE of Tobelo, Indonesia",
-        "time": 1734276708545,
-        "updated": 1734278052040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nz3f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nz3f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000nz3f",
-        "ids": ",us7000nz3f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.241,
-        "rms": 0.74,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 12 km ENE of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.1153,
-          1.7688,
-          125.751
-        ]
-      },
-      "id": "us7000nz3f"
+      "id": "uu80097636"
     }
   ],
   "bbox": [
     -152.5508,
     -47.2393,
     -0.090000003576279,
-    166.0268,
+    160.0569,
     63.2683,
-    125.751
+    122.89
   ]
 }
