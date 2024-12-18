@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734510378000,
+    "generated": 1734513603000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "194 km SW of Inuvik, Canada",
+        "time": 1734511996211,
+        "updated": 1734512172520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024g7xsfmn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024g7xsfmn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "024g7xsfmn",
+        "ids": ",ak024g7xsfmn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.9,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 194 km SW of Inuvik, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.4283,
+          66.9563,
+          1.6
+        ]
+      },
+      "id": "ak024g7xsfmn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "5 km SW of Guánica, Puerto Rico",
+        "time": 1734510801750,
+        "updated": 1734511235500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71468888",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71468888.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71468888",
+        "ids": ",pr71468888,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.07748,
+        "rms": 0.18,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9506666666667,
+          17.9376666666667,
+          12.14
+        ]
+      },
+      "id": "pr71468888"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.69,
         "place": "51 km N of Culebra, Puerto Rico",
         "time": 1734507795720,
-        "updated": 1734509600823,
+        "updated": 1734512463040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2024353000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2024353000.geojson",
@@ -28,8 +108,8 @@
         "sig": 209,
         "net": "pr",
         "code": "2024353000",
-        "ids": ",pr2024353000,",
-        "sources": ",pr,",
+        "ids": ",us7000nzqu,pr2024353000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
         "dmin": 0.457,
@@ -1613,9 +1693,9 @@
   "bbox": [
     -178.6117,
     -48.1497,
-    4.0500001907349,
+    1.6,
     176.4882,
-    63.8746,
+    66.9563,
     585.198
   ]
 }
