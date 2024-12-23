@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1734985180000,
+    "generated": 1734988568000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 39
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "7 km N of Crescent, Oklahoma",
+        "time": 1734985747233,
+        "updated": 1734985934774,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2024zdvd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2024zdvd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "ok",
+        "code": "2024zdvd",
+        "ids": ",ok2024zdvd,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.6465889812,
+        "rms": 1.331709774,
+        "gap": 112.9703827,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km N of Crescent, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59983063,
+          36.01948547,
+          24.88773537
+        ]
+      },
+      "id": "ok2024zdvd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "13 km NNE of Metahāra, Ethiopia",
+        "time": 1734982885327,
+        "updated": 1734988261288,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfc3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfc3.geojson",
+        "felt": 3,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 371,
+        "net": "us",
+        "code": "6000pfc3",
+        "ids": ",us6000pfc3,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.777,
+        "rms": 0.87,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 13 km NNE of Metahāra, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9808,
+          9.0015,
+          10
+        ]
+      },
+      "id": "us6000pfc3"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -452,10 +532,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
+        "mag": 2.73,
         "place": "7 km SW of Volcano, Hawaii",
-        "time": 1734956465600,
-        "updated": 1734956653960,
+        "time": 1734956465430,
+        "updated": 1734987798610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74574942",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74574942.geojson",
@@ -463,28 +543,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 115,
         "net": "hv",
         "code": "74574942",
         "ids": ",hv74574942,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.007444,
-        "rms": 0.389999986,
-        "gap": 41,
+        "nst": 30,
+        "dmin": 0.008906,
+        "rms": 0.11,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 7 km SW of Volcano, Hawaii"
+        "title": "M 2.7 - 7 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.285003662109,
-          19.3933334350586,
-          -0.230000004172325
+          -155.286166666667,
+          19.395,
+          0.07
         ]
       },
       "id": "hv74574942"
@@ -895,11 +975,11 @@
         "mag": 5.9,
         "place": "37 km S of Guisa, Cuba",
         "time": 1734933659074,
-        "updated": 1734981963861,
+        "updated": 1734986389255,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p0uj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p0uj.geojson",
-        "felt": 70,
+        "felt": 71,
         "cdi": 7.3,
         "mmi": 6.509,
         "alert": "green",
@@ -1493,7 +1573,7 @@
   "bbox": [
     -179.8416,
     -29.1325,
-    -0.23000000417232,
+    0.04,
     167.3598,
     62.6033,
     515.119
