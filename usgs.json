@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735107989000,
+    "generated": 1735111048000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "Fiji region",
+        "time": 1735108488698,
+        "updated": 1735110759532,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfjm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfjm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.973,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000pfjm",
+        "ids": ",us6000pfjm,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 3.949,
+        "rms": 0.91,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5439,
+          -19.1289,
+          458.796
+        ]
+      },
+      "id": "us6000pfjm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1048,54 +1088,14 @@
         ]
       },
       "id": "pr2024359000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1735022162453,
-        "updated": 1735065695204,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024ghtpwwi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024ghtpwwi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.348,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "024ghtpwwi",
-        "ids": ",ak024ghtpwwi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.8817,
-          51.354,
-          41.3
-        ]
-      },
-      "id": "ak024ghtpwwi"
     }
   ],
   "bbox": [
-    -153.5572,
+    -177.5439,
     -56.6008,
     1.38757813,
-    178.8817,
+    174.7839,
     75.7581,
-    219.078
+    458.796
   ]
 }
