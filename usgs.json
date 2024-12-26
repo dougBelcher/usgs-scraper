@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735216612000,
+    "generated": 1735219330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 23
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "13 km W of Petrolia, CA",
+        "time": 1735219024400,
+        "updated": 1735219121504,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75108171",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75108171.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "nc",
+        "code": "75108171",
+        "ids": ",nc75108171,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.07805,
+        "rms": 0.05,
+        "gap": 300,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.438003540039,
+          40.3161659240723,
+          10.0699996948242
+        ]
+      },
+      "id": "nc75108171"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +375,12 @@
         "mag": 3.31,
         "place": "1 km N of Little America, Wyoming",
         "time": 1735176858500,
-        "updated": 1735178026860,
+        "updated": 1735218518369,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80098561",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80098561.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "80098561",
         "ids": ",uu80098561,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 13,
         "dmin": 0.1072,
         "rms": 0.15,
@@ -375,11 +415,11 @@
         "mag": 5,
         "place": "15 km NNE of Valdivia, Colombia",
         "time": 1735174362394,
-        "updated": 1735210176185,
+        "updated": 1735217376323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfmi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfmi.geojson",
-        "felt": 44,
+        "felt": 45,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
@@ -533,41 +573,41 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "66 km SSW of Whites City, New Mexico",
-        "time": 1735157002276,
-        "updated": 1735158760040,
+        "place": "65 km NNE of Van Horn, Texas",
+        "time": 1735157001918,
+        "updated": 1735217360419,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2024zhlj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2024zhlj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfli",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfli.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
-        "net": "tx",
-        "code": "2024zhlj",
-        "ids": ",us6000pfli,tx2024zhlj,",
-        "sources": ",us,tx,",
+        "net": "us",
+        "code": "6000pfli",
+        "ids": ",tx2024zhlj,us6000pfli,",
+        "sources": ",tx,us,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 165,
-        "magType": "ml",
+        "nst": 14,
+        "dmin": 0.096,
+        "rms": 0.55,
+        "gap": 189,
+        "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 66 km SSW of Whites City, New Mexico"
+        "title": "M 2.5 - 65 km NNE of Van Horn, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.554,
-          31.598,
-          4.3222
+          -104.5634,
+          31.5884,
+          5.128
         ]
       },
-      "id": "tx2024zhlj"
+      "id": "us6000pfli"
     },
     {
       "type": "Feature",
