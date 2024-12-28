@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735410225000,
+    "generated": 1735413186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "69 km NW of Kandrian, Papua New Guinea",
+        "time": 1735409504410,
+        "updated": 1735410778040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pg6c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pg6c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000pg6c",
+        "ids": ",us6000pg6c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 4.06,
+        "rms": 0.82,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 69 km NW of Kandrian, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1729,
+          -5.7052,
+          145.472
+        ]
+      },
+      "id": "us6000pg6c"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.99,
         "place": "11 km WNW of Pine Valley, CA",
         "time": 1735408110310,
-        "updated": 1735409598168,
+        "updated": 1735413050187,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40829447",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40829447.geojson",
-        "felt": 24,
+        "felt": 29,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 147,
+        "sig": 149,
         "net": "ci",
         "code": "40829447",
         "ids": ",ci40829447,",
@@ -1248,126 +1288,6 @@
         ]
       },
       "id": "nc75108656"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "40 km E of Tomioka, Japan",
-        "time": 1735326607481,
-        "updated": 1735345887962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfz8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfz8.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 433,
-        "net": "us",
-        "code": "6000pfz8",
-        "ids": ",us6000pfz8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 96,
-        "dmin": 2.749,
-        "rms": 0.63,
-        "gap": 122,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 40 km E of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.4732,
-          37.3936,
-          58.201
-        ]
-      },
-      "id": "us6000pfz8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "289 km S of Ambon, Indonesia",
-        "time": 1735325577317,
-        "updated": 1735326654040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfz2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfz2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000pfz2",
-        "ids": ",us6000pfz2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 2.185,
-        "rms": 0.65,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 289 km S of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.5871,
-          -6.282,
-          319.518
-        ]
-      },
-      "id": "us6000pfz2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "34 km SE of Union, Philippines",
-        "time": 1735324978864,
-        "updated": 1735401166040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pfz1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pfz1.geojson",
-        "felt": 19,
-        "cdi": 3.8,
-        "mmi": 4.722,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 473,
-        "net": "us",
-        "code": "6000pfz1",
-        "ids": ",us6000pfz1,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 108,
-        "dmin": 2.595,
-        "rms": 1.23,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 34 km SE of Union, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3603,
-          9.5628,
-          56.092
-        ]
-      },
-      "id": "us6000pfz1"
     }
   ],
   "bbox": [
