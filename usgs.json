@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735613286000,
+    "generated": 1735615334000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "53 km SW of San Juan, Peru",
+        "time": 1735613842533,
+        "updated": 1735614897040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgl3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgl3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000pgl3",
+        "ids": ",us6000pgl3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 3.959,
+        "rms": 0.97,
+        "gap": 159,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 53 km SW of San Juan, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4796,
+          -15.7418,
+          10
+        ]
+      },
+      "id": "us6000pgl3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "76 km NW of Elfin Cove, Alaska",
+        "time": 1735613311861,
+        "updated": 1735613462726,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak024gtc68s2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak024gtc68s2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "024gtc68s2",
+        "ids": ",ak024gtc68s2,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.13,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 76 km NW of Elfin Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.415,
+          58.5923,
+          0
+        ]
+      },
+      "id": "ak024gtc68s2"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1848,52 +1928,12 @@
         ]
       },
       "id": "nc75109591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "11 km SE of Bangui, Philippines",
-        "time": 1735527376877,
-        "updated": 1735560650067,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pge2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pge2.geojson",
-        "felt": 13,
-        "cdi": 6.1,
-        "mmi": 5.08,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 473,
-        "net": "us",
-        "code": "6000pge2",
-        "ids": ",us6000pge2,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 115,
-        "dmin": 4.337,
-        "rms": 1.02,
-        "gap": 48,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 11 km SE of Bangui, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.8426,
-          18.4642,
-          34
-        ]
-      },
-      "id": "us6000pge2"
     }
   ],
   "bbox": [
     -178.1709,
     -29.9598,
-    0.81000000238419,
+    0,
     179.2949,
     66.3686,
     572.011
