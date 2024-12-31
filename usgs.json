@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735633403000,
+    "generated": 1735636725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 46
+    "count": 43
   },
   "features": [
     {
@@ -215,12 +215,12 @@
         "mag": 4.5,
         "place": "53 km SW of San Juan, Peru",
         "time": 1735613842533,
-        "updated": 1735614897040,
+        "updated": 1735633656885,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgl3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgl3.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "6000pgl3",
         "ids": ",us6000pgl3,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 29,
         "dmin": 3.959,
         "rms": 0.97,
@@ -1728,126 +1728,6 @@
         ]
       },
       "id": "hv74580082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.32,
-        "place": "1 km WSW of Pāhala, Hawaii",
-        "time": 1735549491960,
-        "updated": 1735592220540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74580042",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74580042.geojson",
-        "felt": 377,
-        "cdi": 4.1,
-        "mmi": 3.744,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 442,
-        "net": "hv",
-        "code": "74580042",
-        "ids": ",hv74580042,us6000pggh,pt24365001,",
-        "sources": ",hv,us,pt,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 67,
-        "dmin": 0.05043,
-        "rms": 0.12,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 1 km WSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.495,
-          19.1953333333333,
-          30.78
-        ]
-      },
-      "id": "hv74580042"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Carlsberg Ridge",
-        "time": 1735547907074,
-        "updated": 1735552430315,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pggd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pggd.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000pggd",
-        "ids": ",us6000pggd,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 5.739,
-        "rms": 0.66,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          67.4882,
-          -1.1369,
-          10
-        ]
-      },
-      "id": "us6000pggd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "31 km SSW of Metahāra, Ethiopia",
-        "time": 1735547446127,
-        "updated": 1735569087040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pggc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pggc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000pggc",
-        "ids": ",us6000pggc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 4.137,
-        "rms": 0.57,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 31 km SSW of Metahāra, Ethiopia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          39.8402,
-          8.6227,
-          10
-        ]
-      },
-      "id": "us6000pggc"
     }
   ],
   "bbox": [
