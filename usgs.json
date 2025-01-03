@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735872537000,
+    "generated": 1735874573000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "52 km SSE of Debre Sīna, Ethiopia",
+        "time": 1735872755692,
+        "updated": 1735873524040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phcx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phcx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000phcx",
+        "ids": ",us6000phcx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.57,
+        "rms": 0.91,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 52 km SSE of Debre Sīna, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9227,
+          9.4006,
+          10
+        ]
+      },
+      "id": "us6000phcx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "South Sandwich Islands region",
+        "time": 1735871602592,
+        "updated": 1735872825348,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phce",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phce.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.216,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000phce",
+        "ids": ",us6000phce,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 117,
+        "dmin": 7.344,
+        "rms": 0.76,
+        "gap": 38,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.9594,
+          -58.7538,
+          135.831
+        ]
+      },
+      "id": "us6000phce"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.97,
         "place": "39 km SE of Naalehu, Hawaii",
         "time": 1735870736390,
-        "updated": 1735872414288,
+        "updated": 1735874350040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74582777",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74582777.geojson",
@@ -28,8 +108,8 @@
         "sig": 136,
         "net": "hv",
         "code": "74582777",
-        "ids": ",hv74582777,",
-        "sources": ",hv,",
+        "ids": ",hv74582777,us6000phcc,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 54,
         "dmin": 0.3564,
@@ -1408,131 +1488,11 @@
         ]
       },
       "id": "us6000ph00"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "16 km WNW of Āwash, Ethiopia",
-        "time": 1735787876869,
-        "updated": 1735789998530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgzy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgzy.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000pgzy",
-        "ids": ",us6000pgzy,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 3.69,
-        "rms": 0.75,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 16 km WNW of Āwash, Ethiopia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          40.0418,
-          9.0652,
-          10
-        ]
-      },
-      "id": "us6000pgzy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "63 km SSW of Whites City, New Mexico",
-        "time": 1735787275852,
-        "updated": 1735867447040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025acbz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025acbz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025acbz",
-        "ids": ",us6000pgzs,tx2025acbz,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 63 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.524,
-          31.621,
-          7.6379
-        ]
-      },
-      "id": "tx2025acbz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "Balleny Islands region",
-        "time": 1735786457108,
-        "updated": 1735793882242,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pgzq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pgzq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "6000pgzq",
-        "ids": ",us6000pgzq,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 38,
-        "dmin": 8.204,
-        "rms": 0.83,
-        "gap": 133,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - Balleny Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.7283,
-          -62.5059,
-          10
-        ]
-      },
-      "id": "us6000pgzq"
     }
   ],
   "bbox": [
     -177.9471,
-    -62.5059,
+    -58.7538,
     -2.63,
     179.8276,
     62.9073,
