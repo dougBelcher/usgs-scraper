@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735899498000,
+    "generated": 1735902883000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 26
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 2.6,
         "place": "9 km W of Forsan, Texas",
         "time": 1735886110437,
-        "updated": 1735887431847,
+        "updated": 1735900275266,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025aeeb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025aeeb.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "felt": 2,
+        "cdi": 2.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -135,21 +135,21 @@
         "mag": 4.2,
         "place": "67 km S of Adak, Alaska",
         "time": 1735882939445,
-        "updated": 1735889954040,
+        "updated": 1735900517270,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phdp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phdp.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.89,
+        "mmi": 1.95,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 271,
         "net": "us",
         "code": "6000phdp",
-        "ids": ",us6000phdp,ak02551u93c,",
-        "sources": ",us,ak,",
+        "ids": ",ak02551u93c,us6000phdp,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 50,
         "dmin": 0.725,
@@ -1048,54 +1048,14 @@
         ]
       },
       "id": "ak0253jmz6r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "south of the Fiji Islands",
-        "time": 1735814004214,
-        "updated": 1735816467040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ph30",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ph30.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ph30",
-        "ids": ",us6000ph30,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 4.156,
-        "rms": 0.68,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.8276,
-          -25.6046,
-          502.683
-        ]
-      },
-      "id": "us6000ph30"
     }
   ],
   "bbox": [
     -176.445,
     -58.7538,
     0,
-    179.8276,
+    151.772,
     62.9073,
-    502.683
+    158.965
   ]
 }
