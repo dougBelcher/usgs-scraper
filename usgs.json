@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1735971851000,
+    "generated": 1735974972000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 4.4,
         "place": "64 km SSW of Puerto El Triunfo, El Salvador",
         "time": 1735969717266,
-        "updated": 1735970286040,
+        "updated": 1735972189789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phsz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phsz.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +110,7 @@
         "code": "6000phsz",
         "ids": ",us6000phsz,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": 0.824,
         "rms": 1.51,
@@ -332,20 +332,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "19 km W of Port-Vila, Vanuatu",
+        "time": 1735958390963,
+        "updated": 1735974157068,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pht8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pht8.geojson",
+        "felt": 3,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 299,
+        "net": "us",
+        "code": "6000pht8",
+        "ids": ",us6000pht8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.475,
+        "rms": 0.61,
+        "gap": 83,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 19 km W of Port-Vila, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1373,
+          -17.7675,
+          41.353
+        ]
+      },
+      "id": "us6000pht8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.8,
         "place": "56 km SSE of Abomsa, Ethiopia",
         "time": 1735951942009,
-        "updated": 1735970656779,
+        "updated": 1735973869461,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phrk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phrk.geojson",
-        "felt": 173,
+        "felt": 176,
         "cdi": 8.1,
         "mmi": 8.285,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 658,
+        "sig": 660,
         "net": "us",
         "code": "6000phrk",
         "ids": ",us6000phrk,",
@@ -1328,93 +1368,13 @@
         ]
       },
       "id": "us6000phec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "105 km NNE of Mount Hagen, Papua New Guinea",
-        "time": 1735887742150,
-        "updated": 1735890921040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000phdy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000phdy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000phdy",
-        "ids": ",us6000phdy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 4.528,
-        "rms": 0.55,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 105 km NNE of Mount Hagen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.5378,
-          -4.9526,
-          95.774
-        ]
-      },
-      "id": "us6000phdy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "10 km W of Forsan, Texas",
-        "time": 1735886110910,
-        "updated": 1735963892708,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025aeeb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025aeeb.geojson",
-        "felt": 3,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "tx",
-        "code": "2025aeeb",
-        "ids": ",tx2025aeeb,us6000phdt,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km W of Forsan, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.474,
-          32.097,
-          8.96
-        ]
-      },
-      "id": "tx2025aeeb"
     }
   ],
   "bbox": [
     -177.7597,
     -31.8146,
     0,
-    144.5378,
+    168.1373,
     64.9674,
     214.344
   ]
