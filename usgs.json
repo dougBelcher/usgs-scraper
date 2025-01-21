@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737472767000,
+    "generated": 1737476630000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 40
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "15 km E of Chignik, Alaska",
+        "time": 1737474458210,
+        "updated": 1737474599481,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025yzhy1p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025yzhy1p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "025yzhy1p",
+        "ids": ",ak025yzhy1p,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 15 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.1497,
+          56.2915,
+          95.7
+        ]
+      },
+      "id": "ak025yzhy1p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.72,
+        "place": "3 km ENE of Big Pine, CA",
+        "time": 1737473709710,
+        "updated": 1737475034872,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75120741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75120741.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "nc",
+        "code": "75120741",
+        "ids": ",nc75120741,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.05428,
+        "rms": 0.08,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 3 km ENE of Big Pine, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.264503479004,
+          37.1783332824707,
+          5.75
+        ]
+      },
+      "id": "nc75120741"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,21 +175,21 @@
         "mag": 2.64,
         "place": "6 km SW of Gilroy, CA",
         "time": 1737465930570,
-        "updated": 1737472364938,
+        "updated": 1737475508911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75120701",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75120701.geojson",
-        "felt": 45,
+        "felt": 48,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 120,
         "net": "nc",
         "code": "75120701",
-        "ids": ",nc75120701,",
-        "sources": ",nc,",
+        "ids": ",nc75120701,us6000plfa,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 67,
         "dmin": 0.01198,
@@ -132,10 +212,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "south of the Fiji Islands",
+        "time": 1737465437352,
+        "updated": 1737473960040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000plf9",
+        "ids": ",us6000plf9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 3.163,
+        "rms": 0.75,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.2332,
+          -26.0985,
+          280.233
+        ]
+      },
+      "id": "us6000plf9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "133 km S of Unalaska, Alaska",
         "time": 1737460504853,
-        "updated": 1737468307334,
+        "updated": 1737475510554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plew",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plew.geojson",
@@ -208,6 +328,46 @@
         ]
       },
       "id": "nc75120631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "90 km W of Ternate, Indonesia",
+        "time": 1737458162010,
+        "updated": 1737475209040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plem",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plem.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000plem",
+        "ids": ",us6000plem,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 97,
+        "dmin": 0.799,
+        "rms": 0.64,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 90 km W of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.571,
+          0.8502,
+          48.425
+        ]
+      },
+      "id": "us6000plem"
     },
     {
       "type": "Feature",
@@ -295,17 +455,17 @@
         "mag": 3.46,
         "place": "26 km SSE of Boulder Town, Utah",
         "time": 1737456287050,
-        "updated": 1737472645860,
+        "updated": 1737476380144,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80099906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80099906.geojson",
-        "felt": 12,
+        "felt": 19,
         "cdi": 3.2,
         "mmi": 3.855,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 190,
         "net": "uu",
         "code": "80099906",
         "ids": ",uu80099906,us6000pleg,",
@@ -372,39 +532,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.11,
+        "mag": 2.71,
         "place": "10 km SW of Idyllwild, CA",
-        "time": 1737446123800,
-        "updated": 1737467199174,
+        "time": 1737446123730,
+        "updated": 1737476587510,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40844255",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40844255.geojson",
-        "felt": 69,
-        "cdi": 3.3,
+        "felt": 71,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 134,
         "net": "ci",
         "code": "40844255",
         "ids": ",ci40844255,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 112,
-        "dmin": 0.06503,
-        "rms": 0.22,
-        "gap": 11,
+        "nst": 122,
+        "dmin": 0.06479,
+        "rms": 0.21,
+        "gap": 17,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 10 km SW of Idyllwild, CA"
+        "title": "M 2.7 - 10 km SW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8026657,
-          33.6831665,
-          15.87
+          -116.8023333,
+          33.6826667,
+          16.61
         ]
       },
       "id": "ci40844255"
@@ -448,6 +608,46 @@
         ]
       },
       "id": "us6000pldv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "21 km S of Nongstoin, India",
+        "time": 1737443040665,
+        "updated": 1737475372821,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000plds",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000plds.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000plds",
+        "ids": ",us6000plds,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 43,
+        "dmin": 4.367,
+        "rms": 0.64,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 21 km S of Nongstoin, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.2535,
+          25.3204,
+          10
+        ]
+      },
+      "id": "us6000plds"
     },
     {
       "type": "Feature",
@@ -1055,11 +1255,11 @@
         "mag": 3.5100000000000002,
         "place": "9 km NE of Snoqualmie, Washington",
         "time": 1737408914670,
-        "updated": 1737471850904,
+        "updated": 1737476439476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62071396",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62071396.geojson",
-        "felt": 1223,
+        "felt": 1229,
         "cdi": 3.8,
         "mmi": 3.61,
         "alert": null,
@@ -1568,54 +1768,14 @@
         ]
       },
       "id": "us6000pl8l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "12 km N of Yujing, Taiwan",
-        "time": 1737389846031,
-        "updated": 1737468642966,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pl8h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pl8h.geojson",
-        "felt": 232,
-        "cdi": 8,
-        "mmi": 7.5,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 739,
-        "net": "us",
-        "code": "6000pl8h",
-        "ids": ",us6000pl8h,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 115,
-        "dmin": 0.157,
-        "rms": 1.07,
-        "gap": 25,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 12 km N of Yujing, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4749,
-          23.2338,
-          10
-        ]
-      },
-      "id": "us6000pl8h"
     }
   ],
   "bbox": [
-    -166.6143,
+    -178.2332,
     -28.2226,
     3.4500000476837,
     169.3777,
     61.6907,
-    264.049
+    280.233
   ]
 }
