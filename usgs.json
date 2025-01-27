@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1737976477000,
+    "generated": 1737981396000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 46
   },
   "features": [
     {
@@ -30,7 +30,7 @@
         "code": "02518u4ru0",
         "ids": ",ak02518u4ru0,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.37,
@@ -132,6 +132,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.9,
+        "place": "95 km NE of Lobuche, Nepal",
+        "time": 1737970418040,
+        "updated": 1737976515040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmj5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmj5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000pmj5",
+        "ids": ",us6000pmj5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 2.056,
+        "rms": 1.16,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 95 km NE of Lobuche, Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.4185,
+          28.6171,
+          10
+        ]
+      },
+      "id": "us6000pmj5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "21 km WNW of Susitna, Alaska",
         "time": 1737965111955,
@@ -175,17 +215,17 @@
         "mag": 4.7,
         "place": "39 km NNE of Āwash, Ethiopia",
         "time": 1737963507834,
-        "updated": 1737972476198,
+        "updated": 1737979006951,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmiy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmiy.geojson",
-        "felt": 15,
+        "felt": 17,
         "cdi": 4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 346,
+        "sig": 347,
         "net": "us",
         "code": "6000pmiy",
         "ids": ",us6000pmiy,",
@@ -215,17 +255,17 @@
         "mag": 5.1,
         "place": "24 km W of Port-Vila, Vanuatu",
         "time": 1737960903771,
-        "updated": 1737974806648,
+        "updated": 1737977808587,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmix",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmix.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 403,
+        "sig": 404,
         "net": "us",
         "code": "6000pmix",
         "ids": ",us6000pmix,",
@@ -1808,131 +1848,11 @@
         ]
       },
       "id": "us6000pmfn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.46,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1737891942860,
-        "updated": 1737896326746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75123251",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75123251.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "75123251",
-        "ids": ",nc75123251,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 71,
-        "dmin": 0.01054,
-        "rms": 0.09,
-        "gap": 22,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804832458496,
-          38.8004989624023,
-          3.59999990463257
-        ]
-      },
-      "id": "nc75123251"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "55 km NNW of Banff, Canada",
-        "time": 1737891586231,
-        "updated": 1737923082681,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmf8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmf8.geojson",
-        "felt": 3,
-        "cdi": 4.5,
-        "mmi": 4.109,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 273,
-        "net": "us",
-        "code": "6000pmf8",
-        "ids": ",us6000pmf8,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 107,
-        "dmin": 1.618,
-        "rms": 0.66,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 55 km NNW of Banff, Canada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.8196,
-          51.6453,
-          5.95
-        ]
-      },
-      "id": "us6000pmf8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "South Sandwich Islands region",
-        "time": 1737890643017,
-        "updated": 1737891794040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmf5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000pmf5",
-        "ids": ",us6000pmf5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 19.351,
-        "rms": 0.54,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -26.4695,
-          -59.5687,
-          115.248
-        ]
-      },
-      "id": "us6000pmf5"
     }
   ],
   "bbox": [
     -167.4349,
-    -59.5687,
+    -50.0592,
     1.28,
     172.2221,
     61.6161,
