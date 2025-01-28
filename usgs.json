@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738088683000,
+    "generated": 1738091649000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "5 km WSW of Four Mile Road, Alaska",
+        "time": 1738089985331,
+        "updated": 1738090091470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251am1flx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251am1flx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "0251am1flx",
+        "ids": ",ak0251am1flx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.84,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 5 km WSW of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2295,
+          64.5869,
+          0
+        ]
+      },
+      "id": "ak0251am1flx"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8900001,
         "place": "2 km SSW of Pāhala, Hawaii",
         "time": 1738087867560,
-        "updated": 1738088521299,
+        "updated": 1738089128182,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74603512",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74603512.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -55,12 +95,12 @@
         "mag": 2.7,
         "place": "8 km WNW of Cobb, CA",
         "time": 1738087308200,
-        "updated": 1738088538318,
+        "updated": 1738090297253,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75124666",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75124666.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "75124666",
         "ids": ",nc75124666,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 61,
         "dmin": 0.01035,
         "rms": 0.06,
@@ -135,11 +175,11 @@
         "mag": 4.9,
         "place": "37 km WSW of Villa Basilio Nievas, Argentina",
         "time": 1738083077576,
-        "updated": 1738087263927,
+        "updated": 1738090324101,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9n5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9n5.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -248,6 +288,46 @@
         ]
       },
       "id": "us6000pmsr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "52 km NE of Illapel, Chile",
+        "time": 1738073781684,
+        "updated": 1738090597040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmsi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmsi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000pmsi",
+        "ids": ",us6000pmsi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.273,
+        "rms": 0.64,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 52 km NE of Illapel, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7301,
+          -31.3488,
+          106.04
+        ]
+      },
+      "id": "us6000pmsi"
     },
     {
       "type": "Feature",
@@ -575,17 +655,17 @@
         "mag": 5.1,
         "place": "15 km SSW of Pahiatua, New Zealand",
         "time": 1738059993262,
-        "updated": 1738088603831,
+        "updated": 1738091277142,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmru",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmru.geojson",
-        "felt": 40,
-        "cdi": 5.4,
+        "felt": 45,
+        "cdi": 5,
         "mmi": 4.844,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 422,
+        "sig": 423,
         "net": "us",
         "code": "6000pmru",
         "ids": ",us6000pmru,",
@@ -935,7 +1015,7 @@
         "mag": 5,
         "place": "60 km SSW of Paracas, Peru",
         "time": 1738040968200,
-        "updated": 1738081430346,
+        "updated": 1738089703040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmqh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmqh.geojson",
@@ -950,7 +1030,7 @@
         "code": "6000pmqh",
         "ids": ",us6000pmqh,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 54,
         "dmin": 2.43,
         "rms": 1.01,
@@ -1132,10 +1212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.51,
-        "place": "6 km NNE of Round Valley, CA",
-        "time": 1738027537700,
-        "updated": 1738088345085,
+        "mag": 2.55,
+        "place": "8 km NE of Round Valley, CA",
+        "time": 1738027537740,
+        "updated": 1738090037489,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75124261",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75124261.geojson",
@@ -1143,28 +1223,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 100,
         "net": "nc",
         "code": "75124261",
         "ids": ",nc75124261,nn00892621,",
         "sources": ",nc,nn,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.1143,
-        "rms": 0.05,
-        "gap": 174,
+        "nst": 36,
+        "dmin": 0.1151,
+        "rms": 0.1,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.5 - 6 km NNE of Round Valley, CA"
+        "title": "M 2.6 - 8 km NE of Round Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.570335388184,
-          37.4674987792969,
-          12.75
+          -118.56,
+          37.4798333333333,
+          10.38
         ]
       },
       "id": "nc75124261"
@@ -1688,54 +1768,14 @@
         ]
       },
       "id": "us6000pmmf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands region",
-        "time": 1738004461146,
-        "updated": 1738005634040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pmm9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pmm9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000pmm9",
-        "ids": ",us6000pmm9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.074,
-        "rms": 0.7,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1546,
-          -31.3327,
-          35
-        ]
-      },
-      "id": "us6000pmm9"
     }
   ],
   "bbox": [
     -178.65,
     -41.1967,
-    1.789999961853,
+    0,
     175.7885,
-    60.1108,
+    64.5869,
     591.679
   ]
 }
