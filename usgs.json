@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738170970000,
+    "generated": 1738175112000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 30
   },
   "features": [
     {
@@ -55,13 +55,13 @@
         "mag": 4.2,
         "place": "107 km S of False Pass, Alaska",
         "time": 1738167543527,
-        "updated": 1738169430040,
+        "updated": 1738173575562,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9vt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9vt.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.326,
+        "mmi": 2.182,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -92,14 +92,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "74 km SE of Atka, Alaska",
+        "time": 1738159736637,
+        "updated": 1738173210181,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251c6z2bk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251c6z2bk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.66,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "0251c6z2bk",
+        "ids": ",ak0251c6z2bk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 74 km SE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.5148,
+          51.6801,
+          26.3
+        ]
+      },
+      "id": "ak0251c6z2bk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "230 km SW of Tofino, Canada",
         "time": 1738158816056,
-        "updated": 1738166622247,
+        "updated": 1738173825880,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9ue",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9ue.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -412,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "47 km E of Fort Bidwell, California",
-        "time": 1738144363200,
-        "updated": 1738170463219,
+        "mag": 2.9,
+        "place": "48 km E of Fort Bidwell, California",
+        "time": 1738144363509,
+        "updated": 1738171016119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00892685",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00892685.geojson",
@@ -425,26 +465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "nn",
         "code": "00892685",
         "ids": ",us7000p9td,nn00892685,",
         "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.534,
-        "rms": 0.0764,
-        "gap": 120.97,
+        "nst": 5,
+        "dmin": 0.542,
+        "rms": 0.1339,
+        "gap": 121.80999999999999,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 47 km E of Fort Bidwell, California"
+        "title": "M 2.9 - 48 km E of Fort Bidwell, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5861,
-          41.9252,
-          2.9
+          -119.5758,
+          41.9176,
+          2.4
         ]
       },
       "id": "nn00892685"
@@ -528,6 +568,46 @@
         ]
       },
       "id": "ak0251c3o4bx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "17 km NNE of Stanley, Idaho",
+        "time": 1738126433690,
+        "updated": 1738174223170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90071863",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90071863.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "mb",
+        "code": "90071863",
+        "ids": ",mb90071863,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.245,
+        "rms": 0.25,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 17 km NNE of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.831166666667,
+          44.351,
+          4.83
+        ]
+      },
+      "id": "mb90071863"
     },
     {
       "type": "Feature",
@@ -1128,174 +1208,14 @@
         ]
       },
       "id": "ak0251am1flx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "2 km SW of Pāhala, Hawaii",
-        "time": 1738087867580,
-        "updated": 1738144736261,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74603512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74603512.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "hv",
-        "code": "74603512",
-        "ids": ",hv74603512,us7000p9ne,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.04101,
-        "rms": 0.11,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 2 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.49,
-          19.187,
-          33.13
-        ]
-      },
-      "id": "hv74603512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Mariana Islands region",
-        "time": 1738087429350,
-        "updated": 1738098818040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9nd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9nd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000p9nd",
-        "ids": ",us7000p9nd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 112,
-        "dmin": 5.566,
-        "rms": 0.73,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Mariana Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.0837,
-          21.5659,
-          305.392
-        ]
-      },
-      "id": "us7000p9nd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1738087308210,
-        "updated": 1738129838579,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75124666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75124666.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "nc",
-        "code": "75124666",
-        "ids": ",nc75124666,us7000p9nb,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 97,
-        "dmin": 0.01035,
-        "rms": 0.05,
-        "gap": 24,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813833333333,
-          38.8333333333333,
-          2.05
-        ]
-      },
-      "id": "nc75124666"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "53 km NE of Fannūj, Iran",
-        "time": 1738085510459,
-        "updated": 1738093766040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000p9n9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000p9n9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000p9n9",
-        "ids": ",us7000p9n9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.945,
-        "rms": 0.57,
-        "gap": 197,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 53 km NE of Fannūj, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          59.9809,
-          26.9547,
-          10
-        ]
-      },
-      "id": "us7000p9n9"
     }
   ],
   "bbox": [
     -174.0233,
     -53.4247,
     0,
-    143.0837,
+    130.6186,
     64.5869,
-    305.392
+    165.232
   ]
 }
