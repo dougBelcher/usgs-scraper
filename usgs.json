@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738311726000,
+    "generated": 1738315081000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 23
+    "count": 22
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.57,
         "place": "15 km WSW of Toms Place, CA",
         "time": 1738308032480,
-        "updated": 1738310835956,
+        "updated": 1738313044838,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75126201",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75126201.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.9,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "75126201",
         "ids": ",nc75126201,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 27,
         "dmin": 0.1167,
         "rms": 0.05,
@@ -888,46 +888,6 @@
         ]
       },
       "id": "us7000pa0i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "51 km SW of Lake Minchumina, Alaska",
-        "time": 1738226437329,
-        "updated": 1738226623263,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251dr4ja6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251dr4ja6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "0251dr4ja6",
-        "ids": ",ak0251dr4ja6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.8,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 51 km SW of Lake Minchumina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.9314,
-          63.5148,
-          2.8
-        ]
-      },
-      "id": "ak0251dr4ja6"
     }
   ],
   "bbox": [
@@ -935,7 +895,7 @@
     -38.6399,
     0,
     176.0484,
-    63.5148,
+    62.8771,
     442.985
   ]
 }
