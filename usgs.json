@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738401453000,
+    "generated": 1738405036000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "110 km S of Houghton Bay, New Zealand",
+        "time": 1738402000527,
+        "updated": 1738404358260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000palm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000palm.geojson",
+        "felt": 8,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 342,
+        "net": "us",
+        "code": "7000palm",
+        "ids": ",us7000palm,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.036,
+        "rms": 0.79,
+        "gap": 101,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.7 - 110 km S of Houghton Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9435,
+          -42.3298,
+          10
+        ]
+      },
+      "id": "us7000palm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1128,51 +1168,11 @@
         ]
       },
       "id": "us7000pa98"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.65,
-        "place": "88 km N of Culebra, Puerto Rico",
-        "time": 1738316958790,
-        "updated": 1738319777205,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025031002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025031002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 205,
-        "net": "pr",
-        "code": "2025031002",
-        "ids": ",pr2025031002,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.7914,
-        "rms": 0.29,
-        "gap": 301,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 88 km N of Culebra, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2365,
-          19.0976,
-          27
-        ]
-      },
-      "id": "pr2025031002"
     }
   ],
   "bbox": [
     -177.4585,
-    -30.8906,
+    -42.3298,
     -0.86000001430511,
     179.8119,
     58.4603,
