@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738413115000,
+    "generated": 1738415857000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1738413805136,
+        "updated": 1738414947040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pamj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pamj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000pamj",
+        "ids": ",us7000pamj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.682,
+        "rms": 1.31,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.393,
+          -23.1732,
+          10
+        ]
+      },
+      "id": "us7000pamj"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "74 km NNE of Petersville, Alaska",
         "time": 1738412969068,
-        "updated": 1738413098861,
+        "updated": 1738413734040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251h4il2i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251h4il2i.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0251h4il2i",
-        "ids": ",ak0251h4il2i,",
-        "sources": ",ak,",
+        "ids": ",us7000pame,ak0251h4il2i,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -48,6 +88,126 @@
         ]
       },
       "id": "ak0251h4il2i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "87 km SW of Unalaska, Alaska",
+        "time": 1738412149450,
+        "updated": 1738415548040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pamb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pamb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.762,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pamb",
+        "ids": ",us7000pamb,ak0251h4fmp0,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 81,
+        "dmin": 0.34,
+        "rms": 1.22,
+        "gap": 152,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 87 km SW of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.3898,
+          53.2768,
+          75.148
+        ]
+      },
+      "id": "us7000pamb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "19 km NNE of Carrizales, Puerto Rico",
+        "time": 1738411844340,
+        "updated": 1738414107110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71471968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71471968.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "71471968",
+        "ids": ",pr71471968,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1747,
+        "rms": 0.2,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 19 km NNE of Carrizales, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7316666666667,
+          18.6463333333333,
+          16.17
+        ]
+      },
+      "id": "pr71471968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "67 km N of Culebra, Puerto Rico",
+        "time": 1738409727310,
+        "updated": 1738414784750,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71471948",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71471948.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "pr",
+        "code": "71471948",
+        "ids": ",pr71471948,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.6801,
+        "rms": 0.41,
+        "gap": 256,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 67 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3751666666667,
+          18.9075,
+          45.16
+        ]
+      },
+      "id": "pr71471948"
     },
     {
       "type": "Feature",
@@ -135,11 +295,11 @@
         "mag": 5.1,
         "place": "36 km W of Archidona, Ecuador",
         "time": 1738407950805,
-        "updated": 1738411416690,
+        "updated": 1738415625887,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000palx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000palx.geojson",
-        "felt": 5,
+        "felt": 6,
         "cdi": 4.8,
         "mmi": null,
         "alert": null,
