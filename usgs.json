@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1738823189000,
+    "generated": 1738826234000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 56
+    "count": 55
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "52 km SE of Calana, Peru",
+        "time": 1738821779817,
+        "updated": 1738826126040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbrv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbrv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000pbrv",
+        "ids": ",us7000pbrv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.537,
+        "rms": 0.97,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 52 km SE of Calana, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.7944,
+          -18.2376,
+          119.107
+        ]
+      },
+      "id": "us7000pbrv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1175,17 +1215,17 @@
         "mag": 5.1,
         "place": "30 km NE of Oía, Greece",
         "time": 1738782578761,
-        "updated": 1738822584885,
+        "updated": 1738823416953,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbmp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbmp.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 7.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 406,
+        "sig": 407,
         "net": "us",
         "code": "7000pbmp",
         "ids": ",us7000pbmp,",
@@ -2168,86 +2208,6 @@
         ]
       },
       "id": "us7000pbfr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "51 km SW of Nueva Concepción, Guatemala",
-        "time": 1738738878500,
-        "updated": 1738801491291,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pbfb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pbfb.geojson",
-        "felt": 160,
-        "cdi": 5.8,
-        "mmi": 4.486,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 575,
-        "net": "us",
-        "code": "7000pbfb",
-        "ids": ",us7000pbfb,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 78,
-        "dmin": 0.736,
-        "rms": 1.33,
-        "gap": 79,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 51 km SW of Nueva Concepción, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.5748,
-          13.8202,
-          57.548
-        ]
-      },
-      "id": "us7000pbfb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "9 km SW of Hope, Alaska",
-        "time": 1738738348275,
-        "updated": 1738744353055,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0251nn8atn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0251nn8atn.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "ak",
-        "code": "0251nn8atn",
-        "ids": ",ak0251nn8atn,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.35,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km SW of Hope, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7577,
-          60.8603,
-          33.1
-        ]
-      },
-      "id": "ak0251nn8atn"
     }
   ],
   "bbox": [
