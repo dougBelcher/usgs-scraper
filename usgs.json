@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1739882152000,
+    "generated": 1739885020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "51 km SSW of Whites City, New Mexico",
-        "time": 1739880987559,
-        "updated": 1739882110040,
+        "mag": 2.49,
+        "place": "6 km N of Bay Point, CA",
+        "time": 1739884719500,
+        "updated": 1739884820640,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000peh7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000peh7.geojson",
-        "felt": 24,
-        "cdi": 5,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75135682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75135682.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 296,
-        "net": "us",
-        "code": "7000peh7",
-        "ids": ",us7000peh7,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 89,
-        "dmin": 0.096,
-        "rms": 0.99,
-        "gap": 66,
-        "magType": "mwr",
+        "sig": 95,
+        "net": "nc",
+        "code": "75135682",
+        "ids": ",nc75135682,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.7625,
+        "rms": 0.38,
+        "gap": 173,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.3 - 51 km SSW of Whites City, New Mexico"
+        "title": "M 2.5 - 6 km N of Bay Point, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.5722,
-          31.7437,
-          8
+          -121.963668823242,
+          38.0856666564941,
+          12.1599998474121
         ]
       },
-      "id": "us7000peh7"
+      "id": "nc75135682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.05,
+        "place": "58 km ESE of Maneadero, B.C., MX",
+        "time": 1739883403380,
+        "updated": 1739884298934,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40188098",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40188098.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "ci",
+        "code": "40188098",
+        "ids": ",ci40188098,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.2636,
+        "rms": 0.16,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 58 km ESE of Maneadero, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.9716644,
+          31.6013336,
+          6.71
+        ]
+      },
+      "id": "ci40188098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "51 km S of Whites City, New Mexico",
+        "time": 1739880988855,
+        "updated": 1739884895889,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025dkql",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025dkql.geojson",
+        "felt": 53,
+        "cdi": 5,
+        "mmi": 4.545,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 352,
+        "net": "tx",
+        "code": "2025dkql",
+        "ids": ",us7000peh7,tx2025dkql,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 51 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.474,
+          31.722,
+          6.51
+        ]
+      },
+      "id": "tx2025dkql"
     },
     {
       "type": "Feature",
@@ -135,12 +215,12 @@
         "mag": 3.4,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1739869088350,
-        "updated": 1739881896903,
+        "updated": 1739882215576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025dkjx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025dkjx.geojson",
         "felt": 1,
-        "cdi": 2.7,
+        "cdi": 3.4,
         "mmi": 3.549,
         "alert": null,
         "status": "reviewed",
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us7000pe8k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "283 km SE of Kushimoto, Japan",
-        "time": 1739798327288,
-        "updated": 1739799925040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pe8i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pe8i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000pe8i",
-        "ids": ",us7000pe8i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 1.92,
-        "rms": 0.71,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 283 km SE of Kushimoto, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.109,
-          31.8421,
-          353.279
-        ]
-      },
-      "id": "us7000pe8i"
     }
   ],
   "bbox": [
