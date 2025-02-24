@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1740435445000,
+    "generated": 1740439067000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 36
   },
   "features": [
     {
@@ -95,13 +95,13 @@
         "mag": 5.4,
         "place": "239 km SW of George Town, Cayman Islands",
         "time": 1740427717924,
-        "updated": 1740433225019,
+        "updated": 1740436230911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pv78",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pv78.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2,
-        "mmi": 2.883,
+        "mmi": 2.881,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "us6000pv6y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "278 km W of Adak, Alaska",
+        "time": 1740423268127,
+        "updated": 1740438962757,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252j9lixj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252j9lixj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "0252j9lixj",
+        "ids": ",ak0252j9lixj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 278 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.3856,
+          51.4937,
+          61.6
+        ]
+      },
+      "id": "ak0252j9lixj"
     },
     {
       "type": "Feature",
@@ -1015,11 +1055,11 @@
         "mag": 3.3,
         "place": "16 km W of Kailua-Kona, Hawaii",
         "time": 1740382281210,
-        "updated": 1740424498160,
+        "updated": 1740437873619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74622247",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74622247.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1408,93 +1448,13 @@
         ]
       },
       "id": "pr71473388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "149 km SSW of San Pedro de Atacama, Chile",
-        "time": 1740352053762,
-        "updated": 1740368836040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pfpf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pfpf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000pfpf",
-        "ids": ",us7000pfpf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.229,
-        "rms": 0.73,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 149 km SSW of San Pedro de Atacama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9629,
-          -24.0689,
-          110.982
-        ]
-      },
-      "id": "us7000pfpf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "126 km W of Panguna, Papua New Guinea",
-        "time": 1740351010295,
-        "updated": 1740364758040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pfpb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pfpb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000pfpb",
-        "ids": ",us7000pfpb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 3.142,
-        "rms": 0.98,
-        "gap": 29,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 126 km W of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          154.3552,
-          -6.4666,
-          10
-        ]
-      },
-      "id": "us7000pfpb"
     }
   ],
   "bbox": [
     -179.7657,
     -45.6522,
     0.87000000476837,
-    154.3552,
+    179.3856,
     65.1302,
     602.909
   ]
