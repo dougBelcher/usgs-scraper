@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1740604641000,
+    "generated": 1740608265000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "39 km S of Iztapa, Guatemala",
+        "time": 1740604362412,
+        "updated": 1740607716040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pvpg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pvpg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000pvpg",
+        "ids": ",us6000pvpg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.926,
+        "rms": 0.64,
+        "gap": 178,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 39 km S of Iztapa, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6745,
+          13.5821,
+          60.308
+        ]
+      },
+      "id": "us6000pvpg"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.3,
         "place": "17 km SSE of Khārupatia, India",
         "time": 1740603337225,
-        "updated": 1740604366739,
+        "updated": 1740607504071,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pvpc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pvpc.geojson",
-        "felt": 9,
-        "cdi": 4.8,
+        "felt": 89,
+        "cdi": 5.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 436,
+        "sig": 483,
         "net": "us",
         "code": "6000pvpc",
         "ids": ",us6000pvpc,",
@@ -88,6 +128,46 @@
         ]
       },
       "id": "ak0252mlquhv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "279 km SSW of Nikolski, Alaska",
+        "time": 1740601856351,
+        "updated": 1740605324813,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252mlq5xs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252mlq5xs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0252mlq5xs",
+        "ids": ",ak0252mlq5xs,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 279 km SSW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.3617,
+          50.6054,
+          11.8
+        ]
+      },
+      "id": "ak0252mlq5xs"
     },
     {
       "type": "Feature",
@@ -935,12 +1015,12 @@
         "mag": 2.48,
         "place": "14 km S of Tres Pinos, CA",
         "time": 1740556866960,
-        "updated": 1740566235108,
+        "updated": 1740606198677,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75139306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75139306.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1608,46 +1688,6 @@
         ]
       },
       "id": "us6000pvgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "21 km WSW of Falls City, Texas",
-        "time": 1740519310937,
-        "updated": 1740583526785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025dydk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025dydk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2025dydk",
-        "ids": ",tx2025dydk,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 21 km WSW of Falls City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.217,
-          28.91,
-          7.7881
-        ]
-      },
-      "id": "tx2025dydk"
     }
   ],
   "bbox": [
