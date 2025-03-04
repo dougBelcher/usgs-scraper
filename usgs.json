@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741101659000,
+    "generated": 1741105523000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "2 km ESE of Casano-Dogana-Isola, Italy",
+        "time": 1741100413154,
+        "updated": 1741104648728,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwt2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwt2.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000pwt2",
+        "ids": ",us6000pwt2,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.466,
+        "rms": 0.43,
+        "gap": 163,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km ESE of Casano-Dogana-Isola, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0618,
+          44.0637,
+          10
+        ]
+      },
+      "id": "us6000pwt2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.1,
         "place": "9 km N of Chignik Lake, Alaska",
         "time": 1741096769445,
-        "updated": 1741098105549,
+        "updated": 1741105159040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252wey7hs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252wey7hs.geojson",
@@ -28,8 +68,8 @@
         "sig": 148,
         "net": "ak",
         "code": "0252wey7hs",
-        "ids": ",ak0252wey7hs,",
-        "sources": ",ak,",
+        "ids": ",ak0252wey7hs,us6000pwss,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -55,7 +95,7 @@
         "mag": 3.63,
         "place": "106 km NNE of Punta Cana, Dominican Republic",
         "time": 1741094326410,
-        "updated": 1741096325357,
+        "updated": 1741103745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025063000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025063000.geojson",
@@ -68,8 +108,8 @@
         "sig": 203,
         "net": "pr",
         "code": "2025063000",
-        "ids": ",pr2025063000,",
-        "sources": ",pr,",
+        "ids": ",us6000pwsp,pr2025063000,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 15,
         "dmin": 1.0184,
@@ -95,12 +135,12 @@
         "mag": 2.67,
         "place": "4 km W of San Juan Bautista, CA",
         "time": 1741083659020,
-        "updated": 1741095738321,
+        "updated": 1741102003901,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75142601",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75142601.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -110,7 +150,7 @@
         "code": "75142601",
         "ids": ",nc75142601,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 63,
         "dmin": 0.03794,
         "rms": 0.21,
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "nc75142171"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "178 km ESE of Yigo Village, Guam",
-        "time": 1741016436592,
-        "updated": 1741081842193,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwn3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwn3.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000pwn3",
-        "ids": ",us6000pwn3,",
-        "sources": ",us,",
-        "types": ",dyfi,oaf,origin,phase-data,",
-        "nst": 78,
-        "dmin": 1.647,
-        "rms": 0.75,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 178 km ESE of Yigo Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.2783,
-          12.6746,
-          10
-        ]
-      },
-      "id": "us6000pwn3"
     }
   ],
   "bbox": [
