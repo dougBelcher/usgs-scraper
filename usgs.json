@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741245589000,
+    "generated": 1741249519000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "13 km S of Bertsch-Oceanview, CA",
+        "time": 1741248861210,
+        "updated": 1741249338181,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75143741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75143741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "nc",
+        "code": "75143741",
+        "ids": ",nc75143741,uw62079491,",
+        "sources": ",nc,uw,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.09046,
+        "rms": 0.08,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km S of Bertsch-Oceanview, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.123497009277,
+          41.6391677856445,
+          8.47999954223633
+        ]
+      },
+      "id": "nc75143741"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,6 +172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.6,
+        "place": "51 km SW of Adak, Alaska",
+        "time": 1741228099064,
+        "updated": 1741248849131,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0252zjah2f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0252zjah2f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.997,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "ak",
+        "code": "0252zjah2f",
+        "ids": ",ak0252zjah2f,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.34,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 51 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.1669,
+          51.5564,
+          44.5
+        ]
+      },
+      "id": "ak0252zjah2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.2,
         "place": "35 km NE of Calama, Chile",
         "time": 1741226347855,
@@ -215,17 +295,17 @@
         "mag": 3.89,
         "place": "14 km SW of Blyn, Washington",
         "time": 1741220304040,
-        "updated": 1741245194036,
+        "updated": 1741248502760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62079456",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62079456.geojson",
-        "felt": 377,
+        "felt": 379,
         "cdi": 3.8,
-        "mmi": 2.891,
+        "mmi": 2.943,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 376,
+        "sig": 377,
         "net": "uw",
         "code": "62079456",
         "ids": ",uw62079456,us6000px4m,ew1741220310,",
@@ -1208,46 +1288,6 @@
         ]
       },
       "id": "ak0252xzhyoc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "42 km N of Pucallpa, Peru",
-        "time": 1741160197951,
-        "updated": 1741162815040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pwzz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pwzz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000pwzz",
-        "ids": ",us6000pwzz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.816,
-        "rms": 1.03,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 42 km N of Pucallpa, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.5178,
-          -8.0001,
-          161.576
-        ]
-      },
-      "id": "us6000pwzz"
     }
   ],
   "bbox": [
