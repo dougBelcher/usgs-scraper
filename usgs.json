@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741869527000,
+    "generated": 1741872420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "4 km NW of Quebradillas, Puerto Rico",
+        "time": 1741869502480,
+        "updated": 1741871580730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475728",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475728.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "pr",
+        "code": "71475728",
+        "ids": ",pr71475728,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1408,
+        "rms": 0.17,
+        "gap": 196,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 4 km NW of Quebradillas, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9671666666667,
+          18.5015,
+          86.48
+        ]
+      },
+      "id": "pr71475728"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +135,17 @@
         "mag": 4,
         "place": "55 km E of Teller, Alaska",
         "time": 1741858449207,
-        "updated": 1741860308684,
+        "updated": 1741872067346,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253b89ez8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253b89ez8.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": 4.168,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 247,
+        "sig": 248,
         "net": "ak",
         "code": "0253b89ez8",
         "ids": ",ak0253b89ez8,us6000pyjg,",
@@ -293,9 +333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "37 km WSW of Ackerly, Texas",
-        "time": 1741855299846,
-        "updated": 1741856222396,
+        "place": "36 km SSW of Los Ybanez, Texas",
+        "time": 1741855300632,
+        "updated": 1741871485834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025fajy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025fajy.geojson",
@@ -303,28 +343,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "tx",
         "code": "2025fajy",
-        "ids": ",tx2025fajy,",
-        "sources": ",tx,",
+        "ids": ",us6000pyj4,tx2025fajy,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 78,
+        "nst": 18,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 54,
+        "rms": 0.1,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 37 km WSW of Ackerly, Texas"
+        "title": "M 2.5 - 36 km SSW of Los Ybanez, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.087,
-          32.411,
-          5.6827
+          -102.088,
+          32.419,
+          7.0801
         ]
       },
       "id": "tx2025fajy"
@@ -1768,46 +1808,6 @@
         ]
       },
       "id": "ak02539nofyi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "268 km ENE of Lospalos, Timor Leste",
-        "time": 1741783892226,
-        "updated": 1741784850040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyb2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyb2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000pyb2",
-        "ids": ",us6000pyb2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 2.794,
-        "rms": 0.78,
-        "gap": 68,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - 268 km ENE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0364,
-          -7.197,
-          133.467
-        ]
-      },
-      "id": "us6000pyb2"
     }
   ],
   "bbox": [
