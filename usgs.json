@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741983621000,
+    "generated": 1741987064000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 4,
         "place": "10 km N of Sannicandro Garganico, Italy",
         "time": 1741982410579,
-        "updated": 1741983218040,
+        "updated": 1741985590773,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyx0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyx0.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000pyx0",
         "ids": ",us6000pyx0,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": 0.229,
         "rms": 0.6,
@@ -55,17 +55,17 @@
         "mag": 5,
         "place": "15 km NNE of Lesina, Italy",
         "time": 1741981035678,
-        "updated": 1741983301202,
+        "updated": 1741985893676,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pywp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pywp.geojson",
-        "felt": 3,
+        "felt": 6,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 387,
         "net": "us",
         "code": "6000pywp",
         "ids": ",us6000pywp,",
@@ -932,6 +932,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "58 km NNE of Pototano, Indonesia",
+        "time": 1741921629085,
+        "updated": 1741986238040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pys3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pys3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000pys3",
+        "ids": ",us6000pys3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.904,
+        "rms": 0.76,
+        "gap": 70,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 58 km NNE of Pototano, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.673,
+          -7.9232,
+          10
+        ]
+      },
+      "id": "us6000pys3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "143 km E of Chiniak, Alaska",
         "time": 1741917397932,
@@ -1368,46 +1408,6 @@
         ]
       },
       "id": "us6000pyp3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "4 km S of Dolores, Philippines",
-        "time": 1741897547394,
-        "updated": 1741909510329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pynw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pynw.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000pynw",
-        "ids": ",us6000pynw,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 70,
-        "dmin": 5.191,
-        "rms": 0.89,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 4 km S of Dolores, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.716,
-          17.6112,
-          10
-        ]
-      },
-      "id": "us6000pynw"
     }
   ],
   "bbox": [
