@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742182441000,
+    "generated": 1742185402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.86,
+        "place": "3 km SE of Pleasant Hill, CA",
+        "time": 1742185152770,
+        "updated": 1742185247959,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149901",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149901.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "nc",
+        "code": "75149901",
+        "ids": ",nc75149901,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.09025,
+        "rms": 0.06,
+        "gap": 139,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km SE of Pleasant Hill, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.032836914062,
+          37.9375,
+          16.9200000762939
+        ]
+      },
+      "id": "nc75149901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "116 km N of San Juan, Puerto Rico",
+        "time": 1742183306790,
+        "updated": 1742184827830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71476208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71476208.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "pr",
+        "code": "71476208",
+        "ids": ",pr71476208,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.199,
+        "rms": 0.24,
+        "gap": 297,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 116 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9136666666667,
+          19.5036666666667,
+          30.14
+        ]
+      },
+      "id": "pr71476208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "68 km SSW of Kaktovik, Alaska",
+        "time": 1742182197758,
+        "updated": 1742182937346,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253hqt0kf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253hqt0kf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0253hqt0kf",
+        "ids": ",ak0253hqt0kf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 68 km SSW of Kaktovik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.3272,
+          69.5687,
+          11.1
+        ]
+      },
+      "id": "ak0253hqt0kf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,25 +172,25 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.91,
+        "mag": 3.87,
         "place": "10 km NW of Malibu, CA",
         "time": 1742181441640,
-        "updated": 1742182411925,
+        "updated": 1742185319021,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41081408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41081408.geojson",
-        "felt": 1755,
-        "cdi": 3.8,
-        "mmi": 3.704,
+        "felt": 2943,
+        "cdi": 4.2,
+        "mmi": 4.067,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 615,
+        "sig": 650,
         "net": "ci",
         "code": "41081408",
         "ids": ",ew1742181440,ci41081408,us6000pz98,",
         "sources": ",ew,ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 112,
         "dmin": 0.06296,
         "rms": 0.3,
@@ -88,6 +208,46 @@
         ]
       },
       "id": "ci41081408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "276 km SW of Severo-Kuril’sk, Russia",
+        "time": 1742180233373,
+        "updated": 1742182633040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pz96",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pz96.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000pz96",
+        "ids": ",us6000pz96,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 4.913,
+        "rms": 0.53,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 276 km SW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0881,
+          49.1488,
+          168.282
+        ]
+      },
+      "id": "us6000pz96"
     },
     {
       "type": "Feature",
@@ -135,17 +295,17 @@
         "mag": 4.18,
         "place": "10 km NNE of Lake Pillsbury, CA",
         "time": 1742177625000,
-        "updated": 1742181999589,
+        "updated": 1742184737459,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149826",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149826.geojson",
-        "felt": 41,
+        "felt": 44,
         "cdi": 3.2,
         "mmi": 3.984,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 282,
+        "sig": 283,
         "net": "nc",
         "code": "75149826",
         "ids": ",ew1742177630,nc75149826,us6000pz8y,",
@@ -1288,46 +1448,6 @@
         ]
       },
       "id": "us6000pz4s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "145 km N of Ruteng, Indonesia",
-        "time": 1742096683115,
-        "updated": 1742097855040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pz4c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pz4c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000pz4c",
-        "ids": ",us6000pz4c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 92,
-        "dmin": 2.208,
-        "rms": 0.91,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 145 km N of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4575,
-          -7.2981,
-          418.49
-        ]
-      },
-      "id": "us6000pz4c"
     }
   ],
   "bbox": [
@@ -1335,7 +1455,7 @@
     -36.9907,
     -3.4,
     179.9095,
-    61.8158,
+    69.5687,
     613.026
   ]
 }
