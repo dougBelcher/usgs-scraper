@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742415649000,
+    "generated": 1742419109000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 34
   },
   "features": [
     {
@@ -215,17 +215,17 @@
         "mag": 3.6,
         "place": "14 km W of Rivière-Rouge, Canada",
         "time": 1742399841377,
-        "updated": 1742415638130,
+        "updated": 1742418768836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pzsu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pzsu.geojson",
-        "felt": 101,
+        "felt": 105,
         "cdi": 5,
         "mmi": 3.945,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 250,
+        "sig": 252,
         "net": "us",
         "code": "6000pzsu",
         "ids": ",us6000pzsu,",
@@ -655,7 +655,7 @@
         "mag": 5,
         "place": "86 km SSE of Adak, Alaska",
         "time": 1742371990645,
-        "updated": 1742408568040,
+        "updated": 1742415798170,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pzqc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pzqc.geojson",
@@ -1172,6 +1172,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.49,
+        "place": "15 km N of Ocotillo Wells, CA",
+        "time": 1742337791080,
+        "updated": 1742418301230,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41082928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41082928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "ci",
+        "code": "41082928",
+        "ids": ",ci41082928,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 79,
+        "dmin": 0.1247,
+        "rms": 0.21,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km N of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1316667,
+          33.277,
+          3.43
+        ]
+      },
+      "id": "ci41082928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "91 km SW of Jiquilillo, Nicaragua",
         "time": 1742335821807,
@@ -1328,92 +1368,12 @@
         ]
       },
       "id": "us6000pzn6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "13 km SSE of Coquimbo, Chile",
-        "time": 1742332668683,
-        "updated": 1742341445185,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pzn5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pzn5.geojson",
-        "felt": 17,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 440,
-        "net": "us",
-        "code": "6000pzn5",
-        "ids": ",us6000pzn5,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 128,
-        "dmin": 0.155,
-        "rms": 0.86,
-        "gap": 64,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 13 km SSE of Coquimbo, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.294,
-          -30.066,
-          67.875
-        ]
-      },
-      "id": "us6000pzn5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "94 km WNW of Vinchina, Argentina",
-        "time": 1742329538019,
-        "updated": 1742332114040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pzn1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pzn1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000pzn1",
-        "ids": ",us6000pzn1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 100,
-        "dmin": 1.532,
-        "rms": 0.82,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 94 km WNW of Vinchina, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.0833,
-          -28.401,
-          92.321
-        ]
-      },
-      "id": "us6000pzn1"
     }
   ],
   "bbox": [
     -179.8916,
     -60.4701,
-    6.0999999046326,
+    3.43,
     164.761,
     58.1765,
     558.864
