@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742560667000,
+    "generated": 1742563576000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "6 km ESE of Amber, Oklahoma",
+        "time": 1742563430966,
+        "updated": 1742563680825,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025fpjg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025fpjg.geojson",
+        "felt": 1,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "ok",
+        "code": "2025fpjg",
+        "ids": ",ok2025fpjg,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.05101717636,
+        "rms": 0.8977023453,
+        "gap": 83.8936615,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 6 km ESE of Amber, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.81439209,
+          35.13368988,
+          2.92202425
+        ]
+      },
+      "id": "ok2025fpjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "31 km S of Scenic, Arizona",
+        "time": 1742559304901,
+        "updated": 1742562013040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plkx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plkx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "7000plkx",
+        "ids": ",us7000plkx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.771,
+        "rms": 0.73,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 31 km S of Scenic, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9766,
+          36.5126,
+          10
+        ]
+      },
+      "id": "us7000plkx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1255,7 +1335,7 @@
         "mag": 5.5,
         "place": "Mid-Indian Ridge",
         "time": 1742504409168,
-        "updated": 1742513041822,
+        "updated": 1742561115040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plf7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plf7.geojson",
@@ -1270,7 +1350,7 @@
         "code": "7000plf7",
         "ids": ",us7000plf7,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 77,
         "dmin": 4.493,
         "rms": 0.75,
@@ -1332,50 +1412,90 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "104 km SSE of Adak, Alaska",
-        "time": 1742502514650,
-        "updated": 1742531383580,
+        "mag": 3.9,
+        "place": "100 km SSE of Adak, Alaska",
+        "time": 1742502515800,
+        "updated": 1742561088040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253mzj64g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253mzj64g.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000plhx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000plhx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.213,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0253mzj64g",
-        "ids": ",ak0253mzj64g,",
-        "sources": ",ak,",
+        "sig": 234,
+        "net": "us",
+        "code": "7000plhx",
+        "ids": ",ak0253mzj64g,us7000plhx,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.32,
-        "gap": null,
-        "magType": "ml",
+        "nst": 46,
+        "dmin": 0.845,
+        "rms": 0.54,
+        "gap": 185,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.6 - 104 km SSE of Adak, Alaska"
+        "title": "M 3.9 - 100 km SSE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.0676,
-          51.0072,
-          25.6
+          -176.0805,
+          51.0429,
+          35.922
         ]
       },
-      "id": "ak0253mzj64g"
+      "id": "us7000plhx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "97 km SSE of Adak, Alaska",
+        "time": 1742502457515,
+        "updated": 1742561477040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pll5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pll5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "us",
+        "code": "7000pll5",
+        "ids": ",us7000pll5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.027,
+        "rms": 0.69,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 97 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.0625,
+          51.0687,
+          39.37
+        ]
+      },
+      "id": "us7000pll5"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.77,
         "place": "8 km WNW of Dyersburg, Tennessee",
-        "time": 1742502220270,
-        "updated": 1742527599864,
+        "time": 1742502220260,
+        "updated": 1742561259124,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60601281",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60601281.geojson",
@@ -1391,9 +1511,9 @@
         "ids": ",us7000plep,nm60601281,",
         "sources": ",us,nm,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.04155,
-        "rms": 0.07,
+        "nst": 59,
+        "dmin": 0.04102,
+        "rms": 0.08,
         "gap": 55,
         "magType": "md",
         "type": "earthquake",
@@ -1402,9 +1522,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.4725,
-          36.0621666666667,
-          9.92
+          -89.4738333333333,
+          36.0623333333333,
+          10.26
         ]
       },
       "id": "nm60601281"
@@ -1928,126 +2048,6 @@
         ]
       },
       "id": "ak0253mvgd40"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "1 km W of Glen Elder, Kansas",
-        "time": 1742476379190,
-        "updated": 1742507156986,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q00s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q00s.geojson",
-        "felt": 4,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "us",
-        "code": "6000q00s",
-        "ids": ",us6000q00s,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.115,
-        "rms": 0.57,
-        "gap": 65,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km W of Glen Elder, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.3252,
-          39.4974,
-          9.436
-        ]
-      },
-      "id": "us6000q00s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "2 km SW of Indios, Puerto Rico",
-        "time": 1742475540830,
-        "updated": 1742476909500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71476823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71476823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71476823",
-        "ids": ",pr71476823,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.04145,
-        "rms": 0.19,
-        "gap": 196,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.836,
-          17.9798333333333,
-          15.98
-        ]
-      },
-      "id": "pr71476823"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.51,
-        "place": "3 km SSE of Indios, Puerto Rico",
-        "time": 1742474455700,
-        "updated": 1742476030520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71476808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71476808.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 97,
-        "net": "pr",
-        "code": "71476808",
-        "ids": ",pr71476808,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.06708,
-        "rms": 0.12,
-        "gap": 181,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8091666666667,
-          17.968,
-          15.34
-        ]
-      },
-      "id": "pr71476808"
     }
   ],
   "bbox": [
