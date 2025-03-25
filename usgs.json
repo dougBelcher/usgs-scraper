@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742906393000,
+    "generated": 1742909345000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
-        "place": "18 km W of Manton, CA",
-        "time": 1742899517320,
-        "updated": 1742905039427,
+        "mag": 2.5,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1742908092274,
+        "updated": 1742908521219,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75154932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75154932.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025fwqt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025fwqt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 96,
+        "net": "tx",
+        "code": "2025fwqt",
+        "ids": ",tx2025fwqt,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 30 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.01,
+          31.522,
+          5.6793
+        ]
+      },
+      "id": "tx2025fwqt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "1 km W of Indios, Puerto Rico",
+        "time": 1742905140580,
+        "updated": 1742906508610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71477443",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71477443.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71477443",
+        "ids": ",pr71477443,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.04557,
+        "rms": 0.21,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8298333333333,
+          17.9925,
+          15.26
+        ]
+      },
+      "id": "pr71477443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "18 km W of Manton, CA",
+        "time": 1742899517320,
+        "updated": 1742908070310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75154932",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75154932.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
         "net": "nc",
         "code": "75154932",
         "ids": ",nc75154932,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.1468,
         "rms": 0.09,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc75154932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "25 km WSW of Nemuro, Japan",
+        "time": 1742899167104,
+        "updated": 1742906663040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmh9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmh9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pmh9",
+        "ids": ",us7000pmh9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 1.99,
+        "rms": 0.51,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 25 km WSW of Nemuro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2833,
+          43.2402,
+          89.874
+        ]
+      },
+      "id": "us7000pmh9"
     },
     {
       "type": "Feature",
