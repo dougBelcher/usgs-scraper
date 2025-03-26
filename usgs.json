@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742995760000,
+    "generated": 1742998728000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.03,
+        "place": "12 km NE of Pāhala, Hawaii",
+        "time": 1742996240600,
+        "updated": 1742998162128,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74641822",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74641822.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "hv",
+        "code": "74641822",
+        "ids": ",hv74641822,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.03439,
+        "rms": 0.140000001,
+        "gap": 109,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 12 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.38850402832,
+          19.2709999084473,
+          30.8500003814697
+        ]
+      },
+      "id": "hv74641822"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "31 km SE of Suklayin, Philippines",
         "time": 1742993758693,
-        "updated": 1742995155353,
+        "updated": 1742995916022,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmqv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmqv.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -175,12 +215,12 @@
         "mag": 2.6,
         "place": "5 km WSW of Formoso, Kansas",
         "time": 1742982664769,
-        "updated": 1742983062040,
+        "updated": 1742998078330,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmq7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmq7.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -190,7 +230,7 @@
         "code": "7000pmq7",
         "ids": ",us7000pmq7,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 1.291,
         "rms": 0.6,
@@ -495,7 +535,7 @@
         "mag": 2.9,
         "place": "11 km W of Stanley, Idaho",
         "time": 1742955908130,
-        "updated": 1742956493040,
+        "updated": 1742998704220,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmn5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmn5.geojson",
@@ -508,8 +548,8 @@
         "sig": 129,
         "net": "us",
         "code": "7000pmn5",
-        "ids": ",us7000pmn5,",
-        "sources": ",us,",
+        "ids": ",mb90075853,us7000pmn5,",
+        "sources": ",mb,us,",
         "types": ",origin,phase-data,",
         "nst": 56,
         "dmin": 0.206,
@@ -888,6 +928,46 @@
         ]
       },
       "id": "us7000pmld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "65 km WNW of Mosteiros, Portugal",
+        "time": 1742939298727,
+        "updated": 1742996266450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmqw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmqw.geojson",
+        "felt": 2,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000pmqw",
+        "ids": ",us7000pmqw,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.852,
+        "rms": 0.58,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 65 km WNW of Mosteiros, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.5156,
+          38.0989,
+          10
+        ]
+      },
+      "id": "us7000pmqw"
     },
     {
       "type": "Feature",
