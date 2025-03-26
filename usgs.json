@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743006365000,
+    "generated": 1743009433000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "32 km S of Scenic, Arizona",
+        "time": 1743008350194,
+        "updated": 1743009381040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmtd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmtd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000pmtd",
+        "ids": ",nn00895174,us7000pmtd,",
+        "sources": ",nn,us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.65,
+        "rms": 0.42,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 32 km S of Scenic, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9832,
+          36.5002,
+          9.596
+        ]
+      },
+      "id": "us7000pmtd"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,11 +135,11 @@
         "mag": 3.03,
         "place": "12 km NE of Pāhala, Hawaii",
         "time": 1742996240600,
-        "updated": 1742998162128,
+        "updated": 1743007632929,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74641822",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74641822.geojson",
-        "felt": 5,
+        "felt": 7,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "us7000pmjv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.34,
-        "place": "133 km NNE of Vieques, Puerto Rico",
-        "time": 1742919999210,
-        "updated": 1742925216040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71477453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71477453.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 172,
-        "net": "pr",
-        "code": "71477453",
-        "ids": ",us7000pmjp,pr71477453,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.216,
-        "rms": 0.18,
-        "gap": 293,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 133 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3176666666667,
-          19.529,
-          21.08
-        ]
-      },
-      "id": "pr71477453"
     }
   ],
   "bbox": [
