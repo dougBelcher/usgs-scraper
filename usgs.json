@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742973523000,
+    "generated": 1742977565000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "South Sandwich Islands region",
+        "time": 1742973977970,
+        "updated": 1742975109040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmpg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmpg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000pmpg",
+        "ids": ",us7000pmpg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 7.708,
+        "rms": 1.17,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.4526,
+          -59.0154,
+          10
+        ]
+      },
+      "id": "us7000pmpg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1288,53 +1328,13 @@
         ]
       },
       "id": "us7000pmgv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1742888307772,
-        "updated": 1742972061040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pmia",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pmia.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.278,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 234,
-        "net": "us",
-        "code": "7000pmia",
-        "ids": ",ak0253v1je42,us7000pmia,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 38,
-        "dmin": 0.196,
-        "rms": 0.45,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.9 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.0303,
-          51.4749,
-          53.898
-        ]
-      },
-      "id": "us7000pmia"
     }
   ],
   "bbox": [
     -177.8833,
-    -46.7295,
+    -59.0154,
     3.1,
-    179.0303,
+    176.0195,
     62.6823,
     609.837
   ]
