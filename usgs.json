@@ -1,53 +1,133 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743088929000,
+    "generated": 1743092765000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 28
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "74 km N of Isabela, Puerto Rico",
-        "time": 1743087608345,
-        "updated": 1743088779040,
+        "mag": 2.55,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1743089896190,
+        "updated": 1743090739923,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn2d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pn2d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75156227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75156227.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "nc",
+        "code": "75156227",
+        "ids": ",nc75156227,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 64,
+        "dmin": 0.1146,
+        "rms": 0.07,
+        "gap": 29,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.716835021973,
+          37.3568344116211,
+          6.09000015258789
+        ]
+      },
+      "id": "nc75156227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "276 km WSW of Tual, Indonesia",
+        "time": 1743089561534,
+        "updated": 1743092273040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn2g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pn2g.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 259,
         "net": "us",
-        "code": "7000pn2d",
-        "ids": ",us7000pn2d,",
+        "code": "7000pn2g",
+        "ids": ",us7000pn2g,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.696,
-        "rms": 0.91,
-        "gap": 196,
-        "magType": "ml",
+        "nst": 21,
+        "dmin": 1.858,
+        "rms": 1.21,
+        "gap": 102,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.8 - 74 km N of Isabela, Puerto Rico"
+        "title": "M 4.1 - 276 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.099,
-          19.1668,
-          40.751
+          130.3595,
+          -6.3365,
+          110.462
         ]
       },
-      "id": "us7000pn2d"
+      "id": "us7000pn2g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.18,
+        "place": "67 km N of San Antonio, Puerto Rico",
+        "time": 1743087609530,
+        "updated": 1743092680540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71477648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71477648.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 156,
+        "net": "pr",
+        "code": "71477648",
+        "ids": ",us7000pn2d,pr71477648,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6331,
+        "rms": 0.26,
+        "gap": 243,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 67 km N of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1568333333333,
+          19.1025,
+          10.03
+        ]
+      },
+      "id": "pr71477648"
     },
     {
       "type": "Feature",
@@ -1048,46 +1128,6 @@
         ]
       },
       "id": "us7000pmse"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "11 km SE of Berekua, Dominica",
-        "time": 1743003667664,
-        "updated": 1743006108040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pms4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pms4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000pms4",
-        "ids": ",us7000pms4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 0.355,
-        "rms": 0.59,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 11 km SE of Berekua, Dominica"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.2434,
-          15.1582,
-          160.275
-        ]
-      },
-      "id": "us7000pms4"
     }
   ],
   "bbox": [
