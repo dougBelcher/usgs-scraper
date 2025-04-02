@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743582438000,
+    "generated": 1743585688000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 46
   },
   "features": [
     {
@@ -95,11 +95,11 @@
         "mag": 2.75,
         "place": "3 km W of Orinda, CA",
         "time": 1743572628640,
-        "updated": 1743582189339,
+        "updated": 1743585067109,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75158787",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75158787.geojson",
-        "felt": 1428,
+        "felt": 1430,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
@@ -1613,6 +1613,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.3,
+        "place": "112 km SSE of Damusi, China",
+        "time": 1743509328988,
+        "updated": 1743585566040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pp84",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pp84.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000pp84",
+        "ids": ",us7000pp84,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 4.362,
+        "rms": 0.81,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 112 km SSE of Damusi, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2008,
+          36.8612,
+          10
+        ]
+      },
+      "id": "us7000pp84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
         "place": "177 km SE of Hualien City, Taiwan",
         "time": 1743506761614,
         "updated": 1743524606040,
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "us7000pp7i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "60 km N of Isabela, Puerto Rico",
-        "time": 1743496727840,
-        "updated": 1743497823750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71478113",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71478113.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71478113",
-        "ids": ",pr71478113,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5424,
-        "rms": 0.28,
-        "gap": 312,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 60 km N of Isabela, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1136666666667,
-          19.043,
-          14.49
-        ]
-      },
-      "id": "pr71478113"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "40 km SE of Denali National Park, Alaska",
-        "time": 1743496590790,
-        "updated": 1743499477040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02546mvtxj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02546mvtxj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "02546mvtxj",
-        "ids": ",us7000pp7a,ak02546mvtxj,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 40 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.1113,
-          63.3032,
-          1.3
-        ]
-      },
-      "id": "ak02546mvtxj"
     }
   ],
   "bbox": [
