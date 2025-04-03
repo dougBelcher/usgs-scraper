@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743684040000,
+    "generated": 1743686925000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 24
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "28 km SW of Garden City, Texas",
+        "time": 1743685122688,
+        "updated": 1743686800674,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q3ne",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q3ne.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.887,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000q3ne",
+        "ids": ",us6000q3ne,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 36,
+        "dmin": 0.263,
+        "rms": 0.5,
+        "gap": 57,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.5 - 28 km SW of Garden City, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7255,
+          31.7217,
+          4.484
+        ]
+      },
+      "id": "us6000q3ne"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.2,
         "place": "34 km W of Delta, Colorado",
         "time": 1743678472479,
-        "updated": 1743683125139,
+        "updated": 1743686296423,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q3mr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q3mr.geojson",
-        "felt": 5,
+        "felt": 13,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 159,
+        "sig": 161,
         "net": "us",
         "code": "6000q3mr",
         "ids": ",us6000q3mr,",
@@ -408,6 +448,46 @@
         ]
       },
       "id": "ak02548jabb4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "42 km ESE of Monywa, Burma (Myanmar)",
+        "time": 1743635596890,
+        "updated": 1743686631764,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q3nd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q3nd.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000q3nd",
+        "ids": ",us6000q3nd,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 7,
+        "dmin": 3.843,
+        "rms": 0.58,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 42 km ESE of Monywa, Burma (Myanmar)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.5267,
+          21.9821,
+          10
+        ]
+      },
+      "id": "us6000q3nd"
     },
     {
       "type": "Feature",
@@ -928,46 +1008,6 @@
         ]
       },
       "id": "us7000ppfz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1743600284963,
-        "updated": 1743601364040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ppfs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ppfs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000ppfs",
-        "ids": ",us7000ppfs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 112,
-        "dmin": 8.993,
-        "rms": 0.55,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -29.6337,
-          0.6752,
-          10
-        ]
-      },
-      "id": "us7000ppfs"
     }
   ],
   "bbox": [
