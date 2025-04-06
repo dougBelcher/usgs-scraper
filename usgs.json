@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743920799000,
+    "generated": 1743923807000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 57
+    "count": 59
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "261 km SSE of Isangel, Vanuatu",
+        "time": 1743920953287,
+        "updated": 1743921984040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4cw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q4cw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000q4cw",
+        "ids": ",us6000q4cw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 2.961,
+        "rms": 0.89,
+        "gap": 161,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 261 km SSE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.458,
+          -21.6232,
+          112.306
+        ]
+      },
+      "id": "us6000q4cw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.31,
         "place": "16 km NW of Parkfield, CA",
         "time": 1743919878160,
-        "updated": 1743920475774,
+        "updated": 1743922589040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75161057",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75161057.geojson",
@@ -28,9 +68,9 @@
         "sig": 169,
         "net": "nc",
         "code": "75161057",
-        "ids": ",nc75161057,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "ids": ",nc75161057,us6000q4cv,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 61,
         "dmin": 0.02253,
         "rms": 0.12,
@@ -55,11 +95,11 @@
         "mag": 2.58,
         "place": "3 km WNW of Cobb, CA",
         "time": 1743919087390,
-        "updated": 1743920413816,
+        "updated": 1743923223351,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75160987",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75160987.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -688,6 +728,46 @@
         ]
       },
       "id": "us6000q4bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.03,
+        "place": "242 km WNW of Ferndale, CA",
+        "time": 1743893257630,
+        "updated": 1743922790369,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75160777",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75160777.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 141,
+        "net": "nc",
+        "code": "75160777",
+        "ids": ",nc75160777,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.161,
+        "rms": 0.23,
+        "gap": 308,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 242 km WNW of Ferndale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.1335,
+          40.659,
+          10
+        ]
+      },
+      "id": "nc75160777"
     },
     {
       "type": "Feature",
