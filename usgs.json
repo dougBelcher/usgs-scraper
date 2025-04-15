@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744751954000,
+    "generated": 1744755527000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "42 km SSW of Maguling, Philippines",
+        "time": 1744753366025,
+        "updated": 1744755263487,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6br",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6br.geojson",
+        "felt": 5,
+        "cdi": 3,
+        "mmi": 4.074,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 484,
+        "net": "us",
+        "code": "6000q6br",
+        "ids": ",us6000q6br,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 1.603,
+        "rms": 0.68,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 42 km SSW of Maguling, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2328,
+          5.7551,
+          30.698
+        ]
+      },
+      "id": "us6000q6br"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 2.8,
         "place": "48 km NNE of Chase, Alaska",
         "time": 1744735093691,
-        "updated": 1744735204119,
+        "updated": 1744755316040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254tx6jr4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254tx6jr4.geojson",
@@ -188,8 +228,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0254tx6jr4",
-        "ids": ",ak0254tx6jr4,",
-        "sources": ",ak,",
+        "ids": ",us6000q690,ak0254tx6jr4,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -968,86 +1008,6 @@
         ]
       },
       "id": "ak0254sd7564"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "46 km ESE of Nemuro, Japan",
-        "time": 1744669045056,
-        "updated": 1744679639040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q624",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q624.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000q624",
-        "ids": ",us6000q624,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 2.432,
-        "rms": 0.53,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 46 km ESE of Nemuro, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.0844,
-          43.1298,
-          70.452
-        ]
-      },
-      "id": "us6000q624"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "55 km E of La Tirana, Chile",
-        "time": 1744668290397,
-        "updated": 1744683118153,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q623.geojson",
-        "felt": 3,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "us",
-        "code": "6000q623",
-        "ids": ",us6000q623,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.137,
-        "rms": 0.54,
-        "gap": 53,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 55 km E of La Tirana, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1264,
-          -20.2767,
-          94.729
-        ]
-      },
-      "id": "us6000q623"
     }
   ],
   "bbox": [
