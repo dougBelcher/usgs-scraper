@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744885362000,
+    "generated": 1744888618000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "10 km E of Big Pine, CA",
+        "time": 1744888327280,
+        "updated": 1744888474314,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75166906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75166906.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "nc",
+        "code": "75166906",
+        "ids": ",nc75166906,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1053,
+        "rms": 0.07,
+        "gap": 136,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km E of Big Pine, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.179336547852,
+          37.1655006408691,
+          1.39999997615814
+        ]
+      },
+      "id": "nc75166906"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.58,
         "place": "14 km SE of Anza, CA",
         "time": 1744884789460,
-        "updated": 1744885016178,
+        "updated": 1744885472630,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40931023",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40931023.geojson",
@@ -30,7 +70,7 @@
         "code": "40931023",
         "ids": ",ci40931023,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 112,
         "dmin": 0.04067,
         "rms": 0.2,
@@ -55,7 +95,7 @@
         "mag": 5.2,
         "place": "west of the Galapagos Islands",
         "time": 1744883131559,
-        "updated": 1744884295040,
+        "updated": 1744886160040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6q4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6q4.geojson",
@@ -70,7 +110,7 @@
         "code": "6000q6q4",
         "ids": ",us6000q6q4,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 71,
         "dmin": 6.12,
         "rms": 1.24,
@@ -1208,92 +1248,12 @@
         ]
       },
       "id": "us6000q6fi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "73 km ENE of Hengchun, Taiwan",
-        "time": 1744801994018,
-        "updated": 1744805767040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6fe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6fe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000q6fe",
-        "ids": ",us6000q6fe,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.608,
-        "rms": 0.77,
-        "gap": 96,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.1 - 73 km ENE of Hengchun, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.3919,
-          22.2796,
-          9.956
-        ]
-      },
-      "id": "us6000q6fe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "4 km W of Markleeville, CA",
-        "time": 1744801640710,
-        "updated": 1744821721280,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75166226",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75166226.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "nc",
-        "code": "75166226",
-        "ids": ",nc75166226,nn00896298,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.4527,
-        "rms": 0.38,
-        "gap": 112,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 4 km W of Markleeville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.839996337891,
-          38.6764984130859,
-          -1.91999995708466
-        ]
-      },
-      "id": "nc75166226"
     }
   ],
   "bbox": [
     -179.4581,
     -33.9361,
-    -1.9199999570847,
+    -0.15000000596046,
     141.6119,
     60.3441,
     272.024
