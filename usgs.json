@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745031401000,
+    "generated": 1745033525000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -135,12 +135,12 @@
         "mag": 4.2,
         "place": "88 km ESE of Hiroo, Japan",
         "time": 1745010532948,
-        "updated": 1745018067040,
+        "updated": 1745033296626,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q73j",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q73j.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +150,7 @@
         "code": "6000q73j",
         "ids": ",us6000q73j,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 48,
         "dmin": 0.825,
         "rms": 0.74,
@@ -1295,17 +1295,17 @@
         "mag": 3.9,
         "place": "16 km E of Jackson, Wyoming",
         "time": 1744952834580,
-        "updated": 1745031017685,
+        "updated": 1745032224375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6yt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6yt.geojson",
-        "felt": 178,
+        "felt": 179,
         "cdi": 3.9,
         "mmi": 4.266,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 303,
+        "sig": 304,
         "net": "us",
         "code": "6000q6yt",
         "ids": ",us6000q6yt,mb90079213,",
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000q6yj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "27 km NNE of Finschhafen, Papua New Guinea",
-        "time": 1744945069737,
-        "updated": 1744946334040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q6yg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q6yg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000q6yg",
-        "ids": ",us6000q6yg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 3.157,
-        "rms": 0.99,
-        "gap": 107,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 27 km NNE of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.9363,
-          -6.3227,
-          62.302
-        ]
-      },
-      "id": "us6000q6yg"
     }
   ],
   "bbox": [
