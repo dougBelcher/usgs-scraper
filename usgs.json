@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745069115000,
+    "generated": 1745072178000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "central Mid-Atlantic Ridge",
+        "time": 1745070621911,
+        "updated": 1745071577040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q787",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q787.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000q787",
+        "ids": ",us6000q787,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 12.962,
+        "rms": 0.82,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - central Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.3057,
+          7.123,
+          10
+        ]
+      },
+      "id": "us6000q787"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.9,
         "place": "23 km NW of Ninilchik, Alaska",
         "time": 1745067687539,
-        "updated": 1745068925469,
+        "updated": 1745072115194,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02550hbqgs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02550hbqgs.geojson",
-        "felt": 39,
-        "cdi": 4.6,
+        "felt": 46,
+        "cdi": 4.1,
         "mmi": 3.333,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 252,
+        "sig": 253,
         "net": "ak",
         "code": "02550hbqgs",
         "ids": ",ak02550hbqgs,at00suyuue,us6000q77z,",
@@ -455,7 +495,7 @@
         "mag": 3.14,
         "place": "16 km WSW of Johannesburg, CA",
         "time": 1745048647210,
-        "updated": 1745068121921,
+        "updated": 1745070007697,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40932807",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40932807.geojson",
@@ -463,7 +503,7 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 152,
         "net": "ci",
@@ -495,11 +535,11 @@
         "mag": 4.3,
         "place": "20 km W of Beluga, Alaska",
         "time": 1745047135928,
-        "updated": 1745068528318,
+        "updated": 1745072131995,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02550duu6u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02550duu6u.geojson",
-        "felt": 1291,
+        "felt": 1299,
         "cdi": 4.1,
         "mmi": 3.527,
         "alert": "green",
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "us6000q70z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "1 km SE of Indios, Puerto Rico",
-        "time": 1744985589530,
-        "updated": 1744986856460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71479443",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71479443.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71479443",
-        "ids": ",pr71479443,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.05868,
-        "rms": 0.16,
-        "gap": 171,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8105,
-          17.9845,
-          13.11
-        ]
-      },
-      "id": "pr71479443"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "13 km E of Jackson, Wyoming",
-        "time": 1744982755996,
-        "updated": 1745018423013,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q70q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q70q.geojson",
-        "felt": 7,
-        "cdi": 3.9,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 132,
-        "net": "us",
-        "code": "6000q70q",
-        "ids": ",us6000q70q,mb90079233,",
-        "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.116,
-        "rms": 0.65,
-        "gap": 102,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 13 km E of Jackson, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.5953,
-          43.4728,
-          8.135
-        ]
-      },
-      "id": "us6000q70q"
     }
   ],
   "bbox": [
