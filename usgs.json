@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745313705000,
+    "generated": 1745317326000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 27
   },
   "features": [
     {
@@ -95,17 +95,17 @@
         "mag": 3.1,
         "place": "2 km ESE of Pleasant City, Ohio",
         "time": 1745309570393,
-        "updated": 1745313662791,
+        "updated": 1745315768139,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pu5h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pu5h.geojson",
-        "felt": 8,
-        "cdi": 4.5,
+        "felt": 11,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 151,
+        "sig": 152,
         "net": "us",
         "code": "7000pu5h",
         "ids": ",us7000pu5h,",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000pu5h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "153 km WSW of Fakfak, Indonesia",
+        "time": 1745306081137,
+        "updated": 1745314634040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pu5a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pu5a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000pu5a",
+        "ids": ",us7000pu5a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 1.339,
+        "rms": 1.25,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 153 km WSW of Fakfak, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0576,
+          -3.5392,
+          10
+        ]
+      },
+      "id": "us7000pu5a"
     },
     {
       "type": "Feature",
@@ -895,12 +935,12 @@
         "mag": 2.8,
         "place": "32 km SSW of Petersville, Alaska",
         "time": 1745248695745,
-        "updated": 1745254376040,
+        "updated": 1745315591319,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02553towzf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02553towzf.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -908,9 +948,9 @@
         "sig": 121,
         "net": "ak",
         "code": "02553towzf",
-        "ids": ",us7000pu0t,ak02553towzf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak02553towzf,us7000pu0t,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.38,
@@ -1048,94 +1088,14 @@
         ]
       },
       "id": "us6000q7j8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "162 km WSW of Adak, Alaska",
-        "time": 1745230844699,
-        "updated": 1745305207040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pu45",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pu45.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000pu45",
-        "ids": ",ak02553qq8r9,us7000pu45,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.444,
-        "rms": 0.29,
-        "gap": 215,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 162 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.643,
-          51.1233,
-          37.466
-        ]
-      },
-      "id": "us7000pu45"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "273 km E of Levuka, Fiji",
-        "time": 1745227698664,
-        "updated": 1745229264040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q7j5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q7j5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000q7j5",
-        "ids": ",us6000q7j5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 2.968,
-        "rms": 0.83,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 273 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1082,
-          -18.2225,
-          560.233
-        ]
-      },
-      "id": "us6000q7j5"
     }
   ],
   "bbox": [
-    -178.643,
+    -162.7892,
     -56.1274,
     -0.10000000149012,
     149.5783,
     68.0226,
-    560.233
+    431.149
   ]
 }
