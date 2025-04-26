@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745698800000,
+    "generated": 1745702228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 51
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 4.4,
         "place": "1 km SW of Ninilchik, Alaska",
         "time": 1745697293807,
-        "updated": 1745698490054,
+        "updated": 1745702187276,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255c5z643",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255c5z643.geojson",
-        "felt": 111,
-        "cdi": 4.9,
-        "mmi": null,
-        "alert": null,
+        "felt": 182,
+        "cdi": 3.5,
+        "mmi": 3.722,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 352,
+        "sig": 362,
         "net": "ak",
         "code": "0255c5z643",
         "ids": ",at00svccnh,ak0255c5z643,us7000pv9w,",
         "sources": ",at,ak,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,",
+        "types": ",dyfi,impact-link,losspager,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
         "rms": 0.68,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "hv74660642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "52 km NE of Mackay, Idaho",
+        "time": 1745687532844,
+        "updated": 1745701418040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pv9b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pv9b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000pv9b",
+        "ids": ",us7000pv9b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 0.274,
+        "rms": 0.72,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 52 km NE of Mackay, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.0724,
+          44.1818,
+          18.058
+        ]
+      },
+      "id": "us7000pv9b"
     },
     {
       "type": "Feature",
@@ -815,11 +855,11 @@
         "mag": 2.7,
         "place": "7 km SW of Seal Beach, CA",
         "time": 1745657066170,
-        "updated": 1745698734765,
+        "updated": 1745700553983,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134928",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134928.geojson",
-        "felt": 299,
+        "felt": 300,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -2008,86 +2048,6 @@
         ]
       },
       "id": "us7000pv4p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "24 km W of Taguisa, Philippines",
-        "time": 1745614070326,
-        "updated": 1745687217040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pv4c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pv4c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pv4c",
-        "ids": ",us7000pv4c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 133,
-        "dmin": 1.792,
-        "rms": 0.56,
-        "gap": 38,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 24 km W of Taguisa, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.822,
-          6.6562,
-          68.864
-        ]
-      },
-      "id": "us7000pv4c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "192 km ESE of Kimbe, Papua New Guinea",
-        "time": 1745612761529,
-        "updated": 1745619564040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pv49",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pv49.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pv49",
-        "ids": ",us7000pv49,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.905,
-        "rms": 0.76,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 192 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.7982,
-          -6.0736,
-          10
-        ]
-      },
-      "id": "us7000pv49"
     }
   ],
   "bbox": [
