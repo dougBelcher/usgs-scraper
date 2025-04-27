@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745742213000,
+    "generated": 1745745535000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 2.5,
         "place": "15 km SSW of Larsen Bay, Alaska",
         "time": 1745739702551,
-        "updated": 1745739810792,
+        "updated": 1745744847040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255dmainj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255dmainj.geojson",
@@ -28,8 +28,8 @@
         "sig": 96,
         "net": "ak",
         "code": "0255dmainj",
-        "ids": ",ak0255dmainj,",
-        "sources": ",ak,",
+        "ids": ",us7000pvct,ak0255dmainj,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "pr71480558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "39 km SSW of Jurm, Afghanistan",
+        "time": 1745738280749,
+        "updated": 1745744370040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pvcr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pvcr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000pvcr",
+        "ids": ",us7000pvcr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 2.3,
+        "rms": 0.54,
+        "gap": 154,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 39 km SSW of Jurm, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.6285,
+          36.5476,
+          185.041
+        ]
+      },
+      "id": "us7000pvcr"
     },
     {
       "type": "Feature",
@@ -1215,17 +1255,17 @@
         "mag": 2.59,
         "place": "15 km W of Cantua Creek, CA",
         "time": 1745678555360,
-        "updated": 1745712517327,
+        "updated": 1745745191385,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171866",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171866.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 104,
         "net": "nc",
         "code": "75171866",
         "ids": ",nc75171866,",
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us7000pv7s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "7 km SW of Seal Beach, CA",
-        "time": 1745657066170,
-        "updated": 1745741113648,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134928.geojson",
-        "felt": 312,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 231,
-        "net": "ci",
-        "code": "41134928",
-        "ids": ",ci41134928,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 123,
-        "dmin": 0.1054,
-        "rms": 0.27,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km SW of Seal Beach, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.1515,
-          33.6923333,
-          14.04
-        ]
-      },
-      "id": "ci41134928"
     }
   ],
   "bbox": [
