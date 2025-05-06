@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746566334000,
+    "generated": 1746569987000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "south of the Fiji Islands",
+        "time": 1746565828903,
+        "updated": 1746566755040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxkh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxkh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000pxkh",
+        "ids": ",us7000pxkh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 5.075,
+        "rms": 0.81,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.5763,
+          -22.3286,
+          582.581
+        ]
+      },
+      "id": "us7000pxkh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,11 +295,11 @@
         "mag": 2.96,
         "place": "8 km S of Dillwyn, Virginia",
         "time": 1746551297790,
-        "updated": 1746566267131,
+        "updated": 1746569716540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60605626",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60605626.geojson",
-        "felt": 1972,
+        "felt": 2038,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1568,94 +1608,14 @@
         ]
       },
       "id": "us7000pxdq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "38 km WNW of Nanwalek, Alaska",
-        "time": 1746482384248,
-        "updated": 1746485855040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255r3183c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255r3183c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0255r3183c",
-        "ids": ",us7000pxdf,ak0255r3183c,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.38,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 38 km WNW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.5812,
-          59.442,
-          72.5
-        ]
-      },
-      "id": "ak0255r3183c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "Kermadec Islands region",
-        "time": 1746481263274,
-        "updated": 1746483934040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxdh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxdh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pxdh",
-        "ids": ",us7000pxdh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.356,
-        "rms": 0.68,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.63,
-          -28.5072,
-          35
-        ]
-      },
-      "id": "us7000pxdh"
     }
   ],
   "bbox": [
-    -176.63,
+    -179.5763,
     -57.3658,
     0,
     178.433,
     64.6183,
-    417.865
+    582.581
   ]
 }
