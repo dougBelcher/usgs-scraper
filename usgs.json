@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747402266000,
+    "generated": 1747405171000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 20
+    "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "28 km SE of Kushiro, Japan",
+        "time": 1747401329476,
+        "updated": 1747402816040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzk2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzk2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000pzk2",
+        "ids": ",us7000pzk2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.981,
+        "rms": 1.12,
+        "gap": 156,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 28 km SE of Kushiro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6143,
+          42.7921,
+          56.634
+        ]
+      },
+      "id": "us7000pzk2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "21 km NE of Komodo, Indonesia",
+        "time": 1747397786618,
+        "updated": 1747404252040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzjw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzjw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000pzjw",
+        "ids": ",us7000pzjw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.39,
+        "rms": 0.93,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 21 km NE of Komodo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6203,
+          -8.4421,
+          179.384
+        ]
+      },
+      "id": "us7000pzjw"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.47,
         "place": "1 km ESE of The Geysers, CA",
         "time": 1747397567910,
-        "updated": 1747398436581,
+        "updated": 1747403240096,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75182847",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75182847.geojson",
@@ -335,7 +415,7 @@
         "mag": 3.1,
         "place": "25 km NW of Stanley, Idaho",
         "time": 1747362823716,
-        "updated": 1747385919019,
+        "updated": 1747404366530,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzid",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzid.geojson",
@@ -348,8 +428,8 @@
         "sig": 148,
         "net": "us",
         "code": "7000pzid",
-        "ids": ",us7000pzid,",
-        "sources": ",us,",
+        "ids": ",us7000pzid,mb90086288,",
+        "sources": ",us,mb,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.358,
@@ -768,53 +848,13 @@
         ]
       },
       "id": "us7000pzd1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "75 km W of Luwuk, Indonesia",
-        "time": 1747317703454,
-        "updated": 1747323331040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzcu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzcu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000pzcu",
-        "ids": ",us7000pzcu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.658,
-        "rms": 0.82,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 75 km W of Luwuk, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.1136,
-          -1.0592,
-          35.319
-        ]
-      },
-      "id": "us7000pzcu"
     }
   ],
   "bbox": [
     -177.9231,
     -55.8398,
     2.1199998855591,
-    139.8743,
+    144.6143,
     62.195,
     482.732
   ]
