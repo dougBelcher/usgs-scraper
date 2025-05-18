@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747571942000,
+    "generated": 1747574766000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.05,
+        "place": "16 km ENE of Santa Cruz de El Seibo, Dominican Republic",
+        "time": 1747570069390,
+        "updated": 1747572458933,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025138000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025138000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 252,
+        "net": "pr",
+        "code": "2025138000",
+        "ids": ",pr2025138000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5972,
+        "rms": 0.61,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 4.1 - 16 km ENE of Santa Cruz de El Seibo, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8965,
+          18.8161,
+          164
+        ]
+      },
+      "id": "pr2025138000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 4.1,
         "place": "12 km SE of Lárdos, Greece",
         "time": 1747553392951,
-        "updated": 1747558949134,
+        "updated": 1747572033315,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzze",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzze.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "us7000pzup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.95,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1747485650450,
-        "updated": 1747545986040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75183462",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75183462.geojson",
-        "felt": 7,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 136,
-        "net": "nc",
-        "code": "75183462",
-        "ids": ",nc75183462,us7000pzuj,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.009835,
-        "rms": 0.1,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.766502380371,
-          38.7923316955566,
-          3.57999992370605
-        ]
-      },
-      "id": "nc75183462"
     }
   ],
   "bbox": [
