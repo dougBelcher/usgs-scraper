@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747826251000,
+    "generated": 1747831448000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.05,
+        "place": "22 km NW of Puako, Hawaii",
+        "time": 1747829898270,
+        "updated": 1747831148739,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74677512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74677512.geojson",
+        "felt": 18,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 149,
+        "net": "hv",
+        "code": "74677512",
+        "ids": ",hv74677512,us7000q0iq,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.129,
+        "rms": 0.189999998,
+        "gap": 243,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 22 km NW of Puako, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.003494262695,
+          20.0990009307861,
+          15.8000001907349
+        ]
+      },
+      "id": "hv74677512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1747821347045,
-        "updated": 1747822014040,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1747821346930,
+        "updated": 1747828426557,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jwoi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jwoi.geojson",
@@ -23,7 +63,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
         "net": "tx",
@@ -31,20 +71,20 @@
         "ids": ",us7000q0il,tx2025jwoi,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 35,
+        "nst": 34,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 70,
+        "rms": 0.2,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 56 km S of Whites City, New Mexico"
+        "title": "M 2.5 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.403,
-          31.671,
-          4.3772
+          -104.394,
+          31.681,
+          5.8179
         ]
       },
       "id": "tx2025jwoi"
@@ -1053,7 +1093,7 @@
   "bbox": [
     -179.9893,
     -56.963,
-    4.3772,
+    5.8179,
     144.7662,
     67.3346,
     615.474
