@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748258202000,
+    "generated": 1748263287000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "35 km SE of Mina, Nevada",
+        "time": 1748258057307,
+        "updated": 1748260338040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897997",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897997.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "nn",
+        "code": "00897997",
+        "ids": ",us7000q1it,nn00897997,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.132,
+        "rms": 0.0985,
+        "gap": 44.410000000000004,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 35 km SE of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.822,
+          38.1697,
+          10.8
+        ]
+      },
+      "id": "nn00897997"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.99,
         "place": "22 km W of Petrolia, CA",
         "time": 1748257269450,
-        "updated": 1748257409135,
+        "updated": 1748260635676,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75186681",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75186681.geojson",
@@ -28,9 +68,9 @@
         "sig": 138,
         "net": "nc",
         "code": "75186681",
-        "ids": ",nc75186681,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "ids": ",nc75186681,us7000q1ir,",
+        "sources": ",nc,us,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
         "dmin": 0.1813,
         "rms": 0.11,
@@ -575,11 +615,11 @@
         "mag": 5.7,
         "place": "32 km S of Camiña, Chile",
         "time": 1748231425765,
-        "updated": 1748257115007,
+        "updated": 1748262936412,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1h3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1h3.geojson",
-        "felt": 43,
+        "felt": 44,
         "cdi": 4.6,
         "mmi": 4.523,
         "alert": "green",
@@ -1168,126 +1208,6 @@
         ]
       },
       "id": "ci40975983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "14 km E of Ensenada, B.C., MX",
-        "time": 1748174918120,
-        "updated": 1748193341014,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40975951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40975951.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ci",
-        "code": "40975951",
-        "ids": ",ci40975951,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.1675,
-        "rms": 0.17,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 14 km E of Ensenada, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.468,
-          31.8566667,
-          9.86
-        ]
-      },
-      "id": "ci40975951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "51 km ENE of Denali National Park, Alaska",
-        "time": 1748174264230,
-        "updated": 1748174398246,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256nzteex",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256nzteex.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0256nzteex",
-        "ids": ",ak0256nzteex,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.18,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 51 km ENE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7183,
-          63.6386,
-          12.3
-        ]
-      },
-      "id": "ak0256nzteex"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "96 km SSW of Abepura, Indonesia",
-        "time": 1748173212958,
-        "updated": 1748175834040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q1eb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q1eb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000q1eb",
-        "ids": ",us7000q1eb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.963,
-        "rms": 0.7,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 96 km SSW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.4227,
-          -3.4418,
-          10
-        ]
-      },
-      "id": "us7000q1eb"
     }
   ],
   "bbox": [
