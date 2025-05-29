@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748550244000,
+    "generated": 1748553586000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
@@ -15,22 +15,22 @@
         "mag": 3.97,
         "place": "141 km WNW of Petrolia, CA",
         "time": 1748549463260,
-        "updated": 1748550006573,
+        "updated": 1748553188453,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188346",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188346.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 1.039,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 242,
+        "sig": 243,
         "net": "nc",
         "code": "75188346",
         "ids": ",nc75188346,us6000qgrk,",
         "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 90,
         "dmin": 1.232,
         "rms": 0.42,
@@ -612,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.55,
+        "mag": 2.56,
         "place": "7 km SSW of Calimesa, CA",
-        "time": 1748498221050,
-        "updated": 1748505105691,
+        "time": 1748498220980,
+        "updated": 1748552626793,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979399",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979399.geojson",
@@ -623,7 +623,7 @@
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 103,
         "net": "ci",
@@ -631,9 +631,9 @@
         "ids": ",ci40979399,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 131,
-        "dmin": 0.07128,
-        "rms": 0.2,
+        "nst": 117,
+        "dmin": 0.06972,
+        "rms": 0.16,
         "gap": 16,
         "magType": "ml",
         "type": "earthquake",
@@ -642,9 +642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.0888333,
-          33.9328333,
-          13.93
+          -117.0908333,
+          33.9325,
+          14.56
         ]
       },
       "id": "ci40979399"
@@ -1488,50 +1488,10 @@
         ]
       },
       "id": "us6000qgib"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1748466909358,
-        "updated": 1748467852040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgi9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgi9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000qgi9",
-        "ids": ",us6000qgi9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.691,
-        "rms": 0.93,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.7022,
-          -29.3928,
-          200.16
-        ]
-      },
-      "id": "us6000qgi9"
     }
   ],
   "bbox": [
-    -178.7022,
+    -178.0111,
     -57.9833,
     2.5599999427795,
     166.985,
