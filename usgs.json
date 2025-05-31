@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748716020000,
+    "generated": 1748718921000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "63 km ENE of Pedro Bay, Alaska",
+        "time": 1748717392679,
+        "updated": 1748717499784,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256y15tne",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256y15tne.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0256y15tne",
+        "ids": ",ak0256y15tne,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 63 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0106,
+          59.9359,
+          127.9
+        ]
+      },
+      "id": "ak0256y15tne"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.31,
+        "place": "49 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1748716631780,
+        "updated": 1748717865280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484063",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484063.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 169,
+        "net": "pr",
+        "code": "71484063",
+        "ids": ",pr71484063,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.2956,
+        "rms": 0.08,
+        "gap": 308,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 49 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.55,
+          18.7096666666667,
+          48.79
+        ]
+      },
+      "id": "pr71484063"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +135,7 @@
         "mag": 3.37,
         "place": "1 km NNW of The Geysers, CA",
         "time": 1748713233070,
-        "updated": 1748715135807,
+        "updated": 1748717362040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189231",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189231.geojson",
@@ -68,8 +148,8 @@
         "sig": 177,
         "net": "nc",
         "code": "75189231",
-        "ids": ",nc75189231,",
-        "sources": ",nc,",
+        "ids": ",nc75189231,us6000qh42,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 89,
         "dmin": 0.0132,
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us6000qgyt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "2 km SW of Concord, CA",
-        "time": 1748632302630,
-        "updated": 1748713271801,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188731",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188731.geojson",
-        "felt": 1093,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 554,
-        "net": "nc",
-        "code": "75188731",
-        "ids": ",nc75188731,us6000qgyn,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 175,
-        "dmin": 0.02369,
-        "rms": 0.24,
-        "gap": 17,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 2 km SW of Concord, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.030833333333,
-          37.9493333333333,
-          14.81
-        ]
-      },
-      "id": "nc75188731"
     }
   ],
   "bbox": [
@@ -1415,7 +1455,7 @@
     -55.7413,
     2.8900001049042,
     148.0956,
-    53.1641,
+    59.9359,
     429.459
   ]
 }
