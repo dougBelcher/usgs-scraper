@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749158346000,
+    "generated": 1749161926000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.14,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1749160448040,
+        "updated": 1749161244850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90093833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90093833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 152,
+        "net": "mb",
+        "code": "90093833",
+        "ids": ",mb90093833,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.2681,
+        "rms": 0.14,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 15 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.022166666667,
+          44.3428333333333,
+          5.97
+        ]
+      },
+      "id": "mb90093833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "13 km SSE of Ponce, Puerto Rico",
+        "time": 1749158666140,
+        "updated": 1749159923740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484753",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484753.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "pr",
+        "code": "71484753",
+        "ids": ",pr71484753,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1503,
+        "rms": 0.1,
+        "gap": 200,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 13 km SSE of Ponce, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.596,
+          17.892,
+          7.53
+        ]
+      },
+      "id": "pr71484753"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -93,9 +173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "24 km SW of Jal, New Mexico",
-        "time": 1749155106019,
-        "updated": 1749155317471,
+        "place": "25 km SW of Jal, New Mexico",
+        "time": 1749155106570,
+        "updated": 1749159088020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kytn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kytn.geojson",
@@ -103,7 +183,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "tx",
@@ -111,20 +191,20 @@
         "ids": ",tx2025kytn,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 23,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.5,
-        "gap": 69,
+        "rms": 0.2,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 24 km SW of Jal, New Mexico"
+        "title": "M 2.7 - 25 km SW of Jal, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.358,
-          31.943,
-          8.1992
+          -103.372,
+          31.94,
+          6.4331
         ]
       },
       "id": "tx2025kytn"
@@ -495,12 +575,12 @@
         "mag": 4.7,
         "place": "63 km E of Sōma, Japan",
         "time": 1749135087092,
-        "updated": 1749137860040,
+        "updated": 1749159072576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi4w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qi4w.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -510,7 +590,7 @@
         "code": "6000qi4w",
         "ids": ",us6000qi4w,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 52,
         "dmin": 2.974,
         "rms": 0.49,
@@ -1448,46 +1528,6 @@
         ]
       },
       "id": "pr71484548"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "136 km NW of Fangale’ounga, Tonga",
-        "time": 1749075115567,
-        "updated": 1749076074040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi0g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qi0g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qi0g",
-        "ids": ",us6000qi0g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 5.133,
-        "rms": 1.14,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 136 km NW of Fangale’ounga, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -175.3534,
-          -19.006,
-          202.151
-        ]
-      },
-      "id": "us6000qi0g"
     }
   ],
   "bbox": [
@@ -1496,6 +1536,6 @@
     0,
     158.8912,
     61.8484,
-    202.151
+    179.471
   ]
 }
