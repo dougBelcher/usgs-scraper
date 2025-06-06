@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749216737000,
+    "generated": 1749219637000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 49
+    "count": 48
   },
   "features": [
     {
@@ -175,12 +175,12 @@
         "mag": 2.74,
         "place": "54 km W of Petrolia, CA",
         "time": 1749208879530,
-        "updated": 1749216735619,
+        "updated": 1749217926309,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75191766",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75191766.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -190,7 +190,7 @@
         "code": "75191766",
         "ids": ",nc75191766,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
         "dmin": 0.4437,
         "rms": 0.05,
@@ -248,6 +248,46 @@
         ]
       },
       "id": "hv74689562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "Kuril Islands",
+        "time": 1749206364873,
+        "updated": 1749217075040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qidu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qidu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000qidu",
+        "ids": ",us6000qidu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 101,
+        "dmin": 5.699,
+        "rms": 0.57,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - Kuril Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0959,
+          47.3278,
+          206.683
+        ]
+      },
+      "id": "us6000qidu"
     },
     {
       "type": "Feature",
@@ -455,11 +495,11 @@
         "mag": 4.8,
         "place": "40 km SSW of Caliente, Nevada",
         "time": 1749194172812,
-        "updated": 1749216380230,
+        "updated": 1749219205043,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898573",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898573.geojson",
-        "felt": 27,
+        "felt": 29,
         "cdi": 3.1,
         "mmi": 3.971,
         "alert": "green",
@@ -1492,10 +1532,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Volcano Islands, Japan region",
+        "time": 1749153115148,
+        "updated": 1749219067040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi9k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qi9k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000qi9k",
+        "ids": ",us6000qi9k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 5.37,
+        "rms": 0.71,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5758,
+          22.1638,
+          35
+        ]
+      },
+      "id": "us6000qi9k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.89,
         "place": "13 km SSE of Ponce, Puerto Rico",
         "time": 1749152707430,
-        "updated": 1749154896570,
+        "updated": 1749217548040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484693",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484693.geojson",
@@ -1508,8 +1588,8 @@
         "sig": 128,
         "net": "pr",
         "code": "71484693",
-        "ids": ",pr71484693,",
-        "sources": ",pr,",
+        "ids": ",us6000qi9d,pr71484693,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 26,
         "dmin": 0.09963,
@@ -1848,126 +1928,6 @@
         ]
       },
       "id": "us6000qi4w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "57 km WSW of Adak, Alaska",
-        "time": 1749132837770,
-        "updated": 1749175430320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93628521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/av93628521.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "av",
-        "code": "93628521",
-        "ids": ",av93628521,",
-        "sources": ",av,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1328,
-        "rms": 0.19,
-        "gap": 191,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 57 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.446333333333,
-          51.7413333333333,
-          2.53
-        ]
-      },
-      "id": "av93628521"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "24 km ENE of Nellis Air Force Base, Nevada",
-        "time": 1749131577040,
-        "updated": 1749201069628,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898542",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898542.geojson",
-        "felt": 15,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 173,
-        "net": "nn",
-        "code": "00898542",
-        "ids": ",nn00898542,us6000qi4i,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.209,
-        "rms": 0.2203,
-        "gap": 118.04,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 24 km ENE of Nellis Air Force Base, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.8039,
-          36.3173,
-          3.2
-        ]
-      },
-      "id": "nn00898542"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "146 km WNW of Sabang, Indonesia",
-        "time": 1749131095728,
-        "updated": 1749136723040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qi4k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qi4k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qi4k",
-        "ids": ",us6000qi4k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.057,
-        "rms": 0.71,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 146 km WNW of Sabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.167,
-          6.54,
-          85.54
-        ]
-      },
-      "id": "us6000qi4k"
     }
   ],
   "bbox": [
