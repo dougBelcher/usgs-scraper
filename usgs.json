@@ -1,21 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749347826000,
+    "generated": 1749353600000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 50
+    "count": 47
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "4 km SW of Maricao, Puerto Rico",
+        "time": 1749352324970,
+        "updated": 1749353525960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71485103",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71485103.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "71485103",
+        "ids": ",pr71485103,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.03681,
+        "rms": 0.19,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 4 km SW of Maricao, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0113333333333,
+          18.1606666666667,
+          22.46
+        ]
+      },
+      "id": "pr71485103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "western Indian-Antarctic Ridge",
+        "time": 1749349903876,
+        "updated": 1749351027040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qivk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qivk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000qivk",
+        "ids": ",us6000qivk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 14.883,
+        "rms": 0.75,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - western Indian-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0635,
+          -47.8013,
+          10
+        ]
+      },
+      "id": "us6000qivk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "270 km W of Houma, Tonga",
+        "time": 1749346861045,
+        "updated": 1749348322040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qiv9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qiv9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000qiv9",
+        "ids": ",us6000qiv9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 4.887,
+        "rms": 0.69,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 270 km W of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.8715,
+          -20.7711,
+          493.492
+        ]
+      },
+      "id": "us6000qiv9"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.3,
         "place": "139 km NNW of Asan-Maina Village, Guam",
         "time": 1749343830614,
-        "updated": 1749347436926,
+        "updated": 1749351646488,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qiv6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qiv6.geojson",
@@ -375,22 +495,22 @@
         "mag": 2.45,
         "place": "13 km SE of Ridgecrest, CA",
         "time": 1749316616150,
-        "updated": 1749321985040,
+        "updated": 1749348509746,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178440",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178440.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
+        "sig": 93,
         "net": "ci",
         "code": "41178440",
         "ids": ",ci41178440,us6000qir5,",
         "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 45,
         "dmin": 0.07034,
         "rms": 0.12,
@@ -1768,254 +1888,14 @@
         ]
       },
       "id": "us6000qim1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "123 km NNW of Finschhafen, Papua New Guinea",
-        "time": 1749264700207,
-        "updated": 1749265791040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qilr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qilr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000qilr",
-        "ids": ",us6000qilr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 94,
-        "dmin": 3.497,
-        "rms": 0.93,
-        "gap": 30,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 123 km NNW of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.338,
-          -5.5634,
-          195.583
-        ]
-      },
-      "id": "us6000qilr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "32 km ENE of Chase, Alaska",
-        "time": 1749263823714,
-        "updated": 1749264570040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qilp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qilp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000qilp",
-        "ids": ",us6000qilp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.827,
-        "rms": 0.42,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 32 km ENE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.5137,
-          62.5471,
-          50.319
-        ]
-      },
-      "id": "us6000qilp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "66 km NNW of Ust’-Barguzin, Russia",
-        "time": 1749263758174,
-        "updated": 1749331534040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qilq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qilq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000qilq",
-        "ids": ",us6000qilq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.782,
-        "rms": 0.45,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 66 km NNW of Ust’-Barguzin, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          108.6211,
-          53.9554,
-          10
-        ]
-      },
-      "id": "us6000qilq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "18 km W of Chonchi, Chile",
-        "time": 1749263699039,
-        "updated": 1749266407769,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qiln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qiln.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000qiln",
-        "ids": ",us6000qiln,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.686,
-        "rms": 0.92,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 18 km W of Chonchi, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0039,
-          -42.6132,
-          35.862
-        ]
-      },
-      "id": "us6000qiln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "9 km E of Pearsall, Texas",
-        "time": 1749262577202,
-        "updated": 1749330458040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lbax",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lbax.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025lbax",
-        "ids": ",us6000qili,tx2025lbax,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km E of Pearsall, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.995,
-          28.9,
-          2.9053
-        ]
-      },
-      "id": "tx2025lbax"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "30 km SSE of Mountain, Colombia",
-        "time": 1749262111630,
-        "updated": 1749343753040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qilg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qilg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000qilg",
-        "ids": ",us6000qilg,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 78,
-        "dmin": 0.281,
-        "rms": 0.9,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 30 km SSE of Mountain, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.2168,
-          13.1325,
-          10
-        ]
-      },
-      "id": "us6000qilg"
     }
   ],
   "bbox": [
     -179.0285,
     -57.2471,
-    2.9053,
+    5.2411,
     155.7367,
-    62.5471,
-    349.684
+    61.5797,
+    493.492
   ]
 }
