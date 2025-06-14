@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749935929000,
+    "generated": 1749939566000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "8 km WSW of Hani, Turkey",
+        "time": 1749935001307,
+        "updated": 1749936986040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkck",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkck.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000qkck",
+        "ids": ",us6000qkck,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.778,
+        "rms": 0.77,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 8 km WSW of Hani, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2959,
+          38.384,
+          11.524
+        ]
+      },
+      "id": "us6000qkck"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +255,11 @@
         "mag": 4.7,
         "place": "47 km WNW of Central, Alaska",
         "time": 1749911526018,
-        "updated": 1749933645191,
+        "updated": 1749938901595,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257l477bi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257l477bi.geojson",
-        "felt": 234,
+        "felt": 235,
         "cdi": 3.8,
         "mmi": 4.549,
         "alert": null,
@@ -1375,7 +1415,7 @@
         "mag": 2.92,
         "place": "12 km SSE of Volcano, Hawaii",
         "time": 1749862602680,
-        "updated": 1749900789252,
+        "updated": 1749935929040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74697462",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74697462.geojson",
@@ -1388,8 +1428,8 @@
         "sig": 133,
         "net": "hv",
         "code": "74697462",
-        "ids": ",hv74697462,",
-        "sources": ",hv,",
+        "ids": ",hv74697462,us6000qk6m,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 60,
         "dmin": 0.03994,
