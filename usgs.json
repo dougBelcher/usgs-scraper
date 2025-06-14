@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749921376000,
+    "generated": 1749925579000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 4.7,
         "place": "47 km WNW of Central, Alaska",
         "time": 1749911526018,
-        "updated": 1749921349562,
+        "updated": 1749924708726,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257l477bi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257l477bi.geojson",
-        "felt": 218,
+        "felt": 224,
         "cdi": 3.8,
         "mmi": 4.549,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 423,
+        "sig": 425,
         "net": "ak",
         "code": "0257l477bi",
         "ids": ",ak0257l477bi,us6000qkav,",
@@ -1132,38 +1132,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 5.7,
         "place": "southern East Pacific Rise",
-        "time": 1749870659595,
-        "updated": 1749871884040,
+        "time": 1749870659920,
+        "updated": 1749925112739,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qk7h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qk7h.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 500,
         "net": "us",
         "code": "6000qk7h",
         "ids": ",us6000qk7h,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 9.311,
-        "rms": 0.96,
-        "gap": 118,
-        "magType": "mb",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 58,
+        "dmin": 9.37,
+        "rms": 1.16,
+        "gap": 117,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - southern East Pacific Rise"
+        "title": "M 5.7 - southern East Pacific Rise"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.9206,
-          -36.3672,
+          -110.8169,
+          -36.4398,
           10
         ]
       },
@@ -1408,46 +1408,6 @@
         ]
       },
       "id": "us6000qk4v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "28 km SSE of Funny River, Alaska",
-        "time": 1749836787103,
-        "updated": 1749845532331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257jij7au",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257jij7au.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0257jij7au",
-        "ids": ",ak0257jij7au,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.44,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 28 km SSE of Funny River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.5983,
-          60.2562,
-          39.7
-        ]
-      },
-      "id": "ak0257jij7au"
     }
   ],
   "bbox": [
