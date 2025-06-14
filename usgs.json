@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749925579000,
+    "generated": 1749928521000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "80 km W of Kalaoa, Hawaii",
+        "time": 1749928154110,
+        "updated": 1749928389700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74698277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74698277.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "hv",
+        "code": "74698277",
+        "ids": ",hv74698277,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.8444,
+        "rms": 0.230000004,
+        "gap": 301,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 80 km W of Kalaoa, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.733001708984,
+          19.8665008544922,
+          16.8400001525879
+        ]
+      },
+      "id": "hv74698277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "76 km ESE of Fangale’ounga, Tonga",
+        "time": 1749925290879,
+        "updated": 1749926551040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkbr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkbr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000qkbr",
+        "ids": ",us6000qkbr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 129,
+        "dmin": 6.231,
+        "rms": 0.76,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 76 km ESE of Fangale’ounga, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.6181,
+          -19.9202,
+          10
+        ]
+      },
+      "id": "us6000qkbr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "47 km WNW of Central, Alaska",
         "time": 1749911526018,
-        "updated": 1749924708726,
+        "updated": 1749928357800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257l477bi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257l477bi.geojson",
-        "felt": 224,
+        "felt": 227,
         "cdi": 3.8,
         "mmi": 4.549,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 425,
+        "sig": 426,
         "net": "ak",
         "code": "0257l477bi",
         "ids": ",ak0257l477bi,us6000qkav,",
@@ -1368,50 +1448,10 @@
         ]
       },
       "id": "ak0257jjjpjt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "Kuril Islands",
-        "time": 1749839711472,
-        "updated": 1749848709564,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qk4v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qk4v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.906,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 572,
-        "net": "us",
-        "code": "6000qk4v",
-        "ids": ",us6000qk4v,",
-        "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 191,
-        "dmin": 7.411,
-        "rms": 1.27,
-        "gap": 38,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.4372,
-          46.1214,
-          10
-        ]
-      },
-      "id": "us6000qk4v"
     }
   ],
   "bbox": [
-    -155.195,
+    -173.6181,
     -47.8628,
     0,
     168.5066,
