@@ -1,50 +1,170 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750187836000,
+    "generated": 1750191805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 37
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.6,
-        "place": "47 km E of Knik River, Alaska",
-        "time": 1750187615429,
-        "updated": 1750187727889,
+        "mag": 2.5,
+        "place": "51 km W of Mentone, Texas",
+        "time": 1750190935282,
+        "updated": 1750191135361,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257q5oehh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257q5oehh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lwcita",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lwcita.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0257q5oehh",
-        "ids": ",ak0257q5oehh,",
-        "sources": ",ak,",
+        "sig": 96,
+        "net": "tx",
+        "code": "2025lwcita",
+        "ids": ",tx2025lwcita,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.69,
-        "gap": null,
+        "nst": 41,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 47 km E of Knik River, Alaska"
+        "title": "M 2.5 - 51 km W of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.0281,
-          61.4019,
-          18.6
+          -104.14,
+          31.7,
+          3.7424
+        ]
+      },
+      "id": "tx2025lwcita"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "14 km SSW of Riverton, Nebraska",
+        "time": 1750189053543,
+        "updated": 1750191158040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkw1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkw1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000qkw1",
+        "ids": ",us6000qkw1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 1.351,
+        "rms": 0.38,
+        "gap": 86,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km SSW of Riverton, Nebraska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.826,
+          39.9668,
+          5
+        ]
+      },
+      "id": "us6000qkw1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "10 km W of Stanley, Idaho",
+        "time": 1750187786087,
+        "updated": 1750190643900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkvw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkvw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000qkvw",
+        "ids": ",mb90097133,us6000qkvw,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.186,
+        "rms": 0.8,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 10 km W of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0645,
+          44.2058,
+          10
+        ]
+      },
+      "id": "us6000qkvw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "48 km E of Knik River, Alaska",
+        "time": 1750187616518,
+        "updated": 1750189539171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257q5oehh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257q5oehh.geojson",
+        "felt": 13,
+        "cdi": 3.8,
+        "mmi": 2.74,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 183,
+        "net": "ak",
+        "code": "0257q5oehh",
+        "ids": ",ak0257q5oehh,us6000qkvv,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 48 km E of Knik River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0153,
+          61.4067,
+          20
         ]
       },
       "id": "ak0257q5oehh"
@@ -1055,11 +1175,11 @@
         "mag": 5,
         "place": "35 km W of Archidona, Ecuador",
         "time": 1750128386420,
-        "updated": 1750137295128,
+        "updated": 1750189175057,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkr0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkr0.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -1368,166 +1488,6 @@
         ]
       },
       "id": "nc75196531"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "38 km NNW of Toyah, Texas",
-        "time": 1750103664549,
-        "updated": 1750149847845,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lugbgh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lugbgh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025lugbgh",
-        "ids": ",tx2025lugbgh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 38 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.99,
-          31.616,
-          7.7277
-        ]
-      },
-      "id": "tx2025lugbgh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "37 km NNW of Toyah, Texas",
-        "time": 1750103664435,
-        "updated": 1750163952777,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lugdbg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lugdbg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025lugdbg",
-        "ids": ",tx2025lugdbg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 37 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.987,
-          31.611,
-          8.0865
-        ]
-      },
-      "id": "tx2025lugdbg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "23 km SW of Jal, New Mexico",
-        "time": 1750101898393,
-        "updated": 1750154869235,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lufdyx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lufdyx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2025lufdyx",
-        "ids": ",us6000qkp7,tx2025lufdyx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 23 km SW of Jal, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.362,
-          31.955,
-          7.6379
-        ]
-      },
-      "id": "tx2025lufdyx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "37 km NNW of Toyah, Texas",
-        "time": 1750101581294,
-        "updated": 1750102197036,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025luezlf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025luezlf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2025luezlf",
-        "ids": ",us6000qkp6,tx2025luezlf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 37 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.986,
-          31.61,
-          7.561
-        ]
-      },
-      "id": "tx2025luezlf"
     }
   ],
   "bbox": [
