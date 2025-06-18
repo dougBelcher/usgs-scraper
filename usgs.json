@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750224070000,
+    "generated": 1750228341000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 33
   },
   "features": [
     {
@@ -14,26 +14,26 @@
       "properties": {
         "mag": 3.8,
         "place": "50 km SW of Cantwell, Alaska",
-        "time": 1750223897941,
-        "updated": 1750224007900,
+        "time": 1750223897786,
+        "updated": 1750226397440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257rkwpqb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257rkwpqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "felt": 2,
+        "cdi": 2.5,
+        "mmi": 3.282,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 223,
         "net": "ak",
         "code": "0257rkwpqb",
-        "ids": ",ak0257rkwpqb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0257rkwpqb,us6000qkyr,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": null,
-        "rms": 0.57,
+        "rms": 0.67,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
@@ -42,9 +42,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.6306,
-          63.058,
-          89.1
+          -149.6461,
+          63.063,
+          87.5
         ]
       },
       "id": "ak0257rkwpqb"
@@ -133,12 +133,12 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "67 km WSW of Karluk, Alaska",
-        "time": 1750212810874,
-        "updated": 1750213317040,
+        "place": "69 km SW of Karluk, Alaska",
+        "time": 1750212811549,
+        "updated": 1750225015882,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qky1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qky1.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257rj3df7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257rj3df7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,28 +146,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 158,
-        "net": "us",
-        "code": "6000qky1",
-        "ids": ",us6000qky1,",
-        "sources": ",us,",
+        "net": "ak",
+        "code": "0257rj3df7",
+        "ids": ",us6000qky1,ak0257rj3df7,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.83,
-        "rms": 1.01,
-        "gap": 111,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 67 km WSW of Karluk, Alaska"
+        "title": "M 3.2 - 69 km SW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.4656,
-          57.3074,
-          68.285
+          -155.4167,
+          57.2225,
+          43.3
         ]
       },
-      "id": "us6000qky1"
+      "id": "ak0257rj3df7"
     },
     {
       "type": "Feature",
@@ -175,11 +175,11 @@
         "mag": 2.8,
         "place": "11 km NE of Trabuco Canyon, CA",
         "time": 1750212766680,
-        "updated": 1750221472040,
+        "updated": 1750226651363,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40997455",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40997455.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1328,86 +1328,6 @@
         ]
       },
       "id": "us6000qkrr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "168 km WNW of Tobelo, Indonesia",
-        "time": 1750141533587,
-        "updated": 1750142686040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkrl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkrl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000qkrl",
-        "ids": ",us6000qkrl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 1.621,
-        "rms": 1.22,
-        "gap": 44,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 168 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.5703,
-          2.1928,
-          51.95
-        ]
-      },
-      "id": "us6000qkrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "34 km E of Noatak, Alaska",
-        "time": 1750139956758,
-        "updated": 1750141188040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257pxm5hy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257pxm5hy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "ak",
-        "code": "0257pxm5hy",
-        "ids": ",us6000qkrg,ak0257pxm5hy,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.93,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 34 km E of Noatak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -162.1536,
-          67.5651,
-          31
-        ]
-      },
-      "id": "ak0257pxm5hy"
     }
   ],
   "bbox": [
@@ -1415,7 +1335,7 @@
     -57.8805,
     1.7,
     175.699,
-    67.5651,
+    63.063,
     232.315
   ]
 }
