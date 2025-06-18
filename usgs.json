@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750221001000,
+    "generated": 1750224070000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "50 km SW of Cantwell, Alaska",
+        "time": 1750223897941,
+        "updated": 1750224007900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257rkwpqb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257rkwpqb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "0257rkwpqb",
+        "ids": ",ak0257rkwpqb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.57,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 50 km SW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6306,
+          63.058,
+          89.1
+        ]
+      },
+      "id": "ak0257rkwpqb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "244 km NW of Tobelo, Indonesia",
+        "time": 1750220317350,
+        "updated": 1750221352040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qkyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qkyj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000qkyj",
+        "ids": ",us6000qkyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 1.745,
+        "rms": 0.94,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 244 km NW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7779,
+          3.5559,
+          50.435
+        ]
+      },
+      "id": "us6000qkyj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +175,7 @@
         "mag": 2.8,
         "place": "11 km NE of Trabuco Canyon, CA",
         "time": 1750212766680,
-        "updated": 1750220640959,
+        "updated": 1750221472040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40997455",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40997455.geojson",
@@ -108,8 +188,8 @@
         "sig": 129,
         "net": "ci",
         "code": "40997455",
-        "ids": ",ci40997455,",
-        "sources": ",ci,",
+        "ids": ",ci40997455,us6000qky0,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 145,
         "dmin": 0.03845,
