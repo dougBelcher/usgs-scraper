@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750789861000,
+    "generated": 1750792634000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 71
+    "count": 72
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.64,
+        "place": "62 km WNW of Petrolia, CA",
+        "time": 1750789899700,
+        "updated": 1750790005928,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199971",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199971.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 107,
+        "net": "nc",
+        "code": "75199971",
+        "ids": ",nc75199971,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.521,
+        "rms": 0.22,
+        "gap": 261,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 62 km WNW of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.016502380371,
+          40.3660011291504,
+          14.9300003051758
+        ]
+      },
+      "id": "nc75199971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "33 km ESE of Qarnābād, Iran",
+        "time": 1750786707396,
+        "updated": 1750791168040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8hj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q8hj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000q8hj",
+        "ids": ",us7000q8hj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 128,
+        "dmin": 5.207,
+        "rms": 0.83,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 33 km ESE of Qarnābād, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.9573,
+          36.7631,
+          10
+        ]
+      },
+      "id": "us7000q8hj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "15 km ENE of Soda Springs, Idaho",
+        "time": 1750781833580,
+        "updated": 1750792059090,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80110991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80110991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "uu",
+        "code": "80110991",
+        "ids": ",uu80110991,",
+        "sources": ",uu,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.2475,
+        "rms": 0.23,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km ENE of Soda Springs, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.429,
+          42.714,
+          9.44
+        ]
+      },
+      "id": "uu80110991"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,7 +575,7 @@
         "mag": 2.66,
         "place": "66 km WNW of Petrolia, CA",
         "time": 1750766678590,
-        "updated": 1750786701385,
+        "updated": 1750790239391,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199836",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199836.geojson",
@@ -2175,7 +2295,7 @@
         "mag": 5.5,
         "place": "105 km SE of Kirakira, Solomon Islands",
         "time": 1750730321174,
-        "updated": 1750739029937,
+        "updated": 1750790686040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8be",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q8be.geojson",
@@ -2190,7 +2310,7 @@
         "code": "7000q8be",
         "ids": ",us7000q8be,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 51,
         "dmin": 3.131,
         "rms": 0.98,
@@ -2768,86 +2888,6 @@
         ]
       },
       "id": "us7000q89v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "31 km NNW of Asan-Maina Village, Guam",
-        "time": 1750706066404,
-        "updated": 1750771478398,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q89a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q89a.geojson",
-        "felt": 12,
-        "cdi": 3.4,
-        "mmi": 3.748,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 453,
-        "net": "us",
-        "code": "7000q89a",
-        "ids": ",us7000q89a,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": 116,
-        "dmin": 0.258,
-        "rms": 0.82,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 31 km NNW of Asan-Maina Village, Guam"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.6587,
-          13.749,
-          146.001
-        ]
-      },
-      "id": "us7000q89a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "189 km ESE of Kimbe, Papua New Guinea",
-        "time": 1750704713530,
-        "updated": 1750705692040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000q896",
-        "ids": ",us7000q896,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.03,
-        "rms": 0.6,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 189 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.7292,
-          -6.1875,
-          10
-        ]
-      },
-      "id": "us7000q896"
     }
   ],
   "bbox": [
