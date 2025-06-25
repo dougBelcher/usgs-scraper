@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750847017000,
+    "generated": 1750850301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 64
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "281 km SSE of Port Blair, India",
+        "time": 1750845584897,
+        "updated": 1750847387040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8n8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q8n8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000q8n8",
+        "ids": ",us7000q8n8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 5.106,
+        "rms": 0.56,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 281 km SSE of Port Blair, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0006,
+          9.4439,
+          10
+        ]
+      },
+      "id": "us7000q8n8"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.83,
         "place": "100 km N of San Juan, Puerto Rico",
         "time": 1750842797810,
-        "updated": 1750845575106,
+        "updated": 1750848119909,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025176004",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025176004.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +70,7 @@
         "code": "2025176004",
         "ids": ",pr2025176004,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 23,
         "dmin": 0.9674,
         "rms": 0.48,
@@ -2295,7 +2335,7 @@
         "mag": 3.32,
         "place": "53 km NW of San Antonio, Puerto Rico",
         "time": 1750764738110,
-        "updated": 1750771428140,
+        "updated": 1750850244040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71486823",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71486823.geojson",
@@ -2308,8 +2348,8 @@
         "sig": 170,
         "net": "pr",
         "code": "71486823",
-        "ids": ",pr71486823,",
-        "sources": ",pr,",
+        "ids": ",us7000q8el,pr71486823,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 12,
         "dmin": 0.4886,
@@ -2335,7 +2375,7 @@
         "mag": 3.1,
         "place": "92 km NW of Yakutat, Alaska",
         "time": 1750764031142,
-        "updated": 1750764163036,
+        "updated": 1750849419040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02581lpusq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02581lpusq.geojson",
@@ -2348,8 +2388,8 @@
         "sig": 148,
         "net": "ak",
         "code": "02581lpusq",
-        "ids": ",ak02581lpusq,",
-        "sources": ",ak,",
+        "ids": ",us7000q8ej,ak02581lpusq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -2368,206 +2408,6 @@
         ]
       },
       "id": "ak02581lpusq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "73 km NNW of San Antonio, Puerto Rico",
-        "time": 1750763710030,
-        "updated": 1750775248661,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71486808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71486808.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71486808",
-        "ids": ",pr71486808,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.6736,
-        "rms": 0.35,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 73 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4273333333333,
-          19.074,
-          13.24
-        ]
-      },
-      "id": "pr71486808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.15,
-        "place": "32 km NNW of Rincón, Puerto Rico",
-        "time": 1750762995690,
-        "updated": 1750767962420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71486843",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71486843.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 153,
-        "net": "pr",
-        "code": "71486843",
-        "ids": ",pr71486843,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3069,
-        "rms": 0.29,
-        "gap": 191,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 32 km NNW of Rincón, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4081666666667,
-          18.5896666666667,
-          22.71
-        ]
-      },
-      "id": "pr71486843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.23,
-        "place": "44 km NW of San Antonio, Puerto Rico",
-        "time": 1750762639410,
-        "updated": 1750764976670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71486783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71486783.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "pr",
-        "code": "71486783",
-        "ids": ",pr71486783,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4076,
-        "rms": 0.22,
-        "gap": 193,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 44 km NW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4415,
-          18.7296666666667,
-          36.41
-        ]
-      },
-      "id": "pr71486783"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "6 km ENE of Głogów, Poland",
-        "time": 1750761996855,
-        "updated": 1750839236040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8ed",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q8ed.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000q8ed",
-        "ids": ",us7000q8ed,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.34,
-        "rms": 0.57,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 6 km ENE of Głogów, Poland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.1652,
-          51.6851,
-          10
-        ]
-      },
-      "id": "us7000q8ed"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "73 km NNW of San Antonio, Puerto Rico",
-        "time": 1750761616190,
-        "updated": 1750845964040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8ec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q8ec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000q8ec",
-        "ids": ",us7000q8ec,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.673,
-        "rms": 0.44,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 73 km NNW of San Antonio, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.408,
-          19.0825,
-          22.403
-        ]
-      },
-      "id": "us7000q8ec"
     }
   ],
   "bbox": [
