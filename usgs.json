@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751483839000,
+    "generated": 1751487740000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "15 km WSW of Toms Place, CA",
+        "time": 1751486619850,
+        "updated": 1751487140142,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "nc",
+        "code": "75203741",
+        "ids": ",nc75203741,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.1558,
+        "rms": 0.07,
+        "gap": 121,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 15 km WSW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.80933380127,
+          37.4688339233398,
+          2.90000009536743
+        ]
+      },
+      "id": "nc75203741"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "58 km SE of Kokhanok, Alaska",
         "time": 1751481735264,
-        "updated": 1751481818412,
+        "updated": 1751485962040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258eybcie",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258eybcie.geojson",
@@ -28,8 +68,8 @@
         "sig": 121,
         "net": "ak",
         "code": "0258eybcie",
-        "ids": ",ak0258eybcie,",
-        "sources": ",ak,",
+        "ids": ",us7000qa9u,ak0258eybcie,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
-        "place": "7 km N of Smiths Ferry, Idaho",
-        "time": 1751478626610,
-        "updated": 1751483593470,
+        "mag": 4.9,
+        "place": "93 km NNW of Tatsugō, Japan",
+        "time": 1751477576903,
+        "updated": 1751485296040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90100388",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90100388.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa9g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa9g.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
-        "net": "mb",
-        "code": "90100388",
-        "ids": ",mb90100388,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.06658,
-        "rms": 0.08,
-        "gap": 108,
-        "magType": "ml",
+        "sig": 369,
+        "net": "us",
+        "code": "7000qa9g",
+        "ids": ",us7000qa9g,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 89,
+        "dmin": 2.476,
+        "rms": 0.66,
+        "gap": 88,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 2.7 - 7 km N of Smiths Ferry, Idaho"
+        "title": "M 4.9 - 93 km NNW of Tatsugō, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.0775,
-          44.3691666666667,
-          6.17
+          129.2829,
+          29.2416,
+          10
         ]
       },
-      "id": "mb90100388"
+      "id": "us7000qa9g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "69 km W of El Habillal, Mexico",
+        "time": 1751475961630,
+        "updated": 1751484146040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa9f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa9f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000qa9f",
+        "ids": ",us7000qa9f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.39,
+        "rms": 0.82,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 69 km W of El Habillal, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.0312,
+          17.9665,
+          38.183
+        ]
+      },
+      "id": "us7000qa9f"
     },
     {
       "type": "Feature",
@@ -335,7 +415,7 @@
         "mag": 4.2,
         "place": "5 km NE of Gemlik, Turkey",
         "time": 1751453863926,
-        "updated": 1751470811665,
+        "updated": 1751484849040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa69",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa69.geojson",
@@ -350,7 +430,7 @@
         "code": "7000qa69",
         "ids": ",us7000qa69,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 29,
         "dmin": 1.113,
         "rms": 0.81,
@@ -1415,7 +1495,7 @@
         "mag": 5.5,
         "place": "81 km W of Cartagena, Chile",
         "time": 1751420379330,
-        "updated": 1751464212908,
+        "updated": 1751485204040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa3y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa3y.geojson",
@@ -1888,206 +1968,6 @@
         ]
       },
       "id": "nc75203271"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "23 km SSE of Nishinoomote, Japan",
-        "time": 1751401085630,
-        "updated": 1751407031040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa28",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa28.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qa28",
-        "ids": ",us7000qa28,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 1.113,
-        "rms": 0.98,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 23 km SSE of Nishinoomote, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          131.0842,
-          30.5338,
-          45.285
-        ]
-      },
-      "id": "us7000qa28"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "75 km N of Chickaloon, Alaska",
-        "time": 1751400265485,
-        "updated": 1751469137040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258dbqqtd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258dbqqtd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "0258dbqqtd",
-        "ids": ",us7000qa24,ak0258dbqqtd,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 75 km N of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.4113,
-          62.4736,
-          12.1
-        ]
-      },
-      "id": "ak0258dbqqtd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "95 km W of Luwuk, Indonesia",
-        "time": 1751399754420,
-        "updated": 1751403700040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa23",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa23.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qa23",
-        "ids": ",us7000qa23,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.855,
-        "rms": 0.82,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 95 km W of Luwuk, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.9258,
-          -0.9147,
-          49.199
-        ]
-      },
-      "id": "us7000qa23"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "31 km S of Ovalle, Chile",
-        "time": 1751399053489,
-        "updated": 1751400773040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa1z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa1z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qa1z",
-        "ids": ",us7000qa1z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.38,
-        "rms": 0.92,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 31 km S of Ovalle, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2608,
-          -30.8762,
-          57.256
-        ]
-      },
-      "id": "us7000qa1z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "99 km N of Tatsugō, Japan",
-        "time": 1751398327313,
-        "updated": 1751410913115,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa1v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa1v.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qa1v",
-        "ids": ",us7000qa1v,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 153,
-        "dmin": 2.352,
-        "rms": 0.72,
-        "gap": 30,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 99 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4061,
-          29.3308,
-          10
-        ]
-      },
-      "id": "us7000qa1v"
     }
   ],
   "bbox": [
@@ -2095,7 +1975,7 @@
     -59.3695,
     1.4500000476837,
     179.9932,
-    62.4736,
+    61.9604,
     561.071
   ]
 }
