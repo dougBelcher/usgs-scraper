@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751520251000,
+    "generated": 1751524362000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "29 km SSW of El Hoyo, Argentina",
+        "time": 1751523237991,
+        "updated": 1751524183040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qade",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qade.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000qade",
+        "ids": ",us7000qade,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 81,
+        "dmin": 5.137,
+        "rms": 0.8,
+        "gap": 45,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 29 km SSW of El Hoyo, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.368,
+          -27.2641,
+          564.254
+        ]
+      },
+      "id": "us7000qade"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "99 km SSW of Uyuni, Bolivia",
+        "time": 1751521302480,
+        "updated": 1751523803975,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qad7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qad7.geojson",
+        "felt": 3,
+        "cdi": 2.5,
+        "mmi": 3.597,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000qad7",
+        "ids": ",us7000qad7,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 1.89,
+        "rms": 1.27,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 99 km SSW of Uyuni, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2411,
+          -21.2657,
+          182.634
+        ]
+      },
+      "id": "us7000qad7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "3 km WNW of Orocovis, Puerto Rico",
+        "time": 1751519109430,
+        "updated": 1751523057250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488023",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488023.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "pr",
+        "code": "71488023",
+        "ids": ",pr71488023,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.096,
+        "rms": 0.1,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 3 km WNW of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4248333333333,
+          18.2425,
+          38.09
+        ]
+      },
+      "id": "pr71488023"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -128,6 +248,46 @@
         ]
       },
       "id": "us7000qacw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.82,
+        "place": "20 km SSE of La Romana, Dominican Republic",
+        "time": 1751516889660,
+        "updated": 1751521008964,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025184000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025184000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 224,
+        "net": "pr",
+        "code": "2025184000",
+        "ids": ",pr2025184000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.5874,
+        "rms": 0.41,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.8 - 20 km SSE of La Romana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.907,
+          18.2516,
+          82
+        ]
+      },
+      "id": "pr2025184000"
     },
     {
       "type": "Feature",
@@ -1248,286 +1408,6 @@
         ]
       },
       "id": "us7000qa5h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "94 km NNW of Tatsugō, Japan",
-        "time": 1751437609347,
-        "updated": 1751446543579,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa5e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa5e.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": 5.75,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 483,
-        "net": "us",
-        "code": "7000qa5e",
-        "ids": ",us7000qa5e,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 101,
-        "dmin": 2.488,
-        "rms": 1.17,
-        "gap": 49,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 94 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2443,
-          29.2436,
-          10
-        ]
-      },
-      "id": "us7000qa5e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "78 km N of Tatsugō, Japan",
-        "time": 1751436442218,
-        "updated": 1751437611040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa5c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa5c.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qa5c",
-        "ids": ",us7000qa5c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 89,
-        "dmin": 2.5,
-        "rms": 1.15,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 78 km N of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4776,
-          29.1475,
-          10
-        ]
-      },
-      "id": "us7000qa5c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "94 km NNW of Tatsugō, Japan",
-        "time": 1751435941972,
-        "updated": 1751437150040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa56",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa56.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qa56",
-        "ids": ",us7000qa56,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 2.509,
-        "rms": 0.89,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 94 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2174,
-          29.2307,
-          10
-        ]
-      },
-      "id": "us7000qa56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "103 km NNW of Tatsugō, Japan",
-        "time": 1751435606784,
-        "updated": 1751436902040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa57",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa57.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qa57",
-        "ids": ",us7000qa57,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 2.477,
-        "rms": 1.31,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 103 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.1529,
-          29.2944,
-          10
-        ]
-      },
-      "id": "us7000qa57"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "90 km NNW of Tatsugō, Japan",
-        "time": 1751435508555,
-        "updated": 1751436501040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa55",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa55.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qa55",
-        "ids": ",us7000qa55,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 2.512,
-        "rms": 1.14,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 90 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.2578,
-          29.2113,
-          10
-        ]
-      },
-      "id": "us7000qa55"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Carlsberg Ridge",
-        "time": 1751434876286,
-        "updated": 1751437407040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa54",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa54.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qa54",
-        "ids": ",us7000qa54,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 23.344,
-        "rms": 0.93,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Carlsberg Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.3265,
-          5.7354,
-          10
-        ]
-      },
-      "id": "us7000qa54"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "58 km NNW of Tatsugō, Japan",
-        "time": 1751433922948,
-        "updated": 1751435217040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qa52",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qa52.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qa52",
-        "ids": ",us7000qa52,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 2.375,
-        "rms": 1.19,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 58 km NNW of Tatsugō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4781,
-          28.9658,
-          10
-        ]
-      },
-      "id": "us7000qa52"
     }
   ],
   "bbox": [
@@ -1536,6 +1416,6 @@
     1.4500000476837,
     179.9932,
     61.9794,
-    561.071
+    564.254
   ]
 }
