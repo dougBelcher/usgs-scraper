@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752068040000,
+    "generated": 1752070862000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 42
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.64,
         "place": "78 km W of Petrolia, CA",
         "time": 1752067835000,
-        "updated": 1752067924474,
+        "updated": 1752070038205,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75207507",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75207507.geojson",
@@ -30,7 +30,7 @@
         "code": "75207507",
         "ids": ",nc75207507,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 18,
         "dmin": 0.6595,
         "rms": 0.33,
@@ -252,6 +252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "2 km NE of Santa María de Jesús, Guatemala",
+        "time": 1752042766871,
+        "updated": 1752070423427,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qbir",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qbir.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000qbir",
+        "ids": ",us7000qbir,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.188,
+        "rms": 0.27,
+        "gap": 149,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 2 km NE of Santa María de Jesús, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6907,
+          14.51,
+          10
+        ]
+      },
+      "id": "us7000qbir"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "164 km N of Manatutu, Timor Leste",
         "time": 1752042114496,
@@ -288,6 +328,46 @@
         ]
       },
       "id": "us7000qbiq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "0 km NNE of Palín, Guatemala",
+        "time": 1752041597040,
+        "updated": 1752069241291,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qbk9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qbk9.geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 223,
+        "net": "us",
+        "code": "7000qbk9",
+        "ids": ",us7000qbk9,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.224,
+        "rms": 0.42,
+        "gap": 168,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 0 km NNE of Palín, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6944,
+          14.4121,
+          10
+        ]
+      },
+      "id": "us7000qbk9"
     },
     {
       "type": "Feature",
@@ -1608,51 +1688,11 @@
         ]
       },
       "id": "us7000qbc4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kermadec Islands region",
-        "time": 1751983200269,
-        "updated": 1751992948040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qbby",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qbby.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qbby",
-        "ids": ",us7000qbby,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.765,
-        "rms": 0.89,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4035,
-          -31.9891,
-          35
-        ]
-      },
-      "id": "us7000qbby"
     }
   ],
   "bbox": [
-    -178.4035,
-    -31.9891,
+    -178.1232,
+    -24.4903,
     0.31000000238419,
     151.6701,
     61.6899,
