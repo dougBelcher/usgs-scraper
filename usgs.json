@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752240810000,
+    "generated": 1752243725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 46
+    "count": 44
   },
   "features": [
     {
@@ -55,11 +55,11 @@
         "mag": 4.2,
         "place": "7 km SW of Lixoúri, Greece",
         "time": 1752236585770,
-        "updated": 1752240302249,
+        "updated": 1752241111979,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qc0n",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qc0n.geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
@@ -92,65 +92,25 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "79 km SSW of Sleetmute, Alaska",
-        "time": 1752233728393,
-        "updated": 1752233896517,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258tpxypz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258tpxypz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "0258tpxypz",
-        "ids": ",ak0258tpxypz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 79 km SSW of Sleetmute, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.8875,
-          61.0813,
-          7.2
-        ]
-      },
-      "id": "ak0258tpxypz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.5,
         "place": "33 km S of Adak, Alaska",
         "time": 1752233537200,
-        "updated": 1752234676040,
+        "updated": 1752241837077,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qc0e",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qc0e.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.3,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 312,
         "net": "us",
         "code": "7000qc0e",
-        "ids": ",us7000qc0e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0258tpxanv,us7000qc0e,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": 90,
         "dmin": 0.409,
         "rms": 0.95,
@@ -335,17 +295,17 @@
         "mag": 4.34,
         "place": "12 km WNW of Calipatria, CA",
         "time": 1752227742950,
-        "updated": 1752240247232,
+        "updated": 1752243463908,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41019687",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41019687.geojson",
-        "felt": 30,
+        "felt": 32,
         "cdi": 5.3,
         "mmi": 4.894,
         "alert": "green",
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 306,
+        "sig": 307,
         "net": "ci",
         "code": "41019687",
         "ids": ",ci41019687,us7000qbzv,",
@@ -892,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.69,
+        "mag": 2.66,
         "place": "46 km ENE of Warm River, Idaho",
-        "time": 1752208708260,
-        "updated": 1752209166690,
+        "time": 1752208708280,
+        "updated": 1752243072680,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80111736",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80111736.geojson",
@@ -905,16 +865,16 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 111,
+        "sig": 109,
         "net": "uu",
         "code": "80111736",
         "ids": ",uu80111736,",
         "sources": ",uu,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.05767,
-        "rms": 0.219999999,
-        "gap": 75,
+        "nst": 30,
+        "dmin": 0.05959,
+        "rms": 0.17,
+        "gap": 73,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.7 - 46 km ENE of Warm River, Idaho"
@@ -922,9 +882,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.76000213623,
-          44.2229995727539,
-          2.94000005722046
+          -110.760833333333,
+          44.2203333333333,
+          4.37
         ]
       },
       "id": "uu80111736"
@@ -1808,46 +1768,6 @@
         ]
       },
       "id": "tx2025nlxbop"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "40 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1752155662600,
-        "updated": 1752156867040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qbt8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qbt8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qbt8",
-        "ids": ",us7000qbt8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.335,
-        "rms": 0.9,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 40 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.1543,
-          52.8863,
-          86.461
-        ]
-      },
-      "id": "us7000qbt8"
     }
   ],
   "bbox": [
@@ -1855,7 +1775,7 @@
     -41.3098,
     0.34000000357628,
     179.9733,
-    61.0813,
+    51.9729,
     548.562
   ]
 }
