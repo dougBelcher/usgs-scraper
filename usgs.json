@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752578399000,
+    "generated": 1752583699000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.48000002,
+        "place": "4 km SW of Pāhala, Hawaii",
+        "time": 1752582421960,
+        "updated": 1752582658490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74726252",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74726252.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74726252",
+        "ids": ",hv74726252,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.04138,
+        "rms": 0.180000007,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.503173828125,
+          19.1698341369629,
+          30.7099990844727
+        ]
+      },
+      "id": "hv74726252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "1 km NW of Zurich, Kansas",
+        "time": 1752579966897,
+        "updated": 1752580752067,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcs3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcs3.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "7000qcs3",
+        "ids": ",us7000qcs3,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.484,
+        "rms": 0.57,
+        "gap": 72,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.0 - 1 km NW of Zurich, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4493,
+          39.2433,
+          5
+        ]
+      },
+      "id": "us7000qcs3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
         "place": "37 km SSW of Cantwell, Alaska",
         "time": 1752575606394,
-        "updated": 1752575696776,
+        "updated": 1752578422040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02590bhhgr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02590bhhgr.geojson",
@@ -28,8 +108,8 @@
         "sig": 121,
         "net": "ak",
         "code": "02590bhhgr",
-        "ids": ",ak02590bhhgr,",
-        "sources": ",ak,",
+        "ids": ",us7000qcs0,ak02590bhhgr,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -215,7 +295,7 @@
         "mag": 5.7,
         "place": "Kermadec Islands, New Zealand",
         "time": 1752573299387,
-        "updated": 1752577999292,
+        "updated": 1752582150633,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcrv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcrv.geojson",
@@ -230,7 +310,7 @@
         "code": "7000qcrv",
         "ids": ",us7000qcrv,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 191,
         "dmin": 0.947,
         "rms": 0.82,
@@ -1608,86 +1688,6 @@
         ]
       },
       "id": "us7000qcky"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "44 km ENE of Pedro Bay, Alaska",
-        "time": 1752495482055,
-        "updated": 1752564079199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258yp1qg3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258yp1qg3.geojson",
-        "felt": 95,
-        "cdi": 4.3,
-        "mmi": 3.293,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 339,
-        "net": "ak",
-        "code": "0258yp1qg3",
-        "ids": ",ak0258yp1qg3,at00sze262,us7000qcku,",
-        "sources": ",ak,at,us,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.4 - 44 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.3308,
-          59.8706,
-          134.8
-        ]
-      },
-      "id": "ak0258yp1qg3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "80 km NE of Masohi, Indonesia",
-        "time": 1752493022056,
-        "updated": 1752494087040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qckq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qckq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qckq",
-        "ids": ",us7000qckq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.713,
-        "rms": 0.65,
-        "gap": 50,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 80 km NE of Masohi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.5355,
-          -2.8383,
-          10
-        ]
-      },
-      "id": "us7000qckq"
     }
   ],
   "bbox": [
