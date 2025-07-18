@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752843005000,
+    "generated": 1752845827000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 37
   },
   "features": [
     {
@@ -1332,42 +1332,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.97,
-        "place": "11 km NNW of Stanley, Idaho",
-        "time": 1752762267530,
-        "updated": 1752823224401,
+        "mag": 2.7,
+        "place": "13 km NNW of Stanley, Idaho",
+        "time": 1752762467526,
+        "updated": 1752845677040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90102493",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90102493.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd7p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd7p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "7000qd7p",
+        "ids": ",us7000qd7p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.244,
+        "rms": 0.71,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 13 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9816,
+          44.3306,
+          10
+        ]
+      },
+      "id": "us7000qd7p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "12 km NNW of Stanley, Idaho",
+        "time": 1752762266632,
+        "updated": 1752845522605,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd7m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd7m.geojson",
         "felt": 1,
         "cdi": 4.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 136,
-        "net": "mb",
-        "code": "90102493",
-        "ids": ",mb90102493,",
-        "sources": ",mb,",
+        "sig": 113,
+        "net": "us",
+        "code": "7000qd7m",
+        "ids": ",mb90102493,us7000qd7m,",
+        "sources": ",mb,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.02524,
-        "rms": 0.15,
-        "gap": 63,
+        "nst": 32,
+        "dmin": 0.018,
+        "rms": 0.51,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 11 km NNW of Stanley, Idaho"
+        "title": "M 2.7 - 12 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.992166666667,
-          44.3166666666667,
-          5.7
+          -115.0177,
+          44.3172,
+          10
         ]
       },
-      "id": "mb90102493"
+      "id": "us7000qd7m"
     },
     {
       "type": "Feature",
@@ -1408,6 +1448,46 @@
         ]
       },
       "id": "us7000qd7l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "95 km SSE of Sand Point, Alaska",
+        "time": 1752761251034,
+        "updated": 1752845291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd7j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd7j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000qd7j",
+        "ids": ",us7000qd7j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.42,
+        "rms": 0.81,
+        "gap": 201,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 95 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.0633,
+          54.5146,
+          35
+        ]
+      },
+      "id": "us7000qd7j"
     }
   ],
   "bbox": [
