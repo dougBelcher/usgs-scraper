@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752877338000,
+    "generated": 1752880888000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "95 km SSE of Sand Point, Alaska",
+        "time": 1752876794561,
+        "updated": 1752879645040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdjv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdjv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000qdjv",
+        "ids": ",ak02595h4f2x,us7000qdjv,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.315,
+        "rms": 0.44,
+        "gap": 201,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 95 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.87,
+          54.5618,
+          37.721
+        ]
+      },
+      "id": "us7000qdjv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1752876725505,
+        "updated": 1752878222040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdjx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdjx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000qdjx",
+        "ids": ",us7000qdjx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 3.978,
+        "rms": 0.79,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.6532,
+          -19.285,
+          583.522
+        ]
+      },
+      "id": "us7000qdjx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us7000qdbl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1752792900920,
-        "updated": 1752819875607,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41025207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41025207.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "ci",
-        "code": "41025207",
-        "ids": ",ci41025207,us7000qdbb,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 104,
-        "dmin": 0.06086,
-        "rms": 0.21,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8130035,
-          35.3221664,
-          6.21
-        ]
-      },
-      "id": "ci41025207"
     }
   ],
   "bbox": [
@@ -1376,6 +1416,6 @@
     0.3,
     179.9185,
     67.4771,
-    518.917
+    583.522
   ]
 }
