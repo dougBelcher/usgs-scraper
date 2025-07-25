@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753457092000,
+    "generated": 1753460958000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "70 km WSW of Tari, Papua New Guinea",
+        "time": 1753458390570,
+        "updated": 1753459476040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv4w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qv4w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000qv4w",
+        "ids": ",us6000qv4w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.969,
+        "rms": 0.96,
+        "gap": 124,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 70 km WSW of Tari, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4059,
+          -6.1853,
+          42.304
+        ]
+      },
+      "id": "us6000qv4w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 5.7,
         "place": "west of Macquarie Island",
         "time": 1753447555456,
-        "updated": 1753456342648,
+        "updated": 1753459834119,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv3y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qv3y.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "6000qv3y",
         "ids": ",us6000qv3y,",
         "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 59,
         "dmin": 7.208,
         "rms": 0.71,
@@ -295,12 +335,12 @@
         "mag": 3.6,
         "place": "4 km W of Diamond Ridge, Alaska",
         "time": 1753441730199,
-        "updated": 1753456984374,
+        "updated": 1753458699034,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259gvb2cb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259gvb2cb.geojson",
-        "felt": 28,
-        "cdi": 4.6,
+        "felt": 30,
+        "cdi": 4.3,
         "mmi": 3.154,
         "alert": null,
         "status": "reviewed",
@@ -1092,38 +1132,38 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
+        "mag": 5.5,
         "place": "Azores-Cape St. Vincent Ridge",
-        "time": 1753406942968,
-        "updated": 1753456146040,
+        "time": 1753406942929,
+        "updated": 1753457966011,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000quyn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000quyn.geojson",
         "felt": 8,
         "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
+        "mmi": 0,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 418,
+        "sig": 468,
         "net": "us",
         "code": "6000quyn",
         "ids": ",us6000quyn,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 92,
-        "dmin": 4.917,
-        "rms": 0.67,
-        "gap": 33,
-        "magType": "mb",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 184,
+        "dmin": 4.893,
+        "rms": 0.5,
+        "gap": 28,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - Azores-Cape St. Vincent Ridge"
+        "title": "M 5.5 - Azores-Cape St. Vincent Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.0396,
-          37.7028,
+          -17.9725,
+          37.6856,
           10
         ]
       },
@@ -1968,46 +2008,6 @@
         ]
       },
       "id": "us6000qun0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "77 km NW of Yakutat, Alaska",
-        "time": 1753373516638,
-        "updated": 1753411926362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259fark6t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259fark6t.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.817,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "0259fark6t",
-        "ids": ",us6000quma,ak0259fark6t,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.79,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 77 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.7119,
-          60.0355,
-          10.1
-        ]
-      },
-      "id": "ak0259fark6t"
     }
   ],
   "bbox": [
