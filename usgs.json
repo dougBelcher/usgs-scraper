@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753643918000,
+    "generated": 1753647875000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 38
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "236 km SE of Attu Station, Alaska",
-        "time": 1753641818087,
-        "updated": 1753643226040,
+        "mag": 4.4,
+        "place": "5 km S of Hukay, Philippines",
+        "time": 1753646324134,
+        "updated": 1753647454040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvie.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvip.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qvip",
+        "ids": ",us6000qvip,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 8.98,
+        "rms": 0.58,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 5 km S of Hukay, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7046,
+          13.7963,
+          178.521
+        ]
+      },
+      "id": "us6000qvip"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "254 km W of Ozernovskiy, Russia",
+        "time": 1753643537519,
+        "updated": 1753644454040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvii",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvii.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000qvii",
+        "ids": ",us6000qvii,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 3.217,
+        "rms": 0.68,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 254 km W of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8662,
+          51.8384,
+          406.959
+        ]
+      },
+      "id": "us6000qvii"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "236 km SE of Attu Station, Alaska",
+        "time": 1753641818087,
+        "updated": 1753646563362,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvie",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvie.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
         "sig": 246,
         "net": "us",
         "code": "6000qvie",
-        "ids": ",us6000qvie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0259karfjb,us6000qvie,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
         "nst": 41,
         "dmin": 2.239,
         "rms": 0.53,
@@ -88,46 +168,6 @@
         ]
       },
       "id": "ak0259kamay9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "4 km ENE of Houston, Alaska",
-        "time": 1753637308828,
-        "updated": 1753641523040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259ka2m9u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259ka2m9u.geojson",
-        "felt": 6,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 114,
-        "net": "ak",
-        "code": "0259ka2m9u",
-        "ids": ",ak0259ka2m9u,us6000qvia,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.22,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km ENE of Houston, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7463,
-          61.6441,
-          42.4
-        ]
-      },
-      "id": "ak0259ka2m9u"
     },
     {
       "type": "Feature",
@@ -208,6 +248,46 @@
         ]
       },
       "id": "pr71490693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "250 km SSW of Adak, Alaska",
+        "time": 1753629178327,
+        "updated": 1753645860040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvik.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000qvik",
+        "ids": ",ak0259k8shcq,us6000qvik,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.688,
+        "rms": 0.49,
+        "gap": 268,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 250 km SSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.3287,
+          49.8956,
+          10
+        ]
+      },
+      "id": "us6000qvik"
     },
     {
       "type": "Feature",
@@ -1055,12 +1135,12 @@
         "mag": 2.9,
         "place": "4 km SE of Paradise, Kansas",
         "time": 1753587553250,
-        "updated": 1753589741049,
+        "updated": 1753644872986,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvfa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvfa.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1070,7 +1150,7 @@
         "code": "6000qvfa",
         "ids": ",us6000qvfa,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": 20,
         "dmin": 0.677,
         "rms": 0.94,
@@ -1531,11 +1611,11 @@
     }
   ],
   "bbox": [
-    -177.8375,
+    -178.3287,
     -60.1057,
     4.69,
     178.2672,
-    61.6441,
+    60.2164,
     619.93
   ]
 }
