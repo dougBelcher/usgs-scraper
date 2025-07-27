@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753641045000,
+    "generated": 1753643918000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 38
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "236 km SE of Attu Station, Alaska",
+        "time": 1753641818087,
+        "updated": 1753643226040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvie",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvie.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000qvie",
+        "ids": ",us6000qvie,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.239,
+        "rms": 0.53,
+        "gap": 225,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 236 km SE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.2329,
+          51.1388,
+          10
+        ]
+      },
+      "id": "us6000qvie"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.4,
         "place": "68 km ENE of Ouzinkie, Alaska",
         "time": 1753640415634,
-        "updated": 1753640545187,
+        "updated": 1753641280040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259kamay9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259kamay9.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +68,9 @@
         "sig": 178,
         "net": "ak",
         "code": "0259kamay9",
-        "ids": ",ak0259kamay9,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak0259kamay9,us6000qvid,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.44,
@@ -55,7 +95,7 @@
         "mag": 2.7,
         "place": "4 km ENE of Houston, Alaska",
         "time": 1753637308828,
-        "updated": 1753638667376,
+        "updated": 1753641523040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259ka2m9u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259ka2m9u.geojson",
@@ -68,8 +108,8 @@
         "sig": 114,
         "net": "ak",
         "code": "0259ka2m9u",
-        "ids": ",ak0259ka2m9u,",
-        "sources": ",ak,",
+        "ids": ",ak0259ka2m9u,us6000qvia,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1488,86 +1528,6 @@
         ]
       },
       "id": "us6000qvdh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1753556063654,
-        "updated": 1753557103040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvd3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvd3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000qvd3",
-        "ids": ",us6000qvd3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 140,
-        "dmin": 1.458,
-        "rms": 0.68,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 165 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7372,
-          52.3097,
-          10
-        ]
-      },
-      "id": "us6000qvd3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "102 km SSW of Uyuni, Bolivia",
-        "time": 1753555114457,
-        "updated": 1753567409040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvd1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvd1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qvd1",
-        "ids": ",us6000qvd1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 99,
-        "dmin": 1.861,
-        "rms": 1.02,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 102 km SSW of Uyuni, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.243,
-          -21.2978,
-          181.886
-        ]
-      },
-      "id": "us6000qvd1"
     }
   ],
   "bbox": [
