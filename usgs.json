@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753820812000,
+    "generated": 1753824174000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "34 km WNW of Anchor Point, Alaska",
+        "time": 1753823939320,
+        "updated": 1753824049699,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259nngyvg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259nngyvg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "0259nngyvg",
+        "ids": ",ak0259nngyvg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 34 km WNW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4059,
+          59.8989,
+          91.8
+        ]
+      },
+      "id": "ak0259nngyvg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "80 km NW of San Antonio de los Cobres, Argentina",
+        "time": 1753821373693,
+        "updated": 1753822331040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw4s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qw4s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qw4s",
+        "ids": ",us6000qw4s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.46,
+        "rms": 1,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 80 km NW of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7605,
+          -23.6125,
+          187.95
+        ]
+      },
+      "id": "us6000qw4s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1692,10 +1772,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
+        "mag": 5,
         "place": "Macquarie Island region",
-        "time": 1753743542567,
-        "updated": 1753744766040,
+        "time": 1753743543634,
+        "updated": 1753823165040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvuf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvuf.geojson",
@@ -1705,26 +1785,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 385,
         "net": "us",
         "code": "6000qvuf",
         "ids": ",us6000qvuf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.401,
-        "rms": 0.74,
-        "gap": 104,
+        "nst": 46,
+        "dmin": 3.363,
+        "rms": 0.64,
+        "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.1 - Macquarie Island region"
+        "title": "M 5.0 - Macquarie Island region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          157.8626,
-          -57.8367,
-          30.901
+          157.725,
+          -57.7838,
+          38.671
         ]
       },
       "id": "us6000qvuf"
@@ -1814,8 +1894,8 @@
       "properties": {
         "mag": 5.8,
         "place": "Macquarie Island region",
-        "time": 1753740920903,
-        "updated": 1753796459932,
+        "time": 1753740920909,
+        "updated": 1753822956579,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvvp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvvp.geojson",
@@ -1831,9 +1911,9 @@
         "ids": ",us6000qvvp,",
         "sources": ",us,",
         "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 41,
-        "dmin": 3.431,
-        "rms": 0.5,
+        "nst": 42,
+        "dmin": 3.426,
+        "rms": 0.52,
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
@@ -1842,8 +1922,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          157.6979,
-          -57.8501,
+          157.784,
+          -57.8546,
           10
         ]
       },
@@ -1928,166 +2008,6 @@
         ]
       },
       "id": "us6000qvsb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "26 km ESE of Clam Gulch, Alaska",
-        "time": 1753737170522,
-        "updated": 1753763323908,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259lzwbf3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259lzwbf3.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 1.89,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "ak",
-        "code": "0259lzwbf3",
-        "ids": ",ak0259lzwbf3,us6000qvs5,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 26 km ESE of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.9334,
-          60.1573,
-          32.6
-        ]
-      },
-      "id": "ak0259lzwbf3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "76 km SSW of Masachapa, Nicaragua",
-        "time": 1753736123740,
-        "updated": 1753797155040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000qvrw",
-        "ids": ",us6000qvrw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 75,
-        "dmin": 1.121,
-        "rms": 0.72,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 76 km SSW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7883,
-          11.1548,
-          49.85
-        ]
-      },
-      "id": "us6000qvrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "91 km NNE of Los Andes, Chile",
-        "time": 1753735913848,
-        "updated": 1753798756040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvrv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvrv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000qvrv",
-        "ids": ",us6000qvrv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.746,
-        "rms": 0.66,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 91 km NNE of Los Andes, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.0627,
-          -32.1402,
-          122.918
-        ]
-      },
-      "id": "us6000qvrv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "164 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1753735909335,
-        "updated": 1753798550040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvxr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qvxr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000qvxr",
-        "ids": ",us6000qvxr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.463,
-        "rms": 0.47,
-        "gap": 204,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 164 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.0604,
-          52.8985,
-          10
-        ]
-      },
-      "id": "us6000qvxr"
     }
   ],
   "bbox": [
