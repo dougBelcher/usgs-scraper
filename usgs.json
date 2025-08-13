@@ -1,31 +1,111 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755066843000,
+    "generated": 1755069723000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "1 km NW of La Mirada, CA",
+        "time": 1755069037510,
+        "updated": 1755069713960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41259712",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41259712.geojson",
+        "felt": 69,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 135,
+        "net": "ci",
+        "code": "41259712",
+        "ids": ",ci41259712,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 159,
+        "dmin": 0.05409,
+        "rms": 0.26,
+        "gap": 17,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km NW of La Mirada, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0183333,
+          33.9248333,
+          12.67
+        ]
+      },
+      "id": "ci41259712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "164 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1755067083011,
+        "updated": 1755068096040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r09w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r09w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000r09w",
+        "ids": ",us6000r09w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 75,
+        "dmin": 1.444,
+        "rms": 1.08,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 164 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.5079,
+          52.1309,
+          10
+        ]
+      },
+      "id": "us6000r09w"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
         "place": "35 km SSW of Raureka, New Zealand",
         "time": 1755064392875,
-        "updated": 1755066542850,
+        "updated": 1755069113528,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r09q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r09q.geojson",
-        "felt": 17,
+        "felt": 30,
         "cdi": 4.6,
-        "mmi": 4.094,
+        "mmi": 4.582,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 377,
+        "sig": 383,
         "net": "us",
         "code": "6000r09q",
         "ids": ",us6000r09q,",
@@ -1252,6 +1332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "3 km SW of Makurazaki, Japan",
+        "time": 1754987803558,
+        "updated": 1755067161040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r02s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r02s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000r02s",
+        "ids": ",us6000r02s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 101,
+        "dmin": 0.299,
+        "rms": 0.7,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 3 km SW of Makurazaki, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.291,
+          31.243,
+          171.038
+        ]
+      },
+      "id": "us6000r02s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.3,
         "place": "193 km WNW of Abepura, Indonesia",
         "time": 1754987062788,
@@ -1368,52 +1488,12 @@
         ]
       },
       "id": "us6000r01g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1754981932338,
-        "updated": 1755063710782,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ptwvfe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ptwvfe.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": 4.432,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "tx",
-        "code": "2025ptwvfe",
-        "ids": ",tx2025ptwvfe,us6000r019,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.368,
-          31.671,
-          6.0999
-        ]
-      },
-      "id": "tx2025ptwvfe"
     }
   ],
   "bbox": [
     -173.3116,
     -39.9415,
-    6.0999,
+    6.87,
     176.6917,
     79.1922,
     524.209
