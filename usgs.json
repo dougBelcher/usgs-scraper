@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755429432000,
+    "generated": 1755434544000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "88 km SSW of Attu Station, Alaska",
+        "time": 1755431928794,
+        "updated": 1755433384040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1q5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1q5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000r1q5",
+        "ids": ",us6000r1q5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 1.058,
+        "rms": 0.63,
+        "gap": 204,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 88 km SSW of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7061,
+          52.1051,
+          10
+        ]
+      },
+      "id": "us6000r1q5"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 3.4,
         "place": "14 km SW of Susitna, Alaska",
         "time": 1755413413013,
-        "updated": 1755427503182,
+        "updated": 1755431532368,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025aitxtgp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025aitxtgp.geojson",
-        "felt": 182,
+        "felt": 183,
         "cdi": 3.1,
         "mmi": 2.401,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 234,
+        "sig": 235,
         "net": "ak",
         "code": "025aitxtgp",
         "ids": ",ak025aitxtgp,us6000r1pf,",
@@ -215,11 +255,11 @@
         "mag": 5,
         "place": "34 km ENE of Port-Olry, Vanuatu",
         "time": 1755407186062,
-        "updated": 1755409208362,
+        "updated": 1755430792554,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1p3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1p3.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1048,93 +1088,13 @@
         ]
       },
       "id": "us6000r1le"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1755346103906,
-        "updated": 1755354678615,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1l5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1l5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000r1l5",
-        "ids": ",us6000r1l5,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 69,
-        "dmin": 3.151,
-        "rms": 0.65,
-        "gap": 80,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.8076,
-          -23.1842,
-          10
-        ]
-      },
-      "id": "us6000r1l5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.65,
-        "place": "21 km NNE of Dorado, Puerto Rico",
-        "time": 1755344531740,
-        "updated": 1755345897250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71492963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71492963.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 108,
-        "net": "pr",
-        "code": "71492963",
-        "ids": ",pr71492963,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.3366,
-        "rms": 0.18,
-        "gap": 247,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 21 km NNE of Dorado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2216666666667,
-          18.6455,
-          63.32
-        ]
-      },
-      "id": "pr71492963"
     }
   ],
   "bbox": [
     -175.8682,
     -57.3474,
     10,
-    170.8076,
+    172.7061,
     62.2948,
     163.929
   ]
