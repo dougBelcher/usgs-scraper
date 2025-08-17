@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755440294000,
+    "generated": 1755444014000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "55 km SSE of Whites City, New Mexico",
+        "time": 1755441394021,
+        "updated": 1755441764993,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qdqpry",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qdqpry.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2025qdqpry",
+        "ids": ",tx2025qdqpry,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 55 km SSE of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.184,
+          31.704,
+          4.1064
+        ]
+      },
+      "id": "tx2025qdqpry"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,7 +215,7 @@
         "mag": 3.4,
         "place": "14 km SW of Susitna, Alaska",
         "time": 1755413413013,
-        "updated": 1755431532368,
+        "updated": 1755443285900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025aitxtgp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025aitxtgp.geojson",
@@ -575,17 +615,17 @@
         "mag": 5.8,
         "place": "12 km NNW of Poso, Indonesia",
         "time": 1755383932129,
-        "updated": 1755440222329,
+        "updated": 1755443577114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1n3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1n3.geojson",
-        "felt": 16,
-        "cdi": 9.1,
+        "felt": 21,
+        "cdi": 8.8,
         "mmi": 8.385,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 665,
+        "sig": 668,
         "net": "us",
         "code": "6000r1n3",
         "ids": ",us6000r1n3,",
@@ -1008,52 +1048,12 @@
         ]
       },
       "id": "us6000r1ln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "13 km W of Pāhala, Hawaii",
-        "time": 1755357040011,
-        "updated": 1755370483902,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1lk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1lk.geojson",
-        "felt": 2,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000r1lk",
-        "ids": ",us6000r1lk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.05,
-        "rms": 0.52,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 13 km W of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.6096,
-          19.1956,
-          11.76
-        ]
-      },
-      "id": "us6000r1lk"
     }
   ],
   "bbox": [
     -175.8682,
     -57.3474,
-    8,
+    4.1064,
     172.7061,
     62.2948,
     163.929
