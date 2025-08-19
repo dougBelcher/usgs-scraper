@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755602268000,
+    "generated": 1755607429000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "3 km WSW of Pāhala, Hawaii",
+        "time": 1755605201450,
+        "updated": 1755605464780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74755747",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74755747.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74755747",
+        "ids": ",hv74755747,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.05255,
+        "rms": 0.119999997,
+        "gap": 133,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km WSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.503829956055,
+          19.1903324127197,
+          31.0499992370605
+        ]
+      },
+      "id": "hv74755747"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,6 +212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "96 km SSE of Sand Point, Alaska",
+        "time": 1755591899265,
+        "updated": 1755602422040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r20j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r20j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.587,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000r20j",
+        "ids": ",us6000r20j,ak025am61wl6,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 50,
+        "dmin": 0.329,
+        "rms": 0.92,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 96 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.8718,
+          54.5467,
+          31.435
+        ]
+      },
+      "id": "us6000r20j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.5,
         "place": "8 km ENE of Calumet, Oklahoma",
         "time": 1755591626738,
@@ -208,6 +288,46 @@
         ]
       },
       "id": "ok2025qewf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "7 km ESE of San Vicente Pacaya, Guatemala",
+        "time": 1755590739415,
+        "updated": 1755602671040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r20h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r20h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000r20h",
+        "ids": ",us6000r20h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.16,
+        "rms": 0.67,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 7 km ESE of San Vicente Pacaya, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5759,
+          14.3902,
+          190.562
+        ]
+      },
+      "id": "us6000r20h"
     },
     {
       "type": "Feature",
@@ -575,7 +695,7 @@
         "mag": 5.6,
         "place": "south of Tonga",
         "time": 1755558192705,
-        "updated": 1755570789809,
+        "updated": 1755606993040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1yq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1yq.geojson",
@@ -590,7 +710,7 @@
         "code": "6000r1yq",
         "ids": ",us6000r1yq,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 68,
         "dmin": 35.156,
         "rms": 0.42,
@@ -1168,213 +1288,13 @@
         ]
       },
       "id": "us6000r1vl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "126 km E of McCarthy, Alaska",
-        "time": 1755520417401,
-        "updated": 1755534922660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025akky6dd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025akky6dd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "025akky6dd",
-        "ids": ",ak025akky6dd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.34,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 126 km E of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.5456,
-          61.4837,
-          10
-        ]
-      },
-      "id": "ak025akky6dd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "46 km W of Palaióchora, Greece",
-        "time": 1755519111583,
-        "updated": 1755522923040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1vh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1vh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000r1vh",
-        "ids": ",us6000r1vh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 2.123,
-        "rms": 1.13,
-        "gap": 203,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 46 km W of Palaióchora, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.1762,
-          35.3083,
-          46.265
-        ]
-      },
-      "id": "us6000r1vh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "76 km S of Acajutla, El Salvador",
-        "time": 1755518216212,
-        "updated": 1755520225040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1ve",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1ve.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000r1ve",
-        "ids": ",us6000r1ve,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 0.989,
-        "rms": 1.29,
-        "gap": 189,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 76 km S of Acajutla, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.7484,
-          12.9081,
-          34.983
-        ]
-      },
-      "id": "us6000r1ve"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "192 km SSE of Vilyuchinsk, Russia",
-        "time": 1755518136083,
-        "updated": 1755519221040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1vf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1vf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000r1vf",
-        "ids": ",us6000r1vf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 1.77,
-        "rms": 1.12,
-        "gap": 151,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 192 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.425,
-          51.3213,
-          22.326
-        ]
-      },
-      "id": "us6000r1vf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of Timor",
-        "time": 1755517432464,
-        "updated": 1755525065020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r1vc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r1vc.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000r1vc",
-        "ids": ",us6000r1vc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 3.048,
-        "rms": 1.06,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of Timor"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.8222,
-          -12.4098,
-          10
-        ]
-      },
-      "id": "us6000r1vc"
     }
   ],
   "bbox": [
     -175.971,
     -57.1107,
     0.2454176694,
-    159.425,
+    157.3654,
     61.7915,
     388.558
   ]
