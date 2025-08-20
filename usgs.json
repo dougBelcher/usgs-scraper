@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755667234000,
+    "generated": 1755671538000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "central Mid-Atlantic Ridge",
+        "time": 1755669329677,
+        "updated": 1755670758040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r299",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r299.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000r299",
+        "ids": ",us6000r299,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 11.64,
+        "rms": 0.98,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - central Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.9347,
+          5.5058,
+          10
+        ]
+      },
+      "id": "us6000r299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "34 km WSW of Ackerly, Texas",
+        "time": 1755668299803,
+        "updated": 1755668729471,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qilywb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qilywb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2025qilywb",
+        "ids": ",tx2025qilywb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 34 km WSW of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.057,
+          32.408,
+          3.2849
+        ]
+      },
+      "id": "tx2025qilywb"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "71 km SSW of Shungnak, Alaska",
         "time": 1755666994972,
-        "updated": 1755667168659,
+        "updated": 1755669589040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025anrr6ry",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025anrr6ry.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +108,9 @@
         "sig": 138,
         "net": "ak",
         "code": "025anrr6ry",
-        "ids": ",ak025anrr6ry,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak025anrr6ry,us6000r28t,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.67,
@@ -335,17 +415,17 @@
         "mag": 2.5,
         "place": "2 km NW of Woodside, CA",
         "time": 1755644813490,
-        "updated": 1755665994185,
+        "updated": 1755669005932,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75226012",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75226012.geojson",
-        "felt": 202,
+        "felt": 205,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 179,
+        "sig": 180,
         "net": "nc",
         "code": "75226012",
         "ids": ",nc75226012,",
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "mb90107888"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "267 km SSE of Ushuaia, Argentina",
-        "time": 1755583722089,
-        "updated": 1755624410040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r201",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r201.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.596,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "6000r201",
-        "ids": ",us6000r201,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 73,
-        "dmin": 2.207,
-        "rms": 0.88,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.7 - 267 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0691,
-          -57.1107,
-          10
-        ]
-      },
-      "id": "us6000r201"
     }
   ],
   "bbox": [
