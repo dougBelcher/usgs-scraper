@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756128727000,
+    "generated": 1756131676000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
     {
@@ -92,6 +92,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "48 km NW of Pante Makasar, Timor Leste",
+        "time": 1756104798115,
+        "updated": 1756128732040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r3l8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r3l8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000r3l8",
+        "ids": ",us6000r3l8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.843,
+        "rms": 0.79,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 48 km NW of Pante Makasar, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0324,
+          -8.9389,
+          107.269
+        ]
+      },
+      "id": "us6000r3l8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.1,
         "place": "east of the Kuril Islands",
         "time": 1756104514882,
@@ -135,12 +175,12 @@
         "mag": 3.7,
         "place": "36 km SSE of Boca de Yuma, Dominican Republic",
         "time": 1756104310730,
-        "updated": 1756107385253,
+        "updated": 1756130975784,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025237000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025237000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +190,7 @@
         "code": "2025237000",
         "ids": ",pr2025237000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 22,
         "dmin": 0.4369,
         "rms": 0.63,
