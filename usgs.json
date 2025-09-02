@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756826525000,
+    "generated": 1756830377000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 53
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1756828218955,
+        "updated": 1756829842040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtbk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtbk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000qtbk",
+        "ids": ",us7000qtbk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 102,
+        "dmin": 4.33,
+        "rms": 0.52,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7826,
+          -20.8956,
+          568.532
+        ]
+      },
+      "id": "us7000qtbk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "134 km E of Ozernovskiy, Russia",
+        "time": 1756823966942,
+        "updated": 1756828987040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt9s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt9s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000qt9s",
+        "ids": ",us7000qt9s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 200,
+        "dmin": 1.641,
+        "rms": 0.6,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 134 km E of Ozernovskiy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.4226,
+          51.3913,
+          52.439
+        ]
+      },
+      "id": "us7000qt9s"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,22 +175,22 @@
         "mag": 3.7,
         "place": "53 km NE of Valmy, Nevada",
         "time": 1756819893309,
-        "updated": 1756825138167,
+        "updated": 1756828027303,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903669",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903669.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.862,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 211,
         "net": "nn",
         "code": "00903669",
-        "ids": ",nn00903669,",
-        "sources": ",nn,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "ids": ",nn00903669,us7000qt9a,",
+        "sources": ",nn,us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": 10,
         "dmin": 0.302,
         "rms": 0.2106,
@@ -935,7 +1015,7 @@
         "mag": 4.2,
         "place": "68 km ENE of San Vicente, Mexico",
         "time": 1756795316323,
-        "updated": 1756824531129,
+        "updated": 1756830268189,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt7m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt7m.geojson",
@@ -1168,6 +1248,46 @@
         ]
       },
       "id": "pr71494318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "48 km NE of Valmy, Nevada",
+        "time": 1756784534867,
+        "updated": 1756830067900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903646",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903646.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "nn",
+        "code": "00903646",
+        "ids": ",nn00903646,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.316,
+        "rms": 0.1827,
+        "gap": 139.68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 48 km NE of Valmy, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7695,
+          41.1399,
+          0
+        ]
+      },
+      "id": "nn00903646"
     },
     {
       "type": "Feature",
@@ -1412,6 +1532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.61,
+        "place": "23 km NW of Stanley, Idaho",
+        "time": 1756769552810,
+        "updated": 1756827954636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90109858",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90109858.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "mb",
+        "code": "90109858",
+        "ids": ",mb90109858,",
+        "sources": ",mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.3395,
+        "rms": 0.17,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 23 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.177166666667,
+          44.3486666666667,
+          8.27
+        ]
+      },
+      "id": "mb90109858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.4,
         "place": "13 km NNW of Tanaina, Alaska",
         "time": 1756765874174,
@@ -1615,17 +1775,17 @@
         "mag": 3.71,
         "place": "11 km S of Tres Pinos, CA",
         "time": 1756758398050,
-        "updated": 1756792447022,
+        "updated": 1756827844122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231747",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231747.geojson",
-        "felt": 115,
+        "felt": 116,
         "cdi": 3,
         "mmi": 4.384,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 247,
         "net": "nc",
         "code": "75231747",
         "ids": ",ew1756758400,nc75231747,",
@@ -2008,134 +2168,14 @@
         ]
       },
       "id": "ak025b7sxli9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "6 km WNW of Aguas Buenas, Puerto Rico",
-        "time": 1756742759350,
-        "updated": 1756743895670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71494263",
-        "ids": ",pr71494263,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.08601,
-        "rms": 0.24,
-        "gap": 122,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 6 km WNW of Aguas Buenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1645,
-          18.2701666666667,
-          58.25
-        ]
-      },
-      "id": "pr71494263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "16 km NE of Thousand Palms, CA",
-        "time": 1756742369400,
-        "updated": 1756743917040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280792.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "ci",
-        "code": "41280792",
-        "ids": ",ci41280792,us7000qt1r,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 79,
-        "dmin": 0.06539,
-        "rms": 0.15,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km NE of Thousand Palms, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2496667,
-          33.9095,
-          6.46
-        ]
-      },
-      "id": "ci41280792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "108 km SSE of Vilyuchinsk, Russia",
-        "time": 1756740952713,
-        "updated": 1756744402040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qt16",
-        "ids": ",us7000qt16,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.041,
-        "rms": 0.53,
-        "gap": 172,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 108 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          158.7715,
-          51.9867,
-          78.895
-        ]
-      },
-      "id": "us7000qt16"
     }
   ],
   "bbox": [
-    -178.5572,
-    -15.1029,
-    1.5,
+    -178.7826,
+    -20.8956,
+    0,
     160.3969,
     62.9232,
-    419.944
+    568.532
   ]
 }
