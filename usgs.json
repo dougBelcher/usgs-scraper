@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756887942000,
+    "generated": 1756891270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "55 km NE of Valmy, Nevada",
+        "time": 1756888147291,
+        "updated": 1756890617074,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903702",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903702.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.89,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "nn",
+        "code": "00903702",
+        "ids": ",us7000qtfz,nn00903702,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.327,
+        "rms": 0.1486,
+        "gap": 141.28999999999996,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 55 km NE of Valmy, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.742,
+          41.1963,
+          8.4
+        ]
+      },
+      "id": "nn00903702"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.4,
+        "place": "34 km E of Camiña, Chile",
+        "time": 1756883911030,
+        "updated": 1756888191040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtfr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtfr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000qtfr",
+        "ids": ",us7000qtfr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.409,
+        "rms": 1.12,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 34 km E of Camiña, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1045,
+          -19.2663,
+          126.259
+        ]
+      },
+      "id": "us7000qtfr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "7 km NW of Eagle River, Alaska",
         "time": 1756881426432,
-        "updated": 1756884659073,
+        "updated": 1756888745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025baxzx3b",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025baxzx3b.geojson",
@@ -68,8 +148,8 @@
         "sig": 108,
         "net": "ak",
         "code": "025baxzx3b",
-        "ids": ",ak025baxzx3b,",
-        "sources": ",ak,",
+        "ids": ",ak025baxzx3b,us7000qtfi,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "us7000qt8g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "99 km SSW of Leava, Wallis and Futuna",
-        "time": 1756803514425,
-        "updated": 1756813583040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qt85",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qt85.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000qt85",
-        "ids": ",us7000qt85,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 2.418,
-        "rms": 0.96,
-        "gap": 66,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 99 km SSW of Leava, Wallis and Futuna"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5572,
-          -15.1029,
-          419.944
-        ]
-      },
-      "id": "us7000qt85"
     }
   ],
   "bbox": [
