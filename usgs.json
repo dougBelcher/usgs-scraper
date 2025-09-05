@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757056745000,
+    "generated": 1757060748000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "53 km NE of Valmy, Nevada",
+        "time": 1757058223556,
+        "updated": 1757060284040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qu18",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qu18.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000qu18",
+        "ids": ",us7000qu18,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.833,
+        "rms": 0.77,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 53 km NE of Valmy, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7679,
+          41.1907,
+          11.576
+        ]
+      },
+      "id": "us7000qu18"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.7,
         "place": "2 km WNW of San Miguel del Puerto, Mexico",
         "time": 1757053994571,
-        "updated": 1757055116907,
+        "updated": 1757058243197,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qu0w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qu0w.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 341,
         "net": "us",
         "code": "7000qu0w",
         "ids": ",us7000qu0w,",
@@ -95,22 +135,22 @@
         "mag": 3.2,
         "place": "51 km NE of Valmy, Nevada",
         "time": 1757050471729,
-        "updated": 1757054530111,
+        "updated": 1757057002957,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903865",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903865.geojson",
         "felt": 1,
         "cdi": 2.2,
-        "mmi": null,
+        "mmi": 3.083,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 158,
         "net": "nn",
         "code": "00903865",
-        "ids": ",nn00903865,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
+        "ids": ",nn00903865,us7000qu0p,",
+        "sources": ",nn,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 9,
         "dmin": 0.321,
         "rms": 0.1579,
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "ak025bcmo11k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "47 km N of Kobuk, Alaska",
-        "time": 1756974131460,
-        "updated": 1756985893040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qtqr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qtqr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000qtqr",
-        "ids": ",us7000qtqr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.466,
-        "rms": 0.64,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 47 km N of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.6895,
-          67.3226,
-          10
-        ]
-      },
-      "id": "us7000qtqr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "56 km NE of Valmy, Nevada",
-        "time": 1756972215503,
-        "updated": 1757016427170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903803",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903803.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "nn",
-        "code": "00903803",
-        "ids": ",us7000qtqp,nn00903803,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.374,
-        "rms": 0.1849,
-        "gap": 159.56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 56 km NE of Valmy, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7087,
-          41.1857,
-          9.1
-        ]
-      },
-      "id": "nn00903803"
     }
   ],
   "bbox": [
@@ -1775,7 +1735,7 @@
     -24.2844,
     -0.10999999940395,
     169.82,
-    67.3226,
+    60.1281,
     550.584
   ]
 }
