@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757168161000,
+    "generated": 1757171837000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 29
+    "api": "1.14.1",
+    "count": 30
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "5 km NW of Meadow Lakes, Alaska",
+        "time": 1757171095020,
+        "updated": 1757171434263,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bg1rw5a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bg1rw5a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025bg1rw5a",
+        "ids": ",ak025bg1rw5a,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.9,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 5 km NW of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6766,
+          61.6618,
+          54.9
+        ]
+      },
+      "id": "ak025bg1rw5a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "86 km NNW of Karluk, Alaska",
+        "time": 1757171057116,
+        "updated": 1757171657040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bg1rt7z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bg1rt7z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "025bg1rt7z",
+        "ids": ",us7000quem,ak025bg1rt7z,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.45,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 86 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2043,
+          58.237,
+          0
+        ]
+      },
+      "id": "ak025bg1rt7z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "43 km WNW of Toyah, Texas",
-        "time": 1757167539812,
-        "updated": 1757167900533,
+        "place": "42 km NW of Toyah, Texas",
+        "time": 1757167539616,
+        "updated": 1757169402331,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025roiczs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025roiczs.geojson",
@@ -23,31 +103,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 129,
         "net": "tx",
         "code": "2025roiczs",
-        "ids": ",tx2025roiczs,",
-        "sources": ",tx,",
+        "ids": ",us7000qued,tx2025roiczs,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 38,
+        "nst": 53,
         "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 74,
+        "rms": 0.2,
+        "gap": 73,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 43 km WNW of Toyah, Texas"
+        "title": "M 2.9 - 42 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.176,
-          31.525,
-          4.0868
+          -104.161,
+          31.529,
+          6.4203
         ]
       },
       "id": "tx2025roiczs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "9 km E of Georgetown, Idaho",
+        "time": 1757167443289,
+        "updated": 1757168821040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quec",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quec.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000quec",
+        "ids": ",us7000quec,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.548,
+        "rms": 0.4,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km E of Georgetown, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.253,
+          42.4986,
+          5.392
+        ]
+      },
+      "id": "us7000quec"
     },
     {
       "type": "Feature",
@@ -495,17 +615,17 @@
         "mag": 3.04,
         "place": "5 km SSW of Puxico, Missouri",
         "time": 1757126262670,
-        "updated": 1757167976644,
+        "updated": 1757169470484,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60613606",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60613606.geojson",
-        "felt": 59,
+        "felt": 61,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 169,
+        "sig": 170,
         "net": "nm",
         "code": "60613606",
         "ids": ",us7000qubn,nm60613606,",
@@ -1088,91 +1208,11 @@
         ]
       },
       "id": "us7000qu58"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Drake Passage",
-        "time": 1757084817228,
-        "updated": 1757090638040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qu53",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qu53.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qu53",
-        "ids": ",us7000qu53,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 4.411,
-        "rms": 1.13,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Drake Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.0993,
-          -60.4016,
-          10
-        ]
-      },
-      "id": "us7000qu53"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "109 km SSW of Adak, Alaska",
-        "time": 1757084217645,
-        "updated": 1757099853843,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bedycsh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bedycsh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.431,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "ak",
-        "code": "025bedycsh",
-        "ids": ",ak025bedycsh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 109 km SSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.1832,
-          50.9521,
-          15.5
-        ]
-      },
-      "id": "ak025bedycsh"
     }
   ],
   "bbox": [
     -178.8248,
-    -60.4016,
+    -22.8683,
     0,
     170.979,
     72.6849,
