@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757185989000,
+    "generated": 1757189904000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "42 km ENE of Hicks Bay, New Zealand",
+        "time": 1757188505089,
+        "updated": 1757189780110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qufv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qufv.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 3.888,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000qufv",
+        "ids": ",us7000qufv,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 38,
+        "dmin": 0.36,
+        "rms": 1.18,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 42 km ENE of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.7255,
+          -37.4257,
+          38.154
+        ]
+      },
+      "id": "us7000qufv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -735,17 +775,17 @@
         "mag": 3.04,
         "place": "5 km SSW of Puxico, Missouri",
         "time": 1757126262670,
-        "updated": 1757181175294,
+        "updated": 1757188462750,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60613606",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60613606.geojson",
-        "felt": 67,
+        "felt": 69,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 173,
+        "sig": 174,
         "net": "nm",
         "code": "60613606",
         "ids": ",us7000qubn,nm60613606,",
@@ -1052,9 +1092,9 @@
   ],
   "bbox": [
     -178.8248,
-    -22.8683,
+    -37.4257,
     0,
-    170.979,
+    178.7255,
     63.2332,
     568.998
   ]
