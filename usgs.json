@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757326996000,
+    "generated": 1757330176000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 46
+    "api": "1.14.1",
+    "count": 44
   },
   "features": [
     {
@@ -52,6 +52,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.7,
+        "place": "22 km N of Spencer, Idaho",
+        "time": 1757320000863,
+        "updated": 1757330087196,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qupu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qupu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.617,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000qupu",
+        "ids": ",us7000qupu,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
+        "nst": 45,
+        "dmin": 0.312,
+        "rms": 0.43,
+        "gap": 35,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 3.7 - 22 km N of Spencer, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2132,
+          44.5645,
+          10
+        ]
+      },
+      "id": "us7000qupu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "152 km ESE of Petropavlovsk-Kamchatsky, Russia",
         "time": 1757319971848,
@@ -92,39 +132,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.31,
-        "place": "7 km ENE of Calumet, Oklahoma",
-        "time": 1757319913492,
-        "updated": 1757323568168,
+        "mag": 3.15,
+        "place": "6 km E of Calumet, Oklahoma",
+        "time": 1757319913009,
+        "updated": 1757328985084,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rpkk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rpkk.geojson",
-        "felt": 3,
-        "cdi": 3.6,
+        "felt": 4,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 170,
+        "sig": 154,
         "net": "ok",
         "code": "2025rpkk",
         "ids": ",ok2025rpkk,us7000qupt,",
         "sources": ",ok,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 103,
-        "dmin": 0.1550556421,
-        "rms": 0.6285866402,
-        "gap": 25.7308197,
+        "nst": 83,
+        "dmin": 0,
+        "rms": 0.15,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 7 km ENE of Calumet, Oklahoma"
+        "title": "M 3.2 - 6 km E of Calumet, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.04027557,
-          35.62182999,
-          1.467048407
+          -98.04433333,
+          35.61183333,
+          7.01
         ]
       },
       "id": "ok2025rpkk"
@@ -208,46 +248,6 @@
         ]
       },
       "id": "nc75234827"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "7 km ENE of Calumet, Oklahoma",
-        "time": 1757315733925,
-        "updated": 1757320405918,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rpid",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rpid.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "ok",
-        "code": "2025rpid",
-        "ids": ",ok2025rpid,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.153252244,
-        "rms": 0.6137752296,
-        "gap": 25.79472351,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km ENE of Calumet, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.04121399,
-          35.62527084,
-          1.337371588
-        ]
-      },
-      "id": "ok2025rpid"
     },
     {
       "type": "Feature",
@@ -495,11 +495,11 @@
         "mag": 3.23,
         "place": "2 km SE of Pinnacles, CA",
         "time": 1757306175600,
-        "updated": 1757309550331,
+        "updated": 1757328900952,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75234792",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75234792.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1768,86 +1768,6 @@
         ]
       },
       "id": "pr71494983"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "132 km SE of Kandrian, Papua New Guinea",
-        "time": 1757241520343,
-        "updated": 1757242591040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qujp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qujp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qujp",
-        "ids": ",us7000qujp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.387,
-        "rms": 1.01,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 132 km SE of Kandrian, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.3641,
-          -7.0848,
-          10
-        ]
-      },
-      "id": "us7000qujp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "11 km SW of Willow, Alaska",
-        "time": 1757241076820,
-        "updated": 1757242960573,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bhmhrzg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bhmhrzg.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "ak",
-        "code": "025bhmhrzg",
-        "ids": ",ak025bhmhrzg,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.5,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 11 km SW of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.2125,
-          61.6818,
-          31.4
-        ]
-      },
-      "id": "ak025bhmhrzg"
     }
   ],
   "bbox": [
