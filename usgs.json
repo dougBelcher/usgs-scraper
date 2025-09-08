@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757358976000,
+    "generated": 1757362944000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 43
+    "api": "1.14.1",
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "132 km SE of Akhiok, Alaska",
+        "time": 1757360023390,
+        "updated": 1757361690040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quuw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quuw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "7000quuw",
+        "ids": ",us7000quuw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.914,
+        "rms": 0.32,
+        "gap": 218,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 132 km SE of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.9161,
+          55.9818,
+          10
+        ]
+      },
+      "id": "us7000quuw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,13 +495,13 @@
         "mag": 3.7,
         "place": "22 km N of Spencer, Idaho",
         "time": 1757320000863,
-        "updated": 1757353688248,
+        "updated": 1757359287778,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qupu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qupu.geojson",
         "felt": 3,
         "cdi": 3.4,
-        "mmi": 3.6,
+        "mmi": 3.59,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1648,86 +1688,6 @@
         ]
       },
       "id": "us7000qulz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "10 km S of Sındırgı, Turkey",
-        "time": 1757275399539,
-        "updated": 1757276418040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quln.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000quln",
-        "ids": ",us7000quln,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.999,
-        "rms": 0.62,
-        "gap": 57,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.4 - 10 km S of Sındırgı, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.1857,
-          39.1451,
-          10
-        ]
-      },
-      "id": "us7000quln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "48 km S of Whites City, New Mexico",
-        "time": 1757273747529,
-        "updated": 1757283280698,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rqouio",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rqouio.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025rqouio",
-        "ids": ",us7000qulk,tx2025rqouio,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 48 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.372,
-          31.736,
-          5.5872
-        ]
-      },
-      "id": "tx2025rqouio"
     }
   ],
   "bbox": [
