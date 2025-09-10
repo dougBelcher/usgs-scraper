@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757496044000,
+    "generated": 1757499598000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.2.0",
-    "count": 49
+    "count": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "11 km NNE of Midland, Texas",
+        "time": 1757496655935,
+        "updated": 1757499393192,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rvhxtv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rvhxtv.geojson",
+        "felt": 12,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "tx",
+        "code": "2025rvhxtv",
+        "ids": ",tx2025rvhxtv,us7000qv6q,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 11 km NNE of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.024,
+          32.086,
+          8.0566
+        ]
+      },
+      "id": "tx2025rvhxtv"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1968,13 +2008,53 @@
         ]
       },
       "id": "us7000quzd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "255 km ESE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1757414122352,
+        "updated": 1757499543040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quza",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quza.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000quza",
+        "ids": ",us7000quza,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 5.113,
+        "rms": 0.63,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 255 km ESE of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.3169,
+          55.4528,
+          10
+        ]
+      },
+      "id": "us7000quza"
     }
   ],
   "bbox": [
     -154.89483333333,
     -37.3956,
     0,
-    161.5104,
+    166.3169,
     69.2314,
     259.049
   ]
