@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757675727000,
+    "generated": 1757680771000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.2.0",
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "9 km SSE of Ratliff City, Oklahoma",
+        "time": 1757678134632,
+        "updated": 1757678359632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rwzj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rwzj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "ok",
+        "code": "2025rwzj",
+        "ids": ",ok2025rwzj,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.01879972033,
+        "rms": 0.5138996851,
+        "gap": 88.87165833,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km SSE of Ratliff City, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4541626,
+          34.37356949,
+          7.628772259
+        ]
+      },
+      "id": "ok2025rwzj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -772,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
+        "mag": 2.6,
         "place": "13 km NNW of Midland, Texas",
-        "time": 1757630736921,
-        "updated": 1757638845927,
+        "time": 1757630737452,
+        "updated": 1757680508576,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rydzll",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rydzll.geojson",
@@ -783,28 +823,28 @@
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 97,
+        "sig": 105,
         "net": "tx",
         "code": "2025rydzll",
         "ids": ",tx2025rydzll,",
         "sources": ",tx,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 94,
+        "nst": 30,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 34,
-        "magType": "mlv",
+        "rms": 0.1,
+        "gap": 63,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 13 km NNW of Midland, Texas"
+        "title": "M 2.6 - 13 km NNW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.136,
-          32.105,
-          4.1904
+          -102.144,
+          32.108,
+          6.5918
         ]
       },
       "id": "tx2025rydzll"
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "ak025bo9ymhh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "60 km SSW of Shungnak, Alaska",
-        "time": 1757591783204,
-        "updated": 1757592011160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bo9dyz4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bo9dyz4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025bo9dyz4",
-        "ids": ",ak025bo9dyz4,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.9,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 60 km SSW of Shungnak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.5142,
-          66.3707,
-          11.5
-        ]
-      },
-      "id": "ak025bo9dyz4"
     }
   ],
   "bbox": [
@@ -1295,7 +1295,7 @@
     -56.3186,
     0.019999999552965,
     170.8323,
-    66.3707,
+    61.7092,
     564.825
   ]
 }
