@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757751784000,
+    "generated": 1757755007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 47
+    "api": "1.14.1",
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "16 km WNW of Progreso, B.C., MX",
+        "time": 1757754825850,
+        "updated": 1757754968264,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290528",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290528.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ci",
+        "code": "41290528",
+        "ids": ",ci41290528,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 74,
+        "dmin": 0.005556,
+        "rms": 0.27,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 16 km WNW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.731163,
+          32.6455002,
+          10.39
+        ]
+      },
+      "id": "ci41290528"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -455,17 +495,17 @@
         "mag": 7.4,
         "place": "111 km E of Petropavlovsk-Kamchatsky, Russia",
         "time": 1757731074754,
-        "updated": 1757751495706,
+        "updated": 1757754413818,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvw5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvw5.geojson",
-        "felt": 17,
+        "felt": 19,
         "cdi": 7.9,
         "mmi": 7.517,
         "alert": "orange",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1013,
+        "sig": 1015,
         "net": "us",
         "code": "7000qvw5",
         "ids": ",us7000qvw5,at00t2i9z8,pt25256000,",
@@ -1808,86 +1848,6 @@
         ]
       },
       "id": "us7000qvnl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "66 km ENE of Ugashik, Alaska",
-        "time": 1757667719777,
-        "updated": 1757667883048,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bpveqp5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bpveqp5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025bpveqp5",
-        "ids": ",ak025bpveqp5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.21,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 66 km ENE of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.3099,
-          57.645,
-          108.3
-        ]
-      },
-      "id": "ak025bpveqp5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "295 km SSE of Isangel, Vanuatu",
-        "time": 1757667480887,
-        "updated": 1757668693040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvnd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvnd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qvnd",
-        "ids": ",us7000qvnd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 3.245,
-        "rms": 1.26,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 295 km SSE of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.8323,
-          -21.7798,
-          174.862
-        ]
-      },
-      "id": "us7000qvnd"
     }
   ],
   "bbox": [
