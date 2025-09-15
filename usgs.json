@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757949675000,
+    "generated": 1757953565000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "Mariana Islands region",
+        "time": 1757950353859,
+        "updated": 1757953058040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qwax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000qwax",
+        "ids": ",us7000qwax,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 5.092,
+        "rms": 0.91,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6779,
+          20.2901,
+          10
+        ]
+      },
+      "id": "us7000qwax"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +255,11 @@
         "mag": 5,
         "place": "28 km NNE of Anse-Bertrand, Guadeloupe",
         "time": 1757927781775,
-        "updated": 1757948356630,
+        "updated": 1757952318397,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qw9p",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qw9p.geojson",
-        "felt": 26,
+        "felt": 27,
         "cdi": 5,
         "mmi": null,
         "alert": null,
@@ -1168,46 +1208,6 @@
         ]
       },
       "id": "pr71495663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "34 km SSW of Los Ybanez, Texas",
-        "time": 1757864404149,
-        "updated": 1757920990676,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sddbjv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sddbjv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025sddbjv",
-        "ids": ",tx2025sddbjv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 34 km SSW of Los Ybanez, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.07,
-          32.438,
-          8.9111
-        ]
-      },
-      "id": "tx2025sddbjv"
     }
   ],
   "bbox": [
