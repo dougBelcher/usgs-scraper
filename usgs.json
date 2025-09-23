@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758654962000,
+    "generated": 1758658922000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 33
   },
   "features": [
     {
@@ -55,13 +55,13 @@
         "mag": 5.5,
         "place": "44 km SSW of San Juan, Peru",
         "time": 1758649159418,
-        "updated": 1758654556737,
+        "updated": 1758657816604,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcdc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcdc.geojson",
         "felt": 1,
         "cdi": 2.5,
-        "mmi": 4.422,
+        "mmi": 4.378,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -70,7 +70,7 @@
         "code": "6000rcdc",
         "ids": ",us6000rcdc,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 107,
         "dmin": 4.027,
         "rms": 0.74,
@@ -88,6 +88,86 @@
         ]
       },
       "id": "us6000rcdc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "84 km S of Vilyuchinsk, Russia",
+        "time": 1758648402942,
+        "updated": 1758658397040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcdb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcdb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rcdb",
+        "ids": ",us6000rcdb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.873,
+        "rms": 0.63,
+        "gap": 201,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 84 km S of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.3384,
+          52.1724,
+          79.144
+        ]
+      },
+      "id": "us6000rcdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "57 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1758647722039,
+        "updated": 1758656674040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcd9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcd9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rcd9",
+        "ids": ",us6000rcd9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 92,
+        "dmin": 0.513,
+        "rms": 0.53,
+        "gap": 107,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 57 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.4685,
+          53.1642,
+          74.727
+        ]
+      },
+      "id": "us6000rcd9"
     },
     {
       "type": "Feature",
@@ -335,22 +415,22 @@
         "mag": 4.9,
         "place": "23 km NE of Jalālābād, Afghanistan",
         "time": 1758624633247,
-        "updated": 1758627363040,
+        "updated": 1758656417887,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rc98",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rc98.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "6000rc98",
         "ids": ",us6000rc98,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 1.239,
         "rms": 0.89,
@@ -855,11 +935,11 @@
         "mag": 2.96,
         "place": "3 km SE of Berkeley, CA",
         "time": 1758590517600,
-        "updated": 1758654734547,
+        "updated": 1758658901513,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75240717",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75240717.geojson",
-        "felt": 2541,
+        "felt": 2545,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
@@ -1248,126 +1328,6 @@
         ]
       },
       "id": "us6000rc62"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "61 km NE of Valmy, Nevada",
-        "time": 1758570946272,
-        "updated": 1758579347124,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904812",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904812.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": 3.553,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "nn",
-        "code": "00904812",
-        "ids": ",nn00904812,us6000rc5r,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 14,
-        "dmin": 0.336,
-        "rms": 0.1354,
-        "gap": 145.15999999999997,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.7 - 61 km NE of Valmy, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6995,
-          41.2448,
-          8.4
-        ]
-      },
-      "id": "nn00904812"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "179 km SSE of Vilyuchinsk, Russia",
-        "time": 1758570062245,
-        "updated": 1758571390040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rc5k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rc5k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rc5k",
-        "ids": ",us6000rc5k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 1.629,
-        "rms": 1.02,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 179 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.6878,
-          51.5271,
-          10
-        ]
-      },
-      "id": "us6000rc5k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "193 km SSE of Vilyuchinsk, Russia",
-        "time": 1758569496439,
-        "updated": 1758570666040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rc5j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rc5j.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rc5j",
-        "ids": ",us6000rc5j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.784,
-        "rms": 0.85,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 193 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.3299,
-          51.2916,
-          10
-        ]
-      },
-      "id": "us6000rc5j"
     }
   ],
   "bbox": [
