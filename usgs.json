@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758622844000,
+    "generated": 1758626199000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 42
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4,
         "place": "105 km N of Suárez, Puerto Rico",
         "time": 1758619603900,
-        "updated": 1758622064458,
+        "updated": 1758625425531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025266002",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025266002.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +28,9 @@
         "sig": 246,
         "net": "pr",
         "code": "2025266002",
-        "ids": ",us6000rc8w,pr2025266002,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
+        "ids": ",pr2025266002,us6000rc8w,",
+        "sources": ",pr,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 24,
         "dmin": 1.123,
         "rms": 0.37,
@@ -535,11 +535,11 @@
         "mag": 2.96,
         "place": "3 km SE of Berkeley, CA",
         "time": 1758590517600,
-        "updated": 1758621322657,
+        "updated": 1758624473797,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75240717",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75240717.geojson",
-        "felt": 2504,
+        "felt": 2506,
         "cdi": 4.6,
         "mmi": null,
         "alert": null,
@@ -1688,46 +1688,6 @@
         ]
       },
       "id": "us7000qxtc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "21 km NW of Stanley, Idaho",
-        "time": 1758539554860,
-        "updated": 1758555430130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90112878",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90112878.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "mb",
-        "code": "90112878",
-        "ids": ",mb90112878,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.3142,
-        "rms": 0.24,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 21 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.157666666667,
-          44.327,
-          8.77
-        ]
-      },
-      "id": "mb90112878"
     }
   ],
   "bbox": [
