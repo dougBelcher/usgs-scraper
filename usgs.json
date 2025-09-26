@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758921401000,
+    "generated": 1758925004000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 38
+    "api": "1.14.1",
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "19 km NW of Hualin, China",
+        "time": 1758923398649,
+        "updated": 1758924517040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd99",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd99.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000rd99",
+        "ids": ",us6000rd99,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 112,
+        "dmin": 1.254,
+        "rms": 0.71,
+        "gap": 20,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 19 km NW of Hualin, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5827,
+          34.9307,
+          10
+        ]
+      },
+      "id": "us6000rd99"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,42 +92,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
-        "place": "92 km SSE of Sand Point, Alaska",
-        "time": 1758911422510,
-        "updated": 1758912519318,
+        "mag": 3.8,
+        "place": "109 km SSE of Sand Point, Alaska",
+        "time": 1758911420766,
+        "updated": 1758922163040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cd6gn6m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cd6gn6m.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd8e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd8e.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 3.028,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "025cd6gn6m",
-        "ids": ",ak025cd6gn6m,",
-        "sources": ",ak,",
+        "sig": 222,
+        "net": "us",
+        "code": "6000rd8e",
+        "ids": ",ak025cd6gn6m,us6000rd8e,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.85,
-        "gap": null,
+        "nst": 33,
+        "dmin": 0.384,
+        "rms": 0.66,
+        "gap": 197,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 92 km SSE of Sand Point, Alaska"
+        "title": "M 3.8 - 109 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.9874,
-          54.5578,
-          6.5
+          -159.7297,
+          54.4567,
+          19.038
         ]
       },
-      "id": "ak025cd6gn6m"
+      "id": "us6000rd8e"
     },
     {
       "type": "Feature",
@@ -735,11 +775,11 @@
         "mag": 5.9,
         "place": "231 km W of Bandon, Oregon",
         "time": 1758869129022,
-        "updated": 1758916356822,
+        "updated": 1758921872165,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd1w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd1w.geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 2.5,
         "mmi": 0,
         "alert": "green",
@@ -935,12 +975,12 @@
         "mag": 2.8,
         "place": "7 km WNW of Point MacKenzie, Alaska",
         "time": 1758855775879,
-        "updated": 1758858818040,
+        "updated": 1758923560217,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ccxd7g2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ccxd7g2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -948,9 +988,9 @@
         "sig": 121,
         "net": "ak",
         "code": "025ccxd7g2",
-        "ids": ",us6000rd12,ak025ccxd7g2,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",ak025ccxd7g2,us6000rd12,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
         "rms": 0.77,
@@ -1488,6 +1528,46 @@
         ]
       },
       "id": "us6000rcyr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "212 km SSE of Vilyuchinsk, Russia",
+        "time": 1758839918698,
+        "updated": 1758923773040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcyq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rcyq",
+        "ids": ",us6000rcyq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 1.942,
+        "rms": 1.24,
+        "gap": 155,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 212 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.6658,
+          51.1883,
+          10
+        ]
+      },
+      "id": "us6000rcyq"
     },
     {
       "type": "Feature",
