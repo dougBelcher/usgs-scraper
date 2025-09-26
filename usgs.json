@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758890514000,
+    "generated": 1758893290000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.2.0",
     "count": 48
   },
   "features": [
@@ -292,6 +292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "239 km N of Manatutu, Timor Leste",
+        "time": 1758875606854,
+        "updated": 1758891787040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd2a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd2a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000rd2a",
+        "ids": ",us6000rd2a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 3.345,
+        "rms": 1.02,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 239 km N of Manatutu, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7752,
+          -6.3613,
+          513.957
+        ]
+      },
+      "id": "us6000rd2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "131 km SE of Petropavlovsk-Kamchatsky, Russia",
         "time": 1758874834163,
@@ -415,7 +455,7 @@
         "mag": 5.9,
         "place": "231 km W of Bandon, Oregon",
         "time": 1758869129022,
-        "updated": 1758884136394,
+        "updated": 1758891344636,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd1w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd1w.geojson",
@@ -532,10 +572,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
+        "mag": 3.8,
         "place": "18 km ENE of Walker Lake, Nevada",
         "time": 1758866702800,
-        "updated": 1758884488567,
+        "updated": 1758893065156,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905033",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905033.geojson",
@@ -545,7 +585,7 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 238,
+        "sig": 226,
         "net": "nn",
         "code": "00905033",
         "ids": ",us6000rd1k,nn00905033,",
@@ -555,9 +595,9 @@
         "dmin": 0.093,
         "rms": 0.1633,
         "gap": 50.170000000000016,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.9 - 18 km ENE of Walker Lake, Nevada"
+        "title": "M 3.8 - 18 km ENE of Walker Lake, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1888,46 +1928,6 @@
         ]
       },
       "id": "ci41097487"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.83,
-        "place": "3 km SE of Berkeley, CA",
-        "time": 1758804932350,
-        "updated": 1758878492479,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75241837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75241837.geojson",
-        "felt": 993,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 461,
-        "net": "nc",
-        "code": "75241837",
-        "ids": ",nc75241837,us6000rct0,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 74,
-        "dmin": 0.01644,
-        "rms": 0.07,
-        "gap": 30,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km SE of Berkeley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.241333007812,
-          37.857666015625,
-          8.38000011444092
-        ]
-      },
-      "id": "nc75241837"
     }
   ],
   "bbox": [
@@ -1936,6 +1936,6 @@
     4.2926,
     169.0212,
     79.469,
-    191.668
+    513.957
   ]
 }
