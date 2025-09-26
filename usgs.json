@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758875290000,
+    "generated": 1758878521000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 49
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "131 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1758874834163,
+        "updated": 1758876570040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd29",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd29.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000rd29",
+        "ids": ",us6000rd29,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.145,
+        "rms": 1.08,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 131 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.0765,
+          52.2795,
+          42.51
+        ]
+      },
+      "id": "us6000rd29"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 5.9,
         "place": "231 km W of Bandon, Oregon",
         "time": 1758869129022,
-        "updated": 1758875248462,
+        "updated": 1758877823421,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd1w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rd1w.geojson",
@@ -134,8 +174,8 @@
       "properties": {
         "mag": 2.6,
         "place": "17 km NNW of Toyah, Texas",
-        "time": 1758868743256,
-        "updated": 1758870911040,
+        "time": 1758868743451,
+        "updated": 1758876012911,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025syltpk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025syltpk.geojson",
@@ -143,7 +183,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
@@ -151,10 +191,10 @@
         "ids": ",us6000rd1u,tx2025syltpk,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 36,
+        "nst": 50,
         "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 61,
+        "rms": 0.2,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 17 km NNW of Toyah, Texas"
@@ -162,9 +202,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.829,
-          31.468,
-          6.6947
+          -103.834,
+          31.466,
+          4.2926
         ]
       },
       "id": "tx2025syltpk"
@@ -1334,48 +1374,8 @@
       "properties": {
         "mag": 2.6,
         "place": "15 km NNW of Toyah, Texas",
-        "time": 1758822586965,
-        "updated": 1758824869040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sxmiui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sxmiui.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025sxmiui",
-        "ids": ",us6000rcw1,tx2025sxmiui,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1,
-        "rms": 1.3,
-        "gap": 77,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 2.6 - 15 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.848,
-          31.449,
-          5.2316
-        ]
-      },
-      "id": "tx2025sxmiui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "15 km NNW of Toyah, Texas",
         "time": 1758822586850,
-        "updated": 1758830416821,
+        "updated": 1758876159734,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sxmiwc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sxmiwc.geojson",
@@ -1388,8 +1388,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2025sxmiwc",
-        "ids": ",tx2025sxmiwc,",
-        "sources": ",tx,",
+        "ids": ",tx2025sxmiwc,us6000rcw1,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 36,
         "dmin": 0.1,
@@ -1615,17 +1615,17 @@
         "mag": 2.83,
         "place": "3 km SE of Berkeley, CA",
         "time": 1758804932350,
-        "updated": 1758875130414,
+        "updated": 1758878492479,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75241837",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75241837.geojson",
-        "felt": 991,
+        "felt": 993,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 460,
+        "sig": 461,
         "net": "nc",
         "code": "75241837",
         "ids": ",nc75241837,us6000rct0,",
@@ -1968,132 +1968,12 @@
         ]
       },
       "id": "us6000rcs5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "24 km N of Wongsorejo, Indonesia",
-        "time": 1758791051442,
-        "updated": 1758868610228,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcry",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcry.geojson",
-        "felt": 34,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000rcry",
-        "ids": ",us6000rcry,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 70,
-        "dmin": 0.748,
-        "rms": 1.23,
-        "gap": 40,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 24 km N of Wongsorejo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.4291,
-          -7.7696,
-          10
-        ]
-      },
-      "id": "us6000rcry"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "292 km SW of Gizo, Solomon Islands",
-        "time": 1758790417557,
-        "updated": 1758791855520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcrx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcrx.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rcrx",
-        "ids": ",us6000rcrx,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 4.954,
-        "rms": 0.56,
-        "gap": 39,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 292 km SW of Gizo, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          154.9494,
-          -9.9596,
-          10
-        ]
-      },
-      "id": "us6000rcrx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "257 km NE of Fais, Micronesia",
-        "time": 1758789748457,
-        "updated": 1758855151326,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcru",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcru.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rcru",
-        "ids": ",us6000rcru,",
-        "sources": ",us,",
-        "types": ",oaf,origin,phase-data,",
-        "nst": 112,
-        "dmin": 3.447,
-        "rms": 0.39,
-        "gap": 71,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 257 km NE of Fais, Micronesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.9821,
-          11.5904,
-          65.291
-        ]
-      },
-      "id": "us6000rcru"
     }
   ],
   "bbox": [
     -174.4515,
     -47.4183,
-    4.7,
+    4.2926,
     169.0212,
     64.5264,
     191.668
