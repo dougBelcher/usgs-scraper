@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759256838000,
+    "generated": 1759259744000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "229 km S of ‘Ohonua, Tonga",
+        "time": 1759254631284,
+        "updated": 1759257111040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdv8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdv8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000rdv8",
+        "ids": ",us6000rdv8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 119,
+        "dmin": 6.578,
+        "rms": 0.73,
+        "gap": 127,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 229 km S of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.2726,
+          -23.3893,
+          10
+        ]
+      },
+      "id": "us6000rdv8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,17 +95,17 @@
         "mag": 6,
         "place": "32 km SE of Kalianget, Indonesia",
         "time": 1759250982696,
-        "updated": 1759256670942,
+        "updated": 1759259629351,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdta",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdta.geojson",
-        "felt": 43,
+        "felt": 45,
         "cdi": 6.2,
-        "mmi": 6.269,
+        "mmi": 6.182,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 581,
+        "sig": 582,
         "net": "us",
         "code": "6000rdta",
         "ids": ",us6000rdta,",
@@ -332,20 +372,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "9 km ESE of Assaria, Kansas",
+        "time": 1759241145781,
+        "updated": 1759259307040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdsb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdsb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000rdsb",
+        "ids": ",us6000rdsb,",
+        "sources": ",us,",
+        "types": ",impact-text,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.689,
+        "rms": 0.74,
+        "gap": 125,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km ESE of Assaria, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5078,
+          38.6334,
+          10
+        ]
+      },
+      "id": "us6000rdsb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.9,
         "place": "11 km ESE of Calape, Philippines",
         "time": 1759240783376,
-        "updated": 1759256365703,
+        "updated": 1759258842987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdrz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdrz.geojson",
-        "felt": 360,
+        "felt": 364,
         "cdi": 8.9,
         "mmi": 7.75,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 1053,
+        "sig": 1056,
         "net": "us",
         "code": "6000rdrz",
         "ids": ",pt25273001,at00t3emvp,us6000rdrz,",
@@ -375,7 +455,7 @@
         "mag": 2.5,
         "place": "16 km NNE of Hermleigh, Texas",
         "time": 1759240621656,
-        "updated": 1759253351615,
+        "updated": 1759258285040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025tgjgrr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025tgjgrr.geojson",
@@ -388,8 +468,8 @@
         "sig": 96,
         "net": "tx",
         "code": "2025tgjgrr",
-        "ids": ",tx2025tgjgrr,",
-        "sources": ",tx,",
+        "ids": ",us6000rdrx,tx2025tgjgrr,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 32,
         "dmin": 0.1,
@@ -1168,50 +1248,10 @@
         ]
       },
       "id": "us6000rdmw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "17 km N of Lake Roberts Heights, New Mexico",
-        "time": 1759171116501,
-        "updated": 1759189298014,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdmj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdmj.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "us",
-        "code": "6000rdmj",
-        "ids": ",us6000rdmj,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.707,
-        "rms": 0.66,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 17 km N of Lake Roberts Heights, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.1078,
-          33.187,
-          10.104
-        ]
-      },
-      "id": "us6000rdmj"
     }
   ],
   "bbox": [
-    -155.5105,
+    -175.2726,
     -32.5992,
     0.42,
     161.0411,
