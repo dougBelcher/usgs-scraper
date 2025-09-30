@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759236311000,
+    "generated": 1759238966000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 20
+    "count": 21
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "45 km W of Salamatof, Alaska",
+        "time": 1759237153016,
+        "updated": 1759237384773,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cjp7mdi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cjp7mdi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "025cjp7mdi",
+        "ids": ",ak025cjp7mdi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.07,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 45 km W of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.1468,
+          60.5969,
+          60.6
+        ]
+      },
+      "id": "ak025cjp7mdi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -88,6 +128,46 @@
         ]
       },
       "id": "pr2025273000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "23 km N of Spencer, Idaho",
+        "time": 1759215944790,
+        "updated": 1759238411540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90113958",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90113958.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "mb",
+        "code": "90113958",
+        "ids": ",mb90113958,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.1284,
+        "rms": 0.16,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 23 km N of Spencer, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.218166666667,
+          44.5681666666667,
+          9.39
+        ]
+      },
+      "id": "mb90113958"
     },
     {
       "type": "Feature",
@@ -375,22 +455,22 @@
         "mag": 5.5,
         "place": "92 km E of Petropavlovsk-Kamchatsky, Russia",
         "time": 1759183643600,
-        "updated": 1759192408415,
+        "updated": 1759237197691,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdnq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdnq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": 4.763,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 466,
         "net": "us",
         "code": "6000rdnq",
         "ids": ",us6000rdnq,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 106,
         "dmin": 0.815,
         "rms": 1.04,
@@ -768,46 +848,6 @@
         ]
       },
       "id": "ak025ci2409y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "160 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1759151113658,
-        "updated": 1759155540040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdkd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdkd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rdkd",
-        "ids": ",us6000rdkd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 1.413,
-        "rms": 0.92,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 160 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5669,
-          52.2295,
-          18.765
-        ]
-      },
-      "id": "us6000rdkd"
     }
   ],
   "bbox": [
