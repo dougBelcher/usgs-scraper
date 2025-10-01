@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759350131000,
+    "generated": 1759353451000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 31
+    "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "7 km ESE of Fox River, Alaska",
+        "time": 1759350148235,
+        "updated": 1759352415798,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025clhajal",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025clhajal.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": 2.531,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "025clhajal",
+        "ids": ",ak025clhajal,us6000re3c,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 7 km ESE of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8455,
+          59.823,
+          35
+        ]
+      },
+      "id": "ak025clhajal"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1168,86 +1208,6 @@
         ]
       },
       "id": "us6000rdxa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "148 km SSE of Vilyuchinsk, Russia",
-        "time": 1759266566711,
-        "updated": 1759271202040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdx2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdx2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000rdx2",
-        "ids": ",us6000rdx2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.393,
-        "rms": 0.35,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 148 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.0411,
-          51.6533,
-          35
-        ]
-      },
-      "id": "us6000rdx2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "73 km W of Ollagüe, Chile",
-        "time": 1759264265956,
-        "updated": 1759337375286,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdws",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rdws.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rdws",
-        "ids": ",us6000rdws,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.549,
-        "rms": 0.97,
-        "gap": 49,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.2 - 73 km W of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.9589,
-          -21.3119,
-          102.815
-        ]
-      },
-      "id": "us6000rdws"
     }
   ],
   "bbox": [
