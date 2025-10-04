@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759594921000,
+    "generated": 1759598104000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 37
+    "count": 35
   },
   "features": [
     {
@@ -55,7 +55,7 @@
         "mag": 2.6,
         "place": "42 km NNW of Glacier View, Alaska",
         "time": 1759591430160,
-        "updated": 1759591778830,
+        "updated": 1759597955040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cqcxo6s",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cqcxo6s.geojson",
@@ -68,8 +68,8 @@
         "sig": 104,
         "net": "ak",
         "code": "025cqcxo6s",
-        "ids": ",ak025cqcxo6s,",
-        "sources": ",ak,",
+        "ids": ",us6000resp,ak025cqcxo6s,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -95,17 +95,17 @@
         "mag": 6,
         "place": "56 km E of Tomioka, Japan",
         "time": 1759591269029,
-        "updated": 1759594609226,
+        "updated": 1759597567370,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000resn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000resn.geojson",
-        "felt": 36,
+        "felt": 38,
         "cdi": 4.3,
         "mmi": 4.499,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 569,
+        "sig": 570,
         "net": "us",
         "code": "6000resn",
         "ids": ",us6000resn,",
@@ -208,6 +208,46 @@
         ]
       },
       "id": "us6000resi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "245 km SE of Vilyuchinsk, Russia",
+        "time": 1759583563941,
+        "updated": 1759595939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000resh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000resh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000resh",
+        "ids": ",us6000resh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 2.172,
+        "rms": 0.61,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 245 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.9921,
+          51.4009,
+          10
+        ]
+      },
+      "id": "us6000resh"
     },
     {
       "type": "Feature",
@@ -335,22 +375,22 @@
         "mag": 2.82,
         "place": "4 km WNW of Lucien, Oklahoma",
         "time": 1759577443350,
-        "updated": 1759577861040,
+        "updated": 1759597544171,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025tldq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025tldq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "ok",
         "code": "2025tldq",
-        "ids": ",us6000res4,ok2025tldq,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2025tldq,us6000res4,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 86,
         "dmin": 0.06454462558,
         "rms": 0.7292507821,
@@ -932,6 +972,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "46 km E of Kokopo, Papua New Guinea",
+        "time": 1759523922013,
+        "updated": 1759596066040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ren9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ren9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000ren9",
+        "ids": ",us6000ren9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 0.517,
+        "rms": 0.41,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 46 km E of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6772,
+          -4.2645,
+          66.915
+        ]
+      },
+      "id": "us6000ren9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "176 km SSE of Vilyuchinsk, Russia",
         "time": 1759523763627,
@@ -972,10 +1052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "72 km SSW of Dalbandin, Pakistan",
-        "time": 1759523372774,
-        "updated": 1759524825040,
+        "mag": 4.8,
+        "place": "69 km SSW of Dalbandin, Pakistan",
+        "time": 1759523372776,
+        "updated": 1759594956040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ren5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ren5.geojson",
@@ -985,26 +1065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 354,
         "net": "us",
         "code": "6000ren5",
         "ids": ",us6000ren5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 7.535,
-        "rms": 0.88,
-        "gap": 98,
+        "nst": 157,
+        "dmin": 7.524,
+        "rms": 0.74,
+        "gap": 76,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 72 km SSW of Dalbandin, Pakistan"
+        "title": "M 4.8 - 69 km SSW of Dalbandin, Pakistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          64.1645,
-          28.2701,
-          52.243
+          64.115,
+          28.3122,
+          52.684
         ]
       },
       "id": "us6000ren5"
@@ -1328,174 +1408,14 @@
         ]
       },
       "id": "us6000remb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "183 km ENE of Levuka, Fiji",
-        "time": 1759511658779,
-        "updated": 1759518075040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rem8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rem8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rem8",
-        "ids": ",us6000rem8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
-        "dmin": 1.775,
-        "rms": 0.73,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 183 km ENE of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.0731,
-          -17.4476,
-          547.676
-        ]
-      },
-      "id": "us6000rem8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "157 km SE of Vilyuchinsk, Russia",
-        "time": 1759508942218,
-        "updated": 1759510578040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rem5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rem5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rem5",
-        "ids": ",us6000rem5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.423,
-        "rms": 1.06,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 157 km SE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7205,
-          51.7631,
-          10
-        ]
-      },
-      "id": "us6000rem5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "south of the Kermadec Islands",
-        "time": 1759508818115,
-        "updated": 1759510066040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rekj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rekj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000rekj",
-        "ids": ",us6000rekj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 4.461,
-        "rms": 1.22,
-        "gap": 181,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.0105,
-          -33.6649,
-          38.893
-        ]
-      },
-      "id": "us6000rekj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "153 km WNW of Tobelo, Indonesia",
-        "time": 1759508650458,
-        "updated": 1759511462040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rejx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rejx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rejx",
-        "ids": ",us6000rejx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.419,
-        "rms": 0.78,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 153 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.6613,
-          2.011,
-          42.838
-        ]
-      },
-      "id": "us6000rejx"
     }
   ],
   "bbox": [
-    -179.0731,
-    -33.6649,
+    -148.3308,
+    -21.9558,
     1.258541703,
     169.4773,
     62.1368,
-    547.676
+    260.922
   ]
 }
