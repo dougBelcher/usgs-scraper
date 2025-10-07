@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759850552000,
+    "generated": 1759854341000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 54
+    "count": 53
   },
   "features": [
     {
@@ -135,17 +135,17 @@
         "mag": 2.68,
         "place": "8 km NE of Alum Rock, CA",
         "time": 1759840637740,
-        "updated": 1759850084904,
+        "updated": 1759852534318,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75246051",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75246051.geojson",
-        "felt": 26,
+        "felt": 28,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 120,
         "net": "nc",
         "code": "75246051",
         "ids": ",nc75246051,",
@@ -332,32 +332,32 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
+        "mag": 3.5,
         "place": "75 km ENE of Tonopah, Nevada",
         "time": 1759828480383,
-        "updated": 1759836568620,
+        "updated": 1759852115620,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905548",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905548.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.423,
+        "mmi": 3.369,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 188,
         "net": "nn",
         "code": "00905548",
-        "ids": ",us6000rfap,nn00905548,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,shakemap,",
+        "ids": ",nn00905548,us6000rfap,",
+        "sources": ",nn,us,",
+        "types": ",moment-tensor,origin,phase-data,shakemap,",
         "nst": 8,
         "dmin": 0.482,
         "rms": 0.1264,
         "gap": 37.920000000000016,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
-        "title": "M 3.7 - 75 km ENE of Tonopah, Nevada"
+        "title": "M 3.5 - 75 km ENE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
@@ -1372,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
-        "place": "7 km W of Castaic, CA",
-        "time": 1759790404750,
-        "updated": 1759791666040,
+        "mag": 2.64,
+        "place": "6 km W of Castaic, CA",
+        "time": 1759790404730,
+        "updated": 1759852911250,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41104159",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41104159.geojson",
@@ -1383,28 +1383,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 107,
         "net": "ci",
         "code": "41104159",
         "ids": ",ci41104159,us6000rf6w,",
         "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 64,
-        "dmin": 0.06636,
+        "nst": 72,
+        "dmin": 0.06168,
         "rms": 0.23,
-        "gap": 49,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 7 km W of Castaic, CA"
+        "title": "M 2.6 - 6 km W of Castaic, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.6955032,
-          34.4858322,
-          17.09
+          -118.6901667,
+          34.488,
+          17.26
         ]
       },
       "id": "ci41104159"
@@ -2128,46 +2128,6 @@
         ]
       },
       "id": "us6000rf59"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "118 km SE of Atka, Alaska",
-        "time": 1759766091915,
-        "updated": 1759778442040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rf5h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rf5h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000rf5h",
-        "ids": ",ak025cto74k6,us6000rf5h,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.066,
-        "rms": 0.76,
-        "gap": 217,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 118 km SE of Atka, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.8197,
-          51.5616,
-          11.943
-        ]
-      },
-      "id": "us6000rf5h"
     }
   ],
   "bbox": [
