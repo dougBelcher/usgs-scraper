@@ -1,25 +1,145 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759846830000,
+    "generated": 1759850552000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 54
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "64 km WNW of Rachel, Nevada",
+        "time": 1759847563770,
+        "updated": 1759847723136,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "nn",
+        "code": "00905583",
+        "ids": ",nn00905583,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.563,
+        "rms": 0.3982,
+        "gap": 325.2199999999999,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 64 km WNW of Rachel, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4649,
+          37.7637,
+          0.9
+        ]
+      },
+      "id": "nn00905583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "11 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1759846834730,
+        "updated": 1759847668870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71497388",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71497388.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "pr",
+        "code": "71497388",
+        "ids": ",pr71497388,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.09284,
+        "rms": 0.18,
+        "gap": 208,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 11 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8511666666667,
+          17.8805,
+          13.75
+        ]
+      },
+      "id": "pr71497388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "48 km W of Pante Makasar, Timor Leste",
+        "time": 1759845354825,
+        "updated": 1759849895040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfcr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rfcr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rfcr",
+        "ids": ",us6000rfcr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.705,
+        "rms": 0.52,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 48 km W of Pante Makasar, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9459,
+          -9.1211,
+          95.08
+        ]
+      },
+      "id": "us6000rfcr"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.68,
         "place": "8 km NE of Alum Rock, CA",
         "time": 1759840637740,
-        "updated": 1759845883583,
+        "updated": 1759850084904,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75246051",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75246051.geojson",
-        "felt": 24,
+        "felt": 26,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -95,22 +215,22 @@
         "mag": 5.1,
         "place": "9 km SSE of Yangī Qal‘ah, Afghanistan",
         "time": 1759836929866,
-        "updated": 1759838116040,
+        "updated": 1759848927058,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfbw",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rfbw.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 5.99,
+        "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 650,
         "net": "us",
         "code": "6000rfbw",
         "ids": ",us6000rfbw,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": 71,
         "dmin": 1.325,
         "rms": 1.22,
@@ -2048,52 +2168,12 @@
         ]
       },
       "id": "us6000rf5h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "253 km ESE of Onagawa Chō, Japan",
-        "time": 1759762679833,
-        "updated": 1759796308021,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rf34",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rf34.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rf34",
-        "ids": ",us6000rf34,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 108,
-        "dmin": 3.883,
-        "rms": 0.93,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 253 km ESE of Onagawa Chō, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.2022,
-          37.7601,
-          10
-        ]
-      },
-      "id": "us6000rf34"
     }
   ],
   "bbox": [
     -178.4766,
     -18.0053,
-    3,
+    0.9,
     160.187,
     57.6258,
     588.621
