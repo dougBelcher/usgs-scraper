@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759983904000,
+    "generated": 1759987164000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.78,
+        "mag": 4,
+        "place": "48 km SE of San Agustín de Valle Fértil, Argentina",
+        "time": 1759983056408,
+        "updated": 1759984939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rfrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "6000rfrq",
+        "ids": ",us6000rfrq,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 37,
+        "dmin": 1.512,
+        "rms": 0.82,
+        "gap": 65,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 48 km SE of San Agustín de Valle Fértil, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0711,
+          -30.9045,
+          36.112
+        ]
+      },
+      "id": "us6000rfrq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.79,
         "place": "22 km SSW of Mammoth, Wyoming",
-        "time": 1759982807050,
-        "updated": 1759983031490,
+        "time": 1759982807140,
+        "updated": 1759985664040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80119046",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80119046.geojson",
@@ -23,18 +63,18 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 119,
+        "sig": 120,
         "net": "uu",
         "code": "80119046",
-        "ids": ",uu80119046,",
-        "sources": ",uu,",
+        "ids": ",us6000rfrp,uu80119046,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1165,
-        "rms": 0.600000024,
-        "gap": 36,
+        "nst": 29,
+        "dmin": 0.117,
+        "rms": 0.28,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.8 - 22 km SSW of Mammoth, Wyoming"
@@ -42,9 +82,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.858001708984,
-          44.8088340759277,
-          1.05999994277954
+          -110.854666666667,
+          44.8046666666667,
+          8.95
         ]
       },
       "id": "uu80119046"
@@ -55,11 +95,11 @@
         "mag": 2.8000000000000003,
         "place": "21 km NNW of Hoodsport, Washington",
         "time": 1759971418820,
-        "updated": 1759983198418,
+        "updated": 1759985288752,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62191312",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62191312.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 2.2,
         "mmi": 1.81,
         "alert": null,
@@ -495,17 +535,17 @@
         "mag": 3.35,
         "place": "6 km NNE of Puako, Hawaii",
         "time": 1759944233400,
-        "updated": 1759982470234,
+        "updated": 1759984564196,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74798307",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74798307.geojson",
-        "felt": 111,
+        "felt": 113,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 210,
+        "sig": 211,
         "net": "hv",
         "code": "74798307",
         "ids": ",hv74798307,",
@@ -695,7 +735,7 @@
         "mag": 2.59,
         "place": "10 km ENE of Desert Hot Springs, CA",
         "time": 1759926516010,
-        "updated": 1759959346240,
+        "updated": 1759984120040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41105143",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41105143.geojson",
@@ -708,8 +748,8 @@
         "sig": 110,
         "net": "ci",
         "code": "41105143",
-        "ids": ",ci41105143,",
-        "sources": ",ci,",
+        "ids": ",ci41105143,us6000rfla,",
+        "sources": ",ci,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 93,
         "dmin": 0.0614,
@@ -1368,94 +1408,14 @@
         ]
       },
       "id": "us6000rfjr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "65 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1759900367310,
-        "updated": 1759906901040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025281000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025281000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "pr",
-        "code": "2025281000",
-        "ids": ",us6000rfjp,pr2025281000,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.4733,
-        "rms": 0.48,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 65 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6381,
-          18.901,
-          69
-        ]
-      },
-      "id": "pr2025281000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "44 km ENE of Port Alsworth, Alaska",
-        "time": 1759899659510,
-        "updated": 1759906750040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cwsztec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cwsztec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "025cwsztec",
-        "ids": ",us6000rfjn,ak025cwsztec,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 44 km ENE of Port Alsworth, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.5541,
-          60.3265,
-          176.9
-        ]
-      },
-      "id": "ak025cwsztec"
     }
   ],
   "bbox": [
     -175.2508,
-    -24.2533,
+    -30.9045,
     -1.9800000190735,
     168.7851,
     61.6848,
-    176.9
+    167.18
   ]
 }
