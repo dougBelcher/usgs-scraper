@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760473347000,
+    "generated": 1760476654000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "61 km SW of Akhiok, Alaska",
+        "time": 1760475500352,
+        "updated": 1760475645842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d6zhqxf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d6zhqxf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025d6zhqxf",
+        "ids": ",ak025d6zhqxf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.95,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 61 km SW of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.7976,
+          56.5079,
+          12.3
+        ]
+      },
+      "id": "ak025d6zhqxf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "59 km S of Whites City, New Mexico",
-        "time": 1760473090102,
-        "updated": 1760473333213,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1760473089877,
+        "updated": 1760473813728,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ugoblh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ugoblh.geojson",
@@ -23,28 +63,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 129,
         "net": "tx",
         "code": "2025ugoblh",
-        "ids": ",tx2025ugoblh,",
-        "sources": ",tx,",
+        "ids": ",us6000rh6e,tx2025ugoblh,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 34,
+        "nst": 36,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 79,
+        "rms": 0.2,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 59 km S of Whites City, New Mexico"
+        "title": "M 2.9 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.411,
-          31.642,
-          3.7382
+          -104.398,
+          31.65,
+          4.3054
         ]
       },
       "id": "tx2025ugoblh"
@@ -375,11 +415,11 @@
         "mag": 5.2,
         "place": "61 km ENE of La Tirana, Chile",
         "time": 1760461817387,
-        "updated": 1760469124384,
+        "updated": 1760474035200,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rh4q",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rh4q.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
@@ -935,17 +975,17 @@
         "mag": 2.6,
         "place": "4 km NNW of Chazy, New York",
         "time": 1760413165507,
-        "updated": 1760473258480,
+        "updated": 1760476633551,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgze",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rgze.geojson",
-        "felt": 209,
+        "felt": 215,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 175,
+        "sig": 177,
         "net": "us",
         "code": "6000rgze",
         "ids": ",us6000rgze,",
@@ -1331,7 +1371,7 @@
     }
   ],
   "bbox": [
-    -150.2813,
+    -154.7976,
     -21.88,
     2.0906,
     166.5776,
