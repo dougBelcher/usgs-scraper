@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760505567000,
+    "generated": 1760509848000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,14 +12,54 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 5.2,
+        "place": "184 km SSE of Vilyuchinsk, Russia",
+        "time": 1760507823192,
+        "updated": 1760508976040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rh8c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rh8c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000rh8c",
+        "ids": ",us6000rh8c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.665,
+        "rms": 1.05,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 184 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.8309,
+          51.5274,
+          10
+        ]
+      },
+      "id": "us6000rh8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4,
         "place": "13 km SE of Glacier View, Alaska",
         "time": 1760499044862,
-        "updated": 1760502795219,
+        "updated": 1760507529859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d8cqrw0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d8cqrw0.geojson",
-        "felt": 20,
+        "felt": 21,
         "cdi": 2.9,
         "mmi": 3.014,
         "alert": null,
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "ak025d6s2n93"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1760421364979,
-        "updated": 1760422188115,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uflmnv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uflmnv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "tx",
-        "code": "2025uflmnv",
-        "ids": ",us6000rgzq,tx2025uflmnv,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4,
-          31.66,
-          6.0999
-        ]
-      },
-      "id": "tx2025uflmnv"
     }
   ],
   "bbox": [
