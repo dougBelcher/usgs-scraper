@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760739479000,
+    "generated": 1760743017000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "112 km E of Chignik, Alaska",
+        "time": 1760739476878,
+        "updated": 1760740169488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dbz1xxx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dbz1xxx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "025dbz1xxx",
+        "ids": ",ak025dbz1xxx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 112 km E of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.5895,
+          56.3482,
+          34.7
+        ]
+      },
+      "id": "ak025dbz1xxx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -295,17 +335,17 @@
         "mag": 5.1,
         "place": "62 km S of Akutan, Alaska",
         "time": 1760716128983,
-        "updated": 1760738798539,
+        "updated": 1760742968417,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhss",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhss.geojson",
-        "felt": 18,
+        "felt": 20,
         "cdi": 3.2,
         "mmi": 3.38,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 406,
+        "sig": 407,
         "net": "us",
         "code": "6000rhss",
         "ids": ",at00t4a99c,ak025dbv2ja9,us6000rhss,",
@@ -1368,86 +1408,6 @@
         ]
       },
       "id": "us6000rhpc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "south of the Fiji Islands",
-        "time": 1760656038770,
-        "updated": 1760658238040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhnu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhnu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rhnu",
-        "ids": ",us6000rhnu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 5.621,
-        "rms": 0.7,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.8255,
-          -23.3473,
-          573.03
-        ]
-      },
-      "id": "us6000rhnu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.1,
-        "place": "0 km WSW of Union, Philippines",
-        "time": 1760655796195,
-        "updated": 1760723274754,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhns",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhns.geojson",
-        "felt": 26,
-        "cdi": 5,
-        "mmi": 5.481,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 585,
-        "net": "us",
-        "code": "6000rhns",
-        "ids": ",us6000rhns,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 104,
-        "dmin": 2.72,
-        "rms": 0.98,
-        "gap": 22,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.1 - 0 km WSW of Union, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.1093,
-          9.7561,
-          69.015
-        ]
-      },
-      "id": "us6000rhns"
     }
   ],
   "bbox": [
@@ -1456,6 +1416,6 @@
     0,
     179.8235,
     67.6048,
-    573.03
+    559.446
   ]
 }
