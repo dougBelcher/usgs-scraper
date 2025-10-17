@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760678348000,
+    "generated": 1760682612000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 44
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "54 km NE of Mek'ele, Ethiopia",
+        "time": 1760679786125,
+        "updated": 1760682066040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000rhqw",
+        "ids": ",us6000rhqw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 3.678,
+        "rms": 0.68,
+        "gap": 172,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 54 km NE of Mek'ele, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8729,
+          13.8036,
+          10
+        ]
+      },
+      "id": "us6000rhqw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "south of the Fiji Islands",
+        "time": 1760679222828,
+        "updated": 1760680300040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rhqt",
+        "ids": ",us6000rhqt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 7.946,
+        "rms": 1.22,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.4836,
+          -25.6175,
+          521.872
+        ]
+      },
+      "id": "us6000rhqt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "11 km WSW of Stanton, Texas",
         "time": 1760676562936,
-        "updated": 1760677105040,
+        "updated": 1760678996267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ukwjfp",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ukwjfp.geojson",
@@ -28,9 +108,9 @@
         "sig": 96,
         "net": "tx",
         "code": "2025ukwjfp",
-        "ids": ",us6000rhqh,tx2025ukwjfp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2025ukwlre,us6000rhqh,tx2025ukwjfp,",
+        "sources": ",tx,us,tx,",
+        "types": ",associate,origin,phase-data,",
         "nst": 77,
         "dmin": 0.1,
         "rms": 0.5,
@@ -48,46 +128,6 @@
         ]
       },
       "id": "tx2025ukwjfp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "11 km WSW of Stanton, Texas",
-        "time": 1760676562893,
-        "updated": 1760676764063,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ukwlre",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ukwlre.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025ukwlre",
-        "ids": ",tx2025ukwlre,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 11 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.905,
-          32.102,
-          3.9679
-        ]
-      },
-      "id": "tx2025ukwlre"
     },
     {
       "type": "Feature",
@@ -535,11 +575,11 @@
         "mag": 6.1,
         "place": "0 km WSW of Union, Philippines",
         "time": 1760655796195,
-        "updated": 1760675328197,
+        "updated": 1760680769746,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhns",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhns.geojson",
-        "felt": 21,
+        "felt": 22,
         "cdi": 5,
         "mmi": 5.481,
         "alert": "green",
@@ -1095,11 +1135,11 @@
         "mag": 2.99,
         "place": "2 km E of Berkeley, CA",
         "time": 1760631825510,
-        "updated": 1760678312743,
+        "updated": 1760682218645,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75250206",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75250206.geojson",
-        "felt": 2244,
+        "felt": 2250,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -1688,86 +1728,6 @@
         ]
       },
       "id": "us6000rhhb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1760595121090,
-        "updated": 1760659288244,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74805846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74805846.geojson",
-        "felt": 18,
-        "cdi": 3.4,
-        "mmi": 2.918,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "hv",
-        "code": "74805846",
-        "ids": ",hv74805846,us6000rhgn,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 63,
-        "dmin": 0.03946,
-        "rms": 0.11,
-        "gap": 130,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 5 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.503833333333,
-          19.1568333333333,
-          33.17
-        ]
-      },
-      "id": "hv74805846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.5,
-        "place": "194 km WNW of Abepura, Indonesia",
-        "time": 1760593735452,
-        "updated": 1760619225040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhg5.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": 6.664,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 651,
-        "net": "us",
-        "code": "6000rhg5",
-        "ids": ",pt25289001,us6000rhg5,at00t47mtk,",
-        "sources": ",pt,us,at,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 83,
-        "dmin": 0.911,
-        "rms": 1.06,
-        "gap": 25,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.5 - 194 km WNW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.9382,
-          -2.1676,
-          35
-        ]
-      },
-      "id": "us6000rhg5"
     }
   ],
   "bbox": [
