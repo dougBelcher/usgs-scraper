@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760847872000,
+    "generated": 1760851141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 22
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1760850035322,
+        "updated": 1760850805394,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri3p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ri3p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.283,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "6000ri3p",
+        "ids": ",us6000ri3p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 42,
+        "dmin": 0.107,
+        "rms": 0.26,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3766,
+          31.6545,
+          8.491
+        ]
+      },
+      "id": "us6000ri3p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.27,
+        "place": "86 km NNW of San Antonio, Puerto Rico",
+        "time": 1760848967780,
+        "updated": 1760850777670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 165,
+        "net": "pr",
+        "code": "71498368",
+        "ids": ",pr71498368,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.7951,
+        "rms": 0.27,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 86 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3908333333333,
+          19.2211666666667,
+          22.75
+        ]
+      },
+      "id": "pr71498368"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -168,6 +248,46 @@
         ]
       },
       "id": "us6000ri34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "235 km E of Levuka, Fiji",
+        "time": 1760836162021,
+        "updated": 1760850064040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri39",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ri39.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000ri39",
+        "ids": ",us6000ri39,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 2.52,
+        "rms": 0.74,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 235 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4609,
+          -17.919,
+          509.129
+        ]
+      },
+      "id": "us6000ri39"
     },
     {
       "type": "Feature",
@@ -575,11 +695,11 @@
         "mag": 5.4,
         "place": "17 km E of Aras-asan, Philippines",
         "time": 1760790692720,
-        "updated": 1760814749343,
+        "updated": 1760849247987,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri11",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ri11.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 5,
         "mmi": 4.614,
         "alert": "green",
@@ -815,7 +935,7 @@
         "mag": 2.8,
         "place": "11 km ESE of Alum Rock, CA",
         "time": 1760779001500,
-        "updated": 1760803701547,
+        "updated": 1760849714040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75250956",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75250956.geojson",
@@ -828,8 +948,8 @@
         "sig": 126,
         "net": "nc",
         "code": "75250956",
-        "ids": ",nc75250956,",
-        "sources": ",nc,",
+        "ids": ",nc75250956,us6000ri0c,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 83,
         "dmin": 0.0916,
@@ -891,11 +1011,11 @@
     }
   ],
   "bbox": [
-    -173.1051,
+    -178.4609,
     -20.6515,
     4.9,
     170.5345,
     61.9399,
-    100.184
+    509.129
   ]
 }
