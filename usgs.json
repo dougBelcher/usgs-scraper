@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761315674000,
+    "generated": 1761319289000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "94 km SSE of Sand Point, Alaska",
+        "time": 1761316443871,
+        "updated": 1761317372075,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rj5m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rj5m.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": 3.462,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "6000rj5m",
+        "ids": ",us6000rj5m,ak025dnf5ftm,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 0.274,
+        "rms": 0.85,
+        "gap": 166,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 94 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.8095,
+          54.5889,
+          35
+        ]
+      },
+      "id": "us6000rj5m"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "us6000rixc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.47,
-        "place": "13 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1761232144680,
-        "updated": 1761233564270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498648",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498648.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "pr",
-        "code": "71498648",
-        "ids": ",pr71498648,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1154,
-        "rms": 0.1,
-        "gap": 250,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8501666666667,
-          17.8576666666667,
-          13.7
-        ]
-      },
-      "id": "pr71498648"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Falkland Islands region",
-        "time": 1761229512890,
-        "updated": 1761231717040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rivm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rivm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000rivm",
-        "ids": ",us6000rivm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 2.431,
-        "rms": 0.61,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Falkland Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.2948,
-          -54.0977,
-          10
-        ]
-      },
-      "id": "us6000rivm"
     }
   ],
   "bbox": [
