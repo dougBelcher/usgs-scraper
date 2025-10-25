@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761369534000,
+    "generated": 1761373684000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,7 +15,7 @@
         "mag": 3.15,
         "place": "8 km NW of Pinnacles, CA",
         "time": 1761368738540,
-        "updated": 1761369261979,
+        "updated": 1761371704040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75254276",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75254276.geojson",
@@ -28,8 +28,8 @@
         "sig": 155,
         "net": "nc",
         "code": "75254276",
-        "ids": ",nc75254276,",
-        "sources": ",nc,",
+        "ids": ",nc75254276,us6000rjdy,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 62,
         "dmin": 0.02649,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "nc75254276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "28 km NNW of Regina, New Mexico",
+        "time": 1761368711531,
+        "updated": 1761371560040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjdx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "6000rjdx",
+        "ids": ",us6000rjdx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.348,
+        "rms": 0.3,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 28 km NNW of Regina, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.1016,
+          36.4129,
+          6.265
+        ]
+      },
+      "id": "us6000rjdx"
     },
     {
       "type": "Feature",
@@ -375,12 +415,12 @@
         "mag": 4.8,
         "place": "42 km E of Maicao, Colombia",
         "time": 1761341452305,
-        "updated": 1761368652836,
+        "updated": 1761369610502,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjb5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjb5.geojson",
-        "felt": 2,
-        "cdi": 3.1,
+        "felt": 3,
+        "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -415,17 +455,17 @@
         "mag": 4.6,
         "place": "14 km SE of Skwentna, Alaska",
         "time": 1761336206351,
-        "updated": 1761365957584,
+        "updated": 1761372670888,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dnijfwa",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dnijfwa.geojson",
-        "felt": 646,
+        "felt": 647,
         "cdi": 4.1,
         "mmi": 3.654,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 590,
+        "sig": 591,
         "net": "ak",
         "code": "025dnijfwa",
         "ids": ",ak025dnijfwa,us6000rjaa,",
@@ -1208,46 +1248,6 @@
         ]
       },
       "id": "pr71498708"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "9 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1761283833810,
-        "updated": 1761284411610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498693",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498693.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71498693",
-        "ids": ",pr71498693,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.08223,
-        "rms": 0.19,
-        "gap": 202,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 9 km SSE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8576666666667,
-          17.895,
-          13.88
-        ]
-      },
-      "id": "pr71498693"
     }
   ],
   "bbox": [
