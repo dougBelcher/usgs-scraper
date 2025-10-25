@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761395884000,
+    "generated": 1761398584000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "48 km SW of Central, Alaska",
+        "time": 1761396216409,
+        "updated": 1761396965041,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dp1jwxj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dp1jwxj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "025dp1jwxj",
+        "ids": ",ak025dp1jwxj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.95,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 48 km SW of Central, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5482,
+          65.2671,
+          9.9
+        ]
+      },
+      "id": "ak025dp1jwxj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.88,
+        "place": "16 km SSE of Tonopah, Nevada",
+        "time": 1761395413517,
+        "updated": 1761398247873,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906336.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": 3.709,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 232,
+        "net": "nn",
+        "code": "00906336",
+        "ids": ",us6000rjfd,nn00906336,",
+        "sources": ",us,nn,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 32,
+        "dmin": 0.15,
+        "rms": 0.1573,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 16 km SSE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1548,
+          37.9349,
+          10.5265
+        ]
+      },
+      "id": "nn00906336"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +215,12 @@
         "mag": 5.2,
         "place": "39 km NW of Slavyanka, Russia",
         "time": 1761392723124,
-        "updated": 1761393747040,
+        "updated": 1761396988501,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjf6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjf6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -150,7 +230,7 @@
         "code": "6000rjf6",
         "ids": ",us6000rjf6,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 95,
         "dmin": 1.33,
         "rms": 0.51,
@@ -172,10 +252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.5,
-        "place": "71 km S of Severo-Kuril’sk, Russia",
-        "time": 1761390791022,
-        "updated": 1761392766609,
+        "mag": 5.3,
+        "place": "86 km S of Severo-Kuril’sk, Russia",
+        "time": 1761390786830,
+        "updated": 1761397793040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjf1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjf1.geojson",
@@ -185,26 +265,26 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 465,
+        "sig": 432,
         "net": "us",
         "code": "6000rjf1",
         "ids": ",us6000rjf1,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 82,
-        "dmin": 3.238,
-        "rms": 0.88,
-        "gap": 121,
-        "magType": "mb",
+        "dmin": 3.372,
+        "rms": 0.68,
+        "gap": 120,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 71 km S of Severo-Kuril’sk, Russia"
+        "title": "M 5.3 - 86 km S of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          156.1104,
-          50.0304,
-          82.098
+          156.0516,
+          49.9015,
+          47
         ]
       },
       "id": "us6000rjf1"
@@ -1135,7 +1215,7 @@
         "mag": 5.1,
         "place": "125 km SSW of Merizo Village, Guam",
         "time": 1761332654944,
-        "updated": 1761376464724,
+        "updated": 1761398060638,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rj9z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rj9z.geojson",
@@ -1368,46 +1448,6 @@
         ]
       },
       "id": "us6000rj5m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "0 km ESE of Petruro Irpino, Italy",
-        "time": 1761309659134,
-        "updated": 1761313120819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rj3f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rj3f.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "6000rj3f",
-        "ids": ",us6000rj3f,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.177,
-        "rms": 0.98,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 0 km ESE of Petruro Irpino, Italy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.802,
-          41.0308,
-          10
-        ]
-      },
-      "id": "us6000rj3f"
     }
   ],
   "bbox": [
