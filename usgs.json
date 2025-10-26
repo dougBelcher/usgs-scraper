@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761482369000,
+    "generated": 1761485058000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 30
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "10 km ESE of Haumoana, New Zealand",
+        "time": 1761480520017,
+        "updated": 1761484030040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjju",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjju.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rjju",
+        "ids": ",us6000rjju,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.412,
+        "rms": 0.78,
+        "gap": 154,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.2 - 10 km ESE of Haumoana, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.0522,
+          -39.6453,
+          35
+        ]
+      },
+      "id": "us6000rjju"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -695,7 +735,7 @@
         "mag": 6,
         "place": "197 km SSE of Lata, Solomon Islands",
         "time": 1761434884780,
-        "updated": 1761443526629,
+        "updated": 1761482983040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjhm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rjhm.geojson",
@@ -1168,53 +1208,13 @@
         ]
       },
       "id": "us6000rjft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "48 km SW of Central, Alaska",
-        "time": 1761396216409,
-        "updated": 1761456737040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dp1jwxj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dp1jwxj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "025dp1jwxj",
-        "ids": ",us6000rjfh,ak025dp1jwxj,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 48 km SW of Central, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.5482,
-          65.2671,
-          9.9
-        ]
-      },
-      "id": "ak025dp1jwxj"
     }
   ],
   "bbox": [
     -178.7304,
     -45.6518,
     0.1,
-    169.4761,
+    177.0522,
     65.3093,
     347.966
   ]
