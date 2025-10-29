@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761755364000,
+    "generated": 1761758330000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
+        "place": "105 km WNW of Höfn, Iceland",
+        "time": 1761756390056,
+        "updated": 1761758314923,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk65",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rk65.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 7.541,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000rk65",
+        "ids": ",us6000rk65,",
+        "sources": ",us,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 82,
+        "dmin": 6.057,
+        "rms": 0.69,
+        "gap": 77,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 105 km WNW of Höfn, Iceland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.0859,
+          64.7442,
+          10
+        ]
+      },
+      "id": "us6000rk65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "163 km E of Beauséjour, Guadeloupe",
+        "time": 1761754256595,
+        "updated": 1761756046040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk5z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rk5z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000rk5z",
+        "ids": ",us6000rk5z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.463,
+        "rms": 0.68,
+        "gap": 173,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 163 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5655,
+          16.5762,
+          10
+        ]
+      },
+      "id": "us6000rk5z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
         "place": "off the coast of Oregon",
         "time": 1761746424291,
-        "updated": 1761754293574,
+        "updated": 1761756464671,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk5r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rk5r.geojson",
@@ -695,17 +775,17 @@
         "mag": 3.2,
         "place": "7 km NE of Dorrance, Kansas",
         "time": 1761714843195,
-        "updated": 1761748521886,
+        "updated": 1761758186857,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk46",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rk46.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 3.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 160,
+        "sig": 161,
         "net": "us",
         "code": "6000rk46",
         "ids": ",us6000rk46,",
@@ -1288,52 +1368,12 @@
         ]
       },
       "id": "us6000rk0y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "44 km SE of Denali National Park, Alaska",
-        "time": 1761671701612,
-        "updated": 1761679102040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025du2z1qg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025du2z1qg.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "ak",
-        "code": "025du2z1qg",
-        "ids": ",ak025du2z1qg,us6000rk0m,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.16,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 44 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0773,
-          63.2645,
-          0
-        ]
-      },
-      "id": "ak025du2z1qg"
     }
   ],
   "bbox": [
     -179.7323,
     -47.1106,
-    0,
+    1.3,
     164.7868,
     65.2666,
     574.168
