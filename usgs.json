@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761906122000,
+    "generated": 1761909416000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 25
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "29 km NNE of Larsen Bay, Alaska",
+        "time": 1761908843438,
+        "updated": 1761909059711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dyxytk4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dyxytk4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "025dyxytk4",
+        "ids": ",ak025dyxytk4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.42,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 29 km NNE of Larsen Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.8773,
+          57.8038,
+          35.5
+        ]
+      },
+      "id": "ak025dyxytk4"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "39 km SE of Fox River, Alaska",
         "time": 1761903432975,
-        "updated": 1761903786956,
+        "updated": 1761906864040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dywyd3o",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dywyd3o.geojson",
@@ -28,8 +68,8 @@
         "sig": 148,
         "net": "ak",
         "code": "025dywyd3o",
-        "ids": ",ak025dywyd3o,",
-        "sources": ",ak,",
+        "ids": ",us6000rkjk,ak025dywyd3o,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
@@ -968,86 +1008,6 @@
         ]
       },
       "id": "pr71499273"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "2 km WNW of Concord, CA",
-        "time": 1761821425870,
-        "updated": 1761849530309,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75256621",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75256621.geojson",
-        "felt": 21,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "75256621",
-        "ids": ",nc75256621,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 81,
-        "dmin": 0.05247,
-        "rms": 0.18,
-        "gap": 28,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km WNW of Concord, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.036163330078,
-          37.9768333435059,
-          16.2199993133545
-        ]
-      },
-      "id": "nc75256621"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "178 km SSE of Vilyuchinsk, Russia",
-        "time": 1761819770034,
-        "updated": 1761821302040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rkcb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rkcb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rkcb",
-        "ids": ",us6000rkcb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.989,
-        "rms": 1,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 178 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.6379,
-          51.5168,
-          16.678
-        ]
-      },
-      "id": "us6000rkcb"
     }
   ],
   "bbox": [
