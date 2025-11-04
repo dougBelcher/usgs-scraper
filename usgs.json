@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762230259000,
+    "generated": 1762233674000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 48
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "150 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1762231530030,
+        "updated": 1762232972393,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlbm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlbm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.697,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000rlbm",
+        "ids": ",us6000rlbm,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 103,
+        "dmin": 1.867,
+        "rms": 1.4,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - 150 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.4773,
+          52.317,
+          21.005
+        ]
+      },
+      "id": "us6000rlbm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 6,
         "place": "146 km SE of Petropavlovsk-Kamchatsky, Russia",
         "time": 1762227912324,
-        "updated": 1762229632532,
+        "updated": 1762231492040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlbe",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlbe.geojson",
@@ -70,7 +110,7 @@
         "code": "6000rlbe",
         "ids": ",us6000rlbe,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 102,
         "dmin": 1.823,
         "rms": 1.13,
@@ -1888,46 +1928,6 @@
         ]
       },
       "id": "us6000rl55"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "32 km W of Cantwell, Alaska",
-        "time": 1762147082518,
-        "updated": 1762199990040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e3t2ko0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e3t2ko0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025e3t2ko0",
-        "ids": ",us6000rl4p,ak025e3t2ko0,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 32 km W of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.59,
-          63.3565,
-          97.8
-        ]
-      },
-      "id": "ak025e3t2ko0"
     }
   ],
   "bbox": [
