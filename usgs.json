@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762287902000,
+    "generated": 1762291149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 43
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "108 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1762287354096,
+        "updated": 1762289239040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlh8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlh8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rlh8",
+        "ids": ",us6000rlh8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 3.595,
+        "rms": 0.51,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 108 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.7966,
+          49.7203,
+          70.289
+        ]
+      },
+      "id": "us6000rlh8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.93,
         "place": "8 km E of Willow Creek, CA",
         "time": 1762283784150,
-        "updated": 1762284136760,
+        "updated": 1762288834040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75259101",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75259101.geojson",
@@ -68,8 +108,8 @@
         "sig": 132,
         "net": "nc",
         "code": "75259101",
-        "ids": ",nc75259101,",
-        "sources": ",nc,",
+        "ids": ",nc75259101,us6000rlh0,",
+        "sources": ",nc,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
         "dmin": 0.1442,
@@ -88,6 +128,46 @@
         ]
       },
       "id": "nc75259101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "80 km SSE of Sand Point, Alaska",
+        "time": 1762281958750,
+        "updated": 1762288108040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlgx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlgx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000rlgx",
+        "ids": ",us6000rlgx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.237,
+        "rms": 0.86,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 80 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.9228,
+          54.6939,
+          28.811
+        ]
+      },
+      "id": "us6000rlgx"
     },
     {
       "type": "Feature",
@@ -695,11 +775,11 @@
         "mag": 5.9,
         "place": "192 km WSW of Merizo Village, Guam",
         "time": 1762241843161,
-        "updated": 1762285654551,
+        "updated": 1762290571810,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlcd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rlcd.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 2.8,
         "mmi": 3.317,
         "alert": "green",
@@ -1688,46 +1768,6 @@
         ]
       },
       "id": "us6000rl8x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "85 km NE of Lobuche, Nepal",
-        "time": 1762203442091,
-        "updated": 1762215176819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rl8r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rl8r.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rl8r",
-        "ids": ",us6000rl8r,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 9.932,
-        "rms": 0.56,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 85 km NE of Lobuche, Nepal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.4343,
-          28.4872,
-          10
-        ]
-      },
-      "id": "us6000rl8r"
     }
   ],
   "bbox": [
