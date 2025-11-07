@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762553916000,
+    "generated": 1762557481000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 30
+    "count": 31
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "149 km E of Beauséjour, Guadeloupe",
+        "time": 1762554387545,
+        "updated": 1762555326040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm77",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rm77.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000rm77",
+        "ids": ",us6000rm77,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 1.34,
+        "rms": 0.58,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 149 km E of Beauséjour, Guadeloupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.6714,
+          16.365,
+          10
+        ]
+      },
+      "id": "us6000rm77"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.84,
         "place": "23 km W of Petrolia, CA",
         "time": 1762553391050,
-        "updated": 1762553842430,
+        "updated": 1762555644635,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260306",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260306.geojson",
@@ -52,10 +92,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.26,
+        "place": "68 km WSW of Stella, Puerto Rico",
+        "time": 1762551695100,
+        "updated": 1762554161990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499773",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499773.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 164,
+        "net": "pr",
+        "code": "71499773",
+        "ids": ",pr71499773,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.5641,
+        "rms": 0.2,
+        "gap": 188,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 68 km WSW of Stella, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8856666666667,
+          18.2015,
+          6.68
+        ]
+      },
+      "id": "pr71499773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.7,
         "place": "58 km S of Whites City, New Mexico",
         "time": 1762550064233,
-        "updated": 1762551948842,
+        "updated": 1762554452040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vyriwc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vyriwc.geojson",
@@ -68,8 +148,8 @@
         "sig": 112,
         "net": "tx",
         "code": "2025vyriwc",
-        "ids": ",tx2025vyriwc,",
-        "sources": ",tx,",
+        "ids": ",us6000rm6q,tx2025vyriwc,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 61,
         "dmin": 0,
@@ -1168,46 +1248,6 @@
         ]
       },
       "id": "us6000rm0t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "42 km SSE of Tena, Ecuador",
-        "time": 1762470675228,
-        "updated": 1762473227040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm0g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rm0g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rm0g",
-        "ids": ",us6000rm0g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 0.451,
-        "rms": 1.09,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 42 km SSE of Tena, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.6087,
-          -1.3168,
-          189.622
-        ]
-      },
-      "id": "us6000rm0g"
     }
   ],
   "bbox": [
