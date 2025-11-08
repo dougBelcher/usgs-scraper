@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762615109000,
+    "generated": 1762619061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 26
+    "count": 27
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1762615166941,
+        "updated": 1762617065040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm9e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rm9e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000rm9e",
+        "ids": ",us6000rm9e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.036,
+        "rms": 0.48,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 60 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4764,
+          31.639,
+          11.835
+        ]
+      },
+      "id": "us6000rm9e"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.08,
         "place": "22 km SSW of Mammoth, Wyoming",
         "time": 1762614259280,
-        "updated": 1762614910890,
+        "updated": 1762618656040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80121681",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80121681.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -28,9 +68,9 @@
         "sig": 146,
         "net": "uu",
         "code": "80121681",
-        "ids": ",uu80121681,",
-        "sources": ",uu,",
-        "types": ",origin,phase-data,",
+        "ids": ",uu80121681,us6000rm9c,",
+        "sources": ",uu,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 27,
         "dmin": 0.1165,
         "rms": 0.16,
