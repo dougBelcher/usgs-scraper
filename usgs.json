@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762636604000,
+    "generated": 1762640240000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 28
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "118 km E of Yamada, Japan",
+        "time": 1762635858978,
+        "updated": 1762637822011,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmai",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rmai.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.463,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000rmai",
+        "ids": ",us6000rmai,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 2.204,
+        "rms": 0.93,
+        "gap": 146,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 118 km E of Yamada, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3307,
+          39.4318,
+          22.306
+        ]
+      },
+      "id": "us6000rmai"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -972,6 +1012,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.8,
+        "place": "192 km E of Atka, Alaska",
+        "time": 1762559039935,
+        "updated": 1762639998027,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eaq38nx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eaq38nx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.05,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "025eaq38nx",
+        "ids": ",ak025eaq38nx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 192 km E of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -171.3855,
+          52.1389,
+          25.8
+        ]
+      },
+      "id": "ak025eaq38nx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "southern Mid-Atlantic Ridge",
         "time": 1762557660298,
@@ -1048,86 +1128,6 @@
         ]
       },
       "id": "us6000rm77"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.84,
-        "place": "23 km W of Petrolia, CA",
-        "time": 1762553391050,
-        "updated": 1762555644635,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260306",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260306.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 124,
-        "net": "nc",
-        "code": "75260306",
-        "ids": ",nc75260306,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.1706,
-        "rms": 0.13,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 23 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.5556640625,
-          40.339168548584,
-          20.5900001525879
-        ]
-      },
-      "id": "nc75260306"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.26,
-        "place": "68 km WSW of Stella, Puerto Rico",
-        "time": 1762551695100,
-        "updated": 1762554161990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499773",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499773.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 164,
-        "net": "pr",
-        "code": "71499773",
-        "ids": ",pr71499773,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.5641,
-        "rms": 0.2,
-        "gap": 188,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.3 - 68 km WSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8856666666667,
-          18.2015,
-          6.68
-        ]
-      },
-      "id": "pr71499773"
     }
   ],
   "bbox": [
