@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763223822000,
+    "generated": 1763226925000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 33
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.08,
+        "place": "23 km W of Petrolia, CA",
+        "time": 1763225590940,
+        "updated": 1763226737710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75263671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75263671.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 146,
+        "net": "nc",
+        "code": "75263671",
+        "ids": ",nc75263671,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.1666,
+        "rms": 0.23,
+        "gap": 283,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 23 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.551666259766,
+          40.335334777832,
+          26.2000007629395
+        ]
+      },
+      "id": "nc75263671"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -775,12 +815,12 @@
         "mag": 5,
         "place": "79 km WSW of Vallenar, Chile",
         "time": 1763187237459,
-        "updated": 1763187982040,
+        "updated": 1763226576431,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnf6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnf6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -790,7 +830,7 @@
         "code": "6000rnf6",
         "ids": ",us6000rnf6,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 47,
         "dmin": 0.715,
         "rms": 0.79,
@@ -1173,15 +1213,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "214 km WNW of Hihifo, Tonga",
-        "time": 1763147344173,
-        "updated": 1763156329238,
+        "place": "219 km WNW of Hihifo, Tonga",
+        "time": 1763147344941,
+        "updated": 1763226332735,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnd3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnd3.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 5.425,
+        "mmi": 5.148,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1190,21 +1230,21 @@
         "code": "6000rnd3",
         "ids": ",us6000rnd3,",
         "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 92,
-        "dmin": 4.047,
-        "rms": 0.95,
-        "gap": 59,
+        "types": ",ground-failure,impact-text,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 196,
+        "dmin": 4.071,
+        "rms": 0.6,
+        "gap": 52,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 214 km WNW of Hihifo, Tonga"
+        "title": "M 5.7 - 219 km WNW of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.6934,
-          -15.3477,
-          10
+          -175.7314,
+          -15.3184,
+          11.068
         ]
       },
       "id": "us6000rnd3"
