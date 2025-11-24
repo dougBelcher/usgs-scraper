@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764011686000,
+    "generated": 1764015928000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66426807335332,
+        "place": "57 km SSW of Progreso, B.C., MX",
+        "time": 1764012396370,
+        "updated": 1764013070830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338584",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338584.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "ci",
+        "code": "41338584",
+        "ids": ",ci41338584,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.1488,
+        "rms": 0.25999999,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 57 km SSW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.903663635254,
+          32.1491661071777,
+          11.6700000762939
+        ]
+      },
+      "id": "ci41338584"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -132,10 +172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.77,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1764010672120,
-        "updated": 1764011524268,
+        "mag": 2.94,
+        "place": "3 km SSW of Pāhala, Hawaii",
+        "time": 1764010672130,
+        "updated": 1764013245002,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74836387",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74836387.geojson",
@@ -143,28 +183,28 @@
         "cdi": 2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 118,
+        "sig": 133,
         "net": "hv",
         "code": "74836387",
         "ids": ",hv74836387,",
         "sources": ",hv,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.03613,
-        "rms": 0.150000006,
-        "gap": 110,
+        "nst": 51,
+        "dmin": 0.03836,
+        "rms": 0.11,
+        "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 4 km SSW of Pāhala, Hawaii"
+        "title": "M 2.9 - 3 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.497833251953,
-          19.1683330535889,
-          31.7099990844727
+          -155.497166666667,
+          19.1748333333333,
+          32.72
         ]
       },
       "id": "hv74836387"
@@ -255,12 +295,12 @@
         "mag": 3.331838771342664,
         "place": "25 km ESE of Port Graham, Alaska",
         "time": 1764004693331,
-        "updated": 1764004795799,
+        "updated": 1764013203976,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xdowlu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xdowlu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -270,7 +310,7 @@
         "code": "2025xdowlu",
         "ids": ",ak2025xdowlu,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 56,
         "dmin": 0.44589462876319885,
         "rms": 0.5633270806477939,
@@ -452,20 +492,20 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.05,
+        "mag": 3.93,
         "place": "1 km NNW of The Geysers, CA",
         "time": 1763996938060,
-        "updated": 1764011046061,
+        "updated": 1764015722305,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75268551",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75268551.geojson",
-        "felt": 95,
+        "felt": 98,
         "cdi": 3.9,
-        "mmi": 4.583,
+        "mmi": 4.585,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 289,
+        "sig": 276,
         "net": "nc",
         "code": "75268551",
         "ids": ",ew1763996940,nc75268551,us6000rq3c,",
@@ -477,7 +517,7 @@
         "gap": 31,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.1 - 1 km NNW of The Geysers, CA"
+        "title": "M 3.9 - 1 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
@@ -692,10 +732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.02,
+        "mag": 2.52,
         "place": "14 km ESE of Pāhala, Hawaii",
-        "time": 1763989910450,
-        "updated": 1764005549040,
+        "time": 1763989910490,
+        "updated": 1764013819800,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74836282",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74836282.geojson",
@@ -703,28 +743,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 98,
         "net": "hv",
         "code": "74836282",
         "ids": ",us6000rq2w,hv74836282,",
         "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.09738,
-        "rms": 0.129999995,
-        "gap": 185,
-        "magType": "md",
+        "nst": 48,
+        "dmin": 0.09528,
+        "rms": 0.13,
+        "gap": 184,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 14 km ESE of Pāhala, Hawaii"
+        "title": "M 2.5 - 14 km ESE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.360336303711,
-          19.1403331756592,
-          29.2999992370605
+          -155.3625,
+          19.1408333333333,
+          28.78
         ]
       },
       "id": "hv74836282"
@@ -968,6 +1008,46 @@
         ]
       },
       "id": "us6000rq20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7005067650004553,
+        "place": "64 km SSW of Adak, Alaska",
+        "time": 1763973793148,
+        "updated": 1764014169208,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xcxuod",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xcxuod.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "2025xcxuod",
+        "ids": ",ak2025xcxuod,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.410178005695343,
+        "rms": 0.3268688325850956,
+        "gap": 265.8357276916504,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 64 km SSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.06912231445312,
+          51.36524200439453,
+          29.38413619995117
+        ]
+      },
+      "id": "ak2025xcxuod"
     },
     {
       "type": "Feature",
