@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764184634000,
+    "generated": 1764188622000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 32
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "36 km SSE of Vilyuchinsk, Russia",
+        "time": 1764181019691,
+        "updated": 1764187886040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rdzf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rdzf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rdzf",
+        "ids": ",us7000rdzf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.714,
+        "rms": 1.1,
+        "gap": 179,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 36 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.5529,
+          52.618,
+          91.826
+        ]
+      },
+      "id": "us7000rdzf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -172,39 +212,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.29,
-        "place": "24 km N of Kukuihaele, Hawaii",
-        "time": 1764167060010,
-        "updated": 1764183816571,
+        "mag": 3.43,
+        "place": "25 km ENE of Hala‘ula, Hawaii",
+        "time": 1764167059660,
+        "updated": 1764188519685,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74837722",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74837722.geojson",
-        "felt": 16,
+        "felt": 17,
         "cdi": 3.4,
-        "mmi": 2.349,
+        "mmi": 2.545,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 172,
+        "sig": 187,
         "net": "hv",
         "code": "74837722",
         "ids": ",hv74837722,us7000rdxg,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 58,
-        "dmin": 0.2935,
-        "rms": 0.219999999,
-        "gap": 295,
+        "nst": 60,
+        "dmin": 0.3035,
+        "rms": 0.19,
+        "gap": 258,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 24 km N of Kukuihaele, Hawaii"
+        "title": "M 3.4 - 25 km ENE of Hala‘ula, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.565338134766,
-          20.3423328399658,
-          5.76000022888184
+          -155.572333333333,
+          20.3613333333333,
+          4.49
         ]
       },
       "id": "hv74837722"
@@ -215,17 +255,17 @@
         "mag": 3.63,
         "place": "5 km SE of Gilroy, CA",
         "time": 1764166801190,
-        "updated": 1764184249795,
+        "updated": 1764188619959,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269606",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269606.geojson",
-        "felt": 189,
+        "felt": 196,
         "cdi": 4.6,
         "mmi": 4.27,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 290,
+        "sig": 293,
         "net": "nc",
         "code": "75269606",
         "ids": ",nc75269606,us7000rdxf,",
@@ -295,14 +335,14 @@
         "mag": 4.03,
         "place": "8 km E of Gilroy, CA",
         "time": 1764166602380,
-        "updated": 1764184623396,
+        "updated": 1764188599728,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269596",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269596.geojson",
-        "felt": 2389,
+        "felt": 2409,
         "cdi": 5.6,
         "mmi": 4.909,
-        "alert": null,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
         "sig": 810,
@@ -310,7 +350,7 @@
         "code": "75269596",
         "ids": ",ew1764166600,nc75269596,at00t6c7nt,us7000rdxd,",
         "sources": ",ew,nc,at,us,",
-        "types": ",dyfi,focal-mechanism,impact-link,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 81,
         "dmin": 0.09593,
         "rms": 0.17,
@@ -375,17 +415,17 @@
         "mag": 4.61,
         "place": "15 km SSE of Fern Forest, Hawaii",
         "time": 1764150585770,
-        "updated": 1764184506610,
+        "updated": 1764188339149,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74837442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74837442.geojson",
-        "felt": 553,
+        "felt": 563,
         "cdi": 4.1,
         "mmi": 4.823,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 554,
+        "sig": 558,
         "net": "hv",
         "code": "74837442",
         "ids": ",pt25330050,hv74837442,us7000rdwb,",
@@ -448,6 +488,46 @@
         ]
       },
       "id": "us7000rdwa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.48,
+        "place": "13 km SE of Pāhala, Hawaii",
+        "time": 1764149904750,
+        "updated": 1764188528047,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74837412",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74837412.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "hv",
+        "code": "74837412",
+        "ids": ",hv74837412,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.08454,
+        "rms": 0.22,
+        "gap": 221,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.379166666667,
+          19.1236666666667,
+          6.29
+        ]
+      },
+      "id": "hv74837412"
     },
     {
       "type": "Feature",
@@ -1248,46 +1328,6 @@
         ]
       },
       "id": "us7000rdtf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "46 km SW of Palaióchora, Greece",
-        "time": 1764098502870,
-        "updated": 1764103270040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rdt2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rdt2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000rdt2",
-        "ids": ",us7000rdt2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
-        "dmin": 2.542,
-        "rms": 0.86,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 46 km SW of Palaióchora, Greece"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.3558,
-          34.9111,
-          45.152
-        ]
-      },
-      "id": "us7000rdt2"
     }
   ],
   "bbox": [
