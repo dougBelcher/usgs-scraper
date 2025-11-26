@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764152711000,
+    "generated": 1764155919000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
-    "count": 33
+    "api": "1.14.1",
+    "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "16 km NNW of Knowles, Oklahoma",
+        "time": 1764152886546,
+        "updated": 1764153113659,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025xdxf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025xdxf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "ok",
+        "code": "2025xdxf",
+        "ids": ",ok2025xdxf,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3418341279,
+        "rms": 0.8300927571,
+        "gap": 200.5962601,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 16 km NNW of Knowles, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2892761,
+          36.9954071,
+          5
+        ]
+      },
+      "id": "ok2025xdxf"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.61,
         "place": "15 km SSE of Fern Forest, Hawaii",
         "time": 1764150585770,
-        "updated": 1764152672487,
+        "updated": 1764155805545,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74837442",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74837442.geojson",
-        "felt": 188,
-        "cdi": 4.1,
-        "mmi": 4.719,
+        "felt": 420,
+        "cdi": 4.4,
+        "mmi": 4.804,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 404,
+        "sig": 512,
         "net": "hv",
         "code": "74837442",
         "ids": ",pt25330050,hv74837442,us7000rdwb,",
@@ -95,12 +135,12 @@
         "mag": 2.55,
         "place": "11 km ESE of Pāhala, Hawaii",
         "time": 1764149904500,
-        "updated": 1764152515487,
+        "updated": 1764155368328,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74837412",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74837412.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -1248,86 +1288,6 @@
         ]
       },
       "id": "ak2025xfabtk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7357002436169906,
-        "place": "22 km SSW of Nanwalek, Alaska",
-        "time": 1764068218138,
-        "updated": 1764068334848,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xexyuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xexyuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 115,
-        "net": "ak",
-        "code": "2025xexyuf",
-        "ids": ",ak2025xexyuf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.5311702489852905,
-        "rms": 0.5633234185882495,
-        "gap": 136.49137496948242,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 22 km SSW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.09307861328125,
-          59.17794799804688,
-          51.07317733764648
-        ]
-      },
-      "id": "ak2025xexyuf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "8 km S of Pondaguitan, Philippines",
-        "time": 1764067518837,
-        "updated": 1764077540006,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rdmx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rdmx.geojson",
-        "felt": 7,
-        "cdi": 3.8,
-        "mmi": 4.103,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 451,
-        "net": "us",
-        "code": "7000rdmx",
-        "ids": ",us7000rdmx,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 103,
-        "dmin": 0.974,
-        "rms": 1.3,
-        "gap": 38,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 8 km S of Pondaguitan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.1644,
-          6.2836,
-          73.622
-        ]
-      },
-      "id": "us7000rdmx"
     }
   ],
   "bbox": [
