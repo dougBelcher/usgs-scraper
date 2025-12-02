@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764703176000,
+    "generated": 1764707269000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Kermadec Islands region",
+        "time": 1764705475417,
+        "updated": 1764706602040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rs2b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rs2b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000rs2b",
+        "ids": ",us6000rs2b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 9.648,
+        "rms": 0.66,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.4707,
+          -27.673,
+          519.084
+        ]
+      },
+      "id": "us6000rs2b"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,7 +415,7 @@
         "mag": 5.3,
         "place": "57 km SE of Severo-Kuril’sk, Russia",
         "time": 1764673842322,
-        "updated": 1764675021040,
+        "updated": 1764705072086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rf1g",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rf1g.geojson",
@@ -648,6 +688,46 @@
         ]
       },
       "id": "ak2025xrrayc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.52,
+        "place": "27 km WSW of Captain Cook, Hawaii",
+        "time": 1764665961100,
+        "updated": 1764704776870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74844057",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74844057.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "74844057",
+        "ids": ",hv74844057,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.3042,
+        "rms": 0.12,
+        "gap": 246,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 27 km WSW of Captain Cook, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.148166666667,
+          19.3741666666667,
+          43.64
+        ]
+      },
+      "id": "hv74844057"
     },
     {
       "type": "Feature",
@@ -1368,54 +1448,14 @@
         ]
       },
       "id": "us7000reyi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "64 km WNW of Kirakira, Solomon Islands",
-        "time": 1764619514201,
-        "updated": 1764620908040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000reya",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000reya.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000reya",
-        "ids": ",us7000reya,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 68,
-        "dmin": 1.616,
-        "rms": 0.8,
-        "gap": 74,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 64 km WNW of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.3643,
-          -10.2568,
-          115.387
-        ]
-      },
-      "id": "us7000reya"
     }
   ],
   "bbox": [
     -177.5628,
-    -27.1504,
+    -27.673,
     7.52,
-    168.5434,
+    179.4707,
     60.674823760986,
-    220.867
+    519.084
   ]
 }
