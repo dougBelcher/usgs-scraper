@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764825704000,
+    "generated": 1764830090000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 27
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.74,
+        "place": "67 km E of Tonopah, Nevada",
+        "time": 1764829350549,
+        "updated": 1764829942040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00908096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00908096.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "nn",
+        "code": "00908096",
+        "ids": ",us7000rfgp,nn00908096,",
+        "sources": ",us,nn,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.95,
+        "rms": 0.661,
+        "gap": 214,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 67 km E of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4684,
+          38.1547,
+          8.5935
+        ]
+      },
+      "id": "nn00908096"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,11 +255,11 @@
         "mag": 5.3,
         "place": "1 km WNW of El Morro, Mexico",
         "time": 1764819909690,
-        "updated": 1764825509675,
+        "updated": 1764828522203,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rfg4",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rfg4.geojson",
-        "felt": 14,
+        "felt": 15,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -335,7 +375,7 @@
         "mag": 5.5,
         "place": "Pacific-Antarctic Ridge",
         "time": 1764817928821,
-        "updated": 1764822641693,
+        "updated": 1764829864955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rfg1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rfg1.geojson",
@@ -1012,10 +1052,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "79 km WSW of Vallenar, Chile",
+        "time": 1764759245196,
+        "updated": 1764827176040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rs73",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rs73.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "6000rs73",
+        "ids": ",us6000rs73,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.726,
+        "rms": 0.37,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 79 km WSW of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5091,
+          -28.8516,
+          28.498
+        ]
+      },
+      "id": "us6000rs73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.919167267441528,
         "place": "13 km NW of Susitna, Alaska",
         "time": 1764752587047,
-        "updated": 1764755867643,
+        "updated": 1764826900040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xtlzst",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xtlzst.geojson",
@@ -1028,8 +1108,8 @@
         "sig": 131,
         "net": "ak",
         "code": "2025xtlzst",
-        "ids": ",ak2025xtlzst,",
-        "sources": ",ak,",
+        "ids": ",ak2025xtlzst,us6000rs5k,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 67,
         "dmin": 0.5278446674346924,
