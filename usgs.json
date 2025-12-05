@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764973268000,
+    "generated": 1764976811000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -88,6 +88,46 @@
         ]
       },
       "id": "us6000rstu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "1 km SSE of Padong, Philippines",
+        "time": 1764963441769,
+        "updated": 1764975708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rstk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rstk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rstk",
+        "ids": ",us6000rstk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 101,
+        "dmin": 4.762,
+        "rms": 0.82,
+        "gap": 34,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 1 km SSE of Padong, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7602,
+          18.0409,
+          10
+        ]
+      },
+      "id": "us6000rstk"
     },
     {
       "type": "Feature",
@@ -215,7 +255,7 @@
         "mag": 2.6,
         "place": "38 km NW of Stanton, Texas",
         "time": 1764963001636,
-        "updated": 1764972073300,
+        "updated": 1764973954040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xxycnx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xxycnx.geojson",
@@ -228,8 +268,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2025xxycnx",
-        "ids": ",tx2025xxycnx,",
-        "sources": ",tx,",
+        "ids": ",tx2025xxycnx,us6000rste,",
+        "sources": ",tx,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 64,
         "dmin": 0,
@@ -1168,50 +1208,10 @@
         ]
       },
       "id": "pr71501508"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4876444477302186,
-        "place": "177 km SSE of Chignik, Alaska",
-        "time": 1764888860860,
-        "updated": 1764895243040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xwjhkl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xwjhkl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "ak",
-        "code": "2025xwjhkl",
-        "ids": ",us7000rfnj,ak2025xwjhkl,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.550147294998169,
-        "rms": 2.4405146437631196,
-        "gap": 221.55240631103516,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 177 km SSE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.91297912597656,
-          54.93826293945312,
-          78.2724609375
-        ]
-      },
-      "id": "ak2025xwjhkl"
     }
   ],
   "bbox": [
-    -156.91297912598,
+    -155.68814086914,
     -60.18,
     3.81,
     160.9207,
