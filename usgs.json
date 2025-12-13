@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765621349000,
+    "generated": 1765624659000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 36
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1765623059731,
+        "updated": 1765624540737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rumi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rumi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.82,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000rumi",
+        "ids": ",us6000rumi,ak2025ylyvgt,",
+        "sources": ",us,ak,",
+        "types": ",losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 85,
+        "dmin": 0.148,
+        "rms": 0.94,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.3373,
+          51.9234,
+          109.647
+        ]
+      },
+      "id": "us6000rumi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "114 km N of Yakutat, Alaska",
+        "time": 1765621583916,
+        "updated": 1765623075040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rumh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rumh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000rumh",
+        "ids": ",us6000rumh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.489,
+        "rms": 0.81,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 114 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.978,
+          60.5642,
+          1.75
+        ]
+      },
+      "id": "us6000rumh"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1408,53 +1488,13 @@
         ]
       },
       "id": "us6000ruef"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "61 km ENE of Pedro Bay, Alaska",
-        "time": 1765537443296,
-        "updated": 1765544801040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ykdnyl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ykdnyl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "2025ykdnyl",
-        "ids": ",us6000rueb,ak2025ykdnyl,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 61 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.14,
-          60.047,
-          133
-        ]
-      },
-      "id": "ak2025ykdnyl"
     }
   ],
   "bbox": [
     -178.9634,
     -59.6574,
     0.1,
-    157.0407,
+    178.3373,
     63.271,
     547.575
   ]
