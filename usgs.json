@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765750825000,
+    "generated": 1765754420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "30 km W of Ester, Alaska",
+        "time": 1765753693308,
+        "updated": 1765754242159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yoszov",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yoszov.geojson",
+        "felt": 15,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 173,
+        "net": "ak",
+        "code": "2025yoszov",
+        "ids": ",ak2025yoszov,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.2,
+        "rms": 1,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 30 km W of Ester, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.652,
+          64.886,
+          5
+        ]
+      },
+      "id": "ak2025yoszov"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "10 km NNE of Garden City, Texas",
-        "time": 1765746963589,
-        "updated": 1765749676356,
+        "time": 1765746963594,
+        "updated": 1765752278624,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yophae",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yophae.geojson",
@@ -44,7 +84,7 @@
         "coordinates": [
           -101.457,
           31.953,
-          2.5908
+          2.5591
         ]
       },
       "id": "tx2025yophae"
@@ -255,12 +295,12 @@
         "mag": 2.64,
         "place": "9 km NW of Healdton, Oklahoma",
         "time": 1765739900882,
-        "updated": 1765743821040,
+        "updated": 1765752177045,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025yllu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025yllu.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -268,9 +308,9 @@
         "sig": 107,
         "net": "ok",
         "code": "2025yllu",
-        "ids": ",us6000ruuj,ok2025yllu,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2025yllu,us6000ruuj,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.09123468399,
         "rms": 0.482986876,
@@ -1608,46 +1648,6 @@
         ]
       },
       "id": "us6000rur2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "10 km SSW of Tomioka, Japan",
-        "time": 1765666378295,
-        "updated": 1765670337040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ruqm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ruqm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000ruqm",
-        "ids": ",us6000ruqm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.338,
-        "rms": 0.59,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 10 km SSW of Tomioka, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.9931,
-          37.2402,
-          59.635
-        ]
-      },
-      "id": "us6000ruqm"
     }
   ],
   "bbox": [
@@ -1655,7 +1655,7 @@
     -59.2308,
     -0.36000001430512,
     167.9265,
-    61.188,
+    64.886,
     502.401
   ]
 }
