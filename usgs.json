@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766417085000,
+    "generated": 1766420967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "270 km W of Houma, Tonga",
+        "time": 1766419352022,
+        "updated": 1766420674040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rk2w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rk2w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000rk2w",
+        "ids": ",us7000rk2w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 5.071,
+        "rms": 0.88,
+        "gap": 103,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 270 km W of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.9085,
+          -21.1078,
+          436.665
+        ]
+      },
+      "id": "us7000rk2w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "110 km N of Yakutat, Alaska",
         "time": 1766415588664,
-        "updated": 1766416622433,
+        "updated": 1766417941357,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zcuptx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zcuptx.geojson",
@@ -53,12 +93,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "17 km SW of Charlotte, Texas",
-        "time": 1766411435847,
-        "updated": 1766412401040,
+        "place": "18 km SW of Charlotte, Texas",
+        "time": 1766411433202,
+        "updated": 1766417645963,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwhh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwhh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcsiej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcsiej.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,28 +106,28 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 96,
-        "net": "us",
-        "code": "6000rwhh",
-        "ids": ",us6000rwhh,",
-        "sources": ",us,",
+        "net": "tx",
+        "code": "2025zcsiej",
+        "ids": ",us6000rwhh,tx2025zcsiej,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.257,
-        "rms": 0.45,
-        "gap": 90,
-        "magType": "mb_lg",
+        "nst": 24,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 106,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 17 km SW of Charlotte, Texas"
+        "title": "M 2.5 - 18 km SW of Charlotte, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.8489,
-          28.7686,
-          5.095
+          -98.845,
+          28.746,
+          6.94
         ]
       },
-      "id": "us6000rwhh"
+      "id": "tx2025zcsiej"
     },
     {
       "type": "Feature",
@@ -1608,54 +1648,14 @@
         ]
       },
       "id": "us6000rwcj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "Izu Islands, Japan region",
-        "time": 1766332242914,
-        "updated": 1766338266040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwce",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwce.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000rwce",
-        "ids": ",us6000rwce,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 5.53,
-        "rms": 0.54,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - Izu Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.8458,
-          30.0213,
-          409.473
-        ]
-      },
-      "id": "us6000rwce"
     }
   ],
   "bbox": [
-    -153.036,
+    -177.9085,
     -55.3061,
     0.1,
     160.7244,
     62.961,
-    409.473
+    436.665
   ]
 }
