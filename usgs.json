@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766593703000,
+    "generated": 1766596767000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.64,
+        "place": "9 km W of Malibu, CA",
+        "time": 1766596120800,
+        "updated": 1766596698177,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41146743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41146743.geojson",
+        "felt": 10,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "ci",
+        "code": "41146743",
+        "ids": ",ci41146743,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 86,
+        "dmin": 0.08558,
+        "rms": 0.28,
+        "gap": 107,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 9 km W of Malibu, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9085,
+          33.9905,
+          13.7
+        ]
+      },
+      "id": "ci41146743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.7,
         "place": "218 km SW of Merizo Village, Guam",
         "time": 1766588435225,
-        "updated": 1766592040451,
+        "updated": 1766596241738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkkk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkkk.geojson",
@@ -1528,46 +1568,6 @@
         ]
       },
       "id": "us7000rkel"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "1 km SW of La Parguera, Puerto Rico",
-        "time": 1766509952020,
-        "updated": 1766511061400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71502983",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71502983.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "pr",
-        "code": "71502983",
-        "ids": ",pr71502983,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.009614,
-        "rms": 0.16,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km SW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0536666666667,
-          17.966,
-          13.39
-        ]
-      },
-      "id": "pr71502983"
     }
   ],
   "bbox": [
