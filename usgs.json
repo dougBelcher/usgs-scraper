@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766769571000,
+    "generated": 1766773947000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 53
+    "count": 52
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "109 km W of Akhiok, Alaska",
+        "time": 1766771211939,
+        "updated": 1766771349148,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zkjbhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zkjbhp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "2025zkjbhp",
+        "ids": ",ak2025zkjbhp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.9,
+        "rms": 0.5,
+        "gap": 189,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 109 km W of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.945,
+          56.811,
+          30.9
+        ]
+      },
+      "id": "ak2025zkjbhp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,7 +455,7 @@
         "mag": 2.94,
         "place": "5 km S of Carpinteria, CA",
         "time": 1766752770190,
-        "updated": 1766755488040,
+        "updated": 1766770704820,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147327",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147327.geojson",
@@ -423,7 +463,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 133,
         "net": "ci",
@@ -1495,7 +1535,7 @@
         "mag": 2.47,
         "place": "10 km SSW of Valencia, CA",
         "time": 1766702707130,
-        "updated": 1766733820274,
+        "updated": 1766770853450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147191",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147191.geojson",
@@ -1503,7 +1543,7 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 94,
         "net": "ci",
@@ -2048,86 +2088,6 @@
         ]
       },
       "id": "us7000rkrt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1766687197506,
-        "updated": 1766687919646,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zioqrt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zioqrt.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "tx",
-        "code": "2025zioqrt",
-        "ids": ",us7000rkrq,tx2025zioqrt,",
-        "sources": ",us,tx,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.363,
-          31.668,
-          6.9714
-        ]
-      },
-      "id": "tx2025zioqrt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "25 km NNW of Castlepoint, New Zealand",
-        "time": 1766686610173,
-        "updated": 1766689304258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkrn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkrn.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "us",
-        "code": "7000rkrn",
-        "ids": ",us7000rkrn,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.081,
-        "rms": 0.74,
-        "gap": 58,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 4.5 - 25 km NNW of Castlepoint, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.1401,
-          -40.6808,
-          25.174
-        ]
-      },
-      "id": "us7000rkrn"
     }
   ],
   "bbox": [
