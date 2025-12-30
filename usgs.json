@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767050465000,
+    "generated": 1767059721000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 28
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "69 km ESE of Shikotan, Russia",
+        "time": 1767048441032,
+        "updated": 1767051581040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlev",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlev.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rlev",
+        "ids": ",us7000rlev,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 3.623,
+        "rms": 0.82,
+        "gap": 200,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 69 km ESE of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.5633,
+          43.6548,
+          35
+        ]
+      },
+      "id": "us7000rlev"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -928,206 +968,6 @@
         ]
       },
       "id": "us7000rlag"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "44 km ESE of Fox River, Alaska",
-        "time": 1766971845800,
-        "updated": 1766972315359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zopwva",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zopwva.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2025zopwva",
-        "ids": ",ak2025zopwva,us7000rlae,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 165,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 44 km ESE of Fox River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.291,
-          59.65,
-          26.5
-        ]
-      },
-      "id": "ak2025zopwva"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "15 km NNW of Susanville, CA",
-        "time": 1766970966700,
-        "updated": 1767029441179,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287901",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287901.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nc",
-        "code": "75287901",
-        "ids": ",nc75287901,nn00908988,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.08609,
-        "rms": 0.08,
-        "gap": 135,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km NNW of Susanville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.68383026123,
-          40.5458335876465,
-          6.5
-        ]
-      },
-      "id": "nc75287901"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "15 km NNW of Susanville, CA",
-        "time": 1766968874360,
-        "updated": 1767050413964,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287861.geojson",
-        "felt": 340,
-        "cdi": 4.7,
-        "mmi": 5.96,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "nc",
-        "code": "75287861",
-        "ids": ",ew1766968880,nc75287861,us7000rla2,nn00908981,",
-        "sources": ",ew,nc,us,nn,",
-        "types": ",dyfi,focal-mechanism,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 30,
-        "dmin": 0.08067,
-        "rms": 0.14,
-        "gap": 61,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 4.7 - 15 km NNW of Susanville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.700833333333,
-          40.547,
-          6.78
-        ]
-      },
-      "id": "nc75287861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "43 km ENE of Kodiak, Alaska",
-        "time": 1766965467753,
-        "updated": 1766978435040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zomjgb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zomjgb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "2025zomjgb",
-        "ids": ",us7000rl9t,ak2025zomjgb,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 183,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 43 km ENE of Kodiak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.744,
-          57.959,
-          7.3
-        ]
-      },
-      "id": "ak2025zomjgb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "15 km SSE of Santa Rosa Is., CA",
-        "time": 1766965453830,
-        "updated": 1766978143040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148447",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148447.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "ci",
-        "code": "41148447",
-        "ids": ",ci41148447,us7000rl9q,",
-        "sources": ",ci,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.1609,
-        "rms": 0.16,
-        "gap": 193,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 15 km SSE of Santa Rosa Is., CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.057,
-          33.8185,
-          8.53
-        ]
-      },
-      "id": "ci41148447"
     }
   ],
   "bbox": [
