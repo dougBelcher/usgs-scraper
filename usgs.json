@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767126328000,
+    "generated": 1767129749000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "31 km SE of Boyuibe, Bolivia",
+        "time": 1767126363769,
+        "updated": 1767127441040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlkk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlkk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000rlkk",
+        "ids": ",us7000rlkk,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 98,
+        "dmin": 2.276,
+        "rms": 0.9,
+        "gap": 22,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 31 km SE of Boyuibe, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1117,
+          -20.6709,
+          547.425
+        ]
+      },
+      "id": "us7000rlkk"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,12 +175,12 @@
         "mag": 2.46,
         "place": "9 km SE of Loco, Oklahoma",
         "time": 1767107954380,
-        "updated": 1767115613040,
+        "updated": 1767128957178,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025zojy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025zojy.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -148,9 +188,9 @@
         "sig": 93,
         "net": "ok",
         "code": "2025zojy",
-        "ids": ",us7000rlj0,ok2025zojy,",
-        "sources": ",us,ok,",
-        "types": ",origin,phase-data,",
+        "ids": ",ok2025zojy,us7000rlj0,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 14,
         "dmin": 0.1325703114,
         "rms": 0.3919314699,
@@ -1288,46 +1328,6 @@
         ]
       },
       "id": "pr71503373"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "89 km SSE of Sand Point, Alaska",
-        "time": 1767042481649,
-        "updated": 1767066162040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rler",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rler.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.405,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "7000rler",
-        "ids": ",ak2025zqcxhr,us7000rler,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 37,
-        "dmin": 1.131,
-        "rms": 0.58,
-        "gap": 199,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 89 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.205,
-          54.553,
-          38.1
-        ]
-      },
-      "id": "us7000rler"
     }
   ],
   "bbox": [
