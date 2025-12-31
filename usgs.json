@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767180056000,
+    "generated": 1767185367000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 29
+    "count": 26
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "188 km WNW of Illapel, Chile",
+        "time": 1767182949897,
+        "updated": 1767185275040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlpp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlpp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000rlpp",
+        "ids": ",us7000rlpp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 1.805,
+        "rms": 0.31,
+        "gap": 206,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 188 km WNW of Illapel, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1069,
+          -31.2597,
+          10
+        ]
+      },
+      "id": "us7000rlpp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,46 +88,6 @@
         ]
       },
       "id": "ak2025zsywjq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "6 km WSW of Westbrook, Texas",
-        "time": 1767174120082,
-        "updated": 1767178558040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zsxpwx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zsxpwx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025zsxpwx",
-        "ids": ",us7000rlpi,tx2025zsxpwx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km WSW of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.078,
-          32.341,
-          1.9286
-        ]
-      },
-      "id": "tx2025zsxpwx"
     },
     {
       "type": "Feature",
@@ -213,38 +213,38 @@
       "type": "Feature",
       "properties": {
         "mag": 4.92,
-        "place": "14 km NNW of Susanville, CA",
-        "time": 1767160171910,
-        "updated": 1767179762754,
+        "place": "15 km NNW of Susanville, CA",
+        "time": 1767160172000,
+        "updated": 1767185278025,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288851",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288851.geojson",
-        "felt": 1217,
+        "felt": 1226,
         "cdi": 6.7,
-        "mmi": 6.695,
+        "mmi": 6.62,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 1042,
         "net": "nc",
         "code": "75288851",
-        "ids": ",ew1767160170,nn00909068,nc75288851,us7000rlnf,",
-        "sources": ",ew,nn,nc,us,",
+        "ids": ",nn00909068,ew1767160170,nc75288851,us7000rlnf,",
+        "sources": ",nn,ew,nc,us,",
         "types": ",dyfi,focal-mechanism,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 26,
-        "dmin": 0.08967,
+        "nst": 29,
+        "dmin": 0.08513,
         "rms": 0.16,
-        "gap": 68,
+        "gap": 62,
         "magType": "mw",
         "type": "earthquake",
-        "title": "M 4.9 - 14 km NNW of Susanville, CA"
+        "title": "M 4.9 - 15 km NNW of Susanville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.68416595459,
-          40.5418319702148,
-          4.71999979019165
+          -120.692333333333,
+          40.5443333333333,
+          5.32
         ]
       },
       "id": "nc75288851"
@@ -1048,133 +1048,13 @@
         ]
       },
       "id": "us7000rlig"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "105 km N of Yakutat, Alaska",
-        "time": 1767097863574,
-        "updated": 1767164465040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlia",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlia.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "7000rlia",
-        "ids": ",us7000rlia,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.428,
-        "rms": 0.9,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 105 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.9289,
-          60.4911,
-          5
-        ]
-      },
-      "id": "us7000rlia"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "25 km ESE of Honaunau-Napoopoo, Hawaii",
-        "time": 1767095393240,
-        "updated": 1767125386080,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74864982",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74864982.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "74864982",
-        "ids": ",hv74864982,us7000rli6,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.04664,
-        "rms": 0.23,
-        "gap": 145,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 25 km ESE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.624,
-          19.4095,
-          -0.82
-        ]
-      },
-      "id": "hv74864982"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "80 km SSW of Panguna, Papua New Guinea",
-        "time": 1767093728302,
-        "updated": 1767094659040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rli5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rli5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000rli5",
-        "ids": ",us7000rli5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 4.176,
-        "rms": 0.8,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 80 km SSW of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.273,
-          -7.0134,
-          10
-        ]
-      },
-      "id": "us7000rli5"
     }
   ],
   "bbox": [
-    -155.624,
+    -152.768,
     -57.1861,
-    -0.82,
-    155.273,
+    3.8900001049042,
+    147.711,
     62.204,
     547.425
   ]
