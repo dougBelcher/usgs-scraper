@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767288087000,
+    "generated": 1767292411000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 78
+    "count": 77
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "112 km N of Yakutat, Alaska",
+        "time": 1767285606204,
+        "updated": 1767290947040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rly8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rly8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "7000rly8",
+        "ids": ",us7000rly8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.502,
+        "rms": 0.55,
+        "gap": 117,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 112 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.8593,
+          60.5566,
+          5
+        ]
+      },
+      "id": "us7000rly8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1508,8 +1548,8 @@
         "sig": 158,
         "net": "us",
         "code": "7000rlux",
-        "ids": ",us7000rlux,ak2026aapszg,",
-        "sources": ",us,ak,",
+        "ids": ",ak2026aapszg,us7000rlux,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
         "nst": 26,
         "dmin": 0.336,
@@ -2135,17 +2175,17 @@
         "mag": 5.7,
         "place": "105 km NNW of Yakutat, Alaska",
         "time": 1767250015131,
-        "updated": 1767286389040,
+        "updated": 1767290336221,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rluk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rluk.geojson",
-        "felt": 33,
+        "felt": 34,
         "cdi": 4.1,
         "mmi": 6.508,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 513,
+        "sig": 514,
         "net": "us",
         "code": "7000rluk",
         "ids": ",at00t86au5,us7000rluk,ak2026aanmpl,",
@@ -3048,86 +3088,6 @@
         ]
       },
       "id": "pr71503483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "44 km E of Baculin, Philippines",
-        "time": 1767202238121,
-        "updated": 1767217532040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlr8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlr8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000rlr8",
-        "ids": ",us7000rlr8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.444,
-        "rms": 1.23,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 44 km E of Baculin, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.9899,
-          7.4283,
-          37.173
-        ]
-      },
-      "id": "us7000rlr8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.82,
-        "place": "3 km N of San Germán, Puerto Rico",
-        "time": 1767201757240,
-        "updated": 1767202681150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503473",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503473.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "pr",
-        "code": "71503473",
-        "ids": ",pr71503473,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.03006,
-        "rms": 0.17,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 3 km N of San Germán, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0513333333333,
-          18.116,
-          20.97
-        ]
-      },
-      "id": "pr71503473"
     }
   ],
   "bbox": [
