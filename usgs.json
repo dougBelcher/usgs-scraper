@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767435750000,
+    "generated": 1767439107000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 42
+    "count": 44
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "20 km NNW of Lubuklinggau, Indonesia",
+        "time": 1767435173759,
+        "updated": 1767436234040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm8v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rm8v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rm8v",
+        "ids": ",us7000rm8v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1.229,
+        "rms": 0.99,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 20 km NNW of Lubuklinggau, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.761,
+          -3.139,
+          209.807
+        ]
+      },
+      "id": "us7000rm8v"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +88,46 @@
         ]
       },
       "id": "ak2026aelrlx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.9,
+        "place": "southeast Indian Ridge",
+        "time": 1767434876003,
+        "updated": 1767436262121,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm8t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rm8t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 536,
+        "net": "us",
+        "code": "7000rm8t",
+        "ids": ",us7000rm8t,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 42,
+        "dmin": 20.287,
+        "rms": 0.91,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.9 - southeast Indian Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.4723,
+          -45.4026,
+          10
+        ]
+      },
+      "id": "us7000rm8t"
     },
     {
       "type": "Feature",
@@ -1692,7 +1772,7 @@
   ],
   "bbox": [
     -175.9145,
-    -24.2431,
+    -45.4026,
     0,
     159.67,
     64.738,
