@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767810997000,
+    "generated": 1767813725000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 34
   },
   "features": [
     {
@@ -215,12 +215,12 @@
         "mag": 3.71,
         "place": "7 km SE of Deep Springs, CA",
         "time": 1767800640810,
-        "updated": 1767804425420,
+        "updated": 1767813479005,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75292061",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75292061.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": 3.66,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +230,7 @@
         "code": "75292061",
         "ids": ",nc75292061,nn00909277,us7000rn82,",
         "sources": ",nc,nn,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 49,
         "dmin": 0.305,
         "rms": 0.16,
@@ -248,46 +248,6 @@
         ]
       },
       "id": "nc75292061"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "0 km N of Pāhala, Hawaii",
-        "time": 1767797972090,
-        "updated": 1767798265370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74870002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74870002.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "hv",
-        "code": "74870002",
-        "ids": ",hv74870002,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.04408,
-        "rms": 0.119999997,
-        "gap": 90,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 0 km N of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.47900390625,
-          19.2083339691162,
-          28.8700008392334
-        ]
-      },
-      "id": "hv74870002"
     },
     {
       "type": "Feature",
@@ -1408,166 +1368,6 @@
         ]
       },
       "id": "ak2026aktbiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "103 km N of Barishal, Pakistan",
-        "time": 1767727029696,
-        "updated": 1767762295711,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmzt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmzt.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000rmzt",
-        "ids": ",us7000rmzt,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 112,
-        "dmin": 1.991,
-        "rms": 0.88,
-        "gap": 54,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 103 km N of Barishal, Pakistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          74.6137,
-          37.2523,
-          10
-        ]
-      },
-      "id": "us7000rmzt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.96,
-        "place": "66 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767726100750,
-        "updated": 1767729749040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504313",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504313.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 135,
-        "net": "pr",
-        "code": "71504313",
-        "ids": ",us7000rmzq,pr71504313,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.5799,
-        "rms": 0.13,
-        "gap": 280,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 66 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4975,
-          19.0593333333333,
-          13.76
-        ]
-      },
-      "id": "pr71504313"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.98,
-        "place": "62 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767725162590,
-        "updated": 1767726659070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504293.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 137,
-        "net": "pr",
-        "code": "71504293",
-        "ids": ",pr71504293,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.5525,
-        "rms": 0.19,
-        "gap": 282,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 62 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4861666666667,
-          19.031,
-          13.81
-        ]
-      },
-      "id": "pr71504293"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "69 km N of Tierras Nuevas Poniente, Puerto Rico",
-        "time": 1767724784420,
-        "updated": 1767731214900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504338.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "pr",
-        "code": "71504338",
-        "ids": ",pr71504338,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.6094,
-        "rms": 0.14,
-        "gap": 294,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 69 km N of Tierras Nuevas Poniente, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.5003333333333,
-          19.0891666666667,
-          19.94
-        ]
-      },
-      "id": "pr71504338"
     }
   ],
   "bbox": [
