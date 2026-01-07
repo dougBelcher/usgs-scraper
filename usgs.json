@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767781642000,
+    "generated": 1767784949000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 50
+    "count": 48
   },
   "features": [
     {
@@ -55,12 +55,12 @@
         "mag": 3.67,
         "place": "92 km N of Suárez, Puerto Rico",
         "time": 1767777976260,
-        "updated": 1767779247326,
+        "updated": 1767782208284,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026007000",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026007000.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +70,7 @@
         "code": "2026007000",
         "ids": ",pr2026007000,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 1.0165,
         "rms": 0.5,
@@ -495,7 +495,7 @@
         "mag": 6.4,
         "place": "16 km ESE of Baculin, Philippines",
         "time": 1767754976040,
-        "updated": 1767775008922,
+        "updated": 1767784553050,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rn2z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rn2z.geojson",
@@ -1928,93 +1928,13 @@
         ]
       },
       "id": "ak2026akdcyv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "293 km SE of Attu Station, Alaska",
-        "time": 1767698042387,
-        "updated": 1767727682495,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026akazkk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026akazkk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.021,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "ak",
-        "code": "2026akazkk",
-        "ids": ",ak2026akazkk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 18,
-        "dmin": 1.4,
-        "rms": 0.8,
-        "gap": 230,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.2 - 293 km SE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.604,
-          51.255,
-          4.7
-        ]
-      },
-      "id": "ak2026akazkk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1767697037116,
-        "updated": 1767727374049,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rmut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rmut.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.577,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000rmut",
-        "ids": ",ak2026akakyb,us7000rmut,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 76,
-        "dmin": 1.276,
-        "rms": 0.8,
-        "gap": 182,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.87,
-          51.2486,
-          29.983
-        ]
-      },
-      "id": "us7000rmut"
     }
   ],
   "bbox": [
     -176.7047,
     -18.5976,
     -0.0099999997764826,
-    176.87,
+    168.6838,
     63.138,
     253.886
   ]
