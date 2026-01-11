@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768120202000,
+    "generated": 1768123384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 39
   },
   "features": [
     {
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci41155503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "41 km WNW of Ollagüe, Chile",
+        "time": 1768119030791,
+        "updated": 1768123105040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp15",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rp15.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rp15",
+        "ids": ",us7000rp15,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.862,
+        "rms": 0.63,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 41 km WNW of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6422,
+          -21.137,
+          130.6
+        ]
+      },
+      "id": "us7000rp15"
     },
     {
       "type": "Feature",
@@ -1528,126 +1568,6 @@
         ]
       },
       "id": "us7000rnv6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "13 km WNW of Belden, CA",
-        "time": 1768035753070,
-        "updated": 1768041741783,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293486",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293486.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "nc",
-        "code": "75293486",
-        "ids": ",nc75293486,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.183,
-        "rms": 0.01,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km WNW of Belden, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.386497497559,
-          40.0561676025391,
-          14.1999998092651
-        ]
-      },
-      "id": "nc75293486"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "14 km SSW of Searles Valley, CA",
-        "time": 1768035656320,
-        "updated": 1768041217040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41155071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41155071.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "ci",
-        "code": "41155071",
-        "ids": ",ci41155071,us7000rnv0,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.03066,
-        "rms": 0.12,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km SSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.456833333333,
-          35.6505,
-          8.1
-        ]
-      },
-      "id": "ci41155071"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "15 km NE of Amarillo, Texas",
-        "time": 1768034039927,
-        "updated": 1768098043442,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026areowl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026areowl.geojson",
-        "felt": 7,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "tx",
-        "code": "2026areowl",
-        "ids": ",tx2026areowl,us7000rnuz,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 81,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 15 km NE of Amarillo, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.703,
-          35.316,
-          9.1309
-        ]
-      },
-      "id": "tx2026areowl"
     }
   ],
   "bbox": [
