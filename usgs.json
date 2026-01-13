@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768286252000,
+    "generated": 1768289187000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "122 km ENE of Angoram, Papua New Guinea",
+        "time": 1768286586695,
+        "updated": 1768288230040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpc8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpc8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000rpc8",
+        "ids": ",us7000rpc8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 2.824,
+        "rms": 1.21,
+        "gap": 44,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 122 km ENE of Angoram, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1319,
+          -3.7866,
+          10
+        ]
+      },
+      "id": "us7000rpc8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "102 km N of Finschhafen, Papua New Guinea",
+        "time": 1768286015553,
+        "updated": 1768287388040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpc6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpc6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rpc6",
+        "ids": ",us7000rpc6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 3.777,
+        "rms": 0.88,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 102 km N of Finschhafen, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7014,
+          -5.6415,
+          168.143
+        ]
+      },
+      "id": "us7000rpc6"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.8,
         "place": "92 km SSE of Ugashik, Alaska",
         "time": 1768285980987,
-        "updated": 1768286153183,
+        "updated": 1768288949040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026awntfg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026awntfg.geojson",
@@ -28,8 +108,8 @@
         "sig": 121,
         "net": "ak",
         "code": "2026awntfg",
-        "ids": ",ak2026awntfg,",
-        "sources": ",ak,",
+        "ids": ",us7000rpc5,ak2026awntfg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 31,
         "dmin": 0.9,
@@ -135,7 +215,7 @@
         "mag": 2.67,
         "place": "12 km ENE of Honaunau-Napoopoo, Hawaii",
         "time": 1768276847560,
-        "updated": 1768278782508,
+        "updated": 1768286351040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74873262",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74873262.geojson",
@@ -148,8 +228,8 @@
         "sig": 111,
         "net": "hv",
         "code": "74873262",
-        "ids": ",hv74873262,",
-        "sources": ",hv,",
+        "ids": ",hv74873262,us7000rpbh,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 47,
         "dmin": 0.05642,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us7000rp56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "14 km NNW of Grapevine, CA",
-        "time": 1768201366710,
-        "updated": 1768285290040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41155919",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41155919.geojson",
-        "felt": 8,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "ci",
-        "code": "41155919",
-        "ids": ",ci41155919,us7000rp4z,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 84,
-        "dmin": 0.06594,
-        "rms": 0.29,
-        "gap": 19,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 14 km NNW of Grapevine, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0035,
-          35.0556666666667,
-          15.6
-        ]
-      },
-      "id": "ci41155919"
     }
   ],
   "bbox": [
@@ -1376,6 +1416,6 @@
     1.4,
     177.659,
     62.485,
-    162.208
+    168.143
   ]
 }
