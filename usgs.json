@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768325285000,
+    "generated": 1768329263000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.2.0",
+    "api": "1.14.1",
     "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "121 km SSW of Sarangani, Philippines",
+        "time": 1768324979110,
+        "updated": 1768327375040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpgg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpgg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000rpgg",
+        "ids": ",us7000rpgg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 2.685,
+        "rms": 0.69,
+        "gap": 73,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 121 km SSW of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9356,
+          4.4448,
+          10
+        ]
+      },
+      "id": "us7000rpgg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.2,
+        "place": "6 km N of Juli, Peru",
+        "time": 1768312982302,
+        "updated": 1768328669040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpei",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpei.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000rpei",
+        "ids": ",us7000rpei,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.272,
+        "rms": 1.07,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 6 km N of Juli, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4483,
+          -16.1615,
+          252.69
+        ]
+      },
+      "id": "us7000rpei"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "54 km N of Petersville, Alaska",
         "time": 1768310185801,
-        "updated": 1768310368112,
+        "updated": 1768326108040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026axbcwg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026axbcwg.geojson",
@@ -108,8 +188,8 @@
         "sig": 104,
         "net": "ak",
         "code": "2026axbcwg",
-        "ids": ",ak2026axbcwg,",
-        "sources": ",ak,",
+        "ids": ",us7000rpea,ak2026axbcwg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 95,
         "dmin": 0.5,
@@ -375,22 +455,22 @@
         "mag": 4.9,
         "place": "24 km NNW of Castlepoint, New Zealand",
         "time": 1768299692413,
-        "updated": 1768309550128,
+        "updated": 1768326135408,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpdh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpdh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.7,
         "mmi": 3.959,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 370,
         "net": "us",
         "code": "7000rpdh",
         "ids": ",us7000rpdh,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
         "nst": 40,
         "dmin": 0.082,
         "rms": 1.05,
@@ -775,11 +855,11 @@
         "mag": 5.3,
         "place": "72 km W of Ollagüe, Chile",
         "time": 1768289302517,
-        "updated": 1768301415729,
+        "updated": 1768328429498,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpce",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpce.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1928,86 +2008,6 @@
         ]
       },
       "id": "us7000rp8e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "101 km N of Yakutat, Alaska",
-        "time": 1768241023162,
-        "updated": 1768244134040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rp7r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rp7r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000rp7r",
-        "ids": ",us7000rp7r,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.4,
-        "rms": 0.71,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 101 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.8862,
-          60.4503,
-          10
-        ]
-      },
-      "id": "us7000rp7r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "82 km SE of Nikolai, Alaska",
-        "time": 1768240160247,
-        "updated": 1768243939040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026avoldf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026avoldf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "2026avoldf",
-        "ids": ",us7000rp7p,ak2026avoldf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
-        "dmin": 0.6,
-        "rms": 1.5,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 82 km SE of Nikolai, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.254,
-          62.485,
-          5
-        ]
-      },
-      "id": "ak2026avoldf"
     }
   ],
   "bbox": [
