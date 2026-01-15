@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768462054000,
+    "generated": 1768466063000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -52,42 +52,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.32,
-        "place": "67 km E of Paradise Valley, Nevada",
-        "time": 1768461332801,
-        "updated": 1768461750040,
+        "mag": 3.22,
+        "place": "55 km NE of Valmy, Nevada",
+        "time": 1768461337253,
+        "updated": 1768464604598,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909531",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909531.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.177,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 170,
+        "sig": 160,
         "net": "nn",
         "code": "00909531",
         "ids": ",us7000rpss,nn00909531,",
         "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.518,
-        "rms": 0.4483,
-        "gap": 238,
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 13,
+        "dmin": 0.304,
+        "rms": 0.1583,
+        "gap": 202,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 67 km E of Paradise Valley, Nevada"
+        "title": "M 3.2 - 55 km NE of Valmy, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7387,
-          41.4099,
-          9.0736
+          -116.6882,
+          41.1647,
+          12.4177
         ]
       },
       "id": "nn00909531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "6 km N of ‘Ar‘ara BaNegev, Israel",
+        "time": 1768460425677,
+        "updated": 1768462997123,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpsw.geojson",
+        "felt": 2,
+        "cdi": 2.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 285,
+        "net": "us",
+        "code": "7000rpsw",
+        "ids": ",us7000rpsw,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.018,
+        "rms": 0.87,
+        "gap": 221,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 6 km N of ‘Ar‘ara BaNegev, Israel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.016,
+          31.2167,
+          10
+        ]
+      },
+      "id": "us7000rpsw"
     },
     {
       "type": "Feature",
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "ak2026ayoetc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "193 km SE of Kokopo, Papua New Guinea",
-        "time": 1768377957449,
-        "updated": 1768381437040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpkh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpkh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000rpkh",
-        "ids": ",us7000rpkh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.92,
-        "rms": 1,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 193 km SE of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.3507,
-          -5.7142,
-          10
-        ]
-      },
-      "id": "us7000rpkh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.06,
-        "place": "38 km NW of Beatty, Nevada",
-        "time": 1768377537681,
-        "updated": 1768412992485,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909513",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909513.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 144,
-        "net": "nn",
-        "code": "00909513",
-        "ids": ",us7000rpkg,nn00909513,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.139,
-        "rms": 0.1694,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 38 km NW of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.1152,
-          37.1027,
-          7.6895
-        ]
-      },
-      "id": "nn00909513"
     }
   ],
   "bbox": [
