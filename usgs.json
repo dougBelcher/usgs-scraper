@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768581147000,
+    "generated": 1768584349000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "western Indian-Antarctic Ridge",
+        "time": 1768581669608,
+        "updated": 1768583102980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq3w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rq3w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000rq3w",
+        "ids": ",us7000rq3w,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 16.331,
+        "rms": 1.05,
+        "gap": 123,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - western Indian-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1513,
+          -50.1005,
+          10
+        ]
+      },
+      "id": "us7000rq3w"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,7 +95,7 @@
         "mag": 2.6,
         "place": "6 km E of Pearsall, Texas",
         "time": 1768575210935,
-        "updated": 1768575633631,
+        "updated": 1768581444040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bcrnei",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bcrnei.geojson",
@@ -68,8 +108,8 @@
         "sig": 104,
         "net": "tx",
         "code": "2026bcrnei",
-        "ids": ",tx2026bcrnei,",
-        "sources": ",tx,",
+        "ids": ",us7000rq3m,tx2026bcrnei,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 11,
         "dmin": 0.3,
@@ -1015,17 +1055,17 @@
         "mag": 6,
         "place": "295 km W of Bandon, Oregon",
         "time": 1768533952639,
-        "updated": 1768577813675,
+        "updated": 1768584172483,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq0d",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rq0d.geojson",
-        "felt": 128,
+        "felt": 137,
         "cdi": 3.6,
         "mmi": 0,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 600,
+        "sig": 603,
         "net": "us",
         "code": "7000rq0d",
         "ids": ",us7000rq0d,at00t8xtj8,",
@@ -1568,51 +1608,11 @@
         ]
       },
       "id": "ak2026bbbxgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1768497901896,
-        "updated": 1768499346040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpvs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rpvs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000rpvs",
-        "ids": ",us7000rpvs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 6.276,
-        "rms": 0.58,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.3052,
-          -23.5427,
-          481.134
-        ]
-      },
-      "id": "us7000rpvs"
     }
   ],
   "bbox": [
-    -179.3052,
-    -24.212,
+    -168.6788,
+    -50.1005,
     0,
     179.7005,
     62.922,
