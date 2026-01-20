@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768939963000,
+    "generated": 1768944191000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 70
+    "count": 72
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1768942359143,
+        "updated": 1768943867040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqyi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000rqyi",
+        "ids": ",us7000rqyi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.89,
+        "rms": 0.34,
+        "gap": 255,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 103 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8818,
+          19.2796,
+          30.687
+        ]
+      },
+      "id": "us7000rqyi"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +95,12 @@
         "mag": 2.79,
         "place": "18 km N of Indio, CA",
         "time": 1768937574910,
-        "updated": 1768939027205,
+        "updated": 1768942003320,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165223.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -70,7 +110,7 @@
         "code": "41165223",
         "ids": ",ci41165223,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 72,
         "dmin": 0.04735,
         "rms": 0.17,
@@ -95,7 +135,7 @@
         "mag": 3.21209400959956,
         "place": "18 km N of Indio, CA",
         "time": 1768936959580,
-        "updated": 1768939703350,
+        "updated": 1768942555830,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165175",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165175.geojson",
@@ -132,24 +172,64 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.3,
+        "place": "172 km SE of Vilyuchinsk, Russia",
+        "time": 1768935693481,
+        "updated": 1768943413040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqxi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqxi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rqxi",
+        "ids": ",us7000rqxi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.524,
+        "rms": 0.48,
+        "gap": 206,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 172 km SE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.1864,
+          51.8263,
+          10
+        ]
+      },
+      "id": "us7000rqxi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.75933433242959,
         "place": "18 km N of Indio, CA",
         "time": 1768934891540,
-        "updated": 1768939726288,
+        "updated": 1768943105149,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165087",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165087.geojson",
-        "felt": 92,
+        "felt": 93,
         "cdi": 3.8,
         "mmi": 3.668,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 252,
+        "sig": 253,
         "net": "ci",
         "code": "41165087",
-        "ids": ",ew1768934890,ci41165087,",
-        "sources": ",ew,ci,",
+        "ids": ",ew1768934890,ci41165087,us7000rqx9,",
+        "sources": ",ew,ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
         "nst": 96,
         "dmin": 0.04783,
@@ -168,6 +248,46 @@
         ]
       },
       "id": "ci41165087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "118 km E of Miyako, Japan",
+        "time": 1768934684636,
+        "updated": 1768940637040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqxc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqxc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rqxc",
+        "ids": ",us7000rqxc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 2.102,
+        "rms": 0.88,
+        "gap": 146,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 118 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3233,
+          39.5946,
+          34.212
+        ]
+      },
+      "id": "us7000rqxc"
     },
     {
       "type": "Feature",
@@ -332,6 +452,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1768929158707,
+        "updated": 1768943632040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqy7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqy7.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "7000rqy7",
+        "ids": ",ak2026bkfbad,us7000rqy7,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 1.17,
+        "rms": 1.07,
+        "gap": 286,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.4563,
+          50.2136,
+          10
+        ]
+      },
+      "id": "us7000rqy7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.4,
         "place": "49 km SSE of Mbumi, Tanzania",
         "time": 1768929098477,
@@ -408,6 +568,46 @@
         ]
       },
       "id": "ci41164839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "35 km ESE of Khorugh, Tajikistan",
+        "time": 1768924016897,
+        "updated": 1768940627040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqux.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rqux",
+        "ids": ",us7000rqux,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.068,
+        "rms": 0.86,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 35 km ESE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9121,
+          37.3443,
+          110.927
+        ]
+      },
+      "id": "us7000rqux"
     },
     {
       "type": "Feature",
@@ -615,17 +815,17 @@
         "mag": 2.66,
         "place": "5 km E of Elgin, South Carolina",
         "time": 1768908796380,
-        "updated": 1768939954207,
+        "updated": 1768944109765,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60617041",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60617041.geojson",
-        "felt": 710,
+        "felt": 722,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 357,
+        "sig": 362,
         "net": "se",
         "code": "60617041",
         "ids": ",se60617041,us7000rqtd,",
@@ -1135,11 +1335,11 @@
         "mag": 3.8,
         "place": "4 km NW of Ohlman, Illinois",
         "time": 1768894060180,
-        "updated": 1768939877365,
+        "updated": 1768944077352,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60617031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60617031.geojson",
-        "felt": 1923,
+        "felt": 1956,
         "cdi": 4.8,
         "mmi": 4.138,
         "alert": null,
@@ -1852,10 +2052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.19494048133446,
+        "mag": 3.34,
         "place": "18 km N of Indio, CA",
-        "time": 1768885046680,
-        "updated": 1768924631186,
+        "time": 1768885046740,
+        "updated": 1768940083227,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41163543",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41163543.geojson",
@@ -1865,26 +2065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 162,
+        "sig": 177,
         "net": "ci",
         "code": "41163543",
         "ids": ",ci41163543,us7000rqqr,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 111,
-        "dmin": 0.0474,
-        "rms": 0.189999998,
-        "gap": 38,
+        "nst": 80,
+        "dmin": 0.04652,
+        "rms": 0.15,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 18 km N of Indio, CA"
+        "title": "M 3.3 - 18 km N of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.188667297363,
-          33.8796653747559,
-          2.60999989509583
+          -116.190333333333,
+          33.881,
+          3.63
         ]
       },
       "id": "ci41163543"
@@ -2335,11 +2535,11 @@
         "mag": 4.92255584370382,
         "place": "20 km NNE of Indio, CA",
         "time": 1768874174390,
-        "updated": 1768939927787,
+        "updated": 1768944150523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41162719",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41162719.geojson",
-        "felt": 7910,
+        "felt": 7934,
         "cdi": 6.3,
         "mmi": 5.273,
         "alert": "green",
@@ -2535,17 +2735,17 @@
         "mag": 4,
         "place": "2 km WSW of Colima, Costa Rica",
         "time": 1768864015516,
-        "updated": 1768936661755,
+        "updated": 1768941825063,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqtv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqtv.geojson",
-        "felt": 10,
+        "felt": 11,
         "cdi": 4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 250,
+        "sig": 251,
         "net": "us",
         "code": "7000rqtv",
         "ids": ",us7000rqtv,",
@@ -2688,133 +2888,13 @@
         ]
       },
       "id": "ak2026biskul"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "50 km N of Shahrak-e Kūlūrī, Iran",
-        "time": 1768856984649,
-        "updated": 1768865186040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqni.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000rqni",
-        "ids": ",us7000rqni,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 6.769,
-        "rms": 0.68,
-        "gap": 151,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 50 km N of Shahrak-e Kūlūrī, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          48.4763,
-          32.8057,
-          10
-        ]
-      },
-      "id": "us7000rqni"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "37 km W of Anchor Point, Alaska",
-        "time": 1768856623152,
-        "updated": 1768859363040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026biqyxo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026biqyxo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "2026biqyxo",
-        "ids": ",us7000rqn3,ak2026biqyxo,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 139,
-        "dmin": 0.3,
-        "rms": 1,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 37 km W of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.494,
-          59.839,
-          72.7
-        ]
-      },
-      "id": "ak2026biqyxo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "71 km SE of Ozernovskiy, Russia",
-        "time": 1768856431238,
-        "updated": 1768858842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqn4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqn4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000rqn4",
-        "ids": ",us7000rqn4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 2.099,
-        "rms": 0.56,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 71 km SE of Ozernovskiy, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          157.2126,
-          51.034,
-          71.887
-        ]
-      },
-      "id": "us7000rqn4"
     }
   ],
   "bbox": [
     -179.9598,
     -23.697,
     0,
-    170.2131,
+    179.4563,
     61.794,
     527.005
   ]
