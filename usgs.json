@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768944191000,
+    "generated": 1768947938000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 72
+    "api": "2.3.0",
+    "count": 73
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
-        "place": "103 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1768942359143,
-        "updated": 1768943867040,
+        "place": "41 km SSE of Adak, Alaska",
+        "time": 1768946072436,
+        "updated": 1768946874850,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqyi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqyi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bkojmr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bkojmr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,28 +26,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 168,
-        "net": "us",
-        "code": "7000rqyi",
-        "ids": ",us7000rqyi,",
-        "sources": ",us,",
+        "net": "ak",
+        "code": "2026bkojmr",
+        "ids": ",ak2026bkojmr,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.89,
-        "rms": 0.34,
-        "gap": 255,
+        "nst": 18,
+        "dmin": 0.3,
+        "rms": 0.4,
+        "gap": 218,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.3 - 103 km N of Charlotte Amalie, U.S. Virgin Islands"
+        "title": "M 3.3 - 41 km SSE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.8818,
-          19.2796,
-          30.687
+          -176.352,
+          51.547,
+          36.1
         ]
       },
-      "id": "us7000rqyi"
+      "id": "ak2026bkojmr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "95 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1768942361260,
+        "updated": 1768944457443,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026020000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026020000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "pr",
+        "code": "2026020000",
+        "ids": ",us7000rqyi,pr2026020000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.8468,
+        "rms": 0.35,
+        "gap": 254,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 95 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9201,
+          19.2063,
+          61
+        ]
+      },
+      "id": "pr2026020000"
     },
     {
       "type": "Feature",
@@ -92,10 +132,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Fiji region",
+        "time": 1768937825728,
+        "updated": 1768944657040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqxr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqxr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000rqxr",
+        "ids": ",us7000rqxr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 120,
+        "dmin": 3.729,
+        "rms": 0.66,
+        "gap": 138,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.0315,
+          -17.9266,
+          378.138
+        ]
+      },
+      "id": "us7000rqxr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.79,
         "place": "18 km N of Indio, CA",
         "time": 1768937574910,
-        "updated": 1768942003320,
+        "updated": 1768945884040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165223.geojson",
@@ -108,8 +188,8 @@
         "sig": 120,
         "net": "ci",
         "code": "41165223",
-        "ids": ",ci41165223,",
-        "sources": ",ci,",
+        "ids": ",ci41165223,us7000rqxq,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 72,
         "dmin": 0.04735,
@@ -135,7 +215,7 @@
         "mag": 3.21209400959956,
         "place": "18 km N of Indio, CA",
         "time": 1768936959580,
-        "updated": 1768942555830,
+        "updated": 1768945414040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165175",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165175.geojson",
@@ -148,8 +228,8 @@
         "sig": 161,
         "net": "ci",
         "code": "41165175",
-        "ids": ",ci41165175,",
-        "sources": ",ci,",
+        "ids": ",ci41165175,us7000rqxp,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 111,
         "dmin": 0.04639,
@@ -215,11 +295,11 @@
         "mag": 3.75933433242959,
         "place": "18 km N of Indio, CA",
         "time": 1768934891540,
-        "updated": 1768943105149,
+        "updated": 1768945271529,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165087",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165087.geojson",
-        "felt": 93,
+        "felt": 94,
         "cdi": 3.8,
         "mmi": 3.668,
         "alert": null,
@@ -532,10 +612,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9785440023065,
+        "mag": 4.4,
+        "place": "82 km SW of Teluk Dalam, Indonesia",
+        "time": 1768926323024,
+        "updated": 1768947596040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqv2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqv2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000rqv2",
+        "ids": ",us7000rqv2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 1.258,
+        "rms": 0.49,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 82 km SW of Teluk Dalam, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.2468,
+          0.0814,
+          10
+        ]
+      },
+      "id": "us7000rqv2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.07,
         "place": "21 km N of Indio, CA",
-        "time": 1768925843590,
-        "updated": 1768936059863,
+        "time": 1768925843630,
+        "updated": 1768946504040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41164839",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41164839.geojson",
@@ -545,26 +665,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 140,
+        "sig": 148,
         "net": "ci",
         "code": "41164839",
-        "ids": ",ci41164839,",
-        "sources": ",ci,",
+        "ids": ",ci41164839,us7000rqv1,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 105,
-        "dmin": 0.02223,
-        "rms": 0.180000007,
-        "gap": 34,
+        "nst": 76,
+        "dmin": 0.02115,
+        "rms": 0.16,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 21 km N of Indio, CA"
+        "title": "M 3.1 - 21 km N of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.173835754395,
-          33.9031677246094,
-          2.9300000667572
+          -116.175666666667,
+          33.9043333333333,
+          3.67
         ]
       },
       "id": "ci41164839"
@@ -815,17 +935,17 @@
         "mag": 2.66,
         "place": "5 km E of Elgin, South Carolina",
         "time": 1768908796380,
-        "updated": 1768944109765,
+        "updated": 1768947732859,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60617041",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/se60617041.geojson",
-        "felt": 722,
+        "felt": 728,
         "cdi": 3.5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 362,
+        "sig": 364,
         "net": "se",
         "code": "60617041",
         "ids": ",se60617041,us7000rqtd,",
@@ -1335,11 +1455,11 @@
         "mag": 3.8,
         "place": "4 km NW of Ohlman, Illinois",
         "time": 1768894060180,
-        "updated": 1768944077352,
+        "updated": 1768947703420,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60617031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60617031.geojson",
-        "felt": 1956,
+        "felt": 1993,
         "cdi": 4.8,
         "mmi": 4.138,
         "alert": null,
@@ -2332,10 +2452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.04704333678337,
+        "mag": 3.14,
         "place": "20 km N of Indio, CA",
-        "time": 1768876047150,
-        "updated": 1768930455941,
+        "time": 1768876047160,
+        "updated": 1768944786106,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41162919",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41162919.geojson",
@@ -2345,26 +2465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 160,
+        "sig": 168,
         "net": "ci",
         "code": "41162919",
         "ids": ",ew1768876050,ci41162919,us7000rqpk,",
         "sources": ",ew,ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,",
-        "nst": 108,
-        "dmin": 0.03109,
-        "rms": 0.189999998,
-        "gap": 35,
+        "nst": 79,
+        "dmin": 0.02822,
+        "rms": 0.16,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 20 km N of Indio, CA"
+        "title": "M 3.1 - 20 km N of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.175498962402,
-          33.8943328857422,
-          2.85999989509583
+          -116.174,
+          33.8971666666667,
+          3.64
         ]
       },
       "id": "ci41162919"
@@ -2535,11 +2655,11 @@
         "mag": 4.92255584370382,
         "place": "20 km NNE of Indio, CA",
         "time": 1768874174390,
-        "updated": 1768944150523,
+        "updated": 1768947861971,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41162719",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41162719.geojson",
-        "felt": 7934,
+        "felt": 7951,
         "cdi": 6.3,
         "mmi": 5.273,
         "alert": "green",
@@ -2735,11 +2855,11 @@
         "mag": 4,
         "place": "2 km WSW of Colima, Costa Rica",
         "time": 1768864015516,
-        "updated": 1768941825063,
+        "updated": 1768946499094,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqtv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqtv.geojson",
-        "felt": 11,
+        "felt": 12,
         "cdi": 4,
         "mmi": null,
         "alert": null,
@@ -2808,86 +2928,6 @@
         ]
       },
       "id": "us7000rqnh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "216 km NE of Lospalos, Timor Leste",
-        "time": 1768860956668,
-        "updated": 1768864267040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqnb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000rqnb",
-        "ids": ",us7000rqnb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 3.013,
-        "rms": 0.5,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 216 km NE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.4207,
-          -7.1669,
-          186.271
-        ]
-      },
-      "id": "us7000rqnb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "18 km N of Meadow Lakes, Alaska",
-        "time": 1768859265600,
-        "updated": 1768868638346,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026biskul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026biskul.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.171,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "ak",
-        "code": "2026biskul",
-        "ids": ",us7000rqn8,ak2026biskul,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 112,
-        "dmin": 0.3,
-        "rms": 1.3,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 18 km N of Meadow Lakes, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.613,
-          61.794,
-          5.8
-        ]
-      },
-      "id": "ak2026biskul"
     }
   ],
   "bbox": [
@@ -2895,7 +2935,7 @@
     -23.697,
     0,
     179.4563,
-    61.794,
+    60.75,
     527.005
   ]
 }
