@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769009707000,
+    "generated": 1769014491000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 59
+    "api": "2.3.0",
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "Volcano Islands, Japan region",
+        "time": 1769013465752,
+        "updated": 1769014459040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr5g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr5g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 572,
+        "net": "us",
+        "code": "7000rr5g",
+        "ids": ",us7000rr5g,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 144,
+        "dmin": 8.372,
+        "rms": 0.74,
+        "gap": 53,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - Volcano Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.6416,
+          23.109,
+          25.492
+        ]
+      },
+      "id": "us7000rr5g"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.71,
         "place": "7 km ESE of Santa Rosa, CA",
         "time": 1769004230260,
-        "updated": 1769009495297,
+        "updated": 1769012463233,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75299366",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75299366.geojson",
-        "felt": 31,
+        "felt": 32,
         "cdi": 3,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
+        "sig": 123,
         "net": "nc",
         "code": "75299366",
         "ids": ",nc75299366,",
@@ -575,17 +615,17 @@
         "mag": 2.54,
         "place": "21 km NNE of Indio, CA",
         "time": 1768986499350,
-        "updated": 1769009473170,
+        "updated": 1769009786044,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41166351",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41166351.geojson",
-        "felt": 8,
+        "felt": 9,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 102,
         "net": "ci",
         "code": "41166351",
         "ids": ",ci41166351,",
@@ -655,11 +695,11 @@
         "mag": 4.25592161581873,
         "place": "20 km NNE of Indio, CA",
         "time": 1768984207650,
-        "updated": 1769009429625,
+        "updated": 1769014480702,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41166223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41166223.geojson",
-        "felt": 1381,
+        "felt": 1428,
         "cdi": 3.8,
         "mmi": 4.364,
         "alert": "green",
@@ -1332,10 +1372,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.73,
+        "mag": 2.94,
         "place": "20 km NNE of Indio, CA",
-        "time": 1768953144940,
-        "updated": 1768987809393,
+        "time": 1768953144950,
+        "updated": 1769013474140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165695",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165695.geojson",
@@ -1343,28 +1383,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 134,
         "net": "ci",
         "code": "41165695",
         "ids": ",ci41165695,us7000rqzr,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 72,
-        "dmin": 0.02604,
-        "rms": 0.17,
+        "nst": 77,
+        "dmin": 0.02547,
+        "rms": 0.16,
         "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 20 km NNE of Indio, CA"
+        "title": "M 2.9 - 20 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.17,
-          33.8995,
-          3.91
+          -116.170833333333,
+          33.9,
+          4.61
         ]
       },
       "id": "ci41165695"
@@ -2248,126 +2288,6 @@
         ]
       },
       "id": "us7000rqva"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "82 km SW of Teluk Dalam, Indonesia",
-        "time": 1768926323024,
-        "updated": 1768947596040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqv2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqv2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000rqv2",
-        "ids": ",us7000rqv2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.258,
-        "rms": 0.49,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 82 km SW of Teluk Dalam, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          97.2468,
-          0.0814,
-          10
-        ]
-      },
-      "id": "us7000rqv2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "21 km N of Indio, CA",
-        "time": 1768925843630,
-        "updated": 1768974629605,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41164839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41164839.geojson",
-        "felt": 11,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 149,
-        "net": "ci",
-        "code": "41164839",
-        "ids": ",ci41164839,us7000rqv1,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 76,
-        "dmin": 0.02115,
-        "rms": 0.16,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 21 km N of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.175666666667,
-          33.9043333333333,
-          3.67
-        ]
-      },
-      "id": "ci41164839"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "35 km ESE of Khorugh, Tajikistan",
-        "time": 1768924016897,
-        "updated": 1768940627040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqux.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000rqux",
-        "ids": ",us7000rqux,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.068,
-        "rms": 0.86,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 35 km ESE of Khorugh, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.9121,
-          37.3443,
-          110.927
-        ]
-      },
-      "id": "us7000rqux"
     }
   ],
   "bbox": [
