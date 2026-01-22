@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769038047000,
+    "generated": 1769047336000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 47
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "56 km NE of Mek'ele, Ethiopia",
+        "time": 1769037577267,
+        "updated": 1769038498040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr84",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr84.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000rr84",
+        "ids": ",us7000rr84,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 3.642,
+        "rms": 0.56,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 56 km NE of Mek'ele, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9047,
+          13.7851,
+          10
+        ]
+      },
+      "id": "us7000rr84"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -335,12 +375,12 @@
         "mag": 4.7,
         "place": "7 km S of Zirándaro de los Chávez, Mexico",
         "time": 1769011345933,
-        "updated": 1769035545040,
+        "updated": 1769042496872,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr4h",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr4h.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -350,7 +390,7 @@
         "code": "7000rr4h",
         "ids": ",us7000rr4h,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 66,
         "dmin": 1.258,
         "rms": 0.73,
@@ -1055,13 +1095,13 @@
         "mag": 4.25592161581873,
         "place": "20 km NNE of Indio, CA",
         "time": 1768984207650,
-        "updated": 1769036912804,
+        "updated": 1769046786774,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41166223",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41166223.geojson",
-        "felt": 1487,
+        "felt": 1493,
         "cdi": 3.7,
-        "mmi": 4.364,
+        "mmi": 4.419,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -1128,6 +1168,86 @@
         ]
       },
       "id": "us7000rr1z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "89 km SE of False Pass, Alaska",
+        "time": 1768974741086,
+        "updated": 1769043400131,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026blefcg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026blefcg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "2026blefcg",
+        "ids": ",ak2026blefcg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 89 km SE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.521,
+          54.239,
+          9.9
+        ]
+      },
+      "id": "ak2026blefcg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "90 km SE of False Pass, Alaska",
+        "time": 1768974615762,
+        "updated": 1769043176107,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bledoe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bledoe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "2026bledoe",
+        "ids": ",ak2026bledoe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 249,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 90 km SE of False Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.482,
+          54.247,
+          19.6
+        ]
+      },
+      "id": "ak2026bledoe"
     },
     {
       "type": "Feature",
@@ -1212,42 +1332,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "4 km W of Funny River, Alaska",
-        "time": 1768970151336,
-        "updated": 1768970224993,
+        "mag": 2.5,
+        "place": "90 km SE of King Cove, Alaska",
+        "time": 1768969694852,
+        "updated": 1769039211040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026blbrio",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026blbrio.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr86",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr86.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026blbrio",
-        "ids": ",ak2026blbrio,",
-        "sources": ",ak,",
+        "sig": 96,
+        "net": "us",
+        "code": "7000rr86",
+        "ids": ",ak2026blbkwg,us7000rr86,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 57,
+        "nst": 26,
+        "dmin": 0.743,
+        "rms": 0.45,
+        "gap": 221,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km W of Funny River, Alaska"
+        "title": "M 2.5 - 90 km SE of King Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.844,
-          60.504,
-          1.3
+          -161.5282,
+          54.3913,
+          10.897
         ]
       },
-      "id": "ak2026blbrio"
+      "id": "us7000rr86"
     },
     {
       "type": "Feature",
@@ -1335,7 +1455,7 @@
         "mag": 2.76,
         "place": "19 km NNE of Indio, CA",
         "time": 1768968066820,
-        "updated": 1769024367920,
+        "updated": 1769038994040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165951",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165951.geojson",
@@ -1348,8 +1468,8 @@
         "sig": 118,
         "net": "ci",
         "code": "41165951",
-        "ids": ",ci41165951,",
-        "sources": ",ci,",
+        "ids": ",ci41165951,us7000rr15,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 77,
         "dmin": 0.03771,
@@ -1368,534 +1488,14 @@
         ]
       },
       "id": "ci41165951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "88 km SSE of Sand Point, Alaska",
-        "time": 1768960605731,
-        "updated": 1769028141562,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bkwkfu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bkwkfu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "2026bkwkfu",
-        "ids": ",ak2026bkwkfu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.1,
-        "rms": 0.8,
-        "gap": 212,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 88 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.178,
-          54.563,
-          39.3
-        ]
-      },
-      "id": "ak2026bkwkfu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "56 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1768959331290,
-        "updated": 1768962889070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505528",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505528.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "pr",
-        "code": "71505528",
-        "ids": ",pr71505528,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.451,
-        "rms": 0.32,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 56 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.802,
-          18.8391666666667,
-          93.27
-        ]
-      },
-      "id": "pr71505528"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "32 km WSW of Sangay, Philippines",
-        "time": 1768959184633,
-        "updated": 1768983903606,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr0l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr0l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.378,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000rr0l",
-        "ids": ",us7000rr0l,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 83,
-        "dmin": 7.78,
-        "rms": 0.69,
-        "gap": 35,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 32 km WSW of Sangay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.7705,
-          6.3469,
-          8.755
-        ]
-      },
-      "id": "us7000rr0l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "19 km WSW of Sangay, Philippines",
-        "time": 1768958765293,
-        "updated": 1768960302040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr0k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr0k.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000rr0k",
-        "ids": ",us7000rr0k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 12.269,
-        "rms": 0.58,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 19 km WSW of Sangay, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.8805,
-          6.3882,
-          10
-        ]
-      },
-      "id": "us7000rr0k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "196 km N of Qalansīyah, Yemen",
-        "time": 1768957549011,
-        "updated": 1768958733040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr0g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr0g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000rr0g",
-        "ids": ",us7000rr0g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 90,
-        "dmin": 9.039,
-        "rms": 1.19,
-        "gap": 59,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 196 km N of Qalansīyah, Yemen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.72,
-          14.4548,
-          10
-        ]
-      },
-      "id": "us7000rr0g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "190 km N of Qalansīyah, Yemen",
-        "time": 1768957090417,
-        "updated": 1768972747040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr0h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr0h.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000rr0h",
-        "ids": ",us7000rr0h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 10.939,
-        "rms": 0.76,
-        "gap": 115,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 190 km N of Qalansīyah, Yemen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.6826,
-          14.3983,
-          10
-        ]
-      },
-      "id": "us7000rr0h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "114 km ENE of Luganville, Vanuatu",
-        "time": 1768955254503,
-        "updated": 1768971667040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr03",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr03.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000rr03",
-        "ids": ",us7000rr03,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.971,
-        "rms": 0.51,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 114 km ENE of Luganville, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.1925,
-          -15.2649,
-          10
-        ]
-      },
-      "id": "us7000rr03"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "178 km NNE of Qalansīyah, Yemen",
-        "time": 1768955224684,
-        "updated": 1768965729040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr00",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr00.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000rr00",
-        "ids": ",us7000rr00,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 113,
-        "dmin": 9.177,
-        "rms": 0.64,
-        "gap": 52,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 178 km NNE of Qalansīyah, Yemen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.8538,
-          14.26,
-          10
-        ]
-      },
-      "id": "us7000rr00"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "239 km WSW of Adak, Alaska",
-        "time": 1768955173051,
-        "updated": 1768970573040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr07",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rr07.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000rr07",
-        "ids": ",ak2026bktker,us7000rr07,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.648,
-        "rms": 0.27,
-        "gap": 234,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 239 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.8189,
-          51.0407,
-          13.524
-        ]
-      },
-      "id": "us7000rr07"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "17 km ENE of Ferry, Alaska",
-        "time": 1768954461140,
-        "updated": 1768970372040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bkszyf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bkszyf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026bkszyf",
-        "ids": ",us7000rqzv,ak2026bkszyf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.3,
-        "rms": 1.1,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 17 km ENE of Ferry, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.785,
-          64.069,
-          5
-        ]
-      },
-      "id": "ak2026bkszyf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "20 km NNE of Indio, CA",
-        "time": 1768953144950,
-        "updated": 1769013474140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41165695",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41165695.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 134,
-        "net": "ci",
-        "code": "41165695",
-        "ids": ",ci41165695,us7000rqzr,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.02547,
-        "rms": 0.16,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 20 km NNE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.170833333333,
-          33.9,
-          4.61
-        ]
-      },
-      "id": "ci41165695"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "12 km WNW of Limulan, Philippines",
-        "time": 1768951858991,
-        "updated": 1768968280040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqzs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqzs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000rqzs",
-        "ids": ",us7000rqzs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 8.089,
-        "rms": 0.43,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 12 km WNW of Limulan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.9512,
-          6.6162,
-          10
-        ]
-      },
-      "id": "us7000rqzs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "242 km ESE of Tadine, New Caledonia",
-        "time": 1768951797370,
-        "updated": 1768969146040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqzp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rqzp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000rqzp",
-        "ids": ",us7000rqzp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.442,
-        "rms": 0.64,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 242 km ESE of Tadine, New Caledonia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.0691,
-          -22.3292,
-          10
-        ]
-      },
-      "id": "us7000rqzp"
     }
   ],
   "bbox": [
-    -179.8189,
+    -162.521,
     -59.3852,
     0.20999999344349,
-    170.0691,
-    64.069,
+    142.6416,
+    63.152,
     489.419
   ]
 }
