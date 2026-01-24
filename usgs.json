@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769243385000,
+    "generated": 1769246621000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 28
+    "api": "1.14.1",
+    "count": 29
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "8 km SSW of Soavinandriana, Madagascar",
+        "time": 1769243539459,
+        "updated": 1769245646040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrsa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrsa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000rrsa",
+        "ids": ",us7000rrsa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 5.714,
+        "rms": 0.43,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 8 km SSW of Soavinandriana, Madagascar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7167,
+          -19.2387,
+          10
+        ]
+      },
+      "id": "us7000rrsa"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
         "place": "29 km SE of Denali National Park, Alaska",
         "time": 1769241831801,
-        "updated": 1769241912970,
+        "updated": 1769245989040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bqvtgu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bqvtgu.geojson",
@@ -28,8 +68,8 @@
         "sig": 96,
         "net": "ak",
         "code": "2026bqvtgu",
-        "ids": ",ak2026bqvtgu,",
-        "sources": ",ak,",
+        "ids": ",us7000rrs2,ak2026bqvtgu,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 22,
         "dmin": 0.3,
@@ -495,11 +535,11 @@
         "mag": 4.9,
         "place": "15 km ESE of Sındırgı, Turkey",
         "time": 1769203477865,
-        "updated": 1769236866555,
+        "updated": 1769246461546,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrq9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rrq9.geojson",
-        "felt": 6,
+        "felt": 7,
         "cdi": 4.1,
         "mmi": null,
         "alert": null,
