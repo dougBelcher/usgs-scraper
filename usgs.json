@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769361601000,
+    "generated": 1769366007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 36
+    "count": 38
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.86,
+        "mag": 4.1,
+        "place": "4 km S of Epitálio, Greece",
+        "time": 1769363813285,
+        "updated": 1769365093040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs01",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs01.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000rs01",
+        "ids": ",us7000rs01,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.535,
+        "rms": 0.83,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 4 km S of Epitálio, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4946,
+          37.5901,
+          36.351
+        ]
+      },
+      "id": "us7000rs01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "31 km ESE of Nabesna, Alaska",
+        "time": 1769361888799,
+        "updated": 1769362489040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026btkbly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026btkbly.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "2026btkbly",
+        "ids": ",us7000rs00,ak2026btkbly,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 31 km ESE of Nabesna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.428,
+          62.303,
+          5
+        ]
+      },
+      "id": "ak2026btkbly"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
         "place": "8 km ESE of Puebla, B.C., MX",
-        "time": 1769359425420,
-        "updated": 1769361429040,
+        "time": 1769359425320,
+        "updated": 1769364925280,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171967.geojson",
@@ -23,28 +103,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 126,
+        "sig": 113,
         "net": "ci",
         "code": "41171967",
         "ids": ",ci41171967,us7000rrzv,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1208,
+        "nst": 40,
+        "dmin": 0.1228,
         "rms": 0.28,
-        "gap": 55,
+        "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 8 km ESE of Puebla, B.C., MX"
+        "title": "M 2.7 - 8 km ESE of Puebla, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2785,
-          32.5385,
-          19.75
+          -115.275166666667,
+          32.54,
+          21.64
         ]
       },
       "id": "ci41171967"
@@ -1055,11 +1135,11 @@
         "mag": 3.5,
         "place": "52 km SSW of Whites City, New Mexico",
         "time": 1769302536172,
-        "updated": 1769328371028,
+        "updated": 1769364374047,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bsdhbc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bsdhbc.geojson",
-        "felt": 3,
+        "felt": 4,
         "cdi": 2.2,
         "mmi": 4.166,
         "alert": null,
@@ -1455,7 +1535,7 @@
     -36.2373,
     -0.64,
     179.6857,
-    62.121,
+    62.303,
     577.764
   ]
 }
