@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769866950000,
+    "generated": 1769869604000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "1 km SSW of Big Lake, Alaska",
+        "time": 1769868776449,
+        "updated": 1769869283092,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ceebkq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ceebkq.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": 3.442,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "2026ceebkq",
+        "ids": ",ak2026ceebkq,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 110,
+        "dmin": 0.4,
+        "rms": 1.3,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 1 km SSW of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.968,
+          61.505,
+          20.8
+        ]
+      },
+      "id": "ak2026ceebkq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -255,17 +295,17 @@
         "mag": 4.5,
         "place": "9 km NE of San Pedro Huamelula, Mexico",
         "time": 1769853512108,
-        "updated": 1769865989364,
+        "updated": 1769868688871,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5qh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5qh.geojson",
-        "felt": 10,
-        "cdi": 2.9,
+        "felt": 13,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 314,
+        "sig": 316,
         "net": "us",
         "code": "6000s5qh",
         "ids": ",us6000s5qh,",
@@ -1408,46 +1448,6 @@
         ]
       },
       "id": "pr71506208"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "112 km N of Yakutat, Alaska",
-        "time": 1769782233205,
-        "updated": 1769831172738,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s5hm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s5hm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000s5hm",
-        "ids": ",ak2026cciglr,us6000s5hm,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.535,
-        "rms": 1.04,
-        "gap": 125,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 112 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.6991,
-          60.5531,
-          5
-        ]
-      },
-      "id": "us6000s5hm"
     }
   ],
   "bbox": [
