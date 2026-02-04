@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770219966000,
+    "generated": 1770223957000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 45
+    "count": 44
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "45 km NNW of Beluga, Alaska",
-        "time": 1770218685619,
-        "updated": 1770219733343,
+        "mag": 3.69,
+        "place": "12 km W of San Rafael del Yuma, Dominican Republic",
+        "time": 1770219396460,
+        "updated": 1770222507527,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clpiur",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clpiur.geojson",
-        "felt": 110,
-        "cdi": 3.8,
-        "mmi": 2.928,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026035000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026035000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
         "alert": null,
-        "status": "automatic",
-        "tsunami": 1,
-        "sig": 367,
-        "net": "ak",
-        "code": "2026clpiur",
-        "ids": ",ak2026clpiur,at00t9xxha,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
-        "nst": 128,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 22,
-        "magType": "ml",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 209,
+        "net": "pr",
+        "code": "2026035000",
+        "ids": ",pr2026035000,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.4183,
+        "rms": 0.29,
+        "gap": 226,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.6 - 45 km NNW of Beluga, Alaska"
+        "title": "M 3.7 - 12 km W of San Rafael del Yuma, Dominican Republic"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.548,
-          61.488,
-          100.5
+          -68.7906,
+          18.4273,
+          111
+        ]
+      },
+      "id": "pr2026035000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "45 km NNW of Beluga, Alaska",
+        "time": 1770218684892,
+        "updated": 1770223833800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clpiur",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clpiur.geojson",
+        "felt": 155,
+        "cdi": 4.1,
+        "mmi": 4.544,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 361,
+        "net": "ak",
+        "code": "2026clpiur",
+        "ids": ",ak2026clpiur,at00t9xxha,us6000s6fd,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 244,
+        "dmin": 0.2,
+        "rms": 16.8,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.4 - 45 km NNW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.461,
+          61.502,
+          10
         ]
       },
       "id": "ak2026clpiur"
@@ -1728,86 +1768,6 @@
         ]
       },
       "id": "nc75306796"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "69 km SW of Calama, Chile",
-        "time": 1770136799905,
-        "updated": 1770143709040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s65w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s65w.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000s65w",
-        "ids": ",us6000s65w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.309,
-        "rms": 0.9,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 69 km SW of Calama, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3501,
-          -22.9385,
-          76.803
-        ]
-      },
-      "id": "us6000s65w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "88 km W of Yenangyaung, Burma (Myanmar)",
-        "time": 1770133890749,
-        "updated": 1770202569232,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s65j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s65j.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "6000s65j",
-        "ids": ",us6000s65j,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 129,
-        "dmin": 1.057,
-        "rms": 0.43,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 88 km W of Yenangyaung, Burma (Myanmar)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          94.0242,
-          20.5539,
-          67.829
-        ]
-      },
-      "id": "us6000s65j"
     }
   ],
   "bbox": [
