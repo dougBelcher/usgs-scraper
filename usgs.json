@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770216052000,
+    "generated": 1770219966000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 46
+    "api": "2.3.0",
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "45 km NNW of Beluga, Alaska",
+        "time": 1770218685619,
+        "updated": 1770219733343,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clpiur",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clpiur.geojson",
+        "felt": 110,
+        "cdi": 3.8,
+        "mmi": 2.928,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 1,
+        "sig": 367,
+        "net": "ak",
+        "code": "2026clpiur",
+        "ids": ",ak2026clpiur,at00t9xxha,",
+        "sources": ",ak,at,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "nst": 128,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 45 km NNW of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.548,
+          61.488,
+          100.5
+        ]
+      },
+      "id": "ak2026clpiur"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -292,10 +332,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.75,
-        "place": "9 km WNW of Delta, B.C., MX",
-        "time": 1770197630220,
-        "updated": 1770212492040,
+        "mag": 2.7,
+        "place": "9 km NW of Delta, B.C., MX",
+        "time": 1770197630100,
+        "updated": 1770217345445,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41391464",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41391464.geojson",
@@ -303,28 +343,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 116,
+        "sig": 112,
         "net": "ci",
         "code": "41391464",
         "ids": ",ci41391464,us6000s6cs,",
         "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.03826,
+        "nst": 36,
+        "dmin": 0.03821,
         "rms": 0.38,
-        "gap": 52,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 9 km WNW of Delta, B.C., MX"
+        "title": "M 2.7 - 9 km NW of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.2745,
-          32.3911666666667,
-          6.2
+          -115.265333333333,
+          32.4011666666667,
+          5.15
         ]
       },
       "id": "ci41391464"
@@ -1768,86 +1808,6 @@
         ]
       },
       "id": "us6000s65j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "western Indian-Antarctic Ridge",
-        "time": 1770133130376,
-        "updated": 1770136089040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s65l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s65l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000s65l",
-        "ids": ",us6000s65l,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 75,
-        "dmin": 10.092,
-        "rms": 0.72,
-        "gap": 69,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - western Indian-Antarctic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.1899,
-          -51.3514,
-          10
-        ]
-      },
-      "id": "us6000s65l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.9,
-        "place": "95 km W of Yenangyaung, Burma (Myanmar)",
-        "time": 1770132841978,
-        "updated": 1770188820427,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s65b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s65b.geojson",
-        "felt": 25,
-        "cdi": 4.1,
-        "mmi": 5.051,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 546,
-        "net": "us",
-        "code": "6000s65b",
-        "ids": ",us6000s65b,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 194,
-        "dmin": 1.161,
-        "rms": 0.52,
-        "gap": 33,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 95 km W of Yenangyaung, Burma (Myanmar)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.9572,
-          20.4657,
-          62.69
-        ]
-      },
-      "id": "us6000s65b"
     }
   ],
   "bbox": [
