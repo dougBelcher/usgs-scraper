@@ -1,36 +1,76 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770270987000,
+    "generated": 1770275285000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 36
+    "api": "1.14.1",
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "4 km NW of Westbrook, Texas",
+        "time": 1770271918714,
+        "updated": 1770274856812,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cmstjd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cmstjd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2026cmstjd",
+        "ids": ",tx2026cmstjd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km NW of Westbrook, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.04,
+          32.388,
+          1.9024
+        ]
+      },
+      "id": "tx2026cmstjd"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.3,
         "place": "46 km SSE of La Libertad, El Salvador",
         "time": 1770269986643,
-        "updated": 1770270806040,
+        "updated": 1770270940722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6jv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6jv.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 285,
         "net": "us",
         "code": "6000s6jv",
         "ids": ",us6000s6jv,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 89,
         "dmin": 0.694,
         "rms": 0.67,
@@ -48,6 +88,46 @@
         ]
       },
       "id": "us6000s6jv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.13,
+        "place": "48 km NW of San Antonio, Puerto Rico",
+        "time": 1770268176980,
+        "updated": 1770271053120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506468",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506468.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 151,
+        "net": "pr",
+        "code": "71506468",
+        "ids": ",pr71506468,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.4029,
+        "rms": 0.2,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 48 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4031666666667,
+          18.8148333333333,
+          9.6
+        ]
+      },
+      "id": "pr71506468"
     },
     {
       "type": "Feature",
@@ -815,17 +895,17 @@
         "mag": 4.4,
         "place": "46 km NNW of Beluga, Alaska",
         "time": 1770218688246,
-        "updated": 1770270037118,
+        "updated": 1770272441360,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026clpiur",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026clpiur.geojson",
-        "felt": 192,
+        "felt": 194,
         "cdi": 3.8,
         "mmi": 3.049,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 371,
+        "sig": 372,
         "net": "ak",
         "code": "2026clpiur",
         "ids": ",ak2026clpiur,at00t9xxha,us6000s6fd,",
@@ -1328,133 +1408,13 @@
         ]
       },
       "id": "us6000s6c6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "42 km E of Ouzinkie, Alaska",
-        "time": 1770187590679,
-        "updated": 1770187742479,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ckyefk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ckyefk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "2026ckyefk",
-        "ids": ",ak2026ckyefk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 173,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 42 km E of Ouzinkie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.805,
-          57.997,
-          4.3
-        ]
-      },
-      "id": "ak2026ckyefk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "190 km ESE of Severo-Kuril’sk, Russia",
-        "time": 1770187567215,
-        "updated": 1770189740040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6c2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6c2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000s6c2",
-        "ids": ",us6000s6c2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 2.885,
-        "rms": 0.94,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 190 km ESE of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          158.6796,
-          50.143,
-          10
-        ]
-      },
-      "id": "us6000s6c2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "western Xizang",
-        "time": 1770186367717,
-        "updated": 1770188573040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6by",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6by.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000s6by",
-        "ids": ",us6000s6by,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 7.493,
-        "rms": 0.89,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - western Xizang"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.1792,
-          32.8559,
-          10
-        ]
-      },
-      "id": "us6000s6by"
     }
   ],
   "bbox": [
     -178.5952,
     -29.5951,
     0,
-    158.6796,
+    142.5775,
     63.499,
     557.602
   ]
