@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770310391000,
+    "generated": 1770313827000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 32
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.54,
+        "place": "2 km SSE of San Ramon, CA",
+        "time": 1770310533810,
+        "updated": 1770312991552,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308997",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308997.geojson",
+        "felt": 12,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "nc",
+        "code": "75308997",
+        "ids": ",nc75308997,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 66,
+        "dmin": null,
+        "rms": 0.17,
+        "gap": 29,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km SSE of San Ramon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96849822998,
+          37.7623329162598,
+          9.60000038146973
+        ]
+      },
+      "id": "nc75308997"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +175,17 @@
         "mag": 4.68,
         "place": "112 km W of Petrolia, CA",
         "time": 1770295768750,
-        "updated": 1770310025708,
+        "updated": 1770313548262,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308927",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308927.geojson",
-        "felt": 159,
+        "felt": 166,
         "cdi": 3.4,
         "mmi": 2.889,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 391,
+        "sig": 393,
         "net": "nc",
         "code": "75308927",
         "ids": ",nc75308927,us6000s6kx,",
@@ -495,7 +535,7 @@
         "mag": 4.3,
         "place": "46 km SSE of La Libertad, El Salvador",
         "time": 1770269986643,
-        "updated": 1770297955083,
+        "updated": 1770311188317,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6jv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6jv.geojson",
@@ -1248,46 +1288,6 @@
         ]
       },
       "id": "us6000s6gs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "39 km SW of Mohr, Iran",
-        "time": 1770225470631,
-        "updated": 1770226596040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6fr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6fr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000s6fr",
-        "ids": ",us6000s6fr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 82,
-        "dmin": 4.012,
-        "rms": 0.87,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 39 km SW of Mohr, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.5895,
-          27.3087,
-          10
-        ]
-      },
-      "id": "us6000s6fr"
     }
   ],
   "bbox": [
