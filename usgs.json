@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770406677000,
+    "generated": 1770410184000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 35
+    "api": "2.3.0",
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "5 km E of La Parguera, Puerto Rico",
+        "time": 1770407899720,
+        "updated": 1770408729410,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71506583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71506583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "pr",
+        "code": "71506583",
+        "ids": ",pr71506583,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.04377,
+        "rms": 0.16,
+        "gap": 165,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 5 km E of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9995,
+          17.9796666666667,
+          14.88
+        ]
+      },
+      "id": "pr71506583"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.76,
         "place": "25 km W of Sunnyside-Tahoe City, CA",
         "time": 1770405453320,
-        "updated": 1770406582870,
+        "updated": 1770406939917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309677",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309677.geojson",
@@ -1328,86 +1368,6 @@
         ]
       },
       "id": "us6000s6t5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "6 km WNW of Lehi, Utah",
-        "time": 1770321190390,
-        "updated": 1770405690982,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80128996",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80128996.geojson",
-        "felt": 2845,
-        "cdi": 3.7,
-        "mmi": 4.373,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 558,
-        "net": "uu",
-        "code": "80128996",
-        "ids": ",uu80128996,us6000s6sm,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 58,
-        "dmin": 0.02754,
-        "rms": 0.2,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 6 km WNW of Lehi, Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9285,
-          40.4113333333333,
-          5.56
-        ]
-      },
-      "id": "uu80128996"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "13 km WNW of Gyalshing, India",
-        "time": 1770320368477,
-        "updated": 1770360368719,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6si",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6si.geojson",
-        "felt": 23,
-        "cdi": 5.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 339,
-        "net": "us",
-        "code": "6000s6si",
-        "ids": ",us6000s6si,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 64,
-        "dmin": 8.687,
-        "rms": 0.93,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 13 km WNW of Gyalshing, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          88.1279,
-          27.3275,
-          10
-        ]
-      },
-      "id": "us6000s6si"
     }
   ],
   "bbox": [
