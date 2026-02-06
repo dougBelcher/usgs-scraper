@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770396612000,
+    "generated": 1770399746000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 37
+    "api": "2.3.0",
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "19 km NW of Ninilchik, Alaska",
+        "time": 1770396824108,
+        "updated": 1770396919481,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cpjtgf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cpjtgf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "2026cpjtgf",
+        "ids": ",ak2026cpjtgf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 19 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.935,
+          60.164,
+          71.1
+        ]
+      },
+      "id": "ak2026cpjtgf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 4.7,
         "place": "0 km NE of Shiraoka, Japan",
         "time": 1770393506479,
-        "updated": 1770396078136,
+        "updated": 1770397607390,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6x3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6x3.geojson",
-        "felt": 3,
-        "cdi": 3.1,
+        "felt": 4,
+        "cdi": 3.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1095,11 +1135,11 @@
         "mag": 3.5,
         "place": "6 km WNW of Lehi, Utah",
         "time": 1770321190390,
-        "updated": 1770396122432,
+        "updated": 1770398773971,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80128996",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80128996.geojson",
-        "felt": 2830,
+        "felt": 2837,
         "cdi": 3.7,
         "mmi": 4.373,
         "alert": null,
@@ -1408,86 +1448,6 @@
         ]
       },
       "id": "us6000s6n4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "2 km SSE of San Ramon, CA",
-        "time": 1770310533810,
-        "updated": 1770336494362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308997",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308997.geojson",
-        "felt": 16,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75308997",
-        "ids": ",nc75308997,us6000s6lv,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": null,
-        "rms": 0.17,
-        "gap": 29,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 2 km SSE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.96849822998,
-          37.7623329162598,
-          9.60000038146973
-        ]
-      },
-      "id": "nc75308997"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "54 km W of San Antonio de los Cobres, Argentina",
-        "time": 1770310392330,
-        "updated": 1770316430040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6lt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6lt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000s6lt",
-        "ids": ",us6000s6lt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.754,
-        "rms": 0.76,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 54 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8592,
-          -24.2272,
-          206.62
-        ]
-      },
-      "id": "us6000s6lt"
     }
   ],
   "bbox": [
