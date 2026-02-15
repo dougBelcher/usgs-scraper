@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771180796000,
+    "generated": 1771183685000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "188 km S of Nikolski, Alaska",
+        "time": 1771180124061,
+        "updated": 1771182096040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ey",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ey.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.133,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000s9ey",
+        "ids": ",us6000s9ey,ak2026dgalba,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 1.729,
+        "rms": 0.81,
+        "gap": 186,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 188 km S of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.244,
+          51.262,
+          10
+        ]
+      },
+      "id": "us6000s9ey"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1368,50 +1408,10 @@
         ]
       },
       "id": "us6000s98w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "Banda Sea",
-        "time": 1771095209851,
-        "updated": 1771096427040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s98q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s98q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000s98q",
-        "ids": ",us6000s98q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 2.373,
-        "rms": 0.85,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.0732,
-          -6.7614,
-          198.556
-        ]
-      },
-      "id": "us6000s98q"
     }
   ],
   "bbox": [
-    -165.1133,
+    -169.244,
     -21.7787,
     -0.47999998927116,
     159.6086,
