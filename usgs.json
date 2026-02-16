@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771247427000,
+    "generated": 1771253008000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 36
+    "api": "2.3.0",
+    "count": 37
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.75,
+        "place": "56 km NNE of Valmy, Nevada",
+        "time": 1771250622909,
+        "updated": 1771250888653,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00910895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00910895.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "nn",
+        "code": "00910895",
+        "ids": ",nn00910895,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.384,
+        "rms": 0.3275,
+        "gap": 226,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 56 km NNE of Valmy, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7672,
+          41.2195,
+          15.9986
+        ]
+      },
+      "id": "nn00910895"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.71,
         "place": "17 km S of Tres Pinos, CA",
         "time": 1771246369320,
-        "updated": 1771247238901,
+        "updated": 1771248140008,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314587",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314587.geojson",
@@ -172,6 +212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.9,
+        "place": "186 km S of Nikolski, Alaska",
+        "time": 1771239012683,
+        "updated": 1771252174600,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dhgyzh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026dhgyzh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.018,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "2026dhgyzh",
+        "ids": ",ak2026dhgyzh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 37,
+        "dmin": 1.5,
+        "rms": 0.6,
+        "gap": 231,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 186 km S of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.261,
+          51.282,
+          18.3
+        ]
+      },
+      "id": "ak2026dhgyzh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "32 km SW of Ovalle, Chile",
         "time": 1771233579585,
@@ -252,10 +332,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "61 km S of Whites City, New Mexico",
-        "time": 1771227043849,
-        "updated": 1771227594239,
+        "mag": 4.6,
+        "place": "70 km NNE of Lae, Papua New Guinea",
+        "time": 1771227395453,
+        "updated": 1771251365040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000s9h0",
+        "ids": ",us6000s9h0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 3.278,
+        "rms": 0.73,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 70 km NNE of Lae, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1667,
+          -6.1053,
+          63.42
+        ]
+      },
+      "id": "us6000s9h0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1771227043965,
+        "updated": 1771250543131,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dhaili",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dhaili.geojson",
@@ -265,26 +385,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 148,
         "net": "tx",
         "code": "2026dhaili",
         "ids": ",us6000s9gw,tx2026dhaili,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 22,
+        "nst": 38,
         "dmin": 0.1,
-        "rms": 0.3,
+        "rms": 0.2,
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 61 km S of Whites City, New Mexico"
+        "title": "M 3.1 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.372,
-          31.621,
-          6.6125
+          -104.365,
+          31.629,
+          6.0999
         ]
       },
       "id": "tx2026dhaili"
@@ -292,39 +412,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.4,
+        "mag": 3.5,
         "place": "60 km S of Whites City, New Mexico",
-        "time": 1771225521381,
-        "updated": 1771233741816,
+        "time": 1771225521540,
+        "updated": 1771251074550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dgzmvn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dgzmvn.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 4.31,
+        "mmi": 4.318,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 178,
+        "sig": 188,
         "net": "tx",
         "code": "2026dgzmvn",
         "ids": ",us6000s9gr,tx2026dgzmvn,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 19,
+        "nst": 45,
         "dmin": 0.1,
         "rms": 0.2,
-        "gap": 73,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.4 - 60 km S of Whites City, New Mexico"
+        "title": "M 3.5 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.368,
-          31.627,
-          6.7407
+          -104.364,
+          31.629,
+          6.0999
         ]
       },
       "id": "tx2026dgzmvn"
@@ -768,6 +888,46 @@
         ]
       },
       "id": "us6000s9ft"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "6 km SSE of Maoribank, New Zealand",
+        "time": 1771201630277,
+        "updated": 1771252895531,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9hx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9hx.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 179,
+        "net": "us",
+        "code": "6000s9hx",
+        "ids": ",us6000s9hx,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.353,
+        "rms": 0.59,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 6 km SSE of Maoribank, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1299,
+          -41.1624,
+          31.449
+        ]
+      },
+      "id": "us6000s9hx"
     },
     {
       "type": "Feature",
@@ -1328,134 +1488,14 @@
         ]
       },
       "id": "us6000s9ei"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "266 km SSW of Tambolaka, Indonesia",
-        "time": 1771163046602,
-        "updated": 1771164313040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9e5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9e5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000s9e5",
-        "ids": ",us6000s9e5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 2.645,
-        "rms": 0.5,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 266 km SSW of Tambolaka, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          117.9622,
-          -11.4831,
-          10
-        ]
-      },
-      "id": "us6000s9e5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "74 km SE of New Allakaket, Alaska",
-        "time": 1771161534473,
-        "updated": 1771166132040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dfqeij",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026dfqeij.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026dfqeij",
-        "ids": ",us6000s9e3,ak2026dfqeij,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.8,
-        "rms": 1.2,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 74 km SE of New Allakaket, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.65,
-          66.012,
-          13.1
-        ]
-      },
-      "id": "ak2026dfqeij"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "118 km N of Brenas, Puerto Rico",
-        "time": 1771161284750,
-        "updated": 1771167085893,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026046000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026046000.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 189,
-        "net": "pr",
-        "code": "2026046000",
-        "ids": ",pr2026046000,",
-        "sources": ",pr,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.2454,
-        "rms": 0.08,
-        "gap": 283,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.5 - 118 km N of Brenas, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2755,
-          19.5395,
-          37
-        ]
-      },
-      "id": "pr2026046000"
     }
   ],
   "bbox": [
     -178.0749,
-    -35.2327,
+    -41.1624,
     0.1,
-    154.5612,
-    66.012,
+    175.1299,
+    63.253,
     270.983
   ]
 }
