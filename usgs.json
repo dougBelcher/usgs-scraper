@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771260561000,
+    "generated": 1771263517000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 41
+    "count": 40
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 5.7,
         "place": "South Sandwich Islands region",
         "time": 1771253575060,
-        "updated": 1771258901289,
+        "updated": 1771262691687,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9i0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9i0.geojson",
@@ -335,7 +335,7 @@
         "mag": 4.8,
         "place": "32 km SW of Ovalle, Chile",
         "time": 1771233579585,
-        "updated": 1771234997040,
+        "updated": 1771262932040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h5",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h5.geojson",
@@ -350,7 +350,7 @@
         "code": "6000s9h5",
         "ids": ",us6000s9h5,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 59,
         "dmin": 0.221,
         "rms": 0.7,
@@ -415,12 +415,12 @@
         "mag": 4.6,
         "place": "40 km WNW of Raumati Beach, New Zealand",
         "time": 1771229066781,
-        "updated": 1771257842040,
+        "updated": 1771260948176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9h1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9h1.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +430,7 @@
         "code": "6000s9h1",
         "ids": ",us6000s9h1,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
         "dmin": 0.584,
         "rms": 0.62,
@@ -1608,46 +1608,6 @@
         ]
       },
       "id": "us6000s9es"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "49 km ESE of Akutan, Alaska",
-        "time": 1771176616505,
-        "updated": 1771178137040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.689,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "6000s9ep",
-        "ids": ",us6000s9ep,ak2026dfymrh,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 25,
-        "dmin": 0.518,
-        "rms": 0.3,
-        "gap": 193,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.6 - 49 km ESE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.1133,
-          53.9135,
-          57.813
-        ]
-      },
-      "id": "us6000s9ep"
     }
   ],
   "bbox": [
