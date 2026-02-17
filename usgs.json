@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771321971000,
+    "generated": 1771325358000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.3.0",
     "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "18 km ENE of Turgen, Kazakhstan",
+        "time": 1771322936409,
+        "updated": 1771324589450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9r8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9r8.geojson",
+        "felt": 3,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000s9r8",
+        "ids": ",us6000s9r8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 38,
+        "dmin": 1.241,
+        "rms": 0.78,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 18 km ENE of Turgen, Kazakhstan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7954,
+          43.4847,
+          10
+        ]
+      },
+      "id": "us6000s9r8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.82,
         "place": "24 km NW of Bayview, CA",
         "time": 1771320954020,
-        "updated": 1771321339007,
+        "updated": 1771322240105,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75315017",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75315017.geojson",
@@ -1688,46 +1728,6 @@
         ]
       },
       "id": "us6000s9hy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "103 km N of Yakutat, Alaska",
-        "time": 1771236938905,
-        "updated": 1771313421040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9ha",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s9ha.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000s9ha",
-        "ids": ",us6000s9ha,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.42,
-        "rms": 1.14,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 103 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.8766,
-          60.4704,
-          5
-        ]
-      },
-      "id": "us6000s9ha"
     }
   ],
   "bbox": [
