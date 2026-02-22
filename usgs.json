@@ -1,11 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771795647000,
+    "generated": 1771799217000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 40
   },
   "features": [
@@ -15,7 +15,7 @@
         "mag": 2.58,
         "place": "26 km NNW of Pāhala, Hawaii",
         "time": 1771794135870,
-        "updated": 1771794360910,
+        "updated": 1771796702040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74905821",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74905821.geojson",
@@ -28,8 +28,8 @@
         "sig": 102,
         "net": "hv",
         "code": "74905821",
-        "ids": ",hv74905821,",
-        "sources": ",hv,",
+        "ids": ",us6000sawk,hv74905821,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 34,
         "dmin": 0.02699,
@@ -95,17 +95,17 @@
         "mag": 4.14,
         "place": "46 km SW of Kekaha, Hawaii",
         "time": 1771784702540,
-        "updated": 1771795435711,
+        "updated": 1771796462540,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74905686",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74905686.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.1,
         "mmi": 2.714,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 264,
+        "sig": 265,
         "net": "hv",
         "code": "74905686",
         "ids": ",us6000savy,hv74905686,",
@@ -255,17 +255,17 @@
         "mag": 7.1,
         "place": "55 km NNW of Kota Belud, Malaysia",
         "time": 1771779466240,
-        "updated": 1771795007738,
+        "updated": 1771797977625,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sasz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sasz.geojson",
-        "felt": 32,
+        "felt": 33,
         "cdi": 2.8,
         "mmi": 4.656,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 784,
+        "sig": 785,
         "net": "us",
         "code": "6000sasz",
         "ids": ",us6000sasz,at00tavdqk,",
@@ -612,10 +612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.7,
-        "place": "44 km N of Red Dog Mine, Alaska",
-        "time": 1771759725577,
-        "updated": 1771761849040,
+        "mag": 3.4,
+        "place": "50 km ENE of Noatak, Alaska",
+        "time": 1771759730410,
+        "updated": 1771799131411,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dsiosv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dsiosv.geojson",
@@ -623,28 +623,28 @@
         "cdi": null,
         "mmi": 3.013,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 178,
         "net": "ak",
         "code": "a2026dsiosv",
         "ids": ",us6000sas8,aka2026dsiosv,",
         "sources": ",us,ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 52,
-        "dmin": 2.2,
-        "rms": 1.2,
-        "gap": 182,
+        "nst": 38,
+        "dmin": 1.4,
+        "rms": 2.3,
+        "gap": 213,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 44 km N of Red Dog Mine, Alaska"
+        "title": "M 3.4 - 50 km ENE of Noatak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -162.696,
-          68.438,
-          28.1
+          -161.874,
+          67.745,
+          0
         ]
       },
       "id": "aka2026dsiosv"
@@ -1008,6 +1008,46 @@
         ]
       },
       "id": "us6000sarm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "80 km SW of Adak, Alaska",
+        "time": 1771748374618,
+        "updated": 1771798323723,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dscigy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dscigy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.861,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "ak",
+        "code": "a2026dscigy",
+        "ids": ",aka2026dscigy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 37,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 205,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.2 - 80 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.505,
+          51.391,
+          45.2
+        ]
+      },
+      "id": "aka2026dscigy"
     },
     {
       "type": "Feature",
@@ -1568,54 +1608,14 @@
         ]
       },
       "id": "pr71508433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "11 km WSW of Stanton, Texas",
-        "time": 1771711845615,
-        "updated": 1771733680040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dridqq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dridqq.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2026dridqq",
-        "ids": ",tx2026dridqq,us6000sap8,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 112,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 11 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.912,
-          32.106,
-          3.9829
-        ]
-      },
-      "id": "tx2026dridqq"
     }
   ],
   "bbox": [
-    -176.7387,
+    -177.505,
     -47.7385,
     -2.66,
     179.5487,
-    68.438,
+    67.745,
     653.785
   ]
 }
