@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771739578000,
+    "generated": 1771743147000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "2.3.0",
-    "count": 41
+    "api": "1.14.1",
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "26 km W of Anchor Point, Alaska",
+        "time": 1771742409277,
+        "updated": 1771742513132,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026drzaph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026drzaph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026drzaph",
+        "ids": ",aka2026drzaph,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 26 km W of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.292,
+          59.816,
+          81.1
+        ]
+      },
+      "id": "aka2026drzaph"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1568,86 +1608,6 @@
         ]
       },
       "id": "pr71508403"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "17 km SSE of Madang, Papua New Guinea",
-        "time": 1771654723942,
-        "updated": 1771687928040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000saks",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000saks.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": 4.394,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 501,
-        "net": "us",
-        "code": "6000saks",
-        "ids": ",us6000saks,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 45,
-        "dmin": 3.639,
-        "rms": 1.01,
-        "gap": 54,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 17 km SSE of Madang, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.8345,
-          -5.3681,
-          71.612
-        ]
-      },
-      "id": "us6000saks"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "3 km NNW of Tyonek, Alaska",
-        "time": 1771653919259,
-        "updated": 1771654985040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dqcdrt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dqcdrt.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "ak",
-        "code": "a2026dqcdrt",
-        "ids": ",aka2026dqcdrt,us6000sakp,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 82,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 3 km NNW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.148,
-          61.095,
-          62.8
-        ]
-      },
-      "id": "aka2026dqcdrt"
     }
   ],
   "bbox": [
