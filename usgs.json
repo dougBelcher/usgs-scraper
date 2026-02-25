@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772025089000,
+    "generated": 1772031065000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 48
+    "count": 47
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 5.5,
         "place": "13 km ESE of Madang, Papua New Guinea",
         "time": 1772018042996,
-        "updated": 1772022988722,
+        "updated": 1772027501495,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s06i",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s06i.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -128,6 +128,46 @@
         ]
       },
       "id": "us7000s06d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "84 km SW of Nikolski, Alaska",
+        "time": 1772014585161,
+        "updated": 1772029434978,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dxtjoz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dxtjoz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.341,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "ak",
+        "code": "a2026dxtjoz",
+        "ids": ",aka2026dxtjoz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 30,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 211,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 84 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.784,
+          52.424,
+          8.8
+        ]
+      },
+      "id": "aka2026dxtjoz"
     },
     {
       "type": "Feature",
@@ -612,42 +652,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "26 km NNW of Tabiona, Utah",
-        "time": 1771980374513,
-        "updated": 1771989841040,
+        "mag": 2.45,
+        "place": "28 km NNW of Tabiona, Utah",
+        "time": 1771980374940,
+        "updated": 1772029159290,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s04e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s04e.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80130636",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80130636.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000s04e",
-        "ids": ",us7000s04e,",
-        "sources": ",us,",
+        "sig": 92,
+        "net": "uu",
+        "code": "80130636",
+        "ids": ",us7000s04e,uu80130636,",
+        "sources": ",us,uu,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.054,
-        "rms": 0.45,
-        "gap": 65,
+        "nst": 28,
+        "dmin": 0.07394,
+        "rms": 0.21,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 26 km NNW of Tabiona, Utah"
+        "title": "M 2.5 - 28 km NNW of Tabiona, Utah"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.7855,
-          40.5869,
-          7.31
+          -110.795,
+          40.6058333333333,
+          3.25
         ]
       },
-      "id": "us7000s04e"
+      "id": "uu80130636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "84 km SW of Nikolski, Alaska",
+        "time": 1771980233282,
+        "updated": 1772030503993,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dxakid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dxakid.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.147,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "a2026dxakid",
+        "ids": ",aka2026dxakid,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 25,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 214,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 84 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.756,
+          52.405,
+          2
+        ]
+      },
+      "id": "aka2026dxakid"
     },
     {
       "type": "Feature",
@@ -1808,132 +1888,12 @@
         ]
       },
       "id": "us7000rzzi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "121 km N of Yakutat, Alaska",
-        "time": 1771944015885,
-        "updated": 1771980990608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dwgkbo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dwgkbo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026dwgkbo",
-        "ids": ",aka2026dwgkbo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.5,
-        "rms": 1.1,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 121 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.045,
-          60.626,
-          5
-        ]
-      },
-      "id": "aka2026dwgkbo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.64,
-        "place": "9 km ESE of Ocotillo Wells, CA",
-        "time": 1771940764820,
-        "updated": 1771948811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41402584",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41402584.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 107,
-        "net": "ci",
-        "code": "41402584",
-        "ids": ",ci41402584,us7000rzyv,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.09692,
-        "rms": 0.23,
-        "gap": 23,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 9 km ESE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0505,
-          33.098,
-          3.02
-        ]
-      },
-      "id": "ci41402584"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.02,
-        "place": "4 km ESE of Cathcart, Washington",
-        "time": 1771940566520,
-        "updated": 1772008262617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62228281",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62228281.geojson",
-        "felt": 459,
-        "cdi": 3.1,
-        "mmi": 2.254,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 283,
-        "net": "uw",
-        "code": "62228281",
-        "ids": ",uw62228281,us7000rzyu,",
-        "sources": ",uw,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 104,
-        "dmin": 0.008187,
-        "rms": 0.24,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 4 km ESE of Cathcart, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.04333333333334,
-          47.832,
-          26.31
-        ]
-      },
-      "id": "uw62228281"
     }
   ],
   "bbox": [
     -179.7053,
     -31.2259,
-    2.394,
+    2,
     165.886,
     61.31,
     395.3
