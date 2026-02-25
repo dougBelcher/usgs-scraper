@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772031065000,
+    "generated": 1772035518000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
-    "api": "1.14.1",
-    "count": 47
+    "api": "2.3.0",
+    "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.59,
+        "place": "20 km E of Naalehu, Hawaii",
+        "time": 1772032298230,
+        "updated": 1772032514040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74908576",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74908576.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 103,
+        "net": "hv",
+        "code": "74908576",
+        "ids": ",hv74908576,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1411,
+        "rms": 0.119999997,
+        "gap": 270,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 20 km E of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.387329101562,
+          19.0326671600342,
+          32.9700012207031
+        ]
+      },
+      "id": "hv74908576"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -453,9 +493,9 @@
       "type": "Feature",
       "properties": {
         "mag": 3.8,
-        "place": "167 km S of Platinum, Alaska",
-        "time": 1771990558192,
-        "updated": 1771991133313,
+        "place": "144 km SSE of Platinum, Alaska",
+        "time": 1771990560176,
+        "updated": 1772031204519,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dxgctn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dxgctn.geojson",
@@ -463,7 +503,7 @@
         "cdi": null,
         "mmi": 1,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 222,
         "net": "ak",
@@ -471,20 +511,20 @@
         "ids": ",aka2026dxgctn,",
         "sources": ",ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 49,
+        "nst": 32,
         "dmin": 4.8,
-        "rms": 0.9,
-        "gap": 325,
+        "rms": 0.4,
+        "gap": 326,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 167 km S of Platinum, Alaska"
+        "title": "M 3.8 - 144 km SSE of Platinum, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -161.478,
-          57.523,
-          395.3
+          -161.312,
+          57.742,
+          403.5
         ]
       },
       "id": "aka2026dxgctn"
@@ -732,42 +772,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "4 km NNW of Falls City, Texas",
-        "time": 1771979033286,
-        "updated": 1771989285040,
+        "mag": 2.6,
+        "place": "2 km NNE of Falls City, Texas",
+        "time": 1771979031224,
+        "updated": 1772032891343,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s041",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s041.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dwztab",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dwztab.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "7000s041",
-        "ids": ",us7000s041,",
-        "sources": ",us,",
+        "sig": 104,
+        "net": "tx",
+        "code": "2026dwztab",
+        "ids": ",us7000s041,tx2026dwztab,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.256,
-        "rms": 0.53,
-        "gap": 81,
-        "magType": "mb_lg",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 75,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 4 km NNW of Falls City, Texas"
+        "title": "M 2.6 - 2 km NNE of Falls City, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.0325,
-          29.0196,
-          5
+          -98.008,
+          29.004,
+          5.6092
         ]
       },
-      "id": "us7000s041"
+      "id": "tx2026dwztab"
     },
     {
       "type": "Feature",
@@ -1808,94 +1848,14 @@
         ]
       },
       "id": "aka2026dwjmww"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "98 km S of Sand Point, Alaska",
-        "time": 1771948776335,
-        "updated": 1771975172537,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dwjakd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dwjakd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026dwjakd",
-        "ids": ",aka2026dwjakd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 1.1,
-        "rms": 0.4,
-        "gap": 272,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 98 km S of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.42,
-          54.45,
-          8.4
-        ]
-      },
-      "id": "aka2026dwjakd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Kermadec Islands region",
-        "time": 1771948295166,
-        "updated": 1771951115040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rzzi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rzzi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000rzzi",
-        "ids": ",us7000rzzi,",
-        "sources": ",us,",
-        "types": ",impact-text,origin,phase-data,",
-        "nst": 114,
-        "dmin": 2.502,
-        "rms": 0.92,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.7053,
-          -31.2259,
-          313.507
-        ]
-      },
-      "id": "us7000rzzi"
     }
   ],
   "bbox": [
-    -179.7053,
-    -31.2259,
+    -178.104,
+    -10.5411,
     2,
     165.886,
     61.31,
-    395.3
+    403.5
   ]
 }
