@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772340935000,
+    "generated": 1772344397000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 39
+    "count": 40
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "78 km NNW of Hirara, Japan",
+        "time": 1772340849328,
+        "updated": 1772342607040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s166",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s166.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000s166",
+        "ids": ",us7000s166,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 1.224,
+        "rms": 0.83,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 78 km NNW of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9343,
+          25.4302,
+          10
+        ]
+      },
+      "id": "us7000s166"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "44 km ESE of Nusa Dua, Indonesia",
         "time": 1772337170332,
-        "updated": 1772340748022,
+        "updated": 1772343681092,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s15z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s15z.geojson",
-        "felt": 18,
+        "felt": 20,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 318,
+        "sig": 319,
         "net": "us",
         "code": "7000s15z",
         "ids": ",us7000s15z,",
@@ -528,6 +568,46 @@
         ]
       },
       "id": "nn00911415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "44 km E of Bhadarwāh, India",
+        "time": 1772308556145,
+        "updated": 1772344163406,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s13v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s13v.geojson",
+        "felt": 1,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000s13v",
+        "ids": ",us7000s13v,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 60,
+        "dmin": 6.067,
+        "rms": 1.15,
+        "gap": 94,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 44 km E of Bhadarwāh, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1883,
+          33.0354,
+          10
+        ]
+      },
+      "id": "us7000s13v"
     },
     {
       "type": "Feature",
@@ -1528,46 +1608,6 @@
         ]
       },
       "id": "us7000s103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "232 km E of Levuka, Fiji",
-        "time": 1772256924071,
-        "updated": 1772257888040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0zy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s0zy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000s0zy",
-        "ids": ",us7000s0zy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 2.474,
-        "rms": 0.91,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 232 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.4957,
-          -17.8855,
-          580.674
-        ]
-      },
-      "id": "us7000s0zy"
     }
   ],
   "bbox": [
@@ -1576,6 +1616,6 @@
     0.8,
     157.9784,
     61.463,
-    580.674
+    562.798
   ]
 }
