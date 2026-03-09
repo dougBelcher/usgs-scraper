@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773085337000,
+    "generated": 1773088638000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 51
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "8 km SW of Pāhala, Hawaii",
+        "time": 1773084351330,
+        "updated": 1773086922880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74914717",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74914717.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "74914717",
+        "ids": ",hv74914717,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.07648,
+        "rms": 0.15,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 8 km SW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.543,
+          19.1571666666667,
+          -0.35
+        ]
+      },
+      "id": "hv74914717"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,22 +135,22 @@
         "mag": 4.2,
         "place": "13 km WSW of Gözler, Turkey",
         "time": 1773075756275,
-        "updated": 1773079638040,
+        "updated": 1773088260834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s373",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s373.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 272,
         "net": "us",
         "code": "7000s373",
         "ids": ",us7000s373,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 32,
         "dmin": 1.984,
         "rms": 0.58,
@@ -772,10 +812,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "8 km WNW of Edgefield, Louisiana",
-        "time": 1773049300778,
-        "updated": 1773083744646,
+        "mag": 4.4,
+        "place": "5 km WNW of Edgefield, Louisiana",
+        "time": 1773049302881,
+        "updated": 1773088503483,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s34v",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s34v.geojson",
@@ -785,26 +825,26 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 324,
+        "sig": 375,
         "net": "us",
         "code": "7000s34v",
         "ids": ",us7000s34v,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 36,
-        "dmin": 0.713,
-        "rms": 1.25,
-        "gap": 70,
-        "magType": "mb",
+        "nst": 51,
+        "dmin": 0.734,
+        "rms": 0.73,
+        "gap": 86,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - 8 km WNW of Edgefield, Louisiana"
+        "title": "M 4.4 - 5 km WNW of Edgefield, Louisiana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.4236,
-          32.0721,
-          5
+          -93.3879,
+          32.0734,
+          11.094
         ]
       },
       "id": "us7000s34v"
@@ -812,39 +852,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.9,
-        "place": "3 km NE of Edgefield, Louisiana",
-        "time": 1773049250224,
-        "updated": 1773058616264,
+        "mag": 4,
+        "place": "2 km WSW of Edgefield, Louisiana",
+        "time": 1773049250695,
+        "updated": 1773086881323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s34u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s34u.geojson",
         "felt": 20,
         "cdi": 5.3,
-        "mmi": 5.808,
-        "alert": null,
+        "mmi": 5.847,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 245,
+        "sig": 257,
         "net": "us",
         "code": "7000s34u",
         "ids": ",us7000s34u,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 35,
-        "dmin": 0.765,
-        "rms": 1.29,
-        "gap": 74,
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 47,
+        "dmin": 0.771,
+        "rms": 0.95,
+        "gap": 52,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.9 - 3 km NE of Edgefield, Louisiana"
+        "title": "M 4.0 - 2 km WSW of Edgefield, Louisiana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.3115,
-          32.0732,
-          5
+          -93.3578,
+          32.0447,
+          11.786
         ]
       },
       "id": "us7000s34u"
@@ -852,10 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "3 km NNE of Edgefield, Louisiana",
-        "time": 1773048859077,
-        "updated": 1773085317040,
+        "mag": 3.2,
+        "place": "4 km WSW of Edgefield, Louisiana",
+        "time": 1773048860426,
+        "updated": 1773087128015,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s34w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s34w.geojson",
@@ -865,26 +905,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
+        "sig": 158,
         "net": "us",
         "code": "7000s34w",
         "ids": ",us7000s34w,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.753,
-        "rms": 0.51,
-        "gap": 154,
+        "nst": 14,
+        "dmin": 0.763,
+        "rms": 0.76,
+        "gap": 87,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 3.1 - 3 km NNE of Edgefield, Louisiana"
+        "title": "M 3.2 - 4 km WSW of Edgefield, Louisiana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.3254,
-          32.08,
-          5
+          -93.374,
+          32.041,
+          9.421
         ]
       },
       "id": "us7000s34w"
@@ -1455,17 +1495,17 @@
         "mag": 4.8,
         "place": "2 km SW of Río Bravo, Guatemala",
         "time": 1773024758615,
-        "updated": 1773064584839,
+        "updated": 1773088288008,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s32w",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s32w.geojson",
-        "felt": 9,
+        "felt": 10,
         "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 357,
+        "sig": 358,
         "net": "us",
         "code": "7000s32w",
         "ids": ",us7000s32w,",
@@ -1533,9 +1573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "5 km SSW of Coushatta, Louisiana",
-        "time": 1773021893792,
-        "updated": 1773030091899,
+        "place": "3 km WNW of Coushatta, Louisiana",
+        "time": 1773021894824,
+        "updated": 1773086914378,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s32m",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s32m.geojson",
@@ -1551,20 +1591,20 @@
         "ids": ",us7000s32m,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.797,
-        "rms": 0.86,
-        "gap": 89,
+        "nst": 15,
+        "dmin": 0.766,
+        "rms": 0.51,
+        "gap": 88,
         "magType": "mb_lg",
         "type": "earthquake",
-        "title": "M 2.5 - 5 km SSW of Coushatta, Louisiana"
+        "title": "M 2.5 - 3 km WNW of Coushatta, Louisiana"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.3646,
-          31.9684,
-          5
+          -93.378,
+          32.0231,
+          9.828
         ]
       },
       "id": "us7000s32m"
@@ -1968,92 +2008,12 @@
         ]
       },
       "id": "aka2026esttsi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "5 km SE of San Ramon, CA",
-        "time": 1773001169950,
-        "updated": 1773077198335,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324567.geojson",
-        "felt": 25,
-        "cdi": 2.9,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "nc",
-        "code": "75324567",
-        "ids": ",nc75324567,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.03656,
-        "rms": 0.1,
-        "gap": 41,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.940330505371,
-          37.7506675720215,
-          7.69000005722046
-        ]
-      },
-      "id": "nc75324567"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "149 km SSE of Vilyuchinsk, Russia",
-        "time": 1772999642030,
-        "updated": 1773000611040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s319",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s319.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000s319",
-        "ids": ",us7000s319,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.388,
-        "rms": 0.47,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 149 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.2109,
-          51.6811,
-          50.462
-        ]
-      },
-      "id": "us7000s319"
     }
   ],
   "bbox": [
     -179.565,
     -38.3188,
-    1.9,
+    -0.35,
     179.66,
     69.497,
     364.465
