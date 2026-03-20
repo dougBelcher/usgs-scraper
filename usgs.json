@@ -1,61 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773989939000,
+    "generated": 1773993006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 59
+    "count": 62
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "186 km SSE of Atka, Alaska",
-        "time": 1773989169263,
-        "updated": 1773989928638,
+        "mag": 2.6,
+        "place": "9 km E of Chenega, Alaska",
+        "time": 1773992899792,
+        "updated": 1773993000734,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fnscun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fnscun.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fnuega",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fnuega.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.207,
+        "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 104,
         "net": "ak",
-        "code": "a2026fnscun",
-        "ids": ",aka2026fnscun,",
+        "code": "a2026fnuega",
+        "ids": ",aka2026fnuega,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 45,
-        "dmin": 1.7,
-        "rms": 0.6,
-        "gap": 229,
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 130,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.0 - 186 km SSE of Atka, Alaska"
+        "title": "M 2.6 - 9 km E of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.001,
-          50.698,
-          55
+          -147.848,
+          60.061,
+          21.9
         ]
       },
-      "id": "aka2026fnscun"
+      "id": "aka2026fnuega"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "15 km WNW of Stanley, Idaho",
+        "time": 1773989823346,
+        "updated": 1773990892040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shqu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shqu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000shqu",
+        "ids": ",us6000shqu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.261,
+        "rms": 0.74,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km WNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.107,
+          44.2885,
+          10
+        ]
+      },
+      "id": "us6000shqu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "179 km SSE of Atka, Alaska",
+        "time": 1773989167299,
+        "updated": 1773991817942,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shqs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shqs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.207,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "6000shqs",
+        "ids": ",aka2026fnscun,us6000shqs,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 27,
+        "dmin": 1.617,
+        "rms": 0.69,
+        "gap": 231,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 179 km SSE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.0893,
+          50.7427,
+          10
+        ]
+      },
+      "id": "us6000shqs"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.1,
         "place": "78 km NNW of Eureka Roadhouse, Alaska",
-        "time": 1773988690337,
-        "updated": 1773989878216,
+        "time": 1773988690380,
+        "updated": 1773991930227,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fnrvtm",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fnrvtm.geojson",
@@ -68,12 +148,12 @@
         "sig": 148,
         "net": "ak",
         "code": "a2026fnrvtm",
-        "ids": ",aka2026fnrvtm,",
-        "sources": ",ak,",
+        "ids": ",us6000shqn,aka2026fnrvtm,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
-        "nst": 159,
+        "nst": 162,
         "dmin": 0.1,
-        "rms": 1.1,
+        "rms": 1,
         "gap": 31,
         "magType": "ml",
         "type": "earthquake",
@@ -83,11 +163,51 @@
         "type": "Point",
         "coordinates": [
           -147.973,
-          62.53,
-          71.3
+          62.531,
+          69.8
         ]
       },
       "id": "aka2026fnrvtm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "30 km SSW of Shikotan, Russia",
+        "time": 1773987664247,
+        "updated": 1773989978040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shqm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shqm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000shqm",
+        "ids": ",us6000shqm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.974,
+        "rms": 0.38,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 30 km SSW of Shikotan, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.631,
+          43.5336,
+          69.43
+        ]
+      },
+      "id": "us6000shqm"
     },
     {
       "type": "Feature",
@@ -288,6 +408,46 @@
         ]
       },
       "id": "us6000shq4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "29 km ESE of Nūrābād, Iran",
+        "time": 1773982893153,
+        "updated": 1773991317040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shqx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000shqx",
+        "ids": ",us6000shqx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 6.401,
+        "rms": 0.75,
+        "gap": 64,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 29 km ESE of Nūrābād, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.8139,
+          30.0431,
+          10
+        ]
+      },
+      "id": "us6000shqx"
     },
     {
       "type": "Feature",
@@ -2328,46 +2488,6 @@
         ]
       },
       "id": "nc75329942"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "167 km S of Severo-Kuril’sk, Russia",
-        "time": 1773906211931,
-        "updated": 1773929203040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shc9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shc9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.63,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "6000shc9",
-        "ids": ",us6000shc9,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 115,
-        "dmin": 4.074,
-        "rms": 0.64,
-        "gap": 132,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.6 - 167 km S of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          156.0797,
-          49.1691,
-          37.609
-        ]
-      },
-      "id": "us6000shc9"
     }
   ],
   "bbox": [
