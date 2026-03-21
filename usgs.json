@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774067947000,
+    "generated": 1774071719000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 72
+    "count": 71
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.32,
+        "place": "16 km ENE of Hydesville, CA",
+        "time": 1774071344600,
+        "updated": 1774071696780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330867",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75330867.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "nc",
+        "code": "75330867",
+        "ids": ",nc75330867,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.04905,
+        "rms": 0.14,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 16 km ENE of Hydesville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.917831420898,
+          40.5833320617676,
+          29.7299995422363
+        ]
+      },
+      "id": "nc75330867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "Gulf of Alaska",
+        "time": 1774069092036,
+        "updated": 1774069544810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si2d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si2d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000si2d",
+        "ids": ",aka2026fpkgmu,us6000si2d,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 3.05,
+        "rms": 0.74,
+        "gap": 238,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - Gulf of Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.1279,
+          56.9051,
+          10
+        ]
+      },
+      "id": "us6000si2d"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -52,39 +132,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.8,
-        "place": "60 km W of Norsup, Vanuatu",
-        "time": 1774063257193,
-        "updated": 1774066895725,
+        "mag": 3.4,
+        "place": "15 km ENE of Nome, Alaska",
+        "time": 1774064082377,
+        "updated": 1774071099367,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fphmoe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fphmoe.geojson",
+        "felt": 8,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "ak",
+        "code": "a2026fphmoe",
+        "ids": ",us6000si21,aka2026fphmoe,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 15 km ENE of Nome, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.115,
+          64.565,
+          13.9
+        ]
+      },
+      "id": "aka2026fphmoe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "51 km W of Norsup, Vanuatu",
+        "time": 1774063260605,
+        "updated": 1774069031899,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si17",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si17.geojson",
         "felt": 1,
         "cdi": 3.1,
-        "mmi": 4.753,
+        "mmi": 4.576,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 518,
+        "sig": 500,
         "net": "us",
         "code": "6000si17",
         "ids": ",us6000si17,",
         "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 60,
-        "dmin": 0.744,
-        "rms": 0.85,
-        "gap": 58,
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 82,
+        "dmin": 0.62,
+        "rms": 0.94,
+        "gap": 32,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.8 - 60 km W of Norsup, Vanuatu"
+        "title": "M 5.7 - 51 km W of Norsup, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.8313,
-          -16.1029,
-          10
+          166.9182,
+          -16.0064,
+          37.084
         ]
       },
       "id": "us6000si17"
@@ -295,13 +415,13 @@
         "mag": 3.43,
         "place": "4 km SSW of Pāhala, Hawaii",
         "time": 1774053209590,
-        "updated": 1774064221325,
+        "updated": 1774069960347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74920477",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74920477.geojson",
         "felt": 11,
         "cdi": 3.1,
-        "mmi": 3.422,
+        "mmi": 3.428,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -612,46 +732,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1774043576966,
-        "updated": 1774043747337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fowebi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fowebi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026fowebi",
-        "ids": ",tx2026fowebi,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 173,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.393,
-          31.675,
-          4.9815
-        ]
-      },
-      "id": "tx2026fowebi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.6,
         "place": "57 km S of Whites City, New Mexico",
         "time": 1774043576943,
@@ -688,6 +768,46 @@
         ]
       },
       "id": "tx2026fowduj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1774043576846,
+        "updated": 1774069701968,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fowebi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fowebi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2026fowebi",
+        "ids": ",tx2026fowebi,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.407,
+          31.679,
+          4.4033
+        ]
+      },
+      "id": "tx2026fowebi"
     },
     {
       "type": "Feature",
@@ -2728,166 +2848,6 @@
         ]
       },
       "id": "us6000shqe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "66 km SW of San Juan, Peru",
-        "time": 1773984609796,
-        "updated": 1773988295040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shq2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shq2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000shq2",
-        "ids": ",us6000shq2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 3.922,
-        "rms": 0.64,
-        "gap": 169,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 66 km SW of San Juan, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.6388,
-          -15.7539,
-          10
-        ]
-      },
-      "id": "us6000shq2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "30 km SW of Mohr, Iran",
-        "time": 1773984287647,
-        "updated": 1773987762040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shq4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shq4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000shq4",
-        "ids": ",us6000shq4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 3.972,
-        "rms": 0.65,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 30 km SW of Mohr, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.6776,
-          27.3499,
-          10
-        ]
-      },
-      "id": "us6000shq4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "29 km ESE of Nūrābād, Iran",
-        "time": 1773982893153,
-        "updated": 1773991317040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shqx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shqx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000shqx",
-        "ids": ",us6000shqx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 6.401,
-        "rms": 0.75,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 29 km ESE of Nūrābād, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.8139,
-          30.0431,
-          10
-        ]
-      },
-      "id": "us6000shqx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1773982826238,
-        "updated": 1773983871040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shpz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000shpz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000shpz",
-        "ids": ",us6000shpz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 21.044,
-        "rms": 0.59,
-        "gap": 63,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.914,
-          31.719,
-          10
-        ]
-      },
-      "id": "us6000shpz"
     }
   ],
   "bbox": [
