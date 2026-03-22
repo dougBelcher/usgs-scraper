@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774189818000,
+    "generated": 1774193298000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 62
+    "count": 61
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "58 km S of Adak, Alaska",
+        "time": 1774193109094,
+        "updated": 1774193224611,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fsatqj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fsatqj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026fsatqj",
+        "ids": ",aka2026fsatqj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.5,
+        "rms": 0.2,
+        "gap": 262,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 58 km S of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.704,
+          51.346,
+          37.8
+        ]
+      },
+      "id": "aka2026fsatqj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3,
-        "place": "242 km WSW of Adak, Alaska",
-        "time": 1774189541635,
-        "updated": 1774189790914,
+        "place": "241 km WSW of Adak, Alaska",
+        "time": 1774189541711,
+        "updated": 1774189838449,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026frytne",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026frytne.geojson",
@@ -34,17 +74,17 @@
         "nst": 16,
         "dmin": 0.6,
         "rms": 0.8,
-        "gap": 236,
+        "gap": 235,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 242 km WSW of Adak, Alaska"
+        "title": "M 3.0 - 241 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.857,
-          51.035,
-          6.1
+          -179.848,
+          51.042,
+          6
         ]
       },
       "id": "aka2026frytne"
@@ -1212,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
+        "mag": 5.7,
         "place": "central East Pacific Rise",
-        "time": 1774148625154,
-        "updated": 1774157298515,
+        "time": 1774148625069,
+        "updated": 1774193186040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sic3",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sic3.geojson",
@@ -1225,25 +1265,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 500,
         "net": "us",
         "code": "6000sic3",
         "ids": ",us6000sic3,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 74,
-        "dmin": 28.046,
-        "rms": 0.72,
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 76,
+        "dmin": 28.049,
+        "rms": 0.79,
         "gap": 119,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - central East Pacific Rise"
+        "title": "M 5.7 - central East Pacific Rise"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.333,
-          -8.9415,
+          -108.3926,
+          -8.9223,
           10
         ]
       },
@@ -2408,90 +2448,10 @@
         ]
       },
       "id": "us6000si7i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "10 km N of Alex, Oklahoma",
-        "time": 1774106794299,
-        "updated": 1774109286681,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fpnh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026fpnh.geojson",
-        "felt": 11,
-        "cdi": 4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 122,
-        "net": "ok",
-        "code": "2026fpnh",
-        "ids": ",ok2026fpnh,us6000si75,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 89,
-        "dmin": 0,
-        "rms": 0.18,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 10 km N of Alex, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.75733333,
-          35.0065,
-          11.27
-        ]
-      },
-      "id": "ok2026fpnh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "northwest of the Kuril Islands",
-        "time": 1774106505574,
-        "updated": 1774107753040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si77",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000si77.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000si77",
-        "ids": ",aka2026fqfaug,us6000si77,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 6.793,
-        "rms": 0.6,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - northwest of the Kuril Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.7411,
-          48.5553,
-          348.098
-        ]
-      },
-      "id": "us6000si77"
     }
   ],
   "bbox": [
-    -179.857,
+    -179.848,
     -59.6689,
     0.86000001430511,
     178.605,
