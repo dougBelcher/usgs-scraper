@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774250045000,
+    "generated": 1774256382000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 75
+    "count": 67
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
+        "mag": 2.5,
+        "place": "40 km NNE of Whittier, Alaska",
+        "time": 1774250474805,
+        "updated": 1774250742103,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftglnn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftglnn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026ftglnn",
+        "ids": ",aka2026ftglnn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.2,
+        "rms": 1,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 40 km NNE of Whittier, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.309,
+          61.088,
+          132.1
+        ]
+      },
+      "id": "aka2026ftglnn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
         "place": "149 km SSE of False Pass, Alaska",
         "time": 1774249702211,
-        "updated": 1774250025734,
+        "updated": 1774250103900,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftgaky",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftgaky.geojson",
@@ -25,7 +65,7 @@
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 138,
         "net": "ak",
         "code": "a2026ftgaky",
         "ids": ",aka2026ftgaky,",
@@ -37,7 +77,7 @@
         "gap": 225,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 149 km SSE of False Pass, Alaska"
+        "title": "M 3.0 - 149 km SSE of False Pass, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -52,42 +92,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
+        "mag": 2.9,
         "place": "22 km E of Susitna North, Alaska",
-        "time": 1774249693693,
-        "updated": 1774250040723,
+        "time": 1774249693653,
+        "updated": 1774251052122,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftgahc",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftgahc.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 129,
         "net": "ak",
         "code": "a2026ftgahc",
         "ids": ",aka2026ftgahc,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 141,
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 150,
         "dmin": 0.5,
         "rms": 1.1,
         "gap": 18,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 22 km E of Susitna North, Alaska"
+        "title": "M 2.9 - 22 km E of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.421,
-          62.18,
-          31.1
+          -149.42,
+          62.179,
+          30.3
         ]
       },
       "id": "aka2026ftgahc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "193 km SSE of Cordova, Alaska",
+        "time": 1774248983080,
+        "updated": 1774255629040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sisz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sisz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000sisz",
+        "ids": ",aka2026ftfqei,us6000sisz,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.967,
+        "rms": 0.42,
+        "gap": 235,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 193 km SSE of Cordova, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.3061,
+          58.9645,
+          10
+        ]
+      },
+      "id": "us6000sisz"
     },
     {
       "type": "Feature",
@@ -175,7 +255,7 @@
         "mag": 5.8,
         "place": "112 km NE of Hihifo, Tonga",
         "time": 1774245765817,
-        "updated": 1774247438281,
+        "updated": 1774254580821,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sisb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sisb.geojson",
@@ -214,8 +294,8 @@
       "properties": {
         "mag": 2.8,
         "place": "16 km N of Fishhook, Alaska",
-        "time": 1774245352490,
-        "updated": 1774246885495,
+        "time": 1774245352911,
+        "updated": 1774252134629,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftdpyh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftdpyh.geojson",
@@ -223,7 +303,7 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 121,
         "net": "ak",
@@ -231,8 +311,8 @@
         "ids": ",aka2026ftdpyh,",
         "sources": ",ak,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 109,
-        "dmin": 0.2,
+        "nst": 97,
+        "dmin": 0.3,
         "rms": 1.1,
         "gap": 22,
         "magType": "ml",
@@ -242,8 +322,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.247,
-          61.89,
+          -149.225,
+          61.888,
           5
         ]
       },
@@ -615,13 +695,13 @@
         "mag": 4.3,
         "place": "223 km ESE of Attu Station, Alaska",
         "time": 1774231493854,
-        "updated": 1774234558040,
+        "updated": 1774252854478,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sipr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sipr.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.691,
+        "mmi": 2.802,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -815,7 +895,7 @@
         "mag": 3.2,
         "place": "102 km N of Yakutat, Alaska",
         "time": 1774228662053,
-        "updated": 1774230738030,
+        "updated": 1774253317557,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sip7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sip7.geojson",
@@ -1095,13 +1175,13 @@
         "mag": 3.6,
         "place": "259 km WSW of Adak, Alaska",
         "time": 1774221321796,
-        "updated": 1774226730040,
+        "updated": 1774253629314,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000simk",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000simk.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.731,
+        "mmi": 2.481,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -1455,7 +1535,7 @@
         "mag": 4,
         "place": "261 km WSW of Tofino, Canada",
         "time": 1774207411747,
-        "updated": 1774245347456,
+        "updated": 1774251216020,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sijy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sijy.geojson",
@@ -2608,406 +2688,6 @@
         ]
       },
       "id": "pr2026081000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "76 km SSE of Tateyama, Japan",
-        "time": 1774169766405,
-        "updated": 1774170801779,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sif5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sif5.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000sif5",
-        "ids": ",us6000sif5,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 2.642,
-        "rms": 0.53,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 76 km SSE of Tateyama, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.1834,
-          34.3424,
-          94.602
-        ]
-      },
-      "id": "us6000sif5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "16 km W of Clam Gulch, Alaska",
-        "time": 1774169522375,
-        "updated": 1774170129282,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026frnswi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026frnswi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "a2026frnswi",
-        "ids": ",aka2026frnswi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 88,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 16 km W of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.693,
-          60.259,
-          74.1
-        ]
-      },
-      "id": "aka2026frnswi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "161 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1774167275123,
-        "updated": 1774168770040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000siep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000siep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000siep",
-        "ids": ",us6000siep,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 1.951,
-        "rms": 1.26,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 161 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5119,
-          52.1774,
-          38.269
-        ]
-      },
-      "id": "us6000siep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "148 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1774166833169,
-        "updated": 1774168226040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000siem",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000siem.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000siem",
-        "ids": ",us6000siem,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.852,
-        "rms": 0.7,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 148 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.4611,
-          52.3307,
-          38.582
-        ]
-      },
-      "id": "us6000siem"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "8 km NNW of Nanwalek, Alaska",
-        "time": 1774166718771,
-        "updated": 1774167019258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026frmevq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026frmevq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026frmevq",
-        "ids": ",aka2026frmevq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 0.6,
-        "rms": 0.8,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 8 km NNW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.994,
-          59.419,
-          55.7
-        ]
-      },
-      "id": "aka2026frmevq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "42 km E of Palca, Peru",
-        "time": 1774166574325,
-        "updated": 1774167533040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sieg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sieg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000sieg",
-        "ids": ",us6000sieg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.612,
-        "rms": 1.33,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 42 km E of Palca, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.5663,
-          -17.7221,
-          137.946
-        ]
-      },
-      "id": "us6000sieg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km WSW of Trapper Creek, Alaska",
-        "time": 1774165574252,
-        "updated": 1774194937461,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026frloej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026frloej.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026frloej",
-        "ids": ",aka2026frloej,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km WSW of Trapper Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.735,
-          62.183,
-          71.4
-        ]
-      },
-      "id": "aka2026frloej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "120 km SW of Lanai City, Hawaii",
-        "time": 1774164720216,
-        "updated": 1774173706190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000siea",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000siea.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 1.336,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "us",
-        "code": "6000siea",
-        "ids": ",us6000siea,hv74921782,",
-        "sources": ",us,hv,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 22,
-        "dmin": 1.21,
-        "rms": 0.25,
-        "gap": 204,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 120 km SW of Lanai City, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.7295,
-          20.0487,
-          10
-        ]
-      },
-      "id": "us6000siea"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "225 km ESE of Attu Station, Alaska",
-        "time": 1774164684506,
-        "updated": 1774167022984,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000siec",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000siec.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.944,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000siec",
-        "ids": ",aka2026frlcbp,us6000siec,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 1.421,
-        "rms": 1.37,
-        "gap": 191,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 225 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.2174,
-          52.0303,
-          3.088
-        ]
-      },
-      "id": "us6000siec"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "180 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1774163998619,
-        "updated": 1774164953040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sie4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sie4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000sie4",
-        "ids": ",us6000sie4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 2.133,
-        "rms": 1,
-        "gap": 125,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 180 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8307,
-          52.1582,
-          10
-        ]
-      },
-      "id": "us6000sie4"
     }
   ],
   "bbox": [
