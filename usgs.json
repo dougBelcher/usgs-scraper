@@ -1,50 +1,50 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774468245000,
+    "generated": 1774471308000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 46
+    "count": 50
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.45643948788015,
+        "mag": 3.3,
         "place": "25 km ENE of Ensenada, B.C., MX",
-        "time": 1774466140130,
-        "updated": 1774467706718,
+        "time": 1774466140120,
+        "updated": 1774470401295,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41424896.geojson",
-        "felt": 6,
-        "cdi": 4.1,
-        "mmi": 3.295,
+        "felt": 7,
+        "cdi": 3.1,
+        "mmi": 3.11,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 186,
+        "sig": 170,
         "net": "ci",
         "code": "41424896",
         "ids": ",ci41424896,",
         "sources": ",ci,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 43,
-        "dmin": 0.2461,
-        "rms": 0.25999999,
+        "nst": 29,
+        "dmin": 0.244,
+        "rms": 0.23,
         "gap": 68,
-        "magType": "mlr",
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 25 km ENE of Ensenada, B.C., MX"
+        "title": "M 3.3 - 25 km ENE of Ensenada, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.370666503906,
-          31.9423332214355,
-          16.9300003051758
+          -116.367166666667,
+          31.9443333333333,
+          15.82
         ]
       },
       "id": "ci41424896"
@@ -55,17 +55,17 @@
         "mag": 4.9,
         "place": "10 km E of Ouranoupolis, Greece",
         "time": 1774465704891,
-        "updated": 1774468087398,
+        "updated": 1774470680828,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7l9",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7l9.geojson",
-        "felt": 22,
+        "felt": 38,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 377,
+        "sig": 382,
         "net": "us",
         "code": "7000s7l9",
         "ids": ",us7000s7l9,",
@@ -95,17 +95,17 @@
         "mag": 3.48,
         "place": "15 km N of Brooktrails, CA",
         "time": 1774455648620,
-        "updated": 1774467072014,
+        "updated": 1774470115017,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332857",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332857.geojson",
-        "felt": 39,
-        "cdi": 4.1,
+        "felt": 40,
+        "cdi": 3.4,
         "mmi": 3.324,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 202,
+        "sig": 200,
         "net": "nc",
         "code": "75332857",
         "ids": ",nc75332857,us7000s7jp,",
@@ -613,15 +613,15 @@
       "type": "Feature",
       "properties": {
         "mag": 3.9,
-        "place": "232 km ESE of Attu Station, Alaska",
-        "time": 1774436204462,
-        "updated": 1774468212378,
+        "place": "235 km ESE of Attu Station, Alaska",
+        "time": 1774436204089,
+        "updated": 1774471129176,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxeyre",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxeyre.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 1.863,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -630,21 +630,21 @@
         "code": "a2026fxeyre",
         "ids": ",aka2026fxeyre,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 31,
         "dmin": 1.4,
-        "rms": 1,
-        "gap": 206,
+        "rms": 0.9,
+        "gap": 201,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 232 km ESE of Attu Station, Alaska"
+        "title": "M 3.9 - 235 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.274,
-          51.944,
-          20
+          176.252,
+          51.864,
+          18.9
         ]
       },
       "id": "aka2026fxeyre"
@@ -732,39 +732,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "248 km ESE of Attu Station, Alaska",
-        "time": 1774431293189,
-        "updated": 1774457736606,
+        "mag": 4,
+        "place": "233 km ESE of Attu Station, Alaska",
+        "time": 1774431485038,
+        "updated": 1774470681703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxcllv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxcllv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.19,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "a2026fxcllv",
+        "ids": ",aka2026fxcllv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 27,
+        "dmin": 1.4,
+        "rms": 0.8,
+        "gap": 203,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 233 km ESE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.206,
+          51.847,
+          33
+        ]
+      },
+      "id": "aka2026fxcllv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "235 km ESE of Attu Station, Alaska",
+        "time": 1774431295347,
+        "updated": 1774470565896,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxcime",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxcime.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.285,
+        "mmi": 2.298,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 271,
+        "sig": 259,
         "net": "ak",
         "code": "a2026fxcime",
         "ids": ",aka2026fxcime,",
         "sources": ",ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 8,
-        "dmin": 1.3,
-        "rms": 0.3,
-        "gap": 340,
+        "nst": 23,
+        "dmin": 1.4,
+        "rms": 0.6,
+        "gap": 203,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.2 - 248 km ESE of Attu Station, Alaska"
+        "title": "M 4.1 - 235 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.377,
-          51.772,
-          0
+          176.223,
+          51.837,
+          29.3
         ]
       },
       "id": "aka2026fxcime"
@@ -772,10 +812,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "232 km ESE of Attu Station, Alaska",
+        "time": 1774431020563,
+        "updated": 1774470221062,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxceuz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxceuz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "a2026fxceuz",
+        "ids": ",aka2026fxceuz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.4,
+        "rms": 0.6,
+        "gap": 193,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 232 km ESE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.303,
+          51.99,
+          9.4
+        ]
+      },
+      "id": "aka2026fxceuz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
         "place": "4 km SE of Healy, Alaska",
         "time": 1774427905454,
-        "updated": 1774457019065,
+        "updated": 1774470032269,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxakxt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxakxt.geojson",
@@ -812,50 +892,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "226 km ESE of Chiniak, Alaska",
-        "time": 1774425934831,
-        "updated": 1774455554677,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwzivr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwzivr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026fwzivr",
-        "ids": ",aka2026fwzivr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 10,
-        "dmin": 2.3,
-        "rms": 0.9,
-        "gap": 329,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 226 km ESE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.918,
-          56.712,
-          0
-        ]
-      },
-      "id": "aka2026fwzivr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 2.8,
-        "place": "107 km SSE of Sand Point, Alaska",
-        "time": 1774425175469,
-        "updated": 1774461047729,
+        "place": "91 km SSE of Sand Point, Alaska",
+        "time": 1774425174392,
+        "updated": 1774469992908,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwyxqx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwyxqx.geojson",
@@ -871,20 +911,20 @@
         "ids": ",aka2026fwyxqx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 15,
-        "dmin": 1.4,
-        "rms": 0.5,
-        "gap": 280,
+        "nst": 17,
+        "dmin": 1.2,
+        "rms": 0.4,
+        "gap": 273,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 107 km SSE of Sand Point, Alaska"
+        "title": "M 2.8 - 91 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.878,
-          54.444,
-          30
+          -159.96,
+          54.577,
+          4.9
         ]
       },
       "id": "aka2026fwyxqx"
@@ -972,6 +1012,86 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.1,
+        "place": "120 km SE of Akutan, Alaska",
+        "time": 1774422292974,
+        "updated": 1774469255972,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwxjff",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwxjff.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026fwxjff",
+        "ids": ",aka2026fwxjff,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1,
+        "rms": 0.6,
+        "gap": 219,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 120 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.729,
+          53.249,
+          10.5
+        ]
+      },
+      "id": "aka2026fwxjff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "93 km ESE of Nikolski, Alaska",
+        "time": 1774420943554,
+        "updated": 1774469073489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwwpvj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwwpvj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026fwwpvj",
+        "ids": ",aka2026fwwpvj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 239,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 93 km ESE of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.526,
+          52.706,
+          5.8
+        ]
+      },
+      "id": "aka2026fwwpvj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.4,
         "place": "99 km WSW of Kuril’sk, Russia",
         "time": 1774417829378,
@@ -1013,9 +1133,49 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "27 km E of Chase, Alaska",
-        "time": 1774414516406,
-        "updated": 1774420338717,
+        "place": "102 km S of Atka, Alaska",
+        "time": 1774415942548,
+        "updated": 1774468995388,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwtwaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwtwaj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026fwtwaj",
+        "ids": ",aka2026fwtwaj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.9,
+        "rms": 0.8,
+        "gap": 276,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 102 km S of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.366,
+          51.282,
+          1.3
+        ]
+      },
+      "id": "aka2026fwtwaj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "28 km E of Chase, Alaska",
+        "time": 1774414516604,
+        "updated": 1774468885883,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwtbwd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwtbwd.geojson",
@@ -1031,20 +1191,20 @@
         "ids": ",aka2026fwtbwd,us7000s7g9,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.8,
+        "nst": 48,
+        "dmin": 0.7,
         "rms": 0.9,
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 27 km E of Chase, Alaska"
+        "title": "M 2.7 - 28 km E of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.573,
-          62.42,
-          19.5
+          -149.559,
+          62.415,
+          21.9
         ]
       },
       "id": "aka2026fwtbwd"
@@ -1052,42 +1212,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "57 km S of Chiniak, Alaska",
-        "time": 1774409806846,
-        "updated": 1774410037823,
+        "mag": 2.5,
+        "place": "73 km SSE of Adak, Alaska",
+        "time": 1774406960674,
+        "updated": 1774469757040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwqlza",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwqlza.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7lp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7lp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026fwqlza",
-        "ids": ",aka2026fwqlza,",
-        "sources": ",ak,",
+        "sig": 96,
+        "net": "us",
+        "code": "7000s7lp",
+        "ids": ",aka2026fwowzd,us7000s7lp,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.7,
-        "rms": 0.4,
-        "gap": 311,
+        "nst": 13,
+        "dmin": 0.609,
+        "rms": 1.05,
+        "gap": 237,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 57 km S of Chiniak, Alaska"
+        "title": "M 2.5 - 73 km SSE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.332,
-          57.094,
-          5
+          -176.2353,
+          51.2633,
+          35
         ]
       },
-      "id": "aka2026fwqlza"
+      "id": "us7000s7lp"
     },
     {
       "type": "Feature",
@@ -1851,7 +2011,7 @@
     }
   ],
   "bbox": [
-    -175.7059,
+    -176.2353,
     -24.2287,
     -0.19,
     176.4127,
