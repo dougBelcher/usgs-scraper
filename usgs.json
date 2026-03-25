@@ -1,31 +1,31 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774458334000,
+    "generated": 1774465092000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 44
+    "count": 45
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.52,
+        "mag": 3.48,
         "place": "15 km N of Brooktrails, CA",
         "time": 1774455648620,
-        "updated": 1774458079733,
+        "updated": 1774463756371,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332857",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332857.geojson",
-        "felt": 32,
+        "felt": 38,
         "cdi": 4.1,
         "mmi": 3.324,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 204,
+        "sig": 202,
         "net": "nc",
         "code": "75332857",
         "ids": ",nc75332857,us7000s7jp,",
@@ -35,7 +35,7 @@
         "dmin": 0.08021,
         "rms": 0.12,
         "gap": 64,
-        "magType": "ml",
+        "magType": "mw",
         "type": "earthquake",
         "title": "M 3.5 - 15 km N of Brooktrails, CA"
       },
@@ -175,12 +175,12 @@
         "mag": 3.4,
         "place": "163 km W of Ferndale, California",
         "time": 1774452564361,
-        "updated": 1774456913790,
+        "updated": 1774464956776,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7jg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7jg.geojson",
-        "felt": 0,
-        "cdi": 1,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -532,6 +532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1774436223580,
+        "updated": 1774459368453,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fxeyre",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fxeyre.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "a2026fxeyre",
+        "ids": ",aka2026fxeyre,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.1,
+        "rms": 1,
+        "gap": 259,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.499,
+          52.07,
+          22.3
+        ]
+      },
+      "id": "aka2026fxeyre"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.2,
         "place": "80 km WNW of Hihifo, Tonga",
         "time": 1774433849823,
@@ -728,6 +768,46 @@
         ]
       },
       "id": "aka2026fwzivr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "107 km SSE of Sand Point, Alaska",
+        "time": 1774425175469,
+        "updated": 1774461047729,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwyxqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwyxqx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026fwyxqx",
+        "ids": ",aka2026fwyxqx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 15,
+        "dmin": 1.4,
+        "rms": 0.5,
+        "gap": 280,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 107 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.878,
+          54.444,
+          30
+        ]
+      },
+      "id": "aka2026fwyxqx"
     },
     {
       "type": "Feature",
@@ -1728,53 +1808,13 @@
         ]
       },
       "id": "aka2026fwahfg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1774374065339,
-        "updated": 1774381051357,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fvwsnx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fvwsnx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2026fvwsnx",
-        "ids": ",us7000s7cy,tx2026fvwsnx,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.367,
-          31.631,
-          6.0999
-        ]
-      },
-      "id": "tx2026fvwsnx"
     }
   ],
   "bbox": [
     -175.7059,
     -24.2287,
     -0.19,
-    176.4127,
+    178.499,
     63.826,
     275.713
   ]
