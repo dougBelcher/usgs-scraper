@@ -1,50 +1,90 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774650887000,
+    "generated": 1774654531000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 44
+    "count": 46
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.07515978425447,
+        "mag": 2.8,
+        "place": "91 km ENE of Chignik, Alaska",
+        "time": 1774651313199,
+        "updated": 1774653934040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gbtwfz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gbtwfz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026gbtwfz",
+        "ids": ",us7000s89r,aka2026gbtwfz,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 179,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 91 km ENE of Chignik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.076,
+          56.668,
+          68.5
+        ]
+      },
+      "id": "aka2026gbtwfz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.10931310269304,
         "place": "26 km WNW of Ludlow, CA",
-        "time": 1774649594850,
-        "updated": 1774650801478,
+        "time": 1774649594860,
+        "updated": 1774654319087,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426656",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41426656.geojson",
-        "felt": 18,
+        "felt": 43,
         "cdi": 3.8,
-        "mmi": 4.71,
+        "mmi": 4.703,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 262,
+        "sig": 276,
         "net": "ci",
         "code": "41426656",
         "ids": ",ew1774649600,ci41426656,us7000s89k,",
         "sources": ",ew,ci,us,",
         "types": ",dyfi,event-sequence,focal-mechanism,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shakemap,",
-        "nst": 85,
-        "dmin": 0.06209,
-        "rms": 0.189999998,
+        "nst": 50,
+        "dmin": 0.06279,
+        "rms": 0.15,
         "gap": 38,
-        "magType": "mlr",
+        "magType": "mw",
         "type": "earthquake",
         "title": "M 4.1 - 26 km WNW of Ludlow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.40966796875,
-          34.8385009765625,
-          0.930000007152557
+          -116.4105,
+          34.8386666666667,
+          1.43
         ]
       },
       "id": "ci41426656"
@@ -92,42 +132,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "246 km SSW of Adak, Alaska",
-        "time": 1774646101526,
-        "updated": 1774647330493,
+        "mag": 3.1,
+        "place": "255 km SSW of Adak, Alaska",
+        "time": 1774646100611,
+        "updated": 1774653036040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gbradz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gbradz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s897",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s897.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026gbradz",
-        "ids": ",aka2026gbradz,",
-        "sources": ",ak,",
+        "sig": 148,
+        "net": "us",
+        "code": "7000s897",
+        "ids": ",aka2026gbradz,us7000s897,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 2.1,
-        "rms": 0.5,
-        "gap": 301,
+        "nst": 17,
+        "dmin": 2.077,
+        "rms": 0.26,
+        "gap": 273,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - 246 km SSW of Adak, Alaska"
+        "title": "M 3.1 - 255 km SSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.418,
-          49.712,
-          9.6
+          -177.5169,
+          49.6504,
+          10
         ]
       },
-      "id": "aka2026gbradz"
+      "id": "us7000s897"
     },
     {
       "type": "Feature",
@@ -248,6 +288,126 @@
         ]
       },
       "id": "us7000s88b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "74 km S of Adak, Alaska",
+        "time": 1774637889794,
+        "updated": 1774653574243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gbmlnw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gbmlnw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.755,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "a2026gbmlnw",
+        "ids": ",aka2026gbmlnw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 60,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 74 km S of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.712,
+          51.206,
+          16.9
+        ]
+      },
+      "id": "aka2026gbmlnw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "74 km SE of Unalaska, Alaska",
+        "time": 1774637539942,
+        "updated": 1774653488307,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gbmgod",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gbmgod.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "a2026gbmgod",
+        "ids": ",aka2026gbmgod,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 60,
+        "dmin": 0.7,
+        "rms": 0.8,
+        "gap": 206,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 74 km SE of Unalaska, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.884,
+          53.329,
+          14.6
+        ]
+      },
+      "id": "aka2026gbmgod"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "52 km WNW of Nanwalek, Alaska",
+        "time": 1774637361583,
+        "updated": 1774653471892,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gbmdzz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gbmdzz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026gbmdzz",
+        "ids": ",us7000s87k,aka2026gbmdzz,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 140,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 52 km WNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.807,
+          59.49,
+          99.2
+        ]
+      },
+      "id": "aka2026gbmdzz"
     },
     {
       "type": "Feature",
@@ -1575,7 +1735,7 @@
         "mag": 2.53,
         "place": "12 km SSE of Volcano, Hawaii",
         "time": 1774572225060,
-        "updated": 1774579355950,
+        "updated": 1774654361040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74925477",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74925477.geojson",
@@ -1588,8 +1748,8 @@
         "sig": 98,
         "net": "hv",
         "code": "74925477",
-        "ids": ",hv74925477,",
-        "sources": ",hv,",
+        "ids": ",us7000s7zs,hv74925477,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 49,
         "dmin": 0.03836,
@@ -1688,92 +1848,12 @@
         ]
       },
       "id": "aka2026gaadjs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "153 km WSW of Abepura, Indonesia",
-        "time": 1774565461074,
-        "updated": 1774614780040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7z5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s7z5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.896,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000s7z5",
-        "ids": ",us7000s7z5,",
-        "sources": ",us,",
-        "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 78,
-        "dmin": 1.478,
-        "rms": 1.01,
-        "gap": 42,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - 153 km WSW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.3807,
-          -3.1837,
-          53.94
-        ]
-      },
-      "id": "us7000s7z5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "107 km S of False Pass, Alaska",
-        "time": 1774564582171,
-        "updated": 1774646529772,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fzxyxk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fzxyxk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026fzxyxk",
-        "ids": ",aka2026fzxyxk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.8,
-        "rms": 0.7,
-        "gap": 238,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 107 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.195,
-          53.897,
-          8.2
-        ]
-      },
-      "id": "aka2026fzxyxk"
     }
   ],
   "bbox": [
     -178.182,
     -57.031,
-    0.93000000715256,
+    1.43,
     176.326,
     63.154,
     139
