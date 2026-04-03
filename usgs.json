@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775227593000,
+    "generated": 1775230812000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 67
+    "count": 62
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "58 km E of Pedro Bay, Alaska",
+        "time": 1775229465082,
+        "updated": 1775229789967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gobfwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gobfwm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026gobfwm",
+        "ids": ",aka2026gobfwm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 189,
+        "dmin": 0,
+        "rms": 1,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 58 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.061,
+          59.785,
+          123
+        ]
+      },
+      "id": "aka2026gobfwm"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -452,42 +492,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1775208083754,
-        "updated": 1775216894388,
+        "mag": 4,
+        "place": "294 km SE of Attu Station, Alaska",
+        "time": 1775208080392,
+        "updated": 1775227923040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gnplmx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gnplmx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smbc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smbc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 1.301,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 259,
-        "net": "ak",
-        "code": "a2026gnplmx",
-        "ids": ",aka2026gnplmx,",
-        "sources": ",ak,",
+        "sig": 246,
+        "net": "us",
+        "code": "6000smbc",
+        "ids": ",aka2026gnplmx,us6000smbc,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 19,
-        "dmin": 2.1,
-        "rms": 0.4,
-        "gap": 338,
-        "magType": "ml",
+        "nst": 79,
+        "dmin": 2.193,
+        "rms": 0.69,
+        "gap": 230,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - Rat Islands, Aleutian Islands, Alaska"
+        "title": "M 4.0 - 294 km SE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.87,
-          50.718,
-          20
+          175.6573,
+          50.6837,
+          10
         ]
       },
-      "id": "aka2026gnplmx"
+      "id": "us6000smbc"
     },
     {
       "type": "Feature",
@@ -2095,7 +2135,7 @@
         "mag": 3.75,
         "place": "67 km N of Cruz Bay, U.S. Virgin Islands",
         "time": 1775159777510,
-        "updated": 1775162041301,
+        "updated": 1775228658040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026092003",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026092003.geojson",
@@ -2108,8 +2148,8 @@
         "sig": 216,
         "net": "pr",
         "code": "2026092003",
-        "ids": ",pr2026092003,",
-        "sources": ",pr,",
+        "ids": ",us6000sm6r,pr2026092003,",
+        "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": 0.5299,
@@ -2128,6 +2168,46 @@
         ]
       },
       "id": "pr2026092003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "West Chile Rise",
+        "time": 1775159532017,
+        "updated": 1775230156040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smcs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000smcs",
+        "ids": ",us6000smcs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 9.255,
+        "rms": 0.6,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - West Chile Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4039,
+          -41.6135,
+          10
+        ]
+      },
+      "id": "us6000smcs"
     },
     {
       "type": "Feature",
@@ -2408,286 +2488,6 @@
         ]
       },
       "id": "us6000sm5i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "81 km WSW of Nabire, Indonesia",
-        "time": 1775144196646,
-        "updated": 1775145310040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm43",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm43.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "6000sm43",
-        "ids": ",us6000sm43,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.722,
-        "rms": 0.56,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 81 km WSW of Nabire, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.8597,
-          -3.7097,
-          33.785
-        ]
-      },
-      "id": "us6000sm43"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "131 km E of Bitung, Indonesia",
-        "time": 1775144063732,
-        "updated": 1775145154040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm40",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm40.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000sm40",
-        "ids": ",us6000sm40,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 7.008,
-        "rms": 0.95,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 131 km E of Bitung, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.3035,
-          1.5322,
-          10
-        ]
-      },
-      "id": "us6000sm40"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.36,
-        "place": "105 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775143920990,
-        "updated": 1775148481040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 174,
-        "net": "pr",
-        "code": "71512568",
-        "ids": ",us6000sm2l,pr71512568,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.8956,
-        "rms": 0.36,
-        "gap": 267,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 105 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8611666666667,
-          19.2908333333333,
-          11.47
-        ]
-      },
-      "id": "pr71512568"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.42,
-        "place": "81 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1775143083880,
-        "updated": 1775154429040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512558",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512558.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 180,
-        "net": "pr",
-        "code": "71512558",
-        "ids": ",us6000sm5l,pr71512558,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.6578,
-        "rms": 0.46,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 81 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7463333333333,
-          19.0705,
-          93.47
-        ]
-      },
-      "id": "pr71512558"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "54 km W of Happy Valley, Alaska",
-        "time": 1775142862305,
-        "updated": 1775218391667,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gmfkal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gmfkal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026gmfkal",
-        "ids": ",us6000sm2d,aka2026gmfkal,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 162,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.699,
-          60.042,
-          117.8
-        ]
-      },
-      "id": "aka2026gmfkal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.19,
-        "place": "84 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775141693760,
-        "updated": 1775147040990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512553",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512553.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 157,
-        "net": "pr",
-        "code": "71512553",
-        "ids": ",pr71512553,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0.754,
-        "rms": 0.19,
-        "gap": 261,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.2 - 84 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9671666666667,
-          19.1023333333333,
-          20.65
-        ]
-      },
-      "id": "pr71512553"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "84 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1775141337874,
-        "updated": 1775143437040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm25",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm25.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "us",
-        "code": "6000sm25",
-        "ids": ",us6000sm25,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.786,
-        "rms": 0.38,
-        "gap": 215,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 84 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0467,
-          19.0981,
-          10
-        ]
-      },
-      "id": "us6000sm25"
     }
   ],
   "bbox": [
