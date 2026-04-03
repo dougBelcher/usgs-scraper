@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775234610000,
+    "generated": 1775237783000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 66
+    "count": 64
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 5.8,
         "place": "35 km S of Jurm, Afghanistan",
         "time": 1775232778037,
-        "updated": 1775234514890,
+        "updated": 1775237212854,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smda",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smda.geojson",
-        "felt": 6,
-        "cdi": 3.1,
+        "felt": 28,
+        "cdi": 4.1,
         "mmi": 3.478,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 519,
+        "sig": 529,
         "net": "us",
         "code": "6000smda",
         "ids": ",us6000smda,",
@@ -55,7 +55,7 @@
         "mag": 2.86,
         "place": "10 km NNE of Petrolia, CA",
         "time": 1775231179480,
-        "updated": 1775233673172,
+        "updated": 1775236642372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338232",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75338232.geojson",
@@ -68,8 +68,8 @@
         "sig": 127,
         "net": "nc",
         "code": "75338232",
-        "ids": ",nc75338232,",
-        "sources": ",nc,",
+        "ids": ",nc75338232,us6000smd7,",
+        "sources": ",nc,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 29,
         "dmin": 0.07159,
@@ -855,11 +855,11 @@
         "mag": 2.66,
         "place": "6 km SW of Gilroy, CA",
         "time": 1775202691550,
-        "updated": 1775227277842,
+        "updated": 1775235653722,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338097",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75338097.geojson",
-        "felt": 42,
+        "felt": 43,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -1175,7 +1175,7 @@
         "mag": 5.4,
         "place": "111 km WNW of Ternate, Indonesia",
         "time": 1775187436087,
-        "updated": 1775196052254,
+        "updated": 1775235432040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm9y",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm9y.geojson",
@@ -1190,7 +1190,7 @@
         "code": "6000sm9y",
         "ids": ",us6000sm9y,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 71,
         "dmin": 6.085,
         "rms": 1.03,
@@ -1252,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.96831934164542,
-        "place": "35 km SSW of Primo Tapia, B.C., MX",
-        "time": 1775185542380,
-        "updated": 1775187475040,
+        "mag": 2.98,
+        "place": "35 km W of El Sauzal, B.C., MX",
+        "time": 1775185542360,
+        "updated": 1775235259231,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431640",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41431640.geojson",
@@ -1263,28 +1263,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 136,
+        "sig": 137,
         "net": "ci",
         "code": "41431640",
         "ids": ",ci41431640,us6000sm9r,",
         "sources": ",ci,us,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.338,
-        "rms": 0.180000007,
+        "nst": 35,
+        "dmin": 0.3333,
+        "rms": 0.17,
         "gap": 213,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 35 km SSW of Primo Tapia, B.C., MX"
+        "title": "M 3.0 - 35 km W of El Sauzal, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.056167602539,
-          31.9286670684814,
-          16.4300003051758
+          -117.051833333333,
+          31.9256666666667,
+          18.68
         ]
       },
       "id": "ci41431640"
@@ -1368,46 +1368,6 @@
         ]
       },
       "id": "us6000sm9k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "17 km ESE of Lindsay, Texas",
-        "time": 1775183698146,
-        "updated": 1775185232377,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gnbyhu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gnbyhu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026gnbyhu",
-        "ids": ",tx2026gnbyhu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 17 km ESE of Lindsay, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.378,
-          31.284,
-          6.9544
-        ]
-      },
-      "id": "tx2026gnbyhu"
     },
     {
       "type": "Feature",
@@ -1655,7 +1615,7 @@
         "mag": 5.3,
         "place": "124 km WNW of Ternate, Indonesia",
         "time": 1775180653456,
-        "updated": 1775181639040,
+        "updated": 1775234899040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm8r",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm8r.geojson",
@@ -1670,7 +1630,7 @@
         "code": "6000sm8r",
         "ids": ",us6000sm8r,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 58,
         "dmin": 6.054,
         "rms": 0.94,
@@ -2608,46 +2568,6 @@
         ]
       },
       "id": "pr71512603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "9 km WNW of Limones, Panama",
-        "time": 1775149885365,
-        "updated": 1775231183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sm5q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sm5q.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000sm5q",
-        "ids": ",us6000sm5q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.166,
-        "rms": 0.54,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 9 km WNW of Limones, Panama"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.9484,
-          8.1269,
-          10
-        ]
-      },
-      "id": "us6000sm5q"
     }
   ],
   "bbox": [
