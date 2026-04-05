@@ -1,53 +1,93 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775378934000,
+    "generated": 1775382025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 52
+    "count": 49
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1775378129126,
-        "updated": 1775378709040,
+        "mag": 4.6,
+        "place": "171 km WSW of Adak, Alaska",
+        "time": 1775380778046,
+        "updated": 1775381637040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smsm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smsm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smsw.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
+        "mmi": 3.933,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 222,
+        "sig": 326,
         "net": "us",
-        "code": "6000smsm",
-        "ids": ",us6000smsm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.048,
-        "rms": 0.35,
-        "gap": 66,
-        "magType": "ml",
+        "code": "6000smsw",
+        "ids": ",us6000smsw,aka2026grgvax,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 54,
+        "dmin": 0.214,
+        "rms": 1.09,
+        "gap": 147,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.8 - 60 km S of Whites City, New Mexico"
+        "title": "M 4.6 - 171 km WSW of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.458,
-          31.6374,
-          8.618
+          -178.9699,
+          51.3635,
+          35
         ]
       },
-      "id": "us6000smsm"
+      "id": "us6000smsw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1775378129336,
+        "updated": 1775379352761,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026grfivz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026grfivz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.163,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "tx",
+        "code": "2026grfivz",
+        "ids": ",us6000smsm,tx2026grfivz,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.6 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.442,
+          31.642,
+          6.0999
+        ]
+      },
+      "id": "tx2026grfivz"
     },
     {
       "type": "Feature",
@@ -1928,173 +1968,13 @@
         ]
       },
       "id": "pr2026094000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1775295592975,
-        "updated": 1775330570639,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smis",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smis.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.857,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000smis",
-        "ids": ",aka2026gpluod,us6000smis,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 39,
-        "dmin": 0.342,
-        "rms": 0.88,
-        "gap": 186,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.7954,
-          51.2538,
-          40.707
-        ]
-      },
-      "id": "us6000smis"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.69,
-        "place": "4 km SSE of Redlands, CA",
-        "time": 1775294660960,
-        "updated": 1775341882889,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432376",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41432376.geojson",
-        "felt": 13,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "ci",
-        "code": "41432376",
-        "ids": ",ci41432376,us6000smil,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 136,
-        "dmin": 0.05239,
-        "rms": 0.19,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 4 km SSE of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.1725,
-          34.0195,
-          8.94
-        ]
-      },
-      "id": "ci41432376"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "31 km WNW of Cuya, Chile",
-        "time": 1775294555370,
-        "updated": 1775329904362,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smik",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smik.geojson",
-        "felt": 6,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 356,
-        "net": "us",
-        "code": "6000smik",
-        "ids": ",us6000smik,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.699,
-        "rms": 1.01,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 31 km WNW of Cuya, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.4612,
-          -19.0646,
-          56.045
-        ]
-      },
-      "id": "us6000smik"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "4 km SSE of Redlands, CA",
-        "time": 1775293676670,
-        "updated": 1775311886528,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432320",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41432320.geojson",
-        "felt": 28,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 127,
-        "net": "ci",
-        "code": "41432320",
-        "ids": ",ci41432320,us6000smii,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 138,
-        "dmin": 0.05178,
-        "rms": 0.19,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 4 km SSE of Redlands, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.172166666667,
-          34.0206666666667,
-          9.02
-        ]
-      },
-      "id": "ci41432320"
     }
   ],
   "bbox": [
-    -177.9766,
+    -178.9699,
     -33.8763,
     1.26,
-    178.7954,
+    153.6932,
     69.418,
     372.736
   ]
