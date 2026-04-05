@@ -1,36 +1,116 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775424905000,
+    "generated": 1775428462000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 44
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "124 km W of Ternate, Indonesia",
+        "time": 1775427482229,
+        "updated": 1775428392040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smxy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smxy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000smxy",
+        "ids": ",us6000smxy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 7.065,
+        "rms": 0.87,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 124 km W of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.264,
+          0.8638,
+          35
+        ]
+      },
+      "id": "us6000smxy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "3 km E of Pāhala, Hawaii",
+        "time": 1775425313536,
+        "updated": 1775428303855,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smxv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smxv.geojson",
+        "felt": 52,
+        "cdi": 3.4,
+        "mmi": 4.216,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 276,
+        "net": "us",
+        "code": "6000smxv",
+        "ids": ",us6000smxv,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 25,
+        "dmin": 0.055,
+        "rms": 0.23,
+        "gap": 125,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 3 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.446,
+          19.2088,
+          10
+        ]
+      },
+      "id": "us6000smxv"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.66,
         "place": "12 km SW of Ridgemark, CA",
         "time": 1775424300580,
-        "updated": 1775424738989,
+        "updated": 1775426798775,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339487",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339487.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 110,
         "net": "nc",
         "code": "75339487",
         "ids": ",nc75339487,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 75,
         "dmin": 0.02375,
         "rms": 0.17,
@@ -48,6 +128,46 @@
         ]
       },
       "id": "nc75339487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "1 km W of Santa Clara, Puerto Rico",
+        "time": 1775421205540,
+        "updated": 1775425015110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512993",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71512993.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 100,
+        "net": "pr",
+        "code": "71512993",
+        "ids": ",pr71512993,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1093,
+        "rms": 0.23,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km W of Santa Clara, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1466666666667,
+          18.2171666666667,
+          29.88
+        ]
+      },
+      "id": "pr71512993"
     },
     {
       "type": "Feature",
@@ -1688,86 +1808,6 @@
         ]
       },
       "id": "us6000smpb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Kermadec Islands region",
-        "time": 1775341880621,
-        "updated": 1775343025040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smp9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smp9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000smp9",
-        "ids": ",us6000smp9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 2.268,
-        "rms": 1.25,
-        "gap": 151,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9766,
-          -31.5203,
-          30.861
-        ]
-      },
-      "id": "us6000smp9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km NNW of Dotsero, Colorado",
-        "time": 1775340278745,
-        "updated": 1775350457040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smp0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smp0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000smp0",
-        "ids": ",us6000smp0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.454,
-        "rms": 1.04,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km NNW of Dotsero, Colorado"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.1344,
-          39.9222,
-          5
-        ]
-      },
-      "id": "us6000smp0"
     }
   ],
   "bbox": [
