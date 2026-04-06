@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775511561000,
+    "generated": 1775515104000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "3 km N of Stanton, Texas",
+        "time": 1775513157225,
+        "updated": 1775513848159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gubyfq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gubyfq.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "tx",
+        "code": "2026gubyfq",
+        "ids": ",tx2026gubyfq,",
+        "sources": ",tx,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 76,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km N of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.791,
+          32.164,
+          3.3835
+        ]
+      },
+      "id": "tx2026gubyfq"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.50592066186957,
         "place": "14 km N of Tecate, B.C., MX",
         "time": 1775509593200,
-        "updated": 1775511517853,
+        "updated": 1775514680123,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433912",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41433912.geojson",
-        "felt": 163,
+        "felt": 181,
         "cdi": 3.6,
         "mmi": 3.14,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 248,
+        "sig": 254,
         "net": "ci",
         "code": "41433912",
         "ids": ",ci41433912,us6000sn3w,",
@@ -55,17 +95,17 @@
         "mag": 4.3,
         "place": "14 km S of Atoka, New Mexico",
         "time": 1775505696598,
-        "updated": 1775511464670,
+        "updated": 1775514162924,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn3a",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn3a.geojson",
-        "felt": 152,
+        "felt": 159,
         "cdi": 5.1,
-        "mmi": 5.043,
+        "mmi": 4.634,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 362,
+        "sig": 366,
         "net": "us",
         "code": "6000sn3a",
         "ids": ",us6000sn3a,",
@@ -128,6 +168,86 @@
         ]
       },
       "id": "tx2026gtxety"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "87 km S of Sand Point, Alaska",
+        "time": 1775503979538,
+        "updated": 1775513125654,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gtwwkq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gtwwkq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.085,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "a2026gtwwkq",
+        "ids": ",aka2026gtwwkq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 36,
+        "dmin": 1.1,
+        "rms": 0.8,
+        "gap": 218,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 87 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.303,
+          54.56,
+          20
+        ]
+      },
+      "id": "aka2026gtwwkq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "72 km SE of Adak, Alaska",
+        "time": 1775502127142,
+        "updated": 1775513255986,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gtvupe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gtvupe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026gtvupe",
+        "ids": ",aka2026gtvupe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 237,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 72 km SE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.932,
+          51.391,
+          22.7
+        ]
+      },
+      "id": "aka2026gtvupe"
     },
     {
       "type": "Feature",
@@ -1568,86 +1688,6 @@
         ]
       },
       "id": "aka2026gshvek"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "126 km W of Ternate, Indonesia",
-        "time": 1775427482062,
-        "updated": 1775442265040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smxy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smxy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000smxy",
-        "ids": ",us6000smxy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 7.081,
-        "rms": 0.91,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 126 km W of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.2501,
-          0.8718,
-          35
-        ]
-      },
-      "id": "us6000smxy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.97,
-        "place": "3 km E of Pāhala, Hawaii",
-        "time": 1775425313570,
-        "updated": 1775504982290,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74931967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74931967.geojson",
-        "felt": 88,
-        "cdi": 3.4,
-        "mmi": 4.599,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 272,
-        "net": "hv",
-        "code": "74931967",
-        "ids": ",us6000smxv,hv74931967,",
-        "sources": ",us,hv,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 56,
-        "dmin": 0.04911,
-        "rms": 0.19,
-        "gap": 129,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 3 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.442166666667,
-          19.201,
-          8.11
-        ]
-      },
-      "id": "hv74931967"
     }
   ],
   "bbox": [
