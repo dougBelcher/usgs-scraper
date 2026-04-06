@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775466711000,
+    "generated": 1775473145000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 54
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "81 km SE of Boca de Yuma, Dominican Republic",
+        "time": 1775470010220,
+        "updated": 1775472685040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026096000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026096000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "pr",
+        "code": "2026096000",
+        "ids": ",us6000sn0x,pr2026096000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.6901,
+        "rms": 0.36,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.9 - 81 km SE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9856,
+          17.9486,
+          40
+        ]
+      },
+      "id": "pr2026096000"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -215,17 +255,17 @@
         "mag": 5.2,
         "place": "0 km S of Tabonok, Philippines",
         "time": 1775460162142,
-        "updated": 1775466149531,
+        "updated": 1775471158542,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sn00",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sn00.geojson",
-        "felt": 31,
-        "cdi": 4.6,
+        "felt": 33,
+        "cdi": 6.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 430,
+        "sig": 437,
         "net": "us",
         "code": "6000sn00",
         "ids": ",us6000sn00,",
@@ -488,46 +528,6 @@
         ]
       },
       "id": "us6000smzl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "111 km S of Unalaska, Alaska",
-        "time": 1775453152773,
-        "updated": 1775462680968,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gsuujr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gsuujr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026gsuujr",
-        "ids": ",aka2026gsuujr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.9,
-        "rms": 0.3,
-        "gap": 297,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 111 km S of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.767,
-          52.88,
-          18.7
-        ]
-      },
-      "id": "aka2026gsuujr"
     },
     {
       "type": "Feature",
@@ -1055,17 +1055,17 @@
         "mag": 3.94,
         "place": "4 km ENE of Pāhala, Hawaii",
         "time": 1775425313760,
-        "updated": 1775457695990,
+        "updated": 1775467321625,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74931967",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74931967.geojson",
-        "felt": 84,
+        "felt": 85,
         "cdi": 3.4,
         "mmi": 4.599,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 267,
+        "sig": 268,
         "net": "hv",
         "code": "74931967",
         "ids": ",us6000smxv,hv74931967,",
@@ -1895,7 +1895,7 @@
         "mag": 2.6,
         "place": "76 km S of Kaktovik, Alaska",
         "time": 1775393065380,
-        "updated": 1775393248606,
+        "updated": 1775472716040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026grnqbx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026grnqbx.geojson",
@@ -1908,8 +1908,8 @@
         "sig": 104,
         "net": "ak",
         "code": "a2026grnqbx",
-        "ids": ",aka2026grnqbx,",
-        "sources": ",ak,",
+        "ids": ",us6000smty,aka2026grnqbx,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 30,
         "dmin": 0.2,
@@ -2008,173 +2008,13 @@
         ]
       },
       "id": "aka2026grkled"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "59 km NNW of Rachel, Nevada",
-        "time": 1775383098243,
-        "updated": 1775390251040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913766",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00913766.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nn",
-        "code": "00913766",
-        "ids": ",us6000smt1,nn00913766,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.975,
-        "rms": 0.4208,
-        "gap": 163,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 59 km NNW of Rachel, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.9082,
-          38.1642,
-          6.3414
-        ]
-      },
-      "id": "nn00913766"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "22 km WNW of Mentone, Texas",
-        "time": 1775382959418,
-        "updated": 1775383744448,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026griaia",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026griaia.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2026griaia",
-        "ids": ",us6000smsz,tx2026griaia,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 22 km WNW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.83,
-          31.759,
-          7.5739
-        ]
-      },
-      "id": "tx2026griaia"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "171 km WSW of Adak, Alaska",
-        "time": 1775380778046,
-        "updated": 1775401303123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smsw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smsw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.925,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000smsw",
-        "ids": ",aka2026grgvax,us6000smsw,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": 0.214,
-        "rms": 1.09,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 171 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.9699,
-          51.3635,
-          35
-        ]
-      },
-      "id": "us6000smsw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "224 km ESE of Attu Station, Alaska",
-        "time": 1775380456614,
-        "updated": 1775400985972,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026grgqra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026grgqra.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.593,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "ak",
-        "code": "a2026grgqra",
-        "ids": ",aka2026grgqra,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": 1.4,
-        "rms": 1.2,
-        "gap": 279,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.1 - 224 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.227,
-          52.054,
-          20
-        ]
-      },
-      "id": "aka2026grgqra"
     }
   ],
   "bbox": [
-    -178.9699,
+    -178.5931,
     -32.0921,
     0,
-    176.227,
+    176.0886,
     69.448,
     535.661
   ]
