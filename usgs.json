@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775836523000,
+    "generated": 1775840126000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 41
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "28 km WSW of Pelican, Alaska",
+        "time": 1775839396670,
+        "updated": 1775840105851,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hbadrs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hbadrs.geojson",
+        "felt": 12,
+        "cdi": 3.1,
+        "mmi": 3.663,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 238,
+        "net": "ak",
+        "code": "a2026hbadrs",
+        "ids": ",aka2026hbadrs,us6000sp5m,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 129,
+        "dmin": 0.3,
+        "rms": 1.1,
+        "gap": 119,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 28 km WSW of Pelican, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.701,
+          57.9,
+          0.9
+        ]
+      },
+      "id": "aka2026hbadrs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "185 km SSE of Vilyuchinsk, Russia",
+        "time": 1775836267886,
+        "updated": 1775837842040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp5k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sp5k.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sp5k",
+        "ids": ",us6000sp5k,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.031,
+        "rms": 0.85,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 185 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.4863,
+          51.4026,
+          24.743
+        ]
+      },
+      "id": "us6000sp5k"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1608,53 +1688,13 @@
         ]
       },
       "id": "av94136918"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.87,
-        "place": "7 km W of Walker, CA",
-        "time": 1775751322040,
-        "updated": 1775786719093,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75341672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75341672.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "nc",
-        "code": "75341672",
-        "ids": ",nc75341672,nn00913917,",
-        "sources": ",nc,nn,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.09313,
-        "rms": 0.21,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 7 km W of Walker, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.55583190918,
-          38.5168342590332,
-          6.55000019073486
-        ]
-      },
-      "id": "nc75341672"
     }
   ],
   "bbox": [
     -178.501,
     -60.9923,
     -1.67,
-    157.3564,
+    159.4863,
     60.423,
     535.946
   ]
