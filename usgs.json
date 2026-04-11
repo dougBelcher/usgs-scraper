@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775883407000,
+    "generated": 1775887488000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 39
+    "count": 37
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 4.5,
         "place": "13 km NNE of Basmat, India",
         "time": 1775877324204,
-        "updated": 1775882673040,
+        "updated": 1775884888926,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp95",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sp95.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +30,7 @@
         "code": "6000sp95",
         "ids": ",us6000sp95,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 53,
         "dmin": 11.446,
         "rms": 0.72,
@@ -1488,86 +1488,6 @@
         ]
       },
       "id": "us6000snvx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "88 km SW of Nikolski, Alaska",
-        "time": 1775799646569,
-        "updated": 1775819256684,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026haeewj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026haeewj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026haeewj",
-        "ids": ",aka2026haeewj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 293,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 88 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.782,
-          52.375,
-          8.1
-        ]
-      },
-      "id": "aka2026haeewj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "98 km SSE of Sand Point, Alaska",
-        "time": 1775798604789,
-        "updated": 1775820149040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snwq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000snwq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000snwq",
-        "ids": ",aka2026hadpxp,us6000snwq,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 1.394,
-        "rms": 0.61,
-        "gap": 220,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 98 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.6492,
-          54.5983,
-          10
-        ]
-      },
-      "id": "us6000snwq"
     }
   ],
   "bbox": [
