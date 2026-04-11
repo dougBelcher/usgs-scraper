@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775928821000,
+    "generated": 1775933437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 34
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "50 km ESE of Knik River, Alaska",
+        "time": 1775931770548,
+        "updated": 1775931856967,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hczeiz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hczeiz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026hczeiz",
+        "ids": ",aka2026hczeiz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 50 km ESE of Knik River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.99,
+          61.373,
+          19.6
+        ]
+      },
+      "id": "aka2026hczeiz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.36,
+        "place": "28 km NW of Trinidad, CA",
+        "time": 1775931132890,
+        "updated": 1775933407687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342702",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75342702.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "nc",
+        "code": "75342702",
+        "ids": ",nc75342702,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.2697,
+        "rms": 0.24,
+        "gap": 181,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 28 km NW of Trinidad, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.35383605957,
+          41.2603340148926,
+          21.0100002288818
+        ]
+      },
+      "id": "nc75342702"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7600000000000002,
         "place": "13 km NW of Cliffdell, Washington",
         "time": 1775923159640,
-        "updated": 1775923822920,
+        "updated": 1775931076166,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62233047",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62233047.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "62233047",
         "ids": ",uw62233047,",
         "sources": ",uw,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 147,
         "dmin": 0.2258,
         "rms": 0.24,
@@ -1328,46 +1408,6 @@
         ]
       },
       "id": "us6000sp6d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "20 km SW of Jal, New Mexico",
-        "time": 1775847000540,
-        "updated": 1775854400736,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hbeiwv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hbeiwv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2026hbeiwv",
-        "ids": ",tx2026hbeiwv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 20 km SW of Jal, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.332,
-          31.966,
-          6.7151
-        ]
-      },
-      "id": "tx2026hbeiwv"
     }
   ],
   "bbox": [
