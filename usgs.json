@@ -1,25 +1,65 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776280845000,
+    "generated": 1776286401000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 26
+    "count": 24
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "61 km SSE of Boca de Yuma, Dominican Republic",
+        "time": 1776281506900,
+        "updated": 1776285336040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513733",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513733.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71513733",
+        "ids": ",us6000sqeg,pr71513733,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.199,
+        "rms": 0.44,
+        "gap": 345,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 61 km SSE of Boca de Yuma, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3611666666667,
+          17.874,
+          121.82
+        ]
+      },
+      "id": "pr71513733"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.35,
         "place": "19 km SE of Silver Springs, Nevada",
         "time": 1776274498969,
-        "updated": 1776276432914,
+        "updated": 1776281638040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914859",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914859.geojson",
-        "felt": 4,
+        "felt": 5,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -28,8 +68,8 @@
         "sig": 174,
         "net": "nn",
         "code": "00914859",
-        "ids": ",nn00914859,",
-        "sources": ",nn,",
+        "ids": ",nn00914859,us6000sqby,",
+        "sources": ",nn,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 31,
         "dmin": 0.053,
@@ -535,11 +575,11 @@
         "mag": 5.7,
         "place": "72 km SW of Tamarindo, Costa Rica",
         "time": 1776236162781,
-        "updated": 1776269342705,
+        "updated": 1776284153425,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sq5z",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sq5z.geojson",
-        "felt": 32,
+        "felt": 33,
         "cdi": 3.8,
         "mmi": 4.141,
         "alert": "green",
@@ -928,126 +968,6 @@
         ]
       },
       "id": "us6000sq30"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.14,
-        "place": "16 km SE of Silver Springs, Nevada",
-        "time": 1776199504142,
-        "updated": 1776249313819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914605",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914605.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 152,
-        "net": "nn",
-        "code": "00914605",
-        "ids": ",us6000sq2q,nn00914605,",
-        "sources": ",us,nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.362,
-        "rms": 0.1583,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 16 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0693,
-          39.3218,
-          10.9495
-        ]
-      },
-      "id": "nn00914605"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "33 km SW of Cooper Landing, Alaska",
-        "time": 1776198529819,
-        "updated": 1776199570040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hiqnok",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hiqnok.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026hiqnok",
-        "ids": ",aka2026hiqnok,us6000sq2m,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 82,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 33 km SW of Cooper Landing, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.175,
-          60.241,
-          29.4
-        ]
-      },
-      "id": "aka2026hiqnok"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "40 km SE of Londres, Argentina",
-        "time": 1776197179336,
-        "updated": 1776199283040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sq2b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sq2b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000sq2b",
-        "ids": ",us6000sq2b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 3.169,
-        "rms": 0.69,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 40 km SE of Londres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8501,
-          -27.9783,
-          225.884
-        ]
-      },
-      "id": "us6000sq2b"
     }
   ],
   "bbox": [
