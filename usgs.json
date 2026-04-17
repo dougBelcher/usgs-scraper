@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776441958000,
+    "generated": 1776448231000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 38
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "75 km SE of Akutan, Alaska",
+        "time": 1776443587722,
+        "updated": 1776444060040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqvn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqvn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.375,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000sqvn",
+        "ids": ",us6000sqvn,aka2026hnvxde,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 11,
+        "dmin": 0.723,
+        "rms": 0.78,
+        "gap": 213,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 75 km SE of Akutan, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.0106,
+          53.626,
+          10
+        ]
+      },
+      "id": "us6000sqvn"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,7 +175,7 @@
         "mag": 3.42281329293773,
         "place": "26 km WNW of Ludlow, CA",
         "time": 1776431022160,
-        "updated": 1776431660580,
+        "updated": 1776444614760,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443376",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41443376.geojson",
@@ -143,7 +183,7 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 180,
         "net": "ci",
@@ -335,12 +375,12 @@
         "mag": 2.7,
         "place": "29 km E of Beluga, Alaska",
         "time": 1776420233117,
-        "updated": 1776422004040,
+        "updated": 1776444771133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hnizrb",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hnizrb.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -348,9 +388,9 @@
         "sig": 112,
         "net": "ak",
         "code": "a2026hnizrb",
-        "ids": ",us6000sqra,aka2026hnizrb,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026hnizrb,us6000sqra,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 88,
         "dmin": 0.2,
         "rms": 0.8,
@@ -1095,7 +1135,7 @@
         "mag": 5.2,
         "place": "north of Ascension Island",
         "time": 1776371802256,
-        "updated": 1776372919040,
+        "updated": 1776446367040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqml",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqml.geojson",
@@ -1110,7 +1150,7 @@
         "code": "6000sqml",
         "ids": ",us6000sqml,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 79,
         "dmin": 14.377,
         "rms": 0.48,
@@ -1408,133 +1448,13 @@
         ]
       },
       "id": "us6000sqli"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Volcano Islands, Japan region",
-        "time": 1776359957054,
-        "updated": 1776361356040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqla.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000sqla",
-        "ids": ",us6000sqla,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 10.914,
-        "rms": 0.95,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.079,
-          23.9928,
-          10
-        ]
-      },
-      "id": "us6000sqla"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "237 km ESE of Attu Station, Alaska",
-        "time": 1776359606675,
-        "updated": 1776383313677,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hmbngd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hmbngd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.701,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "a2026hmbngd",
-        "ids": ",aka2026hmbngd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 14,
-        "dmin": 1.4,
-        "rms": 0.6,
-        "gap": 220,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 237 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.195,
-          51.766,
-          20
-        ]
-      },
-      "id": "aka2026hmbngd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "268 km W of Puerto Chacabuco, Chile",
-        "time": 1776358312781,
-        "updated": 1776361722040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqk6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqk6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000sqk6",
-        "ids": ",us6000sqk6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 2.019,
-        "rms": 0.92,
-        "gap": 188,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 268 km W of Puerto Chacabuco, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.2235,
-          -45.8129,
-          10
-        ]
-      },
-      "id": "us6000sqk6"
     }
   ],
   "bbox": [
     -179.9118,
-    -45.8129,
+    -32.3197,
     0.43000000715256,
-    176.195,
+    156.5459,
     62.298,
     550.454
   ]
