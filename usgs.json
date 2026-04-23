@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776965055000,
+    "generated": 1776971684000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 34
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "282 km W of Ferndale, California",
+        "time": 1776969759644,
+        "updated": 1776970544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sse5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sse5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "us",
+        "code": "6000sse5",
+        "ids": ",us6000sse5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.662,
+        "rms": 0.97,
+        "gap": 269,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 282 km W of Ferndale, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.602,
+          40.6326,
+          10
+        ]
+      },
+      "id": "us6000sse5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "1 km NW of Cooter, Missouri",
+        "time": 1776967144200,
+        "updated": 1776971497492,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60620376",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60620376.geojson",
+        "felt": 595,
+        "cdi": 4.3,
+        "mmi": 4.129,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 502,
+        "net": "nm",
+        "code": "60620376",
+        "ids": ",nm60620376,us6000sscm,",
+        "sources": ",nm,us,",
+        "types": ",dyfi,event-sequence,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 62,
+        "dmin": 0.0647,
+        "rms": 0.15,
+        "gap": 37,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.0 - 1 km NW of Cooter, Missouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8255,
+          36.0553333333333,
+          11.81
+        ]
+      },
+      "id": "nm60620376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "south of the Kermadec Islands",
+        "time": 1776966373559,
+        "updated": 1776969783040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ssci",
+        "ids": ",us6000ssci,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 3.459,
+        "rms": 0.78,
+        "gap": 232,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1302,
+          -34.7876,
+          10
+        ]
+      },
+      "id": "us6000ssci"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -92,6 +212,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.6,
+        "place": "22 km S of Denali National Park, Alaska",
+        "time": 1776957295617,
+        "updated": 1776970530406,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hytrcw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hytrcw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026hytrcw",
+        "ids": ",aka2026hytrcw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 86,
+        "dmin": 0.2,
+        "rms": 1.4,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 22 km S of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.768,
+          63.34,
+          7.2
+        ]
+      },
+      "id": "aka2026hytrcw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.14,
         "place": "3 km ESE of San Juan, Puerto Rico",
         "time": 1776956128580,
@@ -132,20 +292,100 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "34 km SSW of La Libertad, El Salvador",
-        "time": 1776953366046,
-        "updated": 1776958851100,
+        "mag": 4.5,
+        "place": "3 km S of Kemigawa, Japan",
+        "time": 1776955997030,
+        "updated": 1776968454742,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssak",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssak.geojson",
-        "felt": 5,
-        "cdi": 3.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sscv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sscv.geojson",
+        "felt": 3,
+        "cdi": 2.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 356,
+        "sig": 312,
+        "net": "us",
+        "code": "6000sscv",
+        "ids": ",us6000sscv,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 1.762,
+        "rms": 0.71,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 3 km S of Kemigawa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0662,
+          35.6218,
+          80.188
+        ]
+      },
+      "id": "us6000sscv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "90 km S of Sand Point, Alaska",
+        "time": 1776953731675,
+        "updated": 1776970253665,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hyrsaa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hyrsaa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026hyrsaa",
+        "ids": ",aka2026hyrsaa,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 1.1,
+        "rms": 0.5,
+        "gap": 271,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 90 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.317,
+          54.527,
+          2.6
+        ]
+      },
+      "id": "aka2026hyrsaa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "34 km SSW of La Libertad, El Salvador",
+        "time": 1776953366046,
+        "updated": 1776967096641,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssak",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssak.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 357,
         "net": "us",
         "code": "6000ssak",
         "ids": ",us6000ssak,",
@@ -173,49 +413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "74 km E of Ugashik, Alaska",
-        "time": 1776951336867,
-        "updated": 1776951454477,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hyqjkn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hyqjkn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "a2026hyqjkn",
-        "ids": ",aka2026hyqjkn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 151,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 74 km E of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.163,
-          57.615,
-          1.1
-        ]
-      },
-      "id": "aka2026hyqjkn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "36 km SSW of Skwentna, Alaska",
-        "time": 1776949277601,
-        "updated": 1776952708040,
+        "place": "38 km S of Skwentna, Alaska",
+        "time": 1776949277493,
+        "updated": 1776970078474,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hypfvn",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hypfvn.geojson",
@@ -223,7 +423,7 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "ak",
@@ -231,20 +431,20 @@
         "ids": ",aka2026hypfvn,us6000ssa7,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 110,
+        "nst": 111,
         "dmin": 0.2,
-        "rms": 1.1,
+        "rms": 0.8,
         "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 36 km SSW of Skwentna, Alaska"
+        "title": "M 2.7 - 38 km S of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.549,
-          61.673,
-          80.6
+          -151.47,
+          61.643,
+          80.8
         ]
       },
       "id": "aka2026hypfvn"
@@ -292,10 +492,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.56,
-        "place": "15 km SE of Silver Springs, Nevada",
-        "time": 1776946022693,
-        "updated": 1776946152991,
+        "mag": 2.61,
+        "place": "16 km SE of Silver Springs, Nevada",
+        "time": 1776946023408,
+        "updated": 1776968185060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916247",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916247.geojson",
@@ -303,31 +503,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 101,
+        "sig": 105,
         "net": "nn",
         "code": "00916247",
         "ids": ",nn00916247,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.075,
-        "rms": 0.2561,
-        "gap": 69,
+        "nst": 22,
+        "dmin": 0.069,
+        "rms": 0.1534,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 15 km SE of Silver Springs, Nevada"
+        "title": "M 2.6 - 16 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.098,
-          39.3119,
-          10.9075
+          -119.1041,
+          39.2999,
+          8.2712
         ]
       },
       "id": "nn00916247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "53 km WNW of Nikiski, Alaska",
+        "time": 1776938917116,
+        "updated": 1776968645697,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hyjnbe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hyjnbe.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026hyjnbe",
+        "ids": ",aka2026hyjnbe,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.3,
+        "rms": 1,
+        "gap": 32,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 53 km WNW of Nikiski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.165,
+          60.911,
+          10
+        ]
+      },
+      "id": "aka2026hyjnbe"
     },
     {
       "type": "Feature",
@@ -414,8 +654,8 @@
       "properties": {
         "mag": 2.6,
         "place": "114 km SSW of Kaktovik, Alaska",
-        "time": 1776932643931,
-        "updated": 1776932791554,
+        "time": 1776932643975,
+        "updated": 1776968322550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hygazj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hygazj.geojson",
@@ -423,7 +663,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "ak",
@@ -431,10 +671,10 @@
         "ids": ",aka2026hygazj,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 25,
+        "nst": 32,
         "dmin": 0.6,
-        "rms": 0.7,
-        "gap": 88,
+        "rms": 0.9,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 2.6 - 114 km SSW of Kaktovik, Alaska"
@@ -442,9 +682,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.725,
-          69.184,
-          5
+          -144.738,
+          69.178,
+          1.9
         ]
       },
       "id": "aka2026hygazj"
@@ -455,11 +695,11 @@
         "mag": 4.2,
         "place": "8 km NNE of Old Harbor, Alaska",
         "time": 1776928375378,
-        "updated": 1776957860676,
+        "updated": 1776970239129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hydrzg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hydrzg.geojson",
-        "felt": 35,
+        "felt": 36,
         "cdi": 3.8,
         "mmi": 3.528,
         "alert": null,
@@ -1088,294 +1328,14 @@
         ]
       },
       "id": "aka2026hxgfyu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "106 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1776884561410,
-        "updated": 1776887044220,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514438",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71514438.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 147,
-        "net": "pr",
-        "code": "71514438",
-        "ids": ",pr71514438,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.7095,
-        "rms": 0.23,
-        "gap": 318,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 106 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.3745,
-          19.203,
-          40.95
-        ]
-      },
-      "id": "pr71514438"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "282 km SSW of Jimbaran, Indonesia",
-        "time": 1776881700002,
-        "updated": 1776889464040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss58",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ss58.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000ss58",
-        "ids": ",us6000ss58,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 2.524,
-        "rms": 1.12,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 282 km SSW of Jimbaran, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.8493,
-          -10.9927,
-          10
-        ]
-      },
-      "id": "us6000ss58"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "45 km E of Noda, Japan",
-        "time": 1776879997429,
-        "updated": 1776889037040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss57",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ss57.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000ss57",
-        "ids": ",us6000ss57,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 1.193,
-        "rms": 1.03,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 45 km E of Noda, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.3557,
-          40.1155,
-          35
-        ]
-      },
-      "id": "us6000ss57"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "194 km S of False Pass, Alaska",
-        "time": 1776879650474,
-        "updated": 1776894400319,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hxcune",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hxcune.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026hxcune",
-        "ids": ",aka2026hxcune,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 1.6,
-        "rms": 0.7,
-        "gap": 270,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 194 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.044,
-          53.121,
-          10
-        ]
-      },
-      "id": "aka2026hxcune"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.45,
-        "place": "16 km SSW of Fairmead, CA",
-        "time": 1776879622520,
-        "updated": 1776885138504,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349667",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75349667.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "nc",
-        "code": "75349667",
-        "ids": ",nc75349667,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.2843,
-        "rms": 0.26,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 16 km SSW of Fairmead, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.27766418457,
-          36.9486656188965,
-          11.3199996948242
-        ]
-      },
-      "id": "nc75349667"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.81,
-        "place": "19 km SE of Silver Springs, Nevada",
-        "time": 1776879290749,
-        "updated": 1776884802995,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916063.geojson",
-        "felt": 8,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 123,
-        "net": "nn",
-        "code": "00916063",
-        "ids": ",nn00916063,us6000ss4q,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.044,
-        "rms": 0.1582,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 19 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0851,
-          39.2785,
-          6.9694
-        ]
-      },
-      "id": "nn00916063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.59,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1776879019314,
-        "updated": 1776897604364,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916056",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916056.geojson",
-        "felt": 3,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00916056",
-        "ids": ",nn00916056,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.049,
-        "rms": 0.2774,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 18 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.091,
-          39.2817,
-          9.6873
-        ]
-      },
-      "id": "nn00916056"
     }
   ],
   "bbox": [
-    -177.314,
+    -179.1302,
     -57.1,
     0.97,
     159.842,
-    69.184,
+    69.178,
     363.396
   ]
 }
