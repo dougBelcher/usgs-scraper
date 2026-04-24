@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777067418000,
+    "generated": 1777070445000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 57
+    "count": 55
   },
   "features": [
     {
@@ -15,12 +15,12 @@
         "mag": 2.7,
         "place": "61 km S of Whites City, New Mexico",
         "time": 1777065634690,
-        "updated": 1777065966138,
+        "updated": 1777067837143,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ibbmrq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ibbmrq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "2026ibbmrq",
         "ids": ",tx2026ibbmrq,",
         "sources": ",tx,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 39,
         "dmin": 0,
         "rms": 0.5,
@@ -95,7 +95,7 @@
         "mag": 3.96,
         "place": "66 km W of Petrolia, CA",
         "time": 1777058995580,
-        "updated": 1777066490733,
+        "updated": 1777068721713,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75350872",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75350872.geojson",
@@ -108,8 +108,8 @@
         "sig": 246,
         "net": "nc",
         "code": "75350872",
-        "ids": ",nc75350872,",
-        "sources": ",nc,",
+        "ids": ",nc75350872,us6000ssnv,",
+        "sources": ",nc,us,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
         "nst": 119,
         "dmin": 0.5561,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "nc75350872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "291 km WNW of Longyearbyen, Svalbard and Jan Mayen",
+        "time": 1777056684722,
+        "updated": 1777067445040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssni",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssni.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000ssni",
+        "ids": ",us6000ssni,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 91,
+        "dmin": 1.681,
+        "rms": 0.97,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 291 km WNW of Longyearbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2618,
+          79.2093,
+          10
+        ]
+      },
+      "id": "us6000ssni"
     },
     {
       "type": "Feature",
@@ -1692,42 +1732,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "78 km SSE of Nikolski, Alaska",
-        "time": 1776998726790,
-        "updated": 1777011686110,
+        "mag": 4.1,
+        "place": "89 km SSE of Nikolski, Alaska",
+        "time": 1776998724761,
+        "updated": 1777068883040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzqnxg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzqnxg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sshu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": 2.199,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "a2026hzqnxg",
-        "ids": ",aka2026hzqnxg,",
-        "sources": ",ak,",
+        "sig": 259,
+        "net": "us",
+        "code": "6000sshu",
+        "ids": ",aka2026hzqnxg,us6000sshu,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": 97,
-        "dmin": 0.7,
-        "rms": 1.2,
-        "gap": 216,
-        "magType": "ml",
+        "nst": 68,
+        "dmin": 0.835,
+        "rms": 0.86,
+        "gap": 179,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 78 km SSE of Nikolski, Alaska"
+        "title": "M 4.1 - 89 km SSE of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.511,
-          52.266,
-          19.9
+          -168.5029,
+          52.1661,
+          22.082
         ]
       },
-      "id": "aka2026hzqnxg"
+      "id": "us6000sshu"
     },
     {
       "type": "Feature",
@@ -2015,7 +2055,7 @@
         "mag": 2.9,
         "place": "63 km S of Cantwell, Alaska",
         "time": 1776990525233,
-        "updated": 1777010859422,
+        "updated": 1777068060040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzmafq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzmafq.geojson",
@@ -2028,8 +2068,8 @@
         "sig": 129,
         "net": "ak",
         "code": "a2026hzmafq",
-        "ids": ",aka2026hzmafq,",
-        "sources": ",ak,",
+        "ids": ",us6000ssgn,aka2026hzmafq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 132,
         "dmin": 0.1,
@@ -2168,126 +2208,6 @@
         ]
       },
       "id": "us6000ssga"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "51 km SE of Sand Point, Alaska",
-        "time": 1776983699439,
-        "updated": 1777066757040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssgi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "us",
-        "code": "6000ssgi",
-        "ids": ",aka2026hzigeo,us6000ssgi,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.996,
-        "rms": 0.51,
-        "gap": 227,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 51 km SE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.8309,
-          55.0731,
-          6.33
-        ]
-      },
-      "id": "us6000ssgi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "138 km SE of Akutan, Alaska",
-        "time": 1776983028871,
-        "updated": 1777067272040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssgh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000ssgh",
-        "ids": ",aka2026hzhwnf,us6000ssgh,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.199,
-        "rms": 0.58,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 138 km SE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.2215,
-          53.2945,
-          35
-        ]
-      },
-      "id": "us6000ssgh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "275 km ENE of Lospalos, Timor Leste",
-        "time": 1776982404099,
-        "updated": 1776983915040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssfy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssfy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000ssfy",
-        "ids": ",us6000ssfy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 2.77,
-        "rms": 1.01,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 275 km ENE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.1163,
-          -7.1972,
-          141.055
-        ]
-      },
-      "id": "us6000ssfy"
     }
   ],
   "bbox": [
@@ -2295,7 +2215,7 @@
     -34.7235,
     0.46999999880791,
     168.9718,
-    66.639,
+    79.2093,
     264.403
   ]
 }
