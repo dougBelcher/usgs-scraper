@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777063939000,
+    "generated": 1777067418000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 55
+    "count": 57
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "61 km S of Whites City, New Mexico",
+        "time": 1777065634690,
+        "updated": 1777065966138,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ibbmrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ibbmrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2026ibbmrq",
+        "ids": ",tx2026ibbmrq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 61 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.445,
+          31.622,
+          3.9946
+        ]
+      },
+      "id": "tx2026ibbmrq"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,11 +95,11 @@
         "mag": 3.96,
         "place": "66 km W of Petrolia, CA",
         "time": 1777058995580,
-        "updated": 1777062138928,
+        "updated": 1777066490733,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75350872",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75350872.geojson",
-        "felt": 13,
+        "felt": 15,
         "cdi": 3.4,
         "mmi": 2.584,
         "alert": null,
@@ -93,9 +133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1777054956449,
-        "updated": 1777057166040,
+        "place": "Kermadec Islands region",
+        "time": 1777054952743,
+        "updated": 1777066751040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssn7",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssn7.geojson",
@@ -111,23 +151,63 @@
         "ids": ",us6000ssn7,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 1.639,
-        "rms": 2.23,
-        "gap": 119,
+        "nst": 107,
+        "dmin": 1.813,
+        "rms": 0.62,
+        "gap": 69,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - Kermadec Islands, New Zealand"
+        "title": "M 4.9 - Kermadec Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.3194,
-          -30.8541,
-          136.214
+          -178.3309,
+          -31.0308,
+          89.759
         ]
       },
       "id": "us6000ssn7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "155 km NE of Lospalos, Timor Leste",
+        "time": 1777050932493,
+        "updated": 1777064552040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssmy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssmy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000ssmy",
+        "ids": ",us6000ssmy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 3.538,
+        "rms": 0.91,
+        "gap": 53,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 155 km NE of Lospalos, Timor Leste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.988,
+          -7.523,
+          187.062
+        ]
+      },
+      "id": "us6000ssmy"
     },
     {
       "type": "Feature",
@@ -1655,7 +1735,7 @@
         "mag": 2.9,
         "place": "54 km SSE of Kokhanok, Alaska",
         "time": 1776998084775,
-        "updated": 1777012038520,
+        "updated": 1777065965040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzqeqf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzqeqf.geojson",
@@ -1668,8 +1748,8 @@
         "sig": 129,
         "net": "ak",
         "code": "a2026hzqeqf",
-        "ids": ",aka2026hzqeqf,",
-        "sources": ",ak,",
+        "ids": ",us6000ssh1,aka2026hzqeqf,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 139,
         "dmin": 0.4,
@@ -1732,42 +1812,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "109 km E of Nikolski, Alaska",
-        "time": 1776996999700,
-        "updated": 1777011996679,
+        "mag": 2.6,
+        "place": "94 km E of Nikolski, Alaska",
+        "time": 1776997001084,
+        "updated": 1777064199040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzppfy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzppfy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sshy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026hzppfy",
-        "ids": ",aka2026hzppfy,",
-        "sources": ",ak,",
+        "sig": 104,
+        "net": "us",
+        "code": "6000sshy",
+        "ids": ",aka2026hzppfy,us6000sshy,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.7,
-        "rms": 0.6,
-        "gap": 240,
+        "nst": 14,
+        "dmin": 0.655,
+        "rms": 0.48,
+        "gap": 238,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 109 km E of Nikolski, Alaska"
+        "title": "M 2.6 - 94 km E of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -167.242,
-          52.809,
-          7.4
+          -167.4664,
+          52.8146,
+          27.435
         ]
       },
-      "id": "aka2026hzppfy"
+      "id": "us6000sshy"
     },
     {
       "type": "Feature",
@@ -2092,53 +2172,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
+        "mag": 2.7,
         "place": "51 km SE of Sand Point, Alaska",
-        "time": 1776983699402,
-        "updated": 1776988547834,
+        "time": 1776983699439,
+        "updated": 1777066757040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzigeo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzigeo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssgi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026hzigeo",
-        "ids": ",aka2026hzigeo,",
-        "sources": ",ak,",
+        "sig": 112,
+        "net": "us",
+        "code": "6000ssgi",
+        "ids": ",aka2026hzigeo,us6000ssgi,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1,
-        "rms": 0.7,
-        "gap": 230,
+        "nst": 17,
+        "dmin": 0.996,
+        "rms": 0.51,
+        "gap": 227,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 51 km SE of Sand Point, Alaska"
+        "title": "M 2.7 - 51 km SE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.834,
-          55.071,
-          6.8
+          -159.8309,
+          55.0731,
+          6.33
         ]
       },
-      "id": "aka2026hzigeo"
+      "id": "us6000ssgi"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 3,
         "place": "138 km SE of Akutan, Alaska",
-        "time": 1776983028546,
-        "updated": 1776988522845,
+        "time": 1776983028871,
+        "updated": 1777067272040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hzhwnf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hzhwnf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssgh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -2146,14 +2226,14 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 138,
-        "net": "ak",
-        "code": "a2026hzhwnf",
-        "ids": ",aka2026hzhwnf,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "6000ssgh",
+        "ids": ",aka2026hzhwnf,us6000ssgh,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.2,
-        "rms": 0.7,
+        "nst": 25,
+        "dmin": 1.199,
+        "rms": 0.58,
         "gap": 221,
         "magType": "ml",
         "type": "earthquake",
@@ -2162,12 +2242,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -164.224,
-          53.302,
-          28.4
+          -164.2215,
+          53.2945,
+          35
         ]
       },
-      "id": "aka2026hzhwnf"
+      "id": "us6000ssgh"
     },
     {
       "type": "Feature",
