@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777153127000,
+    "generated": 1777156737000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.3.0",
-    "count": 49
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "10 km NNE of Ivanof Bay, Alaska",
+        "time": 1777155366879,
+        "updated": 1777155521576,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026iczbrx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026iczbrx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026iczbrx",
+        "ids": ",aka2026iczbrx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 177,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km NNE of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.449,
+          55.994,
+          108.6
+        ]
+      },
+      "id": "aka2026iczbrx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "108 km ENE of Miyako, Japan",
+        "time": 1777149692778,
+        "updated": 1777154496040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssvu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000ssvu",
+        "ids": ",us6000ssvu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 1.835,
+        "rms": 0.69,
+        "gap": 98,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - 108 km ENE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1612,
+          39.8948,
+          35
+        ]
+      },
+      "id": "us6000ssvu"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
         "place": "82 km SSW of Paracas, Peru",
         "time": 1777148079279,
-        "updated": 1777148909040,
+        "updated": 1777154895380,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ssvq.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 2,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -30,7 +110,7 @@
         "code": "6000ssvq",
         "ids": ",us6000ssvq,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 51,
         "dmin": 2.594,
         "rms": 0.66,
@@ -1928,46 +2008,6 @@
         ]
       },
       "id": "ci41233935"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "215 km NNW of Kilmia, Yemen",
-        "time": 1777067265247,
-        "updated": 1777083005040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sspm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sspm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000sspm",
-        "ids": ",us6000sspm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 7.069,
-        "rms": 0.94,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 215 km NNW of Kilmia, Yemen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.6612,
-          14.0519,
-          10
-        ]
-      },
-      "id": "us6000sspm"
     }
   ],
   "bbox": [
