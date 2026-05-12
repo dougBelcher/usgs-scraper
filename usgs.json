@@ -1,26 +1,106 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778571739000,
+    "generated": 1778581975000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 41
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "1 km WSW of Pāhala, Hawaii",
+        "time": 1778578092000,
+        "updated": 1778581908040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74958142",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74958142.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "hv",
+        "code": "74958142",
+        "ids": ",us6000sx3z,hv74958142,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 0.04939,
+        "rms": 0.129999995,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 1 km WSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.493499755859,
+          19.1989994049072,
+          31.3099994659424
+        ]
+      },
+      "id": "hv74958142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "224 km SE of Pondaguitan, Philippines",
+        "time": 1778576036666,
+        "updated": 1778577162040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3v.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000sx3v",
+        "ids": ",us6000sx3v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 78,
+        "dmin": 2.938,
+        "rms": 0.68,
+        "gap": 47,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 224 km SE of Pondaguitan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5121,
+          4.8333,
+          108.574
+        ]
+      },
+      "id": "us6000sx3v"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
         "place": "40 km WNW of Nikiski, Alaska",
         "time": 1778571500754,
-        "updated": 1778571606335,
+        "updated": 1778578208362,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jiodvh",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jiodvh.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -28,9 +108,9 @@
         "sig": 112,
         "net": "ak",
         "code": "a2026jiodvh",
-        "ids": ",aka2026jiodvh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026jiodvh,us6000sx3p,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 75,
         "dmin": 0.3,
         "rms": 0.7,
@@ -52,20 +132,60 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "79 km S of Hualien City, Taiwan",
-        "time": 1778568812598,
-        "updated": 1778571362893,
+        "mag": 4.3,
+        "place": "136 km N of Lae, Papua New Guinea",
+        "time": 1778571028658,
+        "updated": 1778571980040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3h.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3n.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 284,
+        "net": "us",
+        "code": "6000sx3n",
+        "ids": ",us6000sx3n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 3.441,
+        "rms": 0.56,
+        "gap": 102,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 136 km N of Lae, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.0788,
+          -5.4953,
+          207.173
+        ]
+      },
+      "id": "us6000sx3n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "79 km S of Hualien City, Taiwan",
+        "time": 1778568812598,
+        "updated": 1778577592598,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3h.geojson",
+        "felt": 3,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
         "net": "us",
         "code": "6000sx3h",
         "ids": ",us6000sx3h,",
@@ -1328,326 +1448,6 @@
         ]
       },
       "id": "nc75358746"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.79,
-        "place": "18 km SSE of Silver Springs, Nevada",
-        "time": 1778495527400,
-        "updated": 1778517034276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918360",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918360.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 120,
-        "net": "nn",
-        "code": "00918360",
-        "ids": ",nn00918360,us6000swvw,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.056,
-        "rms": 0.0764,
-        "gap": 84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 18 km SSE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1062,
-          39.2744,
-          8.2404
-        ]
-      },
-      "id": "nn00918360"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.89,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1778495373368,
-        "updated": 1778520186884,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918355",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918355.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "nn",
-        "code": "00918355",
-        "ids": ",nn00918355,us6000swvs,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.053,
-        "rms": 0.1568,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 18 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1003,
-          39.2777,
-          8.7057
-        ]
-      },
-      "id": "nn00918355"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "72 km NW of Malango, Solomon Islands",
-        "time": 1778492931604,
-        "updated": 1778522315040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swvm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swvm.geojson",
-        "felt": 4,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "6000swvm",
-        "ids": ",us6000swvm,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.759,
-        "rms": 0.6,
-        "gap": 49,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 72 km NW of Malango, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.1915,
-          -9.2967,
-          10
-        ]
-      },
-      "id": "us6000swvm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.52,
-        "place": "4 km S of Brawley, CA",
-        "time": 1778490806720,
-        "updated": 1778504327600,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463760",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463760.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "ci",
-        "code": "41463760",
-        "ids": ",ci41463760,us6000swvj,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.04897,
-        "rms": 0.28,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km S of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.5375,
-          32.9465,
-          14.18
-        ]
-      },
-      "id": "ci41463760"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "163 km SW of Nikolski, Alaska",
-        "time": 1778489017318,
-        "updated": 1778526856770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jguhtd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jguhtd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.445,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 222,
-        "net": "ak",
-        "code": "a2026jguhtd",
-        "ids": ",aka2026jguhtd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 38,
-        "dmin": 0.9,
-        "rms": 0.8,
-        "gap": 213,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.8 - 163 km SW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -170.827,
-          52.088,
-          17.7
-        ]
-      },
-      "id": "aka2026jguhtd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "22 km SSE of Redway, CA",
-        "time": 1778488815570,
-        "updated": 1778494645365,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "75358671",
-        "ids": ",nc75358671,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.09274,
-        "rms": 0.15,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 22 km SSE of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.710502624512,
-          39.945499420166,
-          3.11999988555908
-        ]
-      },
-      "id": "nc75358671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "232 km SE of Chiniak, Alaska",
-        "time": 1778488195224,
-        "updated": 1778490792040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swvd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000swvd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000swvd",
-        "ids": ",us6000swvd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 2.322,
-        "rms": 0.62,
-        "gap": 223,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 232 km SE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.2093,
-          56.3721,
-          10
-        ]
-      },
-      "id": "us6000swvd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "22 km SSE of Redway, CA",
-        "time": 1778487598120,
-        "updated": 1778492241070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358661",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358661.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "75358661",
-        "ids": ",nc75358661,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.09214,
-        "rms": 0.15,
-        "gap": 47,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 22 km SSE of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.710502624512,
-          39.9436683654785,
-          3.14000010490417
-        ]
-      },
-      "id": "nc75358661"
     }
   ],
   "bbox": [
@@ -1656,6 +1456,6 @@
     1.6900000572205,
     161.21,
     60.869,
-    94.4
+    207.173
   ]
 }
