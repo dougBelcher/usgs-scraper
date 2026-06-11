@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781212926000,
+    "generated": 1781220246000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.4.0",
-    "count": 42
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "68 km NNW of Isangel, Vanuatu",
+        "time": 1781213567364,
+        "updated": 1781214544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssct",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssct.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000ssct",
+        "ids": ",us7000ssct,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 3.929,
+        "rms": 0.97,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 68 km NNW of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.0532,
+          -18.9647,
+          168.418
+        ]
+      },
+      "id": "us7000ssct"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -412,10 +452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.06,
-        "place": "3 km NNW of Volcano, Hawaii",
+        "mag": 2.71,
+        "place": "2 km NNW of Volcano, Hawaii",
         "time": 1781184837960,
-        "updated": 1781199586040,
+        "updated": 1781213331777,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74979597",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74979597.geojson",
@@ -423,28 +463,28 @@
         "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 144,
+        "sig": 113,
         "net": "hv",
         "code": "74979597",
         "ids": ",hv74979597,us7000ss8h,",
         "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.03049,
-        "rms": 0.140000001,
-        "gap": 46,
-        "magType": "md",
+        "nst": 51,
+        "dmin": 0.02723,
+        "rms": 0.13,
+        "gap": 49,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 3 km NNW of Volcano, Hawaii"
+        "title": "M 2.7 - 2 km NNW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.244338989258,
-          19.4688339233398,
-          27.6800003051758
+          -155.246833333333,
+          19.4645,
+          28.26
         ]
       },
       "id": "hv74979597"
@@ -655,13 +695,13 @@
         "mag": 3.6,
         "place": "73 km SSE of Adak, Alaska",
         "time": 1781177827676,
-        "updated": 1781212905219,
+        "updated": 1781212961917,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lmgtyx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lmgtyx.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 2.816,
+        "mmi": 2.574,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
@@ -728,6 +768,46 @@
         ]
       },
       "id": "aka2026lmgdhb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "60 km SW of Nikolski, Alaska",
+        "time": 1781176227392,
+        "updated": 1781213412763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lmfwuw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lmfwuw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.615,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "a2026lmfwuw",
+        "ids": ",aka2026lmfwuw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 33,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 205,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 60 km SW of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.588,
+          52.614,
+          17.8
+        ]
+      },
+      "id": "aka2026lmfwuw"
     },
     {
       "type": "Feature",
@@ -1212,6 +1292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.5,
+        "place": "226 km WSW of Adak, Alaska",
+        "time": 1781153159333,
+        "updated": 1781218562537,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lltbno",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lltbno.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026lltbno",
+        "ids": ",aka2026lltbno,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6,
+        "rms": 0.5,
+        "gap": 202,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 226 km WSW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.776,
+          51.325,
+          10.1
+        ]
+      },
+      "id": "aka2026lltbno"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "212 km SE of Ust’-Kamchatsk Staryy, Russia",
         "time": 1781153078172,
@@ -1691,10 +1811,10 @@
     }
   ],
   "bbox": [
-    -179.7115,
+    -179.776,
     -27.8358,
     0.1,
-    165.3069,
+    169.0532,
     64.82,
     540.532
   ]
