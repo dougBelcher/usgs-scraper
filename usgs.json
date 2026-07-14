@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784066353000,
+    "generated": 1784070300000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 42
+    "count": 43
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Fiji region",
+        "time": 1784069412020,
+        "updated": 1784070236040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0hk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0hk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000t0hk",
+        "ids": ",us7000t0hk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 4.412,
+        "rms": 0.95,
+        "gap": 88,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.5092,
+          -20.748,
+          574.304
+        ]
+      },
+      "id": "us7000t0hk"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.4,
         "place": "90 km SSE of False Pass, Alaska",
         "time": 1784055067308,
-        "updated": 1784064224451,
+        "updated": 1784070080326,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0fu",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0fu.geojson",
@@ -215,17 +255,17 @@
         "mag": 6.2,
         "place": "34 km WSW of Sarangani, Philippines",
         "time": 1784044181603,
-        "updated": 1784064357854,
+        "updated": 1784070228375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t0d0.geojson",
-        "felt": 49,
+        "felt": 52,
         "cdi": 5.9,
         "mmi": 5.594,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 620,
+        "sig": 622,
         "net": "us",
         "code": "7000t0d0",
         "ids": ",us7000t0d0,",
@@ -1532,6 +1572,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.8,
+        "place": "222 km SE of Chiniak, Alaska",
+        "time": 1783991821505,
+        "updated": 1784070208817,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nukruw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nukruw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026nukruw",
+        "ids": ",aka2026nukruw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 2.2,
+        "rms": 0.6,
+        "gap": 239,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 222 km SE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.225,
+          56.509,
+          20
+        ]
+      },
+      "id": "aka2026nukruw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.52,
         "place": "15 km SE of Fern Forest, Hawaii",
         "time": 1783991270750,
@@ -1648,54 +1728,14 @@
         ]
       },
       "id": "aka2026nugnky"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "Greenland Sea",
-        "time": 1783980050419,
-        "updated": 1783985807040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t06z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t06z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000t06z",
-        "ids": ",us7000t06z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 4.934,
-        "rms": 0.58,
-        "gap": 112,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - Greenland Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8819,
-          73.7141,
-          10
-        ]
-      },
-      "id": "us7000t06z"
     }
   ],
   "bbox": [
-    -166.4764,
+    -178.5092,
     -22.7425,
     -2.85,
     171.4439,
-    73.7141,
-    211.576
+    61.972,
+    574.304
   ]
 }
