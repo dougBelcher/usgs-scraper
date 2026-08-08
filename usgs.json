@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786210270000,
+    "generated": 1786214359000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 55
+    "count": 56
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "45 km ESE of Pedro Bay, Alaska",
+        "time": 1786212112979,
+        "updated": 1786213584040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppwwng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ppwwng.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.411,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026ppwwng",
+        "ids": ",us6000tjak,aka2026ppwwng,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 121,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 45 km ESE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.319,
+          59.701,
+          134.7
+        ]
+      },
+      "id": "aka2026ppwwng"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "42 km E of Noda, Japan",
+        "time": 1786211878745,
+        "updated": 1786214288236,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjaj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjaj.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": 3.964,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 483,
+        "net": "us",
+        "code": "6000tjaj",
+        "ids": ",us6000tjaj,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 118,
+        "dmin": 1.133,
+        "rms": 0.56,
+        "gap": 96,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - 42 km E of Noda, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3107,
+          40.1723,
+          34
+        ]
+      },
+      "id": "us6000tjaj"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1375,11 +1455,11 @@
         "mag": 5.6,
         "place": "57 km WNW of Skwentna, Alaska",
         "time": 1786164634985,
-        "updated": 1786208449302,
+        "updated": 1786212733531,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026powmkf.geojson",
-        "felt": 1116,
+        "felt": 1121,
         "cdi": 5.4,
         "mmi": 5.879,
         "alert": null,
@@ -1775,11 +1855,11 @@
         "mag": 2.86,
         "place": "6 km NNW of Saratoga Springs, Utah",
         "time": 1786146923160,
-        "updated": 1786204913779,
+        "updated": 1786212594955,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147521",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80147521.geojson",
-        "felt": 541,
+        "felt": 542,
         "cdi": 4.2,
         "mmi": null,
         "alert": null,
@@ -2168,54 +2248,14 @@
         ]
       },
       "id": "us6000tj22"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "south of the Fiji Islands",
-        "time": 1786123888251,
-        "updated": 1786125894040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj19",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tj19.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000tj19",
-        "ids": ",us6000tj19,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 4.877,
-        "rms": 0.55,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.5783,
-          -24.8863,
-          504.597
-        ]
-      },
-      "id": "us6000tj19"
     }
   ],
   "bbox": [
     -176.5487,
     -41.4826,
     0.4,
-    179.5783,
+    176.2863,
     66.5967,
-    504.597
+    198.985
   ]
 }
