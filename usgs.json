@@ -1,21 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786271771000,
+    "generated": 1786275043000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "62 km NNE of Kiana, Alaska",
+        "time": 1786271864986,
+        "updated": 1786272022005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026precdn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026precdn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026precdn",
+        "ids": ",aka2026precdn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.2,
+        "rms": 1.3,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 62 km NNE of Kiana, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.035,
+          67.513,
+          6
+        ]
+      },
+      "id": "aka2026precdn"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.3,
         "place": "56 km NW of Skwentna, Alaska",
         "time": 1786269226277,
-        "updated": 1786269306293,
+        "updated": 1786272050040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026prcpvq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026prcpvq.geojson",
@@ -28,8 +68,8 @@
         "sig": 168,
         "net": "ak",
         "code": "a2026prcpvq",
-        "ids": ",aka2026prcpvq,",
-        "sources": ",ak,",
+        "ids": ",us6000tjdz,aka2026prcpvq,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 56,
         "dmin": 0.6,
@@ -255,17 +295,17 @@
         "mag": 2.5,
         "place": "11 km SSW of Lompoc, CA",
         "time": 1786252344350,
-        "updated": 1786259311893,
+        "updated": 1786274019300,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669138",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669138.geojson",
-        "felt": 24,
+        "felt": 25,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 105,
         "net": "ci",
         "code": "40669138",
         "ids": ",ci40669138,",
@@ -1768,86 +1808,6 @@
         ]
       },
       "id": "us6000tj8t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "238 km SE of Attu Station, Alaska",
-        "time": 1786187253857,
-        "updated": 1786208596445,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppjazs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ppjazs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026ppjazs",
-        "ids": ",aka2026ppjazs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.6,
-        "rms": 1.4,
-        "gap": 217,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 238 km SE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.062,
-          51.636,
-          20
-        ]
-      },
-      "id": "aka2026ppjazs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Vanuatu region",
-        "time": 1786186566170,
-        "updated": 1786192486040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tj8n.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tj8n",
-        "ids": ",us6000tj8n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 4.997,
-        "rms": 0.7,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Vanuatu region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.8279,
-          -17.3821,
-          10
-        ]
-      },
-      "id": "us6000tj8n"
     }
   ],
   "bbox": [
