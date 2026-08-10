@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786367567000,
+    "generated": 1786373945000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 52
+    "count": 53
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "9 km SE of Pinnacles, CA",
+        "time": 1786373586700,
+        "updated": 1786373816530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415182",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415182.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "nc",
+        "code": "75415182",
+        "ids": ",nc75415182,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.1104,
+        "rms": 0.19,
+        "gap": 37,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 9 km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.069999694824,
+          36.4706649780273,
+          8.13000011444092
+        ]
+      },
+      "id": "nc75415182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "16 km W of San José del Palmar, Colombia",
+        "time": 1786367890451,
+        "updated": 1786373460864,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjm4.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000tjm4",
+        "ids": ",us6000tjm4,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 115,
+        "dmin": 1.542,
+        "rms": 1.03,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 16 km W of San José del Palmar, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3859,
+          4.8971,
+          98.522
+        ]
+      },
+      "id": "us6000tjm4"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,38 +133,38 @@
       "type": "Feature",
       "properties": {
         "mag": 7.4,
-        "place": "5 km E of San José del Palmar, Colombia",
-        "time": 1786365267787,
-        "updated": 1786367557502,
+        "place": "5 km S of San José del Palmar, Colombia",
+        "time": 1786365268125,
+        "updated": 1786373706112,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjl2.geojson",
-        "felt": 138,
-        "cdi": 7.6,
-        "mmi": 6.95,
-        "alert": "pending",
+        "felt": 673,
+        "cdi": 7.9,
+        "mmi": 6.891,
+        "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 947,
+        "sig": 1532,
         "net": "us",
         "code": "6000tjl2",
         "ids": ",us6000tjl2,attjk09g,pt26222000,",
         "sources": ",us,at,pt,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 81,
-        "dmin": 1.438,
-        "rms": 1.31,
-        "gap": 85,
+        "types": ",dyfi,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 151,
+        "dmin": 1.515,
+        "rms": 0.86,
+        "gap": 19,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 7.4 - 5 km E of San José del Palmar, Colombia"
+        "title": "M 7.4 - 5 km S of San José del Palmar, Colombia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.1885,
-          4.9031,
-          107.029
+          -76.2422,
+          4.8436,
+          110.285
         ]
       },
       "id": "us6000tjl2"
@@ -215,12 +295,12 @@
         "mag": 2.78,
         "place": "42 km NW of San Antonio, Puerto Rico",
         "time": 1786351627160,
-        "updated": 1786357935750,
+        "updated": 1786370002438,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71527983",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71527983.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -230,7 +310,7 @@
         "code": "71527983",
         "ids": ",pr71527983,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 10,
         "dmin": 0.3924,
         "rms": 0.17,
@@ -372,10 +452,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.4,
+        "place": "43 km ESE of Naalehu, Hawaii",
+        "time": 1786342945919,
+        "updated": 1786370420040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjjs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "6000tjjs",
+        "ids": ",us6000tjjs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.365,
+        "rms": 0.27,
+        "gap": 272,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 43 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2318,
+          18.8608,
+          35
+        ]
+      },
+      "id": "us6000tjjs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.79,
         "place": "17 km SE of Pāhala, Hawaii",
         "time": 1786342903780,
-        "updated": 1786348550130,
+        "updated": 1786368272040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017036",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017036.geojson",
@@ -388,8 +508,8 @@
         "sig": 120,
         "net": "hv",
         "code": "75017036",
-        "ids": ",hv75017036,",
-        "sources": ",hv,",
+        "ids": ",us6000tjjr,hv75017036,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 55,
         "dmin": 0.1104,
@@ -415,7 +535,7 @@
         "mag": 2.65,
         "place": "46 km ESE of Naalehu, Hawaii",
         "time": 1786342562540,
-        "updated": 1786342769740,
+        "updated": 1786370169040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017031",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017031.geojson",
@@ -428,8 +548,8 @@
         "sig": 108,
         "net": "hv",
         "code": "75017031",
-        "ids": ",hv75017031,",
-        "sources": ",hv,",
+        "ids": ",us6000tjjq,hv75017031,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
         "nst": 37,
         "dmin": 0.3913,
@@ -655,7 +775,7 @@
         "mag": 3,
         "place": "45 km SE of Naalehu, Hawaii",
         "time": 1786338786080,
-        "updated": 1786339822083,
+        "updated": 1786370078040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017001",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017001.geojson",
@@ -668,8 +788,8 @@
         "sig": 139,
         "net": "hv",
         "code": "75017001",
-        "ids": ",hv75017001,",
-        "sources": ",hv,",
+        "ids": ",hv75017001,us6000tjjc,",
+        "sources": ",hv,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 46,
         "dmin": 0.4053,
@@ -688,6 +808,46 @@
         ]
       },
       "id": "hv75017001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "36 km WSW of Campo Acosta, Mexico",
+        "time": 1786331779561,
+        "updated": 1786372870104,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjm0.geojson",
+        "felt": 5,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 235,
+        "net": "us",
+        "code": "6000tjm0",
+        "ids": ",us6000tjm0,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 41,
+        "dmin": 4.108,
+        "rms": 0.84,
+        "gap": 219,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.9 - 36 km WSW of Campo Acosta, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5861,
+          19.6906,
+          10
+        ]
+      },
+      "id": "us6000tjm0"
     },
     {
       "type": "Feature",
@@ -1968,133 +2128,13 @@
         ]
       },
       "id": "us6000tjfj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "1 km W of Pāhala, Hawaii",
-        "time": 1786285822310,
-        "updated": 1786333686650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015462",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75015462.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "hv",
-        "code": "75015462",
-        "ids": ",us6000tjfd,hv75015462,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.04271,
-        "rms": 0.12,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 1 km W of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494333333333,
-          19.2056666666667,
-          30.76
-        ]
-      },
-      "id": "hv75015462"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "68 km SSE of Sarangani, Philippines",
-        "time": 1786283226146,
-        "updated": 1786284188040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjfb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tjfb",
-        "ids": ",us6000tjfb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.242,
-        "rms": 1.22,
-        "gap": 110,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 68 km SSE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.6593,
-          4.814,
-          162.836
-        ]
-      },
-      "id": "us6000tjfb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "time": 1786281398709,
-        "updated": 1786301330803,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026prjjpy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026prjjpy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026prjjpy",
-        "ids": ",aka2026prjjpy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5,
-        "rms": 1.3,
-        "gap": 279,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - Rat Islands, Aleutian Islands, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          178.806,
-          50.94,
-          14.4
-        ]
-      },
-      "id": "aka2026prjjpy"
     }
   ],
   "bbox": [
     -179.8704,
     -37.4038,
     1.9900000095367,
-    178.806,
+    177.8305,
     70.0316,
     655.67
   ]
