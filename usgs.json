@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786633083000,
+    "generated": 1786637006000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 37
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.84,
+        "place": "4 km N of San Leandro, CA",
+        "time": 1786635004660,
+        "updated": 1786636943333,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75417557.geojson",
+        "felt": 5914,
+        "cdi": 3.8,
+        "mmi": 4.318,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 607,
+        "net": "nc",
+        "code": "75417557",
+        "ids": ",ew1786635000,nc75417557,us6000tkhf,",
+        "sources": ",ew,nc,us,",
+        "types": ",dyfi,focal-mechanism,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 102,
+        "dmin": 0.02987,
+        "rms": 0.12,
+        "gap": 28,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.8 - 4 km N of San Leandro, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.151168823242,
+          37.7591667175293,
+          5.15000009536743
+        ]
+      },
+      "id": "nc75417557"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,12 +135,12 @@
         "mag": 2.56,
         "place": "16 km NE of Milford, Utah",
         "time": 1786618646460,
-        "updated": 1786627632481,
+        "updated": 1786636862499,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148601",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80148601.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": 2.954,
         "alert": null,
         "status": "reviewed",
@@ -110,7 +150,7 @@
         "code": "80148601",
         "ids": ",uu80148601,",
         "sources": ",uu,",
-        "types": ",origin,phase-data,shakemap,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
         "nst": 34,
         "dmin": 0.003944,
         "rms": 0.16,
@@ -172,10 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
+        "mag": 2.63,
         "place": "28 km SSW of Ocotillo Wells, CA",
         "time": 1786613478030,
-        "updated": 1786614114310,
+        "updated": 1786635224060,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671666",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40671666.geojson",
@@ -183,28 +223,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 98,
+        "sig": 106,
         "net": "ci",
         "code": "40671666",
         "ids": ",ci40671666,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 91,
-        "dmin": 0.146,
-        "rms": 0.22,
+        "nst": 86,
+        "dmin": 0.1475,
+        "rms": 0.21,
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 28 km SSW of Ocotillo Wells, CA"
+        "title": "M 2.6 - 28 km SSW of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.251166666667,
-          32.914,
-          5.61
+          -116.249666666667,
+          32.913,
+          7.82
         ]
       },
       "id": "ci40671666"
@@ -1095,7 +1135,7 @@
         "mag": 2.63,
         "place": "9 km SW of Valencia, CA",
         "time": 1786568189310,
-        "updated": 1786631981905,
+        "updated": 1786633832040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671466",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40671466.geojson",
@@ -1108,8 +1148,8 @@
         "sig": 145,
         "net": "ci",
         "code": "40671466",
-        "ids": ",ci40671466,",
-        "sources": ",ci,",
+        "ids": ",ci40671466,us6000tkap,",
+        "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 91,
         "dmin": 0.04246,
@@ -1368,126 +1408,6 @@
         ]
       },
       "id": "us6000tkak"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "107 km S of Unalaska, Alaska",
-        "time": 1786547731570,
-        "updated": 1786567223275,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxbkla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxbkla.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026pxbkla",
-        "ids": ",aka2026pxbkla,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.9,
-        "rms": 0.4,
-        "gap": 228,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 107 km S of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.754,
-          52.915,
-          22.7
-        ]
-      },
-      "id": "aka2026pxbkla"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.04,
-        "place": "52 km N of Hatillo, Puerto Rico",
-        "time": 1786547497860,
-        "updated": 1786553791670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528298.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 142,
-        "net": "pr",
-        "code": "71528298",
-        "ids": ",pr71528298,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5383,
-        "rms": 0.21,
-        "gap": 293,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 52 km N of Hatillo, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8641666666667,
-          18.9548333333333,
-          35.12
-        ]
-      },
-      "id": "pr71528298"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "8 km NNE of Kodiak Station, Alaska",
-        "time": 1786547496546,
-        "updated": 1786575657221,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxbhdx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxbhdx.geojson",
-        "felt": 74,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 167,
-        "net": "ak",
-        "code": "a2026pxbhdx",
-        "ids": ",aka2026pxbhdx,us6000tk7y,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 72,
-        "dmin": 0.7,
-        "rms": 0.8,
-        "gap": 152,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 8 km NNE of Kodiak Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.539,
-          57.839,
-          5
-        ]
-      },
-      "id": "aka2026pxbhdx"
     }
   ],
   "bbox": [
