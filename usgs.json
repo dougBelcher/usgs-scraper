@@ -1,21 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786609306000,
+    "generated": 1786615710000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 39
+    "count": 40
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 2.53,
+        "place": "28 km SSW of Ocotillo Wells, CA",
+        "time": 1786613478030,
+        "updated": 1786614114310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671666",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40671666.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "ci",
+        "code": "40671666",
+        "ids": ",ci40671666,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 91,
+        "dmin": 0.146,
+        "rms": 0.22,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km SSW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.251166666667,
+          32.914,
+          5.61
+        ]
+      },
+      "id": "ci40671666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "22 km ENE of Lapuan, Philippines",
+        "time": 1786612978999,
+        "updated": 1786615614464,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkfh.geojson",
+        "felt": 5,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 402,
+        "net": "us",
+        "code": "6000tkfh",
+        "ids": ",us6000tkfh,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.869,
+        "rms": 0.99,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 22 km ENE of Lapuan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8789,
+          6.2479,
+          91.206
+        ]
+      },
+      "id": "us6000tkfh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.9,
-        "place": "36 km WSW of Mentone, Texas",
-        "time": 1786609061609,
-        "updated": 1786609288127,
+        "place": "35 km WSW of Mentone, Texas",
+        "time": 1786609062181,
+        "updated": 1786610537112,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pvveaq",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pvveaq.geojson",
@@ -23,28 +103,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 129,
         "net": "tx",
         "code": "2026pvveaq",
-        "ids": ",tx2026pvveaq,",
-        "sources": ",tx,",
+        "ids": ",us6000tkei,tx2026pvveaq,",
+        "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 24,
         "dmin": 0,
         "rms": 0.3,
-        "gap": 44,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 36 km WSW of Mentone, Texas"
+        "title": "M 2.9 - 35 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.97,
-          31.615,
-          8.2531
+          -103.962,
+          31.612,
+          8.5095
         ]
       },
       "id": "tx2026pvveaq"
@@ -55,7 +135,7 @@
         "mag": 3,
         "place": "131 km SW of Yakutat, Alaska",
         "time": 1786605653817,
-        "updated": 1786605771687,
+        "updated": 1786612249040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pyhpqg",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pyhpqg.geojson",
@@ -68,8 +148,8 @@
         "sig": 138,
         "net": "ak",
         "code": "a2026pyhpqg",
-        "ids": ",aka2026pyhpqg,",
-        "sources": ",ak,",
+        "ids": ",us6000tkec,aka2026pyhpqg,",
+        "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": 49,
         "dmin": 1.2,
@@ -92,10 +172,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "222 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1786604964608,
+        "updated": 1786611998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkeb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkeb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tkeb",
+        "ids": ",us6000tkeb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 4.618,
+        "rms": 0.7,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 222 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.3646,
+          48.738,
+          35
+        ]
+      },
+      "id": "us6000tkeb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.6,
         "place": "21 km W of Garden City, Texas",
-        "time": 1786602625884,
-        "updated": 1786602963040,
+        "time": 1786602625846,
+        "updated": 1786614733486,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pvrppd",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pvrppd.geojson",
@@ -103,7 +223,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
         "net": "tx",
@@ -111,9 +231,9 @@
         "ids": ",us6000tke5,tx2026pvrppd,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 98,
+        "nst": 102,
         "dmin": 0,
-        "rms": 0.5,
+        "rms": 0.2,
         "gap": 55,
         "magType": "ml",
         "type": "earthquake",
@@ -122,9 +242,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.703,
-          31.852,
-          2.8548
+          -101.71,
+          31.845,
+          8.374
         ]
       },
       "id": "tx2026pvrppd"
@@ -1488,86 +1608,6 @@
         ]
       },
       "id": "us6000tk6n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "67 km W of Petrolia, CA",
-        "time": 1786524260980,
-        "updated": 1786525639747,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75416622.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "75416622",
-        "ids": ",nc75416622,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.5611,
-        "rms": 0.08,
-        "gap": 309,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 67 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.073333740234,
-          40.3400001525879,
-          5.69000005722046
-        ]
-      },
-      "id": "nc75416622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "14 km SSE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1786523962130,
-        "updated": 1786530870770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528233",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528233.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "pr",
-        "code": "71528233",
-        "ids": ",pr71528233,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.2343,
-        "rms": 0.13,
-        "gap": 232,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km SSE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.765,
-          18.204,
-          13.99
-        ]
-      },
-      "id": "pr71528233"
     }
   ],
   "bbox": [
