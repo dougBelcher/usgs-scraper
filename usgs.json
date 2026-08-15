@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786807321000,
+    "generated": 1786811195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 74
+    "count": 76
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "123 km NNE of Kobuk, Alaska",
+        "time": 1786810858861,
+        "updated": 1786810992151,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qcrrax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qcrrax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026qcrrax",
+        "ids": ",aka2026qcrrax,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.1,
+        "rms": 1.1,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 123 km NNE of Kobuk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.649,
+          67.908,
+          5
+        ]
+      },
+      "id": "aka2026qcrrax"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -2055,22 +2095,22 @@
         "mag": 5.2,
         "place": "1 km SW of Otura, Spain",
         "time": 1786748680797,
-        "updated": 1786805806075,
+        "updated": 1786808422752,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkv2.geojson",
-        "felt": 113,
+        "felt": 114,
         "cdi": 6.7,
-        "mmi": null,
-        "alert": null,
+        "mmi": 6.969,
+        "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 492,
+        "sig": 726,
         "net": "us",
         "code": "6000tkv2",
         "ids": ",us6000tkv2,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
         "nst": 43,
         "dmin": 2.523,
         "rms": 0.97,
@@ -2088,6 +2128,86 @@
         ]
       },
       "id": "us6000tkv2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "53 km NE of Ruteng, Indonesia",
+        "time": 1786748403603,
+        "updated": 1786807848040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tl1g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tl1g",
+        "ids": ",us6000tl1g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.426,
+        "rms": 1.12,
+        "gap": 61,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 53 km NE of Ruteng, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.829,
+          -8.2899,
+          11.296
+        ]
+      },
+      "id": "us6000tl1g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "55 km NE of Labuan Bajo, Indonesia",
+        "time": 1786748352662,
+        "updated": 1786808562040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkv1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000tkv1",
+        "ids": ",us6000tkv1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 3.149,
+        "rms": 1,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 55 km NE of Labuan Bajo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2424,
+          -8.146,
+          10
+        ]
+      },
+      "id": "us6000tkv1"
     },
     {
       "type": "Feature",
@@ -2928,54 +3048,14 @@
         ]
       },
       "id": "aka2026qawjgu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "89 km SSE of Sand Point, Alaska",
-        "time": 1786724047165,
-        "updated": 1786746177996,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qavkmj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qavkmj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026qavkmj",
-        "ids": ",aka2026qavkmj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.2,
-        "rms": 0.8,
-        "gap": 212,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 89 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -160.088,
-          54.569,
-          0
-        ]
-      },
-      "id": "aka2026qavkmj"
     }
   ],
   "bbox": [
     -177.9262,
     -62.9125,
-    0,
+    2.6900000572205,
     178.794,
-    62.254,
+    67.908,
     544.691
   ]
 }
