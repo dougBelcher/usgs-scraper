@@ -1,31 +1,71 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787128757000,
+    "generated": 1787132102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 63
+    "count": 60
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "114 km E of Hihifo, Tonga",
+        "time": 1787130439758,
+        "updated": 1787131967040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tluh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000tluh",
+        "ids": ",us6000tluh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 2.197,
+        "rms": 1.38,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 114 km E of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.7309,
+          -15.9165,
+          10
+        ]
+      },
+      "id": "us6000tluh"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.470163576829,
         "place": "14 km N of Warner Springs, CA",
         "time": 1787124695970,
-        "updated": 1787128465396,
+        "updated": 1787130890852,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41529896.geojson",
-        "felt": 141,
+        "felt": 142,
         "cdi": 3.4,
         "mmi": 3.442,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 233,
+        "sig": 234,
         "net": "ci",
         "code": "41529896",
         "ids": ",ci41529896,",
@@ -95,7 +135,7 @@
         "mag": 3,
         "place": "20 km NW of Susitna, Alaska",
         "time": 1787121119063,
-        "updated": 1787121794146,
+        "updated": 1787131940040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjicgs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjicgs.geojson",
@@ -108,8 +148,8 @@
         "sig": 139,
         "net": "ak",
         "code": "a2026qjicgs",
-        "ids": ",aka2026qjicgs,",
-        "sources": ",ak,",
+        "ids": ",aka2026qjicgs,us6000tlu4,",
+        "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 65,
         "dmin": 0.6,
@@ -132,42 +172,42 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "20 km ESE of Okanagan Falls, Canada",
-        "time": 1787120270080,
-        "updated": 1787123158587,
+        "mag": 2.9,
+        "place": "18 km ENE of Okanagan Falls, Canada",
+        "time": 1787120266804,
+        "updated": 1787131807330,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714082101",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714082101.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tltz.geojson",
         "felt": 21,
-        "cdi": 2.7,
+        "cdi": 3.4,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 154,
-        "net": "uw",
-        "code": "714082101",
-        "ids": ",uw714082101,",
-        "sources": ",uw,",
+        "sig": 137,
+        "net": "us",
+        "code": "6000tltz",
+        "ids": ",uw714082101,us6000tltz,",
+        "sources": ",uw,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2204,
-        "rms": 0.18,
-        "gap": 194,
+        "nst": 45,
+        "dmin": 0.705,
+        "rms": 1.02,
+        "gap": 159,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 20 km ESE of Okanagan Falls, Canada"
+        "title": "M 2.9 - 18 km ENE of Okanagan Falls, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.289333333333,
-          49.3073333333333,
-          11.17
+          -119.342,
+          49.4239,
+          10
         ]
       },
-      "id": "uw714082101"
+      "id": "us6000tltz"
     },
     {
       "type": "Feature",
@@ -2368,171 +2408,11 @@
         ]
       },
       "id": "aka2026qhtscl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "5 km ENE of Escúzar, Spain",
-        "time": 1787045677659,
-        "updated": 1787047941378,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlmc.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tlmc",
-        "ids": ",us6000tlmc,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 33,
-        "dmin": 2.504,
-        "rms": 0.58,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 5 km ENE of Escúzar, Spain"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.7084,
-          37.0875,
-          10
-        ]
-      },
-      "id": "us6000tlmc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "89 km SE of King Cove, Alaska",
-        "time": 1787043885332,
-        "updated": 1787050813040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlma",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlma.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000tlma",
-        "ids": ",aka2026qhrekz,us6000tlma,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.773,
-        "rms": 0.6,
-        "gap": 189,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 89 km SE of King Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -161.5087,
-          54.4067,
-          35
-        ]
-      },
-      "id": "us6000tlma"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1787043755424,
-        "updated": 1787048490040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlm6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000tlm6",
-        "ids": ",us6000tlm6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 4.541,
-        "rms": 0.66,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.1264,
-          -24.7429,
-          130.03
-        ]
-      },
-      "id": "us6000tlm6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "74 km N of Ruteng, Indonesia",
-        "time": 1787043699508,
-        "updated": 1787045964040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tlm3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000tlm3",
-        "ids": ",us6000tlm3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.987,
-        "rms": 0.59,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 74 km N of Ruteng, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4656,
-          -7.9353,
-          33.11
-        ]
-      },
-      "id": "us6000tlm3"
     }
   ],
   "bbox": [
     -179.857,
-    -24.7429,
+    -20.0951,
     0.69999998807907,
     178.268,
     63.203,
