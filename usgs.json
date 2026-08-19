@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787153553000,
+    "generated": 1787157206000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 47
+    "count": 49
   },
   "features": [
     {
@@ -95,12 +95,12 @@
         "mag": 2.9,
         "place": "57 km WNW of Skwentna, Alaska",
         "time": 1787148206254,
-        "updated": 1787150265040,
+        "updated": 1787154505108,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjxeat",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjxeat.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -108,9 +108,9 @@
         "sig": 129,
         "net": "ak",
         "code": "a2026qjxeat",
-        "ids": ",us6000tlvg,aka2026qjxeat,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
+        "ids": ",aka2026qjxeat,us6000tlvg,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 38,
         "dmin": 0.7,
         "rms": 0.6,
@@ -168,6 +168,46 @@
         ]
       },
       "id": "pr71529003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "time": 1787141561182,
+        "updated": 1787156388197,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjtlsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjtlsw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.198,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "ak",
+        "code": "a2026qjtlsw",
+        "ids": ",aka2026qjtlsw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 40,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 210,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - Rat Islands, Aleutian Islands, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.968,
+          51.393,
+          28.2
+        ]
+      },
+      "id": "aka2026qjtlsw"
     },
     {
       "type": "Feature",
@@ -335,17 +375,17 @@
         "mag": 4.4,
         "place": "20 km WNW of San Bartolo, Peru",
         "time": 1787135285035,
-        "updated": 1787153098460,
+        "updated": 1787157013332,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tluz.geojson",
-        "felt": 9,
-        "cdi": 2.8,
+        "felt": 11,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 300,
+        "sig": 302,
         "net": "us",
         "code": "6000tluz",
         "ids": ",us6000tluz,",
@@ -452,20 +492,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.1,
+        "place": "138 km SW of Adak, Alaska",
+        "time": 1787127756584,
+        "updated": 1787156202911,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjlumy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjlumy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.432,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "ak",
+        "code": "a2026qjlumy",
+        "ids": ",aka2026qjlumy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 46,
+        "dmin": 0.5,
+        "rms": 1.1,
+        "gap": 210,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.1 - 138 km SW of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.268,
+          51.162,
+          18.7
+        ]
+      },
+      "id": "aka2026qjlumy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 3.64,
         "place": "14 km N of Warner Springs, CA",
         "time": 1787124695950,
-        "updated": 1787151786300,
+        "updated": 1787156468759,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529896",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41529896.geojson",
-        "felt": 154,
+        "felt": 157,
         "cdi": 3.4,
         "mmi": 3.384,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 256,
+        "sig": 257,
         "net": "ci",
         "code": "41529896",
         "ids": ",ci41529896,us6000tlu7,",
@@ -492,10 +572,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "20 km NW of Susitna, Alaska",
-        "time": 1787121119063,
-        "updated": 1787131940040,
+        "mag": 2.6,
+        "place": "89 km S of Sand Point, Alaska",
+        "time": 1787122958193,
+        "updated": 1787156774135,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjjddp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjjddp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026qjjddp",
+        "ids": ",aka2026qjjddp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 1.1,
+        "rms": 0.5,
+        "gap": 258,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 89 km S of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.334,
+          54.538,
+          9
+        ]
+      },
+      "id": "aka2026qjjddp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "23 km NNW of Susitna, Alaska",
+        "time": 1787121119266,
+        "updated": 1787156767700,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjicgs",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qjicgs.geojson",
@@ -503,28 +623,28 @@
         "cdi": 1,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 139,
+        "sig": 112,
         "net": "ak",
         "code": "a2026qjicgs",
         "ids": ",aka2026qjicgs,us6000tlu4,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.6,
-        "rms": 0.7,
-        "gap": 57,
+        "nst": 115,
+        "dmin": 0.3,
+        "rms": 1.1,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 20 km NW of Susitna, Alaska"
+        "title": "M 2.7 - 23 km NNW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.742,
-          61.694,
-          58.5
+          -150.751,
+          61.72,
+          51.9
         ]
       },
       "id": "aka2026qjicgs"
@@ -535,11 +655,11 @@
         "mag": 2.9,
         "place": "18 km ENE of Okanagan Falls, Canada",
         "time": 1787120266804,
-        "updated": 1787149506175,
+        "updated": 1787155385571,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltz",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tltz.geojson",
-        "felt": 24,
+        "felt": 26,
         "cdi": 3.4,
         "mmi": null,
         "alert": null,
@@ -1848,53 +1968,13 @@
         ]
       },
       "id": "pr71528918"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "28 km WNW of Weaverville, CA",
-        "time": 1787068757630,
-        "updated": 1787077047267,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75420662.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75420662",
-        "ids": ",nc75420662,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.1069,
-        "rms": 0.14,
-        "gap": 45,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 28 km WNW of Weaverville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.223831176758,
-          40.865665435791,
-          28.0799999237061
-        ]
-      },
-      "id": "nc75420662"
     }
   ],
   "bbox": [
     -179.628,
     -20.0951,
     0.8,
-    159.8302,
+    177.968,
     63.203,
     538.071
   ]
