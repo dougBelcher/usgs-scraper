@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787326486000,
+    "generated": 1787330148000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 52
+    "count": 53
   },
   "features": [
     {
@@ -15,7 +15,7 @@
         "mag": 2.9882431401068,
         "place": "10 km ENE of Coso Junction, CA",
         "time": 1787325418210,
-        "updated": 1787326416290,
+        "updated": 1787327443040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532104",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41532104.geojson",
@@ -28,8 +28,8 @@
         "sig": 137,
         "net": "ci",
         "code": "41532104",
-        "ids": ",ci41532104,",
-        "sources": ",ci,",
+        "ids": ",ci41532104,us6000tmiy,",
+        "sources": ",ci,us,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 43,
         "dmin": 0.05276,
@@ -48,6 +48,46 @@
         ]
       },
       "id": "ci41532104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Bonin Islands, Japan region",
+        "time": 1787324910808,
+        "updated": 1787326916040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmiz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmiz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tmiz",
+        "ids": ",us6000tmiz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 8.403,
+        "rms": 1.06,
+        "gap": 137,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Bonin Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.636,
+          28.4731,
+          10
+        ]
+      },
+      "id": "us6000tmiz"
     },
     {
       "type": "Feature",
@@ -812,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "189 km SE of Perryville, Alaska",
-        "time": 1787298952704,
-        "updated": 1787299072954,
+        "mag": 3.2,
+        "place": "196 km SE of Perryville, Alaska",
+        "time": 1787298955920,
+        "updated": 1787329983491,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qncylv",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qncylv.geojson",
@@ -823,31 +863,71 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 158,
         "net": "ak",
         "code": "a2026qncylv",
         "ids": ",aka2026qncylv,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 33,
+        "nst": 49,
         "dmin": 1.3,
-        "rms": 0.8,
-        "gap": 226,
+        "rms": 0.5,
+        "gap": 225,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 189 km SE of Perryville, Alaska"
+        "title": "M 3.2 - 196 km SE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.914,
-          54.783,
-          5
+          -156.848,
+          54.731,
+          35.7
         ]
       },
       "id": "aka2026qncylv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "233 km ESE of Attu Station, Alaska",
+        "time": 1787296892034,
+        "updated": 1787328998258,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qnbusc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qnbusc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "a2026qnbusc",
+        "ids": ",aka2026qnbusc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.4,
+        "rms": 0.7,
+        "gap": 201,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 233 km ESE of Attu Station, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.224,
+          51.877,
+          25.5
+        ]
+      },
+      "id": "aka2026qnbusc"
     },
     {
       "type": "Feature",
@@ -1534,8 +1614,8 @@
       "properties": {
         "mag": 2.5,
         "place": "55 km NW of Toyah, Texas",
-        "time": 1787274281822,
-        "updated": 1787275836040,
+        "time": 1787274281821,
+        "updated": 1787326845890,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qjynzf",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qjynzf.geojson",
@@ -1551,7 +1631,7 @@
         "ids": ",us6000tmcd,tx2026qjynzf,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
-        "nst": 34,
+        "nst": 52,
         "dmin": 0,
         "rms": 0.2,
         "gap": 64,
@@ -1562,9 +1642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.222,
+          -104.223,
           31.655,
-          6.4716
+          6.5485
         ]
       },
       "id": "tx2026qjynzf"
@@ -2048,46 +2128,6 @@
         ]
       },
       "id": "aka2026qmbais"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "50 km SSW of Covenant Life, Alaska",
-        "time": 1787242481207,
-        "updated": 1787250092040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qlxomk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qlxomk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026qlxomk",
-        "ids": ",us6000tm7m,aka2026qlxomk,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.5,
-        "rms": 0.9,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 50 km SSW of Covenant Life, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -136.351,
-          58.998,
-          1.8
-        ]
-      },
-      "id": "aka2026qlxomk"
     }
   ],
   "bbox": [
