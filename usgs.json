@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787380933000,
+    "generated": 1787383986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 51
+    "count": 50
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "45 km SE of Lukatan, Philippines",
+        "time": 1787381019032,
+        "updated": 1787382960101,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmrf.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000tmrf",
+        "ids": ",us6000tmrf,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 92,
+        "dmin": 1.195,
+        "rms": 0.72,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 45 km SE of Lukatan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7362,
+          6.7397,
+          107.802
+        ]
+      },
+      "id": "us6000tmrf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1968,92 +2008,12 @@
         ]
       },
       "id": "aka2026qncylv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "231 km ESE of Attu Station, Alaska",
-        "time": 1787296890624,
-        "updated": 1787374783040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmlc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmlc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000tmlc",
-        "ids": ",aka2026qnbusc,us6000tmlc,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.353,
-        "rms": 0.54,
-        "gap": 188,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 231 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.3281,
-          52.0444,
-          10
-        ]
-      },
-      "id": "us6000tmlc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "2 km NNW of Little America, Wyoming",
-        "time": 1787296164920,
-        "updated": 1787375509753,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80149666.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": 3.943,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "uu",
-        "code": "80149666",
-        "ids": ",uu80149666,us6000tmeb,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 24,
-        "dmin": 0.1118,
-        "rms": 0.26,
-        "gap": 113,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 2 km NNW of Little America, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.8725,
-          41.562,
-          -2.84
-        ]
-      },
-      "id": "uu80149666"
     }
   ],
   "bbox": [
     -178.7122,
     -58.8509,
-    -2.84,
+    1,
     179.8841,
     56.1055,
     523.713
