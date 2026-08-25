@@ -1,26 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787693361000,
+    "generated": 1787696941000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 40
+    "count": 42
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "77 km E of Tomioka, Japan",
+        "time": 1787689416308,
+        "updated": 1787693516040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tbu3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000tbu3",
+        "ids": ",us7000tbu3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 3.038,
+        "rms": 1.16,
+        "gap": 126,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 77 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.8893,
+          37.2686,
+          35
+        ]
+      },
+      "id": "us7000tbu3"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.06,
         "place": "12 km WSW of Salton City, CA",
         "time": 1787689027170,
-        "updated": 1787692145040,
+        "updated": 1787696644719,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536408",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41536408.geojson",
-        "felt": 4,
-        "cdi": 2,
+        "felt": 5,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -1608,6 +1648,46 @@
         ]
       },
       "id": "aka2026qtuxwd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "11 km SE of San Mateo, New Mexico",
+        "time": 1787611883883,
+        "updated": 1787695367040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn9b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tn9b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000tn9b",
+        "ids": ",us6000tn9b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.949,
+        "rms": 0.75,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 11 km SE of San Mateo, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.551,
+          35.2636,
+          7.616
+        ]
+      },
+      "id": "us6000tn9b"
     }
   ],
   "bbox": [
