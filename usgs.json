@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787727155000,
+    "generated": 1787730501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 46
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "147 km E of Miyako, Japan",
+        "time": 1787727292876,
+        "updated": 1787728367040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbxf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tbxf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000tbxf",
+        "ids": ",us7000tbxf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 2.251,
+        "rms": 0.89,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 147 km E of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6596,
+          39.7276,
+          10
+        ]
+      },
+      "id": "us7000tbxf"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,7 +135,7 @@
         "mag": 2.49,
         "place": "10 km NNW of Corcoran, CA",
         "time": 1787720540870,
-        "updated": 1787722344544,
+        "updated": 1787730142440,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425232",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75425232.geojson",
@@ -1768,94 +1808,14 @@
         ]
       },
       "id": "aka2026qunliw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "30 km WNW of Livengood, Alaska",
-        "time": 1787642556103,
-        "updated": 1787646601040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qulxwz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qulxwz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026qulxwz",
-        "ids": ",us6000tnbp,aka2026qulxwz,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.3,
-        "rms": 1.4,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 30 km WNW of Livengood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.187,
-          65.599,
-          2.4
-        ]
-      },
-      "id": "aka2026qulxwz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "108 km NE of Hengchun, Taiwan",
-        "time": 1787641210853,
-        "updated": 1787674737880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tnbm.geojson",
-        "felt": 14,
-        "cdi": 3.8,
-        "mmi": 5.453,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 471,
-        "net": "us",
-        "code": "6000tnbm",
-        "ids": ",us6000tnbm,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 101,
-        "dmin": 0.5,
-        "rms": 1.05,
-        "gap": 28,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.5 - 108 km NE of Hengchun, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5709,
-          22.6053,
-          14.608
-        ]
-      },
-      "id": "us6000tnbm"
     }
   ],
   "bbox": [
     -176.117,
     -52.7725,
-    2.4,
+    3,
     179.8207,
-    65.599,
+    63.301,
     628.976
   ]
 }
