@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787722529000,
+    "generated": 1787727155000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,86 @@
     "count": 46
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
+        "place": "19 km W of Volcano, Hawaii",
+        "time": 1787723823630,
+        "updated": 1787724077790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024057",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75024057.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 124,
+        "net": "hv",
+        "code": "75024057",
+        "ids": ",hv75024057,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.05641,
+        "rms": 0.239999995,
+        "gap": 30,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 19 km W of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.419662475586,
+          19.416166305542,
+          3.22000002861023
+        ]
+      },
+      "id": "hv75024057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "southwest of Africa",
+        "time": 1787723105013,
+        "updated": 1787726371040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbx8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tbx8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000tbx8",
+        "ids": ",us7000tbx8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 21.427,
+        "rms": 0.9,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - southwest of Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6756,
+          -52.7725,
+          10
+        ]
+      },
+      "id": "us7000tbx8"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +135,12 @@
         "mag": 3.1,
         "place": "16 km NW of Mentone, Texas",
         "time": 1787720366800,
-        "updated": 1787720870739,
+        "updated": 1787723647711,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtlaoj",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qtlaoj.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -68,9 +148,9 @@
         "sig": 148,
         "net": "tx",
         "code": "2026qtlaoj",
-        "ids": ",us7000tbws,tx2026qtlaoj,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
+        "ids": ",tx2026qtlaoj,us7000tbws,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 16,
         "dmin": 0.1,
         "rms": 0.1,
@@ -775,13 +855,13 @@
         "mag": 3.4,
         "place": "56 km WNW of Nanwalek, Alaska",
         "time": 1787688073329,
-        "updated": 1787691856040,
+        "updated": 1787723849611,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvlfsy",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qvlfsy.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.663,
+        "mmi": 1.782,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
@@ -808,6 +888,46 @@
         ]
       },
       "id": "aka2026qvlfsy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "10 km WSW of Nanwalek, Alaska",
+        "time": 1787688073167,
+        "updated": 1787724340042,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvlgrk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qvlgrk.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 3.474,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "a2026qvlgrk",
+        "ids": ",aka2026qvlgrk,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 17,
+        "dmin": 0.7,
+        "rms": 1.1,
+        "gap": 216,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 10 km WSW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.093,
+          59.334,
+          7.8
+        ]
+      },
+      "id": "aka2026qvlgrk"
     },
     {
       "type": "Feature",
@@ -1728,131 +1848,11 @@
         ]
       },
       "id": "us6000tnbm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "218 km NNW of Manado, Indonesia",
-        "time": 1787640500910,
-        "updated": 1787641412040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tnbk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tnbk",
-        "ids": ",us6000tnbk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 3.797,
-        "rms": 0.73,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 218 km NNW of Manado, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.4529,
-          3.4176,
-          322.862
-        ]
-      },
-      "id": "us6000tnbk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "5 km SSE of Darreh Shahr, Iran",
-        "time": 1787638792919,
-        "updated": 1787640174040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tnbh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000tnbh",
-        "ids": ",us6000tnbh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.313,
-        "rms": 0.9,
-        "gap": 108,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 5 km SSE of Darreh Shahr, Iran"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          47.3976,
-          33.101,
-          10
-        ]
-      },
-      "id": "us6000tnbh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "33 km SW of Sandgerði, Iceland",
-        "time": 1787636768079,
-        "updated": 1787639490040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tnbf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000tnbf",
-        "ids": ",us6000tnbf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.23,
-        "rms": 0.82,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 33 km SW of Sandgerði, Iceland"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -23.2345,
-          63.8453,
-          10
-        ]
-      },
-      "id": "us6000tnbf"
     }
   ],
   "bbox": [
     -176.117,
-    -25.5207,
+    -52.7725,
     2.4,
     179.8207,
     65.599,
