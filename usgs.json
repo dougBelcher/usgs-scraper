@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788782055000,
+    "generated": 1788802221000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 40
+    "count": 33
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "98 km SE of Prudhoe Bay, Alaska",
+        "time": 1788791016194,
+        "updated": 1788795413040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtagho",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rtagho.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026rtagho",
+        "ids": ",us7000tewd,aka2026rtagho,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 98 km SE of Prudhoe Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.208,
+          69.752,
+          5
+        ]
+      },
+      "id": "aka2026rtagho"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "79 km NE of Tobelo, Indonesia",
+        "time": 1788788020590,
+        "updated": 1788795241040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tew3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tew3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000tew3",
+        "ids": ",us7000tew3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 13.08,
+        "rms": 0.47,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 79 km NE of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5045,
+          2.2478,
+          235.036
+        ]
+      },
+      "id": "us7000tew3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "12 km SSW of Jal, New Mexico",
+        "time": 1788786675952,
+        "updated": 1788791566040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rqcbab",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rqcbab.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "tx",
+        "code": "2026rqcbab",
+        "ids": ",us7000tevw,tx2026rqcbab,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 47,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km SSW of Jal, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.24,
+          32.005,
+          6.0999
+        ]
+      },
+      "id": "tx2026rqcbab"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -55,12 +175,12 @@
         "mag": 3.18,
         "place": "7 km WNW of Maricao, Puerto Rico",
         "time": 1788768484030,
-        "updated": 1788770764170,
+        "updated": 1788792304834,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531133",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71531133.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -70,7 +190,7 @@
         "code": "71531133",
         "ids": ",pr71531133,",
         "sources": ",pr,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 12,
         "dmin": 0.04451,
         "rms": 0.22,
@@ -652,79 +772,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.1,
-        "place": "168 km WSW of Elfin Cove, Alaska",
-        "time": 1788746394767,
-        "updated": 1788757416338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tesr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tesr.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": 1.606,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "7000tesr",
-        "ids": ",us7000tesr,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 22,
-        "dmin": 2.144,
-        "rms": 0.56,
-        "gap": 188,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 168 km WSW of Elfin Cove, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.1261,
-          57.8732,
-          10
-        ]
-      },
-      "id": "us7000tesr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "121 km S of Yakutat, Alaska",
-        "time": 1788746385362,
-        "updated": 1788748376040,
+        "mag": 4,
+        "place": "152 km WSW of Elfin Cove, Alaska",
+        "time": 1788746394732,
+        "updated": 1788801606298,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rsblne",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rsblne.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.215,
-        "alert": null,
+        "felt": 1,
+        "cdi": 1,
+        "mmi": 2.082,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 211,
+        "sig": 246,
         "net": "ak",
         "code": "a2026rsblne",
-        "ids": ",us7000tesv,aka2026rsblne,",
+        "ids": ",us7000tesr,aka2026rsblne,",
         "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 81,
-        "dmin": 1.1,
-        "rms": 1,
-        "gap": 139,
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 34,
+        "dmin": 1.2,
+        "rms": 1.2,
+        "gap": 144,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - 121 km S of Yakutat, Alaska"
+        "title": "M 4.0 - 152 km WSW of Elfin Cove, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.944,
-          58.464,
-          5
+          -138.874,
+          57.914,
+          16.1
         ]
       },
       "id": "aka2026rsblne"
@@ -732,20 +812,60 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.3,
+        "place": "158 km WSW of Elfin Cove, Alaska",
+        "time": 1788746376149,
+        "updated": 1788748376040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tesv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tesv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "7000tesv",
+        "ids": ",us7000tesv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 1.246,
+        "rms": 1.05,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.3 - 158 km WSW of Elfin Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -138.9725,
+          57.9129,
+          10
+        ]
+      },
+      "id": "us7000tesv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
         "place": "off the coast of Oregon",
         "time": 1788744624930,
-        "updated": 1788766839705,
+        "updated": 1788800491506,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tesi",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tesi.geojson",
-        "felt": 7,
-        "cdi": 2.2,
+        "felt": 9,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 434,
+        "sig": 435,
         "net": "us",
         "code": "7000tesi",
         "ids": ",attkz06l,us7000tesi,",
@@ -1208,414 +1328,14 @@
         ]
       },
       "id": "us7000terb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "98 km ENE of Donggang, Taiwan",
-        "time": 1788712621719,
-        "updated": 1788725132040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teqz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000teqz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000teqz",
-        "ids": ",us7000teqz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.307,
-        "rms": 0.78,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 98 km ENE of Donggang, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.3794,
-          22.6827,
-          33.178
-        ]
-      },
-      "id": "us7000teqz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "23 km NW of Stanley, Idaho",
-        "time": 1788708924623,
-        "updated": 1788762688980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teqw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000teqw.geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 169,
-        "net": "us",
-        "code": "7000teqw",
-        "ids": ",us7000teqw,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.333,
-        "rms": 0.75,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 23 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.18,
-          44.3368,
-          10
-        ]
-      },
-      "id": "us7000teqw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.0502761918035,
-        "place": "10 km ENE of Coso Junction, CA",
-        "time": 1788708820770,
-        "updated": 1788723558040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542152.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 143,
-        "net": "ci",
-        "code": "41542152",
-        "ids": ",ci41542152,us7000teqv,",
-        "sources": ",ci,us,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.07509,
-        "rms": 0.159999996,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 10 km ENE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.837333679199,
-          36.0724983215332,
-          2.61999988555908
-        ]
-      },
-      "id": "ci41542152"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "95 km SSW of Nikolski, Alaska",
-        "time": 1788708487024,
-        "updated": 1788722674109,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ter6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ter6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1.85,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 199,
-        "net": "us",
-        "code": "7000ter6",
-        "ids": ",aka2026rrgjrx,us7000ter6,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 29,
-        "dmin": 0.778,
-        "rms": 0.88,
-        "gap": 218,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 3.6 - 95 km SSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.139,
-          52.0965,
-          10
-        ]
-      },
-      "id": "us7000ter6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "109 km SSW of Nikolski, Alaska",
-        "time": 1788706736711,
-        "updated": 1788721085040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ter5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ter5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000ter5",
-        "ids": ",aka2026rrfkjq,us7000ter5,",
-        "sources": ",ak,us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.821,
-        "rms": 0.67,
-        "gap": 228,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 109 km SSW of Nikolski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -169.3393,
-          52.0016,
-          10
-        ]
-      },
-      "id": "us7000ter5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Svalbard region",
-        "time": 1788699034778,
-        "updated": 1788700228040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teq9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000teq9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000teq9",
-        "ids": ",us7000teq9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 75,
-        "dmin": 2.893,
-        "rms": 0.62,
-        "gap": 67,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Svalbard region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.1688,
-          76.1481,
-          10
-        ]
-      },
-      "id": "us7000teq9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "93 km S of Kokhanok, Alaska",
-        "time": 1788697427372,
-        "updated": 1788702010040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rrafwf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rrafwf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026rrafwf",
-        "ids": ",us7000teq2,aka2026rrafwf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 105,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 93 km S of Kokhanok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.038,
-          58.614,
-          133.3
-        ]
-      },
-      "id": "aka2026rrafwf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "219 km SSE of Wada, Japan",
-        "time": 1788697034956,
-        "updated": 1788701796040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teq4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000teq4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000teq4",
-        "ids": ",us7000teq4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 3.795,
-        "rms": 0.74,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 219 km SSE of Wada, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.9156,
-          33.2038,
-          35
-        ]
-      },
-      "id": "us7000teq4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "90 km WSW of Akhiok, Alaska",
-        "time": 1788696441987,
-        "updated": 1788696725670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rqzrqb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rqzrqb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026rqzrqb",
-        "ids": ",aka2026rqzrqb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.8,
-        "rms": 0.6,
-        "gap": 149,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 90 km WSW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.614,
-          56.764,
-          0.4
-        ]
-      },
-      "id": "aka2026rqzrqb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "southern East Pacific Rise",
-        "time": 1788696016067,
-        "updated": 1788697101040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tepx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tepx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000tepx",
-        "ids": ",us7000tepx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 39.929,
-        "rms": 0.47,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - southern East Pacific Rise"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.8082,
-          -24.2436,
-          10
-        ]
-      },
-      "id": "us7000tepx"
     }
   ],
   "bbox": [
     -178.4632,
     -31.2726,
-    0.4,
+    5,
     179.6916,
-    76.1481,
+    69.752,
     608.631
   ]
 }
