@@ -1,14 +1,174 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794165794000,
+    "generated": 1794180511000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 42
+    "count": 35
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "53 km SW of Captain Cook, Hawaii",
+        "time": 1794178283660,
+        "updated": 1794178490820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068657",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068657.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "hv",
+        "code": "75068657",
+        "ids": ",hv75068657,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.4264,
+        "rms": 0.189999998,
+        "gap": 319,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 53 km SW of Captain Cook, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.313003540039,
+          19.1861667633057,
+          65.3300018310547
+        ]
+      },
+      "id": "hv75068657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "43 km E of Onagawa Chō, Japan",
+        "time": 1794168990347,
+        "updated": 1794170183040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twz2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twz2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000twz2",
+        "ids": ",us7000twz2,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 83,
+        "dmin": 2.501,
+        "rms": 0.64,
+        "gap": 131,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.5 - 43 km E of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.937,
+          38.3782,
+          55.699
+        ]
+      },
+      "id": "us7000twz2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "44 km NNW of Glacier View, Alaska",
+        "time": 1794168669912,
+        "updated": 1794172233040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wdzewo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wdzewo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026wdzewo",
+        "ids": ",us7000twz1,aka2026wdzewo,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 113,
+        "dmin": 0.4,
+        "rms": 1.1,
+        "gap": 16,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 44 km NNW of Glacier View, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.861,
+          62.195,
+          20.9
+        ]
+      },
+      "id": "aka2026wdzewo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "off the coast of Oregon",
+        "time": 1794165631718,
+        "updated": 1794173438595,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twyw.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000twyw",
+        "ids": ",us7000twyw,",
+        "sources": ",us,",
+        "types": ",dyfi,event-sequence,oaf,origin,phase-data,",
+        "nst": 92,
+        "dmin": 2.303,
+        "rms": 0.78,
+        "gap": 194,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.5405,
+          44.0286,
+          10
+        ]
+      },
+      "id": "us7000twyw"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,17 +373,17 @@
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "26 km NNW of Cooper Landing, Alaska",
-        "time": 1794149163581,
-        "updated": 1794164483907,
+        "place": "27 km NNW of Cooper Landing, Alaska",
+        "time": 1794149163379,
+        "updated": 1794176068720,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wdoizt",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wdoizt.geojson",
         "felt": 10,
         "cdi": 3.1,
-        "mmi": 2.907,
+        "mmi": 2.777,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 192,
         "net": "ak",
@@ -231,20 +391,20 @@
         "ids": ",aka2026wdoizt,us7000twxz,",
         "sources": ",ak,us,",
         "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 192,
+        "nst": 170,
         "dmin": 0.2,
-        "rms": 1,
-        "gap": 48,
+        "rms": 0.8,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.5 - 26 km NNW of Cooper Landing, Alaska"
+        "title": "M 3.5 - 27 km NNW of Cooper Landing, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -150.093,
-          60.69,
-          34.9
+          60.696,
+          33.3
         ]
       },
       "id": "aka2026wdoizt"
@@ -1248,454 +1408,14 @@
         ]
       },
       "id": "aka2026wclyuc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "91 km ENE of Hihifo, Tonga",
-        "time": 1794094029444,
-        "updated": 1794098159475,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twus",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twus.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000twus",
-        "ids": ",us7000twus,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.113,
-        "rms": 0.72,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 91 km ENE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.9847,
-          -15.6837,
-          10
-        ]
-      },
-      "id": "us7000twus"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "41 km WSW of Gadung, Philippines",
-        "time": 1794093935852,
-        "updated": 1794094868040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twur.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000twur",
-        "ids": ",us7000twur,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 1.945,
-        "rms": 0.77,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 41 km WSW of Gadung, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.6541,
-          6.706,
-          607.007
-        ]
-      },
-      "id": "us7000twur"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "77 km SW of La Gomera, Guatemala",
-        "time": 1794093755649,
-        "updated": 1794098384040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twuq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twuq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000twuq",
-        "ids": ",us7000twuq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.679,
-        "rms": 1.02,
-        "gap": 209,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 77 km SW of La Gomera, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.4602,
-          13.5083,
-          34.237
-        ]
-      },
-      "id": "us7000twuq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1794093425477,
-        "updated": 1794118084072,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twun.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "7000twun",
-        "ids": ",us7000twun,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 146,
-        "dmin": 13.232,
-        "rms": 0.98,
-        "gap": 86,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -36.8221,
-          7.4618,
-          10
-        ]
-      },
-      "id": "us7000twun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "91 km ESE of Kyzyl-Eshme, Kyrgyzstan",
-        "time": 1794093273811,
-        "updated": 1794104636040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twum",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twum.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000twum",
-        "ids": ",us7000twum,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 1.159,
-        "rms": 0.9,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 91 km ESE of Kyzyl-Eshme, Kyrgyzstan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.2801,
-          39.3146,
-          10
-        ]
-      },
-      "id": "us7000twum"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.02,
-        "place": "1 km WSW of La Parguera, Puerto Rico",
-        "time": 1794088034980,
-        "updated": 1794091984040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538728",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71538728.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 140,
-        "net": "pr",
-        "code": "71538728",
-        "ids": ",us7000twub,pr71538728,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.01743,
-        "rms": 0.22,
-        "gap": 204,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.0 - 1 km WSW of La Parguera, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0623333333333,
-          17.9668333333333,
-          8.03
-        ]
-      },
-      "id": "pr71538728"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "43 km ESE of Ambon, Indonesia",
-        "time": 1794084938512,
-        "updated": 1794086342040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twu1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000twu1",
-        "ids": ",us7000twu1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 8.803,
-        "rms": 0.86,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 43 km ESE of Ambon, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.5121,
-          -3.905,
-          136.656
-        ]
-      },
-      "id": "us7000twu1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.67,
-        "place": "13 km NE of Milford, Utah",
-        "time": 1794084575100,
-        "updated": 1794158278740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163566",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80163566.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.336,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 110,
-        "net": "uu",
-        "code": "80163566",
-        "ids": ",us7000twu0,uu80163566,",
-        "sources": ",us,uu,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 0.00528,
-        "rms": 0.13,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km NE of Milford, Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.897833333333,
-          38.4835,
-          3.86
-        ]
-      },
-      "id": "uu80163566"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "65 km WSW of Masachapa, Nicaragua",
-        "time": 1794081310891,
-        "updated": 1794082383040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twtv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000twtv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000twtv",
-        "ids": ",us7000twtv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.818,
-        "rms": 0.81,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 65 km WSW of Masachapa, Nicaragua"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.0544,
-          11.526,
-          37.054
-        ]
-      },
-      "id": "us7000twtv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "203 km SE of Unalaska, Alaska",
-        "time": 1794080708410,
-        "updated": 1794117790729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wcchuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wcchuf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 1,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "ak",
-        "code": "a2026wcchuf",
-        "ids": ",aka2026wcchuf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 99,
-        "dmin": 1.8,
-        "rms": 0.8,
-        "gap": 216,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.0 - 203 km SE of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.782,
-          52.377,
-          27.9
-        ]
-      },
-      "id": "aka2026wcchuf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "1 km NW of Magas Arriba, Puerto Rico",
-        "time": 1794079483520,
-        "updated": 1794080406950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538718",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71538718.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "pr",
-        "code": "71538718",
-        "ids": ",pr71538718,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.01372,
-        "rms": 0.14,
-        "gap": 129,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km NW of Magas Arriba, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7781666666667,
-          18.0251666666667,
-          14.4
-        ]
-      },
-      "id": "pr71538718"
     }
   ],
   "bbox": [
-    -172.9847,
+    -169.334,
     -27.6901,
     -0.8299999833107,
     143.5257,
     67.269,
-    607.007
+    224.59
   ]
 }
