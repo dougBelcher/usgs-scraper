@@ -1,14 +1,134 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794348635000,
+    "generated": 1794364476000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.8.2",
-    "count": 42
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "137 km W of Tofino, Canada",
+        "time": 1794361526000,
+        "updated": 1794361926037,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1794361550",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ew1794361550.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 1,
+        "sig": 259,
+        "net": "ew",
+        "code": "1794361550",
+        "ids": ",attobe7v,ew1794361550,",
+        "sources": ",at,ew,",
+        "types": ",impact-link,origin,",
+        "nst": 4,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.1 - 137 km W of Tofino, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.7868,
+          49.099,
+          8
+        ]
+      },
+      "id": "ew1794361550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.09,
+        "place": "53 km NNW of Culebra, Puerto Rico",
+        "time": 1794361300180,
+        "updated": 1794364391260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 147,
+        "net": "pr",
+        "code": "71539018",
+        "ids": ",pr71539018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.4848,
+        "rms": 0.18,
+        "gap": 214,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 53 km NNW of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4208333333333,
+          18.7766666666667,
+          49.46
+        ]
+      },
+      "id": "pr71539018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "51 km ENE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1794358881525,
+        "updated": 1794360013040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txfx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txfx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000txfx",
+        "ids": ",us7000txfx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.979,
+        "rms": 0.65,
+        "gap": 169,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 51 km ENE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.2964,
+          53.2952,
+          92.146
+        ]
+      },
+      "id": "us7000txfx"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -415,12 +535,12 @@
         "mag": 4.7,
         "place": "Java, Indonesia",
         "time": 1794321096388,
-        "updated": 1794335968040,
+        "updated": 1794356772600,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb6",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000txb6.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -430,7 +550,7 @@
         "code": "7000txb6",
         "ids": ",us7000txb6,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 44,
         "dmin": 3.687,
         "rms": 0.86,
@@ -575,11 +695,11 @@
         "mag": 2.65,
         "place": "7 km NNE of Puako, Hawaii",
         "time": 1794314461300,
-        "updated": 1794338746093,
+        "updated": 1794355149836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75069102",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75069102.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 2.7,
         "mmi": null,
         "alert": null,
@@ -935,17 +1055,17 @@
         "mag": 4.3,
         "place": "18 km SE of Joseph, Oregon",
         "time": 1794296572650,
-        "updated": 1794348343134,
+        "updated": 1794364308410,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714136981",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714136981.geojson",
-        "felt": 115,
+        "felt": 123,
         "cdi": 4.3,
         "mmi": 4.203,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 334,
+        "sig": 337,
         "net": "uw",
         "code": "714136981",
         "ids": ",ew1794296580,uw714136981,us7000tx9t,",
@@ -1328,374 +1448,14 @@
         ]
       },
       "id": "aka2026wgjfnu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.07,
-        "place": "61 km N of Charlotte Amalie, U.S. Virgin Islands",
-        "time": 1794276933390,
-        "updated": 1794281290460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71538933.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 145,
-        "net": "pr",
-        "code": "71538933",
-        "ids": ",pr71538933,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5369,
-        "rms": 0.31,
-        "gap": 231,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.1 - 61 km N of Charlotte Amalie, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0016666666667,
-          18.8905,
-          21.89
-        ]
-      },
-      "id": "pr71538933"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "north of Franz Josef Land",
-        "time": 1794276003024,
-        "updated": 1794276989040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx8i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000tx8i",
-        "ids": ",us7000tx8i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 9.557,
-        "rms": 0.67,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - north of Franz Josef Land"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          65.2936,
-          86.7236,
-          10
-        ]
-      },
-      "id": "us7000tx8i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": 1794275604195,
-        "updated": 1794283139684,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx8d.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.393,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000tx8d",
-        "ids": ",us7000tx8d,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 66,
-        "dmin": 5.007,
-        "rms": 0.82,
-        "gap": 49,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - Pulau Pulau Tanimbar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.2935,
-          -7.8742,
-          10
-        ]
-      },
-      "id": "us7000tx8d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "56 km NNE of Miches, Dominican Republic",
-        "time": 1794275530427,
-        "updated": 1794287780040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx8b.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "7000tx8b",
-        "ids": ",us7000tx8b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.993,
-        "rms": 1.11,
-        "gap": 192,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 56 km NNE of Miches, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.7883,
-          19.4347,
-          10
-        ]
-      },
-      "id": "us7000tx8b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1794275388400,
-        "updated": 1794279357040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068917",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068917.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "75068917",
-        "ids": ",us7000tx8a,hv75068917,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.05233,
-        "rms": 0.12,
-        "gap": 181,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 11 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.370333333333,
-          19.1916666666667,
-          28.73
-        ]
-      },
-      "id": "hv75068917"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "8 km W of Takotna, Alaska",
-        "time": 1794274945038,
-        "updated": 1794285803303,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wgggss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wgggss.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026wgggss",
-        "ids": ",aka2026wgggss,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1.1,
-        "rms": 0.8,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 8 km W of Takotna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.225,
-          62.979,
-          5
-        ]
-      },
-      "id": "aka2026wgggss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "south of the Fiji Islands",
-        "time": 1794267926548,
-        "updated": 1794273025040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx7v.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000tx7v",
-        "ids": ",us7000tx7v,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 4.681,
-        "rms": 0.67,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3757,
-          -24.5715,
-          175.527
-        ]
-      },
-      "id": "us7000tx7v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "South Sandwich Islands region",
-        "time": 1794267612931,
-        "updated": 1794347706040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx9y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tx9y.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000tx9y",
-        "ids": ",us7000tx9y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 7.576,
-        "rms": 0.8,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -23.8725,
-          -56.7537,
-          10
-        ]
-      },
-      "id": "us7000tx9y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.76,
-        "place": "21 km W of Preston, Nevada",
-        "time": 1794265018999,
-        "updated": 1794269428040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926833",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00926833.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "nn",
-        "code": "00926833",
-        "ids": ",us7000tx7l,nn00926833,",
-        "sources": ",us,nn,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.388,
-        "rms": 0.1441,
-        "gap": 202,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 21 km W of Preston, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3098,
-          38.9323,
-          3.8633
-        ]
-      },
-      "id": "nn00926833"
     }
   ],
   "bbox": [
-    -177.3757,
-    -56.7537,
+    -170.427,
+    -20.7528,
     -1.3999999761581,
     165.7366,
-    86.7236,
-    175.527
+    66.22,
+    124.245
   ]
 }
